@@ -1,0 +1,114 @@
+---
+title: "Data processing for rough R: IE via Google Translate for analysis A2"
+author: "Márton Sóskuthy"
+output: html_document
+---
+
+This script processes Google Translations of the words in the Stadtlander & Murdoch (2000) data set into a wide range of other languages (these are already paired with roughness norms based on English). It adds further language info from external data sets and also codes for the presence of /r/.
+
+Loading relevant packages and data. The two key files are:
+
+- google_trs_languages_full.csv: language names, ISO codes and regular expressions for /r/; languages that we are excluding have NA for the regular expression
+- google_translations.csv: the translations and back-translations generated via Google Translate v2; the roughness ratings (based on English) are also included to make the analysis more straightforward
+
+These files don't have column names, so we'll add them manually.
+
+```{r}
+library(tidyverse)
+
+langs <- read_csv("../raw_data/a2_google_translate/google_trs_languages_full.csv", col_names = FALSE)
+trs <- read_csv("../raw_data/a2_google_translate/google_translations.csv", col_names = FALSE)
+
+# add column names for languages
+colnames(langs) <- c("language", "iso", "iso639.3", "regexp.r", "regexp.l")
+
+# colnames for trs
+colnames(trs) <- c("language", "iso", "eng_orig", "roughness", "trans", "back_trans")
+```
+
+Note that there were many cases where Google Translate returned the original English form as a translation in the target language -- clearly cases where it couldn't come up with a translation. These were excluded at the data generation stage. This is why different languages have different numbers of tokens.
+
+It's important to convert translations & back-translations to lowercase: in some cases, google seems to simply use a capitalised version of the English word as the translation; these cases obviously need to be removed. As far as I can see, this does not affect text in non-Roman scripts.
+
+
+```{r}
+trs <- trs %>%
+  mutate(trans = str_to_lower(trs$trans, locale="en"),
+         back_trans = str_to_lower(trs$back_trans, locale="en"))
+```
+
+We now filter the data:
+
+1) we remove words where the translation is the same as the English original (i.e. Google failed to translate them)
+2) we remove words where the translation contains the English original in some form, e.g. as a quoted word
+3) we remove words that do not back-translate into the same word in English 
+4) we remove languages with <= 10 data points left after this (i.e. out of an original > 100 words, fewer than 10 back-translate into the English original -- this suggests that the quality of the translations is very low)
+5) we remove words without roughness ratings
+6) we remove Esperanto, Latin and Serbian (conlang, dead lang, same as Croatian but represented by fewer words)
+
+We also add a binary predictor for roughness.
+
+```{r}
+# now excluding words where trans = eng_orig
+trs <- trs %>% 
+  filter(eng_orig!=trans) %>%                              # (1)
+  filter(!str_detect(string=trans, pattern=eng_orig)) %>%  # (2)
+  filter(eng_orig==back_trans) %>%                         # (3)
+  group_by(language) %>%                                   # (4)
+  mutate(language_n = n()) %>%                             # (4)
+  ungroup() %>%                                            # (4)
+  filter(language_n > 10) %>%                              # (4)
+  filter(!is.na(roughness)) %>%                            # (5)
+  filter(!(language %in% c("Esperanto", "Latin", 
+                           "Serbian"))) %>%                # (6)
+  mutate(rough = roughness >= 0)                           # binary roughness predictor
+```
+
+We now add the key predictors: does the word have /r/ / /l/? This is done using regular expressions that were manually constructed for each language. For some languages, the regexp is NA, meaning either that that language has no /r/ phoneme or that it can't easily be recovered from the orthography. We remove these languages.
+
+```{r}
+# we add regexps to trs
+trs <- merge(trs, dplyr::select(langs, iso, iso639.3, regexp.r, regexp.l), by="iso")
+
+# we remove languages where both regexps are NA
+trs <- trs %>%
+  filter(!(is.na(regexp.r)) | !(is.na(regexp.l)))
+
+# regexp matching
+trs$r <- str_detect(trs$trans, trs$regexp.r)
+trs$l <- str_detect(trs$trans, trs$regexp.l)
+
+# all remaining languages have at least one word with an r/l and at least one word without an r/l
+table(trs$language, trs$r)
+table(trs$language, trs$l)
+```
+
+Now merging with language metadata.
+
+```{r}
+# add autotyp language data:
+
+auto <- read_csv('../raw_data/a2_google_translate/autotyp.csv')
+
+# removing duplicate entries from autotyp database
+auto <- auto %>%
+  dplyr::select(ISO639.3, mbranch, stock, area, continent) %>%
+  unique()
+
+# removing remaining duplicates
+auto <- auto %>%
+  filter(!(ISO639.3=="cos" & stock=="Coos"),
+         !(ISO639.3=="ell" & area=="Greater Mesopotamia"),
+         !(ISO639.3=="ind" & area=="N Coast New Guinea"),
+         !(ISO639.3=="spa" & area=="N Africa"),
+         !(ISO639.3=="ydd" & area=="Europe"))
+
+# merge by iso639.3 codes
+trs <- left_join(trs, auto, by = c('iso639.3' = 'ISO639.3'))
+```
+
+Writing data to final csv file.
+
+```{r}
+write_csv(trs, "../final_data/google_translate.csv")
+```

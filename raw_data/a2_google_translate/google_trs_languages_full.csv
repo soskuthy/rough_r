@@ -1,0 +1,104 @@
+Afrikaans,af,afr,r,l
+Albanian,sq,als,r,l
+Amharic,am,amh,[ረሩሪራሬርሮሯፘ],[ለሉሊላሌልሎ]
+Arabic,ar,arb,ر,ل
+Armenian,hy,hye,[ՌռՐր],[Լլ]
+Azeerbaijani,az,aze,r,l
+Basque,eu,eus,r,([^l]l$|^l[^l]|[^l]l[^l])
+Belarusian,be,bel,[Рр],[Лл]
+Bengali,bn,ben,,
+Bosnian,bs,bos,r,l
+Bulgarian,bg,bul,[Рр],[Лл]
+Catalan,ca,cat,r,([^l]l$|^l[^l]|[^l]l[^l])
+Cebuano,ceb,ceb,r,l
+Chinese (Simplified),zh-CN,cmn,,
+Chinese (Traditional),zh-TW,cmn,,
+Corsican,co,cos,r,([^g]l[^i]|gl[^i]|[^g]li|^l|l$)
+Croatian,hr,hrv; srp,r,l
+Czech,cs,ces,[rř],l
+Danish,da,dan,r,l
+Dutch,nl,nld,r,l
+English,en,eng,r,l
+Esperanto,eo,epo,r,l
+Estonian,et,est,r,l
+Finnish,fi,fin,r,l
+French,fr,fra,r,l
+Frisian,fy,fry,r,l
+Galician,gl,glg,r,([^l]l$|^l[^l]|[^l]l[^l])
+Georgian,ka,kat,რ,ლ
+German,de,deu,r,l
+Greek,el,ell,[Ρρ],[Λλ]
+Gujarati,gu,guj,,
+Haitian Creole,ht,hat,r,l
+Hausa,ha,hau,r,l
+Hawaiian,haw,haw,,
+Hebrew,iw,heb,ר,ל
+Hindi,hi,hin,,
+Hmong,hmn,mww,r,l
+Hungarian,hu,hun,r,(l$|l[^y])
+Icelandic,is,isl,r,l
+Igbo,ig,ibo,r,l
+Indonesian,id,ind,r,l
+Irish,ga,gle,r,l
+Italian,it,ita,r,([^g]l[^i]|gl[^i]|[^g]li|^l|l$)
+Japanese,ja,jpn,,
+Javanese,jw,jav,r,l
+Kannada,kn,kan,,
+Kazakh,kk,kaz,[Рр],[Лл]
+Khmer,km,khm,,
+Korean,ko,kor,,
+Kurdish,ku,kur,r,l
+Kyrgyz,ky,kir,[Рр],[Лл]
+Lao,lo,lao,,
+Latin,la,lat,r,l
+Latvian,lv,lav,r,l
+Lithuanian,lt,lit,r,l
+Luxembourgish,lb,ltz,r,l
+Macedonian,mk,mkd,[Рр],[Лл]
+Malagasy,mg,mlg,r,l
+Malay,ms,mly,r,l
+Malayalam,ml,mal,,
+Maltese,mt,mlt,r,l
+Maori,mi,mri,r,
+Marathi,mr,mar,,
+Mongolian,mn,mon,[Рр],[Лл]
+Myanmar (Burmese),my,mya,,
+Nepali,ne,nep,,
+Norwegian,no,nob,r,l
+Nyanja (Chichewa),ny,nya,,
+Pashto,ps,pst; pbu; pbt,[رړ],ل
+Persian,fa,pes,ر,ل
+Polish,pl,pol,r,l
+Portuguese (Portugal Brazil),pt,por,r,l
+Punjabi,pa,pan,,
+Romanian,ro,ron,r,l
+Russian,ru,rus,[Рр],[Лл]
+Samoan,sm,smo,,
+Scots Gaelic,gd,gla,r,l
+Serbian,sr,hrv; srp,[Рр],[Лл]
+Sesotho,st,sot,r,l
+Shona,sn,sna,r,
+Sindhi,sd,snd,,
+Sinhala (Sinhalese),si,sin,ර,[ලළ]
+Slovak,sk,slk,r,l
+Slovenian,sl,slv,r,l
+Somali,so,som,r,l
+Spanish,es,spa,r,([^l]l$|^l[^l]|[^l]l[^l])
+Sundanese,su,sun,r,l
+Swahili,sw,swa,r,l
+Swedish,sv,swe,r,l
+Tagalog (Filipino),tl,tgl,r,l
+Tajik,tg,tgk,[Рр],[Лл]
+Tamil,ta,tam,,
+Telugu,te,tel,,
+Thai,th,tha,,
+Turkish,tr,tur,r,l
+Ukrainian,uk,ukr,[Рр],[Лл]
+Urdu,ur,urd,,
+Uzbek,uz,uzb,r,l
+Vietnamese,vi,vie,r,l
+Welsh,cy,cym,r,([^l]l$|^l[^l]|[^l]l[^l])
+Xhosa,xh,xho,r,l
+Yiddish,yi,ydd,ר,ל
+Yoruba,yo,yor,r,l
+Zulu,zu,zul,r,([^l]l$|^l[^l]|[^l]l[^l])

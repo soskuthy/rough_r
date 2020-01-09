@@ -1,0 +1,946 @@
+Variety,Subgroup,Family,ISO Code,Glottolog ID,AIATSIS Code,StdLangID,StdLanguageName,OriginalForm,PhonemicisedIPA,Std_Gloss,Author,OriginalGloss,OriginalPofSpeech,Latitude,Longitude,Reconstruction_Form,Reconstruction_Level,Reconstruction_Gloss,Reconstruction_Notes
+Gamilaraay,Central NSW,Pama-Nyungan,kld,gami1243,D23,1023,Gamilaraay,ngaarr,ŋaːr,hard,"Ash, A. and Lissarrague, A. and Giacon, J",hard,Adj,-29.91686548094372,149.6172318830019,NA,NA,NA,NA
+Gamilaraay,Central NSW,Pama-Nyungan,kld,gami1243,D23,1023,Gamilaraay,mulamula,mulamula,soft,"Ash, A. and Lissarrague, A. and Giacon, J",soft,Adj,-29.91686548094372,149.6172318830019,*mula,N/A,(a fluid),"Could the 'unclear' Kurrama etc words be related to mulha, mula, etc a widespread word for 'cooked (meat)?'"
+Yuwaalaraay,Central NSW,Pama-Nyungan,kld,yuwa1242,D27,5,Yuwaalaraay,"walan, walanbaa",walan,hard,"Ash, A. and Lissarrague, A. and Giacon, J",hard,Adj,-29.85302243209663,147.9291115132208,NA,NA,NA,NA
+Yuwaalaraay,Central NSW,Pama-Nyungan,kld,yuwa1242,D27,5,Yuwaalaraay,"mulamula, mula",mulamula,soft,"Ash, A. and Lissarrague, A. and Giacon, J",soft,Adj,-29.85302243209663,147.9291115132208,*mula,N/A,(a fluid),"Could the 'unclear' Kurrama etc words be related to mulha, mula, etc a widespread word for 'cooked (meat)?'"
+Yuwaalaraay,Central NSW,Pama-Nyungan,kld,yuwa1242,D27,5,Yuwaalaraay,walan,walan,hard,"Ash, A. and Lissarrague, A. and Giacon, J",hard,Adj,-29.85302243209663,147.9291115132208,NA,NA,NA,NA
+Yuwaalaraay,Central NSW,Pama-Nyungan,kld,yuwa1242,D27,5,Yuwaalaraay,mulamula,mulamula,soft,"Ash, A. and Lissarrague, A. and Giacon, J",soft,Adj,-29.85302243209663,147.9291115132208,*mula,N/A,(a fluid),"Could the 'unclear' Kurrama etc words be related to mulha, mula, etc a widespread word for 'cooked (meat)?'"
+Yuwaalaraay,Central NSW,Pama-Nyungan,kld,yuwa1242,D27,5,Yuwaalaraay,walanbaa,walanpaː,hard,"Ash, A. and Lissarrague, A. and Giacon, J",hard,Adj,-29.85302243209663,147.9291115132208,NA,NA,NA,NA
+Yuwaalaraay,Central NSW,Pama-Nyungan,kld,yuwa1242,D27,5,Yuwaalaraay,mula,mula,soft,"Ash, A. and Lissarrague, A. and Giacon, J",soft,Adj,-29.85302243209663,147.9291115132208,*mula,N/A,(a fluid),"Could the 'unclear' Kurrama etc words be related to mulha, mula, etc a widespread word for 'cooked (meat)?'"
+Yuwaalaraay,Central NSW,Pama-Nyungan,kld,yuwa1242,D27,5,Yuwaalaraay,-DHuul,-t̪uːl,hard,"Ash, A. and Lissarrague, A. and Giacon, J",hard,Adj,-29.85302243209663,147.9291115132208,NA,NA,NA,NA
+Yuwaalayaay,Central NSW,Pama-Nyungan,kld,yuwa1243,D54*,4,Yuwaaliyaay,"walan, walanbaa",walan,hard,"Ash, A. and Lissarrague, A. and Giacon, J",hard,Adj,-29.84291122144783,149.806501013693,NA,NA,NA,NA
+Yuwaalayaay,Central NSW,Pama-Nyungan,kld,yuwa1243,D54*,4,Yuwaaliyaay,"mulamula, mula",mulamula,soft,"Ash, A. and Lissarrague, A. and Giacon, J",soft,Adj,-29.84291122144783,149.806501013693,*mula,N/A,(a fluid),"Could the 'unclear' Kurrama etc words be related to mulha, mula, etc a widespread word for 'cooked (meat)?'"
+pNgayarda,NA,NA,NA,NA,NA,381,NA,*yiri,jiɹi,sharp,Geoffrey O'Grady,sharp,Adj,NA,NA,*yiri,N/A,sharp,NA
+pMantharta,Kanyara-Mantharta,Pama-Nyungan,NA,NA,NA,1538,Proto-Mantharta,*yiri,jiɹi,sharp,Peter Austin,sharp,Adj,NA,NA,*yiri,N/A,sharp,NA
+WNgathan,Paman,Pama-Nyungan,wik,wika1238,Y54,136,Wik-Ngathan,tharrvn,t̪arən,hard,"Sutton, Peter","hard, tough",Adj,-13.87,141.52,*carran,N/A,hard,NA
+pNgayarda,NA,NA,NA,NA,NA,381,NA,*purlpi,puɭpi,soft,Geoffrey O'Grady,soft,Adj,NA,NA,*pulpil,N/A,soft,NA
+pNgayarda,NA,NA,NA,NA,NA,381,NA,*pirlpu,piɭpu,soft,Geoffrey O'Grady,soft,Adj,NA,NA,*pulpil,N/A,soft,NA
+WNgathan,Paman,Pama-Nyungan,wik,wika1238,Y54,136,Wik-Ngathan,pu:nhvl,puːn̪əl,soft,"Sutton, Peter","soft (mud, sand, teeth)",Adj,-13.87,141.52,*pu:ña,N/A,soft,NA
+Gamilaraay,Central NSW,Pama-Nyungan,kld,gami1243,D23,1023,Gamilaraay,biirra gawugaa,piːra kawukaː,bald,"Ash, A. and Lissarrague, A. and Giacon, J",bald head,Adj,-29.91686548094372,149.6172318830019,NA,NA,NA,NA
+Gamilaraay,Central NSW,Pama-Nyungan,kld,gami1243,D23,1023,Gamilaraay,wirraa-y,wiraː-j,limp,"Ash, A. and Lissarrague, A. and Giacon, J",limp,Vi,-29.91686548094372,149.6172318830019,NA,NA,NA,NA
+Nhirrpi,Karnic,Pama-Nyungan,hrp,yand1252,L46*,494,Nhirrpi,wadyima,waɟima,clean,"Bowern, Claire",clean,Adj,-28.62910687376669,141.2759561464024,NA,NA,NA,NA
+Yalarnnga,Kalkatungic,Pama-Nyungan,ylr,yala1262,G8,67,Yalarnnga,murnrtu,muɳʈu,blunt,"Blake, Barry",blunt,Adj,-21.97436706367981,139.9133496553109,NA,NA,NA,NA
+Pitta-Pitta,Karnic,Pama-Nyungan,pit,pitt1246,L32,411,Pitta-Pitta,murnrtu,muɳʈu,blunt,"Blake, Barry",blunt,Adj,-23.87032742735228,139.6751887027051,NA,NA,NA,NA
+Pitta-Pitta,Karnic,Pama-Nyungan,pit,pitt1246,L32,411,Pitta-Pitta,murrhumurrhu,murumuru,rough,"Blake, Barry",rough,Adj,-23.87032742735228,139.6751887027051,NA,NA,NA,NA
+Pitta-Pitta,Karnic,Pama-Nyungan,pit,pitt1246,L32,411,Pitta-Pitta,nyamurra,ɲamuɾa,soft,"Blake, Barry",soft (to touch),N,-23.87032742735228,139.6751887027051,NA,NA,NA,NA
+Pitta-Pitta,Karnic,Pama-Nyungan,pit,pitt1246,L32,411,Pitta-Pitta,palhthapalhtha,pal̪t̪apal̪t̪a,flat,"Blake, Barry",flat,Adj,-23.87032742735228,139.6751887027051,NA,NA,NA,NA
+Pitta-Pitta,Karnic,Pama-Nyungan,pit,pitt1246,L32,411,Pitta-Pitta,pirrhiri,piriɹi,soft,"Blake, Barry",soft (of sound),N,-23.87032742735228,139.6751887027051,NA,NA,NA,NA
+Pitta-Pitta,Karnic,Pama-Nyungan,pit,pitt1246,L32,411,Pitta-Pitta,wiyarrhu,wijaru,hard,"Blake, Barry",hard,Adj,-23.87032742735228,139.6751887027051,NA,NA,NA,NA
+Wangkumara (Garlali),Karnic,Pama-Nyungan,xwk,wong1246,L25,208,Wangkumara,murrpa,murpa,soft,M A McDonald and S A Wurm,soft,Adj,-27.10148692646704,143.1961901554114,NA,NA,NA,NA
+Wangkayutyuru,Karnic,Pama-Nyungan,wky,wang1289,G5,209,Wangkayutyuru,jakirtijakirti,ɟakiʈiɟakiʈi,rough,"Blake, Barry",rough,Adj,-24.00230876042604,138.8106695155716,NA,NA,NA,NA
+Wangkayutyuru,Karnic,Pama-Nyungan,wky,wang1289,G5,209,Wangkayutyuru,"jurlpara, julpara",ɟuɭpaɹa,smooth,"Blake, Barry",smooth,Adj,-24.00230876042604,138.8106695155716,NA,NA,NA,NA
+Wangkayutyuru,Karnic,Pama-Nyungan,wky,wang1289,G5,209,Wangkayutyuru,muntu,muntu,blunt,"Blake, Barry",blunt,Adj,-24.00230876042604,138.8106695155716,NA,NA,NA,NA
+Wangkayutyuru,Karnic,Pama-Nyungan,wky,wang1289,G5,209,Wangkayutyuru,palthapaltha,palt̪apalt̪a,flat,"Blake, Barry",flat,Adj,-24.00230876042604,138.8106695155716,NA,NA,NA,NA
+Wangkayutyuru,Karnic,Pama-Nyungan,wky,wang1289,G5,209,Wangkayutyuru,panyjada,paɲɟada,hard,"Blake, Barry",hard,Adj,-24.00230876042604,138.8106695155716,NA,NA,NA,NA
+Wangkayutyuru,Karnic,Pama-Nyungan,wky,wang1289,G5,209,Wangkayutyuru,pulkupulku,pulkupulku,soft,"Blake, Barry",soft,Adj,-24.00230876042604,138.8106695155716,NA,NA,NA,NA
+Wangkayutyuru,Karnic,Pama-Nyungan,wky,wang1289,G5,209,Wangkayutyuru,purlku,puɭku,soft,"Blake, Barry","soft, weak",Adj,-24.00230876042604,138.8106695155716,NA,NA,NA,NA
+Wangkayutyuru,Karnic,Pama-Nyungan,wky,wang1289,G5,209,Wangkayutyuru,tharipurlka (tha(r)lipulka),t̪aɹipuɭka (t̪a(ɹ)lipulka),sharp,"Blake, Barry",sharp,Adj,-24.00230876042604,138.8106695155716,NA,NA,NA,NA
+Wangkayutyuru,Karnic,Pama-Nyungan,wky,wang1289,G5,209,Wangkayutyuru,wakirri,wakiri,hard,"Blake, Barry","hard, strong, tight",NA,-24.00230876042604,138.8106695155716,NA,NA,NA,NA
+Yorta Yorta,Yotayotic,NA,xyy,yort1237,D2,20,Yorta Yorta,bakorra,pakora,hard,Heather Bowe and Stephen Morey,hard,Adj,-36.04695549929136,144.818878928009,NA,NA,NA,NA
+Yorta Yorta,Yotayotic,NA,xyy,yort1237,D2,20,Yorta Yorta,dakorra,takora,hard,Heather Bowe and Stephen Morey,hard,Adj,-36.04695549929136,144.818878928009,NA,NA,NA,NA
+Diyari,Karnic,Pama-Nyungan,dif,dira1238,L17,1088,Diyari,kungka-,kuŋka,limp,"Austin, Peter",limp,Vi,-28.5848662078809,139.0862193156426,NA,NA,NA,NA
+Yorta Yorta,Yotayotic,NA,xyy,yort1237,D2,20,Yorta Yorta,yita,jita,soft,Heather Bowe and Stephen Morey,soft,Adj,-36.04695549929136,144.818878928009,NA,NA,NA,NA
+Yabula Yabula,Yotayotic,NA,yxy,NA,S38,71,Yabula-Yabula,gullingw'uk buku,gulliŋw'uk buku,bald,Heather Bowe and Stephen Morey,bald-headed,Adj,-35.76116311802772,145.2320912804122,NA,NA,NA,NA
+Diyari,Karnic,Pama-Nyungan,dif,dira1238,L17,1088,Diyari,kurlikirri,kuɭikiri,clean,"Austin, Peter",clean,Adj,-28.5848662078809,139.0862193156426,NA,NA,NA,NA
+Diyari,Karnic,Pama-Nyungan,dif,dira1238,L17,1088,Diyari,kungka,kuŋka,limp,"Austin, Peter",limp,Vi,-28.5848662078809,139.0862193156426,NA,NA,NA,NA
+Wathawurrung,Kulin,Pama-Nyungan,wth,wath1238,S29,177,Wathawurrung,balit,balit,hard,NA,hard,Adj,-37.68777565058624,144.1013148178479,NA,NA,NA,NA
+Wathawurrung,Kulin,Pama-Nyungan,wth,wath1238,S29,177,Wathawurrung,motaa,motaː,soft,NA,soft,Adj,-37.68777565058624,144.1013148178479,NA,NA,NA,NA
+Wathawurrung,Kulin,Pama-Nyungan,wth,wath1238,S29,177,Wathawurrung,konong,konoŋ,soft,NA,soft,Adj,-37.68777565058624,144.1013148178479,NA,NA,NA,NA
+Wathawurrung,Kulin,Pama-Nyungan,wth,wath1238,S29,177,Wathawurrung,wita,wita,soft,NA,soft,Adj,-37.68777565058624,144.1013148178479,NA,NA,NA,NA
+Bunganditj,Kulin,Pama-Nyungan,xbg,bung1264,S13,1148,Buwandik,patong,patoŋ,soft,"Blake, Barry",soft,Adj,-37.69298793993351,141.3156381785856,NA,NA,NA,NA
+Bunganditj,Kulin,Pama-Nyungan,xbg,bung1264,S13,1148,Buwandik,pini,pini,hard,"Blake, Barry",hard,Adj,-37.69298793993351,141.3156381785856,NA,NA,NA,NA
+Wathawurrung,Kulin,Pama-Nyungan,wth,wath1238,S29,177,Wathawurrung,yawang,jawaŋ,bald,NA,bald,Adj,-37.68777565058624,144.1013148178479,NA,NA,NA,NA
+Gupapuyngu,Yolŋu,NA,guf,gupa1247,N122.1,934,Gupapuyngu,wuṉḏaŋarr('),wun̪d̪aŋar(ʔ),hard,"Lowe, Beulah","hard, strong, complicated",Adj,-12.7172575311146,135.8819055486839,NA,NA,NA,NA
+Gupapuyngu,Yolŋu,NA,guf,gupa1247,N122.1,934,Gupapuyngu,ṉunhdhal,n̪un̪d̪al,soft,"Lowe, Beulah",soft,Adj,-12.7172575311146,135.8819055486839,NA,NA,NA,NA
+Gupapuyngu,Yolŋu,NA,guf,gupa1247,N122.1,934,Gupapuyngu,nyurrul',ɲurulʔ,soft,"Lowe, Beulah","soft, weak",Adj,-12.7172575311146,135.8819055486839,NA,NA,NA,NA
+Gupapuyngu,Yolŋu,NA,guf,gupa1247,N122.1,934,Gupapuyngu,djinbulk,ɟinbulk,sharp,"Lowe, Beulah",sharp,Adj,-12.7172575311146,135.8819055486839,*dyinbulk,Yolŋu,sharp,NA
+Gupapuyngu,Yolŋu,NA,guf,gupa1247,N122.1,934,Gupapuyngu,raywal,ɹajwal,sharp,"Lowe, Beulah",sharp,Adj,-12.7172575311146,135.8819055486839,NA,NA,NA,NA
+Gupapuyngu,Yolŋu,NA,guf,gupa1247,N122.1,934,Gupapuyngu,ŋayakŋayak,ŋajakŋajak,slippery,"Lowe, Beulah",slippery,adj,-12.7172575311146,135.8819055486839,NA,NA,NA,NA
+Gupapuyngu,Yolŋu,NA,guf,gupa1247,N122.1,934,Gupapuyngu,buyubuyu,bujubuju,smooth,"Lowe, Beulah",smooth,Adj,-12.7172575311146,135.8819055486839,NA,NA,NA,NA
+Gupapuyngu,Yolŋu,NA,guf,gupa1247,N122.1,934,Gupapuyngu,buyuwuyu,bujuwuju,smooth,"Lowe, Beulah",smooth (not rough or coarse),Adj,-12.7172575311146,135.8819055486839,NA,NA,NA,NA
+Gupapuyngu,Yolŋu,NA,guf,gupa1247,N122.1,934,Gupapuyngu,laparra,lapara,smooth,"Lowe, Beulah",smooth,Adj,-12.7172575311146,135.8819055486839,NA,NA,NA,NA
+Gupapuyngu,Yolŋu,NA,guf,gupa1247,N122.1,934,Gupapuyngu,bilkpilk,bilkpilk,flat,"Lowe, Beulah",flat (surface),Adj,-12.7172575311146,135.8819055486839,bilkpilk,N/A,NA,NA
+Djapu,Yolŋu,NA,duj,djap1238,N145,304,Djapu,wuṉḏaŋarr('),wuɳɖaŋar(ʔ),hard,"Morphy, Frances","hard, strong, complicated",Adj,-12.61761911338881,136.2565768319396,NA,NA,NA,NA
+Djapu,Yolŋu,NA,duj,djap1238,N145,304,Djapu,nyurrul',ɲurulʔ,soft,"Morphy, Frances","soft, weak",Adj,-12.61761911338881,136.2565768319396,NA,NA,NA,NA
+Djapu,Yolŋu,NA,duj,djap1238,N145,304,Djapu,raywal,ɹajwal,sharp,"Morphy, Frances",sharp,Adj,-12.61761911338881,136.2565768319396,NA,NA,NA,NA
+Ritharngu,Yolŋu,NA,rit,rita1239,N149,337,Ritharrngu,maḻtjarr,maɭcar,sharp,"Heath, Jeffrey",sharp,Adj,-13.0913471605575,136.0384241243396,NA,NA,NA,NA
+Ritharngu,Yolŋu,NA,rit,rita1239,N149,337,Ritharrngu,dhulmadhulma,d̪ulmad̪ulma,soft,"Heath, Jeffrey",soft (to the touch),Adj,-13.0913471605575,136.0384241243396,NA,NA,NA,NA
+Ritharngu,Yolŋu,NA,rit,rita1239,N149,337,Ritharrngu,dharrktharrk,d̪arkt̪ark,rough,"Heath, Jeffrey",rough,Adj,-13.0913471605575,136.0384241243396,*thirrkthirrk,Yolŋu,rough,NA
+Gupapuyngu,Yolŋu,NA,guf,gupa1247,N122.1,934,Gupapuyngu,bilkpilk,bilkpilk,flat,"Christie, Michael",flat (surface),Adj,-12.7172575311146,135.8819055486839,bilkpilk,N/A,NA,NA
+Gupapuyngu,Yolŋu,NA,guf,gupa1247,N122.1,934,Gupapuyngu,djinbulk,ɟinbulk,sharp,"Christie, Michael",sharp,Adj,-12.7172575311146,135.8819055486839,*dyinbulk,Yolŋu,sharp,NA
+Gupapuyngu,Yolŋu,NA,guf,gupa1247,N122.1,934,Gupapuyngu,buyubuyu,bujubuju,smooth,"Christie, Michael",smooth,Adj,-12.7172575311146,135.8819055486839,NA,NA,NA,NA
+Yan-nhaŋu,Yolŋu,NA,jay,yann1237,N212*,64,Yan-nhangu,birilŋu,biɹilŋu,bald,Yan-nhangu Language Team,bald,Adj,-12.02531880142025,134.9636468625033,NA,NA,NA,NA
+Yan-nhaŋu,Yolŋu,NA,jay,yann1237,N212*,64,Yan-nhangu,dhapaṉbal,d̪apaɳbal,flat,Yan-nhangu Language Team,flat,Adj,-12.02531880142025,134.9636468625033,NA,NA,NA,NA
+Yan-nhaŋu,Yolŋu,NA,jay,yann1237,N212*,64,Yan-nhangu,dhirrkthirrk,d̪irkt̪irk,rough,Yan-nhangu Language Team,rough,Adj,-12.02531880142025,134.9636468625033,*thirrkthirrk,Yolŋu,rough,NA
+Yan-nhaŋu,Yolŋu,NA,jay,yann1237,N212*,64,Yan-nhangu,dhulthul,d̪ult̪ul,flat,Yan-nhangu Language Team,flat,Adj,-12.02531880142025,134.9636468625033,NA,NA,NA,NA
+Yan-nhaŋu,Yolŋu,NA,jay,yann1237,N212*,64,Yan-nhangu,dhumuluŋu,d̪umuluŋu,blunt,Yan-nhangu Language Team,blunt,Adj,-12.02531880142025,134.9636468625033,NA,NA,NA,NA
+Yan-nhaŋu,Yolŋu,NA,jay,yann1237,N212*,64,Yan-nhangu,djinbuḻk,ɟinbuɭk,sharp,Yan-nhangu Language Team,sharp,Adj,-12.02531880142025,134.9636468625033,*dyinbulk,Yolŋu,sharp,NA
+Yan-nhaŋu,Yolŋu,NA,jay,yann1237,N212*,64,Yan-nhangu,garrkuḻuk,garkuɭuk,clean,Yan-nhangu Language Team,clean,Adj,-12.02531880142025,134.9636468625033,NA,NA,NA,NA
+Yan-nhaŋu,Yolŋu,NA,jay,yann1237,N212*,64,Yan-nhangu,riya-rawak,ɹija-ɹawak,bald,Yan-nhangu Language Team,bald,Adj,-12.02531880142025,134.9636468625033,NA,NA,NA,NA
+Yan-nhaŋu,Yolŋu,NA,jay,yann1237,N212*,64,Yan-nhangu,yäbulu,jaːbulu,soft,Yan-nhangu Language Team,soft,Adj,-12.02531880142025,134.9636468625033,*ya:bulu,Yolŋu,"nice, kind (person), gentle, quiet, placid",NA
+Yan-nhaŋu,Yolŋu,NA,jay,yann1237,N212*,64,Yan-nhangu,yolŋu bupatjnharraŋu,juːlŋu bupacn̪araŋu,bald,Yan-nhangu Language Team,bald,Adj,-12.02531880142025,134.9636468625033,NA,NA,NA,NA
+Burarra,Maningrida,NA,bvr,bura1267,N191*,1143,Burarra,-dirrartka,-diraʈka,sharp,"Glasglow, Kathleen and Gladgow, David",sharp,Adj,-12.02334684534266,134.7195147994259,NA,NA,NA,NA
+Burarra,Maningrida,NA,bvr,bura1267,N191*,1143,Burarra,rorrcha,ɹoɹʈja,clean,"Glasglow, Kathleen and Gladgow, David",clear away,i.v.,-12.02334684534266,134.7195147994259,NA,NA,NA,NA
+Burarra,Maningrida,NA,bvr,bura1267,N191*,1143,Burarra,lirrja,liɹɖja,clean,"Glasglow, Kathleen and Gladgow, David",clear away,Vt,-12.02334684534266,134.7195147994259,NA,NA,NA,NA
+Burarra,Maningrida,NA,bvr,bura1267,N191*,1143,Burarra,-jamala,-ɟamala,blunt,"Glasglow, Kathleen and Gladgow, David",blunt,Adj,-12.02334684534266,134.7195147994259,NA,NA,NA,NA
+Burarra,Maningrida,NA,bvr,bura1267,N191*,1143,Burarra,-dirrgarla,-dirgaɭa,blunt,"Glasglow, Kathleen and Gladgow, David",blunt,Adj,-12.02334684534266,134.7195147994259,NA,NA,NA,NA
+Burarra,Maningrida,NA,bvr,bura1267,N191*,1143,Burarra,-dirrburla,-dirbuɭa,blunt,"Glasglow, Kathleen and Gladgow, David",blunt,Adj,-12.02334684534266,134.7195147994259,NA,NA,NA,NA
+Burarra,Maningrida,NA,bvr,bura1267,N191*,1143,Burarra,garrkuluk,garkuluk,clean,"Glasglow, Kathleen and Gladgow, David",clean,Adj,-12.02334684534266,134.7195147994259,NA,NA,NA,NA
+Burarra,Maningrida,NA,bvr,bura1267,N191*,1143,Burarra,-jirdawurrwarrga,-ɟiɖawurwarga,clean,"Glasglow, Kathleen and Gladgow, David",clean,Adj,-12.02334684534266,134.7195147994259,NA,NA,NA,NA
+Burarra,Maningrida,NA,bvr,bura1267,N191*,1143,Burarra,-darrartka,-daraʈka,sharp,"Glasglow, Kathleen and Gladgow, David",sharp,Adj,-12.02334684534266,134.7195147994259,NA,NA,NA,NA
+Burarra,Maningrida,NA,bvr,bura1267,N191*,1143,Burarra,bama -gorla,bama -goɭa,bald,"Glasglow, Kathleen and Gladgow, David",bald,Adj,-12.02334684534266,134.7195147994259,NA,NA,NA,NA
+Djinang,Yolŋu,NA,dji,djin1253,N94.1,1067,Djinang,marnbu-ngi,maɳbu-ŋi,hard,Bruce Waters,be hard,v,-12.47559653837461,135.0142775003952,NA,NA,NA,NA
+Djinang,Yolŋu,NA,dji,djin1253,N94.1,1067,Djinang,djumiḻing,ɟumiɭiŋ,blunt,Bruce Waters,blunt,Adj,-12.47559653837461,135.0142775003952,NA,NA,NA,NA
+Djinang,Yolŋu,NA,dji,djin1253,N94.1,1067,Djinang,galngi maṉbi,galŋi maɳbi,tough,Bruce Waters,tough,adj,-12.47559653837461,135.0142775003952,NA,NA,NA,NA
+Djinang,Yolŋu,NA,dji,djin1253,N94.1,1067,Djinang,garrkuḻuk,garkuɭuk,shiny,Bruce Waters,shiny,Adj,-12.47559653837461,135.0142775003952,NA,NA,NA,NA
+Djinang,Yolŋu,NA,dji,djin1253,N94.1,1067,Djinang,guḏiḻgiḏiḻ,guɖiɭgiɖiɭ,slippery,Bruce Waters,slippery,adj,-12.47559653837461,135.0142775003952,NA,NA,NA,NA
+Djinang,Yolŋu,NA,dji,djin1253,N94.1,1067,Djinang,guṉgi ḻiḻing,guɳgi ɭiɭiŋ,bald,Bruce Waters,bald,Adj,-12.47559653837461,135.0142775003952,NA,NA,NA,NA
+Djinang,Yolŋu,NA,dji,djin1253,N94.1,1067,Djinang,guṉgi miraḻ,guɳgi miɹaɭ,bald,Bruce Waters,bald,Adj,-12.47559653837461,135.0142775003952,NA,NA,NA,NA
+Djinang,Yolŋu,NA,dji,djin1253,N94.1,1067,Djinang,guṉgi yirrwal,guɳgi jirwal,bald,Bruce Waters,bald,Adj,-12.47559653837461,135.0142775003952,NA,NA,NA,NA
+Djinang,Yolŋu,NA,dji,djin1253,N94.1,1067,Djinang,ḻangtjigi,ɭaŋcigi,limp,Bruce Waters,be limp,NA,-12.47559653837461,135.0142775003952,NA,NA,NA,NA
+Djinang,Yolŋu,NA,dji,djin1253,N94.1,1067,Djinang,biḻbaḻingi,biɭbaɭiŋi,soft,Bruce Waters,soft,Adj,-12.47559653837461,135.0142775003952,NA,NA,NA,NA
+Djinang,Yolŋu,NA,dji,djin1253,N94.1,1067,Djinang,biḻibiḻigilingi,biɭibiɭigiliŋi,flat,Bruce Waters,flat,Adj,-12.47559653837461,135.0142775003952,NA,NA,NA,NA
+Djinang,Yolŋu,NA,dji,djin1253,N94.1,1067,Djinang,maḻimaḻi,maɭimaɭi,smooth,Bruce Waters,smooth,Adj,-12.47559653837461,135.0142775003952,NA,NA,NA,NA
+Djinang,Yolŋu,NA,dji,djin1253,N94.1,1067,Djinang,maḻimaḻi,maɭimaɭi,slippery,Bruce Waters,slippery,adj,-12.47559653837461,135.0142775003952,NA,NA,NA,NA
+Djinang,Yolŋu,NA,dji,djin1253,N94.1,1067,Djinang,maṉbingi,maɳbiŋi,hard,Bruce Waters,hard,Adj,-12.47559653837461,135.0142775003952,NA,NA,NA,NA
+Djinang,Yolŋu,NA,dji,djin1253,N94.1,1067,Djinang,biṉḏirrk,biɳɖirk,hard,Bruce Waters,hard,Adj,-12.47559653837461,135.0142775003952,NA,NA,NA,NA
+Djinang,Yolŋu,NA,dji,djin1253,N94.1,1067,Djinang,maṯiṯ,maʈiʈ,hard,Bruce Waters,hard,Adj,-12.47559653837461,135.0142775003952,NA,NA,NA,NA
+Djinang,Yolŋu,NA,dji,djin1253,N94.1,1067,Djinang,ngalwirrgi,ŋalwirgi,clean,Bruce Waters,clean,Adj,-12.47559653837461,135.0142775003952,NA,NA,NA,NA
+Djinang,Yolŋu,NA,dji,djin1253,N94.1,1067,Djinang,yilgi,jilgi,soft,Bruce Waters,soft,Adj,-12.47559653837461,135.0142775003952,NA,NA,NA,NA
+Djinang,Yolŋu,NA,dji,djin1253,N94.1,1067,Djinang,bumirḻiḻingi,bumiɹɭiɭiŋi,bald,Bruce Waters,bald,Adj,-12.47559653837461,135.0142775003952,NA,NA,NA,NA
+Djinang,Yolŋu,NA,dji,djin1253,N94.1,1067,Djinang,baḻmaṉak,baɭmaɳak,solid,Bruce Waters,solid,Adj,-12.47559653837461,135.0142775003952,NA,NA,NA,NA
+Djinang,Yolŋu,NA,dji,djin1253,N94.1,1067,Djinang,burtjal,buʈjal,soft,Bruce Waters,soft (ie. a muddy consistency),adj,-12.47559653837461,135.0142775003952,NA,NA,NA,NA
+Djinang,Yolŋu,NA,dji,djin1253,N94.1,1067,Djinang,buyubuyu,bujubuju,smooth,Bruce Waters,smooth,Adj,-12.47559653837461,135.0142775003952,NA,NA,NA,NA
+Djinang,Yolŋu,NA,dji,djin1253,N94.1,1067,Djinang,djamiḻi,ɟamiɭi,blunt,Bruce Waters,blunt,Adj,-12.47559653837461,135.0142775003952,NA,NA,NA,NA
+Djinang,Yolŋu,NA,dji,djin1253,N94.1,1067,Djinang,djapirrk,ɟapirk,flat,Bruce Waters,even,Adj,-12.47559653837461,135.0142775003952,NA,NA,NA,NA
+Djinang,Yolŋu,NA,dji,djin1253,N94.1,1067,Djinang,djarrkuṯ,ɟarkuʈ,sharp,Bruce Waters,sharp,Adj,-12.47559653837461,135.0142775003952,NA,NA,NA,NA
+Gunggari,Maric,Pama-Nyungan,kgl,kung1258,D37,941,Gunggari,garriga,karika,hard,"Holmer, N.M",hard,Adj,-26.71355115603432,146.445874291455,NA,NA,NA,NA
+Gunggari,Maric,Pama-Nyungan,kgl,kung1258,D37,941,Gunggari,gudu,kutu,hard,"Holmer, N.M",hard,Adj,-26.71355115603432,146.445874291455,NA,NA,NA,NA
+Adnyamathanha,Thura-Yura,Pama-Nyungan,adt,adny1235,L10,1251,Adnyamathanha,arda-,aʈa,limp,"McEntee, John and McKenzie, Pearl",to limp,Vi,-30.83714134657851,139.1215397357151,NA,NA,NA,NA
+Adnyamathanha,Thura-Yura,Pama-Nyungan,adt,adny1235,L10,1251,Adnyamathanha,ardirri-ma-,aʈirima,clean,"McEntee, John and McKenzie, Pearl",to clean,Vt,-30.83714134657851,139.1215397357151,NA,NA,NA,NA
+Adnyamathanha,Thura-Yura,Pama-Nyungan,adt,adny1235,L10,1251,Adnyamathanha,avar-avara,avaɹ-avaɾa,smooth,"McEntee, John and McKenzie, Pearl",smooth (surface),N,-30.83714134657851,139.1215397357151,NA,NA,NA,NA
+Nhanda,Kartu,Pama-Nyungan,nha,nhan1238,W14,497,Nhanta,<kakkoo>,kakku,soft,"Blevins, Juliette",soft,Adj,-27.42523643128006,114.2680442458503,NA,NA,NA,NA
+Adnyamathanha,Thura-Yura,Pama-Nyungan,adt,adny1235,L10,1251,Adnyamathanha,inyba-,iɲpa,shiny,"McEntee, John and McKenzie, Pearl",to be shiny,v,-30.83714134657851,139.1215397357151,NA,NA,NA,NA
+Adnyamathanha,Thura-Yura,Pama-Nyungan,adt,adny1235,L10,1251,Adnyamathanha,irdrla-irdrla,iʈɭa-iʈɭa,bald,"McEntee, John and McKenzie, Pearl",bald,Adj,-30.83714134657851,139.1215397357151,NA,NA,NA,NA
+Woiwurrung,Kulin,Pama-Nyungan,wyi,woiw1237,S36,108,Woiwurrung,balert,paleʈ,hard,"Blake, Barry",hard,Adj,-37.64264500569947,145.5879961820568,NA,NA,NA,NA
+Woiwurrung,Kulin,Pama-Nyungan,wyi,woiw1237,S36,108,Woiwurrung,bamburdin,pampuʈin,smooth,"Blake, Barry",smooth,Adj,-37.64264500569947,145.5879961820568,NA,NA,NA,NA
+Woiwurrung,Kulin,Pama-Nyungan,wyi,woiw1237,S36,108,Woiwurrung,barmburrin barmberring,paɹmpurin paɹmperiŋ,clean,"Blake, Barry",clean,Adj,-37.64264500569947,145.5879961820568,NA,NA,NA,NA
+Woiwurrung,Kulin,Pama-Nyungan,wyi,woiw1237,S36,108,Woiwurrung,borong'ooth,poɹoŋʔoːt̪,brittle,"Blake, Barry",brittle,NA,-37.64264500569947,145.5879961820568,NA,NA,NA,NA
+Woiwurrung,Kulin,Pama-Nyungan,wyi,woiw1237,S36,108,Woiwurrung,bowyeet,powjeːt,bald,"Blake, Barry",bald,Adj,-37.64264500569947,145.5879961820568,NA,NA,NA,NA
+Woiwurrung,Kulin,Pama-Nyungan,wyi,woiw1237,S36,108,Woiwurrung,djan-djan-marrang,can-can-maraŋ,sharp,"Blake, Barry",sharp,Adj,-37.64264500569947,145.5879961820568,NA,NA,NA,NA
+Woiwurrung,Kulin,Pama-Nyungan,wyi,woiw1237,S36,108,Woiwurrung,djen-djen-mun,cen-cen-mun,sharp,"Blake, Barry",sharp,Adj,-37.64264500569947,145.5879961820568,NA,NA,NA,NA
+Woiwurrung,Kulin,Pama-Nyungan,wyi,woiw1237,S36,108,Woiwurrung,dugil-dugil,tukil-tukil,soft,"Blake, Barry",soft,Adj,-37.64264500569947,145.5879961820568,NA,NA,NA,NA
+Woiwurrung,Kulin,Pama-Nyungan,wyi,woiw1237,S36,108,Woiwurrung,garrik-garrik,karik-karik,sharp,"Blake, Barry",sharp,Adj,-37.64264500569947,145.5879961820568,NA,NA,NA,NA
+Woiwurrung,Kulin,Pama-Nyungan,wyi,woiw1237,S36,108,Woiwurrung,kurrebully,kurepulʎ,clean,"Blake, Barry",clean,Adj,-37.64264500569947,145.5879961820568,NA,NA,NA,NA
+Woiwurrung,Kulin,Pama-Nyungan,wyi,woiw1237,S36,108,Woiwurrung,kuyun,kujun,flat,"Blake, Barry",flat,Adj,-37.64264500569947,145.5879961820568,NA,NA,NA,NA
+Woiwurrung,Kulin,Pama-Nyungan,wyi,woiw1237,S36,108,Woiwurrung,manian,manian,smooth,"Blake, Barry",smooth,Adj,-37.64264500569947,145.5879961820568,NA,NA,NA,NA
+Woiwurrung,Kulin,Pama-Nyungan,wyi,woiw1237,S36,108,Woiwurrung,taweet,taweːt,bald,"Blake, Barry",bald,Adj,-37.64264500569947,145.5879961820568,NA,NA,NA,NA
+Woiwurrung,Kulin,Pama-Nyungan,wyi,woiw1237,S36,108,Woiwurrung,warrup,warup,blunt,"Blake, Barry",blunt,Adj,-37.64264500569947,145.5879961820568,NA,NA,NA,NA
+Woiwurrung,Kulin,Pama-Nyungan,wyi,woiw1237,S36,108,Woiwurrung,worrebully,worepulʎ,clean,"Blake, Barry",clean,Adj,-37.64264500569947,145.5879961820568,NA,NA,NA,NA
+Woiwurrung,Kulin,Pama-Nyungan,wyi,woiw1237,S36,108,Woiwurrung,worrework,worewoɹk,clean,"Blake, Barry",clean,Adj,-37.64264500569947,145.5879961820568,NA,NA,NA,NA
+Woiwurrung,Kulin,Pama-Nyungan,wyi,woiw1237,S36,108,Woiwurrung,wurruk,wuruk,flat,"Blake, Barry",flat,Adj,-37.64264500569947,145.5879961820568,NA,NA,NA,NA
+Woiwurrung,Kulin,Pama-Nyungan,wyi,woiw1237,S36,108,Woiwurrung,yellum burnin,jellum puɳin,rough,"Blake, Barry",rough,Adj,-37.64264500569947,145.5879961820568,NA,NA,NA,NA
+Woiwurrung,Kulin,Pama-Nyungan,wyi,woiw1237,S36,108,Woiwurrung,yul-orrt-ten,jul-oɹʈ-ten,brittle,"Blake, Barry",brittle,NA,-37.64264500569947,145.5879961820568,NA,NA,NA,NA
+Nhanda,Kartu,Pama-Nyungan,nha,nhan1238,W14,497,Nhanta,pundha,pun̪d̪a,blunt,"Blevins, Juliette","blunt, dull",Adj,-27.42523643128006,114.2680442458503,NA,NA,NA,NA
+Nhanda,Kartu,Pama-Nyungan,nha,nhan1238,W14,497,Nhanta,thayicaa(??),t̪ajicaː(??),soft,"Blevins, Juliette",soft?,Adj,-27.42523643128006,114.2680442458503,NA,NA,NA,NA
+Nhanda,Kartu,Pama-Nyungan,nha,nhan1238,W14,497,Nhanta,<ty-ca>,c-ca,soft,"Blevins, Juliette",soft,Adj,-27.42523643128006,114.2680442458503,NA,NA,NA,NA
+Nhanda,Kartu,Pama-Nyungan,nha,nhan1238,W14,497,Nhanta,warla pitkili,waɭa pitkili,bald,"Blevins, Juliette",bald,Adj,-27.42523643128006,114.2680442458503,NA,NA,NA,NA
+Adnyamathanha,Thura-Yura,Pama-Nyungan,adt,adny1235,L10,1251,Adnyamathanha,nharvaRa,n̪aɹvaɹa,blunt,"McEntee, John and McKenzie, Pearl",blunt,Adj,-30.83714134657851,139.1215397357151,NA,NA,NA,NA
+Yugambeh,Bandjalangic,Pama-Nyungan,yub,yugu1249,E17,16,Yugambeh,bujera,buceɹa,soft,Allen and Lane,soft,Adj,-28.4374,153.301,NA,NA,NA,NA
+Nukunu,Thura-Yura,Pama-Nyungan,nnv,nugu1241,L4,480,Nukunu,kakarti parla parla,kakaʈi paɭa paɭa,bald,"Hercus, L.A.",bald,Adj,-32.7159534134487,138.0903098732677,NA,NA,NA,NA
+Adnyamathanha,Thura-Yura,Pama-Nyungan,adt,adny1235,L10,1251,Adnyamathanha,varri,vari,hard,"McEntee, John and McKenzie, Pearl","hard, tough",Adj,-30.83714134657851,139.1215397357151,NA,NA,NA,NA
+Yugambeh,Bandjalangic,Pama-Nyungan,yub,yugu1249,E17,16,Yugambeh,jungumm,cuŋumm,hard,Allen and Lane,hard,Adj,-28.4374,153.301,NA,NA,NA,NA
+Yugambeh,Bandjalangic,Pama-Nyungan,yub,yugu1249,E17,16,Yugambeh,kirin,kiɹin,stiff,Allen and Lane,"stiff, cramped",Adj,-28.4374,153.301,NA,NA,NA,NA
+Wiradjuri,Central NSW,Pama-Nyungan,wrh,wira1262,D10,122,Wiradjuri,giluung,kiluːŋ,sharp,Diane Hosking and Sally McNicol,sharp,Adj,-33.72620501677175,147.0281347375677,NA,NA,NA,NA
+Wiradjuri,Central NSW,Pama-Nyungan,wrh,wira1262,D10,122,Wiradjuri,giluun,kiluːn,sharp,Diane Hosking and Sally McNicol,sharp,Adj,-33.72620501677175,147.0281347375677,NA,NA,NA,NA
+Wiradjuri,Central NSW,Pama-Nyungan,wrh,wira1262,D10,122,Wiradjuri,guunigal,kuːnikal,flat,Diane Hosking and Sally McNicol,flat,Adj,-33.72620501677175,147.0281347375677,NA,NA,NA,NA
+Wiradjuri,Central NSW,Pama-Nyungan,wrh,wira1262,D10,122,Wiradjuri,muuguu,muːkuː,blunt,Diane Hosking and Sally McNicol,blunt,Adj,-33.72620501677175,147.0281347375677,NA,NA,NA,NA
+Wiradjuri,Central NSW,Pama-Nyungan,wrh,wira1262,D10,122,Wiradjuri,walan,walan,hard,Diane Hosking and Sally McNicol,"hard, solid, strong",adj,-33.72620501677175,147.0281347375677,NA,NA,NA,NA
+Yugambeh,Bandjalangic,Pama-Nyungan,yub,yugu1249,E17,16,Yugambeh,millerri,milleri,slippery,Allen and Lane,slippery (smooth),adj,-28.4374,153.301,NA,NA,NA,NA
+Yugambeh,Bandjalangic,Pama-Nyungan,yub,yugu1249,E17,16,Yugambeh,milllerrijumm,milllericumm,rough,Allen and Lane,rough (not smooth),adj,-28.4374,153.301,NA,NA,NA,NA
+Adnyamathanha,Thura-Yura,Pama-Nyungan,adt,adny1235,L10,1251,Adnyamathanha,mupu,mupu,blunt,"McEntee, John and McKenzie, Pearl",blunt,Adj,-30.83714134657851,139.1215397357151,NA,NA,NA,NA
+Adnyamathanha,Thura-Yura,Pama-Nyungan,adt,adny1235,L10,1251,Adnyamathanha,yanyma-,jaɲma,shiny,"McEntee, John and McKenzie, Pearl",to be shiny,Vi,-30.83714134657851,139.1215397357151,NA,NA,NA,NA
+Adnyamathanha,Thura-Yura,Pama-Nyungan,adt,adny1235,L10,1251,Adnyamathanha,yadhnhiapa,jat̪n̪iapa,soft,"McEntee, John and McKenzie, Pearl","soft, tender",Adj,-30.83714134657851,139.1215397357151,NA,NA,NA,NA
+Adnyamathanha,Thura-Yura,Pama-Nyungan,adt,adny1235,L10,1251,Adnyamathanha,yarlkala,jaɭkala,clean,"McEntee, John and McKenzie, Pearl",clean,Adj,-30.83714134657851,139.1215397357151,NA,NA,NA,NA
+Adnyamathanha,Thura-Yura,Pama-Nyungan,adt,adny1235,L10,1251,Adnyamathanha,walu,walu,blunt,"McEntee, John and McKenzie, Pearl",dull,Adj,-30.83714134657851,139.1215397357151,NA,NA,NA,NA
+pNY (D),NA,NA,NA,NA,NA,1519,pNY (D),*kapuly,kapuʎ,soft,Susan Fitzgerald,"soft (of clouds, meat)",adj,NA,NA,NA,NA,NA,NA
+Buwandik,Kulin,Pama-Nyungan,xbg,bung1264,S13,1148,Buwandik,murt,muʈ,blunt,"Blake, Barry",blunt,Adj,-37.69298793993351,141.3156381785856,NA,NA,NA,NA
+Buwandik,Kulin,Pama-Nyungan,xbg,bung1264,S13,1148,Buwandik,[see ‘ground’],[seː 'gɹound'],dusty,"Blake, Barry",dusty,NA,-37.69298793993351,141.3156381785856,NA,NA,NA,NA
+Buwandik,Kulin,Pama-Nyungan,xbg,bung1264,S13,1148,Buwandik,bini,bini,hard,"Blake, Barry",hard,Adj,-37.69298793993351,141.3156381785856,NA,NA,NA,NA
+Buwandik,Kulin,Pama-Nyungan,xbg,bung1264,S13,1148,Buwandik,batbarrum,batbarum,rough,"Blake, Barry",rough,Adj,-37.69298793993351,141.3156381785856,NA,NA,NA,NA
+Buwandik,Kulin,Pama-Nyungan,xbg,bung1264,S13,1148,Buwandik,wirnma,wiɳma,sharp,"Blake, Barry",sharp,Adj,-37.69298793993351,141.3156381785856,NA,NA,NA,NA
+Buwandik,Kulin,Pama-Nyungan,xbg,bung1264,S13,1148,Buwandik,batong,batoŋ,soft,"Blake, Barry",soft,Adj,-37.69298793993351,141.3156381785856,NA,NA,NA,NA
+Biri (Yilba),Maric,Pama-Nyungan,bzr,biri1256,E56,1168,Biri,darany,taɹaɲ,sharp,"Terrell, Angela",sharp,Adj,-20.80771846573321,146.5993475336678,NA,NA,NA,NA
+Biri (Baradha),Maric,Pama-Nyungan,bzr,biri1256,E56,1168,Biri,yidabir,jitapiɹ,sharp,"Terrell, Angela",sharp,Adj,-20.80771846573321,146.5993475336678,NA,NA,NA,NA
+Biri,Maric,Pama-Nyungan,bzr,biri1256,E56,1168,Biri,budyany,pucaɲ,bald,"Terrell, Angela",bald,Adj,-20.80771846573321,146.5993475336678,NA,NA,NA,NA
+Biri,Maric,Pama-Nyungan,bzr,biri1256,E56,1168,Biri,galŋgur,kalŋkuɹ,hard,"Terrell, Angela",hard,Adj,-20.80771846573321,146.5993475336678,NA,NA,NA,NA
+Biri,Maric,Pama-Nyungan,bzr,biri1256,E56,1168,Biri,banbany,panpaɲ,bald,"Terrell, Angela",bald,Adj,-20.80771846573321,146.5993475336678,NA,NA,NA,NA
+pKarnic,NA,NA,NA,NA,NA,392,NA,*murrhamurrhu,muramuru,rough,"Austin, Peter",rough,Adj,NA,NA,NA,NA,NA,NA
+pPN-,Pama-Nyungan,Pama-Nyungan,NA,NA,NA,373,Proto-Pama-Nyungan,*kAta,kAta,stiff,Susan Fitzgerald,"stiff, unstead, awkward",Adj,-13.9,148.5,NA,NA,NA,NA
+pNY (D),NA,NA,NA,NA,NA,1519,pNY (D),*kili,kili,sharp,Susan Fitzgerald,"edge, sharp edge",N,NA,NA,NA,NA,NA,NA
+pPN,Pama-Nyungan,Pama-Nyungan,NA,NA,NA,373,Proto-Pama-Nyungan,*kiru,kiɹu,slippery,Susan Fitzgerald,"slippery, smooth",adj,-13.9,148.5,NA,NA,NA,NA
+Kaurna,Thura-Yura,Pama-Nyungan,zku,kaur1267,L3,847,Kaurna,bukkobukko,bukobuko,bald,"Teichelmann, XX and Schürrman",bald,Adj,-34.34966141126208,138.4800793566074,NA,NA,NA,NA
+Wulguru,Dyirbalic,Pama-Nyungan,qgu,wulg1239,Y135,88,Wulguru,gundilma,kuntilma,blunt,"Donahue, Mark",to blunt,Adj,-19.851031211527008,146.3453956874499,NA,NA,NA,NA
+Wulguru,Dyirbalic,Pama-Nyungan,qgu,wulg1239,Y135,88,Wulguru,nganyu,ŋaɲu,sharp,"Donahue, Mark",sharp,Adj,-19.851031211527008,146.3453956874499,NA,NA,NA,NA
+Wulguru,Dyirbalic,Pama-Nyungan,qgu,wulg1239,Y135,88,Wulguru,yuli,juli,hard,"Donahue, Mark",hard,Adj,-19.851031211527008,146.3453956874499,NA,NA,NA,NA
+Wulguru,Dyirbalic,Pama-Nyungan,qgu,wulg1239,Y135,88,Wulguru,Dinambara,tinampaɹa,stiff,"Donahue, Mark",stiff,Adj,-19.851031211527008,146.3453956874499,NA,NA,NA,NA
+Wulguru,Dyirbalic,Pama-Nyungan,qgu,wulg1239,Y135,88,Wulguru,durgalma,tuɹkalma,sharp,"Donahue, Mark",sharp,Adj,-19.851031211527008,146.3453956874499,NA,NA,NA,NA
+Wulguru,Dyirbalic,Pama-Nyungan,qgu,wulg1239,Y135,88,Wulguru,galngaba,kalnkapa,clean,"Donahue, Mark",clean,Adj,-19.851031211527008,146.3453956874499,NA,NA,NA,NA
+Wulguru,Dyirbalic,Pama-Nyungan,qgu,wulg1239,Y135,88,Wulguru,guburu,kupuɹu,rough,"Donahue, Mark",rough (of sea),Adj,-19.851031211527008,146.3453956874499,NA,NA,NA,NA
+Wulguru,Dyirbalic,Pama-Nyungan,qgu,wulg1239,Y135,88,Wulguru,madamada,matamata,smooth,"Donahue, Mark",smooth,Adj,-19.851031211527008,146.3453956874499,NA,NA,NA,NA
+Wulguru,Dyirbalic,Pama-Nyungan,qgu,wulg1239,Y135,88,Wulguru,murgun,muɹkun,blunt,"Donahue, Mark",blunt,Adj,-19.851031211527008,146.3453956874499,NA,NA,NA,NA
+Ayapathu,Paman,Pama-Nyungan,ayd,ayab1239,Y60,1212,Ayapathu,pacha,paca,bald,Philip Hamilton,bald,Adj,-14.47173611865194,143.2934448261607,NA,NA,NA,NA
+Wardaman,NA,NA,wrr,ward1246,N35,201,Wardaman,nyujud,ɲucut,blunt,Francesca Merlan,blunt,Adj,-15.53064370478431,131.8788656745995,NA,NA,NA,NA
+Irwin and Murchison Rivers,Karnic,Pama-Nyungan,NA,NA,NA,151,Widi/Cheangwa,molga-bean,molga-bean,bald,"John Perks, Esq.",bald,Adj,NA,NA,NA,NA,NA,NA
+Mary River and Bunya Bunya Country,Maric,Pama-Nyungan,NA,east2717,NA,676,Mary River and Bunya Bunya Country,bir’ru,biɹ’ɹu,flat,John Mathew,flat,Adj,-26.708294,152.063678,NA,NA,NA,NA
+Mary River and Bunya Bunya Country,Maric,Pama-Nyungan,NA,east2717,NA,676,Mary River and Bunya Bunya Country,nil’kan,nil’kan,bald,John Mathew,bald,Adj,-26.708294,152.063678,NA,NA,NA,NA
+Mary River and Bunya Bunya Country,Maric,Pama-Nyungan,NA,east2717,NA,676,Mary River and Bunya Bunya Country,gu’lum,gu’lum,blunt,John Mathew,blunt,Adj,-26.708294,152.063678,NA,NA,NA,NA
+Mary River and Bunya Bunya Country,Maric,Pama-Nyungan,NA,east2717,NA,676,Mary River and Bunya Bunya Country,kak’kal,kak’kal,clean,John Mathew,clean,Adj,-26.708294,152.063678,NA,NA,NA,NA
+Mary River and Bunya Bunya Country,Maric,Pama-Nyungan,NA,east2717,NA,676,Mary River and Bunya Bunya Country,yin’na,jin’na,blunt,John Mathew,dull (in spirits),NA,-26.708294,152.063678,NA,NA,NA,NA
+Mary River and Bunya Bunya Country,Maric,Pama-Nyungan,NA,east2717,NA,676,Mary River and Bunya Bunya Country,ba’lan,ba’lan,flat,John Mathew,flat,Adj,-26.708294,152.063678,NA,NA,NA,NA
+Mary River and Bunya Bunya Country,Maric,Pama-Nyungan,NA,east2717,NA,676,Mary River and Bunya Bunya Country,but’dha,but’d̪a,hard,John Mathew,hard,Adj,-26.708294,152.063678,NA,NA,NA,NA
+Mary River and Bunya Bunya Country,Maric,Pama-Nyungan,NA,east2717,NA,676,Mary River and Bunya Bunya Country,mun’du go’ran,mun’du go’ɹan,sharp,John Mathew,sharp,Adj,-26.708294,152.063678,NA,NA,NA,NA
+Mary River and Bunya Bunya Country,Maric,Pama-Nyungan,NA,east2717,NA,676,Mary River and Bunya Bunya Country,dhan’dar,d̪an’daɹ,slippery,John Mathew,"slippery, smooth",adj,-26.708294,152.063678,NA,NA,NA,NA
+Mary River and Bunya Bunya Country,Maric,Pama-Nyungan,NA,east2717,NA,676,Mary River and Bunya Bunya Country,dhulu’lu,d̪ulu’lu,soft,John Mathew,soft,Adj,-26.708294,152.063678,NA,NA,NA,NA
+The Warrego and Paroo Rivers,Maric,Pama-Nyungan,bym,bidy1243,E37,1182,Bidjara,goorpin,goːɹpin,bald,"By joseph Hollingsworth, Esq.",bald,Adj,-25.30623867327704,147.113738821784,NA,NA,NA,NA
+The Warrego and Paroo Rivers,Maric,Pama-Nyungan,bym,bidy1243,E37,1182,Bidjara,mooning,moːning,soft,"By joseph Hollingsworth, Esq.",soft,Adj,-25.30623867327704,147.113738821784,NA,NA,NA,NA
+Port MacQuarie,Yuin-Kuri,Pama-Nyungan,xbj,sydn1236,E3,1166,Birrpayi,bowerow,boweɹow,bald,"John Branch, Esq.",bald head,Adj,-31.4680141206651,151.7821178119403,NA,NA,NA,NA
+Port MacQuarie,Yuin-Kuri,Pama-Nyungan,xbj,sydn1236,E3,1166,Birrpayi,boothoong,boːt̪oːng,soft,"John Branch, Esq.",soft,Adj,-31.4680141206651,151.7821178119403,NA,NA,NA,NA
+Port MacQuarie,Yuin-Kuri,Pama-Nyungan,xbj,sydn1236,E3,1166,Birrpayi,merring,mering,sharp,"John Branch, Esq.",sharp,Adj,-31.4680141206651,151.7821178119403,NA,NA,NA,NA
+Port MacQuarie,Yuin-Kuri,Pama-Nyungan,xbj,sydn1236,E3,1166,Birrpayi,marrong,marong,clean,"John Branch, Esq.",clean,Adj,-31.4680141206651,151.7821178119403,NA,NA,NA,NA
+Port MacQuarie,Yuin-Kuri,Pama-Nyungan,xbj,sydn1236,E3,1166,Birrpayi,tumong,tumong,blunt,"John Branch, Esq.",blunt,Adj,-31.4680141206651,151.7821178119403,NA,NA,NA,NA
+Port MacQuarie,Yuin-Kuri,Pama-Nyungan,xbj,sydn1236,E3,1166,Birrpayi,talmung,talmung,hard,"John Branch, Esq.",hard,Adj,-31.4680141206651,151.7821178119403,NA,NA,NA,NA
+Port MacQuarie,Yuin-Kuri,Pama-Nyungan,xbj,sydn1236,E3,1166,Birrpayi,tourl-tourl,touɭ-touɭ,slippery,"John Branch, Esq.",slippery,adj,-31.4680141206651,151.7821178119403,NA,NA,NA,NA
+The Warrego and Paroo Rivers,Maric,Pama-Nyungan,bym,bidy1243,E37,1182,Bidjara,gurrikill,gurikill,hard,"By joseph Hollingsworth, Esq.",hard,Adj,-25.30623867327704,147.113738821784,NA,NA,NA,NA
+Granite Range,NA,NA,NA,NA,NA,1553,Granite Range,dundee,t̪anti,hard,"H.M. Mowbray, Esq.",Hard,Adj,NA,NA,NA,NA,NA,NA
+Granite Range,NA,NA,NA,NA,NA,1553,Granite Range,kimma,kima,soft,"H.M. Mowbray, Esq.",Soft,Adj,NA,NA,NA,NA,NA,NA
+cape/clarke river,no subgroup defined,NA,NA,maor1246,NA,905,unknown,berrkay,berkaj,sharp,De La Tour,Sharp,Adj,NA,NA,NA,NA,NA,NA
+cape/clarke river,no subgroup defined,NA,NA,maor1246,NA,905,unknown,koodoo,koːdoː,blunt,De La Tour,Blunt,Adj,NA,NA,NA,NA,NA,NA
+Mount Freeling,Karnic,Pama-Nyungan,dif,dira1238,L17,1088,Diyari,chirkara,chiɹkaɹa,sharp,Mr. Samuel Gason,"sharp, keen edge, not blunt",NA,-28.5848662078809,139.0862193156426,NA,NA,NA,NA
+Mount Freeling,Karnic,Pama-Nyungan,dif,dira1238,L17,1088,Diyari,danthoo,dant̪oː,soft,Mr. Samuel Gason,soft,Adj,-28.5848662078809,139.0862193156426,NA,NA,NA,NA
+Mount Freeling,Karnic,Pama-Nyungan,dif,dira1238,L17,1088,Diyari,pontoo,pontoː,blunt,Mr. Samuel Gason,blunt,Adj,-28.5848662078809,139.0862193156426,NA,NA,NA,NA
+"Bourke, Darling River",Paakantyi,Pama-Nyungan,drl,darl1243,D25,782,Kurnu,pullara,pullaɹa,bald,"Grenville N. Teulon, Esq.",bald,Adj,-30.39527317385274,145.6664422378632,NA,NA,NA,NA
+Woolna Tribe,Limilngan,NA,wux,wuln1239,N29,82,Wulna,MISSING - NEED TO ENTER,MISSING - NEED TO ENTER,hard,pamphlet published anonymously,Hard,Adj,-12.6,131.6,NA,NA,NA,NA
+Natal Downs,NA,NA,NA,NA,NA,1551,Natal Downs,tarrine,tarine,sharp,"F.M. Tompson, Esq.",Sharp,Adj,-21.127,146.197,NA,NA,NA,NA
+Duuŋidjawu,Waka-Kabi,Pama-Nyungan,wkw,duun1241,E20,1051,Duungidjawu,dula,tula,soft,"Kite, Suzanne; Wurm, Stephen",soft,Adj,-25.3987,152.345,NA,NA,NA,NA
+Duuŋidjawu,Waka-Kabi,Pama-Nyungan,wkw,duun1241,E20,1051,Duungidjawu,djale,cale,soft,"Kite, Suzanne; Wurm, Stephen",softly,Adj,-25.3987,152.345,NA,NA,NA,NA
+Duuŋidjawu,Waka-Kabi,Pama-Nyungan,wkw,duun1241,E20,1051,Duungidjawu,gen,ken,sharp,"Kite, Suzanne; Wurm, Stephen",sharp,Adj,-25.3987,152.345,NA,NA,NA,NA
+Yaggara,Durubulic,Pama-Nyungan,yxg,yaga1256,E23,68,Yagara,panlunggan,panluŋkan,fine,"Bannister, Daniel",fine,N?,-27.87647555019528,152.4602773478736,NA,NA,NA,NA
+Yaggara,Durubulic,Pama-Nyungan,yxg,yaga1256,E23,68,Yagara,yeronga,jaɹoŋa,sandy,"Bannister, Daniel",sandy,Adj,-27.87647555019528,152.4602773478736,NA,NA,NA,NA
+BB,Yuin-Kuri,Pama-Nyungan,none,sydn1236,S61,902,Iyora,madái,madái,soft,"Dawes, William",soft,Adj,-33.8396,151.21525,NA,NA,NA,NA
+BB,Yuin-Kuri,Pama-Nyungan,none,sydn1236,S61,902,Iyora,yara-gál,jaɹa-gál,clean,"Dawes, William",clean,Adj,-33.8396,151.21525,NA,NA,NA,NA
+BB,Yuin-Kuri,Pama-Nyungan,none,sydn1236,S61,902,Iyora,yuru-l,juɹu-l,sharp,"Dawes, William",sharp,Adj,-33.8396,151.21525,NA,NA,NA,NA
+Unidentified: SofM 1896 08 10 [p.12.4: FNB-KML],NA,NA,NA,NA,NA,NA,NA,mada-mada,mada-mada,rough,NA,rough,Adj,NA,NA,NA,NA,NA,NA
+Unidentified: SofM 1896 08 10 [p.12.4: FNB-KML],NA,NA,NA,NA,NA,NA,NA,mugai gamagalla,mugai gamagalla,blunt,NA,"blunt, to",verb,NA,NA,NA,NA,NA,NA
+Unidentified: SofM 1896 08 10 [p.12.4: FNB-KML],NA,NA,NA,NA,NA,NA,NA,mala-mala,mala-mala,soft,NA,soft,Adj,NA,NA,NA,NA,NA,NA
+Unidentified: SofM 1896 08 10 [p.12.4: FNB-KML],NA,NA,NA,NA,NA,NA,NA,wallur,walluɹ,hard,NA,hard,Adj,NA,NA,NA,NA,NA,NA
+Unidentified: SofM 1896 08 10 [p.12.4: FNB-KML],NA,NA,NA,NA,NA,NA,NA,dyaddhala,ɟadd̪ala,sharp,NA,sharp,Adj,NA,NA,NA,NA,NA,NA
+Unidentified: SofM 1896 08 10 [p.12.4: FNB-KML],NA,NA,NA,NA,NA,NA,NA,mugai,mugai,blunt,NA,blunt,Adj,NA,NA,NA,NA,NA,NA
+Wiradhurri,Central NSW,Pama-Nyungan,wrh,wira1262,D10,122,Wiradjuri,walun,walun,hard,NA,hard,Adj,-33.72620501677175,147.0281347375677,NA,NA,NA,NA
+Wiradhurri,Central NSW,Pama-Nyungan,wrh,wira1262,D10,122,Wiradjuri,muråi,muɹåi,soft,NA,soft,Adj,-33.72620501677175,147.0281347375677,NA,NA,NA,NA
+Wiradhurri,Central NSW,Pama-Nyungan,wrh,wira1262,D10,122,Wiradjuri,mana,mana,flat,NA,flat,Adj,-33.72620501677175,147.0281347375677,NA,NA,NA,NA
+Wiradhurri,Central NSW,Pama-Nyungan,wrh,wira1262,D10,122,Wiradjuri,gíwai,kíwai,sharp,Gunther,sharp,Adj,-33.72620501677175,147.0281347375677,NA,NA,NA,NA
+Wiradhurri,Central NSW,Pama-Nyungan,wrh,wira1262,D10,122,Wiradjuri,bal-mang,pal-maŋ,soft,Gunther,soft,Adj,-33.72620501677175,147.0281347375677,NA,NA,NA,NA
+Wiradhurri,Central NSW,Pama-Nyungan,wrh,wira1262,D10,122,Wiradjuri,birran,piran,stiff,Gunther,stiff,Adj,-33.72620501677175,147.0281347375677,NA,NA,NA,NA
+Wiradhurri,Central NSW,Pama-Nyungan,wrh,wira1262,D10,122,Wiradjuri,bulin-bulin,pulin-pulin,bald,Gunther,bald,Adj,-33.72620501677175,147.0281347375677,NA,NA,NA,NA
+Wiradhurri,Central NSW,Pama-Nyungan,wrh,wira1262,D10,122,Wiradjuri,bum-bir,pum-piɹ,slippery,Gunther,slippery,adj,-33.72620501677175,147.0281347375677,NA,NA,NA,NA
+Wiradhurri,Central NSW,Pama-Nyungan,wrh,wira1262,D10,122,Wiradjuri,bur-bi-rra,puɹ-pi-ra,smooth,Gunther,"smooth, to",verb,-33.72620501677175,147.0281347375677,NA,NA,NA,NA
+Wiradhurri,Central NSW,Pama-Nyungan,wrh,wira1262,D10,122,Wiradjuri,dalayim-bang,talajim-paŋ,sharp,Gunther,sharp,Adj,-33.72620501677175,147.0281347375677,NA,NA,NA,NA
+Wiradhurri,Central NSW,Pama-Nyungan,wrh,wira1262,D10,122,Wiradjuri,dallun-Gal,tallun-Gal,fine,Gunther,fine,noun,-33.72620501677175,147.0281347375677,NA,NA,NA,NA
+Wiradhurri,Central NSW,Pama-Nyungan,wrh,wira1262,D10,122,Wiradjuri,dámba-dámba,támpa-támpa,soft,Gunther,soft,Adj,-33.72620501677175,147.0281347375677,NA,NA,NA,NA
+Wiradhurri,Central NSW,Pama-Nyungan,wrh,wira1262,D10,122,Wiradjuri,darnan,taɳan,tough,Gunther,tough,adjective,-33.72620501677175,147.0281347375677,NA,NA,NA,NA
+Wiradhurri,Central NSW,Pama-Nyungan,wrh,wira1262,D10,122,Wiradjuri,darru-wan,taru-wan,tough,Gunther,tough,adjective,-33.72620501677175,147.0281347375677,NA,NA,NA,NA
+Wiradhurri,Central NSW,Pama-Nyungan,wrh,wira1262,D10,122,Wiradjuri,din-da-ba-rra,tin-ta-pa-ra,smooth,Gunther,"smooth, to",verb,-33.72620501677175,147.0281347375677,NA,NA,NA,NA
+Wiradhurri,Central NSW,Pama-Nyungan,wrh,wira1262,D10,122,Wiradjuri,dinda-dinda,tinta-tinta,rough,Gunther,rough,Adj,-33.72620501677175,147.0281347375677,NA,NA,NA,NA
+Wiradhurri,Central NSW,Pama-Nyungan,wrh,wira1262,D10,122,Wiradjuri,din-dar,tin-taɹ,bald,Gunther,bald,Adj,-33.72620501677175,147.0281347375677,NA,NA,NA,NA
+Wiradhurri,Central NSW,Pama-Nyungan,wrh,wira1262,D10,122,Wiradjuri,dinGan-dinGan,tinGan-tinGan,flat,Gunther,flat,Adj,-33.72620501677175,147.0281347375677,NA,NA,NA,NA
+Wiradhurri,Central NSW,Pama-Nyungan,wrh,wira1262,D10,122,Wiradjuri,din-Gi-li-nga,tin-Gi-li-ŋa,smooth,Gunther,"smooth, to",verb,-33.72620501677175,147.0281347375677,NA,NA,NA,NA
+Wiradhurri,Central NSW,Pama-Nyungan,wrh,wira1262,D10,122,Wiradjuri,diyan,tijan,soft,Gunther,soft,Adj,-33.72620501677175,147.0281347375677,NA,NA,NA,NA
+Wiradhurri,Central NSW,Pama-Nyungan,wrh,wira1262,D10,122,Wiradjuri,dur-ba-rra,tuɹ-pa-ra,smooth,Gunther,"smooth, to",verb,-33.72620501677175,147.0281347375677,NA,NA,NA,NA
+Wiradhurri,Central NSW,Pama-Nyungan,wrh,wira1262,D10,122,Wiradjuri,garda-garda,kaʈa-kaʈa,stiff,Gunther,stiff,Adj,-33.72620501677175,147.0281347375677,NA,NA,NA,NA
+Wiradhurri,Central NSW,Pama-Nyungan,wrh,wira1262,D10,122,Wiradjuri,gardar,kaʈaɹ,stiff,Gunther,stiff,Adj,-33.72620501677175,147.0281347375677,NA,NA,NA,NA
+Wiradhurri,Central NSW,Pama-Nyungan,wrh,wira1262,D10,122,Wiradjuri,gillun,killun,sharp,Gunther,sharp,Adj,-33.72620501677175,147.0281347375677,NA,NA,NA,NA
+Wiradhurri,Central NSW,Pama-Nyungan,wrh,wira1262,D10,122,Wiradjuri,gillun-bang,killun-paŋ,sharp,Gunther,sharp,Adj,-33.72620501677175,147.0281347375677,NA,NA,NA,NA
+Wiradhurri,Central NSW,Pama-Nyungan,wrh,wira1262,D10,122,Wiradjuri,guddal-guddal,kuttal-kuttal,smooth,Gunther,smooth,Adj,-33.72620501677175,147.0281347375677,NA,NA,NA,NA
+Wiradhurri,Central NSW,Pama-Nyungan,wrh,wira1262,D10,122,Wiradjuri,ngarayim-bang,ŋaɹajim-paŋ,sharp,Gunther,sharp,Adj,-33.72620501677175,147.0281347375677,NA,NA,NA,NA
+Wiradhurri,Central NSW,Pama-Nyungan,wrh,wira1262,D10,122,Wiradjuri,yira-muggu,jiɹa-mukku,blunt,Gunther,blunt,Adj,-33.72620501677175,147.0281347375677,NA,NA,NA,NA
+Wiradhurri,Central NSW,Pama-Nyungan,wrh,wira1262,D10,122,Wiradjuri,midyur,micuɹ,sharp,Gunther,sharp,Adj,-33.72620501677175,147.0281347375677,NA,NA,NA,NA
+Wiradhurri,Central NSW,Pama-Nyungan,wrh,wira1262,D10,122,Wiradjuri,mullar-mullar,mullaɹ-mullaɹ,slippery,Gunther,slippery,adj,-33.72620501677175,147.0281347375677,NA,NA,NA,NA
+Wiradhurri,Central NSW,Pama-Nyungan,wrh,wira1262,D10,122,Wiradjuri,murrai,murai,soft,Gunther,soft,Adj,-33.72620501677175,147.0281347375677,NA,NA,NA,NA
+Wiradhurri,Central NSW,Pama-Nyungan,wrh,wira1262,D10,122,Wiradjuri,murrayi-dyung,muraji-cuŋ,soft,Gunther,soft,Adj,-33.72620501677175,147.0281347375677,NA,NA,NA,NA
+Wiradhurri,Central NSW,Pama-Nyungan,wrh,wira1262,D10,122,Wiradjuri,murral-murral,mural-mural,slippery,Gunther,slippery,adj,-33.72620501677175,147.0281347375677,NA,NA,NA,NA
+Wiradhurri,Central NSW,Pama-Nyungan,wrh,wira1262,D10,122,Wiradjuri,wallar,wallaɹ,flat,Gunther,flat,Adj,-33.72620501677175,147.0281347375677,NA,NA,NA,NA
+Wiradhurri,Central NSW,Pama-Nyungan,wrh,wira1262,D10,122,Wiradjuri,warral,waral,stiff,Gunther,stiff,Adj,-33.72620501677175,147.0281347375677,NA,NA,NA,NA
+Wiradhurri,Central NSW,Pama-Nyungan,wrh,wira1262,D10,122,Wiradjuri,wa-wi-rra,wa-wi-ra,clean,Gunther,"clean, to",verb,-33.72620501677175,147.0281347375677,NA,NA,NA,NA
+Wiradhurri,Central NSW,Pama-Nyungan,wrh,wira1262,D10,122,Wiradjuri,yalgar,jalkaɹ,hard,Gunther,hard,Adj,-33.72620501677175,147.0281347375677,NA,NA,NA,NA
+Wiradhurri,Central NSW,Pama-Nyungan,wrh,wira1262,D10,122,Wiradjuri,yanna-wu-rar,janna-wu-ɹaɹ,smooth,Gunther,smooth,Adj,-33.72620501677175,147.0281347375677,NA,NA,NA,NA
+Wiradhurri,Central NSW,Pama-Nyungan,wrh,wira1262,D10,122,Wiradjuri,gåmbå,kåmpå,bald,NA,bald,Adj,-33.72620501677175,147.0281347375677,NA,NA,NA,NA
+Wiradhurri,Central NSW,Pama-Nyungan,wrh,wira1262,D10,122,Wiradjuri,walun,walun,hard,NA,hard,Adj,-33.72620501677175,147.0281347375677,NA,NA,NA,NA
+Wiradhurri,Central NSW,Pama-Nyungan,wrh,wira1262,D10,122,Wiradjuri,muråi,muɹåi,soft,NA,soft,Adj,-33.72620501677175,147.0281347375677,NA,NA,NA,NA
+Wiradhurri,Central NSW,Pama-Nyungan,wrh,wira1262,D10,122,Wiradjuri,mana,mana,flat,NA,flat,Adj,-33.72620501677175,147.0281347375677,NA,NA,NA,NA
+Wiradhurri,Central NSW,Pama-Nyungan,wrh,wira1262,D10,122,Wiradjuri,bumbir,pumpiɹ,slippery,Gunther,slippery,adj,-33.72620501677175,147.0281347375677,NA,NA,NA,NA
+Awabakal,Yuin-Kuri,Pama-Nyungan,awk,awab1243,S66,1215,Awabakal,ngarung,ngaɹung,rough,NA,rough,Adj,-32.93942472056175,151.5694547967005,NA,NA,NA,NA
+Awabakal,Yuin-Kuri,Pama-Nyungan,awk,awab1243,S66,1215,Awabakal,gulwån,gulwån,stiff,NA,stiff,Adj,-32.93942472056175,151.5694547967005,NA,NA,NA,NA
+Awabakal,Yuin-Kuri,Pama-Nyungan,awk,awab1243,S66,1215,Awabakal,mirgin,miɹgin,clean,NA,clean,Adj,-32.93942472056175,151.5694547967005,NA,NA,NA,NA
+Awabakal,Yuin-Kuri,Pama-Nyungan,awk,awab1243,S66,1215,Awabakal,mirgun,miɹgun,clean,NA,clean,Adj,-32.93942472056175,151.5694547967005,NA,NA,NA,NA
+Awabakal,Yuin-Kuri,Pama-Nyungan,awk,awab1243,S66,1215,Awabakal,murgun,muɹgun,clean,NA,clean,Adj,-32.93942472056175,151.5694547967005,NA,NA,NA,NA
+Awabakal,Yuin-Kuri,Pama-Nyungan,awk,awab1243,S66,1215,Awabakal,Awa-ba,Awa-ba,flat,NA,flat,Adj,-32.93942472056175,151.5694547967005,NA,NA,NA,NA
+Awabakal,Yuin-Kuri,Pama-Nyungan,awk,awab1243,S66,1215,Awabakal,birral,biral,hard,NA,hard,Adj,-32.93942472056175,151.5694547967005,NA,NA,NA,NA
+Yugarabul,Durubulic,Pama-Nyungan,NA,yaga1256,E66*,15,Yugarabul,tambil,tampil,blunt,"Bannister, Daniel",blunt,Adj,-29.15658250246399,151.1790320463189,NA,NA,NA,NA
+Baagandji,Paakantyi,Pama-Nyungan,drl,darl1243,D12,444,Paakantyi,bali-balīra,palipaliːra,soft,Luise (L.A.) Hercus,soft (food),Adj,-31.12813021036683,144.223567749524,NA,NA,NA,NA
+Baagandji,Paakantyi,Pama-Nyungan,drl,darl1243,D12,444,Paakantyi,baṇḍara,paɳʈara,bald,Luise (L.A.) Hercus,"bare, bald",Adj,-31.12813021036683,144.223567749524,NA,NA,NA,NA
+Warnman,Wati,Pama-Nyungan,wbt,wanm1242,A62,188,Warnman,nyiwun(pa),ɲiwun(pa),blunt,"Thieberger, Nicholas and Desmond Taylor",blunt,Adj,-22.00041800774719,124.0387198550533,NA,NA,NA,NA
+Warnman,Wati,Pama-Nyungan,wbt,wanm1242,A62,188,Warnman,tirra,tira,hard,"Thieberger, Nicholas and Desmond Taylor",hard,Adj,-22.00041800774719,124.0387198550533,NA,NA,NA,NA
+Warnman,Wati,Pama-Nyungan,wbt,wanm1242,A62,188,Warnman,"miljirr miljirr, jikirr jikirr",milcir milcir,rough,"Thieberger, Nicholas and Desmond Taylor",rough,Adj,-22.00041800774719,124.0387198550533,NA,NA,NA,NA
+Warnman,Wati,Pama-Nyungan,wbt,wanm1242,A62,188,Warnman,jiraly,ciɹaʎ,smooth,"Thieberger, Nicholas and Desmond Taylor",smooth,Adj,-22.00041800774719,124.0387198550533,NA,NA,NA,NA
+Warnman,Wati,Pama-Nyungan,wbt,wanm1242,A62,188,Warnman,tiwutiwu,tiwutiwu,soft,"Thieberger, Nicholas and Desmond Taylor",soft,Adj,-22.00041800774719,124.0387198550533,NA,NA,NA,NA
+Warnman,Wati,Pama-Nyungan,wbt,wanm1242,A62,188,Warnman,mulypa,muʎpa,solid,"Thieberger, Nicholas and Desmond Taylor",solid,Adj,-22.00041800774719,124.0387198550533,NA,NA,NA,NA
+Baagandji,Paakantyi,Pama-Nyungan,drl,darl1243,D12,444,Paakantyi,buḏa,put̪a,soft,Luise (L.A.) Hercus,"soft, delicate, powder, pulp (SB only)",Adj,-31.12813021036683,144.223567749524,NA,NA,NA,NA
+Baagandji,Paakantyi,Pama-Nyungan,drl,darl1243,D12,444,Paakantyi,buṉḏala,pun̪t̪ala,soft,Luise (L.A.) Hercus,"soft, tender (meat)",Adj,-31.12813021036683,144.223567749524,NA,NA,NA,NA
+Baagandji,Paakantyi,Pama-Nyungan,drl,darl1243,D12,444,Paakantyi,ḏadara,t̪atara,flat,Luise (L.A.) Hercus,"flat, spread out",Adj,-31.12813021036683,144.223567749524,NA,NA,NA,NA
+Baagandji,Paakantyi,Pama-Nyungan,drl,darl1243,D12,444,Paakantyi,ḏaḍu-baḷara,t̪aʈupaɭara,bald,Luise (L.A.) Hercus,bald (lit. head bare),Adj,-31.12813021036683,144.223567749524,NA,NA,NA,NA
+Bidyara-Gungabula,Maric,Pama-Nyungan,bym,bidy1243,"E37, E35",1181,Bidjara-Gungabula,minhaminha,min̪amin̪a,flat,"Breen, Gavan",flat,Adj,-25.54304340487492,147.8355733030119,NA,NA,NA,NA
+Bidyara-Gungabula,Maric,Pama-Nyungan,bym,bidy1243,"E37, E35",1181,Bidjara-Gungabula,walali,walali,hard,"Breen, Gavan","hard, solid",Adj,-25.54304340487492,147.8355733030119,NA,NA,NA,NA
+Bidyara-Gungabula,Maric,Pama-Nyungan,bym,bidy1243,"E37, E35",1181,Bidjara-Gungabula,dyabudyabu,capucapu,soft,"Breen, Gavan",soft,Adj,-25.54304340487492,147.8355733030119,NA,NA,NA,NA
+Bidyara-Gungabula,Maric,Pama-Nyungan,bym,bidy1243,"E37, E35",1181,Bidjara-Gungabula,badhardbadhard,pat̪aʈpat̪aʈ,rough,"Breen, Gavan",rough,Adj,-25.54304340487492,147.8355733030119,NA,NA,NA,NA
+Bidyara-Gungabula,Maric,Pama-Nyungan,bym,bidy1243,"E37, E35",1181,Bidjara-Gungabula,dyurdudyurdu,cuʈucuʈu,smooth,"Breen, Gavan",smooth,Adj,-25.54304340487492,147.8355733030119,NA,NA,NA,NA
+Bidyara-Gungabula,Maric,Pama-Nyungan,bym,bidy1243,"E37, E35",1181,Bidjara-Gungabula,mugi,muki,blunt,"Breen, Gavan",blunt,Adj,-25.54304340487492,147.8355733030119,NA,NA,NA,NA
+Bidyara-Gungabula,Maric,Pama-Nyungan,bym,bidy1243,"E37, E35",1181,Bidjara-Gungabula,gurrbiny,kuɾpiɲ,bald,"Breen, Gavan","bare, bald",Adj,-25.54304340487492,147.8355733030119,NA,NA,NA,NA
+Bidyara-Gungabula,Maric,Pama-Nyungan,bym,bidy1243,"E37, E35",1181,Bidjara-Gungabula,dhurduli,t̪uʈuli,slippery,"Breen, Gavan",to be slippery,adj,-25.54304340487492,147.8355733030119,NA,NA,NA,NA
+Baagandji,Paakantyi,Pama-Nyungan,drl,darl1243,D12,444,Paakantyi,wiba,wipa,hard,Luise (L.A.) Hercus,hard,Adj,-31.12813021036683,144.223567749524,NA,NA,NA,NA
+Kugu Nganhcara,Paman,Pama-Nyungan,wua,wikn1246,Y59,820,Kugu-Nganhcara,pintili,pintili,smooth,Johnson and Smith,smooth,Adj,-14.167,141.842,NA,NA,NA,NA
+Kugu Nganhcara,Paman,Pama-Nyungan,wua,wikn1246,Y59,820,Kugu-Nganhcara,punha,pun̪a,soft,Johnson and Smith,soft,Adj,-14.167,141.842,NA,NA,NA,NA
+Kugu Nganhcara,Paman,Pama-Nyungan,wua,wikn1246,Y59,820,Kugu-Nganhcara,thanta pungga,t̪anta puŋka,blunt,Johnson and Smith,blunt,Adj,-14.167,141.842,NA,NA,NA,NA
+Kugu Nganhcara,Paman,Pama-Nyungan,wua,wikn1246,Y59,820,Kugu-Nganhcara,thatata,t̪atata,rough,Johnson and Smith,rough,Adj,-14.167,141.842,NA,NA,NA,NA
+Kugu Nganhcara,Paman,Pama-Nyungan,wua,wikn1246,Y59,820,Kugu-Nganhcara,thintha,t̪int̪a,blunt,Johnson and Smith,blunt,Adj,-14.167,141.842,NA,NA,NA,NA
+Kukatja,Wati,Pama-Nyungan,kux,kuka1246,C7,814,Kukatja,lalypa,laʎpa,flat,"Peile, Fr Antony R.",flat,Adj,-20.51538798370036,128.0418320166125,NA,NA,NA,NA
+Kukatja,Wati,Pama-Nyungan,kux,kuka1246,C7,814,Kukatja,lanitjarra,lanicara,stiff,"Peile, Fr Antony R.",stiff,Adj,-20.51538798370036,128.0418320166125,NA,NA,NA,NA
+Kukatja,Wati,Pama-Nyungan,kux,kuka1246,C7,814,Kukatja,maralkaralpa,maɹalkaɹalpa,flat,"Peile, Fr Antony R.",flat,Adj,-20.51538798370036,128.0418320166125,NA,NA,NA,NA
+Kukatja,Wati,Pama-Nyungan,kux,kuka1246,C7,814,Kukatja,maral-maralpa,maɹal-maɹalpa,flat,"Peile, Fr Antony R.",flat,Adj,-20.51538798370036,128.0418320166125,NA,NA,NA,NA
+Kukatja,Wati,Pama-Nyungan,kux,kuka1246,C7,814,Kukatja,mawumungku,mawumuŋku,stiff,"Peile, Fr Antony R.",stiff,Adj,-20.51538798370036,128.0418320166125,NA,NA,NA,NA
+Kukatja,Wati,Pama-Nyungan,kux,kuka1246,C7,814,Kukatja,milytja,miʎca,soft,"Peile, Fr Antony R.",soft,Adj,-20.51538798370036,128.0418320166125,NA,NA,NA,NA
+Kukatja,Wati,Pama-Nyungan,kux,kuka1246,C7,814,Kukatja,mirilyi,miɹiʎi,bald,"Peile, Fr Antony R.",bald,Adj,-20.51538798370036,128.0418320166125,NA,NA,NA,NA
+Kukatja,Wati,Pama-Nyungan,kux,kuka1246,C7,814,Kukatja,kapalypa,kapaʎpa,soft,"Peile, Fr Antony R.",soft,Adj,-20.51538798370036,128.0418320166125,NA,NA,NA,NA
+Kukatja,Wati,Pama-Nyungan,kux,kuka1246,C7,814,Kukatja,nantulpa,nantulpa,stiff,"Peile, Fr Antony R.",stiff,Adj,-20.51538798370036,128.0418320166125,NA,NA,NA,NA
+Kukatja,Wati,Pama-Nyungan,kux,kuka1246,C7,814,Kukatja,nantularriwa,nantulariwa,stiff,"Peile, Fr Antony R.",become stiff,v,-20.51538798370036,128.0418320166125,NA,NA,NA,NA
+Kukatja,Wati,Pama-Nyungan,kux,kuka1246,C7,814,Kukatja,nantunpa,nantunpa,stiff,"Peile, Fr Antony R.",stiff?,nom,-20.51538798370036,128.0418320166125,NA,NA,NA,NA
+Kukatja,Wati,Pama-Nyungan,kux,kuka1246,C7,814,Kukatja,narntungurriwa,naɳtuŋuriwa,stiff,"Peile, Fr Antony R.",become stiff,v,-20.51538798370036,128.0418320166125,NA,NA,NA,NA
+Kukatja,Wati,Pama-Nyungan,kux,kuka1246,C7,814,Kukatja,karalypa,kaɹaʎpa,blunt,"Peile, Fr Antony R.",blunt,Adj,-20.51538798370036,128.0418320166125,NA,NA,NA,NA
+Kukatja,Wati,Pama-Nyungan,kux,kuka1246,C7,814,Kukatja,nganalpu-rri,ŋanalpu-ri,stiff,"Peile, Fr Antony R.",become stiff,v,-20.51538798370036,128.0418320166125,NA,NA,NA,NA
+Kukatja,Wati,Pama-Nyungan,kux,kuka1246,C7,814,Kukatja,ngunyulpa,ŋuɲulpa,soft,"Peile, Fr Antony R.",soft,Adj,-20.51538798370036,128.0418320166125,NA,NA,NA,NA
+Kukatja,Wati,Pama-Nyungan,kux,kuka1246,C7,814,Kukatja,nyampa,ɲampa,soft,"Peile, Fr Antony R.",soft,Adj,-20.51538798370036,128.0418320166125,NA,NA,NA,NA
+Kukatja,Wati,Pama-Nyungan,kux,kuka1246,C7,814,Kukatja,nyampalypa,ɲampaʎpa,soft,"Peile, Fr Antony R.",soft,Adj,-20.51538798370036,128.0418320166125,NA,NA,NA,NA
+Kukatja,Wati,Pama-Nyungan,kux,kuka1246,C7,814,Kukatja,nyingkilpa,ɲiŋkilpa,rough,"Peile, Fr Antony R.",rough,Adj,-20.51538798370036,128.0418320166125,NA,NA,NA,NA
+Kukatja,Wati,Pama-Nyungan,kux,kuka1246,C7,814,Kukatja,nyintu-nyintu yarra,ɲintu-ɲintu jara,limp,"Peile, Fr Antony R.",limp,Vi,-20.51538798370036,128.0418320166125,NA,NA,NA,NA
+Kukatja,Wati,Pama-Nyungan,kux,kuka1246,C7,814,Kukatja,nyintutima,ɲintutima,limp,"Peile, Fr Antony R.",limp,Vi,-20.51538798370036,128.0418320166125,NA,NA,NA,NA
+Kukatja,Wati,Pama-Nyungan,kux,kuka1246,C7,814,Kukatja,tjarnti-tjarnti nyinuti,caɳti-caɳti ɲinuti,limp,"Peile, Fr Antony R.",limp,Vi,-20.51538798370036,128.0418320166125,NA,NA,NA,NA
+Kukatja,Wati,Pama-Nyungan,kux,kuka1246,C7,814,Kukatja,nyintji-murrpu-murrpu yarra,ɲinci-murpu-murpu jara,limp,"Peile, Fr Antony R.",limp,Vi,-20.51538798370036,128.0418320166125,NA,NA,NA,NA
+Kukatja,Wati,Pama-Nyungan,kux,kuka1246,C7,814,Kukatja,nyintji-nyintji yarra,ɲinci-ɲinci jara,limp,"Peile, Fr Antony R.",limp,Vi,-20.51538798370036,128.0418320166125,NA,NA,NA,NA
+Kukatja,Wati,Pama-Nyungan,kux,kuka1246,C7,814,Kukatja,nyinyiti,ɲiɲiti,limp,"Peile, Fr Antony R.",limp,Vi,-20.51538798370036,128.0418320166125,NA,NA,NA,NA
+Kukatja,Wati,Pama-Nyungan,kux,kuka1246,C7,814,Kukatja,nyinyuti,ɲiɲuti,limp,"Peile, Fr Antony R.",limp,Vi,-20.51538798370036,128.0418320166125,NA,NA,NA,NA
+Kukatja,Wati,Pama-Nyungan,kux,kuka1246,C7,814,Kukatja,nyumputi,ɲumputi,limp,"Peile, Fr Antony R.",limp,Vi,-20.51538798370036,128.0418320166125,NA,NA,NA,NA
+Kukatja,Wati,Pama-Nyungan,kux,kuka1246,C7,814,Kukatja,nyunga,ɲuŋa,soft,"Peile, Fr Antony R.",soft,Adj,-20.51538798370036,128.0418320166125,NA,NA,NA,NA
+Kukatja,Wati,Pama-Nyungan,kux,kuka1246,C7,814,Kukatja,nyunnga,ɲunŋa,soft,"Peile, Fr Antony R.",soft,Adj,-20.51538798370036,128.0418320166125,NA,NA,NA,NA
+Kukatja,Wati,Pama-Nyungan,kux,kuka1246,C7,814,Kukatja,nyuntju yarra,ɲuncu jara,limp,"Peile, Fr Antony R.",limp,Vi,-20.51538798370036,128.0418320166125,NA,NA,NA,NA
+Kukatja,Wati,Pama-Nyungan,kux,kuka1246,C7,814,Kukatja,nyuntjultjarra,ɲunculcara,firm,"Peile, Fr Antony R.",firm,Adj,-20.51538798370036,128.0418320166125,NA,NA,NA,NA
+Kukatja,Wati,Pama-Nyungan,kux,kuka1246,C7,814,Kukatja,nyunya,ɲuɲa,soft,"Peile, Fr Antony R.",soft,Adj,-20.51538798370036,128.0418320166125,NA,NA,NA,NA
+Kukatja,Wati,Pama-Nyungan,kux,kuka1246,C7,814,Kukatja,nyuri,ɲuɹi,soft,"Peile, Fr Antony R.",soft,Adj,-20.51538798370036,128.0418320166125,NA,NA,NA,NA
+Kukatja,Wati,Pama-Nyungan,kux,kuka1246,C7,814,Kukatja,nyuunnga,ɲuːnŋa,soft,"Peile, Fr Antony R.",soft,Adj,-20.51538798370036,128.0418320166125,NA,NA,NA,NA
+Kukatja,Wati,Pama-Nyungan,kux,kuka1246,C7,814,Kukatja,palytjulkati,paʎculkati,limp,"Peile, Fr Antony R.",limp,Vi,-20.51538798370036,128.0418320166125,NA,NA,NA,NA
+Kukatja,Wati,Pama-Nyungan,kux,kuka1246,C7,814,Kukatja,pati,pati,stiff,"Peile, Fr Antony R.",stiff,Adj,-20.51538798370036,128.0418320166125,NA,NA,NA,NA
+Kukatja,Wati,Pama-Nyungan,kux,kuka1246,C7,814,Kukatja,piilwaru,piːlwaɹu,hard,"Peile, Fr Antony R.",hard?,nom,-20.51538798370036,128.0418320166125,NA,NA,NA,NA
+Kukatja,Wati,Pama-Nyungan,kux,kuka1246,C7,814,Kukatja,kataparni,katapaɳi,bald,"Peile, Fr Antony R.",bald,Adj,-20.51538798370036,128.0418320166125,NA,NA,NA,NA
+Kukatja,Wati,Pama-Nyungan,kux,kuka1246,C7,814,Kukatja,kata kampu,kata kampu,bald,"Peile, Fr Antony R.",bald head,Adj,-20.51538798370036,128.0418320166125,NA,NA,NA,NA
+Kukatja,Wati,Pama-Nyungan,kux,kuka1246,C7,814,Kukatja,kata lingki,kata liŋki,bald,"Peile, Fr Antony R.",bald head,Adj,-20.51538798370036,128.0418320166125,NA,NA,NA,NA
+Kukatja,Wati,Pama-Nyungan,kux,kuka1246,C7,814,Kukatja,kata marawuyuru,kata maɹawujuɹu,bald,"Peile, Fr Antony R.",bald head,Adj,-20.51538798370036,128.0418320166125,NA,NA,NA,NA
+Kukatja,Wati,Pama-Nyungan,kux,kuka1246,C7,814,Kukatja,kata mirilyi,kata miɹiʎi,bald,"Peile, Fr Antony R.",bald head,Adj,-20.51538798370036,128.0418320166125,NA,NA,NA,NA
+Kukatja,Wati,Pama-Nyungan,kux,kuka1246,C7,814,Kukatja,kata pangu-pangu,kata paŋu-paŋu,bald,"Peile, Fr Antony R.",bald head,Adj,-20.51538798370036,128.0418320166125,NA,NA,NA,NA
+Kukatja,Wati,Pama-Nyungan,kux,kuka1246,C7,814,Kukatja,kata pilitji,kata pilici,bald,"Peile, Fr Antony R.",bald head,Adj,-20.51538798370036,128.0418320166125,NA,NA,NA,NA
+Kukatja,Wati,Pama-Nyungan,kux,kuka1246,C7,814,Kukatja,kata purliyuru,kata puɭijuɹu,bald,"Peile, Fr Antony R.",bald head,Adj,-20.51538798370036,128.0418320166125,NA,NA,NA,NA
+Kukatja,Wati,Pama-Nyungan,kux,kuka1246,C7,814,Kukatja,kata rupuny-rupunypa,kata ɹupuɲ-ɹupuɲpa,bald,"Peile, Fr Antony R.",bald head,Adj,-20.51538798370036,128.0418320166125,NA,NA,NA,NA
+Kukatja,Wati,Pama-Nyungan,kux,kuka1246,C7,814,Kukatja,kata tali,kata tali,bald,"Peile, Fr Antony R.",bald head,Adj,-20.51538798370036,128.0418320166125,NA,NA,NA,NA
+Kukatja,Wati,Pama-Nyungan,kux,kuka1246,C7,814,Kukatja,kata tanya,kata taɲa,bald,"Peile, Fr Antony R.",bald head,Adj,-20.51538798370036,128.0418320166125,NA,NA,NA,NA
+Kukatja,Wati,Pama-Nyungan,kux,kuka1246,C7,814,Kukatja,kata tjarntiri,kata caɳtiɹi,bald,"Peile, Fr Antony R.",bald head,Adj,-20.51538798370036,128.0418320166125,NA,NA,NA,NA
+Kukatja,Wati,Pama-Nyungan,kux,kuka1246,C7,814,Kukatja,kata yurninypa,kata juɳiɲpa,bald,"Peile, Fr Antony R.",bald head,Adj,-20.51538798370036,128.0418320166125,NA,NA,NA,NA
+Kukatja,Wati,Pama-Nyungan,kux,kuka1246,C7,814,Kukatja,kataparni,katapaɳi,bald,"Peile, Fr Antony R.",bald head,Adj,-20.51538798370036,128.0418320166125,NA,NA,NA,NA
+Kukatja,Wati,Pama-Nyungan,kux,kuka1246,C7,814,Kukatja,kilin,kilin,clean,"Peile, Fr Antony R.",clean,Adj,-20.51538798370036,128.0418320166125,NA,NA,NA,NA
+Kukatja,Wati,Pama-Nyungan,kux,kuka1246,C7,814,Kukatja,kiwarnpa,kiwaɳpa,firm,"Peile, Fr Antony R.",firm,Adj,-20.51538798370036,128.0418320166125,NA,NA,NA,NA
+Kukatja,Wati,Pama-Nyungan,kux,kuka1246,C7,814,Kukatja,kulinypa,kuliɲpa,sharp,"Peile, Fr Antony R.",sharp (taste),nom,-20.51538798370036,128.0418320166125,NA,NA,NA,NA
+Kukatja,Wati,Pama-Nyungan,kux,kuka1246,C7,814,Kukatja,kurnpu,kuɳpu,tough,"Peile, Fr Antony R.",tough (materials),nom,-20.51538798370036,128.0418320166125,NA,NA,NA,NA
+Mbabaram,Paman,Pama-Nyungan,vmb,mbab1239,Y115,661,Mbabaram,dɨm,tɨm,hard,RMW Dixon,hard (e.g. wood),Adj,-17.21059784634545,144.6573104758481,NA,NA,NA,NA
+Mbabaram,Paman,Pama-Nyungan,vmb,mbab1239,Y115,661,Mbabaram,(a)nwɛ:rr,(a)nwɛːr,soft,RMW Dixon,soft (e.g. wood),Adj,-17.21059784634545,144.6573104758481,NA,NA,NA,NA
+Mbabaram,Paman,Pama-Nyungan,vmb,mbab1239,Y115,661,Mbabaram,arrbay,arpaj,sharp,RMW Dixon,sharp (e.g. axe),Adj,-17.21059784634545,144.6573104758481,NA,NA,NA,NA
+Mbabaram,Paman,Pama-Nyungan,vmb,mbab1239,Y115,661,Mbabaram,mulbún,mulpún,blunt,RMW Dixon,blunt,Adj,-17.21059784634545,144.6573104758481,NA,NA,NA,NA
+Ng'goi Mwoi,Bandjalangic,Pama-Nyungan,NA,band1339,NA,578,Ng'goi Mwoi,kud-djai,kud-djai,smooth,"Hanlon, W.E",smooth,Adj,-28.163998,152.801352,NA,NA,NA,NA
+Ng'goi Mwoi,Bandjalangic,Pama-Nyungan,NA,band1339,NA,578,Ng'goi Mwoi,kun'yeen,kun'jeːn,tough,"Hanlon, W.E",tough,NA,-28.163998,152.801352,NA,NA,NA,NA
+Ng'goi Mwoi,Bandjalangic,Pama-Nyungan,NA,band1339,NA,578,Ng'goi Mwoi,woogin-yinah,woːgin-jinah,sharp,"Hanlon, W.E",sharp,Adj,-28.163998,152.801352,NA,NA,NA,NA
+Ng'goi Mwoi,Bandjalangic,Pama-Nyungan,NA,band1339,NA,578,Ng'goi Mwoi,kurrabil,kurabil,sharp,"Hanlon, W.E","edge, sharp",Adj,-28.163998,152.801352,NA,NA,NA,NA
+Ng'goi Mwoi,Bandjalangic,Pama-Nyungan,NA,band1339,NA,578,Ng'goi Mwoi,murreen,mureːn,blunt,"Hanlon, W.E",blunt,Adj,-28.163998,152.801352,NA,NA,NA,NA
+Payungu,Kanyara-Mantharta,Pama-Nyungan,bxj,bayu1240,W23,429,Payungu,yiri,jiɹi,sharp,"Austin, Peter",sharp,Adj,-24.01509472942779,113.7199742530777,*yiri,N/A,sharp,NA
+Payungu,Kanyara-Mantharta,Pama-Nyungan,bxj,bayu1240,W23,429,Payungu,kayarra,kajara,hard,"Austin, Peter",hard,Adj,-24.01509472942779,113.7199742530777,NA,NA,NA,NA
+Payungu,Kanyara-Mantharta,Pama-Nyungan,bxj,bayu1240,W23,429,Payungu,jarndi-ma,caɳti-ma,limp,"Austin, Peter",to limp,Vi,-24.01509472942779,113.7199742530777,NA,NA,NA,NA
+Payungu,Kanyara-Mantharta,Pama-Nyungan,bxj,bayu1240,W23,429,Payungu,milhamilha,mil̪amil̪a,flat,"Austin, Peter",flat,Adj,-24.01509472942779,113.7199742530777,NA,NA,NA,NA
+Payungu,Kanyara-Mantharta,Pama-Nyungan,bxj,bayu1240,W23,429,Payungu,pinhirr,pin̪ir,bald,"Austin, Peter",bald,Adj,-24.01509472942779,113.7199742530777,NA,NA,NA,NA
+Payungu,Kanyara-Mantharta,Pama-Nyungan,bxj,bayu1240,W23,429,Payungu,pirdilya,piʈiʎa,clean,"Austin, Peter",clean,Adj,-24.01509472942779,113.7199742530777,NA,NA,NA,NA
+Payungu,Kanyara-Mantharta,Pama-Nyungan,bxj,bayu1240,W23,429,Payungu,pirdilya-rni-nma,piʈiʎa-ɳi-nma,clean,"Austin, Peter",to clean,Vtr,-24.01509472942779,113.7199742530777,NA,NA,NA,NA
+Payungu,Kanyara-Mantharta,Pama-Nyungan,bxj,bayu1240,W23,429,Payungu,pulara,pulaɹa,soft,"Austin, Peter",soft,Adj,-24.01509472942779,113.7199742530777,NA,NA,NA,NA
+Payungu,Kanyara-Mantharta,Pama-Nyungan,bxj,bayu1240,W23,429,Payungu,jurirri,cuɹiri,sharp,"Austin, Peter",sharp,Adj,-24.01509472942779,113.7199742530777,*yuri,N/A,sharp,NA
+Payungu,Kanyara-Mantharta,Pama-Nyungan,bxj,bayu1240,W23,429,Payungu,tharndarn,t̪aɳtaɳ,firm,"Austin, Peter",firm (of breasts),Noun,-24.01509472942779,113.7199742530777,NA,NA,NA,NA
+Yidiny,Paman,Pama-Nyungan,yii,yidi1250,Y117,40,Yidiny,diban,tipan,bald,"Dixon, R.M.W",bald head,Adj,-17.11594422180313,145.7736813596025,NA,NA,NA,NA
+Thalanyji,Kanyara-Mantharta,Pama-Nyungan,dhl,dhal1245,W26,318,Thalanyji,jarndi-n,caɳti-n,limp,"Austin, Peter",to limp,Vi,-22.51113458754001,114.7073317721085,NA,NA,NA,NA
+Thalanyji,Kanyara-Mantharta,Pama-Nyungan,dhl,dhal1245,W26,318,Thalanyji,mankarr,mankar,hard,"Austin, Peter",hard,Adj,-22.51113458754001,114.7073317721085,NA,NA,NA,NA
+Thalanyji,Kanyara-Mantharta,Pama-Nyungan,dhl,dhal1245,W26,318,Thalanyji,murral,mural,hard,"Austin, Peter",hard,Adj,-22.51113458754001,114.7073317721085,NA,NA,NA,NA
+Thalanyji,Kanyara-Mantharta,Pama-Nyungan,dhl,dhal1245,W26,318,Thalanyji,pirdilya,piʈiʎa,clean,"Austin, Peter",clean,Adj,-22.51113458754001,114.7073317721085,NA,NA,NA,NA
+Thalanyji,Kanyara-Mantharta,Pama-Nyungan,dhl,dhal1245,W26,318,Thalanyji,pulara,pulaɹa,soft,"Austin, Peter",soft,Adj,-22.51113458754001,114.7073317721085,NA,NA,NA,NA
+Thalanyji,Kanyara-Mantharta,Pama-Nyungan,dhl,dhal1245,W26,318,Thalanyji,thalha,t̪al̪a,blunt,"Austin, Peter",blunt,Adj,-22.51113458754001,114.7073317721085,NA,NA,NA,NA
+Thalanyji,Kanyara-Mantharta,Pama-Nyungan,dhl,dhal1245,W26,318,Thalanyji,thinthan,t̪int̪an,blunt,"Austin, Peter",blunt,Adj,-22.51113458754001,114.7073317721085,NA,NA,NA,NA
+Thalanyji,Kanyara-Mantharta,Pama-Nyungan,dhl,dhal1245,W26,318,Thalanyji,yirralya,jiraʎa,sharp,"Austin, Peter",sharp,Adj,-22.51113458754001,114.7073317721085,NA,NA,NA,NA
+Payungu,Kanyara-Mantharta,Pama-Nyungan,bxj,bayu1240,W23,429,Payungu,jarndi-ma,caɳti-ma,limp,NA,to limp,Vi,-24.01509472942779,113.7199742530777,NA,NA,NA,NA
+Payungu,Kanyara-Mantharta,Pama-Nyungan,bxj,bayu1240,W23,429,Payungu,jurirri,cuɹiri,sharp,NA,sharp,Adj,-24.01509472942779,113.7199742530777,*yuri,N/A,sharp,NA
+Payungu,Kanyara-Mantharta,Pama-Nyungan,bxj,bayu1240,W23,429,Payungu,kayarra,kajara,hard,NA,hard,Adj,-24.01509472942779,113.7199742530777,NA,NA,NA,NA
+Payungu,Kanyara-Mantharta,Pama-Nyungan,bxj,bayu1240,W23,429,Payungu,kugarn,kukaɳ,soft,NA,soft,Adj,-24.01509472942779,113.7199742530777,NA,NA,NA,NA
+Payungu,Kanyara-Mantharta,Pama-Nyungan,bxj,bayu1240,W23,429,Payungu,milhamilha,mil̪amil̪a,flat,NA,flat,Adj,-24.01509472942779,113.7199742530777,NA,NA,NA,NA
+Payungu,Kanyara-Mantharta,Pama-Nyungan,bxj,bayu1240,W23,429,Payungu,milhamilha-rri-ma,mil̪amil̪a-ri-ma,flat,NA,to be flat,vi,-24.01509472942779,113.7199742530777,NA,NA,NA,NA
+Payungu,Kanyara-Mantharta,Pama-Nyungan,bxj,bayu1240,W23,429,Payungu,parlgarra,paɭkara,bald,NA,bald,Adj,-24.01509472942779,113.7199742530777,NA,NA,NA,NA
+Payungu,Kanyara-Mantharta,Pama-Nyungan,bxj,bayu1240,W23,429,Payungu,pinhirr,pin̪ir,bald,NA,bald,Adj,-24.01509472942779,113.7199742530777,NA,NA,NA,NA
+Payungu,Kanyara-Mantharta,Pama-Nyungan,bxj,bayu1240,W23,429,Payungu,pirdilya,piʈiʎa,clean,NA,clean,Adj,-24.01509472942779,113.7199742530777,NA,NA,NA,NA
+Payungu,Kanyara-Mantharta,Pama-Nyungan,bxj,bayu1240,W23,429,Payungu,pirdilya-rni-nma,piʈiʎa-ɳi-nma,clean,NA,to clean,vt,-24.01509472942779,113.7199742530777,NA,NA,NA,NA
+Payungu,Kanyara-Mantharta,Pama-Nyungan,bxj,bayu1240,W23,429,Payungu,pulara,pulaɹa,soft,NA,soft,Adj,-24.01509472942779,113.7199742530777,NA,NA,NA,NA
+Payungu,Kanyara-Mantharta,Pama-Nyungan,bxj,bayu1240,W23,429,Payungu,purruwaya,puruwaja,flat,NA,flat,Adj,-24.01509472942779,113.7199742530777,NA,NA,NA,NA
+Payungu,Kanyara-Mantharta,Pama-Nyungan,bxj,bayu1240,W23,429,Payungu,tharndarn,t̪aɳtaɳ,firm,NA,firm (of breasts),n,-24.01509472942779,113.7199742530777,NA,NA,NA,NA
+Payungu,Kanyara-Mantharta,Pama-Nyungan,bxj,bayu1240,W23,429,Payungu,yiri,jiɹi,sharp,NA,sharp,Adj,-24.01509472942779,113.7199742530777,*yiri,N/A,sharp,NA
+Jiwarli,Kanyara-Mantharta,Pama-Nyungan,djl,djiw1239,W28,881,Jiwarli,jarndi-ru,caɳti-ɹu,limp,"Austin, Peter",to limp,Vi,-23.40303400448102,115.133961851332,NA,NA,NA,NA
+Jiwarli,Kanyara-Mantharta,Pama-Nyungan,djl,djiw1239,W28,881,Jiwarli,jirri,ciri,sharp,"Austin, Peter",sharp,Adj,-23.40303400448102,115.133961851332,NA,NA,NA,NA
+Jiwarli,Kanyara-Mantharta,Pama-Nyungan,djl,djiw1239,W28,881,Jiwarli,manthal,mant̪al,rough,"Austin, Peter",rough,Adj,-23.40303400448102,115.133961851332,NA,NA,NA,NA
+Jiwarli,Kanyara-Mantharta,Pama-Nyungan,djl,djiw1239,W28,881,Jiwarli,manthalmanthal,mant̪almant̪al,rough,"Austin, Peter",rough,Adj,-23.40303400448102,115.133961851332,NA,NA,NA,NA
+Jiwarli,Kanyara-Mantharta,Pama-Nyungan,djl,djiw1239,W28,881,Jiwarli,mardangu,maʈaŋu,hard,"Austin, Peter",hard,Adj,-23.40303400448102,115.133961851332,NA,NA,NA,NA
+Jiwarli,Kanyara-Mantharta,Pama-Nyungan,djl,djiw1239,W28,881,Jiwarli,mirlbi,miɭpi,flat,"Austin, Peter",flat,Adj,-23.40303400448102,115.133961851332,NA,NA,NA,NA
+Jiwarli,Kanyara-Mantharta,Pama-Nyungan,djl,djiw1239,W28,881,Jiwarli,muurr,muːr,tough,"Austin, Peter",tough,n,-23.40303400448102,115.133961851332,NA,NA,NA,NA
+Jiwarli,Kanyara-Mantharta,Pama-Nyungan,djl,djiw1239,W28,881,Jiwarli,nyarrara,ɲaraɹa,clean,"Austin, Peter",clean,Adj,-23.40303400448102,115.133961851332,NA,NA,NA,NA
+Jiwarli,Kanyara-Mantharta,Pama-Nyungan,djl,djiw1239,W28,881,Jiwarli,parlgarra,paɭkara,bald,"Austin, Peter",bald,Adj,-23.40303400448102,115.133961851332,NA,NA,NA,NA
+Jiwarli,Kanyara-Mantharta,Pama-Nyungan,djl,djiw1239,W28,881,Jiwarli,pimbi,pimpi,flat,"Austin, Peter",flat,Adj,-23.40303400448102,115.133961851332,NA,NA,NA,NA
+Jiwarli,Kanyara-Mantharta,Pama-Nyungan,djl,djiw1239,W28,881,Jiwarli,pirdilya,piʈiʎa,clean,"Austin, Peter",clean,Adj,-23.40303400448102,115.133961851332,NA,NA,NA,NA
+Jiwarli,Kanyara-Mantharta,Pama-Nyungan,djl,djiw1239,W28,881,Jiwarli,pirdilya-rni-ru,piʈiʎa-ɳi-ɹu,clean,"Austin, Peter",to clean,vt,-23.40303400448102,115.133961851332,NA,NA,NA,NA
+Jiwarli,Kanyara-Mantharta,Pama-Nyungan,djl,djiw1239,W28,881,Jiwarli,pulara,pulaɹa,soft,"Austin, Peter",soft,Adj,-23.40303400448102,115.133961851332,NA,NA,NA,NA
+Jiwarli,Kanyara-Mantharta,Pama-Nyungan,djl,djiw1239,W28,881,Jiwarli,waru,waɹu,hard,"Austin, Peter",hard,Adj,-23.40303400448102,115.133961851332,NA,NA,NA,NA
+Martuwangka,Wati,Pama-Nyungan,mpj,mart1256,A86*,681,Martu Wangka,karalypa,kaɹaʎpa,blunt,NA,blunt,Adj,-23.10367525559838,124.0861312406055,NA,NA,NA,NA
+Yidiny,Paman,Pama-Nyungan,yii,yidi1250,Y117,40,Yidiny,juri,cuɹi,sharp,"Dixon, R.M.W","sharp (e.g. axe, spear, stick)",Adj,-17.11594422180313,145.7736813596025,*yuri,N/A,sharp,NA
+Yidiny,Paman,Pama-Nyungan,yii,yidi1250,Y117,40,Yidiny,julu,culu,blunt,"Dixon, R.M.W",blunt,Adj,-17.11594422180313,145.7736813596025,NA,NA,NA,NA
+Yidiny,Paman,Pama-Nyungan,yii,yidi1250,Y117,40,Yidiny,mulmbu,mulmpu,blunt,"Dixon, R.M.W",blunt,Adj,-17.11594422180313,145.7736813596025,NA,NA,NA,NA
+Yidiny,Paman,Pama-Nyungan,yii,yidi1250,Y117,40,Yidiny,dara,taɹa,stiff,"Dixon, R.M.W",stiff (e.g. stiff leg or erect penis),Adj,-17.11594422180313,145.7736813596025,NA,NA,NA,NA
+Yidiny,Paman,Pama-Nyungan,yii,yidi1250,Y117,40,Yidiny,mada,mata,soft,"Dixon, R.M.W","soft (e.g. wood, ground, food, grass)",Adj,-17.11594422180313,145.7736813596025,NA,NA,NA,NA
+Yidiny,Paman,Pama-Nyungan,yii,yidi1250,Y117,40,Yidiny,wama,wama,soft,"Dixon, R.M.W","soft (e.g. wood, ground, food, grass)",Adj,-17.11594422180313,145.7736813596025,NA,NA,NA,NA
+Yidiny,Paman,Pama-Nyungan,yii,yidi1250,Y117,40,Yidiny,jagajagarV,cakacakaɹə,rough,"Dixon, R.M.W",rough,Adj,-17.11594422180313,145.7736813596025,NA,NA,NA,NA
+Yidiny,Paman,Pama-Nyungan,yii,yidi1250,Y117,40,Yidiny,yagarrV,jakarə,rough,"Dixon, R.M.W",rough,Adj,-17.11594422180313,145.7736813596025,NA,NA,NA,NA
+Yidiny,Paman,Pama-Nyungan,yii,yidi1250,Y117,40,Yidiny,mulany,mulaɲ,smooth,"Dixon, R.M.W","smooth (e.g. a fine kin), slippery (e.g. stone, place)",Adj,-17.11594422180313,145.7736813596025,NA,NA,NA,NA
+Yidiny,Paman,Pama-Nyungan,yii,yidi1250,Y117,40,Yidiny,diban,tipan,bald,"Dixon, R.M.W",bald head,Adj,-17.11594422180313,145.7736813596025,NA,NA,NA,NA
+Yidiny,Paman,Pama-Nyungan,yii,yidi1250,Y117,40,Yidiny,gambi,kampi,flat,"Dixon, R.M.W",flat,Adj,-17.11594422180313,145.7736813596025,NA,NA,NA,NA
+Yidiny,Paman,Pama-Nyungan,yii,yidi1250,Y117,40,Yidiny,murjany,muʈjaɲ,flat,"Dixon, R.M.W",flat,Adj,-17.11594422180313,145.7736813596025,NA,NA,NA,NA
+Martuwangka,Wati,Pama-Nyungan,mpj,mart1256,A86*,681,Martu Wangka,puwalypa,puwaʎpa,blunt,NA,dull,Adj,-23.10367525559838,124.0861312406055,NA,NA,NA,NA
+Martuwangka,Wati,Pama-Nyungan,mpj,mart1256,A86*,681,Martu Wangka,nantirrpa,nantirpa,hard,NA,"hard, tough",Adj,-23.10367525559838,124.0861312406055,NA,NA,NA,NA
+Martuwangka,Wati,Pama-Nyungan,mpj,mart1256,A86*,681,Martu Wangka,wiltu,wiltu,hard,NA,"hard, loud",Adj,-23.10367525559838,124.0861312406055,NA,NA,NA,NA
+Warlpiri,Ngumpin-Yapa,NA,wbp,warl1254,C41*,192,Warlpiri,carntiny2apa,caɳtiɲcaɳtiɲapa,limp,NA,limp,Vi,-20.58720087414583,131.9617683359527,NA,NA,NA,NA
+Warlpiri,Ngumpin-Yapa,NA,wbp,warl1254,C41*,192,Warlpiri,ciwirliciwirli,ciwiɭiciwiɭi,limp,NA,limp,Vi,-20.58720087414583,131.9617683359527,NA,NA,NA,NA
+Warlpiri,Ngumpin-Yapa,NA,wbp,warl1254,C41*,192,Warlpiri,nyarnturarnturu+,ɲaɳtuɹaɳtuɹu+,stiff,NA,become stiff,NA,-20.58720087414583,131.9617683359527,NA,NA,NA,NA
+Warlpiri,Ngumpin-Yapa,NA,wbp,warl1254,C41*,192,Warlpiri,rdapu,ʈapu,solid,NA,solid,Adj,-20.58720087414583,131.9617683359527,NA,NA,NA,NA
+Warlpiri,Ngumpin-Yapa,NA,wbp,warl1254,C41*,192,Warlpiri,yulu,julu,limp,NA,limp,Vi,-20.58720087414583,131.9617683359527,NA,NA,NA,NA
+Warlpiri,Ngumpin-Yapa,NA,wbp,warl1254,C41*,192,Warlpiri,yulu,julu,limp,NA,slack 6j,Vi,-20.58720087414583,131.9617683359527,NA,NA,NA,NA
+Martuwangka,Wati,Pama-Nyungan,mpj,mart1256,A86*,681,Martu Wangka,jalinypa,caliɲpa,sharp,NA,sharp (M),Adj,-23.10367525559838,124.0861312406055,NA,NA,NA,NA
+Martuwangka,Wati,Pama-Nyungan,mpj,mart1256,A86*,681,Martu Wangka,kapararra,kapaɹara,shiny,NA,"shiny, smooth",Adj,-23.10367525559838,124.0861312406055,NA,NA,NA,NA
+Martuwangka,Wati,Pama-Nyungan,mpj,mart1256,A86*,681,Martu Wangka,jiralypa,ciɹalpa,slippery,NA,slippery,adj,-23.10367525559838,124.0861312406055,NA,NA,NA,NA
+Martuwangka,Wati,Pama-Nyungan,mpj,mart1256,A86*,681,Martu Wangka,kapuraly,kapuɹaʎ,slippery,NA,"slippery, smooth",adj,-23.10367525559838,124.0861312406055,NA,NA,NA,NA
+Martuwangka,Wati,Pama-Nyungan,mpj,mart1256,A86*,681,Martu Wangka,jarntirri,caɳtiri,smooth,NA,smooth,Adj,-23.10367525559838,124.0861312406055,NA,NA,NA,NA
+Martuwangka,Wati,Pama-Nyungan,mpj,mart1256,A86*,681,Martu Wangka,jiralypa,ciɹaʎpa,smooth,NA,smooth,Adj,-23.10367525559838,124.0861312406055,NA,NA,NA,NA
+Martuwangka,Wati,Pama-Nyungan,mpj,mart1256,A86*,681,Martu Wangka,runyu,ɹuɲu,soft,NA,soft,Adj,-23.10367525559838,124.0861312406055,NA,NA,NA,NA
+Martuwangka,Wati,Pama-Nyungan,mpj,mart1256,A86*,681,Martu Wangka,wiltu,wiltu,stiff,NA,stiff,Adj,-23.10367525559838,124.0861312406055,NA,NA,NA,NA
+Wadjug,Southwest (Nyungar),Pama-Nyungan,xwj,NA,W9,174,Wajuk,ngunyak,nguɲak,soft,"Mathews, Robert Hamilton",soft,Adj,-32.039107418933916,116.003125640008,NA,NA,NA,NA
+Ngawun,Mayi,Pama-Nyungan,nxn,ngaw1240,G17,528,Ngawun,kundjurrkundjurr,kundjurkundjur,hard,"Breen, Gavan",hard,Adj,-20.00086143838962,141.7753193295444,NA,NA,NA,NA
+Mayi-Kulan,Mayi,Pama-Nyungan,mnt,mayk1239,G25,666,Mayi-Kulan,(ngandingandi),ŋantiŋanti,hard,"Breen, Gavan",hard,Adj,-19.08362819844932,142.041880858301,NA,NA,NA,NA
+Mayi-Kulan,Mayi,Pama-Nyungan,mnt,mayk1239,G25,666,Mayi-Kulan,(tjapurru),capuru,sharp,"Breen, Gavan",sharp,Adj,-19.08362819844932,142.041880858301,NA,NA,NA,NA
+Mayi-Kulan,Mayi,Pama-Nyungan,mnt,mayk1239,G25,666,Mayi-Kulan,yiyan,jijan,bald,"Breen, Gavan",bald head,Adj,-19.08362819844932,142.041880858301,NA,NA,NA,NA
+Mayi-Yapi,Mayi,Pama-Nyungan,mnt,mayk1239,G20,662,Mayi-Yapi,kunarri,kunari,bald,"Breen, Gavan",bald head,Adj,-19.11953259794748,140.0751513651843,NA,NA,NA,NA
+Kukatja,Wati,Pama-Nyungan,kux,kuka1246,C7,814,Kukatja,zz_yatu-yatu,jatu-jatu,soft,"Valiquette, Hillaire amd Anthony Peile",soft,Adj,-20.51538798370036,128.0418320166125,NA,NA,NA,NA
+Kukatja,Wati,Pama-Nyungan,kux,kuka1246,C7,814,Kukatja,lalypa,laʎpa,flat,"Valiquette, Hillaire amd Anthony Peile",flat,Adj,-20.51538798370036,128.0418320166125,NA,NA,NA,NA
+Kukatja,Wati,Pama-Nyungan,kux,kuka1246,C7,814,Kukatja,lanurriwa,lanuriwa,stiff,"Valiquette, Hillaire amd Anthony Peile",become stiff (like spinifex),Vi,-20.51538798370036,128.0418320166125,NA,NA,NA,NA
+Kukatja,Wati,Pama-Nyungan,kux,kuka1246,C7,814,Kukatja,mangkaparni,maŋkapaɳi,bald,"Valiquette, Hillaire amd Anthony Peile",bald,Adj,-20.51538798370036,128.0418320166125,NA,NA,NA,NA
+Kukatja,Wati,Pama-Nyungan,kux,kuka1246,C7,814,Kukatja,marrka,marka,hard,"Valiquette, Hillaire amd Anthony Peile",hard (not soft),Nstat,-20.51538798370036,128.0418320166125,NA,NA,NA,NA
+Kukatja,Wati,Pama-Nyungan,kux,kuka1246,C7,814,Kukatja,marrku,marku,soft,"Valiquette, Hillaire amd Anthony Peile",soft,Adj,-20.51538798370036,128.0418320166125,NA,NA,NA,NA
+Kukatja,Wati,Pama-Nyungan,kux,kuka1246,C7,814,Kukatja,milytja,miʎca,soft,"Valiquette, Hillaire amd Anthony Peile",soft,Adj,-20.51538798370036,128.0418320166125,NA,NA,NA,NA
+Kukatja,Wati,Pama-Nyungan,kux,kuka1246,C7,814,Kukatja,kapaly(pa),kapaʎ(pa),soft,"Valiquette, Hillaire amd Anthony Peile",soft,Adj,-20.51538798370036,128.0418320166125,NA,NA,NA,NA
+Kukatja,Wati,Pama-Nyungan,kux,kuka1246,C7,814,Kukatja,karaly(pa),kaɹaʎ(pa),blunt,"Valiquette, Hillaire amd Anthony Peile",blunt (but not ref. to spears),Nstat,-20.51538798370036,128.0418320166125,NA,NA,NA,NA
+Kukatja,Wati,Pama-Nyungan,kux,kuka1246,C7,814,Kukatja,karaly(pa),kaɹaʎ(pa),stiff,"Valiquette, Hillaire amd Anthony Peile",stiff,Adj,-20.51538798370036,128.0418320166125,NA,NA,NA,NA
+Kukatja,Wati,Pama-Nyungan,kux,kuka1246,C7,814,Kukatja,nantirr(pa),nantir(pa),stiff,"Valiquette, Hillaire amd Anthony Peile",stiff (having a fit),Nstat,-20.51538798370036,128.0418320166125,NA,NA,NA,NA
+Kukatja,Wati,Pama-Nyungan,kux,kuka1246,C7,814,Kukatja,nantirr(pa),nantir(pa),tough,"Valiquette, Hillaire amd Anthony Peile",tough (ref. meat),Nstat,-20.51538798370036,128.0418320166125,NA,NA,NA,NA
+Kukatja,Wati,Pama-Nyungan,kux,kuka1246,C7,814,Kukatja,nantularriwa,nantulariwa,stiff,"Valiquette, Hillaire amd Anthony Peile",become stiff,Vi,-20.51538798370036,128.0418320166125,NA,NA,NA,NA
+Kukatja,Wati,Pama-Nyungan,kux,kuka1246,C7,814,Kukatja,nantun(pa),nantun(pa),stiff,"Valiquette, Hillaire amd Anthony Peile",stiff,Adj,-20.51538798370036,128.0418320166125,NA,NA,NA,NA
+Kukatja,Wati,Pama-Nyungan,kux,kuka1246,C7,814,Kukatja,narnati,naɳati,limp,"Valiquette, Hillaire amd Anthony Peile",limp,Vi,-20.51538798370036,128.0418320166125,NA,NA,NA,NA
+Kukatja,Wati,Pama-Nyungan,kux,kuka1246,C7,814,Kukatja,narntati,naɳtati,limp,"Valiquette, Hillaire amd Anthony Peile",limp,Vi,-20.51538798370036,128.0418320166125,NA,NA,NA,NA
+Kukatja,Wati,Pama-Nyungan,kux,kuka1246,C7,814,Kukatja,narntungurriwa,naɳtuŋuriwa,stiff,"Valiquette, Hillaire amd Anthony Peile",become stiff,Vi,-20.51538798370036,128.0418320166125,NA,NA,NA,NA
+Kukatja,Wati,Pama-Nyungan,kux,kuka1246,C7,814,Kukatja,nganalpu,ŋanalpu,stiff,"Valiquette, Hillaire amd Anthony Peile",stiff,Adj,-20.51538798370036,128.0418320166125,NA,NA,NA,NA
+Kukatja,Wati,Pama-Nyungan,kux,kuka1246,C7,814,Kukatja,nganalpurriwa,ŋanalpuriwa,stiff,"Valiquette, Hillaire amd Anthony Peile",become stiff,Vi,-20.51538798370036,128.0418320166125,NA,NA,NA,NA
+Kukatja,Wati,Pama-Nyungan,kux,kuka1246,C7,814,Kukatja,nganngan(pa),ŋanŋan(pa),soft,"Valiquette, Hillaire amd Anthony Peile",soft,Adj,-20.51538798370036,128.0418320166125,NA,NA,NA,NA
+Kukatja,Wati,Pama-Nyungan,kux,kuka1246,C7,814,Kukatja,ngunyul(pa),ŋuɲul(pa),soft,"Valiquette, Hillaire amd Anthony Peile",softly,Adj,-20.51538798370036,128.0418320166125,NA,NA,NA,NA
+Kukatja,Wati,Pama-Nyungan,kux,kuka1246,C7,814,Kukatja,nyalytjarn(pa),ɲaʎcaɳ(pa),blunt,"Valiquette, Hillaire amd Anthony Peile",blunt (ref. to spears and other instruments),Nstat,-20.51538798370036,128.0418320166125,NA,NA,NA,NA
+Kukatja,Wati,Pama-Nyungan,kux,kuka1246,C7,814,Kukatja,nyanyarr(pa),ɲaɲar(pa),flat,"Valiquette, Hillaire amd Anthony Peile",flat,Adj,-20.51538798370036,128.0418320166125,NA,NA,NA,NA
+Kukatja,Wati,Pama-Nyungan,kux,kuka1246,C7,814,Kukatja,nyingkil-nyingkil(pa),ɲiŋkil-ɲiŋkil(pa),rough,"Valiquette, Hillaire amd Anthony Peile",rough (to touch),Nstat,-20.51538798370036,128.0418320166125,NA,NA,NA,NA
+Kukatja,Wati,Pama-Nyungan,kux,kuka1246,C7,814,Kukatja,nyintu-nyintu yarra,ɲintu-ɲintu jara,limp,"Valiquette, Hillaire amd Anthony Peile",limp (like an animal that's been hit in the leg),Vi,-20.51538798370036,128.0418320166125,NA,NA,NA,NA
+Kukatja,Wati,Pama-Nyungan,kux,kuka1246,C7,814,Kukatja,nyintuti,ɲintuti,limp,"Valiquette, Hillaire amd Anthony Peile",limp,Vi,-20.51538798370036,128.0418320166125,NA,NA,NA,NA
+Kukatja,Wati,Pama-Nyungan,kux,kuka1246,C7,814,Kukatja,nyinytji murrpu-murrpu yarra,ɲiɲci murpu-murpu jara,limp,"Valiquette, Hillaire amd Anthony Peile",limp,Vi,-20.51538798370036,128.0418320166125,NA,NA,NA,NA
+Kukatja,Wati,Pama-Nyungan,kux,kuka1246,C7,814,Kukatja,nyinytji-nyinytji yarra,ɲiɲci-ɲiɲci jara,limp,"Valiquette, Hillaire amd Anthony Peile",limp,Vi,-20.51538798370036,128.0418320166125,NA,NA,NA,NA
+Kukatja,Wati,Pama-Nyungan,kux,kuka1246,C7,814,Kukatja,nyinyuti,ɲiɲuti,limp,"Valiquette, Hillaire amd Anthony Peile",limp,Vi,-20.51538798370036,128.0418320166125,NA,NA,NA,NA
+Kukatja,Wati,Pama-Nyungan,kux,kuka1246,C7,814,Kukatja,nyumputi,ɲumputi,limp,"Valiquette, Hillaire amd Anthony Peile",limp,Vi,-20.51538798370036,128.0418320166125,NA,NA,NA,NA
+Kukatja,Wati,Pama-Nyungan,kux,kuka1246,C7,814,Kukatja,nyunnga,ɲunŋa,soft,"Valiquette, Hillaire amd Anthony Peile",soft,Adj,-20.51538798370036,128.0418320166125,NA,NA,NA,NA
+Kukatja,Wati,Pama-Nyungan,kux,kuka1246,C7,814,Kukatja,nyuntju yarra,ɲuncu jara,limp,"Valiquette, Hillaire amd Anthony Peile",limp,Vi,-20.51538798370036,128.0418320166125,NA,NA,NA,NA
+Kukatja,Wati,Pama-Nyungan,kux,kuka1246,C7,814,Kukatja,nyunya,ɲuɲa,soft,"Valiquette, Hillaire amd Anthony Peile",soft,Adj,-20.51538798370036,128.0418320166125,NA,NA,NA,NA
+Kukatja,Wati,Pama-Nyungan,kux,kuka1246,C7,814,Kukatja,nyuri,ɲuɹi,soft,"Valiquette, Hillaire amd Anthony Peile",soft,Adj,-20.51538798370036,128.0418320166125,NA,NA,NA,NA
+Kukatja,Wati,Pama-Nyungan,kux,kuka1246,C7,814,Kukatja,paanypaany(pa),paːɲpaːɲ(pa),soft,"Valiquette, Hillaire amd Anthony Peile",soft,Adj,-20.51538798370036,128.0418320166125,NA,NA,NA,NA
+Kukatja,Wati,Pama-Nyungan,kux,kuka1246,C7,814,Kukatja,pakarr(pa),pakar(pa),rough,"Valiquette, Hillaire amd Anthony Peile",rough,Adj,-20.51538798370036,128.0418320166125,NA,NA,NA,NA
+Kukatja,Wati,Pama-Nyungan,kux,kuka1246,C7,814,Kukatja,palytjalarriwa,paʎcalariwa,stiff,"Valiquette, Hillaire amd Anthony Peile",become stiff from cold,Vi,-20.51538798370036,128.0418320166125,NA,NA,NA,NA
+Kukatja,Wati,Pama-Nyungan,kux,kuka1246,C7,814,Kukatja,pati,pati,stiff,"Valiquette, Hillaire amd Anthony Peile",stiff,Adj,-20.51538798370036,128.0418320166125,NA,NA,NA,NA
+Kukatja,Wati,Pama-Nyungan,kux,kuka1246,C7,814,Kukatja,pati,pati,blunt,"Valiquette, Hillaire amd Anthony Peile",blunt (ref. to spears and other instruments),Nstat,-20.51538798370036,128.0418320166125,NA,NA,NA,NA
+Kukatja,Wati,Pama-Nyungan,kux,kuka1246,C7,814,Kukatja,karurriwa,kaɹuriwa,stiff,"Valiquette, Hillaire amd Anthony Peile",become stiff from a fit,Vi,-20.51538798370036,128.0418320166125,NA,NA,NA,NA
+Kukatja,Wati,Pama-Nyungan,kux,kuka1246,C7,814,Kukatja,kata kampiny(pa),kata kampiɲ(pa),bald,"Valiquette, Hillaire amd Anthony Peile",bald head,Adj,-20.51538798370036,128.0418320166125,NA,NA,NA,NA
+Kukatja,Wati,Pama-Nyungan,kux,kuka1246,C7,814,Kukatja,kata lingki,kata liŋki,bald,"Valiquette, Hillaire amd Anthony Peile",bald head,Adj,-20.51538798370036,128.0418320166125,NA,NA,NA,NA
+Kukatja,Wati,Pama-Nyungan,kux,kuka1246,C7,814,Kukatja,kata marawuyuru,kata maɹawujuɹu,bald,"Valiquette, Hillaire amd Anthony Peile",bald head,Adj,-20.51538798370036,128.0418320166125,NA,NA,NA,NA
+Kukatja,Wati,Pama-Nyungan,kux,kuka1246,C7,814,Kukatja,kata purliyuru,kata puɭijuɹu,bald,"Valiquette, Hillaire amd Anthony Peile",bald head,Adj,-20.51538798370036,128.0418320166125,NA,NA,NA,NA
+Kukatja,Wati,Pama-Nyungan,kux,kuka1246,C7,814,Kukatja,kata tjarntiri,kata caɳtiɹi,bald,"Valiquette, Hillaire amd Anthony Peile",bald head,Adj,-20.51538798370036,128.0418320166125,NA,NA,NA,NA
+Kukatja,Wati,Pama-Nyungan,kux,kuka1246,C7,814,Kukatja,kata yurniny(pa),kata juɳiɲ(pa),bald,"Valiquette, Hillaire amd Anthony Peile",bald head,Adj,-20.51538798370036,128.0418320166125,NA,NA,NA,NA
+Kukatja,Wati,Pama-Nyungan,kux,kuka1246,C7,814,Kukatja,kataparni,katapaɳi,bald,"Valiquette, Hillaire amd Anthony Peile",bald,Adj,-20.51538798370036,128.0418320166125,NA,NA,NA,NA
+Kukatja,Wati,Pama-Nyungan,kux,kuka1246,C7,814,Kukatja,raka-rakarriwa,ɹaka-ɹakariwa,tough,"Valiquette, Hillaire amd Anthony Peile",be tough,Vi,-20.51538798370036,128.0418320166125,NA,NA,NA,NA
+Kukatja,Wati,Pama-Nyungan,kux,kuka1246,C7,814,Kukatja,tarlki,taɭki,sharp,"Valiquette, Hillaire amd Anthony Peile",sharp,Adj,-20.51538798370036,128.0418320166125,NA,NA,NA,NA
+Kukatja,Wati,Pama-Nyungan,kux,kuka1246,C7,814,Kukatja,tarntukukarriwa,taɳtukukariwa,stiff,"Valiquette, Hillaire amd Anthony Peile",become stiff in death,Vi,-20.51538798370036,128.0418320166125,NA,NA,NA,NA
+Kukatja,Wati,Pama-Nyungan,kux,kuka1246,C7,814,Kukatja,tarra-tarra,tara-tara,flat,"Valiquette, Hillaire amd Anthony Peile",flat,Adj,-20.51538798370036,128.0418320166125,NA,NA,NA,NA
+Kukatja,Wati,Pama-Nyungan,kux,kuka1246,C7,814,Kukatja,tarrmal(pa),tarmal(pa),stiff,"Valiquette, Hillaire amd Anthony Peile",stiff,Adj,-20.51538798370036,128.0418320166125,NA,NA,NA,NA
+Kukatja,Wati,Pama-Nyungan,kux,kuka1246,C7,814,Kukatja,tartukukarriwa,taʈukukariwa,stiff,"Valiquette, Hillaire amd Anthony Peile",become stiff,Vi,-20.51538798370036,128.0418320166125,NA,NA,NA,NA
+Kukatja,Wati,Pama-Nyungan,kux,kuka1246,C7,814,Kukatja,tartukukarriwa,taʈukukariwa,stiff,"Valiquette, Hillaire amd Anthony Peile",become stiff in death (rigor mortis),Vi,-20.51538798370036,128.0418320166125,NA,NA,NA,NA
+Kukatja,Wati,Pama-Nyungan,kux,kuka1246,C7,814,Kukatja,tartukularriwa,taʈukulariwa,stiff,"Valiquette, Hillaire amd Anthony Peile",become stiff,Vi,-20.51538798370036,128.0418320166125,NA,NA,NA,NA
+Kukatja,Wati,Pama-Nyungan,kux,kuka1246,C7,814,Kukatja,tjalkara,calkaɹa,clean,"Valiquette, Hillaire amd Anthony Peile",clean,Adj,-20.51538798370036,128.0418320166125,NA,NA,NA,NA
+Kukatja,Wati,Pama-Nyungan,kux,kuka1246,C7,814,Kukatja,tjangilyi,caŋiʎi,hard,"Valiquette, Hillaire amd Anthony Peile",inflamed,Adj,-20.51538798370036,128.0418320166125,NA,NA,NA,NA
+Kukatja,Wati,Pama-Nyungan,kux,kuka1246,C7,814,Kukatja,kilin(pa),kilin(pa),clean,"Valiquette, Hillaire amd Anthony Peile",clean,Adj,-20.51538798370036,128.0418320166125,NA,NA,NA,NA
+Kukatja,Wati,Pama-Nyungan,kux,kuka1246,C7,814,Kukatja,tjarntin-tjarntin wapati,caɳtin-caɳtin wapati,limp,"Valiquette, Hillaire amd Anthony Peile",limp,Vi,-20.51538798370036,128.0418320166125,NA,NA,NA,NA
+Kukatja,Wati,Pama-Nyungan,kux,kuka1246,C7,814,Kukatja,tjarntirri marra,caɳtiri mara,clean,"Valiquette, Hillaire amd Anthony Peile",clean,Adj,-20.51538798370036,128.0418320166125,NA,NA,NA,NA
+Kukatja,Wati,Pama-Nyungan,kux,kuka1246,C7,814,Kukatja,tjarntiti,caɳtiti,limp,"Valiquette, Hillaire amd Anthony Peile",limp,Vi,-20.51538798370036,128.0418320166125,NA,NA,NA,NA
+Kukatja,Wati,Pama-Nyungan,kux,kuka1246,C7,814,Kukatja,tjarra-tjarrarriwa,cara-carariwa,stiff,"Valiquette, Hillaire amd Anthony Peile",become stiff,Vi,-20.51538798370036,128.0418320166125,NA,NA,NA,NA
+Kukatja,Wati,Pama-Nyungan,kux,kuka1246,C7,814,Kukatja,tjiilarriwa,ciːlariwa,stiff,"Valiquette, Hillaire amd Anthony Peile",become stiff,Vi,-20.51538798370036,128.0418320166125,NA,NA,NA,NA
+Kukatja,Wati,Pama-Nyungan,kux,kuka1246,C7,814,Kukatja,tjilarltjurra,cilaɭcura,stiff,"Valiquette, Hillaire amd Anthony Peile",be stiff,Vi,-20.51538798370036,128.0418320166125,NA,NA,NA,NA
+Kukatja,Wati,Pama-Nyungan,kux,kuka1246,C7,814,Kukatja,tjintirrarriwa,cintirariwa,stiff,"Valiquette, Hillaire amd Anthony Peile",become stiff,Vi,-20.51538798370036,128.0418320166125,NA,NA,NA,NA
+Kukatja,Wati,Pama-Nyungan,kux,kuka1246,C7,814,Kukatja,tjintjirra,cincira,stiff,"Valiquette, Hillaire amd Anthony Peile",stiff,Adj,-20.51538798370036,128.0418320166125,NA,NA,NA,NA
+Kukatja,Wati,Pama-Nyungan,kux,kuka1246,C7,814,Kukatja,tjintjirrarriwa,cincirariwa,stiff,"Valiquette, Hillaire amd Anthony Peile",become stiff,Vi,-20.51538798370036,128.0418320166125,NA,NA,NA,NA
+Kukatja,Wati,Pama-Nyungan,kux,kuka1246,C7,814,Kukatja,tjintjirrarriwa,cincirariwa,stiff,"Valiquette, Hillaire amd Anthony Peile",become stiff in death,Vi,-20.51538798370036,128.0418320166125,NA,NA,NA,NA
+Kukatja,Wati,Pama-Nyungan,kux,kuka1246,C7,814,Kukatja,tjintjirrirriwa,cinciririwa,stiff,"Valiquette, Hillaire amd Anthony Peile",become stiff or numb (from cold only),Vi,-20.51538798370036,128.0418320166125,NA,NA,NA,NA
+Kukatja,Wati,Pama-Nyungan,kux,kuka1246,C7,814,Kukatja,tjiraly-tjiraly(pa),ciɹaʎ-ciɹaʎ(pa),smooth,"Valiquette, Hillaire amd Anthony Peile",smooth (surface),Nstat,-20.51538798370036,128.0418320166125,NA,NA,NA,NA
+Kukatja,Wati,Pama-Nyungan,kux,kuka1246,C7,814,Kukatja,tuku,tuku,flat,"Valiquette, Hillaire amd Anthony Peile","flat (ref. feet, surface, land)",Nstat,-20.51538798370036,128.0418320166125,NA,NA,NA,NA
+Kukatja,Wati,Pama-Nyungan,kux,kuka1246,C7,814,Kukatja,tunngala,tunŋala,limp,"Valiquette, Hillaire amd Anthony Peile",limp,Vi,-20.51538798370036,128.0418320166125,NA,NA,NA,NA
+Kukatja,Wati,Pama-Nyungan,kux,kuka1246,C7,814,Kukatja,kiwarn(pa),kiwaɳ(pa),firm,"Valiquette, Hillaire amd Anthony Peile",firm,Adj,-20.51538798370036,128.0418320166125,NA,NA,NA,NA
+Kukatja,Wati,Pama-Nyungan,kux,kuka1246,C7,814,Kukatja,walu,walu,bald,"Valiquette, Hillaire amd Anthony Peile",bald head,Adj,-20.51538798370036,128.0418320166125,NA,NA,NA,NA
+Kukatja,Wati,Pama-Nyungan,kux,kuka1246,C7,814,Kukatja,wanywany(pa),waɲwaɲ(pa),soft,"Valiquette, Hillaire amd Anthony Peile",soft,Adj,-20.51538798370036,128.0418320166125,NA,NA,NA,NA
+Kukatja,Wati,Pama-Nyungan,kux,kuka1246,C7,814,Kukatja,warrpu,warpu,sharp,"Valiquette, Hillaire amd Anthony Peile",sharp,Adj,-20.51538798370036,128.0418320166125,NA,NA,NA,NA
+Kukatja,Wati,Pama-Nyungan,kux,kuka1246,C7,814,Kukatja,warta,waʈa,firm,"Valiquette, Hillaire amd Anthony Peile",firm,Adj,-20.51538798370036,128.0418320166125,NA,NA,NA,NA
+Kukatja,Wati,Pama-Nyungan,kux,kuka1246,C7,814,Kukatja,warta,waʈa,stiff,"Valiquette, Hillaire amd Anthony Peile",stiff,Adj,-20.51538798370036,128.0418320166125,NA,NA,NA,NA
+Kukatja,Wati,Pama-Nyungan,kux,kuka1246,C7,814,Kukatja,wilpikiri,wilpikiɹi,hard,"Valiquette, Hillaire amd Anthony Peile",hard,Adj,-20.51538798370036,128.0418320166125,NA,NA,NA,NA
+Kukatja,Wati,Pama-Nyungan,kux,kuka1246,C7,814,Kukatja,wiruly(pa),wiɹuʎ(pa),slippery,"Valiquette, Hillaire amd Anthony Peile",slippery,adj,-20.51538798370036,128.0418320166125,NA,NA,NA,NA
+Kukatja,Wati,Pama-Nyungan,kux,kuka1246,C7,814,Kukatja,wiruly(pa),wiɹuʎ(pa),smooth,"Valiquette, Hillaire amd Anthony Peile",smooth,Adj,-20.51538798370036,128.0418320166125,NA,NA,NA,NA
+Kukatja,Wati,Pama-Nyungan,kux,kuka1246,C7,814,Kukatja,witunyarriwa,wituɲariwa,stiff,"Valiquette, Hillaire amd Anthony Peile",become stiff,Vi,-20.51538798370036,128.0418320166125,NA,NA,NA,NA
+Kukatja,Wati,Pama-Nyungan,kux,kuka1246,C7,814,Kukatja,yaru,jaɹu,soft,"Valiquette, Hillaire amd Anthony Peile",soft (not hard),Nact,-20.51538798370036,128.0418320166125,NA,NA,NA,NA
+Kukatja,Wati,Pama-Nyungan,kux,kuka1246,C7,814,Kukatja,yatu,jatu,soft,"Valiquette, Hillaire amd Anthony Peile",soft,Adj,-20.51538798370036,128.0418320166125,NA,NA,NA,NA
+Kukatja,Wati,Pama-Nyungan,kux,kuka1246,C7,814,Kukatja,yiriparni,jiɹipaɳi,blunt,"Valiquette, Hillaire amd Anthony Peile",blunt,Adj,-20.51538798370036,128.0418320166125,NA,NA,NA,NA
+Kukatja,Wati,Pama-Nyungan,kux,kuka1246,C7,814,Kukatja,yirlkuly-yirlkuly(pa),jiɭkuʎ-jiɭkuʎ(pa),hard,"Valiquette, Hillaire amd Anthony Peile",inflamed (organs),Nstat,-20.51538798370036,128.0418320166125,NA,NA,NA,NA
+Kukatja,Wati,Pama-Nyungan,kux,kuka1246,C7,814,Kukatja,kinkin(pa),kinkin(pa),soft,"Valiquette, Hillaire amd Anthony Peile",soft,Adj,-20.51538798370036,128.0418320166125,NA,NA,NA,NA
+Kukatja,Wati,Pama-Nyungan,kux,kuka1246,C7,814,Kukatja,liin(pa),liːn(pa),flat,"Valiquette, Hillaire amd Anthony Peile",flat,Adj,-20.51538798370036,128.0418320166125,NA,NA,NA,NA
+Kukatja,Wati,Pama-Nyungan,kux,kuka1246,C7,814,Kukatja,maralkaral(pa),maɹalkaɹal(pa),flat,"Valiquette, Hillaire amd Anthony Peile",flat,Adj,-20.51538798370036,128.0418320166125,NA,NA,NA,NA
+Kukatja,Wati,Pama-Nyungan,kux,kuka1246,C7,814,Kukatja,mawumungku,mawumuŋku,stiff,"Valiquette, Hillaire amd Anthony Peile",stiff,Adj,-20.51538798370036,128.0418320166125,NA,NA,NA,NA
+Kukatja,Wati,Pama-Nyungan,kux,kuka1246,C7,814,Kukatja,muru,muɹu,stiff,"Valiquette, Hillaire amd Anthony Peile",stiff,Adj,-20.51538798370036,128.0418320166125,NA,NA,NA,NA
+Kukatja,Wati,Pama-Nyungan,kux,kuka1246,C7,814,Kukatja,piilwaru,piːlwaɹu,hard,"Valiquette, Hillaire amd Anthony Peile",hard,Adj,-20.51538798370036,128.0418320166125,NA,NA,NA,NA
+Kukatja,Wati,Pama-Nyungan,kux,kuka1246,C7,814,Kukatja,pinytju,piɲcu,flat,"Valiquette, Hillaire amd Anthony Peile",flat?,Nstat,-20.51538798370036,128.0418320166125,NA,NA,NA,NA
+Kukatja,Wati,Pama-Nyungan,kux,kuka1246,C7,814,Kukatja,purrutu,purutu,hard,"Valiquette, Hillaire amd Anthony Peile",hard,Adj,-20.51538798370036,128.0418320166125,NA,NA,NA,NA
+Kukatja,Wati,Pama-Nyungan,kux,kuka1246,C7,814,Kukatja,tintarlka,tintaɭka,stiff,"Valiquette, Hillaire amd Anthony Peile",stiff,Adj,-20.51538798370036,128.0418320166125,NA,NA,NA,NA
+Kukatja,Wati,Pama-Nyungan,kux,kuka1246,C7,814,Kukatja,tiwirl(pa),tiwiɭ(pa),stiff,"Valiquette, Hillaire amd Anthony Peile",stiff,Adj,-20.51538798370036,128.0418320166125,NA,NA,NA,NA
+Kukatja,Wati,Pama-Nyungan,kux,kuka1246,C7,814,Kukatja,tjaapuka,caːpuka,soft,"Valiquette, Hillaire amd Anthony Peile",soft,Adj,-20.51538798370036,128.0418320166125,NA,NA,NA,NA
+Kukatja,Wati,Pama-Nyungan,kux,kuka1246,C7,814,Kukatja,tjarntirriwa,caɳtiriwa,clean,"Valiquette, Hillaire amd Anthony Peile",clean,Adj,-20.51538798370036,128.0418320166125,NA,NA,NA,NA
+Kukatja,Wati,Pama-Nyungan,kux,kuka1246,C7,814,Kukatja,tjarnti-tjarnti nyinuti,caɳti-caɳti ɲinuti,limp,"Valiquette, Hillaire amd Anthony Peile",limp,Vi,-20.51538798370036,128.0418320166125,NA,NA,NA,NA
+Kukatja,Wati,Pama-Nyungan,kux,kuka1246,C7,814,Kukatja,tjilarlka,cilaɭka,stiff,"Valiquette, Hillaire amd Anthony Peile",stiff,Adj,-20.51538798370036,128.0418320166125,NA,NA,NA,NA
+Kukatja,Wati,Pama-Nyungan,kux,kuka1246,C7,814,Kukatja,wartkartu,waʈkaʈu,stiff,"Valiquette, Hillaire amd Anthony Peile",stiff,Adj,-20.51538798370036,128.0418320166125,NA,NA,NA,NA
+Kukatja,Wati,Pama-Nyungan,kux,kuka1246,C7,814,Kukatja,kurnpu,kuɳpu,tough,"Valiquette, Hillaire amd Anthony Peile",tough,Nstat,-20.51538798370036,128.0418320166125,NA,NA,NA,NA
+Kukatja,Wati,Pama-Nyungan,kux,kuka1246,C7,814,Kukatja,kurnpu,kuɳpu,hard,"Valiquette, Hillaire amd Anthony Peile",hard (ref muscles or material),Nstat,-20.51538798370036,128.0418320166125,NA,NA,NA,NA
+Kukatja,Wati,Pama-Nyungan,kux,kuka1246,C7,814,Kukatja,zz_kata kampu,kata kampu,bald,"Valiquette, Hillaire amd Anthony Peile",bald head,Adj,-20.51538798370036,128.0418320166125,NA,NA,NA,NA
+Kukatja,Wati,Pama-Nyungan,kux,kuka1246,C7,814,Kukatja,zz_kata mirilyi,kata miɹiʎi,bald,"Valiquette, Hillaire amd Anthony Peile",bald head,Adj,-20.51538798370036,128.0418320166125,NA,NA,NA,NA
+Kukatja,Wati,Pama-Nyungan,kux,kuka1246,C7,814,Kukatja,zz_kata pangu-pangu,kata paŋu-paŋu,bald,"Valiquette, Hillaire amd Anthony Peile",bald head,Adj,-20.51538798370036,128.0418320166125,NA,NA,NA,NA
+Kukatja,Wati,Pama-Nyungan,kux,kuka1246,C7,814,Kukatja,zz_kata pilitji,kata pilici,bald,"Valiquette, Hillaire amd Anthony Peile",bald head,Adj,-20.51538798370036,128.0418320166125,NA,NA,NA,NA
+Kukatja,Wati,Pama-Nyungan,kux,kuka1246,C7,814,Kukatja,zz_kata rupuny-rupuny(pa),kata ɹupuɲ-ɹupuɲ(pa),bald,"Valiquette, Hillaire amd Anthony Peile",bald head,Adj,-20.51538798370036,128.0418320166125,NA,NA,NA,NA
+Kukatja,Wati,Pama-Nyungan,kux,kuka1246,C7,814,Kukatja,zz_kata tali,kata tali,bald,"Valiquette, Hillaire amd Anthony Peile",bald head,Adj,-20.51538798370036,128.0418320166125,NA,NA,NA,NA
+Kukatja,Wati,Pama-Nyungan,kux,kuka1246,C7,814,Kukatja,zz_kata tanya,kata taɲa,bald,"Valiquette, Hillaire amd Anthony Peile",bald head,Adj,-20.51538798370036,128.0418320166125,NA,NA,NA,NA
+Kukatja,Wati,Pama-Nyungan,kux,kuka1246,C7,814,Kukatja,zz_lirri,liri,stiff,"Valiquette, Hillaire amd Anthony Peile",stiff,Adj,-20.51538798370036,128.0418320166125,NA,NA,NA,NA
+Kukatja,Wati,Pama-Nyungan,kux,kuka1246,C7,814,Kukatja,zz_mirilyi,miɹiʎi,bald,"Valiquette, Hillaire amd Anthony Peile",bald head,Adj,-20.51538798370036,128.0418320166125,NA,NA,NA,NA
+Kukatja,Wati,Pama-Nyungan,kux,kuka1246,C7,814,Kukatja,zz_nyinyiti,ɲiɲiti,limp,"Valiquette, Hillaire amd Anthony Peile",limp,Vi,-20.51538798370036,128.0418320166125,NA,NA,NA,NA
+Kukatja,Wati,Pama-Nyungan,kux,kuka1246,C7,814,Kukatja,zz_nyuri-nyuri,ɲuɹi-ɲuɹi,soft,"Valiquette, Hillaire amd Anthony Peile",soft,Adj,-20.51538798370036,128.0418320166125,NA,NA,NA,NA
+Kukatja,Wati,Pama-Nyungan,kux,kuka1246,C7,814,Kukatja,zz_palytjalyarriwa,paʎcaʎariwa,stiff,"Valiquette, Hillaire amd Anthony Peile",become stiff,Vi,-20.51538798370036,128.0418320166125,NA,NA,NA,NA
+Kurtjar,Paman,Pama-Nyungan,gdj,kung1262,G33,780,Kurtjar,meerd,meːɖ,bald,"Black, Paul",bald,Adj,-17.311602688352,141.6480702559417,NA,NA,NA,NA
+Kurtjar,Paman,Pama-Nyungan,gdj,kung1262,G33,780,Kurtjar,"dhoongk meerd, yeerk meerd",d̪oːngk meːɖ,bald,"Black, Paul",bald head,Adj,-17.311602688352,141.6480702559417,NA,NA,NA,NA
+Kurtjar,Paman,Pama-Nyungan,gdj,kung1262,G33,780,Kurtjar,ghaarding,ɣaːɖing,blunt,"Black, Paul",blunt,Adj,-17.311602688352,141.6480702559417,NA,NA,NA,NA
+Kurtjar,Paman,Pama-Nyungan,gdj,kung1262,G33,780,Kurtjar,mpaarr,mpaːr,clean,"Black, Paul",clean (water),NA,-17.311602688352,141.6480702559417,NA,NA,NA,NA
+Kurtjar,Paman,Pama-Nyungan,gdj,kung1262,G33,780,Kurtjar,yaak.arding,jaːkaɖing,blunt,"Black, Paul",dull (blade),NA,-17.311602688352,141.6480702559417,NA,NA,NA,NA
+Kurtjar,Paman,Pama-Nyungan,gdj,kung1262,G33,780,Kurtjar,"wengk, weengk, (K) ghalmanik",wengk,fine,"Black, Paul",fine,NA,-17.311602688352,141.6480702559417,NA,NA,NA,NA
+Kurtjar,Paman,Pama-Nyungan,gdj,kung1262,G33,780,Kurtjar,"bheelkird, lbheerr, went, wentiwent",βeːlkiɖ,flat,"Black, Paul",flat,Adj,-17.311602688352,141.6480702559417,NA,NA,NA,NA
+Kurtjar,Paman,Pama-Nyungan,gdj,kung1262,G33,780,Kurtjar,lmpaam,lmpaːm,hard,"Black, Paul",hard,Adj,-17.311602688352,141.6480702559417,NA,NA,NA,NA
+Kurtjar,Paman,Pama-Nyungan,gdj,kung1262,G33,780,Kurtjar,"bheelbhirr, peelbhirr",βeːlβir,flat,"Black, Paul",flat,Adj,-17.311602688352,141.6480702559417,NA,NA,NA,NA
+Kurtjar,Paman,Pama-Nyungan,gdj,kung1262,G33,780,Kurtjar,rdowinirdowin,ɖowiniɖowin,slippery,"Black, Paul",slippery,adj,-17.311602688352,141.6480702559417,NA,NA,NA,NA
+Kurtjar,Paman,Pama-Nyungan,gdj,kung1262,G33,780,Kurtjar,rdoorng,ɖoːɳg,soft,"Black, Paul",soft,Adj,-17.311602688352,141.6480702559417,NA,NA,NA,NA
+Kurtjar,Paman,Pama-Nyungan,gdj,kung1262,G33,780,Kurtjar,keerrimp,keːrimp,solid,"Black, Paul",solid,Adj,-17.311602688352,141.6480702559417,NA,NA,NA,NA
+Kurtjar,Paman,Pama-Nyungan,gdj,kung1262,G33,780,Kurtjar,keerrimp,keːrimp,tough,"Black, Paul",tough,NA,-17.311602688352,141.6480702559417,NA,NA,NA,NA
+Wathawurrung,Kulin,Pama-Nyungan,wth,wath1238,S29,177,Wathawurrung,yawang,jawang,bald,"Blake, Barry",bald,Adj,-37.68777565058624,144.1013148178479,NA,NA,NA,NA
+Wathawurrung,Kulin,Pama-Nyungan,wth,wath1238,S29,177,Wathawurrung,talorra,talora,brittle,"Blake, Barry",brittle,NA,-37.68777565058624,144.1013148178479,NA,NA,NA,NA
+Wathawurrung,Kulin,Pama-Nyungan,wth,wath1238,S29,177,Wathawurrung,balit,balit,hard,"Blake, Barry",hard,Adj,-37.68777565058624,144.1013148178479,NA,NA,NA,NA
+Wathawurrung,Kulin,Pama-Nyungan,wth,wath1238,S29,177,Wathawurrung,ngarrayt,ngarajt,sharp,"Blake, Barry",sharp,Adj,-37.68777565058624,144.1013148178479,NA,NA,NA,NA
+Wathawurrung,Kulin,Pama-Nyungan,wth,wath1238,S29,177,Wathawurrung,motaa,motaː,soft,"Blake, Barry",soft,Adj,-37.68777565058624,144.1013148178479,NA,NA,NA,NA
+Wathawurrung,Kulin,Pama-Nyungan,wth,wath1238,S29,177,Wathawurrung,konong,konong,soft,"Blake, Barry",soft,Adj,-37.68777565058624,144.1013148178479,NA,NA,NA,NA
+Wathawurrung,Kulin,Pama-Nyungan,wth,wath1238,S29,177,Wathawurrung,wita,wita,soft,"Blake, Barry",soft,Adj,-37.68777565058624,144.1013148178479,NA,NA,NA,NA
+Aghu-Tharrnggala,Paman,Pama-Nyungan,ggr,aghu1254,Y65,1248,Aghu-Tharnggala,mbawr,mbawɹ,soft,"Jolly, Lesley",soft,Adj,-15.67,143.467,NA,NA,NA,NA
+Aghu-Tharrnggala,Paman,Pama-Nyungan,ggr,aghu1254,Y65,1248,Aghu-Tharnggala,rrtyiə,ɹʈjiə,hard,"Jolly, Lesley",hard,Adj,-15.67,143.467,NA,NA,NA,NA
+Dyirbal,Dyirbalic,Pama-Nyungan,dbl,dyir1250,Y123,1050,Dyirbal,dyunguru,cunkuru,hard,R M W Dixon,(done) hard (ordinary language),NA,-17.74,145.742,NA,NA,NA,NA
+Mamu,Dyirbalic,Pama-Nyungan,dbl,dyir1250,Y123,1050,Dyirbal,dyunguru,cunkuru,hard,R M W Dixon,(done) hard (avoidance/mother-in-law language),NA,-17.74,145.742,NA,NA,NA,NA
+Wargamay,Dyirbalic,Pama-Nyungan,wgy,warr1255,Y134,197,Warrgamay,dalŋa,talŋa,hard,R.M.W. Dixon & Barry J. Blake,hard,Adj,-18.4,145.877,NA,NA,NA,NA
+Wargamay,Dyirbalic,Pama-Nyungan,wgy,warr1255,Y134,197,Warrgamay,dyabini,capini,sharp,R.M.W. Dixon & Barry J. Blake,sharp(ened),Adj,-18.4,145.877,NA,NA,NA,NA
+Wargamay,Dyirbalic,Pama-Nyungan,wgy,warr1255,Y134,197,Warrgamay,dyagardyagar,cakaɹʈjakar,rough,R.M.W. Dixon & Barry J. Blake,"rough, prickly",Adj,-18.4,145.877,NA,NA,NA,NA
+Wargamay,Dyirbalic,Pama-Nyungan,wgy,warr1255,Y134,197,Warrgamay,dyunguru,cunkuru,hard,R.M.W. Dixon & Barry J. Blake,(do) hard,NA,-18.4,145.877,NA,NA,NA,NA
+Wargamay,Dyirbalic,Pama-Nyungan,wgy,warr1255,Y134,197,Warrgamay,gagal,kakal,hard,R.M.W. Dixon & Barry J. Blake,hard,Adj,-18.4,145.877,NA,NA,NA,NA
+Wargamay,Dyirbalic,Pama-Nyungan,wgy,warr1255,Y134,197,Warrgamay,muguru,mukuru,hard,R.M.W. Dixon & Barry J. Blake,"hard, strong",Adj,-18.4,145.877,NA,NA,NA,NA
+Wargamay,Dyirbalic,Pama-Nyungan,wgy,warr1255,Y134,197,Warrgamay,muguru,mukuru,hard,R.M.W. Dixon & Barry J. Blake,"hard, strong",Adj,-18.4,145.877,NA,NA,NA,NA
+Wargamay,Dyirbalic,Pama-Nyungan,wgy,warr1255,Y134,197,Warrgamay,mulmbiɲ,mulmpiɲ,blunt,R.M.W. Dixon & Barry J. Blake,blunt,Adj,-18.4,145.877,NA,NA,NA,NA
+Wargamay,Dyirbalic,Pama-Nyungan,wgy,warr1255,Y134,197,Warrgamay,muɲdyal,muɲcal,soft,R.M.W. Dixon & Barry J. Blake,"soft, weak",Adj,-18.4,145.877,NA,NA,NA,NA
+Wargamay,Dyirbalic,Pama-Nyungan,wgy,warr1255,Y134,197,Warrgamay,muɲdyal,muɲcal,soft,R.M.W. Dixon & Barry J. Blake,"soft, weak",Adj,-18.4,145.877,NA,NA,NA,NA
+Wargamay,Dyirbalic,Pama-Nyungan,wgy,warr1255,Y134,197,Warrgamay,wardyal,waɹʈjal,sharp,R.M.W. Dixon & Barry J. Blake,sharp,Adj,-18.4,145.877,*warrci,N/A,bad,NA
+Margany,Maric,Pama-Nyungan,zmc,marg1253,D42,703,Margany,bugu,puku,blunt,"Breen, J.G.",blunt,Adj,-27.21067032917215,144.719115391163,NA,NA,NA,NA
+Margany,Maric,Pama-Nyungan,zmc,marg1253,D42,703,Margany,butya,puca,sharp,"Breen, J.G.",sharp,Adj,-27.21067032917215,144.719115391163,NA,NA,NA,NA
+Margany,Maric,Pama-Nyungan,zmc,marg1253,D42,703,Margany,gadha gunari,kat̪a kunaɹi,bald,"Breen, J.G.",bald,Adj,-27.21067032917215,144.719115391163,NA,NA,NA,NA
+Gunya,Maric,Pama-Nyungan,gyy,guny1241,D43,935,Gunya,gadgil,gadgil,hard,R.M.W. Dixon & Barry J. Blake,hard,Adj,-27.64957662058102,145.9658542450252,NA,NA,NA,NA
+Gunya,Maric,Pama-Nyungan,gyy,guny1241,D43,935,Gunya,gudbiny,gudbiɲ,bald,R.M.W. Dixon & Barry J. Blake,"bare, bald",Adj,-27.64957662058102,145.9658542450252,NA,NA,NA,NA
+Margany,Maric,Pama-Nyungan,zmc,marg1253,D42,703,Margany,mirti,miʈi,hard,"Breen, J.G.",hard,Adj,-27.21067032917215,144.719115391163,NA,NA,NA,NA
+Margany,Maric,Pama-Nyungan,zmc,marg1253,D42,703,Margany,murnany,muɳaɲ,soft,"Breen, J.G.",soft,Adj,-27.21067032917215,144.719115391163,NA,NA,NA,NA
+Gunya,Maric,Pama-Nyungan,gyy,guny1241,D43,935,Gunya,murni,muɳi,soft,R.M.W. Dixon & Barry J. Blake,soft,Adj,-27.64957662058102,145.9658542450252,NA,NA,NA,NA
+Margany,Maric,Pama-Nyungan,zmc,marg1253,D42,703,Margany,yangi,jaŋi,limp,"Breen, J.G.",to limp,Vi,-27.21067032917215,144.719115391163,NA,NA,NA,NA
+Koko-Bera,Paman,Pama-Nyungan,kkp,gugu1254,Y85,830,Koko-Bera,purrpén,purpén,soft,Paul Black,soft,Adj,-15.46465645841727,142.0337611525143,NA,NA,NA,NA
+Koko-Bera,Paman,Pama-Nyungan,kkp,gugu1254,Y85,830,Koko-Bera,walmakél,walmakél,flat,Paul Black,flat,Adj,-15.46465645841727,142.0337611525143,NA,NA,NA,NA
+Koko-Bera,Paman,Pama-Nyungan,kkp,gugu1254,Y85,830,Koko-Bera,kóchvrr,kócər,sharp,Paul Black,sharp (pointed),NA,-15.46465645841727,142.0337611525143,NA,NA,NA,NA
+Koko-Bera,Paman,Pama-Nyungan,kkp,gugu1254,Y85,830,Koko-Bera,kólbvn,kólbən,sharp,Paul Black,sharp (edged),NA,-15.46465645841727,142.0337611525143,NA,NA,NA,NA
+Koko-Bera,Paman,Pama-Nyungan,kkp,gugu1254,Y85,830,Koko-Bera,mínchvminch,míncəminc,rough,Paul Black,rough,Adj,-15.46465645841727,142.0337611525143,NA,NA,NA,NA
+Koko-Bera,Paman,Pama-Nyungan,kkp,gugu1254,Y85,830,Koko-Bera,makél,makél,flat,Paul Black,flat,Adj,-15.46465645841727,142.0337611525143,NA,NA,NA,NA
+Koko-Bera,Paman,Pama-Nyungan,kkp,gugu1254,Y85,830,Koko-Bera,puráyvrr,puɹájər,fine,Paul Black,fine (not coarse),NA,-15.46465645841727,142.0337611525143,NA,NA,NA,NA
+Kurtjar,Paman,Pama-Nyungan,gdj,kung1262,G33,780,Kurtjar,meerd,meːɖ,bald,Paul Black,bald,Adj,-17.311602688352,141.6480702559417,NA,NA,NA,NA
+Kurtjar,Paman,Pama-Nyungan,gdj,kung1262,G33,780,Kurtjar,ghaarding,ɣaːɖing,blunt,Paul Black,blunt,Adj,-17.311602688352,141.6480702559417,NA,NA,NA,NA
+Kurtjar,Paman,Pama-Nyungan,gdj,kung1262,G33,780,Kurtjar,mpaarr,mpaːr,clean,Paul Black,clean (water),NA,-17.311602688352,141.6480702559417,NA,NA,NA,NA
+Kurtjar,Paman,Pama-Nyungan,gdj,kung1262,G33,780,Kurtjar,yaak.arding,jaːkaɖing,blunt,Paul Black,dull (blade),NA,-17.311602688352,141.6480702559417,NA,NA,NA,NA
+Kurtjar,Paman,Pama-Nyungan,gdj,kung1262,G33,780,Kurtjar,"wengk, weengk, (K) ghalmanik",wengk,fine,Paul Black,fine,NA,-17.311602688352,141.6480702559417,NA,NA,NA,NA
+Kurtjar,Paman,Pama-Nyungan,gdj,kung1262,G33,780,Kurtjar,"bheelkird, lbheerr, went, wentiwent",βeːlkiɖ,flat,Paul Black,flat,Adj,-17.311602688352,141.6480702559417,NA,NA,NA,NA
+Kurtjar,Paman,Pama-Nyungan,gdj,kung1262,G33,780,Kurtjar,lmpaam,lmpaːm,hard,Paul Black,hard,Adj,-17.311602688352,141.6480702559417,NA,NA,NA,NA
+Kurtjar,Paman,Pama-Nyungan,gdj,kung1262,G33,780,Kurtjar,sharp edged,shaɹp edged,sharp,Paul Black,sharp,Adj,-17.311602688352,141.6480702559417,NA,NA,NA,NA
+Kurtjar,Paman,Pama-Nyungan,gdj,kung1262,G33,780,Kurtjar,rdowinirdowin,ɖowiniɖowin,slippery,Paul Black,slippery,adj,-17.311602688352,141.6480702559417,NA,NA,NA,NA
+Kurtjar,Paman,Pama-Nyungan,gdj,kung1262,G33,780,Kurtjar,rdoorng,ɖoːɳg,soft,Paul Black,soft,Adj,-17.311602688352,141.6480702559417,NA,NA,NA,NA
+Kurtjar,Paman,Pama-Nyungan,gdj,kung1262,G33,780,Kurtjar,keerrimp,keːrimp,solid,Paul Black,solid,Adj,-17.311602688352,141.6480702559417,NA,NA,NA,NA
+Kurtjar,Paman,Pama-Nyungan,gdj,kung1262,G33,780,Kurtjar,keerrimp,keːrimp,tough,Paul Black,tough,NA,-17.311602688352,141.6480702559417,NA,NA,NA,NA
+Tyattyalla,Kulin,Pama-Nyungan,weg,NA,S22,1084,Djadjala,murt,muʈ,blunt,"Mathews, R.H.",blunt,Adj,-36.18645454172683,141.7889432573575,NA,NA,NA,NA
+Tyattyalla,Kulin,Pama-Nyungan,weg,NA,S22,1084,Djadjala,birreburp,birebuɹp,bald,"Mathews, R.H.",bald-headed,Adj,-36.18645454172683,141.7889432573575,NA,NA,NA,NA
+Warrnambool,Kulin,Pama-Nyungan,?gjm,warr1257,NA,182,Warrnambool,kurutj-kurutj,kuɹuc-kuɹuc,rough,"Blake, Barry",rough,Adj,-38.345,142.4608,NA,NA,NA,NA
+Warrnambool,Kulin,Pama-Nyungan,?gjm,warr1257,NA,182,Warrnambool,larum,laɹum,dusty,"Blake, Barry",dusty,NA,-38.345,142.4608,NA,NA,NA,NA
+Warrnambool,Kulin,Pama-Nyungan,?gjm,warr1257,NA,182,Warrnambool,linming,linmiŋ,sharp,"Blake, Barry",sharp,Adj,-38.345,142.4608,NA,NA,NA,NA
+Warrnambool,Kulin,Pama-Nyungan,?gjm,warr1257,NA,182,Warrnambool,lit mirng,lit miɹŋ,sharp,"Blake, Barry",sharp,Adj,-38.345,142.4608,NA,NA,NA,NA
+Warrnambool,Kulin,Pama-Nyungan,?gjm,warr1257,NA,182,Warrnambool,murt,muʈ,blunt,"Blake, Barry",blunt,Adj,-38.345,142.4608,NA,NA,NA,NA
+Warrnambool,Kulin,Pama-Nyungan,?gjm,warr1257,NA,182,Warrnambool,ngarimpirt,ŋaɹimpiʈ,sharp,"Blake, Barry",sharp,Adj,-38.345,142.4608,NA,NA,NA,NA
+Warrnambool,Kulin,Pama-Nyungan,?gjm,warr1257,NA,182,Warrnambool,pakutj pim,pakuc pim,bald,"Blake, Barry",bald head,Adj,-38.345,142.4608,NA,NA,NA,NA
+Warrnambool,Kulin,Pama-Nyungan,?gjm,warr1257,NA,182,Warrnambool,pandal,pantal,soft,"Blake, Barry",soft,Adj,-38.345,142.4608,NA,NA,NA,NA
+Warrnambool,Kulin,Pama-Nyungan,?gjm,warr1257,NA,182,Warrnambool,pat-patupitj,pat-patupic,rough,"Blake, Barry",rough,Adj,-38.345,142.4608,NA,NA,NA,NA
+Warrnambool,Kulin,Pama-Nyungan,?gjm,warr1257,NA,182,Warrnambool,payn-payn,paɲ-paɲ,smooth,"Blake, Barry",smooth,Adj,-38.345,142.4608,NA,NA,NA,NA
+Warrnambool,Kulin,Pama-Nyungan,?gjm,warr1257,NA,182,Warrnambool,talayn pim,talaɲ pim,bald,"Blake, Barry","bald head, skull",NA,-38.345,142.4608,NA,NA,NA,NA
+Warrnambool,Kulin,Pama-Nyungan,?gjm,warr1257,NA,182,Warrnambool,tinpith,tinpit̪,bald,"Blake, Barry",bald,Adj,-38.345,142.4608,NA,NA,NA,NA
+Warrnambool,Kulin,Pama-Nyungan,?gjm,warr1257,NA,182,Warrnambool,wirkuyitj,wiɹkujic,tough,"Blake, Barry",tough,NA,-38.345,142.4608,NA,NA,NA,NA
+Warrnambool,Kulin,Pama-Nyungan,?gjm,warr1257,NA,182,Warrnambool,wuin-wuin-pitj,wuin-wuin-pic,rough,"Blake, Barry",rough,Adj,-38.345,142.4608,NA,NA,NA,NA
+Warrnambool,Kulin,Pama-Nyungan,?gjm,warr1257,NA,182,Warrnambool,yurut,juɹut,smooth,"Blake, Barry",smooth,Adj,-38.345,142.4608,NA,NA,NA,NA
+Yotayota,Yotayotic,NA,xyy,yort1237,D2,20,Yorta Yorta,manha,man̪a,blunt,"Mathews, R.H.",blunt (edge),Adj,-36.04695549929136,144.818878928009,NA,NA,NA,NA
+Yotayota,Yotayotic,NA,xyy,yort1237,D2,20,Yorta Yorta,buggadhulliny,pukːat̪ulliɲ,sharp,"Mathews, R.H.",sharp (edge or point),Adj,-36.04695549929136,144.818878928009,NA,NA,NA,NA
+Barrow Point,Paman,Pama-Nyungan,bpt,barr1247,Y63.1,1194,Barrow Point,almbi:r,almpiːɹ,flat,NA,flat,Adj,-14.46601552300657,144.448784307825,NA,NA,NA,NA
+Barrow Point,Paman,Pama-Nyungan,bpt,barr1247,Y63.1,1194,Barrow Point,dhiburr,t̪ipur,rough,NA,rough,Adj,-14.46601552300657,144.448784307825,NA,NA,NA,NA
+Barrow Point,Paman,Pama-Nyungan,bpt,barr1247,Y63.1,1194,Barrow Point,idhin.gal,it̪inkal,hard,NA,very hard,n,-14.46601552300657,144.448784307825,NA,NA,NA,NA
+Barrow Point,Paman,Pama-Nyungan,bpt,barr1247,Y63.1,1194,Barrow Point,ilman,ilman,soft,NA,soft,Adj,-14.46601552300657,144.448784307825,NA,NA,NA,NA
+Barrow Point,Paman,Pama-Nyungan,bpt,barr1247,Y63.1,1194,Barrow Point,imbal,impal,flat,NA,flat,Adj,-14.46601552300657,144.448784307825,NA,NA,NA,NA
+Barrow Point,Paman,Pama-Nyungan,bpt,barr1247,Y63.1,1194,Barrow Point,marrmarr,marmar,clean,NA,clean (water),a?,-14.46601552300657,144.448784307825,NA,NA,NA,NA
+Barrow Point,Paman,Pama-Nyungan,bpt,barr1247,Y63.1,1194,Barrow Point,wangga,waŋka,flat,NA,flat,Adj,-14.46601552300657,144.448784307825,NA,NA,NA,NA
+Barrow Point,Paman,Pama-Nyungan,bpt,barr1247,Y63.1,1194,Barrow Point,wunga,wuŋa,soft,NA,soft,Adj,-14.46601552300657,144.448784307825,NA,NA,NA,NA
+Yuwaaliyaay,Central NSW,Pama-Nyungan,kld,yuwa1243,D54*,4,Yuwaaliyaay,mula,mula,soft,"Ash, A. and Lissarrague, A. and Giacon, J",soft,Adj,-29.84291122144783,149.806501013693,*mula-2,N/A,boil,NA
+Yuwaaliyaay,Central NSW,Pama-Nyungan,kld,yuwa1243,D54*,4,Yuwaaliyaay,walan,walan,hard,"Ash, A. and Lissarrague, A. and Giacon, J",hard,Adj,-29.84291122144783,149.806501013693,NA,NA,NA,NA
+Yuwaaliyaay,Central NSW,Pama-Nyungan,kld,yuwa1243,D54*,4,Yuwaaliyaay,walan,walan,solid,"Ash, A. and Lissarrague, A. and Giacon, J",solid,Adj,-29.84291122144783,149.806501013693,NA,NA,NA,NA
+Yuwaaliyaay,Central NSW,Pama-Nyungan,kld,yuwa1243,D54*,4,Yuwaaliyaay,walan,walan,tough,"Ash, A. and Lissarrague, A. and Giacon, J",tough,adjective,-29.84291122144783,149.806501013693,NA,NA,NA,NA
+Yuwaaliyaay,Central NSW,Pama-Nyungan,kld,yuwa1243,D54*,4,Yuwaaliyaay,wirraa-y,wiraː-j,limp,"Ash, A. and Lissarrague, A. and Giacon, J",limp,Vi,-29.84291122144783,149.806501013693,NA,NA,NA,NA
+Yuwaaliyaay,Central NSW,Pama-Nyungan,kld,yuwa1243,D54*,4,Yuwaaliyaay,muga,muka,blunt,"Ash, A. and Lissarrague, A. and Giacon, J",blunt,Adj,-29.84291122144783,149.806501013693,NA,NA,NA,NA
+Yuwaaliyaay,Central NSW,Pama-Nyungan,kld,yuwa1243,D54*,4,Yuwaaliyaay,walanbaa,walanpaː,hard,"Ash, A. and Lissarrague, A. and Giacon, J",hard,Adj,-29.84291122144783,149.806501013693,NA,NA,NA,NA
+Yuwaaliyaay,Central NSW,Pama-Nyungan,kld,yuwa1243,D54*,4,Yuwaaliyaay,walanbaa,walanpaː,solid,"Ash, A. and Lissarrague, A. and Giacon, J",solid,Adj,-29.84291122144783,149.806501013693,NA,NA,NA,NA
+Yuwaaliyaay,Central NSW,Pama-Nyungan,kld,yuwa1243,D54*,4,Yuwaaliyaay,walanbaa,walanpaː,tough,"Ash, A. and Lissarrague, A. and Giacon, J",tough,adjective,-29.84291122144783,149.806501013693,NA,NA,NA,NA
+Yuwaaliyaay,Central NSW,Pama-Nyungan,kld,yuwa1243,D54*,4,Yuwaaliyaay,bilga,pilka,bony,"Ash, A. and Lissarrague, A. and Giacon, J",bony,adjective,-29.84291122144783,149.806501013693,NA,NA,NA,NA
+Yuwaaliyaay,Central NSW,Pama-Nyungan,kld,yuwa1243,D54*,4,Yuwaaliyaay,buyabuya,pujapuja,bony,"Ash, A. and Lissarrague, A. and Giacon, J",bony,adjective,-29.84291122144783,149.806501013693,NA,NA,NA,NA
+Yuwaaliyaay,Central NSW,Pama-Nyungan,kld,yuwa1243,D54*,4,Yuwaaliyaay,wagibaa dhaygal,wakipaː t̪ajkal,bald,"Ash, A. and Lissarrague, A. and Giacon, J",bald,Adj,-29.84291122144783,149.806501013693,NA,NA,NA,NA
+Yuwaaliyaay,Central NSW,Pama-Nyungan,kld,yuwa1243,D54*,4,Yuwaaliyaay,mulamula,mulamula,soft,"Ash, A. and Lissarrague, A. and Giacon, J",soft,Adj,-29.84291122144783,149.806501013693,*mula,N/A,(a fluid),"Could the 'unclear' Kurrama etc words be related to mulha, mula, etc a widespread word for 'cooked (meat)?'"
+Yuwaaliyaay,Central NSW,Pama-Nyungan,kld,yuwa1243,D54*,4,Yuwaaliyaay,bamba,pampa,hard,"Ash, A. and Lissarrague, A. and Giacon, J",hard (with force),adverb,-29.84291122144783,149.806501013693,NA,NA,NA,NA
+Yuwaaliyaay,Central NSW,Pama-Nyungan,kld,yuwa1243,D54*,4,Yuwaaliyaay,manbu,manpu,flat,"Ash, A. and Lissarrague, A. and Giacon, J",flat,Adj,-29.84291122144783,149.806501013693,NA,NA,NA,NA
+Yuwaaliyaay,Central NSW,Pama-Nyungan,kld,yuwa1243,D54*,4,Yuwaaliyaay,man.gaman.ga,mankamanka,flat,"Ash, A. and Lissarrague, A. and Giacon, J",flat,Adj,-29.84291122144783,149.806501013693,NA,NA,NA,NA
+Yuwaaliyaay,Central NSW,Pama-Nyungan,kld,yuwa1243,D54*,4,Yuwaaliyaay,bulilbulil,pulilpulil,slippery,"Ash, A. and Lissarrague, A. and Giacon, J",slippery,adj,-29.84291122144783,149.806501013693,NA,NA,NA,NA
+Yuwaaliyaay,Central NSW,Pama-Nyungan,kld,yuwa1243,D54*,4,Yuwaaliyaay,madhamadha,mat̪amat̪a,rough,"Ash, A. and Lissarrague, A. and Giacon, J",rough,Adj,-29.84291122144783,149.806501013693,NA,NA,NA,NA
+Yuwaaliyaay,Central NSW,Pama-Nyungan,kld,yuwa1243,D54*,4,Yuwaaliyaay,muurr,muːr,blunt,"Ash, A. and Lissarrague, A. and Giacon, J",blunt,Adj,-29.84291122144783,149.806501013693,NA,NA,NA,NA
+Yuwaaliyaay,Central NSW,Pama-Nyungan,kld,yuwa1243,D54*,4,Yuwaaliyaay,nhunduu,n̪untuː,blunt,"Ash, A. and Lissarrague, A. and Giacon, J",blunt,Adj,-29.84291122144783,149.806501013693,NA,NA,NA,NA
+Yuwaaliyaay,Central NSW,Pama-Nyungan,kld,yuwa1243,D54*,4,Yuwaaliyaay,gayn.gayn,kajnkajn,smooth,"Ash, A. and Lissarrague, A. and Giacon, J",smooth,Adj,-29.84291122144783,149.806501013693,NA,NA,NA,NA
+Yuwaaliyaay,Central NSW,Pama-Nyungan,kld,yuwa1243,D54*,4,Yuwaaliyaay,ngandanganda,ŋantaŋanta,shiny,"Ash, A. and Lissarrague, A. and Giacon, J",shiny,Adj,-29.84291122144783,149.806501013693,NA,NA,NA,NA
+Yuwaaliyaay,Central NSW,Pama-Nyungan,kld,yuwa1243,D54*,4,Yuwaaliyaay,dhalaybaa,t̪alajpaː,sharp,"Ash, A. and Lissarrague, A. and Giacon, J",sharp,Adj,-29.84291122144783,149.806501013693,NA,NA,NA,NA
+Gamilaraay,Central NSW,Pama-Nyungan,kld,gami1243,D23,1023,Gamilaraay,bamba,pampa,hard,"Ash, A. and Lissarrague, A. and Giacon, J",hard (with force),adverb,-29.91686548094372,149.6172318830019,NA,NA,NA,NA
+Gamilaraay,Central NSW,Pama-Nyungan,kld,gami1243,D23,1023,Gamilaraay,biirra gawugaa,piːra kawukaː,bald,"Ash, A. and Lissarrague, A. and Giacon, J",bald head,Adj,-29.91686548094372,149.6172318830019,NA,NA,NA,NA
+Gamilaraay,Central NSW,Pama-Nyungan,kld,gami1243,D23,1023,Gamilaraay,burabura,puɹapuɹa,bony,"Ash, A. and Lissarrague, A. and Giacon, J",bony,adjective,-29.91686548094372,149.6172318830019,NA,NA,NA,NA
+Gamilaraay,Central NSW,Pama-Nyungan,kld,gami1243,D23,1023,Gamilaraay,guniyal,kunijal,flat,"Ash, A. and Lissarrague, A. and Giacon, J",flat,Adj,-29.91686548094372,149.6172318830019,NA,NA,NA,NA
+Gamilaraay,Central NSW,Pama-Nyungan,kld,gami1243,D23,1023,Gamilaraay,guuyalaraay,kuːjalaɹaːj,shiny,"Ash, A. and Lissarrague, A. and Giacon, J",shiny,Adj,-29.91686548094372,149.6172318830019,NA,NA,NA,NA
+Gamilaraay,Central NSW,Pama-Nyungan,kld,gami1243,D23,1023,Gamilaraay,madhamadha,mat̪amat̪a,rough,"Ash, A. and Lissarrague, A. and Giacon, J",rough,Adj,-29.91686548094372,149.6172318830019,NA,NA,NA,NA
+Gamilaraay,Central NSW,Pama-Nyungan,kld,gami1243,D23,1023,Gamilaraay,mugu,muku,blunt,"Ash, A. and Lissarrague, A. and Giacon, J",blunt,Adj,-29.91686548094372,149.6172318830019,NA,NA,NA,NA
+Gamilaraay,Central NSW,Pama-Nyungan,kld,gami1243,D23,1023,Gamilaraay,mulamula,mulamula,soft,"Ash, A. and Lissarrague, A. and Giacon, J",soft,Adj,-29.91686548094372,149.6172318830019,*mula,N/A,(a fluid),"Could the 'unclear' Kurrama etc words be related to mulha, mula, etc a widespread word for 'cooked (meat)?'"
+Gamilaraay,Central NSW,Pama-Nyungan,kld,gami1243,D23,1023,Gamilaraay,man.gaman.ga,mankamanka,flat,"Ash, A. and Lissarrague, A. and Giacon, J",flat,Adj,-29.91686548094372,149.6172318830019,NA,NA,NA,NA
+Gamilaraay,Central NSW,Pama-Nyungan,kld,gami1243,D23,1023,Gamilaraay,muurr,muːr,blunt,"Ash, A. and Lissarrague, A. and Giacon, J",blunt,Adj,-29.91686548094372,149.6172318830019,NA,NA,NA,NA
+Gamilaraay,Central NSW,Pama-Nyungan,kld,gami1243,D23,1023,Gamilaraay,ngaarr,ŋaːr,hard,"Ash, A. and Lissarrague, A. and Giacon, J",hard,Adj,-29.91686548094372,149.6172318830019,NA,NA,NA,NA
+Gamilaraay,Central NSW,Pama-Nyungan,kld,gami1243,D23,1023,Gamilaraay,nhunduu,n̪untuː,blunt,"Ash, A. and Lissarrague, A. and Giacon, J",blunt,Adj,-29.91686548094372,149.6172318830019,NA,NA,NA,NA
+Gamilaraay,Central NSW,Pama-Nyungan,kld,gami1243,D23,1023,Gamilaraay,walan,walan,hard,"Ash, A. and Lissarrague, A. and Giacon, J",hard,Adj,-29.91686548094372,149.6172318830019,NA,NA,NA,NA
+Gamilaraay,Central NSW,Pama-Nyungan,kld,gami1243,D23,1023,Gamilaraay,walan,walan,solid,"Ash, A. and Lissarrague, A. and Giacon, J",solid,Adj,-29.91686548094372,149.6172318830019,NA,NA,NA,NA
+Gamilaraay,Central NSW,Pama-Nyungan,kld,gami1243,D23,1023,Gamilaraay,walanbaa,walanpaː,hard,"Ash, A. and Lissarrague, A. and Giacon, J",hard,Adj,-29.91686548094372,149.6172318830019,NA,NA,NA,NA
+Gamilaraay,Central NSW,Pama-Nyungan,kld,gami1243,D23,1023,Gamilaraay,wirraa-y,wiraː-j,limp,"Ash, A. and Lissarrague, A. and Giacon, J",limp,Vi,-29.91686548094372,149.6172318830019,NA,NA,NA,NA
+Gamilaraay,Central NSW,Pama-Nyungan,kld,gami1243,D23,1023,Gamilaraay,yadhala,jat̪ala,sharp,"Ash, A. and Lissarrague, A. and Giacon, J",sharp,Adj,-29.91686548094372,149.6172318830019,NA,NA,NA,NA
+Yuwaalaraay,Central NSW,Pama-Nyungan,kld,yuwa1242,D27,5,Yuwaalaraay,bamba,pampa,hard,"Ash, A. and Lissarrague, A. and Giacon, J",hard (with force),adverb,-29.85302243209663,147.9291115132208,NA,NA,NA,NA
+Yuwaalaraay,Central NSW,Pama-Nyungan,kld,yuwa1242,D27,5,Yuwaalaraay,bulilbulil,pulilpulil,slippery,"Ash, A. and Lissarrague, A. and Giacon, J",slippery,adj,-29.85302243209663,147.9291115132208,NA,NA,NA,NA
+Yuwaalaraay,Central NSW,Pama-Nyungan,kld,yuwa1242,D27,5,Yuwaalaraay,buyabuya,pujapuja,bony,"Ash, A. and Lissarrague, A. and Giacon, J",bony,adjective,-29.85302243209663,147.9291115132208,NA,NA,NA,NA
+Yuwaalaraay,Central NSW,Pama-Nyungan,kld,yuwa1242,D27,5,Yuwaalaraay,dhalaybaa,t̪alajpaː,sharp,"Ash, A. and Lissarrague, A. and Giacon, J",sharp,Adj,-29.85302243209663,147.9291115132208,NA,NA,NA,NA
+Yuwaalaraay,Central NSW,Pama-Nyungan,kld,yuwa1242,D27,5,Yuwaalaraay,giliin,kiliːn,clean,"Ash, A. and Lissarrague, A. and Giacon, J",clean,Adj,-29.85302243209663,147.9291115132208,NA,NA,NA,NA
+Yuwaalaraay,Central NSW,Pama-Nyungan,kld,yuwa1242,D27,5,Yuwaalaraay,madhamadha,mat̪amat̪a,rough,"Ash, A. and Lissarrague, A. and Giacon, J",rough,Adj,-29.85302243209663,147.9291115132208,NA,NA,NA,NA
+Yuwaalaraay,Central NSW,Pama-Nyungan,kld,yuwa1242,D27,5,Yuwaalaraay,man.gaman.ga,mankamanka,flat,"Ash, A. and Lissarrague, A. and Giacon, J",flat,Adj,-29.85302243209663,147.9291115132208,NA,NA,NA,NA
+Yuwaalaraay,Central NSW,Pama-Nyungan,kld,yuwa1242,D27,5,Yuwaalaraay,muga,muka,blunt,"Ash, A. and Lissarrague, A. and Giacon, J",blunt,Adj,-29.85302243209663,147.9291115132208,NA,NA,NA,NA
+Yuwaalaraay,Central NSW,Pama-Nyungan,kld,yuwa1242,D27,5,Yuwaalaraay,mula,mula,soft,"Ash, A. and Lissarrague, A. and Giacon, J",soft,Adj,-29.85302243209663,147.9291115132208,*mula,N/A,(a fluid),"Could the 'unclear' Kurrama etc words be related to mulha, mula, etc a widespread word for 'cooked (meat)?'"
+Yuwaalaraay,Central NSW,Pama-Nyungan,kld,yuwa1242,D27,5,Yuwaalaraay,mulamula,mulamula,soft,"Ash, A. and Lissarrague, A. and Giacon, J",soft,Adj,-29.85302243209663,147.9291115132208,*mula,N/A,(a fluid),"Could the 'unclear' Kurrama etc words be related to mulha, mula, etc a widespread word for 'cooked (meat)?'"
+Yuwaalaraay,Central NSW,Pama-Nyungan,kld,yuwa1242,D27,5,Yuwaalaraay,muurr,muːr,blunt,"Ash, A. and Lissarrague, A. and Giacon, J",blunt,Adj,-29.85302243209663,147.9291115132208,NA,NA,NA,NA
+Yuwaalaraay,Central NSW,Pama-Nyungan,kld,yuwa1242,D27,5,Yuwaalaraay,nhunduu,n̪untuː,blunt,"Ash, A. and Lissarrague, A. and Giacon, J",blunt,Adj,-29.85302243209663,147.9291115132208,NA,NA,NA,NA
+Yuwaalaraay,Central NSW,Pama-Nyungan,kld,yuwa1242,D27,5,Yuwaalaraay,wagibaa dhaygal,wakipaː t̪ajkal,bald,"Ash, A. and Lissarrague, A. and Giacon, J",bald,Adj,-29.85302243209663,147.9291115132208,NA,NA,NA,NA
+Yuwaalaraay,Central NSW,Pama-Nyungan,kld,yuwa1242,D27,5,Yuwaalaraay,walan,walan,hard,"Ash, A. and Lissarrague, A. and Giacon, J",hard,Adj,-29.85302243209663,147.9291115132208,NA,NA,NA,NA
+Yuwaalaraay,Central NSW,Pama-Nyungan,kld,yuwa1242,D27,5,Yuwaalaraay,walan,walan,solid,"Ash, A. and Lissarrague, A. and Giacon, J",solid,Adj,-29.85302243209663,147.9291115132208,NA,NA,NA,NA
+Yuwaalaraay,Central NSW,Pama-Nyungan,kld,yuwa1242,D27,5,Yuwaalaraay,walan,walan,tough,"Ash, A. and Lissarrague, A. and Giacon, J",tough,adjective,-29.85302243209663,147.9291115132208,NA,NA,NA,NA
+Yuwaalaraay,Central NSW,Pama-Nyungan,kld,yuwa1242,D27,5,Yuwaalaraay,walanbaa,walanpaː,hard,"Ash, A. and Lissarrague, A. and Giacon, J",hard,Adj,-29.85302243209663,147.9291115132208,NA,NA,NA,NA
+Yuwaalaraay,Central NSW,Pama-Nyungan,kld,yuwa1242,D27,5,Yuwaalaraay,walanbaa,walanpaː,solid,"Ash, A. and Lissarrague, A. and Giacon, J",solid,Adj,-29.85302243209663,147.9291115132208,NA,NA,NA,NA
+Yuwaalaraay,Central NSW,Pama-Nyungan,kld,yuwa1242,D27,5,Yuwaalaraay,walanbaa,walanpaː,tough,"Ash, A. and Lissarrague, A. and Giacon, J",tough,adjective,-29.85302243209663,147.9291115132208,NA,NA,NA,NA
+Yuwaalaraay,Central NSW,Pama-Nyungan,kld,yuwa1242,D27,5,Yuwaalaraay,wirraa-y,wiraː-j,limp,"Ash, A. and Lissarrague, A. and Giacon, J",limp,Vi,-29.85302243209663,147.9291115132208,NA,NA,NA,NA
+Bardi,Western Nyulnyulan,Nyulnyulan,bcj,bard1255,K15,1198,Bardi,balbarr,palpar,bald,Gedda Aklif,bald,Adj,-16.5030267809473,122.9331577081408,NA,NA,NA,NA
+Bardi,Western Nyulnyulan,Nyulnyulan,bcj,bard1255,K15,1198,Bardi,buna,puna,blunt,Gedda Aklif,blunt,Adj,-16.5030267809473,122.9331577081408,NA,NA,NA,NA
+Bardi,Western Nyulnyulan,Nyulnyulan,bcj,bard1255,K15,1198,Bardi,diiwa,tiːwa,hard,Gedda Aklif,"hard, strong",Adj,-16.5030267809473,122.9331577081408,NA,NA,NA,NA
+Bardi,Western Nyulnyulan,Nyulnyulan,bcj,bard1255,K15,1198,Bardi,garrya,karja,sharp,Gedda Aklif,sharp,Adj,-16.5030267809473,122.9331577081408,NA,NA,NA,NA
+Bardi,Western Nyulnyulan,Nyulnyulan,bcj,bard1255,K15,1198,Bardi,ngurbu,ŋuɹpu,soft,Gedda Aklif,soft,Adj,-16.5030267809473,122.9331577081408,NA,NA,NA,NA
+Bardi,Western Nyulnyulan,Nyulnyulan,bcj,bard1255,K15,1198,Bardi,garrja,kaɹʈja,sharp,Gedda Aklif,sharp,Adj,-16.5030267809473,122.9331577081408,NA,NA,NA,NA
+Bardi,Western Nyulnyulan,Nyulnyulan,bcj,bard1255,K15,1198,Bardi,aalaliny,aːlaliɲ,smooth,"Aklif, Gedda and Bowern, Claire",smooth,Adj,-16.5030267809473,122.9331577081408,NA,NA,NA,NA
+Bardi,Western Nyulnyulan,Nyulnyulan,bcj,bard1255,K15,1198,Bardi,barrarr,parar,stiff,"Aklif, Gedda and Bowern, Claire",stiff,Adj,-16.5030267809473,122.9331577081408,NA,NA,NA,NA
+Bardi,Western Nyulnyulan,Nyulnyulan,bcj,bard1255,K15,1198,Bardi,birrgal,pirkal,hard,"Aklif, Gedda and Bowern, Claire",hard,Adj,-16.5030267809473,122.9331577081408,NA,NA,NA,NA
+Bardi,Western Nyulnyulan,Nyulnyulan,bcj,bard1255,K15,1198,Bardi,diiwa -joo-,tiːwa cu,hard,"Aklif, Gedda and Bowern, Claire",hard,Adj,-16.5030267809473,122.9331577081408,NA,NA,NA,NA
+Bardi,Western Nyulnyulan,Nyulnyulan,bcj,bard1255,K15,1198,Bardi,garrarra,karara,brittle,"Aklif, Gedda and Bowern, Claire",brittle,NA,-16.5030267809473,122.9331577081408,NA,NA,NA,NA
+Bardi,Western Nyulnyulan,Nyulnyulan,bcj,bard1255,K15,1198,Bardi,jaabi,caːpi,sharp,"Aklif, Gedda and Bowern, Claire",sharp,Adj,-16.5030267809473,122.9331577081408,NA,NA,NA,NA
+Bardi,Western Nyulnyulan,Nyulnyulan,bcj,bard1255,K15,1198,Bardi,-jayaya-,-cajaja-,limp,"Aklif, Gedda and Bowern, Claire",limp,Vi,-16.5030267809473,122.9331577081408,NA,NA,NA,NA
+Bardi,Western Nyulnyulan,Nyulnyulan,bcj,bard1255,K15,1198,Bardi,lanybal,laɲpal,flat,"Aklif, Gedda and Bowern, Claire",flat,Adj,-16.5030267809473,122.9331577081408,NA,NA,NA,NA
+Bardi,Western Nyulnyulan,Nyulnyulan,bcj,bard1255,K15,1198,Bardi,-moorna-,-muɳa-,clean,"Aklif, Gedda and Bowern, Claire",clean,Adj,-16.5030267809473,122.9331577081408,NA,NA,NA,NA
+Bardi,Western Nyulnyulan,Nyulnyulan,bcj,bard1255,K15,1198,Bardi,-ngoombi-,-ŋumpi-,clean,"Aklif, Gedda and Bowern, Claire",clean,Adj,-16.5030267809473,122.9331577081408,NA,NA,NA,NA
+Bardi,Western Nyulnyulan,Nyulnyulan,bcj,bard1255,K15,1198,Bardi,nuumboo,nuːmpu,blunt,"Aklif, Gedda and Bowern, Claire",blunt,Adj,-16.5030267809473,122.9331577081408,NA,NA,NA,NA
+Bardi,Western Nyulnyulan,Nyulnyulan,bcj,bard1255,K15,1198,Bardi,ranyi -(i)nya-,ɹaɲi (i)ɲa,clean,"Aklif, Gedda and Bowern, Claire",clear away,NA,-16.5030267809473,122.9331577081408,NA,NA,NA,NA
+Bardi,Western Nyulnyulan,Nyulnyulan,bcj,bard1255,K15,1198,Bardi,deo,teo,hard,Nekes and Worms,"hard, tough",Adj,-16.5030267809473,122.9331577081408,NA,NA,NA,NA
+Bardi,Western Nyulnyulan,Nyulnyulan,bcj,bard1255,K15,1198,Bardi,ŋob,ŋop,soft,Nekes and Worms,soft,Adj,-16.5030267809473,122.9331577081408,NA,NA,NA,NA
+Bardi,Western Nyulnyulan,Nyulnyulan,bcj,bard1255,K15,1198,Bardi,boṇ,poṇ,blunt,Nekes and Worms,blunt,Adj,-16.5030267809473,122.9331577081408,NA,NA,NA,NA
+Bardi,Western Nyulnyulan,Nyulnyulan,bcj,bard1255,K15,1198,Bardi,barar,paɹaɹ,stiff,Nekes and Worms,stiff,Adj,-16.5030267809473,122.9331577081408,NA,NA,NA,NA
+Bardi,Western Nyulnyulan,Nyulnyulan,bcj,bard1255,K15,1198,Bardi,oṛar,oɹ̣aɹ,stiff,Nekes and Worms,stiff,Adj,-16.5030267809473,122.9331577081408,NA,NA,NA,NA
+Bardi,Western Nyulnyulan,Nyulnyulan,bcj,bard1255,K15,1198,Bardi,alalinj,alaliɲ,slippery,Nekes and Worms,"slippery, smooth, flat",NA,-16.5030267809473,122.9331577081408,NA,NA,NA,NA
+Bardi,Western Nyulnyulan,Nyulnyulan,bcj,bard1255,K15,1198,Bardi,djoṛbar,coɹ̣paɹ,stiff,Nekes and Worms,stiff,Adj,-16.5030267809473,122.9331577081408,NA,NA,NA,NA
+Yawuru,Eastern Nyulnyulan,Nyulnyulan,ywr,yawu1244,K48*,43,Yawuru,dela,dela,hard,Nekes and Worms,"hard, tough",Adj,-18.20094984476134,122.5732262509664,NA,NA,NA,NA
+Yawuru,Eastern Nyulnyulan,Nyulnyulan,ywr,yawu1244,K48*,43,Yawuru,domo,domo,blunt,Nekes and Worms,blunt,Adj,-18.20094984476134,122.5732262509664,NA,NA,NA,NA
+Yawuru,Eastern Nyulnyulan,Nyulnyulan,ywr,yawu1244,K48*,43,Yawuru,djir,jiɹ,stiff,Nekes and Worms,stiff,Adj,-18.20094984476134,122.5732262509664,NA,NA,NA,NA
+Yawuru,Eastern Nyulnyulan,Nyulnyulan,ywr,yawu1244,K48*,43,Yawuru,ŋobo,ŋobo,soft,Nekes and Worms,soft,Adj,-18.20094984476134,122.5732262509664,NA,NA,NA,NA
+Yawuru,Eastern Nyulnyulan,Nyulnyulan,ywr,yawu1244,K48*,43,Yawuru,yaralj,jaɹaʎ,slippery,Nekes and Worms,slippery,adj,-18.20094984476134,122.5732262509664,NA,NA,NA,NA
+Yawuru,Eastern Nyulnyulan,Nyulnyulan,ywr,yawu1244,K48*,43,Yawuru,ŋodjila,ŋojila,soft,Nekes and Worms,soft,Adj,-18.20094984476134,122.5732262509664,NA,NA,NA,NA
+Yawuru,Eastern Nyulnyulan,Nyulnyulan,ywr,yawu1244,K48*,43,Yawuru,yarjalj,jaɹjaʎ,slippery,Nekes and Worms,slippery,adj,-18.20094984476134,122.5732262509664,NA,NA,NA,NA
+Nyikina,Eastern Nyulnyulan,Nyulnyulan,nyh,nyig1240,K3,460,Nyikina,dela,tela,hard,Nekes and Worms,"hard, tough",Adj,-18.20260281899327,124.2885678663105,NA,NA,NA,NA
+Nyikina,Eastern Nyulnyulan,Nyulnyulan,nyh,nyig1240,K3,460,Nyikina,domo,tomo,blunt,Nekes and Worms,blunt,Adj,-18.20260281899327,124.2885678663105,NA,NA,NA,NA
+Nyikina,Eastern Nyulnyulan,Nyulnyulan,nyh,nyig1240,K3,460,Nyikina,djir,ciɹ,stiff,Nekes and Worms,stiff,Adj,-18.20260281899327,124.2885678663105,NA,NA,NA,NA
+Nyikina,Eastern Nyulnyulan,Nyulnyulan,nyh,nyig1240,K3,460,Nyikina,ŋobo,ŋopo,soft,Nekes and Worms,soft,Adj,-18.20260281899327,124.2885678663105,NA,NA,NA,NA
+Nyikina,Eastern Nyulnyulan,Nyulnyulan,nyh,nyig1240,K3,460,Nyikina,yaralj,jaɹaʎ,slippery,Nekes and Worms,slippery,adj,-18.20260281899327,124.2885678663105,NA,NA,NA,NA
+Nyikina,Eastern Nyulnyulan,Nyulnyulan,nyh,nyig1240,K3,460,Nyikina,ŋodjila,ŋocila,soft,Nekes and Worms,soft,Adj,-18.20260281899327,124.2885678663105,NA,NA,NA,NA
+Nyulnyul,Western Nyulnyulan,Nyulnyulan,nyv,nyul1247,K13,456,Nyulnyul,deo,teo,hard,Nekes and Worms,"hard, tough",Adj,-16.87658867744711,122.8231991037238,NA,NA,NA,NA
+Nyulnyul,Western Nyulnyulan,Nyulnyulan,nyv,nyul1247,K13,456,Nyulnyul,ŋob,ŋop,soft,Nekes and Worms,soft,Adj,-16.87658867744711,122.8231991037238,NA,NA,NA,NA
+Nyulnyul,Western Nyulnyulan,Nyulnyulan,nyv,nyul1247,K13,456,Nyulnyul,boṇ,poṇ,blunt,Nekes and Worms,blunt,Adj,-16.87658867744711,122.8231991037238,NA,NA,NA,NA
+Nyulnyul,Western Nyulnyulan,Nyulnyulan,nyv,nyul1247,K13,456,Nyulnyul,yarjalj,jaʈjaʎ,slippery,Nekes and Worms,slippery,adj,-16.87658867744711,122.8231991037238,NA,NA,NA,NA
+Nyulnyul,Western Nyulnyulan,Nyulnyulan,nyv,nyul1247,K13,456,Nyulnyul,badabad nalm,patapat nalm,bald,Nekes and Worms,bald head,Adj,-16.87658867744711,122.8231991037238,NA,NA,NA,NA
+Nyulnyul,Western Nyulnyulan,Nyulnyulan,nyv,nyul1247,K13,456,Nyulnyul,djoṛbar,coɹ̣paɹ,stiff,Nekes and Worms,stiff,Adj,-16.87658867744711,122.8231991037238,NA,NA,NA,NA
+Nimanburru,Western Nyulnyulan,Nyulnyulan,nmp,nima1245,K9,492,Nimanburru,deo,deo,hard,Nekes and Worms,"hard, tough",Adj,-17.32739252133048,123.0695845405872,NA,NA,NA,NA
+Nimanburru,Western Nyulnyulan,Nyulnyulan,nmp,nima1245,K9,492,Nimanburru,ŋob,ŋob,soft,Nekes and Worms,soft,Adj,-17.32739252133048,123.0695845405872,NA,NA,NA,NA
+Nimanburru,Western Nyulnyulan,Nyulnyulan,nmp,nima1245,K9,492,Nimanburru,boṇ,boṇ,blunt,Nekes and Worms,blunt,Adj,-17.32739252133048,123.0695845405872,NA,NA,NA,NA
+Nimanburru,Western Nyulnyulan,Nyulnyulan,nmp,nima1245,K9,492,Nimanburru,barar,baɹaɹ,stiff,Nekes and Worms,stiff,Adj,-17.32739252133048,123.0695845405872,NA,NA,NA,NA
+Nimanburru,Western Nyulnyulan,Nyulnyulan,nmp,nima1245,K9,492,Nimanburru,yarjalj,jaɹjaʎ,slippery,Nekes and Worms,slippery,adj,-17.32739252133048,123.0695845405872,NA,NA,NA,NA
+Nimanburru,Western Nyulnyulan,Nyulnyulan,nmp,nima1245,K9,492,Nimanburru,djoṛbar,joɹ̣baɹ,stiff,Nekes and Worms,stiff,Adj,-17.32739252133048,123.0695845405872,NA,NA,NA,NA
+Nimanburru,Western Nyulnyulan,Nyulnyulan,nmp,nima1245,K9,492,Nimanburru,walalinj,walaliɲ,slippery,Nekes and Worms,slippery,adj,-17.32739252133048,123.0695845405872,NA,NA,NA,NA
+Ngumbarl,Eastern Nyulnyulan,Nyulnyulan,?wyb,ngum1253,K4,511,Ngumbarl,balbarrabool,balbarabul,bald,NA,bald,Adj,-17.53716033167734,122.4292370976321,NA,NA,NA,NA
+Ngumbarl,Eastern Nyulnyulan,Nyulnyulan,?wyb,ngum1253,K4,511,Ngumbarl,"noombo, noomboo neelirr",noːmbo,blunt,NA,blunt,Adj,-17.53716033167734,122.4292370976321,NA,NA,NA,NA
+Ngumbarl,Eastern Nyulnyulan,Nyulnyulan,?wyb,ngum1253,K4,511,Ngumbarl,"weera, lalga womba",weːɹa,bony,NA,bony,NA,-17.53716033167734,122.4292370976321,NA,NA,NA,NA
+Ngumbarl,Eastern Nyulnyulan,Nyulnyulan,?wyb,ngum1253,K4,511,Ngumbarl,deoo,<deoː>,firm,NA,firm,Adj,-17.53716033167734,122.4292370976321,NA,NA,NA,NA
+Ngumbarl,Eastern Nyulnyulan,Nyulnyulan,?wyb,ngum1253,K4,511,Ngumbarl,"b?la, baala",baːla,flat,NA,flat,Adj,-17.53716033167734,122.4292370976321,NA,NA,NA,NA
+Ngumbarl,Eastern Nyulnyulan,Nyulnyulan,?wyb,ngum1253,K4,511,Ngumbarl,yarral,<jaral>,slippery,NA,slippery,adj,-17.53716033167734,122.4292370976321,NA,NA,NA,NA
+Ngumbarl,Eastern Nyulnyulan,Nyulnyulan,?wyb,ngum1253,K4,511,Ngumbarl,mabboo,<mabboː>,smooth,NA,smooth,Adj,-17.53716033167734,122.4292370976321,NA,NA,NA,NA
+Ngumbarl,Eastern Nyulnyulan,Nyulnyulan,?wyb,ngum1253,K4,511,Ngumbarl,ngoorjila,<ngoːɹjila>,soft,NA,soft,Adj,-17.53716033167734,122.4292370976321,NA,NA,NA,NA
+Nyikina,Eastern Nyulnyulan,Nyulnyulan,nyh,nyig1240,K3,460,Nyikina,yaralj,jaɹaʎ,slippery,Nekes and Worms,slippery,adj,-18.20260281899327,124.2885678663105,NA,NA,NA,NA
+Nyikina,Eastern Nyulnyulan,Nyulnyulan,nyh,nyig1240,K3,460,Nyikina,ŋodjila,ŋocila,soft,Nekes and Worms,soft,Adj,-18.20260281899327,124.2885678663105,NA,NA,NA,NA
+Nyulnyul,Western Nyulnyulan,Nyulnyulan,nyv,nyul1247,K13,456,Nyulnyul,ŋob,ŋop,soft,Nekes and Worms,soft,Adj,-16.87658867744711,122.8231991037238,NA,NA,NA,NA
+Nyulnyul,Western Nyulnyulan,Nyulnyulan,nyv,nyul1247,K13,456,Nyulnyul,boṇ,poṇ,blunt,Nekes and Worms,blunt,Adj,-16.87658867744711,122.8231991037238,NA,NA,NA,NA
+Nyulnyul,Western Nyulnyulan,Nyulnyulan,nyv,nyul1247,K13,456,Nyulnyul,yarjalj,jaʈjaʎ,slippery,Nekes and Worms,slippery,adj,-16.87658867744711,122.8231991037238,NA,NA,NA,NA
+Nyulnyul,Western Nyulnyulan,Nyulnyulan,nyv,nyul1247,K13,456,Nyulnyul,badabad nalm,patapat nalm,bald,Nekes and Worms,bald head,Adj,-16.87658867744711,122.8231991037238,NA,NA,NA,NA
+Nyulnyul,Western Nyulnyulan,Nyulnyulan,nyv,nyul1247,K13,456,Nyulnyul,djoṛbar,coɹ̣paɹ,stiff,Nekes and Worms,stiff,Adj,-16.87658867744711,122.8231991037238,NA,NA,NA,NA
+Coonambella,Dyirbalic,Pama-Nyungan,NA,wulg1239,Y155*,1129,Coonambella,booma,boːma,clean,NA,to clean,V,-19.85,146.34,NA,NA,NA,NA
+Coonambella,Dyirbalic,Pama-Nyungan,NA,wulg1239,Y155*,1129,Coonambella,caka'na'ree,caka'na'ɹeː,brittle,NA,brittle,NA,-19.85,146.34,NA,NA,NA,NA
+Coonambella,Dyirbalic,Pama-Nyungan,NA,wulg1239,Y155*,1129,Coonambella,ca'rril,ca'ril,hard,NA,hard,ADJ,-19.85,146.34,NA,NA,NA,NA
+Coonambella,Dyirbalic,Pama-Nyungan,NA,wulg1239,Y155*,1129,Coonambella,culngarba,culngaɹba,clean,NA,clean,NA,-19.85,146.34,NA,NA,NA,NA
+Coonambella,Dyirbalic,Pama-Nyungan,NA,wulg1239,Y155*,1129,Coonambella,goon'dil ma,goːn'dil ma,blunt,NA,blunt,ADJ,-19.85,146.34,NA,NA,NA,NA
+Coonambella,Dyirbalic,Pama-Nyungan,NA,wulg1239,Y155*,1129,Coonambella,n'ghine yan,n'ɣine jan,sharp,NA,sharp,NA,-19.85,146.34,NA,NA,NA,NA
+Coonambella,Dyirbalic,Pama-Nyungan,NA,wulg1239,Y155*,1129,Coonambella,tee'nam'ba'ra,teː'nam'ba'ɹa,stiff,NA,stiff,NA,-19.85,146.34,NA,NA,NA,NA
+Coonambella,Dyirbalic,Pama-Nyungan,NA,wulg1239,Y155*,1129,Coonambella,toor'gal'ma,toːɹ'gal'ma,sharp,NA,sharp,NA,-19.85,146.34,NA,NA,NA,NA
+Guwamu,Maric,Pama-Nyungan,gwu,guwa1243,D33,923,Guwamu,garrgil,karkil,hard,Peter Austin,hard (like stone),N,-28.02423917812645,147.6605303485538,NA,NA,NA,NA
+Guwamu,Maric,Pama-Nyungan,gwu,guwa1243,D33,923,Guwamu,ngarrbuny,ŋarpuɲ,soft,Peter Austin,soft,N,-28.02423917812645,147.6605303485538,NA,NA,NA,NA
+Koko Yimidir,Paman,Pama-Nyungan,kky,guug1239,Y82,925,Guugu-Yimidhirr,budul,putul,blunt,"Roth, Walter E.",blunt,ADJ,-15.16061049057366,144.9904848496925,NA,NA,NA,NA
+Koko Yimidir,Paman,Pama-Nyungan,kky,guug1239,Y82,925,Guugu-Yimidhirr,danga,taŋa,rough,"Roth, Walter E.","rough, prickly, jagged",ADJ,-15.16061049057366,144.9904848496925,NA,NA,NA,NA
+Koko Yimidir,Paman,Pama-Nyungan,kky,guug1239,Y82,925,Guugu-Yimidhirr,moari-buntjil,moaɹi-puncil,bald,"Roth, Walter E.",bald,ADJ,-15.16061049057366,144.9904848496925,NA,NA,NA,NA
+Koko Yimidir,Paman,Pama-Nyungan,kky,guug1239,Y82,925,Guugu-Yimidhirr,moimon,moimon,smooth,"Roth, Walter E.",smooth,ADJ,-15.16061049057366,144.9904848496925,NA,NA,NA,NA
+Chap Wuruong,Kulin,Pama-Nyungan,tjw,west2443,S26,297,Tjapwurrung,turuup,tuɹuːp,blunt,"Dawson, James",blunt,NA,-37.30349409744511,142.9105910163052,NA,NA,NA,NA
+Kuurn kopan noot,Kulin,Pama-Nyungan,gjm,NA,S20,947,Gunditjmara,mo'ort,mo'oʈ,blunt,"Dawson, James",blunt,NA,-38.22064836643228,142.0583316632591,NA,NA,NA,NA
+Peek whuurong,Kulin,Pama-Nyungan,NA,NA,NA,1265,Pikwurrung,mort mittin,moʈ mittin,blunt,"Dawson, James",blunt,NA,NA,NA,NA,NA,NA,NA
+Gupapuyngu,Yolŋu,NA,guf,gupa1247,N122.1,934,Gupapuyngu,dhapaṉbal,d̪apan̪bal,flat,"Lowe, Beulah",flat,"Adj, n",-12.7172575311146,135.8819055486839,NA,NA,NA,NA
+Gupapuyngu,Yolŋu,NA,guf,gupa1247,N122.1,934,Gupapuyngu,ḏarrtjalk,d̪aɹʈjalk,clean,"Lowe, Beulah",clean,Adj,-12.7172575311146,135.8819055486839,rdarrtyalk,Yolŋu,clean,NA
+Gupapuyngu,Yolŋu,NA,guf,gupa1247,N122.1,934,Gupapuyngu,yalwuḏuk,jalwud̪uk,soft,"Lowe, Beulah",pliable,Adj,-12.7172575311146,135.8819055486839,NA,NA,NA,NA
+Gupapuyngu,Yolŋu,NA,guf,gupa1247,N122.1,934,Gupapuyngu,dhirrkthirrk,d̪irkt̪irk,rough,"Lowe, Beulah",rough (surface),Adj,-12.7172575311146,135.8819055486839,*thirrkthirrk,Yolŋu,rough,NA
+Gupapuyngu,Yolŋu,NA,guf,gupa1247,N122.1,934,Gupapuyngu,dhapaṉbal,d̪apan̪bal,flat,"Christie, Michael",flat,"Adj, n",-12.7172575311146,135.8819055486839,NA,NA,NA,NA
+Gupapuyngu,Yolŋu,NA,guf,gupa1247,N122.1,934,Gupapuyngu,ḏarrtjalk,d̪aɹʈjalk,clean,"Christie, Michael",clean,Adj,-12.7172575311146,135.8819055486839,rdarrtyalk,Yolŋu,clean,NA
+Gupapuyngu,Yolŋu,NA,guf,gupa1247,N122.1,934,Gupapuyngu,dhirrkthirrk,d̪irkt̪irk,rough,"Christie, Michael",rough (surface),Adj,-12.7172575311146,135.8819055486839,*thirrkthirrk,Yolŋu,rough,NA
+Burarra,Maningrida,NA,bvr,bura1267,N191*,1143,Burarra,jerdajirda / -jerdajirda,ɟeɖaɟiɖa / -ɟeɖaɟiɖa,smooth,"Glasglow, Kathleen and Gladgow, David",smooth,adv.; descr.,-12.02334684534266,134.7195147994259,NA,NA,NA,NA
+Burarra,Maningrida,NA,bvr,bura1267,N191*,1143,Burarra,-mujarrkchijarrk,-muɟarkciɟark,rough,"Glasglow, Kathleen and Gladgow, David",rough,descr.,-12.02334684534266,134.7195147994259,NA,NA,NA,NA
+pPN-,Pama-Nyungan,Pama-Nyungan,NA,NA,NA,373,Proto-Pama-Nyungan,*kAnta(l),kAnta(l),smooth,Susan Fitzgerald,smooth,adj,-13.9,148.5,NA,NA,NA,NA
+Yidiny,Paman,Pama-Nyungan,yii,yidi1250,Y117,40,Yidiny,buyal,pujal,hard,"Dixon, R.M.W","hard, solid, strong",Adj,-17.11594422180313,145.7736813596025,NA,NA,NA,NA
+Yidiny,Paman,Pama-Nyungan,yii,yidi1250,Y117,40,Yidiny,dirrbal,tirpal,clean,"Dixon, R.M.W","clean, (e.g. camp, road)",Adj,-17.11594422180313,145.7736813596025,NA,NA,NA,NA
+Yidiny,Paman,Pama-Nyungan,yii,yidi1250,Y117,40,Yidiny,garan,kaɹan,clean,"Dixon, R.M.W","clean (e.g. water, food, face, clothes)",Adj,-17.11594422180313,145.7736813596025,NA,NA,NA,NA
+Kukatja,Wati,Pama-Nyungan,kux,kuka1246,C7,814,Kukatja,lanitjarra,lanicara,stiff,"Valiquette, Hillaire amd Anthony Peile",stiff,Nstat,-20.51538798370036,128.0418320166125,NA,NA,NA,NA
+Kukatja,Wati,Pama-Nyungan,kux,kuka1246,C7,814,Kukatja,maral-maral(pa),maɹal-maɹal(pa),flat,"Valiquette, Hillaire amd Anthony Peile",flat,Nstat,-20.51538798370036,128.0418320166125,NA,NA,NA,NA
+Kukatja,Wati,Pama-Nyungan,kux,kuka1246,C7,814,Kukatja,nantul(pa),nantul(pa),stiff,"Valiquette, Hillaire amd Anthony Peile",stiff,Nstat,-20.51538798370036,128.0418320166125,NA,NA,NA,NA
+Kukatja,Wati,Pama-Nyungan,kux,kuka1246,C7,814,Kukatja,ngarlngarl(pa),ŋaɭŋaɭ(pa),stiff,"Valiquette, Hillaire amd Anthony Peile",stiff,Nstat,-20.51538798370036,128.0418320166125,NA,NA,NA,NA
+Kukatja,Wati,Pama-Nyungan,kux,kuka1246,C7,814,Kukatja,nyampaly(pa),ɲampaʎ(pa),soft,"Valiquette, Hillaire amd Anthony Peile",soft,Adj,-20.51538798370036,128.0418320166125,NA,NA,NA,NA
+Kukatja,Wati,Pama-Nyungan,kux,kuka1246,C7,814,Kukatja,palytal(pa),paʎtal(pa),stiff,"Valiquette, Hillaire amd Anthony Peile",stiff,Nstat,-20.51538798370036,128.0418320166125,NA,NA,NA,NA
+Kukatja,Wati,Pama-Nyungan,kux,kuka1246,C7,814,Kukatja,karu,kaɹu,stiff,"Valiquette, Hillaire amd Anthony Peile",stiff,Adj,-20.51538798370036,128.0418320166125,NA,NA,NA,NA
+Kukatja,Wati,Pama-Nyungan,kux,kuka1246,C7,814,Kukatja,puwaly(pa),puwaʎ(pa),blunt,"Valiquette, Hillaire amd Anthony Peile",dull,Nstat,-20.51538798370036,128.0418320166125,NA,NA,NA,NA
+Kukatja,Wati,Pama-Nyungan,kux,kuka1246,C7,814,Kukatja,rupuny-rupuny(pa),ɹupuɲ-ɹupuɲ(pa),bald,"Valiquette, Hillaire amd Anthony Peile",bald,Nstat,-20.51538798370036,128.0418320166125,NA,NA,NA,NA
+Kukatja,Wati,Pama-Nyungan,kux,kuka1246,C7,814,Kukatja,tanmaly(pa),tanmaʎ(pa),stiff,"Valiquette, Hillaire amd Anthony Peile",stiff,Nstat,-20.51538798370036,128.0418320166125,NA,NA,NA,NA
+Kukatja,Wati,Pama-Nyungan,kux,kuka1246,C7,814,Kukatja,tjatjurr(pa),cacur(pa),stiff,"Valiquette, Hillaire amd Anthony Peile",stiff,Nstat,-20.51538798370036,128.0418320166125,NA,NA,NA,NA
+Kukatja,Wati,Pama-Nyungan,kux,kuka1246,C7,814,Kukatja,tjiraly(pa),ciɹaʎ(pa),slippery,"Valiquette, Hillaire amd Anthony Peile",slippery,Nstat,-20.51538798370036,128.0418320166125,NA,NA,NA,NA
+Kukatja,Wati,Pama-Nyungan,kux,kuka1246,C7,814,Kukatja,walan(pa),walan(pa),blunt,"Valiquette, Hillaire amd Anthony Peile",dull,Nstat,-20.51538798370036,128.0418320166125,NA,NA,NA,NA
+Kukatja,Wati,Pama-Nyungan,kux,kuka1246,C7,814,Kukatja,walurr(pa),walur(pa),blunt,"Valiquette, Hillaire amd Anthony Peile",dull,Nstat,-20.51538798370036,128.0418320166125,NA,NA,NA,NA
+Kukatja,Wati,Pama-Nyungan,kux,kuka1246,C7,814,Kukatja,palytjaly(pa),paʎcaʎ(pa),stiff,"Valiquette, Hillaire amd Anthony Peile",stiff,Nstat,-20.51538798370036,128.0418320166125,NA,NA,NA,NA
+Kukatja,Wati,Pama-Nyungan,kux,kuka1246,C7,814,Kukatja,zz_tanmarl(pa),tanmaɭ(pa),stiff,"Valiquette, Hillaire amd Anthony Peile",stiff,Nstat,-20.51538798370036,128.0418320166125,NA,NA,NA,NA
+Coonambella,Dyirbalic,Pama-Nyungan,NA,wulg1239,Y155*,1129,Coonambella,moor'gool,moːɹ'goːl,blunt,NA,dull,NA,-19.85,146.34,NA,NA,NA,NA
+Coonambella,Dyirbalic,Pama-Nyungan,NA,wulg1239,Y155*,1129,Coonambella,n'go'lo'go,n'go'lo'go,clean,NA,clear away,NA,-19.85,146.34,NA,NA,NA,NA
+Atampaya,Paman,Pama-Nyungan,amz,atam1239,Y183*,1216,Atampaya,ithan,it̪an,sharp,Terry Crowley,sharp,NA,-11.48211056962124,142.3743783707638,*lical,N/A,grass (sp),NA
+Duuŋidjawu,Waka-Kabi,Pama-Nyungan,wkw,duun1241,E20,1051,Duungidjawu,ŋurr,ŋur,sharp,"Kite, Suzanne; Wurm, Stephen",(Adj) sharp,Adj,-25.3987,152.345,*ŋurru,N/A,nose,NA
+Gupapuyngu,Yolŋu,NA,guf,gupa1247,N122.1,934,Gupapuyngu,dhumuk,d̪umuk,blunt,"Lowe, Beulah",blunt,"Adj, n",-12.7172575311146,135.8819055486839,NA,NA,NA,NA
+Gupapuyngu,Yolŋu,NA,guf,gupa1247,N122.1,934,Gupapuyngu,binydjitj,biɲɟic,flat,"Lowe, Beulah",flat,Adj,-12.7172575311146,135.8819055486839,NA,NA,NA,NA
+Djapu,Yolŋu,NA,duj,djap1238,N145,304,Djapu,latju,lacu,smooth,"Morphy, Frances",smooth,Adj,-12.61761911338881,136.2565768319396,latyu,Yolŋu,"good, nice, pleasant, delicious, beautiful; smooth",NA
+Djapu,Yolŋu,NA,duj,djap1238,N145,304,Djapu,dhumuk,d̪umuk,blunt,"Morphy, Frances",blunt,"Adj, n",-12.61761911338881,136.2565768319396,NA,NA,NA,NA
+Ritharngu,Yolŋu,NA,rit,rita1239,N149,337,Ritharrngu,binydjitj,biɲɟic,flat,"Heath, Jeffrey",flat,Adj,-13.0913471605575,136.0384241243396,NA,NA,NA,NA
+Gupapuyngu,Yolŋu,NA,guf,gupa1247,N122.1,934,Gupapuyngu,latju,lacu,smooth,"Christie, Michael",smooth,Adj,-12.7172575311146,135.8819055486839,latyu,Yolŋu,"good, nice, pleasant, delicious, beautiful; smooth",NA
+Gupapuyngu,Yolŋu,NA,guf,gupa1247,N122.1,934,Gupapuyngu,binydjitj,biɲɟic,flat,"Christie, Michael",flat,Adj,-12.7172575311146,135.8819055486839,NA,NA,NA,NA
+Gupapuyngu,Yolŋu,NA,guf,gupa1247,N122.1,934,Gupapuyngu,dhumuk,d̪umuk,blunt,"Christie, Michael",blunt,"Adj, n",-12.7172575311146,135.8819055486839,NA,NA,NA,NA
+Burarra,Maningrida,NA,bvr,bura1267,N191*,1143,Burarra,derta / -derta,deʈa / -deʈa,hard,"Glasglow, Kathleen and Gladgow, David",hard,"adv., descr.",-12.02334684534266,134.7195147994259,NA,NA,NA,NA
+Burarra,Maningrida,NA,bvr,bura1267,N191*,1143,Burarra,-nyarlkuch,-ɲaɭkuc,soft,"Glasglow, Kathleen and Gladgow, David",soft,descr.,-12.02334684534266,134.7195147994259,NA,NA,NA,NA
+Burarra,Maningrida,NA,bvr,bura1267,N191*,1143,Burarra,jerdajirda / -jerdajirda,ɟeɖaɟiɖa / -ɟeɖaɟiɖa,slippery,"Glasglow, Kathleen and Gladgow, David",slippery,adv.; descr.,-12.02334684534266,134.7195147994259,NA,NA,NA,NA
+Nhanda,Kartu,Pama-Nyungan,nha,nhan1238,W14,497,Nhanta,mambu,mambu,hard,"Blevins, Juliette",hard,N,-27.42523643128006,114.2680442458503,NA,NA,NA,NA
+Nhanda,Kartu,Pama-Nyungan,nha,nhan1238,W14,497,Nhanta,mirla,miɭa,flat,"Blevins, Juliette",flat,N,-27.42523643128006,114.2680442458503,NA,NA,NA,NA
+pPN-,Pama-Nyungan,Pama-Nyungan,NA,NA,NA,373,Proto-Pama-Nyungan,*kAnta(l),kAnta(l),slippery,Susan Fitzgerald,slippery,adj,-13.9,148.5,NA,NA,NA,NA
+pNY,NA,NA,NA,NA,NA,1518,pNY,*kara,kaɹa,smooth,Susan Fitzgerald,smooth,v/adj,NA,NA,NA,NA,NA,NA
+Kukatja,Wati,Pama-Nyungan,kux,kuka1246,C7,814,Kukatja,ngalya pararra,ŋaʎa paɹara,bald,"Peile, Fr Antony R.",bald,nom,-20.51538798370036,128.0418320166125,NA,NA,NA,NA
+Ng'goi Mwoi,Bandjalangic,Pama-Nyungan,NA,band1339,NA,578,Ng'goi Mwoi,kinyeen,kiɲeːn,tough,"Hanlon, W.E",tough,Adj,-28.163998,152.801352,NA,NA,NA,NA
+Yidiny,Paman,Pama-Nyungan,yii,yidi1250,Y117,40,Yidiny,dirrbal,tirpal,bald,"Dixon, R.M.W","bald (head, hill)",Adj,-17.11594422180313,145.7736813596025,NA,NA,NA,NA
+Kukatja,Wati,Pama-Nyungan,kux,kuka1246,C7,814,Kukatja,ngalya pararra,ŋaʎa paɹara,bald,"Valiquette, Hillaire amd Anthony Peile",bald,Nbod,-20.51538798370036,128.0418320166125,NA,NA,NA,NA
+Kukatja,Wati,Pama-Nyungan,kux,kuka1246,C7,814,Kukatja,karta-kartarriwa,kaʈa-kaʈariwa,tough,"Valiquette, Hillaire amd Anthony Peile",be tough,Vi,-20.51538798370036,128.0418320166125,NA,NA,NA,NA
+Kukatja,Wati,Pama-Nyungan,kux,kuka1246,C7,814,Kukatja,tjiraly(pa),ciɹaʎ(pa),smooth,"Valiquette, Hillaire amd Anthony Peile",smooth,Nstat,-20.51538798370036,128.0418320166125,NA,NA,NA,NA
+Kukatja,Wati,Pama-Nyungan,kux,kuka1246,C7,814,Kukatja,tjirarl-tjirarl(pa),ciɹaɭ-ciɹaɭ(pa),slippery,"Valiquette, Hillaire amd Anthony Peile",slippery,Nstat,-20.51538798370036,128.0418320166125,NA,NA,NA,NA
+Kukatja,Wati,Pama-Nyungan,kux,kuka1246,C7,814,Kukatja,yaru,jaɹu,soft,"Valiquette, Hillaire amd Anthony Peile","soft (e.g., noise)",Nact,-20.51538798370036,128.0418320166125,NA,NA,NA,NA
+Kukatja,Wati,Pama-Nyungan,kux,kuka1246,C7,814,Kukatja,yiri,jiɹi,sharp,"Valiquette, Hillaire amd Anthony Peile",sharp,Nstat,-20.51538798370036,128.0418320166125,NA,NA,NA,NA
+Coonambella,Dyirbalic,Pama-Nyungan,NA,wulg1239,Y155*,1129,Coonambella,moor'gool,moːɹ'goːl,blunt,NA,blunt,NA,-19.85,146.34,NA,NA,NA,NA
+Burarra,Maningrida,NA,bvr,bura1267,N191*,1143,Burarra,derta / -derta,deʈa / -deʈa,firm,"Glasglow, Kathleen and Gladgow, David",firm,"adv., descr.",-12.02334684534266,134.7195147994259,NA,NA,NA,NA
+Kukatja,Wati,Pama-Nyungan,kux,kuka1246,C7,814,Kukatja,rakurl(pa),ɹakuɭ(pa),soft,"Valiquette, Hillaire amd Anthony Peile",soft,Nstat,-20.51538798370036,128.0418320166125,NA,NA,NA,NA
+Burarra,Maningrida,NA,bvr,bura1267,N191*,1143,Burarra,derta / -derta,deʈa / -deʈa,tough,"Glasglow, Kathleen and Gladgow, David",tough,"adv., descr.",-12.02334684534266,134.7195147994259,NA,NA,NA,NA
+Gupapuyngu,Yolŋu,NA,guf,gupa1247,N122.1,934,Gupapuyngu,ganydjarr,gaɲɟar,hard,"Lowe, Beulah","[Adj] hard, powerfully, with force","N, Adv",-12.7172575311146,135.8819055486839,NA,NA,NA,NA
+Djapu,Yolŋu,NA,duj,djap1238,N145,304,Djapu,ganydjarr,gaɲɟar,hard,"Morphy, Frances","[Adj] hard, powerfully, with force","N, Adv",-12.61761911338881,136.2565768319396,NA,NA,NA,NA
+Ritharngu,Yolŋu,NA,rit,rita1239,N149,337,Ritharrngu,ganydjarr,gaɲɟar,hard,"Heath, Jeffrey","[Adj] hard, powerfully, with force","N, Adv",-13.0913471605575,136.0384241243396,NA,NA,NA,NA
+Gupapuyngu,Yolŋu,NA,guf,gupa1247,N122.1,934,Gupapuyngu,ganydjarr,gaɲɟar,hard,"Christie, Michael","[Adj] hard, powerfully, with force","N, Adv",-12.7172575311146,135.8819055486839,NA,NA,NA,NA
+Bayungu,Kanyara-Mantharta,Pama-Nyungan,bxj,bayu1240,W23,429,Payungu,kayarra,kajara,hard,"Austin, Peter",hard,NA,-24.01509472942779,113.7199742530777,NA,NA,NA,NA
+Bayungu,Kanyara-Mantharta,Pama-Nyungan,bxj,bayu1240,W23,429,Payungu,pulara,pulaɹa,soft,"Austin, Peter",soft,NA,-24.01509472942779,113.7199742530777,NA,NA,NA,NA
+Bayungu,Kanyara-Mantharta,Pama-Nyungan,bxj,bayu1240,W23,429,Payungu,yiri,jiɹi,sharp,"Austin, Peter",sharp,NA,-24.01509472942779,113.7199742530777,*yiri,N/A,sharp,NA
+Bayungu,Kanyara-Mantharta,Pama-Nyungan,bxj,bayu1240,W23,429,Payungu,punthu,punt̪u,blunt,"Austin, Peter",blunt,NA,-24.01509472942779,113.7199742530777,NA,NA,NA,NA
+Bayungu,Kanyara-Mantharta,Pama-Nyungan,bxj,bayu1240,W23,429,Payungu,pirtilya,piʈiʎa,clean,"Austin, Peter",clean,NA,-24.01509472942779,113.7199742530777,NA,NA,NA,NA
+Bayungu,Kanyara-Mantharta,Pama-Nyungan,bxj,bayu1240,W23,429,Payungu,palkarra,palkara,bald,"Austin, Peter",bald,NA,-24.01509472942779,113.7199742530777,NA,NA,NA,NA
+Dhalandji,Kanyara-Mantharta,Pama-Nyungan,dhl,dhal1245,W26,318,Thalanyji,murral,mural,hard,"Austin, Peter",hard,NA,-22.51113458754001,114.7073317721085,NA,NA,NA,NA
+Dhalandji,Kanyara-Mantharta,Pama-Nyungan,dhl,dhal1245,W26,318,Thalanyji,mankarr,mankar,hard,"Austin, Peter",hard,NA,-22.51113458754001,114.7073317721085,NA,NA,NA,NA
+Dhalandji,Kanyara-Mantharta,Pama-Nyungan,dhl,dhal1245,W26,318,Thalanyji,pulara,pulaɹa,soft,"Austin, Peter",soft,NA,-22.51113458754001,114.7073317721085,NA,NA,NA,NA
+Dhalandji,Kanyara-Mantharta,Pama-Nyungan,dhl,dhal1245,W26,318,Thalanyji,yirralya,jiraʎa,sharp,"Austin, Peter",sharp,NA,-22.51113458754001,114.7073317721085,NA,NA,NA,NA
+Dhalandji,Kanyara-Mantharta,Pama-Nyungan,dhl,dhal1245,W26,318,Thalanyji,thinthan,t̪int̪an,blunt,"Austin, Peter",blunt,NA,-22.51113458754001,114.7073317721085,NA,NA,NA,NA
+Dhalandji,Kanyara-Mantharta,Pama-Nyungan,dhl,dhal1245,W26,318,Thalanyji,thalha,t̪al̪a,blunt,"Austin, Peter",blunt,NA,-22.51113458754001,114.7073317721085,NA,NA,NA,NA
+Dhalandji,Kanyara-Mantharta,Pama-Nyungan,dhl,dhal1245,W26,318,Thalanyji,pirtilya,piʈiʎa,clean,"Austin, Peter",clean,NA,-22.51113458754001,114.7073317721085,NA,NA,NA,NA
+Dhalandji,Kanyara-Mantharta,Pama-Nyungan,dhl,dhal1245,W26,318,Thalanyji,palkarra,palkara,bald,"Austin, Peter",bald,NA,-22.51113458754001,114.7073317721085,NA,NA,NA,NA
+Burduna,Kanyara-Mantharta,Pama-Nyungan,bxn,burd1238,W24,349,Purduna,murral,mural,hard,"Austin, Peter",hard,NA,-23.00938069661522,114.8292027213359,NA,NA,NA,NA
+Burduna,Kanyara-Mantharta,Pama-Nyungan,bxn,burd1238,W24,349,Purduna,jarla,caɭa,soft,"Austin, Peter",soft,NA,-23.00938069661522,114.8292027213359,NA,NA,NA,NA
+Burduna,Kanyara-Mantharta,Pama-Nyungan,bxn,burd1238,W24,349,Purduna,yirralya,jiraʎa,sharp,"Austin, Peter",sharp,NA,-23.00938069661522,114.8292027213359,NA,NA,NA,NA
+Burduna,Kanyara-Mantharta,Pama-Nyungan,bxn,burd1238,W24,349,Purduna,thalha,t̪al̪a,blunt,"Austin, Peter",blunt,NA,-23.00938069661522,114.8292027213359,NA,NA,NA,NA
+Burduna,Kanyara-Mantharta,Pama-Nyungan,bxn,burd1238,W24,349,Purduna,pirdilya,piʈiʎa,clean,"Austin, Peter",clean,NA,-23.00938069661522,114.8292027213359,NA,NA,NA,NA
+Burduna,Kanyara-Mantharta,Pama-Nyungan,bxn,burd1238,W24,349,Purduna,pirdilya,piʈiʎa,bald,"Austin, Peter",bald,NA,-23.00938069661522,114.8292027213359,NA,NA,NA,NA
+Yuwaalaraay,Central NSW,Pama-Nyungan,kld,yuwa1242,D27,5,Yuwaalaraay,"walan, walanbaa",walanpaː,hard,"Ash, A. and Lissarrague, A. and Giacon, J",hard,Adj,-29.85302243209663,147.9291115132208,NA,NA,NA,NA
+Yuwaalaraay,Central NSW,Pama-Nyungan,kld,yuwa1242,D27,5,Yuwaalaraay,"mulamula, mula",mula,soft,"Ash, A. and Lissarrague, A. and Giacon, J",soft,Adj,-29.85302243209663,147.9291115132208,*mula,N/A,(a fluid),"Could the 'unclear' Kurrama etc words be related to mulha, mula, etc a widespread word for 'cooked (meat)?'"
+Yuwaalayaay,Central NSW,Pama-Nyungan,kld,yuwa1243,D54*,4,Yuwaaliyaay,"walan, walanbaa",walanpaː,hard,"Ash, A. and Lissarrague, A. and Giacon, J",hard,Adj,-29.84291122144783,149.806501013693,NA,NA,NA,NA
+Yuwaalayaay,Central NSW,Pama-Nyungan,kld,yuwa1243,D54*,4,Yuwaaliyaay,"mulamula, mula",mula,soft,"Ash, A. and Lissarrague, A. and Giacon, J",soft,Adj,-29.84291122144783,149.806501013693,*mula,N/A,(a fluid),"Could the 'unclear' Kurrama etc words be related to mulha, mula, etc a widespread word for 'cooked (meat)?'"
+Wangkayutyuru,Karnic,Pama-Nyungan,wky,wang1289,G5,209,Wangkayutyuru,"jurlpara, julpara",ɟulpaɹa,smooth,"Blake, Barry",smooth,Adj,-24.00230876042604,138.8106695155716,NA,NA,NA,NA
+Warnman,Wati,Pama-Nyungan,wbt,wanm1242,A62,188,Warnman,"miljirr miljirr, jikirr jikirr",cikir cikir,rough,"Thieberger, Nicholas and Desmond Taylor",rough,Adj,-22.00041800774719,124.0387198550533,NA,NA,NA,NA
+Kurtjar,Paman,Pama-Nyungan,gdj,kung1262,G33,780,Kurtjar,"dhoongk meerd, yeerk meerd",jeːɹk meːɖ,bald,"Black, Paul",bald head,Adj,-17.311602688352,141.6480702559417,NA,NA,NA,NA
+Kurtjar,Paman,Pama-Nyungan,gdj,kung1262,G33,780,Kurtjar,"wengk, weengk, (K) ghalmanik",weːngk,fine,"Black, Paul",fine,NA,-17.311602688352,141.6480702559417,NA,NA,NA,NA
+Kurtjar,Paman,Pama-Nyungan,gdj,kung1262,G33,780,Kurtjar,"bheelkird, lbheerr, went, wentiwent",lβeːr,flat,"Black, Paul",flat,Adj,-17.311602688352,141.6480702559417,NA,NA,NA,NA
+Kurtjar,Paman,Pama-Nyungan,gdj,kung1262,G33,780,Kurtjar,"bheelbhirr, peelbhirr",peːlβir,flat,"Black, Paul",flat,Adj,-17.311602688352,141.6480702559417,NA,NA,NA,NA
+Kurtjar,Paman,Pama-Nyungan,gdj,kung1262,G33,780,Kurtjar,"wengk, weengk, (K) ghalmanik",weːngk,fine,Paul Black,fine,NA,-17.311602688352,141.6480702559417,NA,NA,NA,NA
+Kurtjar,Paman,Pama-Nyungan,gdj,kung1262,G33,780,Kurtjar,"bheelkird, lbheerr, went, wentiwent",lβeːr,flat,Paul Black,flat,Adj,-17.311602688352,141.6480702559417,NA,NA,NA,NA
+Ngumbarl,Eastern Nyulnyulan,Nyulnyulan,?wyb,ngum1253,K4,511,Ngumbarl,"noombo, noomboo neelirr",noːmboː neːlir,blunt,NA,blunt,Adj,-17.53716033167734,122.4292370976321,NA,NA,NA,NA
+Ngumbarl,Eastern Nyulnyulan,Nyulnyulan,?wyb,ngum1253,K4,511,Ngumbarl,"weera, lalga womba",lalga womba,bony,NA,bony,NA,-17.53716033167734,122.4292370976321,NA,NA,NA,NA
+Kurtjar,Paman,Pama-Nyungan,gdj,kung1262,G33,780,Kurtjar,"wengk, weengk, (K) ghalmanik",ɣalmanik,fine,"Black, Paul",fine,NA,-17.311602688352,141.6480702559417,NA,NA,NA,NA
+Kurtjar,Paman,Pama-Nyungan,gdj,kung1262,G33,780,Kurtjar,"bheelkird, lbheerr, went, wentiwent",went,flat,"Black, Paul",flat,Adj,-17.311602688352,141.6480702559417,NA,NA,NA,NA
+Kurtjar,Paman,Pama-Nyungan,gdj,kung1262,G33,780,Kurtjar,"wengk, weengk, (K) ghalmanik",ɣalmanik,fine,Paul Black,fine,NA,-17.311602688352,141.6480702559417,NA,NA,NA,NA
+Kurtjar,Paman,Pama-Nyungan,gdj,kung1262,G33,780,Kurtjar,"bheelkird, lbheerr, went, wentiwent",went,flat,Paul Black,flat,Adj,-17.311602688352,141.6480702559417,NA,NA,NA,NA
+Kurtjar,Paman,Pama-Nyungan,gdj,kung1262,G33,780,Kurtjar,"bheelkird, lbheerr, went, wentiwent",wentiwent,flat,"Black, Paul",flat,Adj,-17.311602688352,141.6480702559417,NA,NA,NA,NA
+Kurtjar,Paman,Pama-Nyungan,gdj,kung1262,G33,780,Kurtjar,"bheelkird, lbheerr, went, wentiwent",wentiwent,flat,Paul Black,flat,Adj,-17.311602688352,141.6480702559417,NA,NA,NA,NA
+Wubuy,East Arnhem,NA,nuy,nung1290,N128,94,Wubuy,w2ayway,w2ajwaj,flat,"Heath, Jeffrey",flat.,NAdj,-13.8,135.82,NA,NA,NA,NA
+Wubuy,East Arnhem,NA,nuy,nung1290,N128,94,Wubuy,yinjin,jincin,sharp,"Heath, Jeffrey",sharp (pointed).,NAdj,-13.8,135.82,NA,NA,NA,NA
+Yaygir,Gumbaynggiric,Pama-Nyungan,yyg,yayg1236,E10,42,Yaygir,dar̥i,daɹ̥i,hard,Terry Crowley,hard,NA,-29.89,153.167,NA,NA,NA,NA
+Yaygir,Gumbaynggiric,Pama-Nyungan,yyg,yayg1236,E10,42,Yaygir,mugu,mugu,blunt,Terry Crowley,blunt,NA,-29.89,153.167,NA,NA,NA,NA
+Yaygir,Gumbaynggiric,Pama-Nyungan,yyg,yayg1236,E10,42,Yaygir,wudu:wa,wuduːwa,sharp,Terry Crowley,sharp,NA,-29.89,153.167,NA,NA,NA,NA
+Upper Clarence River,Bandjalangic,Pama-Nyungan,NA,NA,NA,1558,Upper Clarence River,Bum-mi,Bum-mi,flat,"Crowley, Terry",Flat,NA,NA,NA,NA,NA,NA,NA
+Biriin,Bandjalangic,Pama-Nyungan,bdy,band1339,E12,1203,Bandjalang,biᶁun,biᶁun,sharp,"Crowley, Terry",sharp,NA,-28.70539723779633,152.988993861286,NA,NA,NA,NA
+Waalubal,Bandjalangic,Pama-Nyungan,bdy,band1339,E12,1203,Bandjalang,buᶁur,pucuɹ,soft,"Crowley, Terry",soft,NA,-28.70539723779633,152.988993861286,NA,NA,NA,NA
+Waalubal,Bandjalangic,Pama-Nyungan,bdy,band1339,E12,1203,Bandjalang,dandur,tantuɹ,hard,"Crowley, Terry",hard,NA,-28.70539723779633,152.988993861286,NA,NA,NA,NA
+Waalubal,Bandjalangic,Pama-Nyungan,bdy,band1339,E12,1203,Bandjalang,dawe:ŋ,taweːŋ,bald,"Crowley, Terry",bald,NA,-28.70539723779633,152.988993861286,NA,NA,NA,NA
+Waalubal,Bandjalangic,Pama-Nyungan,bdy,band1339,E12,1203,Bandjalang,ᶁalŋay,calŋaj,shiny,"Crowley, Terry",shiny,NA,-28.70539723779633,152.988993861286,NA,NA,NA,NA
+Waalubal,Bandjalangic,Pama-Nyungan,bdy,band1339,E12,1203,Bandjalang,ᶁaŋ,caŋ,rough,"Crowley, Terry",rough,NA,-28.70539723779633,152.988993861286,NA,NA,NA,NA
+Waalubal,Bandjalangic,Pama-Nyungan,bdy,band1339,E12,1203,Bandjalang,balbaŋ,palpaŋ,flat,"Crowley, Terry",flat,NA,-28.70539723779633,152.988993861286,NA,NA,NA,NA
+Waalubal,Bandjalangic,Pama-Nyungan,bdy,band1339,E12,1203,Bandjalang,bamay,pamaj,flat,"Crowley, Terry",flat,NA,-28.70539723779633,152.988993861286,NA,NA,NA,NA
+Waalubal,Bandjalangic,Pama-Nyungan,bdy,band1339,E12,1203,Bandjalang,gaᶁaŋ,kacaŋ,hard,"Crowley, Terry",hard,NA,-28.70539723779633,152.988993861286,NA,NA,NA,NA
+Waalubal,Bandjalangic,Pama-Nyungan,bdy,band1339,E12,1203,Bandjalang,galan,kalan,sharp,"Crowley, Terry",sharp,NA,-28.70539723779633,152.988993861286,NA,NA,NA,NA
+Waalubal,Bandjalangic,Pama-Nyungan,bdy,band1339,E12,1203,Bandjalang,maᶁir,maciɹ,blunt,"Crowley, Terry",blunt,NA,-28.70539723779633,152.988993861286,NA,NA,NA,NA
+Waalubal,Bandjalangic,Pama-Nyungan,bdy,band1339,E12,1203,Bandjalang,muru:gi,muɹuːki,rough,"Crowley, Terry",rough,NA,-28.70539723779633,152.988993861286,NA,NA,NA,NA
+Waalubal,Bandjalangic,Pama-Nyungan,bdy,band1339,E12,1203,Bandjalang,ŋambu:r,ŋampuːɹ,soft,"Crowley, Terry",soft,NA,-28.70539723779633,152.988993861286,NA,NA,NA,NA
+Bandjalang,Bandjalangic,Pama-Nyungan,bdy,band1339,E12,1203,Bandjalang,dandur,tantuɹ,hard,"Crowley, Terry",hard,NA,-28.70539723779633,152.988993861286,NA,NA,NA,NA
+Bandjalang,Bandjalangic,Pama-Nyungan,bdy,band1339,E12,1203,Bandjalang,darwanj,taɹwaɲ,slippery,"Crowley, Terry",slippery,NA,-28.70539723779633,152.988993861286,NA,NA,NA,NA
+Jingulu,Eastern Mirndi,NA,jig,djin1251,C22,883,Jingulu,juwujbiyaku,cuwucpijaku,slippery,NA,slippery,NA,-16.6271636014173,133.5450627137524,NA,NA,NA,NA
+Yugambeh,Bandjalangic,Pama-Nyungan,yub,yugu1249,E17,16,Yugambeh,jungam [dh],cungam,hard,NA,hard,adj,-28.4374,153.301,NA,NA,NA,NA
+Yugambeh,Bandjalangic,Pama-Nyungan,yub,yugu1249,E17,16,Yugambeh,kinyi:n [dh],kiɲiːn,tough,NA,tough,adj,-28.4374,153.301,NA,NA,NA,NA
+Yugambeh,Bandjalangic,Pama-Nyungan,yub,yugu1249,E17,16,Yugambeh,ki:rin [dh],kiːɹin,stiff,NA,stiff,adj,-28.4374,153.301,NA,NA,NA,NA
+Yugambeh,Bandjalangic,Pama-Nyungan,yub,yugu1249,E17,16,Yugambeh,mari:n [dh],maɹiːn,blunt,NA,blunt,adj,-28.4374,153.301,NA,NA,NA,NA
+Yugambeh,Bandjalangic,Pama-Nyungan,yub,yugu1249,E17,16,Yugambeh,miliri [dh],miliɹi,slippery,NA,slippery,adj,-28.4374,153.301,NA,NA,NA,NA
+Yugambeh,Bandjalangic,Pama-Nyungan,yub,yugu1249,E17,16,Yugambeh,milirijam [dh],miliɹicam,rough,NA,rough,adj,-28.4374,153.301,NA,NA,NA,NA
+Yugambeh,Bandjalangic,Pama-Nyungan,yub,yugu1249,E17,16,Yugambeh,talguljam [dh],talgulcam,clean,NA,clean,adj,-28.4374,153.301,NA,NA,NA,NA
+Bandjalang,Bandjalangic,Pama-Nyungan,bdy,band1339,E12,1203,Bandjalang,gagin,gagin,sharp,"Holmer, N.M.",sharp,NA,-28.70539723779633,152.988993861286,NA,NA,NA,NA
+Bandjalang,Bandjalangic,Pama-Nyungan,bdy,band1339,E12,1203,Bandjalang,waŋgai,waŋgai,blunt,"Holmer, N.M.",blunt,NA,-28.70539723779633,152.988993861286,NA,NA,NA,NA
+Cammealroy Dialect,Central NSW,Pama-Nyungan,kld,gami1243,D23,1023,Gamilaraay,Mutter-mutter,Mutteɹ-mutteɹ,rough,various,Rough,NA,-29.91686548094372,149.6172318830019,NA,NA,NA,NA

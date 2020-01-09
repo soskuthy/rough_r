@@ -1,0 +1,1601 @@
+ID,Language_ID,Language_name,Parameter_ID,Value,Transcription,Concept,Source,Comment,AlternativeValue,AlternativeTranscription,Type
+15-740-126-1,erzy1239,Erzya Mordvin,1884,kalgodo,Phonemic,hard,NA,NA,NA,NA,rough/hard
+15-740-127-1,esto1258,Estonian,1884,kəwa,Phonemic,hard,NA,NA,NA,NA,rough/hard
+15-740-128-1,finn1318,Finnish,1884,kowa,Phonemic,hard,NA,NA,NA,NA,rough/hard
+15-740-128-3,finn1318,Finnish,1884,luya,Phonemic,hard,NA,NA,NA,NA,rough/hard
+15-740-131-1,hung1274,Hungarian,1884,kemény,Standard,hard,NA,NA,kemeeɲ,Phonemic,rough/hard
+15-740-135-1,khan1273,Khanty,1884,susum,Phonemic,hard,NA,NA,NA,NA,rough/hard
+15-740-135-3,khan1273,Khanty,1884,tak,Phonemic,hard,NA,NA,NA,NA,rough/hard
+15-740-139-1,komi1268,Komi,1884,čor̃ɩd,Phonemic,hard,NA,NA,NA,NA,rough/hard
+15-740-143-1,nort2671,Northern Saami,1884,gɑr̃ɑs,Phonemic,hard,NA,NA,NA,NA,rough/hard
+15-740-146-1,mans1258,Mansi,1884,sosum,Phonemic,hard,NA,NA,NA,NA,rough/hard
+15-740-146-3,mans1258,Mansi,1884,tak,Phonemic,hard,NA,NA,NA,NA,rough/hard
+15-740-147-1,east2328,Mari,1884,'peŋɣəðe ~ 'peškəðe,Phonemic,hard,NA,NA,NA,NA,rough/hard
+15-740-148-1,nene1249,Nenets,1884,toyenana,Phonemic,hard,NA,NA,NA,NA,rough/hard
+15-740-151-1,selk1253,Selkup,1884,talɨḳɨlʸ,Phonemic,hard,NA,NA,NA,NA,rough/hard
+15-740-159-1,udmu1245,Udmurt,1884,c̷ʸur̃ɩt,Phonemic,hard,NA,NA,NA,NA,rough/hard
+15-740-167-1,anci1242,Ancient Greek,1884,sklē'ros,LatinTrans,hard,buck1949;liddell1996;magnien1985,NA,NA,NA,rough/hard
+15-740-168-1,mode1248,Modern Greek,1884,skli'ros,LatinTrans,hard,buck1949,NA,NA,NA,rough/hard
+15-740-169-1,lati1261,Latin,1884,dūrus,StandardOrth,hard,glare1997;ainsworth1923;ernout2001,NA,NA,NA,rough/hard
+15-740-170-1,ital1282,Italian,1884,duro,StandardOrth,hard,NA,NA,NA,NA,rough/hard
+15-740-171-1,stan1290,French,1884,dur,StandardOrth,hard,NA,NA,NA,NA,rough/hard
+15-740-172-1,enap1235,Panare,1884,karatah-pe,Phonemic,hard,NA,NA,NA,NA,rough/hard
+15-740-173-1,macu1259,Macushi,1884,saʔme,Phonemic,hard,NA,NA,NA,NA,rough/hard
+15-740-175-1,waiw1244,Wai Wai,1884,čeyΦu,Phonemic,hard,NA,NA,NA,NA,rough/hard
+15-740-176-1,stan1288,Spanish,1884,duro,Phonemic,hard,NA,NA,NA,NA,rough/hard
+15-740-177-1,stan1289,Catalan,1884,dur,StandardOrth,hard,NA,NA,NA,NA,rough/hard
+15-740-178-1,port1283,Portuguese,1884,duro,StandardOrth,hard,NA,NA,NA,NA,rough/hard
+15-740-179-1,roma1327,Romanian,1884,tare,StandardOrth,hard,NA,NA,NA,NA,rough/hard
+15-740-180-1,oldi1245,Old Irish,1884,crūaid,StandardOrth,hard,buck1949,NA,NA,NA,rough/hard
+15-740-180-3,oldi1245,Old Irish,1884,calad,StandardOrth,hard,buck1949,NA,NA,NA,rough/hard
+15-740-181-1,iris1253,Irish,1884,crua,StandardOrth,hard,NA,NA,NA,NA,rough/hard
+15-740-182-1,wels1247,Welsh,1884,caled,StandardOrth,hard,NA,NA,NA,NA,rough/hard
+15-740-183-1,bret1244,Breton,1884,kaled,Phonemic,hard,NA,NA,NA,NA,rough/hard
+15-740-184-1,goth1244,Gothic,1884,hardus,StandardOrth,hard,lehmann1986,NA,NA,NA,rough/hard
+15-740-185-1,oldn1244,Old Norse,1884,harðr,StandardOrth,hard,buck1949,NA,NA,NA,rough/hard
+15-740-186-1,dani1285,Danish,1884,hård,StandardOrth,hard,NA,NA,NA,NA,rough/hard
+15-740-187-1,swed1254,Swedish,1884,hård,StandardOrth,hard,NA,NA,NA,NA,rough/hard
+15-740-188-1,olde1238,Old English,1884,heard,StandardOrth,hard,buck1949;bosworth1898;toller1921;roberts1995,NA,NA,NA,rough/hard
+15-740-189-1,midd1317,Middle English,1884,hard,StandardOrth,hard,buck1949;med1952,NA,NA,NA,rough/hard
+15-740-190-1,stan1293,English,1884,hard,StandardOrth,hard,NA,NA,NA,NA,rough/hard
+15-740-191-1,dutc1256,Dutch,1884,hard,StandardOrth,hard,NA,NA,NA,NA,rough/hard
+15-740-192-1,oldh1241,Old High German,1884,hart,StandardOrth,hard,buck1949;schuetzeichel1989,NA,NA,NA,rough/hard
+15-740-192-3,oldh1241,Old High German,1884,herti,StandardOrth,hard,buck1949;schuetzeichel1989,NA,NA,NA,rough/hard
+15-740-192-5,oldh1241,Old High German,1884,arandi,StandardOrth,hard,buck1949;schuetzeichel1989,NA,NA,NA,rough/hard
+15-740-192-7,oldh1241,Old High German,1884,scarp(f)~sar(p)f,StandardOrth,hard,buck1949;schuetzeichel1989,NA,NA,NA,rough/hard
+15-740-192-9,oldh1241,Old High German,1884,hanteg,StandardOrth,hard,buck1949;schuetzeichel1989,NA,NA,NA,rough/hard
+15-740-192-11,oldh1241,Old High German,1884,un-gi-mah,StandardOrth,hard,buck1949;schuetzeichel1989,NA,NA,NA,rough/hard
+15-740-192-13,oldh1241,Old High German,1884,gi-dwungan,StandardOrth,hard,buck1949;schuetzeichel1989,NA,NA,NA,rough/hard
+15-740-193-1,midd1343,Middle High German,1884,herte,StandardOrth,hard,buck1949,NA,NA,NA,rough/hard
+15-740-193-3,midd1343,Middle High German,1884,hart,StandardOrth,hard,buck1949,NA,NA,NA,rough/hard
+15-740-194-1,stan1295,German,1884,hart,StandardOrth,hard,buck1949,hart,NA,Original (M. R. Key),rough/hard
+15-740-195-1,east2295,Yiddish,1884,hart,Phonemic,hard,NA,NA,NA,NA,rough/hard
+15-740-196-1,lith1251,Lithuanian,1884,kíetas,StandardOrthTone,hard,buck1949,NA,NA,NA,rough/hard
+15-740-197-1,latv1249,Latvian,1884,ciets,StandardOrth,hard,buck1949,NA,NA,NA,rough/hard
+15-740-199-1,chur1257,Old Church Slavonic,1884,žestokŭ,Phonemic,hard,buck1949,NA,NA,NA,rough/hard
+15-740-199-3,chur1257,Old Church Slavonic,1884,tvrŭdŭ,Phonemic,hard,buck1949,NA,NA,NA,rough/hard
+15-740-200-1,bulg1262,Bulgarian,1884,tvə́rd,Phonemic,hard,NA,NA,NA,NA,rough/hard
+15-740-201-1,sout1528,Serbo-Croatian,1884,tvrd,Phonemic,hard,NA,NA,NA,NA,rough/hard
+15-740-202-1,czec1258,Czech,1884,tvrdý,StandardOrth,hard,NA,NA,NA,NA,rough/hard
+15-740-203-1,poli1260,Polish,1884,twardy,StandardOrth,hard,NA,NA,NA,NA,rough/hard
+15-740-204-1,russ1263,Russian,1884,tvërdyj (žëstkij),Phonemic,hard,NA,NA,NA,NA,rough/hard
+15-740-205-1,tosk1239,Albanian (Tosk variety),1884,štəng,Phonemic,hard,NA,NA,NA,NA,rough/hard
+15-740-205-3,tosk1239,Albanian (Tosk variety),1884,i 'gurtə,Phonemic,hard,NA,NA,NA,NA,rough/hard
+15-740-206-1,east2283,Armenian (Eastern variety),1884,pˀind,Phonemic,hard,NA,NA,NA,NA,rough/hard
+15-740-206-3,east2283,Armenian (Eastern variety),1884,kˀarc̷ˀ[ə]r,Phonemic,hard,NA,NA,NA,NA,rough/hard
+15-740-207-1,west2348,Armenian (Western variety),1884,bint,Phonemic,hard,NA,NA,NA,NA,rough/hard
+15-740-207-3,west2348,Armenian (Western variety),1884,gard͜z[ə]r,Phonemic,hard,NA,NA,NA,NA,rough/hard
+15-740-208-1,hitt1242,Hittite,1884,dassu-,LatinTrans,hard,NA,"HEG: 'strong, hard, thick'.",NA,NA,rough/hard
+15-740-209-1,tokh1242,Tocharian A,1884,tsär,Phonemic,hard,NA,NA,NA,NA,rough/hard
+15-740-210-1,tokh1243,Tocharian B,1884,ścīre,Phonemic,hard,NA,NA,NA,NA,rough/hard
+15-740-211-1,sans1269,Sanskrit,1884,dṛḍha-,LatinTrans,hard,NA,NA,NA,NA,rough/hard
+15-740-212-1,vlax1238,Romani,1884,zuralo,Phonemic,hard,NA,From zor 'strength'.,NA,NA,rough/hard
+15-740-213-1,aves1237,Avestan,1884,xraoždwa-,Phonemic,hard,buck1949,"For example, referring to wood.",NA,NA,rough/hard
+15-740-213-3,aves1237,Avestan,1884,xruždra-,Phonemic,hard,buck1949,"For example, referring to wood.",NA,NA,rough/hard
+15-740-214-1,west2369,Persian,1884,seft,Phonemic,hard,NA,NA,NA,NA,rough/hard
+15-740-215-1,olda1245,Ancient Aramaic,1884,ḳšē,Phonemic,hard,aramaic,NA,NA,NA,rough/hard
+15-740-215-3,olda1245,Ancient Aramaic,1884,taḳḳīp,Phonemic,hard,aramaic,NA,NA,NA,rough/hard
+15-740-217-1,nege1244,Negerhollands,1884,tai,Phonemic,hard,dejong1926;nelson1936,"Means 'tough, difficult'.",NA,NA,rough/hard
+15-740-218-1,jama1262,Jamaican Creole (Limonese Creole dialect),1884,(h)ād,Phonemic,hard,NA,NA,NA,NA,rough/hard
+15-740-219-1,basq1248,Basque,1884,'gogor,Phonemic,hard,NA,NA,NA,NA,rough/hard
+15-740-220-1,haus1257,Hausa,1884,tauri,Phonemic,hard,bargery1934;newman1990,NA,NA,NA,rough/hard
+15-740-221-1,polc1243,Polci,1884,nyaɓi,Phonemic,hard,cosper1996,NA,NA,NA,rough/hard
+15-740-222-1,high1278,Nahuatl (Sierra de Zacapoaxtla variety),1884,takʷawa-k,Phonemic,hard,key1953,*Aztecan *tlakʷaawak.,NA,NA,rough/hard
+15-740-223-1,zaca1242,Chatino (Zacatepec variety),1884,tla,Phonemic,hard,NA,NA,NA,NA,rough/hard
+15-740-224-1,karo1304,Karok,1884,sákrīβ,Phonemic,hard,NA,NA,NA,NA,rough/hard
+15-740-225-1,seri1257,Seri,1884,-aiskan,Phonemic,hard,NA,NA,NA,NA,rough/hard
+15-740-226-1,zuni1245,Zuni,1884,ɬoʔo-,Phonemic,hard,NA,NA,NA,NA,rough/hard
+15-740-235-1,hawa1245,Hawaiian,1884,ʔoʔoleʔa,Phonemic,hard,pukui1975,NA,NA,NA,rough/hard
+15-740-235-3,hawa1245,Hawaiian,1884,paʔa,Phonemic,hard,pukui1975,NA,NA,NA,rough/hard
+15-740-236-1,maor1246,Maori,1884,maaroo,Phonemic,hard,biggs1966;hohepa1967,NA,NA,NA,rough/hard
+15-740-236-3,maor1246,Maori,1884,pakeke,Phonemic,hard,biggs1966;hohepa1967,NA,NA,NA,rough/hard
+15-740-236-5,maor1246,Maori,1884,pakari,Phonemic,hard,biggs1966;hohepa1967,NA,NA,NA,rough/hard
+15-740-238-1,rapa1244,Rapa Nui,1884,hio-hio,Phonemic,hard,roussel1908;fuentes1960;thomson1891;aguera1770;forster1778;englert1978;martinez1913,NA,"hio-hio; Rouss iho-iho, oko; JF haʔrára-rára, hío-hío, paári",Phonemic (vars),rough/hard
+15-740-239-1,rotu1241,Rotuman,1884,mou-mou,Phonemic,hard,churchward1940;geraghty1995,NA,NA,NA,rough/hard
+15-740-240-1,tong1325,Tongan,1884,fefeka,Phonemic,hard,tuinukuafe1992;shumway1971,NA,NA,NA,rough/hard
+15-740-241-1,tuam1242,Tuamotuan,1884,kao,Phonemic,hard,stimson1964,"A hard lump: fatu, hatu.",NA,NA,rough/hard
+15-740-243-1,chib1270,Muisca,1884,acamen mague,LatinTrans,hard,perez1987,NA,a-kam-ɨn maɣe,Phonemic,rough/hard
+15-740-244-1,paez1247,Páez,1884,wexʸ,Phonemic,hard,slocum1983,NA,NA,NA,rough/hard
+15-740-245-1,chac1249,Cayapa,1884,'pulu,Phonemic,hard,NA,NA,NA,NA,rough/hard
+15-740-245-3,chac1249,Cayapa,1884,'den-gih-tʸu-hu,Phonemic,hard,NA,NA,NA,NA,rough/hard
+15-740-246-1,colo1256,Colorado,1884,po'lõ,Phonemic,hard,moore1966,NA,NA,NA,rough/hard
+15-740-247-1,nort2972,Embera,1884,za'rea (?),Phonemic,hard,NA,*EMB form is *čaka'rea.,NA,NA,rough/hard
+15-740-248-1,epen1239,Epena,1884,čaa'ree,Phonemic,hard,NA,NA,NA,NA,rough/hard
+15-740-249-1,puin1248,Puinave,1884,-sãt,Phonemic,hard,NA,NA,NA,NA,rough/hard
+15-740-250-1,yuwa1244,Yuwana,1884,ikʸaka,Phonemic,hard,NA,NA,NA,NA,rough/hard
+15-740-251-1,pume1238,Yaruro,1884,čʰua,Phonemic,hard,NA,NA,NA,NA,rough/hard
+15-740-252-1,nina1238,Ninam (Shirishana variety),1884,lothotho,Phonemic,hard,NA,Verbal forms.,NA,NA,rough/hard
+15-740-252-3,nina1238,Ninam (Shirishana variety),1884,kohipi,Phonemic,hard,NA,Verbal forms.,NA,NA,rough/hard
+15-740-253-1,yano1262,Yanomámi,1884,hihu-wə,Phonemic,hard,NA,NA,NA,NA,rough/hard
+15-740-253-3,yano1262,Yanomámi,1884,yɨɨ-wə,Phonemic,hard,NA,NA,NA,NA,rough/hard
+15-740-254-1,cofa1242,Cofán,1884,taʔe,Phonemic,hard,borman1976,NA,NA,NA,rough/hard
+15-740-254-3,cofa1242,Cofán,1884,taʔeʔo,Phonemic,hard,borman1976,NA,NA,NA,rough/hard
+15-740-254-5,cofa1242,Cofán,1884,taʔec̷ʰi,Phonemic,hard,borman1976,NA,NA,NA,rough/hard
+15-740-255-1,waor1240,Waorani,1884,tæ̃ẽbõ,Phonemic,hard,NA,NA,NA,NA,rough/hard
+15-740-256-1,sion1247,Siona,1884,hɨha,Phonemic,hard,wheeler1962,*Tucn form is *buti.,NA,NA,rough/hard
+15-740-257-1,tuyu1244,Tuyuca,1884,ba'yi,Phonemic,hard,NA,NA,NA,NA,rough/hard
+15-740-258-1,agua1253,Aguaruna,1884,ka'c̷u-ham,Phonemic,hard,NA,NA,NA,NA,rough/hard
+15-740-260-1,yagu1244,Yagua,1884,kuway-,Phonemic,hard,powlison1995,NA,NA,NA,rough/hard
+15-740-260-3,yagu1244,Yagua,1884,sura-,Phonemic,hard,powlison1995,NA,NA,NA,rough/hard
+15-740-260-5,yagu1244,Yagua,1884,hakuway,Phonemic,hard,powlison1995,NA,NA,NA,rough/hard
+15-740-262-1,wayu1243,Goajiro,1884,čečesɨ,Phonemic,hard,NA,NA,NA,NA,rough/hard
+15-740-263-1,igna1246,Ignaciano,1884,'čakeru,Phonemic,hard,ott1983,Also muraka.,NA,NA,rough/hard
+15-740-263-3,igna1246,Ignaciano,1884,ičakeru,Phonemic,hard,ott1983,Also muraka.,NA,NA,rough/hard
+15-740-265-1,trin1274,Trinitario,1884,'ʔčoɣeru,Phonemic,hard,gill1983,NA,NA,NA,rough/hard
+15-740-265-3,trin1274,Trinitario,1884,mraka,Phonemic,hard,gill1983,NA,NA,NA,rough/hard
+15-740-266-1,wapi1253,Wapishana,1884,dadara,Phonemic,hard,NA,NA,NA,NA,rough/hard
+15-740-267-1,waur1244,Waurá,1884,kehežuka,Phonemic,hard,NA,NA,NA,NA,rough/hard
+15-740-268-1,yavi1244,Yavitero,1884,ľ̥eni-hi,Phonemic,hard,mosonyi1987,NA,NA,NA,rough/hard
+15-740-269-1,cent2142,Aymara,1884,čˀulʸḳʰi,Phonemic,hard,NA,NA,NA,NA,rough/hard
+15-740-269-3,cent2142,Aymara,1884,ḳʰulu,Phonemic,hard,NA,NA,NA,NA,rough/hard
+15-740-270-1,chip1262,Chipaya,1884,tʰupi,Phonemic,hard,NA,NA,NA,NA,rough/hard
+15-740-271-1,mose1249,Mosetén,1884,yæ'ka,Phonemic,hard,NA,NA,NA,NA,rough/hard
+15-740-272-1,arao1248,Araona,1884,tepe-tepe,Phonemic,hard,pitman1981;key1968,"Also ahaša, as wood or ground; anoc̷a, as meat or corn; atao, as machete. *Tacn form is *tada-.",NA,NA,rough/hard
+15-740-273-1,cavi1250,Cavineña,1884,pahi-da-ke,Phonemic,hard,NA,Also tada-ta.,NA,NA,rough/hard
+15-740-274-1,esee1248,Ese Ejja,1884,-kaʔa,Phonemic,hard,key19581964;wyma1962;shoemaker,NA,NA,NA,rough/hard
+15-740-274-3,esee1248,Ese Ejja,1884,kaxae,Phonemic,hard,key19581964;wyma1962;shoemaker,NA,NA,NA,rough/hard
+15-740-275-1,esee1248,Ese Ejja (Huarayo),1884,kia-kaʔa,Phonemic,hard,NA,NA,NA,NA,rough/hard
+15-740-276-1,taca1256,Tacana,1884,tadada,Phonemic,hard,vanwynen1962;ottaviano1989,"Also hosida, as in 'tough' (meat).",NA,NA,rough/hard
+15-740-277-1,cash1251,Cashibo,1884,iru,Phonemic,hard,shell1959;shell1965;shell1987,"Latter means 'hard, strong, notches of arrowhead close together'. *Panon *kɨrɨṣ̌ɨ with related meanings 'tightly woven, strong, durable'.",NA,NA,rough/hard
+15-740-277-3,cash1251,Cashibo,1884,kɨrɨ,Phonemic,hard,shell1959;shell1965;shell1987,"Latter means 'hard, strong, notches of arrowhead close together'. *Panon *kɨrɨṣ̌ɨ with related meanings 'tightly woven, strong, durable'.",NA,NA,rough/hard
+15-740-278-1,pano1254,Catuquina,1884,yowɨ,Phonemic,hard,NA,NA,NA,NA,rough/hard
+15-740-279-1,chac1251,Chácobo,1884,koši,Phonemic,hard,prost,NA,NA,NA,rough/hard
+15-740-279-3,chac1251,Chácobo,1884,taro,Phonemic,hard,prost,NA,NA,NA,rough/hard
+15-740-281-1,ship1254,Shipibo-Conibo,1884,čoriš,Phonemic,hard,loriot1993,NA,NA,NA,rough/hard
+15-740-282-1,yami1256,Yaminahua,1884,kɨrɨṣ̌,Phonemic,hard,NA,NA,NA,NA,rough/hard
+15-740-283-1,cayu1262,Cayuvava,1884,kɨrɨ,Phonemic,hard,keyharold,NA,NA,NA,rough/hard
+15-740-283-3,cayu1262,Cayuvava,1884,pa-'kɨrɨ-ha,Phonemic,hard,keyharold,NA,NA,NA,rough/hard
+15-740-284-1,iton1250,Itonama,1884,wɨkˀɨʔna,Phonemic,hard,camp1967,NA,NA,NA,rough/hard
+15-740-284-3,iton1250,Itonama,1884,čˀalɨʔna,Phonemic,hard,camp1967,NA,NA,NA,rough/hard
+15-740-285-1,movi1243,Movima,1884,ɗin̉-ra,Phonemic,hard,judy1962,NA,NA,NA,rough/hard
+15-740-287-1,mund1330,Mundurukú,1884,iča,Phonemic,hard,crofts1981,NA,NA,NA,rough/hard
+15-740-287-3,mund1330,Mundurukú,1884,yača,Phonemic,hard,crofts1981,NA,NA,NA,rough/hard
+15-740-288-1,ache1246,Aché,1884,krere,Phonemic,hard,NA,Also kɨpe; tãtã. No.ACH krere.,NA,NA,rough/hard
+15-740-289-1,east2555,Chiriguano,1884,t-ãta,Phonemic,hard,NA,NA,NA,NA,rough/hard
+15-740-290-1,para1311,Guaraní,1884,hatã,Phonemic,hard,NA,NA,NA,NA,rough/hard
+15-740-291-1,siri1273,Sirionó,1884,eãtã,Phonemic,hard,priest1985,NA,NA,NA,rough/hard
+15-740-291-3,siri1273,Sirionó,1884,eači,Phonemic,hard,priest1985,NA,NA,NA,rough/hard
+15-740-291-5,siri1273,Sirionó,1884,ei̯ma,Phonemic,hard,priest1985,NA,NA,NA,rough/hard
+15-740-292-1,waya1270,Wayampi,1884,ãtã,Phonemic,hard,NA,NA,NA,NA,rough/hard
+15-740-294-1,kain1272,Kaingáng,1884,tar,Phonemic,hard,wiesemann1981,NA,NA,NA,rough/hard
+15-740-296-1,trum1247,Trumai,1884,ataxa,Phonemic,hard,NA,NA,NA,NA,rough/hard
+15-740-296-3,trum1247,Trumai,1884,taxa,Phonemic,hard,NA,NA,NA,NA,rough/hard
+15-740-297-1,ayor1240,Ayoreo,1884,ee'to-i,Phonemic,hard,NA,See 08.470. Also ua'ha-di; ua'ha-de 08.470; and u'ču-i; u'ču-a 05.123.,NA,NA,rough/hard
+15-740-297-3,ayor1240,Ayoreo,1884,ee'to-ge,Phonemic,hard,NA,See 08.470. Also ua'ha-di; ua'ha-de 08.470; and u'ču-i; u'ču-a 05.123.,NA,NA,rough/hard
+15-740-298-1,anga1295,Sanapaná (Angaité dialect),1884,amihi,Phonemic,hard,NA,NA,NA,NA,rough/hard
+15-740-299-1,sana1281,Sanapaná (Enlhet dialect),1884,akyemnaʔteem,Phonemic,hard,unruh1997,NA,NA,NA,rough/hard
+15-740-299-3,sana1281,Sanapaná (Enlhet dialect),1884,taex,Phonemic,hard,unruh1997,NA,NA,NA,rough/hard
+15-740-299-5,sana1281,Sanapaná (Enlhet dialect),1884,kayheʔ,Phonemic,hard,unruh1997,NA,NA,NA,rough/hard
+15-740-300-1,leng1262,Lengua,1884,kai-he,Phonemic,hard,NA,Also -yinnaka-iyi.,NA,NA,rough/hard
+15-740-301-1,moco1246,Mocoví,1884,r-aʔɲi,Phonemic,hard,NA,NA,NA,NA,rough/hard
+15-740-302-1,pila1245,Pilagá,1884,d-ʔaɲi,Phonemic,hard,NA,NA,NA,NA,rough/hard
+15-740-304-1,iyoj1235,Chorote,1884,tosey,Phonemic,hard,NA,NA,NA,NA,rough/hard
+15-740-305-1,maca1260,Maca,1884,tˀun,Phonemic,hard,NA,NA,NA,NA,rough/hard
+15-740-306-1,wich1264,Wichí,1884,tˀen,Phonemic,hard,NA,NA,NA,NA,rough/hard
+15-740-307-1,niva1238,Nivaclé,1884,tˀun,Phonemic,hard,seelwische1980;seelwische1990,"Also kɔykɔy, 'stiff'.",NA,NA,rough/hard
+15-740-307-3,niva1238,Nivaclé,1884,c̷ˀuʔf-xi,Phonemic,hard,seelwische1980;seelwische1990,"Also kɔykɔy, 'stiff'.",NA,NA,rough/hard
+15-740-308-1,kunz1244,Kunza,1884,tta-rar,Phonemic,hard,NA,Also mean 'white' 15.640.,NA,NA,rough/hard
+15-740-308-3,kunz1244,Kunza,1884,tarar,Phonemic,hard,NA,Also mean 'white' 15.640.,NA,NA,rough/hard
+15-740-309-1,mapu1245,Mapudungun,1884,yafɨ,Phonemic,hard,NA,"Ranquel form is ṭ͡ʀenkɨl-, verb; yavɨ, adj.",NA,NA,rough/hard
+15-740-310-1,tehu1242,Tehuelche,1884,k'šor,Phonemic,hard,NA,NA,NA,NA,rough/hard
+15-740-311-1,onaa1245,Selknam,1884,ʔoč eče,Phonemic,hard,NA,NA,NA,NA,rough/hard
+15-740-312-1,puel1244,Gününa Küne,1884,kalc̷ɨ,Phonemic,hard,casamiquela,Also means 'strong'. Also kˀɨč-kɨč.,NA,NA,rough/hard
+15-740-313-1,qawa1238,Qawasqar,1884,seweyep,Phonemic,hard,NA,Sk records soyep for Central QWS.,NA,NA,rough/hard
+15-740-314-1,toba1269,Toba,1884,da-ʔai-lek,Phonemic,hard,NA,-ʔai- and ḳadamt- mean 'hard'.,NA,NA,rough/hard
+15-740-314-3,toba1269,Toba,1884,ḳadamt-a,Phonemic,hard,NA,-ʔai- and ḳadamt- mean 'hard'.,NA,NA,rough/hard
+15-740-315-1,yama1264,Yagán,1884,apeili,Phonemic,hard,NA,NA,NA,NA,rough/hard
+15-740-318-1,ghul1238,Uncunwee,1884,bʊr,IPA,hard,NA,NA,NA,NA,rough/hard
+15-740-401-1,thai1261,Central Thai,1884,khɛ:ŋ.5,Phonemic,hard,NA,NA,NA,NA,rough/hard
+15-740-402-1,sout2746,Southern Tai (Songkhla variety),1884,khɛ:ŋ.1,Phonemic,hard,NA,NA,NA,NA,rough/hard
+15-740-403-1,sout2746,Thai (Korat variety),1884,khɛ:ŋ.1,Phonemic,hard,NA,NA,NA,NA,rough/hard
+15-740-404-1,nort2740,Khamuang (Chiang Mai variety),1884,khɛ:ŋ.1,Phonemic,hard,NA,NA,NA,NA,rough/hard
+15-740-405-1,tain1252,Dehong,1884,kɛn.5,Phonemic,hard,NA,NA,NA,NA,rough/hard
+15-740-405-3,tain1252,Dehong,1884,xɛŋ.1,Phonemic,hard,NA,NA,NA,NA,rough/hard
+15-740-407-1,luuu1242,Tai Lü,1884,xɛŋ.1,Phonemic,hard,NA,NA,NA,NA,rough/hard
+15-740-407-3,luuu1242,Tai Lü,1884,kɛn.5,Phonemic,hard,NA,NA,NA,NA,rough/hard
+15-740-408-1,khun1259,Tai Khün,1884,khɛŋ.3,Phonemic,hard,NA,NA,NA,NA,rough/hard
+15-740-409-1,shan1277,Shan,1884,khjɛ:ŋ.3,Phonemic,hard,NA,NA,NA,NA,rough/hard
+15-740-410-1,shan1277,Shan (Northern Shan dialect),1884,khɛ:ŋ.3,Phonemic,hard,NA,NA,NA,NA,rough/hard
+15-740-410-3,shan1277,Shan (Northern Shan dialect),1884,kɛ:n.2,Phonemic,hard,NA,NA,NA,NA,rough/hard
+15-740-411-1,guib1244,Nung-Fengshan,1884,ʔdoŋ.4,Phonemic,hard,NA,NA,NA,NA,rough/hard
+15-740-412-1,guib1244,Nung-Lazhai,1884,do:ŋ.3,Phonemic,hard,NA,NA,NA,NA,rough/hard
+15-740-413-1,nung1283,Nung-Ninbei,1884,ken.5,Phonemic,hard,NA,NA,NA,NA,rough/hard
+15-740-414-1,zuoj1238,Zhuang-Longzhou,1884,khe:ŋ.1,Phonemic,hard,NA,NA,NA,NA,rough/hard
+15-740-415-1,suii1243,Sui,1884,ʔda.3,Phonemic,hard,NA,NA,NA,NA,rough/hard
+15-740-420-1,lakk1238,Lakkia,1884,kjɛ:ŋ.3,Phonemic,hard,NA,NA,NA,NA,rough/hard
+15-740-421-1,hlai1239,Hlai (Baoting variety),1884,hwat.7,Phonemic,hard,NA,NA,NA,NA,rough/hard
+15-740-422-1,emab1235,Langja Buyang,1884,qa.0 la.11,Phonemic,hard,NA,NA,NA,NA,rough/hard
+15-740-423-1,lang1316,Ecun Buyang,1884,a.0 la.11,Phonemic,hard,NA,NA,NA,NA,rough/hard
+15-740-424-1,gree1278,Sanchong Kelao,1884,ljəu.42,Phonemic,hard,NA,NA,NA,NA,rough/hard
+15-740-425-1,qaua1234,Qau Kelao,1884,ko.42 khi.42,Phonemic,hard,NA,NA,NA,NA,rough/hard
+15-740-701-1,beng1280,Bengali,1884,śakta,Phonemic,hard,saxena701,NA,শক্ত,Standard,rough/hard
+15-740-702-1,hind1269,Hindi,1884,sakʰt̪,Phonemic,hard,saxena702,NA,सख्त,Standard,rough/hard
+15-740-704-1,maha1287,Mahasu Pahari (Kotghari dialect),1884,kākhɽɔ,Phonemic,hard,saxena704,NA,NA,NA,rough/hard
+15-740-705-1,mara1378,Marathi,1884,kaʈʰiːɳ,Phonemic,hard,saxena705,NA,"कठीण, कडक",Standard,rough/hard
+15-740-705-3,mara1378,Marathi,1884,kaɖak,Phonemic,hard,saxena705,NA,"कठीण, कडक",Standard,rough/hard
+15-740-706-1,east1436,Nepali,1884,kaṭhōra,Phonemic,hard,saxena706,NA,NA,NA,rough/hard
+15-740-707-1,west2386,Punjabi,1884,mazabūta,Phonemic,hard,saxena707,NA,NA,NA,rough/hard
+15-740-707-3,west2386,Punjabi,1884,saḵẖata,Phonemic,hard,saxena707,NA,NA,NA,rough/hard
+15-740-707-5,west2386,Punjabi,1884,ḍaḍā,Phonemic,hard,saxena707,NA,NA,NA,rough/hard
+15-740-708-1,tami1289,Tamil,1884,kaṭiṉamāṉa,Phonemic,hard,saxena708,"'difficult to press down, break or cut'",NA,NA,rough/hard
+15-740-709-1,telu1262,Telugu,1884,gaTTi,Phonemic,hard,saxena709,NA,NA,NA,rough/hard
+15-740-709-3,telu1262,Telugu,1884,dṛDha,Phonemic,hard,saxena709,NA,NA,NA,rough/hard
+15-740-710-1,tibe1272,Tibetan,1884,krag krag,Phonemic,hard,saxena710,NA,NA,NA,rough/hard
+15-740-800-1,manm1238,Kme-2 (Kemie variety),1884,han.33,phonetic,hard,NA,NA,NA,NA,rough/hard
+15-740-801-1,blan1242,Bulang,1884,kɔh.51,phonetic,hard,NA,NA,NA,NA,rough/hard
+15-740-802-1,blan1242,Bulang-2,1884,kiar.33,phonetic,hard,NA,NA,NA,NA,rough/hard
+15-740-803-1,blan1242,Bulang-3,1884,ra.55,phonetic,hard,NA,NA,NA,NA,rough/hard
+15-740-804-1,manm1238,Keme (Kemie variety),1884,kɛn.35,phonetic,hard,NA,NA,NA,NA,rough/hard
+15-740-805-1,huuu1240,Xu,1884,khau.55,phonetic,hard,NA,NA,NA,NA,rough/hard
+15-740-806-1,NA,Mang'an B. (MNN),1884,kiɛn.55,phonetic,hard,NA,NA,NA,NA,rough/hard
+15-740-807-1,nucl1290,Wa,1884,kian.A,phonetic,hard,NA,NA,NA,NA,rough/hard
+15-740-808-1,ruma1248,Rumai,1884,kʌn.55,phonetic,hard,NA,NA,NA,NA,rough/hard
+15-740-809-1,pray1239,Prai,1884,koh,phonetic,hard,NA,NA,NA,NA,rough/hard
+15-740-809-2,pray1239,Prai,1884,koh,phonetic,hard,NA,NA,NA,NA,rough/hard
+15-740-810-1,bitt1240,Pusing,1884,kar,phonetic,hard,NA,NA,NA,NA,rough/hard
+15-740-811-1,boly1239,Paliu,1884,kiɛn.55,phonetic,hard,NA,NA,NA,NA,rough/hard
+15-740-814-1,mlab1235,Mlabri,1884,kle,phonetic,hard,NA,NA,NA,NA,rough/hard
+15-740-815-1,cuoi1242,Cuoi,1884,khâ.24,phonetic,hard,NA,NA,NA,NA,rough/hard
+15-740-818-1,NA,Tho Mun (THM),1884,xɔ.B,phonetic,hard,NA,NA,NA,NA,rough/hard
+15-740-818-2,NA,Tho Mun (THM),1884,xɔ.343ʔ,phonetic,hard,NA,NA,NA,NA,rough/hard
+15-740-819-1,cuoi1242,LiHa,1884,khɔ.24,phonetic,hard,NA,NA,NA,NA,rough/hard
+15-740-820-1,phon1246,Phong,1884,ke:n.44,phonetic,hard,NA,NA,NA,NA,rough/hard
+15-740-821-1,NA,TUL,1884,kəŋ.212,phonetic,hard,NA,NA,NA,NA,rough/hard
+15-740-822-1,cuoi1242,Tum,1884,khɔ.24,phonetic,hard,NA,NA,NA,NA,rough/hard
+15-740-824-1,NA,Phu Tho M (PHU),1884,khɔ.4,phonetic,hard,NA,NA,NA,NA,rough/hard
+15-740-825-1,khap1242,Kha Poong,1884,ńɔ:k.33,phonetic,hard,NA,NA,NA,NA,rough/hard
+15-740-826-1,mali1278,Malieng,1884,khɔ:.41ʔ,phonetic,hard,NA,NA,NA,NA,rough/hard
+15-740-827-1,aheu1239,Ahlao Th,1884,zak.F,phonetic,hard,NA,NA,NA,NA,rough/hard
+15-740-829-1,nyah1250,Nyakur,1884,krî:ŋ,phonetic,hard,NA,NA,NA,NA,rough/hard
+15-740-830-1,pear1247,Pear,1884,khrɛŋ,phonetic,hard,NA,NA,NA,NA,rough/hard
+15-740-831-1,NA,SAN,1884,nan.55,phonetic,hard,NA,NA,NA,NA,rough/hard
+15-740-832-1,suoy1242,Kasong,1884,kra:h.C R?,phonetic,hard,NA,NA,NA,NA,rough/hard
+15-740-833-1,samr1245,Samre,1884,krah.A R?,phonetic,hard,NA,NA,NA,NA,rough/hard
+15-740-834-1,chon1284,Chong,1884,khaŋ.C,phonetic,hard,NA,NA,NA,NA,rough/hard
+15-740-835-1,west2394,KNB (a Pearic variety),1884,rɨŋ,phonetic,hard,NA,NA,NA,NA,rough/hard
+15-740-836-1,suri1265,Surin Khmer,1884,rɨŋ,phonetic,hard,NA,NA,NA,NA,rough/hard
+15-740-837-1,west2394,CHNG (a Pearic variety),1884,kaŋ.B,phonetic,hard,NA,NA,NA,NA,rough/hard
+15-740-838-1,oduu1239,Iduh,1884,jarîh,phonetic,hard,NA,NA,NA,NA,rough/hard
+15-740-839-1,mang1378,Mang Ch,1884,gɔp.55,phonetic,hard,NA,NA,NA,NA,rough/hard
+15-740-840-1,mang1378,Mang VN,1884,jo:p.7,phonetic,hard,NA,NA,NA,NA,rough/hard
+15-760-126-1,erzy1239,Erzya Mordvin,1923,kazʸamo,Phonemic,rough,NA,NA,NA,NA,rough/hard
+15-760-127-1,esto1258,Estonian,1923,kar̃e,Phonemic,rough,NA,NA,NA,NA,rough/hard
+15-760-127-3,esto1258,Estonian,1923,kar̃m,Phonemic,rough,NA,NA,NA,NA,rough/hard
+15-760-128-1,finn1318,Finnish,1923,epætasainen,Phonemic,rough,NA,NA,NA,NA,rough/hard
+15-760-128-3,finn1318,Finnish,1923,kar̃kea,Phonemic,rough,NA,NA,NA,NA,rough/hard
+15-760-131-1,hung1274,Hungarian,1923,érdes,Standard,rough,NA,NA,eerdeš,Phonemic,rough/hard
+15-760-139-1,komi1268,Komi,1923,sar̃öga,Phonemic,rough,NA,NA,NA,NA,rough/hard
+15-760-143-1,nort2671,Northern Saami,1923,r̃oɑkkɑs,Phonemic,rough,NA,NA,NA,NA,rough/hard
+15-760-147-1,east2328,Mari,1923,kozə'r̃a,Phonemic,rough,NA,NA,NA,NA,rough/hard
+15-760-148-1,nene1249,Nenets,1923,nasor̃tana ~ nasor̃pey,Phonemic,rough,NA,NA,NA,NA,rough/hard
+15-760-159-1,udmu1245,Udmurt,1923,šakɩr̃es ~ vogɩr̃iyo,Phonemic,rough,NA,NA,NA,NA,rough/hard
+15-760-167-1,anci1242,Ancient Greek,1923,trā'kʰus,LatinTrans,rough,buck1949;liddell1996;magnien1985,NA,NA,NA,rough/hard
+15-760-168-1,mode1248,Modern Greek,1923,tra'xis,LatinTrans,rough,buck1949,NA,NA,NA,rough/hard
+15-760-169-1,lati1261,Latin,1923,asper,StandardOrth,rough,glare1997;ainsworth1923;ernout2001,NA,NA,NA,rough/hard
+15-760-170-1,ital1282,Italian,1923,ruvido,StandardOrth,rough,NA,NA,NA,NA,rough/hard
+15-760-171-1,stan1290,French,1923,rugueux,StandardOrth,rough,NA,NA,NA,NA,rough/hard
+15-760-171-3,stan1290,French,1923,rude,StandardOrth,rough,NA,NA,NA,NA,rough/hard
+15-760-172-1,enap1235,Panare,1923,t-ərəʔrə-če,Phonemic,rough,NA,NA,NA,NA,rough/hard
+15-760-175-1,waiw1244,Wai Wai,1923,tu-turu-y,Phonemic,rough,NA,Lit. 'adv-rough-adv'.,NA,NA,rough/hard
+15-760-176-1,stan1288,Spanish,1923,áspero,Phonemic,rough,NA,NA,NA,NA,rough/hard
+15-760-177-1,stan1289,Catalan,1923,aspre,StandardOrth,rough,NA,NA,NA,NA,rough/hard
+15-760-178-1,port1283,Portuguese,1923,áspero,StandardOrth,rough,NA,NA,NA,NA,rough/hard
+15-760-179-1,roma1327,Romanian,1923,aspru,StandardOrth,rough,NA,NA,NA,NA,rough/hard
+15-760-180-1,oldi1245,Old Irish,1923,garb,StandardOrth,rough,buck1949,NA,NA,NA,rough/hard
+15-760-181-1,iris1253,Irish,1923,garbh,StandardOrth,rough,NA,NA,NA,NA,rough/hard
+15-760-182-1,wels1247,Welsh,1923,garw,StandardOrth,rough,NA,NA,NA,NA,rough/hard
+15-760-183-1,bret1244,Breton,1923,rust,Phonemic,rough,NA,NA,NA,NA,rough/hard
+15-760-184-1,goth1244,Gothic,1923,usdrusts,StandardOrth,rough,lehmann1986,Means 'rough road'.,NA,NA,rough/hard
+15-760-185-1,oldn1244,Old Norse,1923,ūslēttr,StandardOrth,rough,buck1949,NA,NA,NA,rough/hard
+15-760-185-3,oldn1244,Old Norse,1923,hrjūfr,StandardOrth,rough,buck1949,NA,NA,NA,rough/hard
+15-760-186-1,dani1285,Danish,1923,ujævn,StandardOrth,rough,NA,NA,NA,NA,rough/hard
+15-760-186-3,dani1285,Danish,1923,ru,StandardOrth,rough,NA,NA,NA,NA,rough/hard
+15-760-187-1,swed1254,Swedish,1923,ojämn,StandardOrth,rough,NA,NA,NA,NA,rough/hard
+15-760-187-3,swed1254,Swedish,1923,skrovlig,StandardOrth,rough,NA,NA,NA,NA,rough/hard
+15-760-188-1,olde1238,Old English,1923,unsmēθe,StandardOrth,rough,buck1949;bosworth1898;toller1921;roberts1995,NA,NA,NA,rough/hard
+15-760-188-3,olde1238,Old English,1923,rūh,StandardOrth,rough,buck1949;bosworth1898;toller1921;roberts1995,NA,NA,NA,rough/hard
+15-760-188-5,olde1238,Old English,1923,hrēof,StandardOrth,rough,buck1949;bosworth1898;toller1921;roberts1995,NA,NA,NA,rough/hard
+15-760-189-1,midd1317,Middle English,1923,rough-e,StandardOrth,rough,buck1949;med1952,NA,NA,NA,rough/hard
+15-760-189-3,midd1317,Middle English,1923,uneven,StandardOrth,rough,buck1949;med1952,NA,NA,NA,rough/hard
+15-760-190-1,stan1293,English,1923,rough,StandardOrth,rough,NA,NA,NA,NA,rough/hard
+15-760-191-1,dutc1256,Dutch,1923,ruw,StandardOrth,rough,NA,NA,NA,NA,rough/hard
+15-760-191-3,dutc1256,Dutch,1923,oneffen,StandardOrth,rough,NA,NA,NA,NA,rough/hard
+15-760-192-1,oldh1241,Old High German,1923,scarp(f)~sar(p)f,StandardOrth,rough,buck1949;schuetzeichel1989,The inflected form of (h)rao is (h)rawēr.,NA,NA,rough/hard
+15-760-192-3,oldh1241,Old High German,1923,ruh~rūh~ruoh,StandardOrth,rough,buck1949;schuetzeichel1989,The inflected form of (h)rao is (h)rawēr.,NA,NA,rough/hard
+15-760-192-5,oldh1241,Old High German,1923,gi-rob,StandardOrth,rough,buck1949;schuetzeichel1989,The inflected form of (h)rao is (h)rawēr.,NA,NA,rough/hard
+15-760-192-7,oldh1241,Old High German,1923,(h)rao,StandardOrth,rough,buck1949;schuetzeichel1989,The inflected form of (h)rao is (h)rawēr.,NA,NA,rough/hard
+15-760-193-1,midd1343,Middle High German,1923,rūch,StandardOrth,rough,buck1949,NA,NA,NA,rough/hard
+15-760-193-3,midd1343,Middle High German,1923,uneben,StandardOrth,rough,buck1949,NA,NA,NA,rough/hard
+15-760-194-1,stan1295,German,1923,rauh,StandardOrth,rough,buck1949,rauh; un-eben,NA,Original (M. R. Key),rough/hard
+15-760-194-3,stan1295,German,1923,uneben,StandardOrth,rough,buck1949,rauh; un-eben,NA,Original (M. R. Key),rough/hard
+15-760-195-1,east2295,Yiddish,1923,šorstik,Phonemic,rough,NA,NA,NA,NA,rough/hard
+15-760-196-1,lith1251,Lithuanian,1923,šiurkštùs,StandardOrthTone,rough,buck1949,NA,NA,NA,rough/hard
+15-760-196-3,lith1251,Lithuanian,1923,nelýgus,StandardOrthTone,rough,buck1949,NA,NA,NA,rough/hard
+15-760-196-5,lith1251,Lithuanian,1923,rupùs,StandardOrthTone,rough,buck1949,NA,NA,NA,rough/hard
+15-760-197-1,latv1249,Latvian,1923,rupjš,StandardOrth,rough,buck1949,NA,NA,NA,rough/hard
+15-760-199-1,chur1257,Old Church Slavonic,1923,srŭchŭkŭ,Phonemic,rough,buck1949,NA,NA,NA,rough/hard
+15-760-200-1,bulg1262,Bulgarian,1923,[grápav],Phonemic,rough,NA,"Respectively: 'rough, rugged, uneven', Georgiev et al. 1971:274 suggest a possible loan via Romanian, of two Slavic roots, observing Slawski's hypothesis that Polish grapa 'abyss' and Slovak dialect grapa 'barren land' were borrowed via Romanian gpoapă from Albanian gropë, which in turn > Slavic grob 'grave'; 'rough, coarse, rude, crude, uncouth, uncivil'.",NA,NA,rough/hard
+15-760-200-3,bulg1262,Bulgarian,1923,grúb,Phonemic,rough,NA,"Respectively: 'rough, rugged, uneven', Georgiev et al. 1971:274 suggest a possible loan via Romanian, of two Slavic roots, observing Slawski's hypothesis that Polish grapa 'abyss' and Slovak dialect grapa 'barren land' were borrowed via Romanian gpoapă from Albanian gropë, which in turn > Slavic grob 'grave'; 'rough, coarse, rude, crude, uncouth, uncivil'.",NA,NA,rough/hard
+15-760-201-1,sout1528,Serbo-Croatian,1923,hrapav,Phonemic,rough,NA,NA,NA,NA,rough/hard
+15-760-202-1,czec1258,Czech,1923,drsný,StandardOrth,rough,NA,NA,NA,NA,rough/hard
+15-760-203-1,poli1260,Polish,1923,szorstki,StandardOrth,rough,NA,NA,NA,NA,rough/hard
+15-760-203-3,poli1260,Polish,1923,chropawy,StandardOrth,rough,NA,NA,NA,NA,rough/hard
+15-760-204-1,russ1263,Russian,1923,grubyj,Phonemic,rough,NA,NA,NA,NA,rough/hard
+15-760-206-1,east2283,Armenian (Eastern variety),1923,kˀoštˀ,Phonemic,rough,NA,NA,NA,NA,rough/hard
+15-760-206-3,east2283,Armenian (Eastern variety),1923,kˀopˀitˀ,Phonemic,rough,NA,NA,NA,NA,rough/hard
+15-760-207-1,west2348,Armenian (Western variety),1923,gošd,Phonemic,rough,NA,NA,NA,NA,rough/hard
+15-760-207-3,west2348,Armenian (Western variety),1923,gobid,Phonemic,rough,NA,NA,NA,NA,rough/hard
+15-760-209-1,tokh1242,Tocharian A,1923,āśāwe,Phonemic,rough,NA,NA,NA,NA,rough/hard
+15-760-210-1,tokh1243,Tocharian B,1923,aśāwe,Phonemic,rough,NA,NA,NA,NA,rough/hard
+15-760-211-1,sans1269,Sanskrit,1923,viṣama-,LatinTrans,rough,NA,Refers to 'uneven ground'.,NA,NA,rough/hard
+15-760-212-1,vlax1238,Romani,1923,[aspro],Phonemic,rough,NA,Loan from Romanian.,NA,NA,rough/hard
+15-760-214-1,west2369,Persian,1923,dorošt,Phonemic,rough,NA,NA,NA,NA,rough/hard
+15-760-215-1,olda1245,Ancient Aramaic,1923,ḳše,Phonemic,rough,aramaic,NA,NA,NA,rough/hard
+15-760-215-3,olda1245,Ancient Aramaic,1923,χarrūš,Phonemic,rough,aramaic,NA,NA,NA,rough/hard
+15-760-215-5,olda1245,Ancient Aramaic,1923,mʁarram,Phonemic,rough,aramaic,NA,NA,NA,rough/hard
+15-760-215-7,olda1245,Ancient Aramaic,1923,ʁazzūp,Phonemic,rough,aramaic,NA,NA,NA,rough/hard
+15-760-217-1,nege1244,Negerhollands,1923,grof (?),Phonemic,rough,dejong1926;nelson1936,NA,NA,NA,rough/hard
+15-760-218-1,jama1262,Jamaican Creole (Limonese Creole dialect),1923,rɔf,Phonemic,rough,NA,NA,NA,NA,rough/hard
+15-760-219-1,basq1248,Basque,1923,lac̷,Phonemic,rough,NA,NA,NA,NA,rough/hard
+15-760-220-1,haus1257,Hausa,1923,kaushi,Phonemic,rough,bargery1934;newman1990,NA,NA,NA,rough/hard
+15-760-221-1,polc1243,Polci,1923,woghshəp,Phonemic,rough,cosper1996,NA,NA,NA,rough/hard
+15-760-222-1,high1278,Nahuatl (Sierra de Zacapoaxtla variety),1923,šihšipin-ti-k,Phonemic,rough,key1953,NA,NA,NA,rough/hard
+15-760-222-3,high1278,Nahuatl (Sierra de Zacapoaxtla variety),1923,šašakač-ti-k,Phonemic,rough,key1953,NA,NA,NA,rough/hard
+15-760-223-1,zaca1242,Chatino (Zacatepec variety),1923,čeʔ,Phonemic,rough,NA,NA,NA,NA,rough/hard
+15-760-224-1,karo1304,Karok,1923,kúkuh,Phonemic,rough,NA,NA,NA,NA,rough/hard
+15-760-225-1,seri1257,Seri,1923,-i'nǣšx,Phonemic,rough,NA,NA,NA,NA,rough/hard
+15-760-225-3,seri1257,Seri,1923,-i'pākaɬk,Phonemic,rough,NA,NA,NA,NA,rough/hard
+15-760-226-1,zuni1245,Zuni,1923,čippa-,Phonemic,rough,NA,NA,NA,NA,rough/hard
+15-760-228-1,tlin1245,Tlingit,1923,ka-si-xˀaax,Phonemic,rough,gillian1996;gillian1973,NA,NA,NA,rough/hard
+15-760-234-1,poly1242,Proto Polynesian,1923,PPN *feke-feke,Phonemic,rough,blust1988;geraghty1983,NA,NA,NA,rough/hard
+15-760-235-1,hawa1245,Hawaiian,1923,hoʔolua,Phonemic,rough,pukui1975,NA,NA,NA,rough/hard
+15-760-235-3,hawa1245,Hawaiian,1923,ʔālualua,Phonemic,rough,pukui1975,NA,NA,NA,rough/hard
+15-760-235-5,hawa1245,Hawaiian,1923,ʔōkala,Phonemic,rough,pukui1975,NA,NA,NA,rough/hard
+15-760-235-7,hawa1245,Hawaiian,1923,kala,Phonemic,rough,pukui1975,NA,NA,NA,rough/hard
+15-760-236-1,maor1246,Maori,1923,tara-tara,Phonemic,rough,biggs1966;hohepa1967,NA,NA,NA,rough/hard
+15-760-238-1,rapa1244,Rapa Nui,1923,raʔa-raʔa,Phonemic,rough,roussel1908;fuentes1960;thomson1891;aguera1770;forster1778;englert1978;martinez1913,Also makiri-kiri.,"raʔa-raʔa; ra-raʔa; makiri; Englert raʔa-raʔa, rárá; JF ráʔa-ráʔa, rará",Phonemic (vars),rough/hard
+15-760-238-3,rapa1244,Rapa Nui,1923,ra-raʔa,Phonemic,rough,roussel1908;fuentes1960;thomson1891;aguera1770;forster1778;englert1978;martinez1913,Also makiri-kiri.,"raʔa-raʔa; ra-raʔa; makiri; Englert raʔa-raʔa, rárá; JF ráʔa-ráʔa, rará",Phonemic (vars),rough/hard
+15-760-238-5,rapa1244,Rapa Nui,1923,makiri,Phonemic,rough,roussel1908;fuentes1960;thomson1891;aguera1770;forster1778;englert1978;martinez1913,Also makiri-kiri.,"raʔa-raʔa; ra-raʔa; makiri; Englert raʔa-raʔa, rárá; JF ráʔa-ráʔa, rará",Phonemic (vars),rough/hard
+15-760-239-1,rotu1241,Rotuman,1923,vɔnu,Phonemic,rough,churchward1940;geraghty1995,NA,NA,NA,rough/hard
+15-760-240-1,tong1325,Tongan,1923,petepete,Phonemic,rough,tuinukuafe1992;shumway1971,NA,NA,NA,rough/hard
+15-760-241-1,tuam1242,Tuamotuan,1923,heo,Phonemic,rough,stimson1964,NA,NA,NA,rough/hard
+15-760-243-1,chib1270,Muisca,1923,asiquen mague,LatinTrans,rough,perez1987,NA,a-sik-ɨn maɣe,Phonemic,rough/hard
+15-760-244-1,paez1247,Páez,1923,šik,Phonemic,rough,slocum1983,NA,NA,NA,rough/hard
+15-760-245-1,chac1249,Cayapa,1923,'bus'naʔ'c̷ulu,Phonemic,rough,NA,Also 'wes'kara.,NA,NA,rough/hard
+15-760-245-3,chac1249,Cayapa,1923,'bui'-'hele,Phonemic,rough,NA,Also 'wes'kara.,NA,NA,rough/hard
+15-760-247-1,nort2972,Embera,1923,ɨ'gɨa,Phonemic,rough,NA,NA,NA,NA,rough/hard
+15-760-248-1,epen1239,Epena,1923,ɨ'kʰɨa,Phonemic,rough,NA,NA,NA,NA,rough/hard
+15-760-250-1,yuwa1244,Yuwana,1923,huluwaka,Phonemic,rough,NA,NA,NA,NA,rough/hard
+15-760-251-1,pume1238,Yaruro,1923,i gaipa,Phonemic,rough,NA,NA,NA,NA,rough/hard
+15-760-253-1,yano1262,Yanomámi,1923,rõki,Phonemic,rough,NA,NA,NA,NA,rough/hard
+15-760-253-3,yano1262,Yanomámi,1923,namo,Phonemic,rough,NA,NA,NA,NA,rough/hard
+15-760-254-1,cofa1242,Cofán,1923,c̷ʰac̷ʰac̷ʰi,Phonemic,rough,borman1976,NA,NA,NA,rough/hard
+15-760-254-3,cofa1242,Cofán,1923,c̷ʰac̷ʰariʔkʰo,Phonemic,rough,borman1976,NA,NA,NA,rough/hard
+15-760-255-1,waor1240,Waorani,1923,yãbæ̃,Phonemic,rough,NA,NA,NA,NA,rough/hard
+15-760-257-1,tuyu1244,Tuyuca,1923,-bubiro,Phonemic,rough,NA,NA,NA,NA,rough/hard
+15-760-258-1,agua1253,Aguaruna,1923,šuham,Phonemic,rough,NA,NA,NA,NA,rough/hard
+15-760-260-1,yagu1244,Yagua,1923,wariwyunu-,Phonemic,rough,powlison1995,NA,NA,NA,rough/hard
+15-760-262-1,wayu1243,Goajiro,1923,yaľa-yaľa-sɨ,Phonemic,rough,NA,NA,NA,NA,rough/hard
+15-760-263-1,igna1246,Ignaciano,1923,'sesuki,Phonemic,rough,ott1983,NA,NA,NA,rough/hard
+15-760-263-3,igna1246,Ignaciano,1923,'sesume,Phonemic,rough,ott1983,NA,NA,NA,rough/hard
+15-760-265-1,trin1274,Trinitario,1923,-reru,Phonemic,rough,gill1983,A rough rock is -sesu.,NA,NA,rough/hard
+15-760-266-1,wapi1253,Wapishana,1923,kʰaduraiẓaˀba-ʔu,Phonemic,rough,NA,NA,NA,NA,rough/hard
+15-760-267-1,waur1244,Waurá,1923,kapic̷uka,Phonemic,rough,NA,Also means 'sticky'.,NA,NA,rough/hard
+15-760-268-1,yavi1244,Yavitero,1923,gaľu-hi,Phonemic,rough,mosonyi1987,NA,NA,NA,rough/hard
+15-760-269-1,cent2142,Aymara,1923,čʰankʰa,Phonemic,rough,NA,NA,NA,NA,rough/hard
+15-760-270-1,chip1262,Chipaya,1923,č̣ʰax̣ta,Phonemic,rough,NA,NA,NA,NA,rough/hard
+15-760-271-1,mose1249,Mosetén,1923,šek'tač,Phonemic,rough,NA,NA,NA,NA,rough/hard
+15-760-271-3,mose1249,Mosetén,1923,šek'tæs,Phonemic,rough,NA,NA,NA,NA,rough/hard
+15-760-272-1,arao1248,Araona,1923,zaka-zaka,Phonemic,rough,pitman1981;key1968,Also a-lodo-lodo; ac̷olo-c̷olo. *Tacn form is *ćaka-.,NA,NA,rough/hard
+15-760-273-1,cavi1250,Cavineña,1923,c̷eke-da,Phonemic,rough,NA,NA,NA,NA,rough/hard
+15-760-274-1,esee1248,Ese Ejja,1923,-šaʔa,Phonemic,rough,key19581964;wyma1962;shoemaker,NA,NA,NA,rough/hard
+15-760-275-1,esee1248,Ese Ejja (Huarayo),1923,kia-šaa,Phonemic,rough,NA,From José Alvarez.,NA,NA,rough/hard
+15-760-276-1,taca1256,Tacana,1923,ď̶ebo-da,Phonemic,rough,vanwynen1962;ottaviano1989,NA,NA,NA,rough/hard
+15-760-276-3,taca1256,Tacana,1923,ď̶aka-ď̶aka,Phonemic,rough,vanwynen1962;ottaviano1989,NA,NA,NA,rough/hard
+15-760-276-5,taca1256,Tacana,1923,ď̶eoda,Phonemic,rough,vanwynen1962;ottaviano1989,NA,NA,NA,rough/hard
+15-760-278-1,pano1254,Catuquina,1923,šãto,Phonemic,rough,NA,NA,NA,NA,rough/hard
+15-760-281-1,ship1254,Shipibo-Conibo,1923,bɨṣ̌a,Phonemic,rough,loriot1993,NA,NA,NA,rough/hard
+15-760-281-3,ship1254,Shipibo-Conibo,1923,ṣ̌aṣ̌a,Phonemic,rough,loriot1993,NA,NA,NA,rough/hard
+15-760-282-1,yami1256,Yaminahua,1923,βɨṣ̌kɨ,Phonemic,rough,NA,NA,NA,NA,rough/hard
+15-760-284-1,iton1250,Itonama,1923,kˀapuluʔna,Phonemic,rough,camp1967,NA,NA,NA,rough/hard
+15-760-285-1,movi1243,Movima,1923,ča-puh-ni,Phonemic,rough,judy1962,NA,NA,NA,rough/hard
+15-760-288-1,ache1246,Aché,1923,kuru,Phonemic,rough,NA,Also prečãyã. No.ACH kuru.,NA,NA,rough/hard
+15-760-289-1,east2555,Chiriguano,1923,haiᵐbe,Phonemic,rough,NA,NA,NA,NA,rough/hard
+15-760-290-1,para1311,Guaraní,1923,ko'ročo,Phonemic,rough,NA,NA,NA,NA,rough/hard
+15-760-291-1,siri1273,Sirionó,1923,eraašɨ̃,Phonemic,rough,priest1985,NA,NA,NA,rough/hard
+15-760-292-1,waya1270,Wayampi,1923,kalala,Phonemic,rough,NA,NA,NA,NA,rough/hard
+15-760-294-1,kain1272,Kaingáng,1923,kaΦãy,Phonemic,rough,wiesemann1981,NA,NA,NA,rough/hard
+15-760-297-1,ayor1240,Ayoreo,1923,čoo 'čiki 'čiki,Phonemic,rough,NA,Also čoo 'to'to'to'to.,NA,NA,rough/hard
+15-760-299-1,sana1281,Sanapaná (Enlhet dialect),1923,alekhahaykaok,Phonemic,rough,unruh1997,NA,NA,NA,rough/hard
+15-760-299-3,sana1281,Sanapaná (Enlhet dialect),1923,akpaʔalyeyˀ,Phonemic,rough,unruh1997,NA,NA,NA,rough/hard
+15-760-301-1,moco1246,Mocoví,1923,se n-al-a-ʔtaʔ,Phonemic,rough,NA,Lit. 'not 3p actor-align-aspect-reciprocal'.,NA,NA,rough/hard
+15-760-304-1,iyoj1235,Chorote,1923,-kixe,Phonemic,rough,NA,The latter is 'not smooth'.,NA,NA,rough/hard
+15-760-304-3,iyoj1235,Chorote,1923,xe-liixi,Phonemic,rough,NA,The latter is 'not smooth'.,NA,NA,rough/hard
+15-760-305-1,maca1260,Maca,1923,c̷eeχe,Phonemic,rough,NA,"Also, possibly, fuulu.",NA,NA,rough/hard
+15-760-306-1,wich1264,Wichí,1923,yelah-'peʔ,Phonemic,rough,NA,NA,NA,NA,rough/hard
+15-760-307-1,niva1238,Nivaclé,1923,c̷axax,Phonemic,rough,seelwische1980;seelwische1990,NA,NA,NA,rough/hard
+15-760-307-3,niva1238,Nivaclé,1923,c̷aʔc̷a-čˀe,Phonemic,rough,seelwische1980;seelwische1990,NA,NA,NA,rough/hard
+15-760-308-1,kunz1244,Kunza,1923,ckatchacka,Phonemic,rough,NA,NA,NA,NA,rough/hard
+15-760-308-3,kunz1244,Kunza,1923,ca-cha-ca,Phonemic,rough,NA,NA,NA,NA,rough/hard
+15-760-309-1,mapu1245,Mapudungun,1923,yuŋe,Phonemic,rough,NA,NA,NA,NA,rough/hard
+15-760-311-1,onaa1245,Selknam,1923,čou tˀam,Phonemic,rough,NA,Lit. 'body hooks' 04.110.,NA,NA,rough/hard
+15-760-314-1,toba1269,Toba,1923,kesaḳ,Phonemic,rough,NA,NA,NA,NA,rough/hard
+15-760-315-1,yama1264,Yagán,1923,kuma,Phonemic,rough,NA,NA,NA,NA,rough/hard
+15-760-318-1,ghul1238,Uncunwee,1923,kóɲi,IPA,rough,NA,NA,NA,NA,rough/hard
+15-760-401-1,thai1261,Central Thai,1923,ja:p.2,Phonemic,rough,NA,NA,NA,NA,rough/hard
+15-760-401-3,thai1261,Central Thai,1923,khruʔ.2-khraʔ.2 maj.3 riap.3,Phonemic,rough,NA,NA,NA,NA,rough/hard
+15-760-402-1,sout2746,Southern Tai (Songkhla variety),1923,ja:p.8,Phonemic,rough,NA,NA,NA,NA,rough/hard
+15-760-403-1,sout2746,Thai (Korat variety),1923,ta.5 luk.5,Phonemic,rough,NA,NA,NA,NA,rough/hard
+15-760-404-1,nort2740,Khamuang (Chiang Mai variety),1923,bɔ:.3 li:ap.4,Phonemic,rough,NA,NA,NA,NA,rough/hard
+15-760-405-1,tain1252,Dehong,1923,ka:i.2,Phonemic,rough,NA,NA,NA,NA,rough/hard
+15-760-405-3,tain1252,Dehong,1923,hau.3,Phonemic,rough,NA,NA,NA,NA,rough/hard
+15-760-407-1,luuu1242,Tai Lü,1923,ca:.2,Phonemic,rough,NA,NA,NA,NA,rough/hard
+15-760-408-1,khun1259,Tai Khün,1923,ca:.1,Phonemic,rough,NA,NA,NA,NA,rough/hard
+15-760-409-1,shan1277,Shan,1923,ca:.1,Phonemic,rough,NA,NA,NA,NA,rough/hard
+15-760-410-1,shan1277,Shan (Northern Shan dialect),1923,ca:.1,Phonemic,rough,NA,NA,NA,NA,rough/hard
+15-760-411-1,guib1244,Nung-Fengshan,1923,ša.2,Phonemic,rough,NA,NA,NA,NA,rough/hard
+15-760-412-1,guib1244,Nung-Lazhai,1923,tu.1,Phonemic,rough,NA,NA,NA,NA,rough/hard
+15-760-412-3,guib1244,Nung-Lazhai,1923,ńa:p.7,Phonemic,rough,NA,NA,NA,NA,rough/hard
+15-760-413-1,nung1283,Nung-Ninbei,1923,khja:u.3,Phonemic,rough,NA,NA,NA,NA,rough/hard
+15-760-413-3,nung1283,Nung-Ninbei,1923,ca.2,Phonemic,rough,NA,NA,NA,NA,rough/hard
+15-760-414-1,zuoj1238,Zhuang-Longzhou,1923,śo.1 śa:u.5,Phonemic,rough,NA,NA,NA,NA,rough/hard
+15-760-414-3,zuoj1238,Zhuang-Longzhou,1923,ka:i.2 śa.2,Phonemic,rough,NA,NA,NA,NA,rough/hard
+15-760-415-1,suii1243,Sui,1923,ńha:k.7 ńin.1,Phonemic,rough,NA,NA,NA,NA,rough/hard
+15-760-415-3,suii1243,Sui,1923,ŋa:i.6,Phonemic,rough,NA,NA,NA,NA,rough/hard
+15-760-420-1,lakk1238,Lakkia,1923,ŋhja:p.7,Phonemic,rough,NA,NA,NA,NA,rough/hard
+15-760-421-1,hlai1239,Hlai (Baoting variety),1923,cha:k.8,Phonemic,rough,NA,NA,NA,NA,rough/hard
+15-760-422-1,emab1235,Langja Buyang,1923,qa.0 ʒa.312,Phonemic,rough,NA,NA,NA,NA,rough/hard
+15-760-423-1,lang1316,Ecun Buyang,1923,śo.24 ńok.55,Phonemic,rough,NA,NA,NA,NA,rough/hard
+15-760-424-1,gree1278,Sanchong Kelao,1923,chu .35 chau.13,Phonemic,rough,NA,NA,NA,NA,rough/hard
+15-760-425-1,qaua1234,Qau Kelao,1923,chu.33 cha.33,Phonemic,rough,NA,NA,NA,NA,rough/hard
+15-760-701-1,beng1280,Bengali,1923,asamatala,Phonemic,rough,saxena701,NA,অসমতল,Standard,rough/hard
+15-760-702-1,hind1269,Hindi,1923,kʰurad̪araː,Phonemic,rough,saxena702,NA,खुरदरा,Standard,rough/hard
+15-760-704-1,maha1287,Mahasu Pahari (Kotghari dialect),1923,pəraɽɔ,Phonemic,rough,saxena704,NA,NA,NA,rough/hard
+15-760-705-1,mara1378,Marathi,1923,kʰarabarit̪,Phonemic,rough,saxena705,NA,खरबरित,Standard,rough/hard
+15-760-706-1,east1436,Nepali,1923,khasrō,Phonemic,rough,saxena706,NA,NA,NA,rough/hard
+15-760-707-1,west2386,Punjabi,1923,rukhā,Phonemic,rough,saxena707,NA,NA,NA,rough/hard
+15-760-707-3,west2386,Punjabi,1923,khurdarā,Phonemic,rough,saxena707,NA,NA,NA,rough/hard
+15-760-708-1,tami1289,Tamil,1923,karaṭumūraṭāṉa,Phonemic,rough,saxena708,'having an uneven surface',NA,NA,rough/hard
+15-760-709-1,telu1262,Telugu,1923,cittu,Phonemic,rough,saxena709,NA,NA,NA,rough/hard
+15-760-710-1,tibe1272,Tibetan,1923,rtsub mo,Phonemic,rough,saxena710,NA,NA,NA,rough/hard
+15-760-801-1,blan1242,Bulang,1923,sa.31 phuh.51 sa.31 phah.51,phonetic,rough,NA,NA,NA,NA,rough/hard
+15-760-802-1,blan1242,Bulang-2,1923,ra.31,phonetic,rough,NA,NA,NA,NA,rough/hard
+15-760-802-2,blan1242,Bulang-2,1923,ćək.31 ʔa.31 khliat.51,phonetic,rough,NA,NA,NA,NA,rough/hard
+15-760-803-1,blan1242,Bulang-3,1923,ći.33 ru.31 rut.51,phonetic,rough,NA,NA,NA,NA,rough/hard
+15-760-804-1,manm1238,Keme (Kemie variety),1923,ma.53 len.35,phonetic,rough,NA,NA,NA,NA,rough/hard
+15-760-805-1,huuu1240,Xu,1923,xək.55,phonetic,rough,NA,NA,NA,NA,rough/hard
+15-760-806-1,NA,Mang'an B. (MNN),1923,hat.55 ri.33 mɨt.33,phonetic,rough,NA,NA,NA,NA,rough/hard
+15-760-807-1,nucl1290,Wa,1923,rɛʔ.B,phonetic,rough,NA,NA,NA,NA,rough/hard
+15-760-808-1,ruma1248,Rumai,1923,khaʔ.55,phonetic,rough,NA,NA,NA,NA,rough/hard
+15-760-809-1,pray1239,Prai,1923,khla:t,phonetic,rough,NA,NA,NA,NA,rough/hard
+15-760-809-2,pray1239,Prai,1923,khla:t,phonetic,rough,NA,NA,NA,NA,rough/hard
+15-760-811-1,boly1239,Paliu,1923,hat.55 ri.33 mɨt.33,phonetic,rough,NA,NA,NA,NA,rough/hard
+15-760-814-1,mlab1235,Mlabri,1923,tra pum tra pɔm,phonetic,rough,NA,NA,NA,NA,rough/hard
+15-760-815-1,cuoi1242,Cuoi,1923,lo.33 ńo.33,phonetic,rough,NA,NA,NA,NA,rough/hard
+15-760-815-2,cuoi1242,Cuoi,1923,bə.33 sə.33,phonetic,rough,NA,NA,NA,NA,rough/hard
+15-760-816-1,viet1252,Vietnamese,1923,gồ ghề,phonetic,rough,NA,NA,NA,NA,rough/hard
+15-760-816-2,viet1252,Vietnamese,1923,xù xì,phonetic,rough,NA,NA,NA,NA,rough/hard
+15-760-818-1,NA,Tho Mun (THM),1923,ɣo.C ɣe.C,phonetic,rough,NA,NA,NA,NA,rough/hard
+15-760-818-2,NA,Tho Mun (THM),1923,ɣo.434 ɣe.434,phonetic,rough,NA,NA,NA,NA,rough/hard
+15-760-818-3,NA,Tho Mun (THM),1923,sə:ŋ.A sa:ŋ.A,phonetic,rough,NA,NA,NA,NA,rough/hard
+15-760-818-4,NA,Tho Mun (THM),1923,sə:ŋ.43 sa:ŋ.33,phonetic,rough,NA,NA,NA,NA,rough/hard
+15-760-819-1,cuoi1242,LiHa,1923,ɣo.43 ɣe.43,phonetic,rough,NA,NA,NA,NA,rough/hard
+15-760-819-2,cuoi1242,LiHa,1923,kaɛ.43 kaɛ.33,phonetic,rough,NA,NA,NA,NA,rough/hard
+15-760-820-1,phon1246,Phong,1923,no:n.21 lup.45,phonetic,rough,NA,NA,NA,NA,rough/hard
+15-760-821-1,NA,TUL,1923,nɔ.212 lə̆ʔiat.212,phonetic,rough,NA,NA,NA,NA,rough/hard
+15-760-822-1,cuoi1242,Tum,1923,lo:n.41,phonetic,rough,NA,NA,NA,NA,rough/hard
+15-760-824-1,NA,Phu Tho M (PHU),1923,ɣo.2 ɣe.2,phonetic,rough,NA,NA,NA,NA,rough/hard
+15-760-825-1,khap1242,Kha Poong,1923,ŋe.33 ŋe.33,phonetic,rough,NA,NA,NA,NA,rough/hard
+15-760-825-2,khap1242,Kha Poong,1923,karo:j.33,phonetic,rough,NA,NA,NA,NA,rough/hard
+15-760-826-1,mali1278,Malieng,1923,djo:n.43 djw.41ʔ,phonetic,rough,NA,NA,NA,NA,rough/hard
+15-760-827-1,aheu1239,Ahlao Th,1923,ʔɣ̆nʔ.B zonʔ.B,phonetic,rough,NA,NA,NA,NA,rough/hard
+15-760-829-1,nyah1250,Nyakur,1923,jrɔ:č,phonetic,rough,NA,NA,NA,NA,rough/hard
+15-760-830-1,pear1247,Pear,1923,blăk,phonetic,rough,NA,NA,NA,NA,rough/hard
+15-760-831-1,NA,SAN,1923,lak.42 khak.44,phonetic,rough,NA,NA,NA,NA,rough/hard
+15-760-832-1,suoy1242,Kasong,1923,ja:p.B,phonetic,rough,NA,< T,NA,NA,rough/hard
+15-760-833-1,samr1245,Samre,1923,ja:p.C,phonetic,rough,NA,< T,NA,NA,rough/hard
+15-760-834-1,chon1284,Chong,1923,ja:p.A,phonetic,rough,NA,< T,NA,NA,rough/hard
+15-760-835-1,west2394,KNB (a Pearic variety),1923,rkət,phonetic,rough,NA,NA,NA,NA,rough/hard
+15-760-836-1,suri1265,Surin Khmer,1923,kkrɨh,phonetic,rough,NA,NA,NA,NA,rough/hard
+15-760-838-1,oduu1239,Iduh,1923,ga(1)fiəw kanâ:r,phonetic,rough,NA,NA,NA,NA,rough/hard
+15-760-839-1,mang1378,Mang Ch,1923,sɔp.55,phonetic,rough,NA,NA,NA,NA,rough/hard
+15-780-126-1,erzy1239,Erzya Mordvin,1396,pštʸi,Phonemic,sharp,NA,NA,NA,NA,rough/hard
+15-780-127-1,esto1258,Estonian,1396,ter̃aw,Phonemic,sharp,NA,NA,NA,NA,rough/hard
+15-780-128-1,finn1318,Finnish,1396,ter̃æwæ,Phonemic,sharp,NA,NA,NA,NA,rough/hard
+15-780-131-1,hung1274,Hungarian,1396,éles,Standard,sharp,NA,NA,eeleš,Phonemic,rough/hard
+15-780-135-1,khan1273,Khanty,1396,pastɨ,Phonemic,sharp,NA,NA,NA,NA,rough/hard
+15-780-135-3,khan1273,Khanty,1396,tɨyn,Phonemic,sharp,NA,NA,NA,NA,rough/hard
+15-780-139-1,komi1268,Komi,1396,lečɩd,Phonemic,sharp,NA,NA,NA,NA,rough/hard
+15-780-139-3,komi1268,Komi,1396,yosʸ,Phonemic,sharp,NA,NA,NA,NA,rough/hard
+15-780-143-1,nort2671,Northern Saami,1396,bɑstil,Phonemic,sharp,NA,NA,NA,NA,rough/hard
+15-780-146-1,mans1258,Mansi,1396,pʸelpa,Phonemic,sharp,NA,NA,NA,NA,rough/hard
+15-780-146-3,mans1258,Mansi,1396,talʸxaŋ,Phonemic,sharp,NA,NA,NA,NA,rough/hard
+15-780-147-1,east2328,Mari,1396,'püsö,Phonemic,sharp,NA,NA,NA,NA,rough/hard
+15-780-148-1,nene1249,Nenets,1396,paʔʔmʸa,Phonemic,sharp,NA,NA,NA,NA,rough/hard
+15-780-151-1,selk1253,Selkup,1396,ɔŋsɨmɨlʸ,Phonemic,sharp,NA,NA,NA,NA,rough/hard
+15-780-151-3,selk1253,Selkup,1396,minɨtɨlʸ,Phonemic,sharp,NA,NA,NA,NA,rough/hard
+15-780-159-1,udmu1245,Udmurt,1396,lec̷ʸɩt,Phonemic,sharp,NA,NA,NA,NA,rough/hard
+15-780-167-1,anci1242,Ancient Greek,1396,o'ksus,LatinTrans,sharp,buck1949;liddell1996;magnien1985,NA,NA,NA,rough/hard
+15-780-167-3,anci1242,Ancient Greek,1396,o'ksuthēktos,LatinTrans,sharp,buck1949;liddell1996;magnien1985,NA,NA,NA,rough/hard
+15-780-168-1,mode1248,Modern Greek,1396,kofte'ros,LatinTrans,sharp,buck1949,NA,NA,NA,rough/hard
+15-780-168-3,mode1248,Modern Greek,1396,akoni'smenos,LatinTrans,sharp,buck1949,NA,NA,NA,rough/hard
+15-780-169-1,lati1261,Latin,1396,acūtus,StandardOrth,sharp,glare1997;ainsworth1923;ernout2001,NA,NA,NA,rough/hard
+15-780-170-1,ital1282,Italian,1396,acuto,StandardOrth,sharp,NA,NA,NA,NA,rough/hard
+15-780-171-1,stan1290,French,1396,tranchant,StandardOrth,sharp,NA,NA,NA,NA,rough/hard
+15-780-171-3,stan1290,French,1396,aiguisé,StandardOrth,sharp,NA,NA,NA,NA,rough/hard
+15-780-172-1,enap1235,Panare,1396,t-ɨyɨh-ke,Phonemic,sharp,NA,Also tɨ-počiri-ke; tɨ-po-ke.,NA,NA,rough/hard
+15-780-173-1,macu1259,Macushi,1396,ikeʔ,Phonemic,sharp,NA,NA,NA,NA,rough/hard
+15-780-174-1,maqu1238,De'kwana,1396,ākə̄tədɨ,Phonemic,sharp,NA,NA,NA,NA,rough/hard
+15-780-175-1,waiw1244,Wai Wai,1396,t-Φot-ke,Phonemic,sharp,NA,"Lit. 'adv-point-adv'. Also, a sharp edge is tɨ-yo-ke, lit. 'adv-tooth-adv' 04.270.",NA,NA,rough/hard
+15-780-176-1,stan1288,Spanish,1396,afilado,Phonemic,sharp,NA,"Iberian Span. has agudo, puntiagudo, afilado.",NA,NA,rough/hard
+15-780-176-3,stan1288,Spanish,1396,aguzado,Phonemic,sharp,NA,"Iberian Span. has agudo, puntiagudo, afilado.",NA,NA,rough/hard
+15-780-176-5,stan1288,Spanish,1396,filoso,Phonemic,sharp,NA,"Iberian Span. has agudo, puntiagudo, afilado.",NA,NA,rough/hard
+15-780-177-1,stan1289,Catalan,1396,afilat,StandardOrth,sharp,NA,NA,NA,NA,rough/hard
+15-780-177-3,stan1289,Catalan,1396,esmolat,StandardOrth,sharp,NA,NA,NA,NA,rough/hard
+15-780-178-1,port1283,Portuguese,1396,agudo,StandardOrth,sharp,NA,NA,NA,NA,rough/hard
+15-780-178-3,port1283,Portuguese,1396,afiado,StandardOrth,sharp,NA,NA,NA,NA,rough/hard
+15-780-179-1,roma1327,Romanian,1396,ascuţit,StandardOrth,sharp,NA,"First term indicates: 'of a point, of an edge'. Second term indicates: 'of an edge'.",NA,NA,rough/hard
+15-780-179-3,roma1327,Romanian,1396,tăios,StandardOrth,sharp,NA,"First term indicates: 'of a point, of an edge'. Second term indicates: 'of an edge'.",NA,NA,rough/hard
+15-780-180-1,oldi1245,Old Irish,1396,gēr,StandardOrth,sharp,buck1949,NA,NA,NA,rough/hard
+15-780-180-3,oldi1245,Old Irish,1396,āith,StandardOrth,sharp,buck1949,NA,NA,NA,rough/hard
+15-780-181-1,iris1253,Irish,1396,géar,StandardOrth,sharp,NA,NA,NA,NA,rough/hard
+15-780-182-1,wels1247,Welsh,1396,llym,StandardOrth,sharp,NA,NA,NA,NA,rough/hard
+15-780-182-3,wels1247,Welsh,1396,siarp,StandardOrth,sharp,NA,NA,NA,NA,rough/hard
+15-780-183-1,bret1244,Breton,1396,lemm,Phonemic,sharp,NA,NA,NA,NA,rough/hard
+15-780-184-1,goth1244,Gothic,1396,hwass,StandardOrth,sharp,lehmann1986,"Inferred from hwassaba, (adverb).",NA,NA,rough/hard
+15-780-185-1,oldn1244,Old Norse,1396,hvass,StandardOrth,sharp,buck1949,NA,NA,NA,rough/hard
+15-780-185-3,oldn1244,Old Norse,1396,skarpr,StandardOrth,sharp,buck1949,NA,NA,NA,rough/hard
+15-780-186-1,dani1285,Danish,1396,skarp,StandardOrth,sharp,NA,NA,NA,NA,rough/hard
+15-780-187-1,swed1254,Swedish,1396,skarp,StandardOrth,sharp,NA,NA,NA,NA,rough/hard
+15-780-187-3,swed1254,Swedish,1396,vass,StandardOrth,sharp,NA,NA,NA,NA,rough/hard
+15-780-188-1,olde1238,Old English,1396,scearp,StandardOrth,sharp,buck1949;bosworth1898;toller1921;roberts1995,NA,NA,NA,rough/hard
+15-780-188-3,olde1238,Old English,1396,teart,StandardOrth,sharp,buck1949;bosworth1898;toller1921;roberts1995,NA,NA,NA,rough/hard
+15-780-189-1,midd1317,Middle English,1396,sharp,StandardOrth,sharp,buck1949;med1952,NA,NA,NA,rough/hard
+15-780-190-1,stan1293,English,1396,sharp,StandardOrth,sharp,NA,NA,NA,NA,rough/hard
+15-780-191-1,dutc1256,Dutch,1396,scherp,StandardOrth,sharp,NA,NA,NA,NA,rough/hard
+15-780-192-1,oldh1241,Old High German,1396,(h)was,StandardOrth,sharp,buck1949;schuetzeichel1989,NA,NA,NA,rough/hard
+15-780-192-3,oldh1241,Old High German,1396,scarp(f)~sar(p)f,StandardOrth,sharp,buck1949;schuetzeichel1989,NA,NA,NA,rough/hard
+15-780-192-5,oldh1241,Old High German,1396,hantego,StandardOrth,sharp,buck1949;schuetzeichel1989,NA,NA,NA,rough/hard
+15-780-192-7,oldh1241,Old High German,1396,eiver,StandardOrth,sharp,buck1949;schuetzeichel1989,NA,NA,NA,rough/hard
+15-780-192-9,oldh1241,Old High German,1396,bit(t)er,StandardOrth,sharp,buck1949;schuetzeichel1989,NA,NA,NA,rough/hard
+15-780-192-11,oldh1241,Old High German,1396,bīzenti,StandardOrth,sharp,buck1949;schuetzeichel1989,NA,NA,NA,rough/hard
+15-780-193-1,midd1343,Middle High German,1396,scharpf,StandardOrth,sharp,buck1949,NA,NA,NA,rough/hard
+15-780-193-3,midd1343,Middle High German,1396,was,StandardOrth,sharp,buck1949,NA,NA,NA,rough/hard
+15-780-194-1,stan1295,German,1396,scharf,StandardOrth,sharp,buck1949,scharf,NA,Original (M. R. Key),rough/hard
+15-780-195-1,east2295,Yiddish,1396,šarf,Phonemic,sharp,NA,NA,NA,NA,rough/hard
+15-780-196-1,lith1251,Lithuanian,1396,aštrùs,StandardOrthTone,sharp,buck1949,NA,NA,NA,rough/hard
+15-780-197-1,latv1249,Latvian,1396,ass,StandardOrth,sharp,buck1949,Also means 'axle' 10.770 and 'pointed' 12.352.,NA,NA,rough/hard
+15-780-199-1,chur1257,Old Church Slavonic,1396,ostrŭ,Phonemic,sharp,buck1949,NA,NA,NA,rough/hard
+15-780-200-1,bulg1262,Bulgarian,1396,óstər,Phonemic,sharp,NA,NA,NA,NA,rough/hard
+15-780-201-1,sout1528,Serbo-Croatian,1396,oštar,Phonemic,sharp,NA,NA,NA,NA,rough/hard
+15-780-202-1,czec1258,Czech,1396,ostrý,StandardOrth,sharp,NA,NA,NA,NA,rough/hard
+15-780-203-1,poli1260,Polish,1396,ostry,StandardOrth,sharp,NA,NA,NA,NA,rough/hard
+15-780-204-1,russ1263,Russian,1396,ostryj,Phonemic,sharp,NA,NA,NA,NA,rough/hard
+15-780-205-1,tosk1239,Albanian (Tosk variety),1396,i 'mprehtə,Phonemic,sharp,NA,NA,NA,NA,rough/hard
+15-780-205-3,tosk1239,Albanian (Tosk variety),1396,'prerəs,Phonemic,sharp,NA,NA,NA,NA,rough/hard
+15-780-206-1,east2283,Armenian (Eastern variety),1396,sur,Phonemic,sharp,NA,NA,NA,NA,rough/hard
+15-780-206-3,east2283,Armenian (Eastern variety),1396,s[ə]rac̷ˀayr,Phonemic,sharp,NA,NA,NA,NA,rough/hard
+15-780-207-1,west2348,Armenian (Western variety),1396,sur,Phonemic,sharp,NA,NA,NA,NA,rough/hard
+15-780-207-3,west2348,Armenian (Western variety),1396,s[ə]rad͜zayr,Phonemic,sharp,NA,NA,NA,NA,rough/hard
+15-780-208-1,hitt1242,Hittite,1396,dampu-,LatinTrans,sharp,NA,"'Sharp, pointed' as opposed to alpu- 'smooth, rounded, blunt': Puh 15.770.",NA,NA,rough/hard
+15-780-209-1,tokh1242,Tocharian A,1396,pśär,Phonemic,sharp,NA,NA,NA,NA,rough/hard
+15-780-210-1,tokh1243,Tocharian B,1396,akwatse,Phonemic,sharp,NA,NA,NA,NA,rough/hard
+15-780-211-1,sans1269,Sanskrit,1396,tīkṣṇa-,LatinTrans,sharp,NA,NA,NA,NA,rough/hard
+15-780-212-1,vlax1238,Romani,1396,[skuc̷ome],Phonemic,sharp,NA,Loan from Romanian.,NA,NA,rough/hard
+15-780-213-1,aves1237,Avestan,1396,taēɣa-,Phonemic,sharp,buck1949,NA,NA,NA,rough/hard
+15-780-213-3,aves1237,Avestan,1396,tiži-,Phonemic,sharp,buck1949,NA,NA,NA,rough/hard
+15-780-213-5,aves1237,Avestan,1396,tiɣra-,Phonemic,sharp,buck1949,NA,NA,NA,rough/hard
+15-780-214-1,west2369,Persian,1396,tiz,Phonemic,sharp,NA,NA,NA,NA,rough/hard
+15-780-215-1,olda1245,Ancient Aramaic,1396,χrīp,Phonemic,sharp,aramaic,NA,NA,NA,rough/hard
+15-780-217-1,nege1244,Negerhollands,1396,skɛrp,Phonemic,sharp,dejong1926;nelson1936,Can be used as v. or adj.,NA,NA,rough/hard
+15-780-218-1,jama1262,Jamaican Creole (Limonese Creole dialect),1396,šāp,Phonemic,sharp,NA,NA,NA,NA,rough/hard
+15-780-219-1,basq1248,Basque,1396,'soroc̷,Phonemic,sharp,NA,NA,NA,NA,rough/hard
+15-780-220-1,haus1257,Hausa,1396,kaifi,Phonemic,sharp,bargery1934;newman1990,NA,NA,NA,rough/hard
+15-780-221-1,polc1243,Polci,1396,ciighən,Phonemic,sharp,cosper1996,NA,NA,NA,rough/hard
+15-780-222-1,high1278,Nahuatl (Sierra de Zacapoaxtla variety),1396,ki-tentia,Phonemic,sharp,key1953,NA,NA,NA,rough/hard
+15-780-223-1,zaca1242,Chatino (Zacatepec variety),1396,ča,Phonemic,sharp,NA,NA,NA,NA,rough/hard
+15-780-224-1,karo1304,Karok,1396,yáθah,Phonemic,sharp,NA,NA,NA,NA,rough/hard
+15-780-225-1,seri1257,Seri,1396,-ita,Phonemic,sharp,NA,NA,NA,NA,rough/hard
+15-780-226-1,zuni1245,Zuni,1396,ʔotta-,Phonemic,sharp,NA,NA,NA,NA,rough/hard
+15-780-227-1,nort2938,Northern Haida,1396,kˀi,Phonemic,sharp,lawrence1977;tolmie1884,NA,NA,NA,rough/hard
+15-780-227-3,nort2938,Northern Haida,1396,tlˀakˀáa,Phonemic,sharp,lawrence1977;tolmie1884,NA,NA,NA,rough/hard
+15-780-228-1,tlin1245,Tlingit,1396,li-kˀaac̷ˀ,Phonemic,sharp,gillian1996;gillian1973,NA,NA,NA,rough/hard
+15-780-228-3,tlin1245,Tlingit,1396,ya-li-g̣eelˀ,Phonemic,sharp,gillian1996;gillian1973,NA,NA,NA,rough/hard
+15-780-229-1,nucl1649,Tsimshian,1396,sak,Phonemic,sharp,dunn1995,NA,NA,NA,rough/hard
+15-780-231-1,bell1243,Bella Coola,1396,slułūs-is,Phonemic,sharp,davis1980,NA,NA,NA,rough/hard
+15-780-234-1,poly1242,Proto Polynesian,1396,PPN *popo,Phonemic,sharp,blust1988;geraghty1983,PEP *ke(ʔ)o.,NA,NA,rough/hard
+15-780-234-3,poly1242,Proto Polynesian,1396,*kohi,Phonemic,sharp,blust1988;geraghty1983,PEP *ke(ʔ)o.,NA,NA,rough/hard
+15-780-234-5,poly1242,Proto Polynesian,1396,*koi,Phonemic,sharp,blust1988;geraghty1983,PEP *ke(ʔ)o.,NA,NA,rough/hard
+15-780-234-7,poly1242,Proto Polynesian,1396,*tala,Phonemic,sharp,blust1988;geraghty1983,PEP *ke(ʔ)o.,NA,NA,rough/hard
+15-780-235-1,hawa1245,Hawaiian,1396,ʔoi,Phonemic,sharp,pukui1975,NA,NA,NA,rough/hard
+15-780-235-3,hawa1245,Hawaiian,1396,ʔāwini,Phonemic,sharp,pukui1975,NA,NA,NA,rough/hard
+15-780-235-5,hawa1245,Hawaiian,1396,ʔoiʔoi,Phonemic,sharp,pukui1975,NA,NA,NA,rough/hard
+15-780-236-1,maor1246,Maori,1396,koi,Phonemic,sharp,biggs1966;hohepa1967,Latter is verbal form.,NA,NA,rough/hard
+15-780-236-3,maor1246,Maori,1396,whaka-koi-a,Phonemic,sharp,biggs1966;hohepa1967,Latter is verbal form.,NA,NA,rough/hard
+15-780-237-1,sout2866,Marquesan,1396,keokeo,Phonemic,sharp,dordillon1932;dordillon1931,NA,NA,NA,rough/hard
+15-780-237-3,sout2866,Marquesan,1396,nihinihi,Phonemic,sharp,dordillon1932;dordillon1931,NA,NA,NA,rough/hard
+15-780-238-1,rapa1244,Rapa Nui,1396,kaʔi-kaʔi,Phonemic,sharp,roussel1908;fuentes1960;thomson1891;aguera1770;forster1778;englert1978;martinez1913,NA,"kaʔi-kaʔi; Rouss oro-oro, akui, horoi; JF káʔi-káʔi, móko",Phonemic (vars),rough/hard
+15-780-239-1,rotu1241,Rotuman,1396,ʔā,Phonemic,sharp,churchward1940;geraghty1995,NA,NA,NA,rough/hard
+15-780-240-1,tong1325,Tongan,1396,māsila,Phonemic,sharp,tuinukuafe1992;shumway1971,NA,NA,NA,rough/hard
+15-780-240-3,tong1325,Tongan,1396,faka-mata,Phonemic,sharp,tuinukuafe1992;shumway1971,NA,NA,NA,rough/hard
+15-780-241-1,tuam1242,Tuamotuan,1396,keo,Phonemic,sharp,stimson1964,NA,NA,NA,rough/hard
+15-780-241-3,tuam1242,Tuamotuan,1396,keo.keo,Phonemic,sharp,stimson1964,NA,NA,NA,rough/hard
+15-780-241-5,tuam1242,Tuamotuan,1396,koi,Phonemic,sharp,stimson1964,NA,NA,NA,rough/hard
+15-780-242-1,bari1297,Barí,1396,ihkobaaini,Phonemic,sharp,huber1992,Colombia: ʔiko'bayninə. *Chibchan form is *'iaʔ.,NA,NA,rough/hard
+15-780-243-1,chib1270,Muisca,1396,asicaz bquysqua,LatinTrans,sharp,perez1987,Verbal form.,a-sika-c̷̣ β-kɨ-skua,Phonemic,rough/hard
+15-780-244-1,paez1247,Páez,1396,zek-sa,Phonemic,sharp,slocum1983,NA,NA,NA,rough/hard
+15-780-245-1,chac1249,Cayapa,1396,'tʸai-'ke-nu,Phonemic,sharp,NA,First form is verbal. 'tʸa-yan-'guyi refers to a knife. *South Barbacoan form is *tʸeya-.,NA,NA,rough/hard
+15-780-245-3,chac1249,Cayapa,1396,'tʸa-ya,Phonemic,sharp,NA,First form is verbal. 'tʸa-yan-'guyi refers to a knife. *South Barbacoan form is *tʸeya-.,NA,NA,rough/hard
+15-780-245-5,chac1249,Cayapa,1396,da-,Phonemic,sharp,NA,First form is verbal. 'tʸa-yan-'guyi refers to a knife. *South Barbacoan form is *tʸeya-.,NA,NA,rough/hard
+15-780-246-1,colo1256,Colorado,1396,te'yũ,Phonemic,sharp,moore1966,'To sharpen' is te'ya-no.,NA,NA,rough/hard
+15-780-246-3,colo1256,Colorado,1396,teya-'ka,Phonemic,sharp,moore1966,'To sharpen' is te'ya-no.,NA,NA,rough/hard
+15-780-247-1,nort2972,Embera,1396,pewe'ɗea,Phonemic,sharp,NA,NA,NA,NA,rough/hard
+15-780-248-1,epen1239,Epena,1396,pʰewe'dee,Phonemic,sharp,NA,NA,NA,NA,rough/hard
+15-780-249-1,puin1248,Puinave,1396,-de + yak,Phonemic,sharp,NA,NA,NA,NA,rough/hard
+15-780-250-1,yuwa1244,Yuwana,1396,aʰkuwe'te,Phonemic,sharp,NA,NA,NA,NA,rough/hard
+15-780-251-1,pume1238,Yaruro,1396,gaipa,Phonemic,sharp,NA,NA,NA,NA,rough/hard
+15-780-252-1,nina1238,Ninam (Shirishana variety),1396,namo,Phonemic,sharp,NA,Verbal form.,NA,NA,rough/hard
+15-780-253-1,yano1262,Yanomámi,1396,namo,Phonemic,sharp,NA,Also means 'pointed' 12.350.,NA,NA,rough/hard
+15-780-254-1,cofa1242,Cofán,1396,c̷ĩc̷ʰia,Phonemic,sharp,borman1976,Latter form is 'to sharpen (afilar)'.,NA,NA,rough/hard
+15-780-254-3,cofa1242,Cofán,1396,d͜zɨɲaɲe,Phonemic,sharp,borman1976,Latter form is 'to sharpen (afilar)'.,NA,NA,rough/hard
+15-780-255-1,waor1240,Waorani,1396,wa-ẽ-ga,Phonemic,sharp,NA,NA,NA,NA,rough/hard
+15-780-256-1,sion1247,Siona,1396,sɨʔihi,Phonemic,sharp,wheeler1962,NA,NA,NA,rough/hard
+15-780-256-3,sion1247,Siona,1396,sɨʔahi,Phonemic,sharp,wheeler1962,NA,NA,NA,rough/hard
+15-780-257-1,tuyu1244,Tuyuca,1396,asi'yoa,Phonemic,sharp,NA,NA,NA,NA,rough/hard
+15-780-258-1,agua1253,Aguaruna,1396,ɨ'c̷ak-amu,Phonemic,sharp,NA,Cf. 'pointed' 12.352.,NA,NA,rough/hard
+15-780-260-1,yagu1244,Yagua,1396,mõtara,Phonemic,sharp,powlison1995,NA,NA,NA,rough/hard
+15-780-260-3,yagu1244,Yagua,1396,himyura,Phonemic,sharp,powlison1995,NA,NA,NA,rough/hard
+15-780-261-1,baur1253,Baure,1396,ko-'se-ro,Phonemic,sharp,baptistawallin,*Mojo form is *'ka-si-ri.,NA,NA,rough/hard
+15-780-262-1,wayu1243,Goajiro,1396,k-asa-sɨ,Phonemic,sharp,NA,NA,NA,NA,rough/hard
+15-780-263-1,igna1246,Ignaciano,1396,tikasiriʔi,Phonemic,sharp,ott1983,"Means sharp-pointed. Also -'e'sesuka; -'e'sesureka, verbal forms.",NA,NA,rough/hard
+15-780-264-1,mash1270,Mashco Piro,1396,phewna,Phonemic,sharp,matteson;nies1986,NA,NA,NA,rough/hard
+15-780-265-1,trin1274,Trinitario,1396,-kosri,Phonemic,sharp,gill1983,"The latter is lit. to make a nose (pointed), to sharpen.",NA,NA,rough/hard
+15-780-265-3,trin1274,Trinitario,1396,eksiičo,Phonemic,sharp,gill1983,"The latter is lit. to make a nose (pointed), to sharpen.",NA,NA,rough/hard
+15-780-266-1,wapi1253,Wapishana,1396,dimana-ʔu,Phonemic,sharp,NA,NA,NA,NA,rough/hard
+15-780-267-1,waur1244,Waurá,1396,ke-kic̷i,Phonemic,sharp,NA,Lit. 'have-wedge'.,NA,NA,rough/hard
+15-780-268-1,yavi1244,Yavitero,1396,ka'mena-hi,Phonemic,sharp,mosonyi1987,NA,NA,NA,rough/hard
+15-780-269-1,cent2142,Aymara,1396,ari,Phonemic,sharp,NA,NA,NA,NA,rough/hard
+15-780-270-1,chip1262,Chipaya,1396,ari,Phonemic,sharp,NA,Verbal form is xat-š.,NA,NA,rough/hard
+15-780-270-3,chip1262,Chipaya,1396,xat-,Phonemic,sharp,NA,Verbal form is xat-š.,NA,NA,rough/hard
+15-780-271-1,mose1249,Mosetén,1396,mo'taksi,Phonemic,sharp,NA,NA,NA,NA,rough/hard
+15-780-272-1,arao1248,Araona,1396,akʷeo,Phonemic,sharp,pitman1981;key1968,"*Tacn form is *keŕo-da, which also means 'pointed' 12.352.",NA,NA,rough/hard
+15-780-273-1,cavi1250,Cavineña,1396,kʷero-da,Phonemic,sharp,NA,Also means 'pointed' 12.352. Also hakʷa-ya.,NA,NA,rough/hard
+15-780-274-1,esee1248,Ese Ejja,1396,-šexi,Phonemic,sharp,key19581964;wyma1962;shoemaker,NA,NA,NA,rough/hard
+15-780-274-3,esee1248,Ese Ejja,1396,išio-,Phonemic,sharp,key19581964;wyma1962;shoemaker,NA,NA,NA,rough/hard
+15-780-275-1,esee1248,Ese Ejja (Huarayo),1396,kia-hewi,Phonemic,sharp,NA,NA,NA,NA,rough/hard
+15-780-276-1,taca1256,Tacana,1396,keho-da,Phonemic,sharp,vanwynen1962;ottaviano1989,'To sharpen' is rakʷa-.,NA,NA,rough/hard
+15-780-277-1,cash1251,Cashibo,1396,kʷɨno-,Phonemic,sharp,shell1959;shell1965;shell1987,"*Panoan *kʷɨno- with related meanings 'sharp edge, cutting edge, knife, iron, point, tip'.",NA,NA,rough/hard
+15-780-278-1,pano1254,Catuquina,1396,kɨwã,Phonemic,sharp,NA,NA,NA,NA,rough/hard
+15-780-279-1,chac1251,Chácobo,1396,kɨno,Phonemic,sharp,prost,Latter is 'very sharp'. Cf. 'pointed' 12.352.,NA,NA,rough/hard
+15-780-279-3,chac1251,Chácobo,1396,kɨno-sɨni,Phonemic,sharp,prost,Latter is 'very sharp'. Cf. 'pointed' 12.352.,NA,NA,rough/hard
+15-780-280-1,paca1246,Pacahuara,1396,'ɨika,Phonemic,sharp,east,'Sharp enough'.,NA,NA,rough/hard
+15-780-281-1,ship1254,Shipibo-Conibo,1396,kɨ̃-šo,Phonemic,sharp,loriot1993,NA,NA,NA,rough/hard
+15-780-282-1,yami1256,Yaminahua,1396,iškia,Phonemic,sharp,NA,NA,NA,NA,rough/hard
+15-780-283-1,cayu1262,Cayuvava,1396,βɨrɨ,Phonemic,sharp,keyharold,"Means 'to sharpen, make edge'.",NA,NA,rough/hard
+15-780-283-3,cayu1262,Cayuvava,1396,ra-βɨrɨ,Phonemic,sharp,keyharold,"Means 'to sharpen, make edge'.",NA,NA,rough/hard
+15-780-284-1,iton1250,Itonama,1396,wasiwahna,Phonemic,sharp,camp1967,Latter form is verbal.,NA,NA,rough/hard
+15-780-284-3,iton1250,Itonama,1396,yaʔihe,Phonemic,sharp,camp1967,Latter form is verbal.,NA,NA,rough/hard
+15-780-285-1,movi1243,Movima,1396,pe-res-ni,Phonemic,sharp,judy1962,NA,NA,NA,rough/hard
+15-780-286-1,wari1268,Pacaas Novos,1396,šaʔ,Phonemic,sharp,NA,"E.g. a knife. To be 'sharp' ka maʔ ne šinain, 'when it has teeth'.",NA,NA,rough/hard
+15-780-288-1,ache1246,Aché,1396,ĩbe,Phonemic,sharp,NA,Also see (sharp) pointed 12.352. No.ACH akwa. *Tupí-G form is *aemee.,NA,NA,rough/hard
+15-780-289-1,east2555,Chiriguano,1396,haiᵐbe,Phonemic,sharp,NA,NA,NA,NA,rough/hard
+15-780-290-1,para1311,Guaraní,1396,haiᵐbe,Phonemic,sharp,NA,NA,NA,NA,rough/hard
+15-780-291-1,siri1273,Sirionó,1396,erĩ̯me,Phonemic,sharp,priest1985,NA,NA,NA,rough/hard
+15-780-292-1,waya1270,Wayampi,1396,aimɛ,Phonemic,sharp,NA,NA,NA,NA,rough/hard
+15-780-294-1,kain1272,Kaingáng,1396,yã,Phonemic,sharp,wiesemann1981,"Also yurɨ̃n; yuŋrɨ̃n, means to sharpen teeth'.",NA,NA,rough/hard
+15-780-294-3,kain1272,Kaingáng,1396,yukɛn,Phonemic,sharp,wiesemann1981,"Also yurɨ̃n; yuŋrɨ̃n, means to sharpen teeth'.",NA,NA,rough/hard
+15-780-294-5,kain1272,Kaingáng,1396,yãkɛn,Phonemic,sharp,wiesemann1981,"Also yurɨ̃n; yuŋrɨ̃n, means to sharpen teeth'.",NA,NA,rough/hard
+15-780-297-1,ayor1240,Ayoreo,1396,aasii'ko-i,Phonemic,sharp,NA,NA,NA,NA,rough/hard
+15-780-297-3,ayor1240,Ayoreo,1396,aasii'ko,Phonemic,sharp,NA,NA,NA,NA,rough/hard
+15-780-298-1,anga1295,Sanapaná (Angaité dialect),1396,ahantoho,Phonemic,sharp,NA,NA,NA,NA,rough/hard
+15-780-299-1,sana1281,Sanapaná (Enlhet dialect),1396,was,Phonemic,sharp,unruh1997,NA,NA,NA,rough/hard
+15-780-299-3,sana1281,Sanapaná (Enlhet dialect),1396,akma hamtek,Phonemic,sharp,unruh1997,NA,NA,NA,rough/hard
+15-780-299-5,sana1281,Sanapaná (Enlhet dialect),1396,akmahamet,Phonemic,sharp,unruh1997,NA,NA,NA,rough/hard
+15-780-300-1,leng1262,Lengua,1396,-hamtik,Phonemic,sharp,NA,NA,NA,NA,rough/hard
+15-780-301-1,moco1246,Mocoví,1396,y-aʁar-aik,Phonemic,sharp,NA,Lit. 'sharp-augmentative-adj (masc)'.,NA,NA,rough/hard
+15-780-302-1,pila1245,Pilagá,1396,y-aik,Phonemic,sharp,NA,Lit. 'sharp-masc. adj'.,NA,NA,rough/hard
+15-780-304-1,iyoj1235,Chorote,1396,tasaxay,Phonemic,sharp,NA,NA,NA,NA,rough/hard
+15-780-305-1,maca1260,Maca,1396,yasɬax,Phonemic,sharp,NA,NA,NA,NA,rough/hard
+15-780-306-1,wich1264,Wichí,1396,yey,Phonemic,sharp,NA,"Refers to 'edge', but see note in12.353. Also i-c̷e'ɬoh.",NA,NA,rough/hard
+15-780-307-1,niva1238,Nivaclé,1396,iklas-ši,Phonemic,sharp,seelwische1980;seelwische1990,NA,NA,NA,rough/hard
+15-780-307-3,niva1238,Nivaclé,1396,-akɔʔx,Phonemic,sharp,seelwische1980;seelwische1990,NA,NA,NA,rough/hard
+15-780-309-1,mapu1245,Mapudungun,1396,yuŋe,Phonemic,sharp,NA,Same in Ranquel.,NA,NA,rough/hard
+15-780-310-1,tehu1242,Tehuelche,1396,'or 'ter-,Phonemic,sharp,NA,"Lit. 'point long' 01.343, 04.230; 12.570.",NA,NA,rough/hard
+15-780-311-1,onaa1245,Selknam,1396,wičè,Phonemic,sharp,NA,NA,NA,NA,rough/hard
+15-780-312-1,puel1244,Gününa Küne,1396,-wɨṣkɨc̷ɨ,Phonemic,sharp,casamiquela,Verbal form (?).,NA,NA,rough/hard
+15-780-314-1,toba1269,Toba,1396,yi-ta,Phonemic,sharp,NA,NA,NA,NA,rough/hard
+15-780-314-3,toba1269,Toba,1396,lʸaʔ,Phonemic,sharp,NA,NA,NA,NA,rough/hard
+15-780-315-1,yama1264,Yagán,1396,akusimorana,Phonemic,sharp,NA,NA,NA,NA,rough/hard
+15-780-318-1,ghul1238,Uncunwee,1396,ʃiyát,IPA,sharp,NA,NA,NA,NA,rough/hard
+15-780-401-1,thai1261,Central Thai,1396,khom.1,Phonemic,sharp,NA,NA,NA,NA,rough/hard
+15-780-402-1,sout2746,Southern Tai (Songkhla variety),1396,khom.3,Phonemic,sharp,NA,NA,NA,NA,rough/hard
+15-780-403-1,sout2746,Thai (Korat variety),1396,khom.2,Phonemic,sharp,NA,NA,NA,NA,rough/hard
+15-780-404-1,nort2740,Khamuang (Chiang Mai variety),1396,khom.2,Phonemic,sharp,NA,NA,NA,NA,rough/hard
+15-780-405-1,tain1252,Dehong,1396,pha:i.1,Phonemic,sharp,NA,NA,NA,NA,rough/hard
+15-780-407-1,luuu1242,Tai Lü,1396,pha:i.1,Phonemic,sharp,NA,NA,NA,NA,rough/hard
+15-780-407-3,luuu1242,Tai Lü,1396,xum.2,Phonemic,sharp,NA,NA,NA,NA,rough/hard
+15-780-408-1,khun1259,Tai Khün,1396,pha:j.3,Phonemic,sharp,NA,NA,NA,NA,rough/hard
+15-780-409-1,shan1277,Shan,1396,pha:j.3,Phonemic,sharp,NA,NA,NA,NA,rough/hard
+15-780-410-1,shan1277,Shan (Northern Shan dialect),1396,pha:j.3,Phonemic,sharp,NA,NA,NA,NA,rough/hard
+15-780-411-1,guib1244,Nung-Fengshan,1396,ka:t.5,Phonemic,sharp,NA,NA,NA,NA,rough/hard
+15-780-412-1,guib1244,Nung-Lazhai,1396,zai.6,Phonemic,sharp,NA,NA,NA,NA,rough/hard
+15-780-413-1,nung1283,Nung-Ninbei,1396,wam.2,Phonemic,sharp,NA,NA,NA,NA,rough/hard
+15-780-414-1,zuoj1238,Zhuang-Longzhou,1396,kum.2,Phonemic,sharp,NA,NA,NA,NA,rough/hard
+15-780-415-1,suii1243,Sui,1396,tau.6 nau.6,Phonemic,sharp,NA,NA,NA,NA,rough/hard
+15-780-420-1,lakk1238,Lakkia,1396,lei.6,Phonemic,sharp,NA,NA,NA,NA,rough/hard
+15-780-421-1,hlai1239,Hlai (Baoting variety),1396,łeŋ.1 cho:m.1,Phonemic,sharp,NA,NA,NA,NA,rough/hard
+15-780-422-1,emab1235,Langja Buyang,1396,qhɛn.54,Phonemic,sharp,NA,NA,NA,NA,rough/hard
+15-780-423-1,lang1316,Ecun Buyang,1396,xia:n.24,Phonemic,sharp,NA,NA,NA,NA,rough/hard
+15-780-424-1,gree1278,Sanchong Kelao,1396,khi.42,Phonemic,sharp,NA,NA,NA,NA,rough/hard
+15-780-425-1,qaua1234,Qau Kelao,1396,pi.35,Phonemic,sharp,NA,NA,NA,NA,rough/hard
+15-780-701-1,beng1280,Bengali,1396,dhārāla,Phonemic,sharp,saxena701,NA,ধারাল,Standard,rough/hard
+15-780-702-1,hind1269,Hindi,1396,t̪edʒ,Phonemic,sharp,saxena702,NA,तेज,Standard,rough/hard
+15-780-704-1,maha1287,Mahasu Pahari (Kotghari dialect),1396,pɛn:ɔ,Phonemic,sharp,saxena704,NA,NA,NA,rough/hard
+15-780-705-1,mara1378,Marathi,1396,t̪iːkɕaɳ,Phonemic,sharp,saxena705,NA,"तीक्ष्ण, धारदार",Standard,rough/hard
+15-780-705-3,mara1378,Marathi,1396,d̪ʱarad̪aːr,Phonemic,sharp,saxena705,NA,"तीक्ष्ण, धारदार",Standard,rough/hard
+15-780-706-1,east1436,Nepali,1396,tīkhō,Phonemic,sharp,saxena706,NA,NA,NA,rough/hard
+15-780-707-1,west2386,Punjabi,1396,tēza,Phonemic,sharp,saxena707,NA,NA,NA,rough/hard
+15-780-708-1,tami1289,Tamil,1396,kūrmaiyāṉa,Phonemic,sharp,saxena708,NA,NA,NA,rough/hard
+15-780-709-1,telu1262,Telugu,1396,karaku,Phonemic,sharp,saxena709,NA,NA,NA,rough/hard
+15-780-709-3,telu1262,Telugu,1396,koosu,Phonemic,sharp,saxena709,NA,NA,NA,rough/hard
+15-780-709-5,telu1262,Telugu,1396,waaDi,Phonemic,sharp,saxena709,NA,NA,NA,rough/hard
+15-780-710-1,tibe1272,Tibetan,1396,rnon po,Phonemic,sharp,saxena710,NA,NA,NA,rough/hard
+15-780-801-1,blan1242,Bulang,1396,hai.51 lɔm.31,phonetic,sharp,NA,NA,NA,NA,rough/hard
+15-780-802-1,blan1242,Bulang-2,1396,ləp.31,phonetic,sharp,NA,NA,NA,NA,rough/hard
+15-780-803-1,blan1242,Bulang-3,1396,khlɛm.11,phonetic,sharp,NA,NA,NA,NA,rough/hard
+15-780-804-1,manm1238,Keme (Kemie variety),1396,ləp.53,phonetic,sharp,NA,NA,NA,NA,rough/hard
+15-780-805-1,huuu1240,Xu,1396,ləp.55,phonetic,sharp,NA,NA,NA,NA,rough/hard
+15-780-806-1,NA,Mang'an B. (MNN),1396,lɨp.33,phonetic,sharp,NA,NA,NA,NA,rough/hard
+15-780-807-1,nucl1290,Wa,1396,lɔm.B,phonetic,sharp,NA,NA,NA,NA,rough/hard
+15-780-808-1,ruma1248,Rumai,1396,lâm.412,phonetic,sharp,NA,NA,NA,NA,rough/hard
+15-780-809-1,pray1239,Prai,1396,lən,phonetic,sharp,NA,NA,NA,NA,rough/hard
+15-780-809-2,pray1239,Prai,1396,lən,phonetic,sharp,NA,NA,NA,NA,rough/hard
+15-780-810-1,bitt1240,Pusing,1396,lăp,phonetic,sharp,NA,NA,NA,NA,rough/hard
+15-780-811-1,boly1239,Paliu,1396,lɨp.33,phonetic,sharp,NA,NA,NA,NA,rough/hard
+15-780-814-1,mlab1235,Mlabri,1396,khom,phonetic,sharp,NA,< T,NA,NA,rough/hard
+15-780-815-1,cuoi1242,Cuoi,1396,ləp.31,phonetic,sharp,NA,NA,NA,NA,rough/hard
+15-780-818-1,NA,Tho Mun (THM),1396,thak.C,phonetic,sharp,NA,NA,NA,NA,rough/hard
+15-780-818-2,NA,Tho Mun (THM),1396,thak.41,phonetic,sharp,NA,NA,NA,NA,rough/hard
+15-780-819-1,cuoi1242,LiHa,1396,lop.31,phonetic,sharp,NA,NA,NA,NA,rough/hard
+15-780-820-1,phon1246,Phong,1396,lip.44,phonetic,sharp,NA,NA,NA,NA,rough/hard
+15-780-821-1,NA,TUL,1396,kom.33,phonetic,sharp,NA,NA,NA,NA,rough/hard
+15-780-822-1,cuoi1242,Tum,1396,lop.41,phonetic,sharp,NA,NA,NA,NA,rough/hard
+15-780-824-1,NA,Phu Tho M (PHU),1396,thăk.5,phonetic,sharp,NA,NA,NA,NA,rough/hard
+15-780-825-1,khap1242,Kha Poong,1396,lɨp.13,phonetic,sharp,NA,NA,NA,NA,rough/hard
+15-780-826-1,mali1278,Malieng,1396,lɨ̆p.14,phonetic,sharp,NA,NA,NA,NA,rough/hard
+15-780-827-1,aheu1239,Ahlao Th,1396,khɔ̆ʔ.B lɔn.F,phonetic,sharp,NA,NA,NA,NA,rough/hard
+15-780-829-1,nyah1250,Nyakur,1396,lɔ̂:p,phonetic,sharp,NA,NA,NA,NA,rough/hard
+15-780-830-1,pear1247,Pear,1396,pɛʔ,phonetic,sharp,NA,NA,NA,NA,rough/hard
+15-780-831-1,NA,SAN,1396,lə́i̯.32,phonetic,sharp,NA,NA,NA,NA,rough/hard
+15-780-832-1,suoy1242,Kasong,1396,kal.D,phonetic,sharp,NA,NA,NA,NA,rough/hard
+15-780-833-1,samr1245,Samre,1396,kar.C,phonetic,sharp,NA,NA,NA,NA,rough/hard
+15-780-834-1,chon1284,Chong,1396,khəj.B,phonetic,sharp,NA,NA,NA,NA,rough/hard
+15-780-835-1,west2394,KNB (a Pearic variety),1396,mut,phonetic,sharp,NA,NA,NA,NA,rough/hard
+15-780-836-1,suri1265,Surin Khmer,1396,mut,phonetic,sharp,NA,NA,NA,NA,rough/hard
+15-780-837-1,west2394,CHNG (a Pearic variety),1396,kəʔj.A,phonetic,sharp,NA,NA,NA,NA,rough/hard
+15-780-838-1,oduu1239,Iduh,1396,da(1)mbâ:r,phonetic,sharp,NA,NA,NA,NA,rough/hard
+15-780-839-1,mang1378,Mang Ch,1396,ləŋ.51,phonetic,sharp,NA,NA,NA,NA,rough/hard
+15-780-840-1,mang1378,Mang VN,1396,lɔm.4,phonetic,sharp,NA,NA,NA,NA,rough/hard
+15-780-840-2,mang1378,Mang VN,1396,pat.7,phonetic,sharp,NA,NA,NA,NA,rough/hard
+15-770-126-1,erzy1239,Erzya Mordvin,1234,valanʸa,Phonemic,smooth,NA,NA,NA,NA,smooth/soft
+15-770-127-1,esto1258,Estonian,1234,sile,Phonemic,smooth,NA,NA,NA,NA,smooth/soft
+15-770-127-3,esto1258,Estonian,1234,tasane,Phonemic,smooth,NA,NA,NA,NA,smooth/soft
+15-770-128-1,finn1318,Finnish,1234,sileæ,Phonemic,smooth,NA,NA,NA,NA,smooth/soft
+15-770-128-3,finn1318,Finnish,1234,tasainen,Phonemic,smooth,NA,NA,NA,NA,smooth/soft
+15-770-131-1,hung1274,Hungarian,1234,sima,Standard,smooth,NA,NA,šima,Phonemic,smooth/soft
+15-770-135-1,khan1273,Khanty,1234,paylɨ,Phonemic,smooth,NA,NA,NA,NA,smooth/soft
+15-770-139-1,komi1268,Komi,1234,šɩlʸɩd,Phonemic,smooth,NA,NA,NA,NA,smooth/soft
+15-770-139-3,komi1268,Komi,1234,molʸɩd,Phonemic,smooth,NA,NA,NA,NA,smooth/soft
+15-770-143-1,nort2671,Northern Saami,1234,livttis,Phonemic,smooth,NA,NA,NA,NA,smooth/soft
+15-770-146-1,mans1258,Mansi,1234,sastum,Phonemic,smooth,NA,NA,NA,NA,smooth/soft
+15-770-147-1,east2328,Mari,1234,'tör̃ ~ šə'ma,Phonemic,smooth,NA,NA,NA,NA,smooth/soft
+15-770-148-1,nene1249,Nenets,1234,salmuy,Phonemic,smooth,NA,NA,NA,NA,smooth/soft
+15-770-151-1,selk1253,Selkup,1234,nur̃ḳɨlʸ,Phonemic,smooth,NA,NA,NA,NA,smooth/soft
+15-770-159-1,udmu1245,Udmurt,1234,volʸɩt,Phonemic,smooth,NA,NA,NA,NA,smooth/soft
+15-770-159-3,udmu1245,Udmurt,1234,čoškɩt,Phonemic,smooth,NA,NA,NA,NA,smooth/soft
+15-770-167-1,anci1242,Ancient Greek,1234,'leios,LatinTrans,smooth,buck1949;liddell1996;magnien1985,NA,NA,NA,smooth/soft
+15-770-168-1,mode1248,Modern Greek,1234,'lios,LatinTrans,smooth,buck1949,NA,NA,NA,smooth/soft
+15-770-169-1,lati1261,Latin,1234,lēvis,StandardOrth,smooth,glare1997;ainsworth1923;ernout2001,NA,NA,NA,smooth/soft
+15-770-170-1,ital1282,Italian,1234,liscio,StandardOrth,smooth,NA,NA,NA,NA,smooth/soft
+15-770-171-1,stan1290,French,1234,lisse,StandardOrth,smooth,NA,NA,NA,NA,smooth/soft
+15-770-172-1,enap1235,Panare,1234,t-ɨkarin-ke,Phonemic,smooth,NA,NA,NA,NA,smooth/soft
+15-770-173-1,macu1259,Macushi,1234,erekkuru,Phonemic,smooth,NA,NA,NA,NA,smooth/soft
+15-770-174-1,maqu1238,De'kwana,1234,tɨwansuʔde,Phonemic,smooth,NA,NA,NA,NA,smooth/soft
+15-770-175-1,waiw1244,Wai Wai,1234,t-memese,Phonemic,smooth,NA,Lit. 'adv-smooth'.,NA,NA,smooth/soft
+15-770-176-1,stan1288,Spanish,1234,suave,Phonemic,smooth,NA,NA,NA,NA,smooth/soft
+15-770-176-3,stan1288,Spanish,1234,liso,Phonemic,smooth,NA,NA,NA,NA,smooth/soft
+15-770-177-1,stan1289,Catalan,1234,llis,StandardOrth,smooth,NA,NA,NA,NA,smooth/soft
+15-770-178-1,port1283,Portuguese,1234,liso,StandardOrth,smooth,NA,NA,NA,NA,smooth/soft
+15-770-178-3,port1283,Portuguese,1234,macio,StandardOrth,smooth,NA,NA,NA,NA,smooth/soft
+15-770-179-1,roma1327,Romanian,1234,neted,StandardOrth,smooth,NA,NA,NA,NA,smooth/soft
+15-770-180-1,oldi1245,Old Irish,1234,rēid,StandardOrth,smooth,buck1949,NA,NA,NA,smooth/soft
+15-770-180-3,oldi1245,Old Irish,1234,mīn,StandardOrth,smooth,buck1949,NA,NA,NA,smooth/soft
+15-770-181-1,iris1253,Irish,1234,réidh,StandardOrth,smooth,NA,NA,NA,NA,smooth/soft
+15-770-181-3,iris1253,Irish,1234,mín,StandardOrth,smooth,NA,NA,NA,NA,smooth/soft
+15-770-182-1,wels1247,Welsh,1234,llyfn,StandardOrth,smooth,NA,NA,NA,NA,smooth/soft
+15-770-183-1,bret1244,Breton,1234,flour,Phonemic,smooth,NA,NA,NA,NA,smooth/soft
+15-770-184-1,goth1244,Gothic,1234,slaihts,StandardOrth,smooth,lehmann1986,NA,NA,NA,smooth/soft
+15-770-185-1,oldn1244,Old Norse,1234,slēttr,StandardOrth,smooth,buck1949,NA,NA,NA,smooth/soft
+15-770-186-1,dani1285,Danish,1234,glat,StandardOrth,smooth,NA,NA,NA,NA,smooth/soft
+15-770-186-3,dani1285,Danish,1234,jævn,StandardOrth,smooth,NA,NA,NA,NA,smooth/soft
+15-770-187-1,swed1254,Swedish,1234,slät,StandardOrth,smooth,NA,NA,NA,NA,smooth/soft
+15-770-187-3,swed1254,Swedish,1234,jämn,StandardOrth,smooth,NA,NA,NA,NA,smooth/soft
+15-770-187-5,swed1254,Swedish,1234,glatt,StandardOrth,smooth,NA,NA,NA,NA,smooth/soft
+15-770-188-1,olde1238,Old English,1234,smēθe,StandardOrth,smooth,buck1949;bosworth1898;toller1921;roberts1995,NA,NA,NA,smooth/soft
+15-770-188-3,olde1238,Old English,1234,unrūh,StandardOrth,smooth,buck1949;bosworth1898;toller1921;roberts1995,NA,NA,NA,smooth/soft
+15-770-189-1,midd1317,Middle English,1234,smothe,StandardOrth,smooth,buck1949;med1952,NA,NA,NA,smooth/soft
+15-770-189-3,midd1317,Middle English,1234,smethe,StandardOrth,smooth,buck1949;med1952,NA,NA,NA,smooth/soft
+15-770-189-5,midd1317,Middle English,1234,slight,StandardOrth,smooth,buck1949;med1952,NA,NA,NA,smooth/soft
+15-770-190-1,stan1293,English,1234,smooth,StandardOrth,smooth,NA,NA,NA,NA,smooth/soft
+15-770-191-1,dutc1256,Dutch,1234,glad,StandardOrth,smooth,NA,NA,NA,NA,smooth/soft
+15-770-191-3,dutc1256,Dutch,1234,effen,StandardOrth,smooth,NA,NA,NA,NA,smooth/soft
+15-770-192-1,oldh1241,Old High German,1234,sleht,StandardOrth,smooth,buck1949;schuetzeichel1989,NA,NA,NA,smooth/soft
+15-770-192-3,oldh1241,Old High German,1234,(h)lūt(t)ar,StandardOrth,smooth,buck1949;schuetzeichel1989,NA,NA,NA,smooth/soft
+15-770-193-1,midd1343,Middle High German,1234,glat,StandardOrth,smooth,buck1949,NA,NA,NA,smooth/soft
+15-770-193-3,midd1343,Middle High German,1234,sleht,StandardOrth,smooth,buck1949,NA,NA,NA,smooth/soft
+15-770-193-5,midd1343,Middle High German,1234,eben,StandardOrth,smooth,buck1949,NA,NA,NA,smooth/soft
+15-770-194-1,stan1295,German,1234,glatt,StandardOrth,smooth,buck1949,glatt; eben,NA,Original (M. R. Key),smooth/soft
+15-770-194-3,stan1295,German,1234,eben,StandardOrth,smooth,buck1949,glatt; eben,NA,Original (M. R. Key),smooth/soft
+15-770-195-1,east2295,Yiddish,1234,glat(ik),Phonemic,smooth,NA,NA,NA,NA,smooth/soft
+15-770-196-1,lith1251,Lithuanian,1234,lýgus,StandardOrthTone,smooth,buck1949,NA,NA,NA,smooth/soft
+15-770-196-3,lith1251,Lithuanian,1234,plýnas,StandardOrthTone,smooth,buck1949,NA,NA,NA,smooth/soft
+15-770-196-5,lith1251,Lithuanian,1234,glotnùs,StandardOrthTone,smooth,buck1949,NA,NA,NA,smooth/soft
+15-770-197-1,latv1249,Latvian,1234,gluds,StandardOrth,smooth,buck1949,NA,NA,NA,smooth/soft
+15-770-199-1,chur1257,Old Church Slavonic,1234,gladŭkŭ,Phonemic,smooth,buck1949,NA,NA,NA,smooth/soft
+15-770-200-1,bulg1262,Bulgarian,1234,gládək,Phonemic,smooth,NA,NA,NA,NA,smooth/soft
+15-770-201-1,sout1528,Serbo-Croatian,1234,gladak,Phonemic,smooth,NA,NA,NA,NA,smooth/soft
+15-770-202-1,czec1258,Czech,1234,hladký,StandardOrth,smooth,NA,NA,NA,NA,smooth/soft
+15-770-203-1,poli1260,Polish,1234,gładki,StandardOrth,smooth,NA,NA,NA,NA,smooth/soft
+15-770-204-1,russ1263,Russian,1234,gladkij,Phonemic,smooth,NA,NA,NA,NA,smooth/soft
+15-770-206-1,east2283,Armenian (Eastern variety),1234,hartʰ,Phonemic,smooth,NA,NA,NA,NA,smooth/soft
+15-770-206-3,east2283,Armenian (Eastern variety),1234,voɣorkˀ,Phonemic,smooth,NA,NA,NA,NA,smooth/soft
+15-770-207-1,west2348,Armenian (Western variety),1234,hart,Phonemic,smooth,NA,NA,NA,NA,smooth/soft
+15-770-207-3,west2348,Armenian (Western variety),1234,voɣorg,Phonemic,smooth,NA,NA,NA,NA,smooth/soft
+15-770-208-1,hitt1242,Hittite,1234,alpu-,LatinTrans,smooth,NA,"HWW, Puh: 'smooth, rounded, dull, blunt', as opposed to dampu- 'sharp, pointed': Puh, see 15.780.",NA,NA,smooth/soft
+15-770-210-1,tokh1243,Tocharian B,1234,ṣmare,Phonemic,smooth,NA,NA,NA,NA,smooth/soft
+15-770-211-1,sans1269,Sanskrit,1234,sama-,LatinTrans,smooth,NA,"Respectively: 'even (ground)'; 'even, smooth, polished, soft'.",NA,NA,smooth/soft
+15-770-211-3,sans1269,Sanskrit,1234,šlakṣṇa-,LatinTrans,smooth,NA,"Respectively: 'even (ground)'; 'even, smooth, polished, soft'.",NA,NA,smooth/soft
+15-770-212-1,vlax1238,Romani,1234,[kovlo],Phonemic,smooth,NA,NA,NA,NA,smooth/soft
+15-770-214-1,west2369,Persian,1234,hæmvɑr,Phonemic,smooth,NA,NA,NA,NA,smooth/soft
+15-770-215-1,olda1245,Ancient Aramaic,1234,šʁē,Phonemic,smooth,aramaic,NA,NA,NA,smooth/soft
+15-770-215-3,olda1245,Ancient Aramaic,1234,špē,Phonemic,smooth,aramaic,NA,NA,NA,smooth/soft
+15-770-215-5,olda1245,Ancient Aramaic,1234,mrīḳ,Phonemic,smooth,aramaic,NA,NA,NA,smooth/soft
+15-770-218-1,jama1262,Jamaican Creole (Limonese Creole dialect),1234,smud,Phonemic,smooth,NA,NA,NA,NA,smooth/soft
+15-770-219-1,basq1248,Basque,1234,[leɲ],Phonemic,smooth,NA,From Latin 'lenis'.,NA,NA,smooth/soft
+15-770-220-1,haus1257,Hausa,1234,sumul,Phonemic,smooth,bargery1934;newman1990,NA,NA,NA,smooth/soft
+15-770-220-3,haus1257,Hausa,1234,santsi,Phonemic,smooth,bargery1934;newman1990,NA,NA,NA,smooth/soft
+15-770-220-5,haus1257,Hausa,1234,laushi,Phonemic,smooth,bargery1934;newman1990,NA,NA,NA,smooth/soft
+15-770-221-1,polc1243,Polci,1234,mul,Phonemic,smooth,cosper1996,NA,NA,NA,smooth/soft
+15-770-222-1,high1278,Nahuatl (Sierra de Zacapoaxtla variety),1234,alaš-ti-k,Phonemic,smooth,key1953,Also potoš-ti-k; -peta.,NA,NA,smooth/soft
+15-770-222-3,high1278,Nahuatl (Sierra de Zacapoaxtla variety),1234,yemaš-c̷in,Phonemic,smooth,key1953,Also potoš-ti-k; -peta.,NA,NA,smooth/soft
+15-770-223-1,zaca1242,Chatino (Zacatepec variety),1234,kuti,Phonemic,smooth,NA,NA,NA,NA,smooth/soft
+15-770-224-1,karo1304,Karok,1234,xūs,Phonemic,smooth,NA,NA,NA,NA,smooth/soft
+15-770-225-1,seri1257,Seri,1234,-o'miʔx,Phonemic,smooth,NA,NA,NA,NA,smooth/soft
+15-770-226-1,zuni1245,Zuni,1234,kˀʸalolo-,Phonemic,smooth,NA,NA,NA,NA,smooth/soft
+15-770-228-1,tlin1245,Tlingit,1234,yaasˀ,Phonemic,smooth,gillian1996;gillian1973,NA,NA,NA,smooth/soft
+15-770-228-3,tlin1245,Tlingit,1234,ka-di-yaasˀ,Phonemic,smooth,gillian1996;gillian1973,NA,NA,NA,smooth/soft
+15-770-229-1,nucl1649,Tsimshian,1234,naʔyełk,Phonemic,smooth,dunn1995,NA,NA,NA,smooth/soft
+15-770-235-1,hawa1245,Hawaiian,1234,malino,Phonemic,smooth,pukui1975,NA,NA,NA,smooth/soft
+15-770-235-3,hawa1245,Hawaiian,1234,paheʔe,Phonemic,smooth,pukui1975,NA,NA,NA,smooth/soft
+15-770-236-1,maor1246,Maori,1234,maaene-ene,Phonemic,smooth,biggs1966;hohepa1967,Verbal form is whaka-ene.,NA,NA,smooth/soft
+15-770-238-1,rapa1244,Rapa Nui,1234,pororeko,Phonemic,smooth,roussel1908;fuentes1960;thomson1891;aguera1770;forster1778;englert1978;martinez1913,NA,"pororeko; ti-tika; Englert reŋo-reŋo; Rouss rapa-rapa; JF pororéko, réŋo-réŋo",Phonemic (vars),smooth/soft
+15-770-238-3,rapa1244,Rapa Nui,1234,ti-tika,Phonemic,smooth,roussel1908;fuentes1960;thomson1891;aguera1770;forster1778;englert1978;martinez1913,NA,"pororeko; ti-tika; Englert reŋo-reŋo; Rouss rapa-rapa; JF pororéko, réŋo-réŋo",Phonemic (vars),smooth/soft
+15-770-239-1,rotu1241,Rotuman,1234,mar-marɔri,Phonemic,smooth,churchward1940;geraghty1995,NA,NA,NA,smooth/soft
+15-770-240-1,tong1325,Tongan,1234,hamolemole,Phonemic,smooth,tuinukuafe1992;shumway1971,NA,NA,NA,smooth/soft
+15-770-240-3,tong1325,Tongan,1234,tokalelei,Phonemic,smooth,tuinukuafe1992;shumway1971,NA,NA,NA,smooth/soft
+15-770-241-1,tuam1242,Tuamotuan,1234,faka.ŋā.ere,Phonemic,smooth,stimson1964,NA,NA,NA,smooth/soft
+15-770-242-1,bari1297,Barí,1234,dyibakaari,Phonemic,smooth,huber1992,Colombia: atrobišininə.,NA,NA,smooth/soft
+15-770-243-1,chib1270,Muisca,1234,zmohosysuca,LatinTrans,smooth,perez1987,Verbal form.,c̷̣ɨ-β-ohosɨ-suka,Phonemic,smooth/soft
+15-770-244-1,paez1247,Páez,1234,laβy,Phonemic,smooth,slocum1983,Tierradentro dialect is xʸuʔde.,NA,NA,smooth/soft
+15-770-246-1,colo1256,Colorado,1234,la'yũ,Phonemic,smooth,moore1966,"Also la'yũ-kari-no, 'to cause to be smooth'.",NA,NA,smooth/soft
+15-770-247-1,nort2972,Embera,1234,dou'a,Phonemic,smooth,NA,NA,NA,NA,smooth/soft
+15-770-248-1,epen1239,Epena,1234,kʰakʰa'yaa,Phonemic,smooth,NA,NA,NA,NA,smooth/soft
+15-770-250-1,yuwa1244,Yuwana,1234,ʰteiʰteiwa,Phonemic,smooth,NA,NA,NA,NA,smooth/soft
+15-770-251-1,pume1238,Yaruro,1234,tata,Phonemic,smooth,NA,NA,NA,NA,smooth/soft
+15-770-252-1,nina1238,Ninam (Shirishana variety),1234,si-ãhi,Phonemic,smooth,NA,Lit. 'skin/surface smooth' (same term as 'mud' 01.214).,NA,NA,smooth/soft
+15-770-253-1,yano1262,Yanomámi,1234,si kõpehe-wə,Phonemic,smooth,NA,NA,NA,NA,smooth/soft
+15-770-254-1,cofa1242,Cofán,1234,'giyaʔc̷ʰi,Phonemic,smooth,borman1976,NA,NA,NA,smooth/soft
+15-770-254-3,cofa1242,Cofán,1234,kesɨsɨ,Phonemic,smooth,borman1976,NA,NA,NA,smooth/soft
+15-770-255-1,waor1240,Waorani,1234,ayade kæ,Phonemic,smooth,NA,NA,NA,NA,smooth/soft
+15-770-256-1,sion1247,Siona,1234,sitˀa-hi,Phonemic,smooth,wheeler1962,*Tucn form is *yaʔpi.,NA,NA,smooth/soft
+15-770-256-3,sion1247,Siona,1234,kˀaʔipˀɨ,Phonemic,smooth,wheeler1962,*Tucn form is *yaʔpi.,NA,NA,smooth/soft
+15-770-257-1,tuyu1244,Tuyuca,1234,si'pi,Phonemic,smooth,NA,NA,NA,NA,smooth/soft
+15-770-258-1,agua1253,Aguaruna,1234,ču'win,Phonemic,smooth,NA,NA,NA,NA,smooth/soft
+15-770-258-3,agua1253,Aguaruna,1234,pinu,Phonemic,smooth,NA,NA,NA,NA,smooth/soft
+15-770-260-1,yagu1244,Yagua,1234,wasidya,Phonemic,smooth,powlison1995,NA,NA,NA,smooth/soft
+15-770-261-1,baur1253,Baure,1234,-'mo-ri,Phonemic,smooth,baptistawallin,*Mojo form is *'ma-hu.,NA,NA,smooth/soft
+15-770-262-1,wayu1243,Goajiro,1234,sinatɨ-sɨ,Phonemic,smooth,NA,NA,NA,NA,smooth/soft
+15-770-263-1,igna1246,Ignaciano,1234,timahu,Phonemic,smooth,ott1983,NA,NA,NA,smooth/soft
+15-770-266-1,wapi1253,Wapishana,1234,miduda-ʔu,Phonemic,smooth,NA,NA,NA,NA,smooth/soft
+15-770-267-1,waur1244,Waurá,1234,kamimitʸa,Phonemic,smooth,NA,NA,NA,NA,smooth/soft
+15-770-269-1,cent2142,Aymara,1234,ḳuɲa (?),Phonemic,smooth,NA,NA,NA,NA,smooth/soft
+15-770-270-1,chip1262,Chipaya,1234,[lʸanu],Phonemic,smooth,NA,From Span. 'llano'; see 'flat' 12.710.,NA,NA,smooth/soft
+15-770-271-1,mose1249,Mosetén,1234,'tanes,Phonemic,smooth,NA,NA,NA,NA,smooth/soft
+15-770-272-1,arao1248,Araona,1234,pena-pena,Phonemic,smooth,pitman1981;key1968,NA,NA,NA,smooth/soft
+15-770-272-3,arao1248,Araona,1234,semihi,Phonemic,smooth,pitman1981;key1968,NA,NA,NA,smooth/soft
+15-770-273-1,cavi1250,Cavineña,1234,momi-ya,Phonemic,smooth,NA,Also hepe-; šabi-da.,NA,NA,smooth/soft
+15-770-275-1,esee1248,Ese Ejja (Huarayo),1234,šaa-ʔama,Phonemic,smooth,NA,NA,NA,NA,smooth/soft
+15-770-276-1,taca1256,Tacana,1234,kʷapi-kʷapi,Phonemic,smooth,vanwynen1962;ottaviano1989,NA,NA,NA,smooth/soft
+15-770-276-3,taca1256,Tacana,1234,noc̷a-da,Phonemic,smooth,vanwynen1962;ottaviano1989,NA,NA,NA,smooth/soft
+15-770-278-1,pano1254,Catuquina,1234,čɨro,Phonemic,smooth,NA,NA,NA,NA,smooth/soft
+15-770-279-1,chac1251,Chácobo,1234,para,Phonemic,smooth,prost,NA,NA,NA,smooth/soft
+15-770-282-1,yami1256,Yaminahua,1234,yɨ̃βa,Phonemic,smooth,NA,NA,NA,NA,smooth/soft
+15-770-285-1,movi1243,Movima,1234,ti-ɬoi-ni,Phonemic,smooth,judy1962,NA,NA,NA,smooth/soft
+15-770-286-1,wari1268,Pacaas Novos,1234,topišik,Phonemic,smooth,NA,NA,NA,NA,smooth/soft
+15-770-287-1,mund1330,Mundurukú,1234,-korop,Phonemic,smooth,crofts1981,Cf. *Tupí-G.,NA,NA,smooth/soft
+15-770-287-3,mund1330,Mundurukú,1234,-sẽm,Phonemic,smooth,crofts1981,Cf. *Tupí-G.,NA,NA,smooth/soft
+15-770-288-1,ache1246,Aché,1234,prečã,Phonemic,smooth,NA,Also paiʔi. No.ACH preča. *Tupí-G form is *čɨm.,NA,NA,smooth/soft
+15-770-289-1,east2555,Chiriguano,1234,sĩi,Phonemic,smooth,NA,NA,NA,NA,smooth/soft
+15-770-289-3,east2555,Chiriguano,1234,ĩ-či,Phonemic,smooth,NA,NA,NA,NA,smooth/soft
+15-770-290-1,para1311,Guaraní,1234,'sɨ̃i,Phonemic,smooth,NA,NA,NA,NA,smooth/soft
+15-770-292-1,waya1270,Wayampi,1234,sɨlɨ,Phonemic,smooth,NA,NA,NA,NA,smooth/soft
+15-770-294-1,kain1272,Kaingáng,1234,kanɛr,Phonemic,smooth,wiesemann1981,NA,NA,NA,smooth/soft
+15-770-294-3,kain1272,Kaingáng,1234,kamɛn,Phonemic,smooth,wiesemann1981,NA,NA,NA,smooth/soft
+15-770-294-5,kain1272,Kaingáng,1234,kanãn,Phonemic,smooth,wiesemann1981,NA,NA,NA,smooth/soft
+15-770-294-7,kain1272,Kaingáng,1234,hɔhow,Phonemic,smooth,wiesemann1981,NA,NA,NA,smooth/soft
+15-770-295-1,kara1500,Karajá,1234,tɨtɨ,Phonemic,smooth,fortune,NA,NA,NA,smooth/soft
+15-770-296-1,trum1247,Trumai,1234,(ha) kuš tsʔax-ka,Phonemic,smooth,NA,NA,NA,NA,smooth/soft
+15-770-297-1,ayor1240,Ayoreo,1234,karu-n̥a-i,Phonemic,smooth,NA,"See 10.420, because it is smooth and slippery.",NA,NA,smooth/soft
+15-770-297-3,ayor1240,Ayoreo,1234,karu-n̥a-ŋe,Phonemic,smooth,NA,"See 10.420, because it is smooth and slippery.",NA,NA,smooth/soft
+15-770-298-1,anga1295,Sanapaná (Angaité dialect),1234,ankaɬnawoi,Phonemic,smooth,NA,NA,NA,NA,smooth/soft
+15-770-299-1,sana1281,Sanapaná (Enlhet dialect),1234,alaʔaɬnayʔo,Phonemic,smooth,unruh1997,NA,NA,NA,smooth/soft
+15-770-301-1,moco1246,Mocoví,1234,n-alo-ʔoh-taʔ,Phonemic,smooth,NA,Lit. '3p actor-align-direct-reciprocal'.,NA,NA,smooth/soft
+15-770-302-1,pila1245,Pilagá,1234,yi-'sot-eta,Phonemic,smooth,NA,Lit. '3pa-smooth-cont.'.,NA,NA,smooth/soft
+15-770-304-1,iyoj1235,Chorote,1234,-liixi,Phonemic,smooth,NA,NA,NA,NA,smooth/soft
+15-770-305-1,maca1260,Maca,1234,leeme,Phonemic,smooth,NA,NA,NA,NA,smooth/soft
+15-770-306-1,wich1264,Wichí,1234,hipˀe'tah-peʔ,Phonemic,smooth,NA,NA,NA,NA,smooth/soft
+15-770-307-1,niva1238,Nivaclé,1234,klatˀeʔ,Phonemic,smooth,seelwische1980;seelwische1990,NA,NA,NA,smooth/soft
+15-770-307-3,niva1238,Nivaclé,1234,kaɬip,Phonemic,smooth,seelwische1980;seelwische1990,NA,NA,NA,smooth/soft
+15-770-307-5,niva1238,Nivaclé,1234,klamam-ši,Phonemic,smooth,seelwische1980;seelwische1990,NA,NA,NA,smooth/soft
+15-770-309-1,mapu1245,Mapudungun,1234,paɲus,Phonemic,smooth,NA,"Ranquel form is paɲuy-, verb.",NA,NA,smooth/soft
+15-770-310-1,tehu1242,Tehuelche,1234,'tolḳˀ-,Phonemic,smooth,NA,NA,NA,NA,smooth/soft
+15-770-311-1,onaa1245,Selknam,1234,aypˀèl,Phonemic,smooth,NA,NA,NA,NA,smooth/soft
+15-770-311-3,onaa1245,Selknam,1234,ax-ketˀè,Phonemic,smooth,NA,NA,NA,NA,smooth/soft
+15-770-313-1,qawa1238,Qawasqar,1234,senaḳs,Phonemic,smooth,NA,"From Ag, also means 'soft'.",NA,NA,smooth/soft
+15-770-314-1,toba1269,Toba,1234,salʸi-ta,Phonemic,smooth,NA,NA,NA,NA,smooth/soft
+15-770-315-1,yama1264,Yagán,1234,kutalu,Phonemic,smooth,NA,NA,NA,NA,smooth/soft
+15-770-318-1,ghul1238,Uncunwee,1234,ɖúri | ʃwalákur,IPA,smooth,NA,NA,NA,NA,smooth/soft
+15-770-401-1,thai1261,Central Thai,1234,riap.3,Phonemic,smooth,NA,NA,NA,NA,smooth/soft
+15-770-402-1,sout2746,Southern Tai (Songkhla variety),1234,liap.4,Phonemic,smooth,NA,NA,NA,NA,smooth/soft
+15-770-403-1,sout2746,Thai (Korat variety),1234,sa.5 mɣ:.1,Phonemic,smooth,NA,NA,NA,NA,smooth/soft
+15-770-404-1,nort2740,Khamuang (Chiang Mai variety),1234,li:ap.4,Phonemic,smooth,NA,NA,NA,NA,smooth/soft
+15-770-405-1,tain1252,Dehong,1234,ləm.3,Phonemic,smooth,NA,NA,NA,NA,smooth/soft
+15-770-407-1,luuu1242,Tai Lü,1234,ləm.3,Phonemic,smooth,NA,NA,NA,NA,smooth/soft
+15-770-407-3,luuu1242,Tai Lü,1234,man.2,Phonemic,smooth,NA,NA,NA,NA,smooth/soft
+15-770-408-1,khun1259,Tai Khün,1234,pe:ŋ.1,Phonemic,smooth,NA,NA,NA,NA,smooth/soft
+15-770-409-1,shan1277,Shan,1234,pe:ŋ.1 kan.3,Phonemic,smooth,NA,NA,NA,NA,smooth/soft
+15-770-410-1,shan1277,Shan (Northern Shan dialect),1234,lə:m.4,Phonemic,smooth,NA,NA,NA,NA,smooth/soft
+15-770-410-3,shan1277,Shan (Northern Shan dialect),1234,mɨ:n.4,Phonemic,smooth,NA,NA,NA,NA,smooth/soft
+15-770-410-5,shan1277,Shan (Northern Shan dialect),1234,chɔ:.1,Phonemic,smooth,NA,NA,NA,NA,smooth/soft
+15-770-411-1,guib1244,Nung-Fengshan,1234,luam.3,Phonemic,smooth,NA,NA,NA,NA,smooth/soft
+15-770-412-1,guib1244,Nung-Lazhai,1234,ɨ:n.3,Phonemic,smooth,NA,NA,NA,NA,smooth/soft
+15-770-412-3,guib1244,Nung-Lazhai,1234,lɨ:n.5,Phonemic,smooth,NA,NA,NA,NA,smooth/soft
+15-770-413-1,nung1283,Nung-Ninbei,1234,ŋau.2,Phonemic,smooth,NA,NA,NA,NA,smooth/soft
+15-770-413-3,nung1283,Nung-Ninbei,1234,lau.2,Phonemic,smooth,NA,NA,NA,NA,smooth/soft
+15-770-414-1,zuoj1238,Zhuang-Longzhou,1234,lə:n.5,Phonemic,smooth,NA,NA,NA,NA,smooth/soft
+15-770-414-3,zuoj1238,Zhuang-Longzhou,1234,lə:n.5 łak.7,Phonemic,smooth,NA,NA,NA,NA,smooth/soft
+15-770-415-1,suii1243,Sui,1234,ʔdjan.1 ʔdjoi.3,Phonemic,smooth,NA,NA,NA,NA,smooth/soft
+15-770-415-3,suii1243,Sui,1234,ka:n.5 kai.1,Phonemic,smooth,NA,NA,NA,NA,smooth/soft
+15-770-420-1,lakk1238,Lakkia,1234,bla:k.8,Phonemic,smooth,NA,NA,NA,NA,smooth/soft
+15-770-421-1,hlai1239,Hlai (Baoting variety),1234,ki:t.7,Phonemic,smooth,NA,NA,NA,NA,smooth/soft
+15-770-422-1,emab1235,Langja Buyang,1234,lɨ:n.24,Phonemic,smooth,NA,NA,NA,NA,smooth/soft
+15-770-423-1,lang1316,Ecun Buyang,1234,hɛt.31,Phonemic,smooth,NA,NA,NA,NA,smooth/soft
+15-770-424-1,gree1278,Sanchong Kelao,1234,ʔlui.35,Phonemic,smooth,NA,NA,NA,NA,smooth/soft
+15-770-425-1,qaua1234,Qau Kelao,1234,chi.35 pje.42,Phonemic,smooth,NA,NA,NA,NA,smooth/soft
+15-770-701-1,beng1280,Bengali,1234,molāyema,Phonemic,smooth,saxena701,NA,মোলায়েম,Standard,smooth/soft
+15-770-702-1,hind1269,Hindi,1234,tʃikan̪aː,Phonemic,smooth,saxena702,NA,चिकना,Standard,smooth/soft
+15-770-704-1,maha1287,Mahasu Pahari (Kotghari dialect),1234,sõrlo,Phonemic,smooth,saxena704,NA,NA,NA,smooth/soft
+15-770-705-1,mara1378,Marathi,1234,sapaːʈ,Phonemic,smooth,saxena705,NA,"सपाट, गुळगुळीत",Standard,smooth/soft
+15-770-705-3,mara1378,Marathi,1234,guɭaguɭiːt̪,Phonemic,smooth,saxena705,NA,"सपाट, गुळगुळीत",Standard,smooth/soft
+15-770-706-1,east1436,Nepali,1234,ciplō,Phonemic,smooth,saxena706,NA,NA,NA,smooth/soft
+15-770-707-1,west2386,Punjabi,1234,mulāyama,Phonemic,smooth,saxena707,NA,NA,NA,smooth/soft
+15-770-708-1,tami1289,Tamil,1234,vaḻavaḻappāṉa,Phonemic,smooth,saxena708,"'completely even/flat, so that the hand moves easiy over it'",NA,NA,smooth/soft
+15-770-709-1,telu1262,Telugu,1234,nunu,Phonemic,smooth,saxena709,NA,NA,NA,smooth/soft
+15-770-709-3,telu1262,Telugu,1234,nunupu,Phonemic,smooth,saxena709,NA,NA,NA,smooth/soft
+15-770-709-5,telu1262,Telugu,1234,nunna,Phonemic,smooth,saxena709,NA,NA,NA,smooth/soft
+15-770-709-7,telu1262,Telugu,1234,mṛduwu,Phonemic,smooth,saxena709,NA,NA,NA,smooth/soft
+15-770-710-1,tibe1272,Tibetan,1234,jampo,Phonemic,smooth,saxena710,NA,NA,NA,smooth/soft
+15-770-800-1,manm1238,Kme-2 (Kemie variety),1234,hiap.33,phonetic,smooth,NA,NA,NA,NA,smooth/soft
+15-770-801-1,blan1242,Bulang,1234,hai.51 mut.33,phonetic,smooth,NA,NA,NA,NA,smooth/soft
+15-770-802-1,blan1242,Bulang-2,1234,ʔa.31 khliat.51,phonetic,smooth,NA,NA,NA,NA,smooth/soft
+15-770-803-1,blan1242,Bulang-3,1234,khlɛt.55,phonetic,smooth,NA,NA,NA,NA,smooth/soft
+15-770-804-1,manm1238,Keme (Kemie variety),1234,len.35,phonetic,smooth,NA,NA,NA,NA,smooth/soft
+15-770-805-1,huuu1240,Xu,1234,khliet.31,phonetic,smooth,NA,NA,NA,NA,smooth/soft
+15-770-806-1,NA,Mang'an B. (MNN),1234,ri.33 mɨt.33,phonetic,smooth,NA,NA,NA,NA,smooth/soft
+15-770-807-1,nucl1290,Wa,1234,ńu.A,phonetic,smooth,NA,NA,NA,NA,smooth/soft
+15-770-808-1,ruma1248,Rumai,1234,ləm.55,phonetic,smooth,NA,NA,NA,NA,smooth/soft
+15-770-809-1,pray1239,Prai,1234,mial,phonetic,smooth,NA,NA,NA,NA,smooth/soft
+15-770-809-2,pray1239,Prai,1234,mial,phonetic,smooth,NA,NA,NA,NA,smooth/soft
+15-770-810-1,bitt1240,Pusing,1234,lət mat,phonetic,smooth,NA,NA,NA,NA,smooth/soft
+15-770-811-1,boly1239,Paliu,1234,ri.33 mɨt.33,phonetic,smooth,NA,NA,NA,NA,smooth/soft
+15-770-814-1,mlab1235,Mlabri,1234,tha lu,phonetic,smooth,NA,NA,NA,NA,smooth/soft
+15-770-815-1,cuoi1242,Cuoi,1234,klə:n.33,phonetic,smooth,NA,NA,NA,NA,smooth/soft
+15-770-818-1,NA,Tho Mun (THM),1234,ṭə:n.A,phonetic,smooth,NA,NA,NA,NA,smooth/soft
+15-770-818-2,NA,Tho Mun (THM),1234,ṭə:n.33,phonetic,smooth,NA,NA,NA,NA,smooth/soft
+15-770-819-1,cuoi1242,LiHa,1234,kle:n.31,phonetic,smooth,NA,NA,NA,NA,smooth/soft
+15-770-820-1,phon1246,Phong,1234,lian.42,phonetic,smooth,NA,NA,NA,NA,smooth/soft
+15-770-821-1,NA,TUL,1234,lə̆ʔiat.212,phonetic,smooth,NA,NA,NA,NA,smooth/soft
+15-770-822-1,cuoi1242,Tum,1234,plɛ:l.24,phonetic,smooth,NA,NA,NA,NA,smooth/soft
+15-770-824-1,NA,Phu Tho M (PHU),1234,ńăn.4,phonetic,smooth,NA,NA,NA,NA,smooth/soft
+15-770-825-1,khap1242,Kha Poong,1234,saŋ.13,phonetic,smooth,NA,NA,NA,NA,smooth/soft
+15-770-826-1,mali1278,Malieng,1234,ka:ńan.44,phonetic,smooth,NA,NA,NA,NA,smooth/soft
+15-770-827-1,aheu1239,Ahlao Th,1234,hăʔdiʔ.B kŏh.B,phonetic,smooth,NA,NA,NA,NA,smooth/soft
+15-770-829-1,nyah1250,Nyakur,1234,hriəp (T),phonetic,smooth,NA,NA,NA,NA,smooth/soft
+15-770-830-1,pear1247,Pear,1234,prɛt liat,phonetic,smooth,NA,NA,NA,NA,smooth/soft
+15-770-831-1,NA,SAN,1234,phań.55,phonetic,smooth,NA,NA,NA,NA,smooth/soft
+15-770-832-1,suoy1242,Kasong,1234,riəp.E,phonetic,smooth,NA,< T,NA,NA,smooth/soft
+15-770-833-1,samr1245,Samre,1234,riəp.B,phonetic,smooth,NA,< T,NA,NA,smooth/soft
+15-770-834-1,chon1284,Chong,1234,səmə:.A,phonetic,smooth,NA,< T,NA,NA,smooth/soft
+15-770-835-1,west2394,KNB (a Pearic variety),1234,ri:əp,phonetic,smooth,NA,NA,NA,NA,smooth/soft
+15-770-836-1,suri1265,Surin Khmer,1234,ri:əp,phonetic,smooth,NA,NA,NA,NA,smooth/soft
+15-770-838-1,oduu1239,Iduh,1234,bîn,phonetic,smooth,NA,NA,NA,NA,smooth/soft
+15-770-839-1,mang1378,Mang Ch,1234,pə.31 luaŋ.51,phonetic,smooth,NA,NA,NA,NA,smooth/soft
+15-770-840-1,mang1378,Mang VN,1234,ba:ŋ.2,phonetic,smooth,NA,NA,NA,NA,smooth/soft
+15-770-840-2,mang1378,Mang VN,1234,pa:.1 lu:aŋ.4,phonetic,smooth,NA,NA,NA,NA,smooth/soft
+15-750-126-1,erzy1239,Erzya Mordvin,1856,čevtʸe,Phonemic,soft,NA,NA,NA,NA,smooth/soft
+15-750-127-1,esto1258,Estonian,1856,pehme,Phonemic,soft,NA,NA,NA,NA,smooth/soft
+15-750-128-1,finn1318,Finnish,1856,pehmeæ,Phonemic,soft,NA,NA,NA,NA,smooth/soft
+15-750-131-1,hung1274,Hungarian,1856,puha,Standard,soft,NA,NA,puha; laadʸ,Phonemic,smooth/soft
+15-750-131-3,hung1274,Hungarian,1856,lágy,Standard,soft,NA,NA,puha; laadʸ,Phonemic,smooth/soft
+15-750-135-1,khan1273,Khanty,1856,lepat,Phonemic,soft,NA,NA,NA,NA,smooth/soft
+15-750-139-1,komi1268,Komi,1856,nebɩd,Phonemic,soft,NA,NA,NA,NA,smooth/soft
+15-750-143-1,nort2671,Northern Saami,1856,dimis,Phonemic,soft,NA,NA,NA,NA,smooth/soft
+15-750-146-1,mans1258,Mansi,1856,kamʸinʸt,Phonemic,soft,NA,NA,NA,NA,smooth/soft
+15-750-147-1,east2328,Mari,1856,'puškəðo,Phonemic,soft,NA,NA,NA,NA,smooth/soft
+15-750-148-1,nene1249,Nenets,1856,nʸulak,Phonemic,soft,NA,NA,NA,NA,smooth/soft
+15-750-151-1,selk1253,Selkup,1856,nʸamɨḳɨlʸ,Phonemic,soft,NA,NA,NA,NA,smooth/soft
+15-750-159-1,udmu1245,Udmurt,1856,nʸebɩt,Phonemic,soft,NA,NA,NA,NA,smooth/soft
+15-750-167-1,anci1242,Ancient Greek,1856,mala'kos,LatinTrans,soft,buck1949;liddell1996;magnien1985,NA,NA,NA,smooth/soft
+15-750-168-1,mode1248,Modern Greek,1856,apa'los,LatinTrans,soft,buck1949,NA,NA,NA,smooth/soft
+15-750-168-3,mode1248,Modern Greek,1856,mala'kos,LatinTrans,soft,buck1949,NA,NA,NA,smooth/soft
+15-750-169-1,lati1261,Latin,1856,mollis,StandardOrth,soft,glare1997;ainsworth1923;ernout2001,NA,NA,NA,smooth/soft
+15-750-170-1,ital1282,Italian,1856,soave,StandardOrth,soft,NA,NA,NA,NA,smooth/soft
+15-750-170-3,ital1282,Italian,1856,molle,StandardOrth,soft,NA,NA,NA,NA,smooth/soft
+15-750-171-1,stan1290,French,1856,doux,StandardOrth,soft,NA,NA,NA,NA,smooth/soft
+15-750-172-1,enap1235,Panare,1856,karatah-pe ehke,Phonemic,soft,NA,"Also t-ɨkɨmɨh-se, means 'mushy'.",NA,NA,smooth/soft
+15-750-173-1,macu1259,Macushi,1856,we,Phonemic,soft,NA,NA,NA,NA,smooth/soft
+15-750-174-1,maqu1238,De'kwana,1856,tɨwansuʔde,Phonemic,soft,NA,NA,NA,NA,smooth/soft
+15-750-175-1,waiw1244,Wai Wai,1856,čukmaΦe,Phonemic,soft,NA,NA,NA,NA,smooth/soft
+15-750-176-1,stan1288,Spanish,1856,suave,Phonemic,soft,NA,NA,NA,NA,smooth/soft
+15-750-177-1,stan1289,Catalan,1856,suau,StandardOrth,soft,NA,NA,NA,NA,smooth/soft
+15-750-178-1,port1283,Portuguese,1856,macio,StandardOrth,soft,NA,NA,NA,NA,smooth/soft
+15-750-178-3,port1283,Portuguese,1856,mole,StandardOrth,soft,NA,NA,NA,NA,smooth/soft
+15-750-179-1,roma1327,Romanian,1856,moale,StandardOrth,soft,NA,NA,NA,NA,smooth/soft
+15-750-180-1,oldi1245,Old Irish,1856,boc,StandardOrth,soft,buck1949,NA,NA,NA,smooth/soft
+15-750-180-3,oldi1245,Old Irish,1856,mōith,StandardOrth,soft,buck1949,NA,NA,NA,smooth/soft
+15-750-181-1,iris1253,Irish,1856,bog,StandardOrth,soft,NA,NA,NA,NA,smooth/soft
+15-750-182-1,wels1247,Welsh,1856,meddal,StandardOrth,soft,NA,NA,NA,NA,smooth/soft
+15-750-183-1,bret1244,Breton,1856,dous,Phonemic,soft,NA,NA,NA,NA,smooth/soft
+15-750-184-1,goth1244,Gothic,1856,hnasqus,StandardOrth,soft,lehmann1986,NA,NA,NA,smooth/soft
+15-750-185-1,oldn1244,Old Norse,1856,mjūkr,StandardOrth,soft,buck1949,NA,NA,NA,smooth/soft
+15-750-185-3,oldn1244,Old Norse,1856,blautr,StandardOrth,soft,buck1949,NA,NA,NA,smooth/soft
+15-750-186-1,dani1285,Danish,1856,blød,StandardOrth,soft,NA,NA,NA,NA,smooth/soft
+15-750-187-1,swed1254,Swedish,1856,mjuk,StandardOrth,soft,NA,NA,NA,NA,smooth/soft
+15-750-188-1,olde1238,Old English,1856,softe,StandardOrth,soft,buck1949;bosworth1898;toller1921;roberts1995,NA,NA,NA,smooth/soft
+15-750-188-3,olde1238,Old English,1856,hnesce,StandardOrth,soft,buck1949;bosworth1898;toller1921;roberts1995,NA,NA,NA,smooth/soft
+15-750-189-1,midd1317,Middle English,1856,soft-e,StandardOrth,soft,buck1949;med1952,NA,NA,NA,smooth/soft
+15-750-189-3,midd1317,Middle English,1856,neshe,StandardOrth,soft,buck1949;med1952,NA,NA,NA,smooth/soft
+15-750-190-1,stan1293,English,1856,soft,StandardOrth,soft,NA,NA,NA,NA,smooth/soft
+15-750-191-1,dutc1256,Dutch,1856,zacht,StandardOrth,soft,NA,NA,NA,NA,smooth/soft
+15-750-191-3,dutc1256,Dutch,1856,week,StandardOrth,soft,NA,NA,NA,NA,smooth/soft
+15-750-192-1,oldh1241,Old High German,1856,weih(muotīg),StandardOrth,soft,buck1949;schuetzeichel1989,NA,NA,NA,smooth/soft
+15-750-192-3,oldh1241,Old High German,1856,lind,StandardOrth,soft,buck1949;schuetzeichel1989,NA,NA,NA,smooth/soft
+15-750-192-5,oldh1241,Old High German,1856,līso,StandardOrth,soft,buck1949;schuetzeichel1989,NA,NA,NA,smooth/soft
+15-750-192-7,oldh1241,Old High German,1856,welh,StandardOrth,soft,buck1949;schuetzeichel1989,NA,NA,NA,smooth/soft
+15-750-192-9,oldh1241,Old High German,1856,ec(c)herōde,StandardOrth,soft,buck1949;schuetzeichel1989,NA,NA,NA,smooth/soft
+15-750-192-11,oldh1241,Old High German,1856,muruwi,StandardOrth,soft,buck1949;schuetzeichel1989,NA,NA,NA,smooth/soft
+15-750-192-13,oldh1241,Old High German,1856,sleht,StandardOrth,soft,buck1949;schuetzeichel1989,NA,NA,NA,smooth/soft
+15-750-192-15,oldh1241,Old High German,1856,mammunti,StandardOrth,soft,buck1949;schuetzeichel1989,NA,NA,NA,smooth/soft
+15-750-192-17,oldh1241,Old High German,1856,mamment-sam,StandardOrth,soft,buck1949;schuetzeichel1989,NA,NA,NA,smooth/soft
+15-750-192-19,oldh1241,Old High German,1856,kleini,StandardOrth,soft,buck1949;schuetzeichel1989,NA,NA,NA,smooth/soft
+15-750-192-21,oldh1241,Old High German,1856,stillo,StandardOrth,soft,buck1949;schuetzeichel1989,NA,NA,NA,smooth/soft
+15-750-192-23,oldh1241,Old High German,1856,zeiz,StandardOrth,soft,buck1949;schuetzeichel1989,NA,NA,NA,smooth/soft
+15-750-193-1,midd1343,Middle High German,1856,weich,StandardOrth,soft,buck1949,NA,NA,NA,smooth/soft
+15-750-194-1,stan1295,German,1856,weich,StandardOrth,soft,buck1949,weich,NA,Original (M. R. Key),smooth/soft
+15-750-195-1,east2295,Yiddish,1856,vejx,Phonemic,soft,NA,NA,NA,NA,smooth/soft
+15-750-196-1,lith1251,Lithuanian,1856,mìnkštas,StandardOrthTone,soft,buck1949,NA,NA,NA,smooth/soft
+15-750-197-1,latv1249,Latvian,1856,mīksts,StandardOrth,soft,buck1949,NA,NA,NA,smooth/soft
+15-750-199-1,chur1257,Old Church Slavonic,1856,mękŭkŭ,Phonemic,soft,buck1949,NA,NA,NA,smooth/soft
+15-750-200-1,bulg1262,Bulgarian,1856,mék,Phonemic,soft,NA,NA,NA,NA,smooth/soft
+15-750-201-1,sout1528,Serbo-Croatian,1856,mek(an),Phonemic,soft,NA,NA,NA,NA,smooth/soft
+15-750-202-1,czec1258,Czech,1856,měkký,StandardOrth,soft,NA,NA,NA,NA,smooth/soft
+15-750-203-1,poli1260,Polish,1856,miękki,StandardOrth,soft,NA,NA,NA,NA,smooth/soft
+15-750-204-1,russ1263,Russian,1856,mjagkij,Phonemic,soft,NA,NA,NA,NA,smooth/soft
+15-750-205-1,tosk1239,Albanian (Tosk variety),1856,i 'butə,Phonemic,soft,NA,NA,NA,NA,smooth/soft
+15-750-206-1,east2283,Armenian (Eastern variety),1856,pʰapʰukˀ,Phonemic,soft,NA,NA,NA,NA,smooth/soft
+15-750-206-3,east2283,Armenian (Eastern variety),1856,kˀakˀuɣ,Phonemic,soft,NA,NA,NA,NA,smooth/soft
+15-750-207-1,west2348,Armenian (Western variety),1856,papug,Phonemic,soft,NA,NA,NA,NA,smooth/soft
+15-750-207-3,west2348,Armenian (Western variety),1856,gaguɣ,Phonemic,soft,NA,NA,NA,NA,smooth/soft
+15-750-209-1,tokh1242,Tocharian A,1856,wl(y)ep,Phonemic,soft,NA,NA,NA,NA,smooth/soft
+15-750-210-1,tokh1243,Tocharian B,1856,wlaṃśke,Phonemic,soft,NA,NA,NA,NA,smooth/soft
+15-750-211-1,sans1269,Sanskrit,1856,mṛdu-,LatinTrans,soft,NA,NA,NA,NA,smooth/soft
+15-750-212-1,vlax1238,Romani,1856,[kovlo],Phonemic,soft,NA,NA,NA,NA,smooth/soft
+15-750-213-1,aves1237,Avestan,1856,varədva-,Phonemic,soft,buck1949,NA,NA,NA,smooth/soft
+15-750-214-1,west2369,Persian,1856,nærm,Phonemic,soft,NA,NA,NA,NA,smooth/soft
+15-750-215-1,olda1245,Ancient Aramaic,1856,rakkīk,Phonemic,soft,aramaic,NA,NA,NA,smooth/soft
+15-750-217-1,nege1244,Negerhollands,1856,sudži ~ sutǰi,Phonemic,soft,dejong1926;nelson1936,See 'slow' 14.220.,NA,NA,smooth/soft
+15-750-218-1,jama1262,Jamaican Creole (Limonese Creole dialect),1856,sāf,Phonemic,soft,NA,NA,NA,NA,smooth/soft
+15-750-219-1,basq1248,Basque,1856,'mardʸo,Phonemic,soft,NA,NA,NA,NA,smooth/soft
+15-750-220-1,haus1257,Hausa,1856,laushi,Phonemic,soft,bargery1934;newman1990,NA,NA,NA,smooth/soft
+15-750-220-3,haus1257,Hausa,1856,taushi,Phonemic,soft,bargery1934;newman1990,NA,NA,NA,smooth/soft
+15-750-221-1,polc1243,Polci,1856,nyapɗaŋ,Phonemic,soft,cosper1996,NA,NA,NA,smooth/soft
+15-750-222-1,high1278,Nahuatl (Sierra de Zacapoaxtla variety),1856,yemaš-c̷in,Phonemic,soft,key1953,Also yemanik; potoš-ti-k.,NA,NA,smooth/soft
+15-750-223-1,zaca1242,Chatino (Zacatepec variety),1856,hoʔo,Phonemic,soft,NA,NA,NA,NA,smooth/soft
+15-750-224-1,karo1304,Karok,1856,xé̄čič,Phonemic,soft,NA,NA,NA,NA,smooth/soft
+15-750-225-1,seri1257,Seri,1856,-aitik,Phonemic,soft,NA,NA,NA,NA,smooth/soft
+15-750-226-1,zuni1245,Zuni,1856,ɬuc̷ˀina-,Phonemic,soft,NA,NA,NA,NA,smooth/soft
+15-750-228-1,tlin1245,Tlingit,1856,di-xʷaač,Phonemic,soft,gillian1996;gillian1973,NA,NA,NA,smooth/soft
+15-750-234-1,poly1242,Proto Polynesian,1856,PPN *faro,Phonemic,soft,blust1988;geraghty1983,PPN *maluu. PNP *mania. PEP *ni(ʔ)a.,NA,NA,smooth/soft
+15-750-234-3,poly1242,Proto Polynesian,1856,*ma(a)lena,Phonemic,soft,blust1988;geraghty1983,PPN *maluu. PNP *mania. PEP *ni(ʔ)a.,NA,NA,smooth/soft
+15-750-234-5,poly1242,Proto Polynesian,1856,*mole-mole,Phonemic,soft,blust1988;geraghty1983,PPN *maluu. PNP *mania. PEP *ni(ʔ)a.,NA,NA,smooth/soft
+15-750-234-7,poly1242,Proto Polynesian,1856,*mozi,Phonemic,soft,blust1988;geraghty1983,PPN *maluu. PNP *mania. PEP *ni(ʔ)a.,NA,NA,smooth/soft
+15-750-234-9,poly1242,Proto Polynesian,1856,*ŋaele,Phonemic,soft,blust1988;geraghty1983,PPN *maluu. PNP *mania. PEP *ni(ʔ)a.,NA,NA,smooth/soft
+15-750-234-11,poly1242,Proto Polynesian,1856,*ŋolu,Phonemic,soft,blust1988;geraghty1983,PPN *maluu. PNP *mania. PEP *ni(ʔ)a.,NA,NA,smooth/soft
+15-750-234-13,poly1242,Proto Polynesian,1856,*peʔe,Phonemic,soft,blust1988;geraghty1983,PPN *maluu. PNP *mania. PEP *ni(ʔ)a.,NA,NA,smooth/soft
+15-750-235-1,hawa1245,Hawaiian,1856,palu-palu,Phonemic,soft,pukui1975,NA,NA,NA,smooth/soft
+15-750-235-3,hawa1245,Hawaiian,1856,palu,Phonemic,soft,pukui1975,NA,NA,NA,smooth/soft
+15-750-235-5,hawa1245,Hawaiian,1856,nahe,Phonemic,soft,pukui1975,NA,NA,NA,smooth/soft
+15-750-235-7,hawa1245,Hawaiian,1856,nahe-nahe,Phonemic,soft,pukui1975,NA,NA,NA,smooth/soft
+15-750-235-9,hawa1245,Hawaiian,1856,hone,Phonemic,soft,pukui1975,NA,NA,NA,smooth/soft
+15-750-236-1,maor1246,Maori,1856,ŋaawari,Phonemic,soft,biggs1966;hohepa1967,NA,NA,NA,smooth/soft
+15-750-236-3,maor1246,Maori,1856,ŋohe-ŋohe,Phonemic,soft,biggs1966;hohepa1967,NA,NA,NA,smooth/soft
+15-750-238-1,rapa1244,Rapa Nui,1856,heka-heka,Phonemic,soft,roussel1908;fuentes1960;thomson1891;aguera1770;forster1778;englert1978;martinez1913,NA,"heka-heka; Rouss ekaeka, para, magaro, ruhi-ruhi, nene-nene; JF hauʔmarú, héka-héka",Phonemic (vars),smooth/soft
+15-750-239-1,rotu1241,Rotuman,1856,marū,Phonemic,soft,churchward1940;geraghty1995,NA,NA,NA,smooth/soft
+15-750-239-3,rotu1241,Rotuman,1856,parpara,Phonemic,soft,churchward1940;geraghty1995,NA,NA,NA,smooth/soft
+15-750-240-1,tong1325,Tongan,1856,molū,Phonemic,soft,tuinukuafe1992;shumway1971,NA,NA,NA,smooth/soft
+15-750-241-1,tuam1242,Tuamotuan,1856,hāupeupe,Phonemic,soft,stimson1964,NA,NA,NA,smooth/soft
+15-750-241-3,tuam1242,Tuamotuan,1856,upe,Phonemic,soft,stimson1964,NA,NA,NA,smooth/soft
+15-750-241-5,tuam1242,Tuamotuan,1856,ŋāupeupe,Phonemic,soft,stimson1964,NA,NA,NA,smooth/soft
+15-750-241-7,tuam1242,Tuamotuan,1856,kēkē,Phonemic,soft,stimson1964,NA,NA,NA,smooth/soft
+15-750-243-1,chib1270,Muisca,1856,ahizian mague,LatinTrans,soft,perez1987,NA,a-hic̷̣i-ɨn maɣe,Phonemic,smooth/soft
+15-750-244-1,paez1247,Páez,1856,wahwa,Phonemic,soft,slocum1983,NA,NA,NA,smooth/soft
+15-750-245-1,chac1249,Cayapa,1856,'naku'lulu,Phonemic,soft,NA,"Latter, lit. 'hard-not'.",NA,NA,smooth/soft
+15-750-245-3,chac1249,Cayapa,1856,'pu'lu-htu,Phonemic,soft,NA,"Latter, lit. 'hard-not'.",NA,NA,smooth/soft
+15-750-246-1,colo1256,Colorado,1856,ʔoʰ'tõ,Phonemic,soft,moore1966,NA,NA,NA,smooth/soft
+15-750-247-1,nort2972,Embera,1856,su'sua,Phonemic,soft,NA,**Chocoan form is **sõsõ-/ **soso-.,NA,NA,smooth/soft
+15-750-248-1,epen1239,Epena,1856,pore'kʰee,Phonemic,soft,NA,Respectively: 'mushy'; 'spongy'.,NA,NA,smooth/soft
+15-750-248-3,epen1239,Epena,1856,pʰẽesapʰẽe'saa,Phonemic,soft,NA,Respectively: 'mushy'; 'spongy'.,NA,NA,smooth/soft
+15-750-249-1,puin1248,Puinave,1856,-dam,Phonemic,soft,NA,NA,NA,NA,smooth/soft
+15-750-250-1,yuwa1244,Yuwana,1856,ʰkeilõwãlõ,Phonemic,soft,NA,NA,NA,NA,smooth/soft
+15-750-251-1,pume1238,Yaruro,1856,bo-bo-a,Phonemic,soft,NA,NA,NA,NA,smooth/soft
+15-750-252-1,nina1238,Ninam (Shirishana variety),1856,usi,Phonemic,soft,NA,NA,NA,NA,smooth/soft
+15-750-253-1,yano1262,Yanomámi,1856,si uhutiti-wə,Phonemic,soft,NA,NA,NA,NA,smooth/soft
+15-750-254-1,cofa1242,Cofán,1856,čapiaɲe,Phonemic,soft,borman1976,NA,NA,NA,smooth/soft
+15-750-254-3,cofa1242,Cofán,1856,čapec̷ʰi,Phonemic,soft,borman1976,NA,NA,NA,smooth/soft
+15-750-255-1,waor1240,Waorani,1856,akĩ-ĩ,Phonemic,soft,NA,NA,NA,NA,smooth/soft
+15-750-256-1,sion1247,Siona,1856,hãʔhihi,Phonemic,soft,wheeler1962,Also sãheihi.,NA,NA,smooth/soft
+15-750-256-3,sion1247,Siona,1856,meʔnaheihi,Phonemic,soft,wheeler1962,Also sãheihi.,NA,NA,smooth/soft
+15-750-257-1,tuyu1244,Tuyuca,1856,a'ba,Phonemic,soft,NA,NA,NA,NA,smooth/soft
+15-750-258-1,agua1253,Aguaruna,1856,tu'huthutu,Phonemic,soft,NA,NA,NA,NA,smooth/soft
+15-750-258-3,agua1253,Aguaruna,1856,ma'hamhatu,Phonemic,soft,NA,NA,NA,NA,smooth/soft
+15-750-260-1,yagu1244,Yagua,1856,sipudi-,Phonemic,soft,powlison1995,Also wasarĩ-; wasurudi-; wasurunay-.,NA,NA,smooth/soft
+15-750-260-3,yagu1244,Yagua,1856,wanadi-,Phonemic,soft,powlison1995,Also wasarĩ-; wasurudi-; wasurunay-.,NA,NA,smooth/soft
+15-750-260-5,yagu1244,Yagua,1856,wasada-,Phonemic,soft,powlison1995,Also wasarĩ-; wasurudi-; wasurunay-.,NA,NA,smooth/soft
+15-750-262-1,wayu1243,Goajiro,1856,haľeht-sɨ,Phonemic,soft,NA,NA,NA,NA,smooth/soft
+15-750-263-1,igna1246,Ignaciano,1856,tihimuya,Phonemic,soft,ott1983,NA,NA,NA,smooth/soft
+15-750-263-3,igna1246,Ignaciano,1856,timahu,Phonemic,soft,ott1983,NA,NA,NA,smooth/soft
+15-750-265-1,trin1274,Trinitario,1856,-himʸa,Phonemic,soft,gill1983,NA,NA,NA,smooth/soft
+15-750-266-1,wapi1253,Wapishana,1856,šumada-ʔu,Phonemic,soft,NA,NA,NA,NA,smooth/soft
+15-750-267-1,waur1244,Waurá,1856,emuhũ,Phonemic,soft,NA,NA,NA,NA,smooth/soft
+15-750-267-3,waur1244,Waurá,1856,amama,Phonemic,soft,NA,NA,NA,NA,smooth/soft
+15-750-268-1,yavi1244,Yavitero,1856,wami-hi,Phonemic,soft,mosonyi1987,NA,NA,NA,smooth/soft
+15-750-269-1,cent2142,Aymara,1856,xasa,Phonemic,soft,NA,NA,NA,NA,smooth/soft
+15-750-270-1,chip1262,Chipaya,1856,ḳoɲa,Phonemic,soft,NA,NA,NA,NA,smooth/soft
+15-750-271-1,mose1249,Mosetén,1856,pi'c̷œki,Phonemic,soft,NA,NA,NA,NA,smooth/soft
+15-750-271-3,mose1249,Mosetén,1856,pi'c̷œi,Phonemic,soft,NA,NA,NA,NA,smooth/soft
+15-750-272-1,arao1248,Araona,1856,pena-pena,Phonemic,soft,pitman1981;key1968,"Many ways to indicate soft, depending on the material.",NA,NA,smooth/soft
+15-750-272-3,arao1248,Araona,1856,semihi,Phonemic,soft,pitman1981;key1968,"Many ways to indicate soft, depending on the material.",NA,NA,smooth/soft
+15-750-273-1,cavi1250,Cavineña,1856,šabi-da,Phonemic,soft,NA,Verbal form is šabi-to-ra-ya.,NA,NA,smooth/soft
+15-750-274-1,esee1248,Ese Ejja,1856,-'po,Phonemic,soft,key19581964;wyma1962;shoemaker,NA,NA,NA,smooth/soft
+15-750-274-3,esee1248,Ese Ejja,1856,-tona,Phonemic,soft,key19581964;wyma1962;shoemaker,NA,NA,NA,smooth/soft
+15-750-274-5,esee1248,Ese Ejja,1856,-šaho,Phonemic,soft,key19581964;wyma1962;shoemaker,NA,NA,NA,smooth/soft
+15-750-275-1,esee1248,Ese Ejja (Huarayo),1856,kia-noma,Phonemic,soft,NA,Respectively: refers to food; refers to fruit.,NA,NA,smooth/soft
+15-750-275-3,esee1248,Ese Ejja (Huarayo),1856,kia-poʔi,Phonemic,soft,NA,Respectively: refers to food; refers to fruit.,NA,NA,smooth/soft
+15-750-276-1,taca1256,Tacana,1856,noc̷a-da,Phonemic,soft,vanwynen1962;ottaviano1989,Also kʷapi-kʷapi.,NA,NA,smooth/soft
+15-750-276-3,taca1256,Tacana,1856,ðore-,Phonemic,soft,vanwynen1962;ottaviano1989,Also kʷapi-kʷapi.,NA,NA,smooth/soft
+15-750-277-1,cash1251,Cashibo,1856,βaču,Phonemic,soft,shell1959;shell1965;shell1987,"pači-ti 'to soften, to tenderize'.",NA,NA,smooth/soft
+15-750-278-1,pano1254,Catuquina,1856,waṣ̌o,Phonemic,soft,NA,NA,NA,NA,smooth/soft
+15-750-279-1,chac1251,Chácobo,1856,payo,Phonemic,soft,prost,NA,NA,NA,smooth/soft
+15-750-279-3,chac1251,Chácobo,1856,miro,Phonemic,soft,prost,NA,NA,NA,smooth/soft
+15-750-281-1,ship1254,Shipibo-Conibo,1856,βaka,Phonemic,soft,loriot1993,NA,NA,NA,smooth/soft
+15-750-281-3,ship1254,Shipibo-Conibo,1856,wačo,Phonemic,soft,loriot1993,NA,NA,NA,smooth/soft
+15-750-281-5,ship1254,Shipibo-Conibo,1856,pači,Phonemic,soft,loriot1993,NA,NA,NA,smooth/soft
+15-750-281-7,ship1254,Shipibo-Conibo,1856,yɨ̃kɨ̃,Phonemic,soft,loriot1993,NA,NA,NA,smooth/soft
+15-750-282-1,yami1256,Yaminahua,1856,pači,Phonemic,soft,NA,NA,NA,NA,smooth/soft
+15-750-283-1,cayu1262,Cayuvava,1856,sɨsɨ,Phonemic,soft,keyharold,NA,NA,NA,smooth/soft
+15-750-284-1,iton1250,Itonama,1856,pɨwɨhna,Phonemic,soft,camp1967,NA,NA,NA,smooth/soft
+15-750-285-1,movi1243,Movima,1856,hu-sau-ni,Phonemic,soft,judy1962,NA,NA,NA,smooth/soft
+15-750-288-1,ache1246,Aché,1856,praru,Phonemic,soft,NA,Also duru. No.ACH praru.,NA,NA,smooth/soft
+15-750-289-1,east2555,Chiriguano,1856,pɨu,Phonemic,soft,NA,NA,NA,NA,smooth/soft
+15-750-289-3,east2555,Chiriguano,1856,pu,Phonemic,soft,NA,NA,NA,NA,smooth/soft
+15-750-289-5,east2555,Chiriguano,1856,pukai,Phonemic,soft,NA,NA,NA,NA,smooth/soft
+15-750-290-1,para1311,Guaraní,1856,huʔũ,Phonemic,soft,NA,NA,NA,NA,smooth/soft
+15-750-291-1,siri1273,Sirionó,1856,etočei,Phonemic,soft,priest1985,NA,NA,NA,smooth/soft
+15-750-292-1,waya1270,Wayampi,1856,pɨ,Phonemic,soft,NA,NA,NA,NA,smooth/soft
+15-750-292-3,waya1270,Wayampi,1856,mɨ,Phonemic,soft,NA,NA,NA,NA,smooth/soft
+15-750-294-1,kain1272,Kaingáng,1856,tãnãɲ,Phonemic,soft,wiesemann1981,NA,NA,NA,smooth/soft
+15-750-294-3,kain1272,Kaingáng,1856,tãnãy,Phonemic,soft,wiesemann1981,NA,NA,NA,smooth/soft
+15-750-294-5,kain1272,Kaingáng,1856,hɔhow,Phonemic,soft,wiesemann1981,NA,NA,NA,smooth/soft
+15-750-294-7,kain1272,Kaingáng,1856,kanɛr,Phonemic,soft,wiesemann1981,NA,NA,NA,smooth/soft
+15-750-295-1,kara1500,Karajá,1856,aašinɨ,Phonemic,soft,fortune,NA,NA,NA,smooth/soft
+15-750-296-1,trum1247,Trumai,1856,arikit-kek,Phonemic,soft,NA,NA,NA,NA,smooth/soft
+15-750-296-3,trum1247,Trumai,1856,tsʔexe tsʔexe,Phonemic,soft,NA,NA,NA,NA,smooth/soft
+15-750-297-1,ayor1240,Ayoreo,1856,pa'rataa-i,Phonemic,soft,NA,See 08.470. Also paka'tahaa-i; paka'taha 05.121; de'ɲ̥uha-i; de'ɲ̥uha 05.121; sẽre'raču-i; sẽre'raču-ge.,NA,NA,smooth/soft
+15-750-297-3,ayor1240,Ayoreo,1856,pa'rataa-ge,Phonemic,soft,NA,See 08.470. Also paka'tahaa-i; paka'taha 05.121; de'ɲ̥uha-i; de'ɲ̥uha 05.121; sẽre'raču-i; sẽre'raču-ge.,NA,NA,smooth/soft
+15-750-298-1,anga1295,Sanapaná (Angaité dialect),1856,maɬa akyakhapomaa,Phonemic,soft,NA,Also anyakhapiɬkoi.,NA,NA,smooth/soft
+15-750-299-1,sana1281,Sanapaná (Enlhet dialect),1856,akmomhaape,Phonemic,soft,unruh1997,Also akyelpomaykamˀ; akyeptaykamˀ; akyelkammaɬkaʔ.,NA,NA,smooth/soft
+15-750-299-3,sana1281,Sanapaná (Enlhet dialect),1856,ayemhaapeeykamˀ,Phonemic,soft,unruh1997,Also akyelpomaykamˀ; akyeptaykamˀ; akyelkammaɬkaʔ.,NA,NA,smooth/soft
+15-750-300-1,leng1262,Lengua,1856,-sipyo-kyi,Phonemic,soft,NA,Also yinsil-owu.,NA,NA,smooth/soft
+15-750-301-1,moco1246,Mocoví,1856,r-ona,Phonemic,soft,NA,"The latter, '3p actor-soft-continuative'.",NA,NA,smooth/soft
+15-750-301-3,moco1246,Mocoví,1856,r-aʔlʸii-ta,Phonemic,soft,NA,"The latter, '3p actor-soft-continuative'.",NA,NA,smooth/soft
+15-750-302-1,pila1245,Pilagá,1856,∅-'damita,Phonemic,soft,NA,Lit. '3pa (zero)-soft'.,NA,NA,smooth/soft
+15-750-304-1,iyoj1235,Chorote,1856,xe tosey,Phonemic,soft,NA,Lit. 'not hard'.,NA,NA,smooth/soft
+15-750-305-1,maca1260,Maca,1856,eḳˀimii,Phonemic,soft,NA,NA,NA,NA,smooth/soft
+15-750-306-1,wich1264,Wichí,1856,take'hʷi,Phonemic,soft,NA,"Also ni-'tˀen-a, 'negative-hard'.",NA,NA,smooth/soft
+15-750-307-1,niva1238,Nivaclé,1856,nin-tˀun,Phonemic,soft,seelwische1980;seelwische1990,'Soft fruit' is pakˀɔʔf-xi; 'soft bread/ ripe fruit' is kˀaʔs; kaɬip-ši.,NA,NA,smooth/soft
+15-750-307-3,niva1238,Nivaclé,1856,kaɬip,Phonemic,soft,seelwische1980;seelwische1990,'Soft fruit' is pakˀɔʔf-xi; 'soft bread/ ripe fruit' is kˀaʔs; kaɬip-ši.,NA,NA,smooth/soft
+15-750-307-5,niva1238,Nivaclé,1856,klatˀeʔt-ši,Phonemic,soft,seelwische1980;seelwische1990,'Soft fruit' is pakˀɔʔf-xi; 'soft bread/ ripe fruit' is kˀaʔs; kaɬip-ši.,NA,NA,smooth/soft
+15-750-308-1,kunz1244,Kunza,1856,hulir,Phonemic,soft,NA,NA,NA,NA,smooth/soft
+15-750-309-1,mapu1245,Mapudungun,1856,paɲus,Phonemic,soft,NA,"Ranquel is čova-, verb form.",NA,NA,smooth/soft
+15-750-311-1,onaa1245,Selknam,1856,k-làyu,Phonemic,soft,NA,Adverbial form.,NA,NA,smooth/soft
+15-750-312-1,puel1244,Gününa Küne,1856,a-pax-pax,Phonemic,soft,casamiquela,Also xɨčwɨč.,NA,NA,smooth/soft
+15-750-313-1,qawa1238,Qawasqar,1856,ftoyeḳs,Phonemic,soft,NA,Also Ag records senaks.,NA,NA,smooth/soft
+15-750-314-1,toba1269,Toba,1856,i-sot,Phonemic,soft,NA,The latter is lit. 'soft-direct-through'.,NA,NA,smooth/soft
+15-750-314-3,toba1269,Toba,1856,dam-či-gi,Phonemic,soft,NA,The latter is lit. 'soft-direct-through'.,NA,NA,smooth/soft
+15-750-315-1,yama1264,Yagán,1856,kutalu,Phonemic,soft,NA,NA,NA,NA,smooth/soft
+15-750-318-1,ghul1238,Uncunwee,1856,óti || ɔ́ti,IPA,soft,NA,NA,NA,NA,smooth/soft
+15-750-401-1,thai1261,Central Thai,1856,num.3,Phonemic,soft,NA,NA,NA,NA,smooth/soft
+15-750-401-3,thai1261,Central Thai,1856,nim.3,Phonemic,soft,NA,NA,NA,NA,smooth/soft
+15-750-402-1,sout2746,Southern Tai (Songkhla variety),1856,nuan.3,Phonemic,soft,NA,NA,NA,NA,smooth/soft
+15-750-403-1,sout2746,Thai (Korat variety),1856,le:n.2,Phonemic,soft,NA,NA,NA,NA,smooth/soft
+15-750-404-1,nort2740,Khamuang (Chiang Mai variety),1856,nuan.2,Phonemic,soft,NA,NA,NA,NA,smooth/soft
+15-750-405-1,tain1252,Dehong,1856,ʔon.3,Phonemic,soft,NA,NA,NA,NA,smooth/soft
+15-750-405-3,tain1252,Dehong,1856,mom.6,Phonemic,soft,NA,NA,NA,NA,smooth/soft
+15-750-407-1,luuu1242,Tai Lü,1856,ʔon.3,Phonemic,soft,NA,NA,NA,NA,smooth/soft
+15-750-408-1,khun1259,Tai Khün,1856,no:n.1,Phonemic,soft,NA,NA,NA,NA,smooth/soft
+15-750-409-1,shan1277,Shan,1856,ʔon.4 ʔɔ:n.2,Phonemic,soft,NA,NA,NA,NA,smooth/soft
+15-750-410-1,shan1277,Shan (Northern Shan dialect),1856,ʔon.4,Phonemic,soft,NA,NA,NA,NA,smooth/soft
+15-750-410-3,shan1277,Shan (Northern Shan dialect),1856,non.1,Phonemic,soft,NA,NA,NA,NA,smooth/soft
+15-750-411-1,guib1244,Nung-Fengshan,1856,ʔun.6,Phonemic,soft,NA,NA,NA,NA,smooth/soft
+15-750-412-1,guib1244,Nung-Lazhai,1856,un.5,Phonemic,soft,NA,NA,NA,NA,smooth/soft
+15-750-413-1,nung1283,Nung-Ninbei,1856,on.6,Phonemic,soft,NA,NA,NA,NA,smooth/soft
+15-750-414-1,zuoj1238,Zhuang-Longzhou,1856,ʔo:n.5,Phonemic,soft,NA,NA,NA,NA,smooth/soft
+15-750-415-1,suii1243,Sui,1856,ʔma.3,Phonemic,soft,NA,NA,NA,NA,smooth/soft
+15-750-420-1,lakk1238,Lakkia,1856,wãk.8,Phonemic,soft,NA,NA,NA,NA,smooth/soft
+15-750-421-1,hlai1239,Hlai (Baoting variety),1856,pu:t.7,Phonemic,soft,NA,NA,NA,NA,smooth/soft
+15-750-421-3,hlai1239,Hlai (Baoting variety),1856,nom.1,Phonemic,soft,NA,NA,NA,NA,smooth/soft
+15-750-422-1,emab1235,Langja Buyang,1856,lum.312,Phonemic,soft,NA,NA,NA,NA,smooth/soft
+15-750-423-1,lang1316,Ecun Buyang,1856,u:n.32,Phonemic,soft,NA,NA,NA,NA,smooth/soft
+15-750-424-1,gree1278,Sanchong Kelao,1856,zuan.42,Phonemic,soft,NA,NA,NA,NA,smooth/soft
+15-750-425-1,qaua1234,Qau Kelao,1856,pi.42 ne.35,Phonemic,soft,NA,NA,NA,NA,smooth/soft
+15-750-701-1,beng1280,Bengali,1856,narama,Phonemic,soft,saxena701,NA,নরম,Standard,smooth/soft
+15-750-702-1,hind1269,Hindi,1856,mulaːjam,Phonemic,soft,saxena702,NA,मुलायम,Standard,smooth/soft
+15-750-704-1,maha1287,Mahasu Pahari (Kotghari dialect),1856,kõɭo,Phonemic,soft,saxena704,NA,NA,NA,smooth/soft
+15-750-705-1,mara1378,Marathi,1856,mau,Phonemic,soft,saxena705,NA,मउ,Standard,smooth/soft
+15-750-706-1,east1436,Nepali,1856,gilō,Phonemic,soft,saxena706,NA,NA,NA,smooth/soft
+15-750-707-1,west2386,Punjabi,1856,mulā'ima,Phonemic,soft,saxena707,NA,NA,NA,smooth/soft
+15-750-707-3,west2386,Punjabi,1856,polā,Phonemic,soft,saxena707,NA,NA,NA,smooth/soft
+15-750-708-1,tami1289,Tamil,1856,meṉmaiyāṉa,Phonemic,soft,saxena708,"'not hard, easy to press/break/cut'",NA,NA,smooth/soft
+15-750-709-1,telu1262,Telugu,1856,gulla,Phonemic,soft,saxena709,NA,NA,NA,smooth/soft
+15-750-709-3,telu1262,Telugu,1856,mṛdula,Phonemic,soft,saxena709,NA,NA,NA,smooth/soft
+15-750-709-5,telu1262,Telugu,1856,mṛduwu,Phonemic,soft,saxena709,NA,NA,NA,smooth/soft
+15-750-709-7,telu1262,Telugu,1856,metta,Phonemic,soft,saxena709,NA,NA,NA,smooth/soft
+15-750-710-1,tibe1272,Tibetan,1856,jam po,Phonemic,soft,saxena710,NA,NA,NA,smooth/soft
+15-750-800-1,manm1238,Kme-2 (Kemie variety),1856,mɔk.33,phonetic,soft,NA,NA,NA,NA,smooth/soft
+15-750-801-1,blan1242,Bulang,1856,ʔɔn.33,phonetic,soft,NA,NA,NA,NA,smooth/soft
+15-750-802-1,blan1242,Bulang-2,1856,mhɔk.31,phonetic,soft,NA,NA,NA,NA,smooth/soft
+15-750-803-1,blan1242,Bulang-3,1856,ŋɔk.31,phonetic,soft,NA,NA,NA,NA,smooth/soft
+15-750-804-1,manm1238,Keme (Kemie variety),1856,mɔk.53,phonetic,soft,NA,NA,NA,NA,smooth/soft
+15-750-805-1,huuu1240,Xu,1856,mak.55,phonetic,soft,NA,NA,NA,NA,smooth/soft
+15-750-806-1,NA,Mang'an B. (MNN),1856,mhɔk.33,phonetic,soft,NA,NA,NA,NA,smooth/soft
+15-750-807-1,nucl1290,Wa,1856,ʔɔn.A,phonetic,soft,NA,NA,NA,NA,smooth/soft
+15-750-808-1,ruma1248,Rumai,1856,ńiaʔ.55,phonetic,soft,NA,NA,NA,NA,smooth/soft
+15-750-809-1,pray1239,Prai,1856,mɛ:t,phonetic,soft,NA,NA,NA,NA,smooth/soft
+15-750-809-2,pray1239,Prai,1856,mä:t,phonetic,soft,NA,NA,NA,NA,smooth/soft
+15-750-810-1,bitt1240,Pusing,1856,jɨm sî bop,phonetic,soft,NA,NA,NA,NA,smooth/soft
+15-750-811-1,boly1239,Paliu,1856,m1ɔk.33,phonetic,soft,NA,NA,NA,NA,smooth/soft
+15-750-814-1,mlab1235,Mlabri,1856,kur kjur,phonetic,soft,NA,NA,NA,NA,smooth/soft
+15-750-815-1,cuoi1242,Cuoi,1856,mɨət.24,phonetic,soft,NA,NA,NA,NA,smooth/soft
+15-750-818-1,NA,Tho Mun (THM),1856,thɔŋ.C,phonetic,soft,NA,NA,NA,NA,smooth/soft
+15-750-818-2,NA,Tho Mun (THM),1856,thɔŋ.434,phonetic,soft,NA,NA,NA,NA,smooth/soft
+15-750-819-1,cuoi1242,LiHa,1856,lɨən.24,phonetic,soft,NA,NA,NA,NA,smooth/soft
+15-750-820-1,phon1246,Phong,1856,ne:m.21,phonetic,soft,NA,NA,NA,NA,smooth/soft
+15-750-821-1,NA,TUL,1856,mi:m.33,phonetic,soft,NA,NA,NA,NA,smooth/soft
+15-750-824-1,NA,Phu Tho M (PHU),1856,mɨət.5,phonetic,soft,NA,NA,NA,NA,smooth/soft
+15-750-825-1,khap1242,Kha Poong,1856,mɨət.33,phonetic,soft,NA,NA,NA,NA,smooth/soft
+15-750-826-1,mali1278,Malieng,1856,klə:n.33,phonetic,soft,NA,NA,NA,NA,smooth/soft
+15-750-829-1,nyah1250,Nyakur,1856,lamûm lamu:j,phonetic,soft,NA,NA,NA,NA,smooth/soft
+15-750-830-1,pear1247,Pear,1856,dźam,phonetic,soft,NA,NA,NA,NA,smooth/soft
+15-750-831-1,NA,SAN,1856,vat.32,phonetic,soft,NA,NA,NA,NA,smooth/soft
+15-750-833-1,samr1245,Samre,1856,kuəc.C,phonetic,soft,NA,NA,NA,NA,smooth/soft
+15-750-834-1,chon1284,Chong,1856,lu:c.B,phonetic,soft,NA,NA,NA,NA,smooth/soft
+15-750-835-1,west2394,KNB (a Pearic variety),1856,lʔeh lʔoh,phonetic,soft,NA,NA,NA,NA,smooth/soft
+15-750-836-1,suri1265,Surin Khmer,1856,tuən,phonetic,soft,NA,NA,NA,NA,smooth/soft
+15-750-837-1,west2394,CHNG (a Pearic variety),1856,lu:ʔc.A,phonetic,soft,NA,NA,NA,NA,smooth/soft
+15-750-838-1,oduu1239,Iduh,1856,pĭəʔ,phonetic,soft,NA,NA,NA,NA,smooth/soft
+15-750-839-1,mang1378,Mang Ch,1856,lə.31 mö.51,phonetic,soft,NA,NA,NA,NA,smooth/soft
+15-750-840-1,mang1378,Mang VN,1856,jaŋ.1 bu:.4,phonetic,soft,NA,NA,NA,NA,smooth/soft
+11-540-126-1,erzy1239,Erzya Mordvin,1774,žadnoyči,Phonemic,"avaricious, stingy",NA,NA,NA,NA,rough/hard
+11-540-127-1,esto1258,Estonian,1774,ahne,Phonemic,"avaricious, stingy",NA,NA,NA,NA,rough/hard
+11-540-128-1,finn1318,Finnish,1774,ahne,Phonemic,"avaricious, stingy",NA,NA,NA,NA,rough/hard
+11-540-131-1,hung1274,Hungarian,1774,önző,Standard,"avaricious, stingy",NA,NA,önzöö; kapži,Phonemic,rough/hard
+11-540-131-3,hung1274,Hungarian,1774,kapzsi,Standard,"avaricious, stingy",NA,NA,önzöö; kapži,Phonemic,rough/hard
+11-540-135-1,khan1273,Khanty,1774,sʸakar̃,Phonemic,"avaricious, stingy",NA,NA,NA,NA,rough/hard
+11-540-139-1,komi1268,Komi,1774,točɩd,Phonemic,"avaricious, stingy",NA,NA,NA,NA,rough/hard
+11-540-139-3,komi1268,Komi,1774,gor̃š,Phonemic,"avaricious, stingy",NA,NA,NA,NA,rough/hard
+11-540-143-1,nort2671,Northern Saami,1774,hanis,Phonemic,"avaricious, stingy",NA,NA,NA,NA,rough/hard
+11-540-146-1,mans1258,Mansi,1774,sʸakar̃,Phonemic,"avaricious, stingy",NA,NA,NA,NA,rough/hard
+11-540-147-1,east2328,Mari,1774,čʸaŋ'ɣa,Phonemic,"avaricious, stingy",NA,NA,NA,NA,rough/hard
+11-540-148-1,nene1249,Nenets,1774,mar̃o,Phonemic,"avaricious, stingy",NA,NA,NA,NA,rough/hard
+11-540-151-1,selk1253,Selkup,1774,tar̃alʸ,Phonemic,"avaricious, stingy",NA,NA,NA,NA,rough/hard
+11-540-151-3,selk1253,Selkup,1774,panʸčʸɨnɨlʸ,Phonemic,"avaricious, stingy",NA,NA,NA,NA,rough/hard
+11-540-159-1,udmu1245,Udmurt,1774,c̷ʸur̃ɩt,Phonemic,"avaricious, stingy",NA,NA,NA,NA,rough/hard
+11-540-167-1,anci1242,Ancient Greek,1774,pʰi'larguros,LatinTrans,"avaricious, stingy",buck1949;liddell1996;magnien1985,NA,NA,NA,rough/hard
+11-540-167-3,anci1242,Ancient Greek,1774,pʰilo'kʰrēmatos,LatinTrans,"avaricious, stingy",buck1949;liddell1996;magnien1985,NA,NA,NA,rough/hard
+11-540-167-5,anci1242,Ancient Greek,1774,pʰeidō'los,LatinTrans,"avaricious, stingy",buck1949;liddell1996;magnien1985,NA,NA,NA,rough/hard
+11-540-168-1,mode1248,Modern Greek,1774,fi'larɣiros,LatinTrans,"avaricious, stingy",buck1949,NA,NA,NA,rough/hard
+11-540-168-3,mode1248,Modern Greek,1774,tsi'gunis,LatinTrans,"avaricious, stingy",buck1949,NA,NA,NA,rough/hard
+11-540-169-1,lati1261,Latin,1774,avārus,StandardOrth,"avaricious, stingy",glare1997;ainsworth1923;ernout2001,NA,NA,NA,rough/hard
+11-540-169-3,lati1261,Latin,1774,tenāx,StandardOrth,"avaricious, stingy",glare1997;ainsworth1923;ernout2001,NA,NA,NA,rough/hard
+11-540-169-5,lati1261,Latin,1774,sordidus,StandardOrth,"avaricious, stingy",glare1997;ainsworth1923;ernout2001,NA,NA,NA,rough/hard
+11-540-170-1,ital1282,Italian,1774,avaro,StandardOrth,"avaricious, stingy",NA,NA,NA,NA,rough/hard
+11-540-170-3,ital1282,Italian,1774,tirchio,StandardOrth,"avaricious, stingy",NA,NA,NA,NA,rough/hard
+11-540-171-1,stan1290,French,1774,avare,StandardOrth,"avaricious, stingy",NA,NA,NA,NA,rough/hard
+11-540-171-3,stan1290,French,1774,radin,StandardOrth,"avaricious, stingy",NA,NA,NA,NA,rough/hard
+11-540-172-1,enap1235,Panare,1774,tamɨɲe,Phonemic,"avaricious, stingy",NA,NA,NA,NA,rough/hard
+11-540-173-1,macu1259,Macushi,1774,anne,Phonemic,"avaricious, stingy",NA,NA,NA,NA,rough/hard
+11-540-175-1,waiw1244,Wai Wai,1774,n-ame-na,Phonemic,"avaricious, stingy",NA,Lit. '3rd-be stingy-verbl'.,NA,NA,rough/hard
+11-540-176-1,stan1288,Spanish,1774,avaro,Phonemic,"avaricious, stingy",NA,"Iberian Span. has avaricioso, mezquino.",NA,NA,rough/hard
+11-540-176-3,stan1288,Spanish,1774,mezquino,Phonemic,"avaricious, stingy",NA,"Iberian Span. has avaricioso, mezquino.",NA,NA,rough/hard
+11-540-177-1,stan1289,Catalan,1774,avar,StandardOrth,"avaricious, stingy",NA,NA,NA,NA,rough/hard
+11-540-177-3,stan1289,Catalan,1774,tacanyo,StandardOrth,"avaricious, stingy",NA,NA,NA,NA,rough/hard
+11-540-178-1,port1283,Portuguese,1774,avarento,StandardOrth,"avaricious, stingy",NA,NA,NA,NA,rough/hard
+11-540-179-1,roma1327,Romanian,1774,sgîrcit,StandardOrth,"avaricious, stingy",NA,NA,NA,NA,rough/hard
+11-540-179-3,roma1327,Romanian,1774,avar,StandardOrth,"avaricious, stingy",NA,NA,NA,NA,rough/hard
+11-540-179-5,roma1327,Romanian,1774,scump,StandardOrth,"avaricious, stingy",NA,NA,NA,NA,rough/hard
+11-540-180-1,oldi1245,Old Irish,1774,santach,StandardOrth,"avaricious, stingy",buck1949,NA,NA,NA,rough/hard
+11-540-181-1,iris1253,Irish,1774,sanntach,StandardOrth,"avaricious, stingy",NA,NA,NA,NA,rough/hard
+11-540-181-3,iris1253,Irish,1774,ceachartha,StandardOrth,"avaricious, stingy",NA,NA,NA,NA,rough/hard
+11-540-181-5,iris1253,Irish,1774,sprionlaithe,StandardOrth,"avaricious, stingy",NA,NA,NA,NA,rough/hard
+11-540-181-7,iris1253,Irish,1774,gortach,StandardOrth,"avaricious, stingy",NA,NA,NA,NA,rough/hard
+11-540-182-1,wels1247,Welsh,1774,cybyddlyd,StandardOrth,"avaricious, stingy",NA,NA,NA,NA,rough/hard
+11-540-182-3,wels1247,Welsh,1774,crintach(lyd),StandardOrth,"avaricious, stingy",NA,NA,NA,NA,rough/hard
+11-540-183-1,bret1244,Breton,1774,piz,Phonemic,"avaricious, stingy",NA,NA,NA,NA,rough/hard
+11-540-183-3,bret1244,Breton,1774,tost,Phonemic,"avaricious, stingy",NA,NA,NA,NA,rough/hard
+11-540-184-1,goth1244,Gothic,1774,faihufriks,StandardOrth,"avaricious, stingy",lehmann1986,NA,NA,NA,rough/hard
+11-540-184-3,goth1244,Gothic,1774,faihugairns,StandardOrth,"avaricious, stingy",lehmann1986,NA,NA,NA,rough/hard
+11-540-185-1,oldn1244,Old Norse,1774,fē-gjarn,StandardOrth,"avaricious, stingy",buck1949,NA,NA,NA,rough/hard
+11-540-185-3,oldn1244,Old Norse,1774,-frekr,StandardOrth,"avaricious, stingy",buck1949,NA,NA,NA,rough/hard
+11-540-185-5,oldn1244,Old Norse,1774,hnøggr,StandardOrth,"avaricious, stingy",buck1949,NA,NA,NA,rough/hard
+11-540-186-1,dani1285,Danish,1774,gerrig,StandardOrth,"avaricious, stingy",NA,NA,NA,NA,rough/hard
+11-540-187-1,swed1254,Swedish,1774,girig,StandardOrth,"avaricious, stingy",NA,Second term is 'stingy'.,NA,NA,rough/hard
+11-540-187-3,swed1254,Swedish,1774,snål,StandardOrth,"avaricious, stingy",NA,Second term is 'stingy'.,NA,NA,rough/hard
+11-540-187-5,swed1254,Swedish,1774,njugg,StandardOrth,"avaricious, stingy",NA,Second term is 'stingy'.,NA,NA,rough/hard
+11-540-188-1,olde1238,Old English,1774,feohgeorn,StandardOrth,"avaricious, stingy",buck1949;bosworth1898;toller1921;roberts1995,NA,NA,NA,rough/hard
+11-540-188-3,olde1238,Old English,1774,gnēap,StandardOrth,"avaricious, stingy",buck1949;bosworth1898;toller1921;roberts1995,NA,NA,NA,rough/hard
+11-540-188-5,olde1238,Old English,1774,hnēaw,StandardOrth,"avaricious, stingy",buck1949;bosworth1898;toller1921;roberts1995,NA,NA,NA,rough/hard
+11-540-189-1,midd1317,Middle English,1774,averous,StandardOrth,"avaricious, stingy",buck1949;med1952,NA,NA,NA,rough/hard
+11-540-189-3,midd1317,Middle English,1774,nigard,StandardOrth,"avaricious, stingy",buck1949;med1952,NA,NA,NA,rough/hard
+11-540-190-1,stan1293,English,1774,avaricious,StandardOrth,"avaricious, stingy",NA,NA,NA,NA,rough/hard
+11-540-190-3,stan1293,English,1774,stingy,StandardOrth,"avaricious, stingy",NA,NA,NA,NA,rough/hard
+11-540-191-1,dutc1256,Dutch,1774,gierig,StandardOrth,"avaricious, stingy",NA,NA,NA,NA,rough/hard
+11-540-191-3,dutc1256,Dutch,1774,vrekkig,StandardOrth,"avaricious, stingy",NA,NA,NA,NA,rough/hard
+11-540-192-1,oldh1241,Old High German,1774,gītag,StandardOrth,"avaricious, stingy",buck1949;schuetzeichel1989,NA,NA,NA,rough/hard
+11-540-192-3,oldh1241,Old High German,1774,giri,StandardOrth,"avaricious, stingy",buck1949;schuetzeichel1989,NA,NA,NA,rough/hard
+11-540-192-5,oldh1241,Old High German,1774,freh,StandardOrth,"avaricious, stingy",buck1949;schuetzeichel1989,NA,NA,NA,rough/hard
+11-540-193-1,midd1343,Middle High German,1774,gīrisch,StandardOrth,"avaricious, stingy",buck1949,NA,NA,NA,rough/hard
+11-540-193-3,midd1343,Middle High German,1774,gītec,StandardOrth,"avaricious, stingy",buck1949,NA,NA,NA,rough/hard
+11-540-194-1,stan1295,German,1774,geizig,StandardOrth,"avaricious, stingy",buck1949,habsücht-ig; geizig; karg,NA,Original (M. R. Key),rough/hard
+11-540-195-1,east2295,Yiddish,1774,gajcik,Phonemic,"avaricious, stingy",NA,NA,NA,NA,rough/hard
+11-540-195-3,east2295,Yiddish,1774,žedne,Phonemic,"avaricious, stingy",NA,NA,NA,NA,rough/hard
+11-540-195-5,east2295,Yiddish,1774,karg,Phonemic,"avaricious, stingy",NA,NA,NA,NA,rough/hard
+11-540-196-1,lith1251,Lithuanian,1774,godùs,StandardOrthTone,"avaricious, stingy",buck1949,NA,NA,NA,rough/hard
+11-540-196-3,lith1251,Lithuanian,1774,šykštùs,StandardOrthTone,"avaricious, stingy",buck1949,NA,NA,NA,rough/hard
+11-540-197-1,latv1249,Latvian,1774,skops,StandardOrth,"avaricious, stingy",buck1949,NA,NA,NA,rough/hard
+11-540-199-1,chur1257,Old Church Slavonic,1774,sŭrebroljubĭcĭ,Phonemic,"avaricious, stingy",buck1949,NA,NA,NA,rough/hard
+11-540-200-1,bulg1262,Bulgarian,1774,svidlív,Phonemic,"avaricious, stingy",NA,"Respectively: Mladenov 1941:572 gives roots vid- 'see' + vĕd- 'with' (after prefix /s-/), and cites relationship with svidétel 'witness'. See also Vasmer 1987, III:577 for a connection between Russian svidetel' and vĕd-. 'Avaricious, money-mad' (lit. 'silver-loving'); 'covetous, greedy, avaricious' < Common Slavic root *alk- 'thirst'; 'stingy' < root skəp- 'dear, expensive, miserly'; 'tightfisted, stingy', lit. 'squeezed'.",NA,NA,rough/hard
+11-540-200-3,bulg1262,Bulgarian,1774,srebroljubív,Phonemic,"avaricious, stingy",NA,"Respectively: Mladenov 1941:572 gives roots vid- 'see' + vĕd- 'with' (after prefix /s-/), and cites relationship with svidétel 'witness'. See also Vasmer 1987, III:577 for a connection between Russian svidetel' and vĕd-. 'Avaricious, money-mad' (lit. 'silver-loving'); 'covetous, greedy, avaricious' < Common Slavic root *alk- 'thirst'; 'stingy' < root skəp- 'dear, expensive, miserly'; 'tightfisted, stingy', lit. 'squeezed'.",NA,NA,rough/hard
+11-540-200-5,bulg1262,Bulgarian,1774,álčen,Phonemic,"avaricious, stingy",NA,"Respectively: Mladenov 1941:572 gives roots vid- 'see' + vĕd- 'with' (after prefix /s-/), and cites relationship with svidétel 'witness'. See also Vasmer 1987, III:577 for a connection between Russian svidetel' and vĕd-. 'Avaricious, money-mad' (lit. 'silver-loving'); 'covetous, greedy, avaricious' < Common Slavic root *alk- 'thirst'; 'stingy' < root skəp- 'dear, expensive, miserly'; 'tightfisted, stingy', lit. 'squeezed'.",NA,NA,rough/hard
+11-540-200-7,bulg1262,Bulgarian,1774,skəperníčeski,Phonemic,"avaricious, stingy",NA,"Respectively: Mladenov 1941:572 gives roots vid- 'see' + vĕd- 'with' (after prefix /s-/), and cites relationship with svidétel 'witness'. See also Vasmer 1987, III:577 for a connection between Russian svidetel' and vĕd-. 'Avaricious, money-mad' (lit. 'silver-loving'); 'covetous, greedy, avaricious' < Common Slavic root *alk- 'thirst'; 'stingy' < root skəp- 'dear, expensive, miserly'; 'tightfisted, stingy', lit. 'squeezed'.",NA,NA,rough/hard
+11-540-200-9,bulg1262,Bulgarian,1774,stístnat,Phonemic,"avaricious, stingy",NA,"Respectively: Mladenov 1941:572 gives roots vid- 'see' + vĕd- 'with' (after prefix /s-/), and cites relationship with svidétel 'witness'. See also Vasmer 1987, III:577 for a connection between Russian svidetel' and vĕd-. 'Avaricious, money-mad' (lit. 'silver-loving'); 'covetous, greedy, avaricious' < Common Slavic root *alk- 'thirst'; 'stingy' < root skəp- 'dear, expensive, miserly'; 'tightfisted, stingy', lit. 'squeezed'.",NA,NA,rough/hard
+11-540-201-1,sout1528,Serbo-Croatian,1774,pohlepan,Phonemic,"avaricious, stingy",NA,Respectively: 'avaricious; avaricious; stingy'.,NA,NA,rough/hard
+11-540-201-3,sout1528,Serbo-Croatian,1774,lakom,Phonemic,"avaricious, stingy",NA,Respectively: 'avaricious; avaricious; stingy'.,NA,NA,rough/hard
+11-540-201-5,sout1528,Serbo-Croatian,1774,škrt,Phonemic,"avaricious, stingy",NA,Respectively: 'avaricious; avaricious; stingy'.,NA,NA,rough/hard
+11-540-202-1,czec1258,Czech,1774,lakomý,StandardOrth,"avaricious, stingy",NA,NA,NA,NA,rough/hard
+11-540-202-3,czec1258,Czech,1774,lakotný,StandardOrth,"avaricious, stingy",NA,NA,NA,NA,rough/hard
+11-540-202-5,czec1258,Czech,1774,skoupý,StandardOrth,"avaricious, stingy",NA,NA,NA,NA,rough/hard
+11-540-203-1,poli1260,Polish,1774,chciwy,StandardOrth,"avaricious, stingy",NA,NA,NA,NA,rough/hard
+11-540-203-3,poli1260,Polish,1774,łakomy,StandardOrth,"avaricious, stingy",NA,NA,NA,NA,rough/hard
+11-540-203-5,poli1260,Polish,1774,skąpy,StandardOrth,"avaricious, stingy",NA,NA,NA,NA,rough/hard
+11-540-204-1,russ1263,Russian,1774,skupoj,Phonemic,"avaricious, stingy",NA,NA,NA,NA,rough/hard
+11-540-205-1,tosk1239,Albanian (Tosk variety),1774,ko'pr̃ac̷,Phonemic,"avaricious, stingy",NA,NA,NA,NA,rough/hard
+11-540-205-3,tosk1239,Albanian (Tosk variety),1774,sa'raf,Phonemic,"avaricious, stingy",NA,NA,NA,NA,rough/hard
+11-540-205-5,tosk1239,Albanian (Tosk variety),1774,c̷in'gun,Phonemic,"avaricious, stingy",NA,NA,NA,NA,rough/hard
+11-540-206-1,east2283,Armenian (Eastern variety),1774,agah,Phonemic,"avaricious, stingy",NA,NA,NA,NA,rough/hard
+11-540-206-3,east2283,Armenian (Eastern variety),1774,ž[ə]latˀ,Phonemic,"avaricious, stingy",NA,NA,NA,NA,rough/hard
+11-540-206-5,east2283,Armenian (Eastern variety),1774,kˀ[ə]c̷ˀc̷ˀi,Phonemic,"avaricious, stingy",NA,NA,NA,NA,rough/hard
+11-540-207-1,west2348,Armenian (Western variety),1774,akah,Phonemic,"avaricious, stingy",NA,NA,NA,NA,rough/hard
+11-540-207-3,west2348,Armenian (Western variety),1774,ž[ə]lad,Phonemic,"avaricious, stingy",NA,NA,NA,NA,rough/hard
+11-540-207-5,west2348,Armenian (Western variety),1774,g[ə]d͜zd͜zi,Phonemic,"avaricious, stingy",NA,NA,NA,NA,rough/hard
+11-540-210-1,tokh1243,Tocharian B,1774,maune,Phonemic,"avaricious, stingy",NA,'Avariciousness'.,NA,NA,rough/hard
+11-540-211-1,sans1269,Sanskrit,1774,kadarya-,LatinTrans,"avaricious, stingy",NA,NA,NA,NA,rough/hard
+11-540-211-3,sans1269,Sanskrit,1774,kṛpaṇa-,LatinTrans,"avaricious, stingy",NA,NA,NA,NA,rough/hard
+11-540-211-5,sans1269,Sanskrit,1774,dhanārthin-,LatinTrans,"avaricious, stingy",NA,NA,NA,NA,rough/hard
+11-540-211-7,sans1269,Sanskrit,1774,lobhin-,LatinTrans,"avaricious, stingy",NA,NA,NA,NA,rough/hard
+11-540-211-9,sans1269,Sanskrit,1774,artha-lubdha-,LatinTrans,"avaricious, stingy",NA,NA,NA,NA,rough/hard
+11-540-212-1,vlax1238,Romani,1774,xandžuvalo,Phonemic,"avaricious, stingy",NA,NA,NA,NA,rough/hard
+11-540-213-1,aves1237,Avestan,1774,arāitivant-,Phonemic,"avaricious, stingy",buck1949,NA,NA,NA,rough/hard
+11-540-214-1,west2369,Persian,1774,[bæxil],Phonemic,"avaricious, stingy",NA,NA,NA,NA,rough/hard
+11-540-215-1,olda1245,Ancient Aramaic,1774,ḳallōṭ,Phonemic,"avaricious, stingy",aramaic,NA,NA,NA,rough/hard
+11-540-217-1,nege1244,Negerhollands,1774,glos,Phonemic,"avaricious, stingy",dejong1926;nelson1936,NA,NA,NA,rough/hard
+11-540-217-3,nege1244,Negerhollands,1774,groma,Phonemic,"avaricious, stingy",dejong1926;nelson1936,NA,NA,NA,rough/hard
+11-540-217-5,nege1244,Negerhollands,1774,rebən,Phonemic,"avaricious, stingy",dejong1926;nelson1936,NA,NA,NA,rough/hard
+11-540-218-1,jama1262,Jamaican Creole (Limonese Creole dialect),1774,stɩnǰɩ,Phonemic,"avaricious, stingy",NA,NA,NA,NA,rough/hard
+11-540-219-1,basq1248,Basque,1774,'šekʰen,Phonemic,"avaricious, stingy",NA,NA,NA,NA,rough/hard
+11-540-220-1,haus1257,Hausa,1774,marowaci,Phonemic,"avaricious, stingy",bargery1934;newman1990,NA,NA,NA,rough/hard
+11-540-221-1,polc1243,Polci,1774,ɗaasə,Phonemic,"avaricious, stingy",cosper1996,NA,NA,NA,rough/hard
+11-540-222-1,high1278,Nahuatl (Sierra de Zacapoaxtla variety),1774,c̷oc̷oka-t,Phonemic,"avaricious, stingy",key1953,NA,NA,NA,rough/hard
+11-540-223-1,zaca1242,Chatino (Zacatepec variety),1774,tihi,Phonemic,"avaricious, stingy",NA,NA,NA,NA,rough/hard
+11-540-224-1,karo1304,Karok,1774,ʔamíhyaβ,Phonemic,"avaricious, stingy",NA,NA,NA,NA,rough/hard
+11-540-225-1,seri1257,Seri,1774,'imoš -ǣpit,Phonemic,"avaricious, stingy",NA,Lit. i-amoš -ǣpit '3.POS.-heart (?)'.,NA,NA,rough/hard
+11-540-226-1,zuni1245,Zuni,1774,miʔtokˀo-,Phonemic,"avaricious, stingy",NA,NA,NA,NA,rough/hard
+11-540-226-3,zuni1245,Zuni,1774,ɬoʔo-,Phonemic,"avaricious, stingy",NA,NA,NA,NA,rough/hard
+11-540-227-1,nort2938,Northern Haida,1774,sˁkíwtʰkaa,Phonemic,"avaricious, stingy",lawrence1977;tolmie1884,NA,NA,NA,rough/hard
+11-540-228-1,tlin1245,Tlingit,1774,g̣eiḳ,Phonemic,"avaricious, stingy",gillian1996;gillian1973,NA,NA,NA,rough/hard
+11-540-228-3,tlin1245,Tlingit,1774,ši-g̣eiḳ,Phonemic,"avaricious, stingy",gillian1996;gillian1973,NA,NA,NA,rough/hard
+11-540-231-1,bell1243,Bella Coola,1774,łχ-anł-∅,Phonemic,"avaricious, stingy",davis1980,NA,NA,NA,rough/hard
+11-540-235-1,hawa1245,Hawaiian,1774,pī,Phonemic,"avaricious, stingy",pukui1975,NA,NA,NA,rough/hard
+11-540-235-3,hawa1245,Hawaiian,1774,puni kālā,Phonemic,"avaricious, stingy",pukui1975,NA,NA,NA,rough/hard
+11-540-235-5,hawa1245,Hawaiian,1774,ʔauʔa,Phonemic,"avaricious, stingy",pukui1975,NA,NA,NA,rough/hard
+11-540-236-1,maor1246,Maori,1774,apo,Phonemic,"avaricious, stingy",biggs1966;hohepa1967,NA,NA,NA,rough/hard
+11-540-236-3,maor1246,Maori,1774,kaiponu-hia,Phonemic,"avaricious, stingy",biggs1966;hohepa1967,NA,NA,NA,rough/hard
+11-540-236-5,maor1246,Maori,1774,haakere-a,Phonemic,"avaricious, stingy",biggs1966;hohepa1967,NA,NA,NA,rough/hard
+11-540-238-1,rapa1244,Rapa Nui,1774,ʔohumu,Phonemic,"avaricious, stingy",roussel1908;fuentes1960;thomson1891;aguera1770;forster1778;englert1978;martinez1913,Latter form is archaic.,"ʔohumu; ʔino; ŋū; Englert paka-ohio, kaikino; Rouss kaikino, magugupuru; JF íno, ohúmu, nóu-nóu",Phonemic (vars),rough/hard
+11-540-238-3,rapa1244,Rapa Nui,1774,ʔino,Phonemic,"avaricious, stingy",roussel1908;fuentes1960;thomson1891;aguera1770;forster1778;englert1978;martinez1913,Latter form is archaic.,"ʔohumu; ʔino; ŋū; Englert paka-ohio, kaikino; Rouss kaikino, magugupuru; JF íno, ohúmu, nóu-nóu",Phonemic (vars),rough/hard
+11-540-238-5,rapa1244,Rapa Nui,1774,ŋū,Phonemic,"avaricious, stingy",roussel1908;fuentes1960;thomson1891;aguera1770;forster1778;englert1978;martinez1913,Latter form is archaic.,"ʔohumu; ʔino; ŋū; Englert paka-ohio, kaikino; Rouss kaikino, magugupuru; JF íno, ohúmu, nóu-nóu",Phonemic (vars),rough/hard
+11-540-239-1,rotu1241,Rotuman,1774,ʔurū,Phonemic,"avaricious, stingy",churchward1940;geraghty1995,NA,NA,NA,rough/hard
+11-540-239-3,rotu1241,Rotuman,1774,huaŋ küm,Phonemic,"avaricious, stingy",churchward1940;geraghty1995,NA,NA,NA,rough/hard
+11-540-240-1,tong1325,Tongan,1774,taha nima-maʔu,Phonemic,"avaricious, stingy",tuinukuafe1992;shumway1971,NA,NA,NA,rough/hard
+11-540-241-1,tuam1242,Tuamotuan,1774,tau.ŋutu,Phonemic,"avaricious, stingy",stimson1964,NA,NA,NA,rough/hard
+11-540-241-3,tuam1242,Tuamotuan,1774,horō.ŋa.kino,Phonemic,"avaricious, stingy",stimson1964,NA,NA,NA,rough/hard
+11-540-243-1,chib1270,Muisca,1774,ataban mague,LatinTrans,"avaricious, stingy",perez1987,NA,a-taba-n maɣe,Phonemic,rough/hard
+11-540-244-1,paez1247,Páez,1774,ũčhiʔdʸ,Phonemic,"avaricious, stingy",slocum1983,Pitayó dialect ušiʔdʸ. Also sedʸ.,NA,NA,rough/hard
+11-540-245-1,chac1249,Cayapa,1774,'ʔes-mu,Phonemic,"avaricious, stingy",NA,"Noun form, personified, mu. *South Barbacoan form is *ʔisa.",NA,NA,rough/hard
+11-540-246-1,colo1256,Colorado,1774,ʔi'sa-ti-mĩ,Phonemic,"avaricious, stingy",moore1966,"The former, lit. 'stinginess-say-customary action'.",NA,NA,rough/hard
+11-540-246-3,colo1256,Colorado,1774,ʔiʰsa-pũ,Phonemic,"avaricious, stingy",moore1966,"The former, lit. 'stinginess-say-customary action'.",NA,NA,rough/hard
+11-540-248-1,epen1239,Epena,1774,ã'tau pʰai'maa,Phonemic,"avaricious, stingy",NA,Lit. 'buttocks black' 15.650. 'Generous' is ã'tau pʰo'ree lit. 'buttocks red' 15.660.,NA,NA,rough/hard
+11-540-249-1,puin1248,Puinave,1774,-iwin + sok,Phonemic,"avaricious, stingy",NA,NA,NA,NA,rough/hard
+11-540-250-1,yuwa1244,Yuwana,1774,ʰka-ʰtɨ'te bãlɨ̃,Phonemic,"avaricious, stingy",NA,NA,NA,NA,rough/hard
+11-540-251-1,pume1238,Yaruro,1774,nɛ̃mẽ-mẽ,Phonemic,"avaricious, stingy",NA,Masculine form.,NA,NA,rough/hard
+11-540-252-1,nina1238,Ninam (Shirishana variety),1774,šuulamo,Phonemic,"avaricious, stingy",NA,NA,NA,NA,rough/hard
+11-540-253-1,yano1262,Yanomámi,1774,ši imi,Phonemic,"avaricious, stingy",NA,NA,NA,NA,rough/hard
+11-540-254-1,cofa1242,Cofán,1774,seʔpiʔsɨ,Phonemic,"avaricious, stingy",borman1976,NA,NA,NA,rough/hard
+11-540-255-1,waor1240,Waorani,1774,pææ gõ-po-kã,Phonemic,"avaricious, stingy",NA,NA,NA,NA,rough/hard
+11-540-257-1,tuyu1244,Tuyuca,1774,bãĩ-'gɨ̃,Phonemic,"avaricious, stingy",NA,Lit. 'love-masc.' May be used in a positive or negative sense.,NA,NA,rough/hard
+11-540-258-1,agua1253,Aguaruna,1774,suhi,Phonemic,"avaricious, stingy",NA,NA,NA,NA,rough/hard
+11-540-260-1,yagu1244,Yagua,1774,hũbarya,Phonemic,"avaricious, stingy",powlison1995,NA,NA,NA,rough/hard
+11-540-262-1,wayu1243,Goajiro,1774,heiye-i,Phonemic,"avaricious, stingy",NA,NA,NA,NA,rough/hard
+11-540-262-3,wayu1243,Goajiro,1774,heiyer̃ɨ,Phonemic,"avaricious, stingy",NA,NA,NA,NA,rough/hard
+11-540-265-1,trin1274,Trinitario,1774,-yowʔi,Phonemic,"avaricious, stingy",gill1983,NA,NA,NA,rough/hard
+11-540-266-1,wapi1253,Wapishana,1774,mišaʔurarɨ,Phonemic,"avaricious, stingy",NA,NA,NA,NA,rough/hard
+11-540-267-1,waur1244,Waurá,1774,ka-kaya-numa,Phonemic,"avaricious, stingy",NA,Lit. 'have-wailing-mouth'; kakaya means 'be valuable'.,NA,NA,rough/hard
+11-540-268-1,yavi1244,Yavitero,1774,maľ̥ia-hi,Phonemic,"avaricious, stingy",mosonyi1987,NA,NA,NA,rough/hard
+11-540-269-1,cent2142,Aymara,1774,mičˀa,Phonemic,"avaricious, stingy",NA,NA,NA,NA,rough/hard
+11-540-272-1,arao1248,Araona,1774,a-iziɲa,Phonemic,"avaricious, stingy",pitman1981;key1968,NA,NA,NA,rough/hard
+11-540-272-3,arao1248,Araona,1774,anawe,Phonemic,"avaricious, stingy",pitman1981;key1968,NA,NA,NA,rough/hard
+11-540-273-1,cavi1250,Cavineña,1774,inihe-da,Phonemic,"avaricious, stingy",NA,Also ena-ya.,NA,NA,rough/hard
+11-540-274-1,esee1248,Ese Ejja,1774,-nawe,Phonemic,"avaricious, stingy",key19581964;wyma1962;shoemaker,NA,NA,NA,rough/hard
+11-540-275-1,esee1248,Ese Ejja (Huarayo),1774,kia-nawe,Phonemic,"avaricious, stingy",NA,NA,NA,NA,rough/hard
+11-540-275-3,esee1248,Ese Ejja (Huarayo),1774,kia-ni šewi,Phonemic,"avaricious, stingy",NA,NA,NA,NA,rough/hard
+11-540-276-1,taca1256,Tacana,1774,iniðe-da,Phonemic,"avaricious, stingy",vanwynen1962;ottaviano1989,NA,NA,NA,rough/hard
+11-540-276-3,taca1256,Tacana,1774,me-nawe-da,Phonemic,"avaricious, stingy",vanwynen1962;ottaviano1989,NA,NA,NA,rough/hard
+11-540-278-1,pano1254,Catuquina,1774,yowači,Phonemic,"avaricious, stingy",NA,NA,NA,NA,rough/hard
+11-540-279-1,chac1251,Chácobo,1774,wašiṣ̌ɨni,Phonemic,"avaricious, stingy",prost,NA,NA,NA,rough/hard
+11-540-281-1,ship1254,Shipibo-Conibo,1774,yoaši,Phonemic,"avaricious, stingy",loriot1993,NA,NA,NA,rough/hard
+11-540-282-1,yami1256,Yaminahua,1774,pic̷i,Phonemic,"avaricious, stingy",NA,Latter are verbs.,NA,NA,rough/hard
+11-540-282-3,yami1256,Yaminahua,1774,βĩškomĩc̷akĩ' yoaši-ki,Phonemic,"avaricious, stingy",NA,Latter are verbs.,NA,NA,rough/hard
+11-540-283-1,cayu1262,Cayuvava,1774,bu,Phonemic,"avaricious, stingy",keyharold,NA,NA,NA,rough/hard
+11-540-284-1,iton1250,Itonama,1774,sičomone,Phonemic,"avaricious, stingy",camp1967,Also mučɨkˀaya.,NA,NA,rough/hard
+11-540-284-3,iton1250,Itonama,1774,ipiʔna,Phonemic,"avaricious, stingy",camp1967,Also mučɨkˀaya.,NA,NA,rough/hard
+11-540-285-1,movi1243,Movima,1774,ui-yei-na,Phonemic,"avaricious, stingy",judy1962,NA,NA,NA,rough/hard
+11-540-288-1,ache1246,Aché,1774,tãʔã bučã,Phonemic,"avaricious, stingy",NA,Also meyãdɨ. No.ACH taʔa; me-ya.,NA,NA,rough/hard
+11-540-289-1,east2555,Chiriguano,1774,(če-)r-akatẽi,Phonemic,"avaricious, stingy",NA,NA,NA,NA,rough/hard
+11-540-289-3,east2555,Chiriguano,1774,h-akatẽi,Phonemic,"avaricious, stingy",NA,NA,NA,NA,rough/hard
+11-540-290-1,para1311,Guaraní,1774,h-akateʔɨ̃-va,Phonemic,"avaricious, stingy",NA,Also po-ǰopɨ.,NA,NA,rough/hard
+11-540-290-3,para1311,Guaraní,1774,takateʔɨ̃,Phonemic,"avaricious, stingy",NA,Also po-ǰopɨ.,NA,NA,rough/hard
+11-540-292-1,waya1270,Wayampi,1774,katɛ-ʔɨ̃,Phonemic,"avaricious, stingy",NA,Means 'without kindness'.,NA,NA,rough/hard
+11-540-294-1,kain1272,Kaingáng,1774,Φe sĩ,Phonemic,"avaricious, stingy",wiesemann1981,NA,NA,NA,rough/hard
+11-540-294-3,kain1272,Kaingáng,1774,ã-tũ-nɛɲ-mɛ̃,Phonemic,"avaricious, stingy",wiesemann1981,NA,NA,NA,rough/hard
+11-540-296-1,trum1247,Trumai,1774,(ha) ueš,Phonemic,"avaricious, stingy",NA,NA,NA,NA,rough/hard
+11-540-297-1,ayor1240,Ayoreo,1774,ipotiga'ke-daate-sõo'ri,Phonemic,"avaricious, stingy",NA,"Also ipotiga'ke-daate-ŋoo'ri; ipotiga'ke-daate-'to, means 'one who has strong desires'. Also ka'niiraa-ŋom̥a-i; ka'niiraa-gom̥a, means 'not generous'; ka'niiro-m̥a-i; ka'niiro-m̥a, 'not generous'.",NA,NA,rough/hard
+11-540-298-1,anga1295,Sanapaná (Angaité dialect),1774,apmosma,Phonemic,"avaricious, stingy",NA,NA,NA,NA,rough/hard
+11-540-298-3,anga1295,Sanapaná (Angaité dialect),1774,minyankok,Phonemic,"avaricious, stingy",NA,NA,NA,NA,rough/hard
+11-540-299-1,sana1281,Sanapaná (Enlhet dialect),1774,neŋmasma neŋelnaʔtaam,Phonemic,"avaricious, stingy",unruh1997,NA,NA,NA,rough/hard
+11-540-300-1,leng1262,Lengua,1774,-masma,Phonemic,"avaricious, stingy",NA,NA,NA,NA,rough/hard
+11-540-301-1,moco1246,Mocoví,1774,pas-aḳ,Phonemic,"avaricious, stingy",NA,NA,NA,NA,rough/hard
+11-540-302-1,pila1245,Pilagá,1774,d-asemata,Phonemic,"avaricious, stingy",NA,NA,NA,NA,rough/hard
+11-540-304-1,iyoj1235,Chorote,1774,-ekal,Phonemic,"avaricious, stingy",NA,NA,NA,NA,rough/hard
+11-540-305-1,maca1260,Maca,1774,(e)kuyaχ,Phonemic,"avaricious, stingy",NA,NA,NA,NA,rough/hard
+11-540-306-1,wich1264,Wichí,1774,ac̷huhnah,Phonemic,"avaricious, stingy",NA,NA,NA,NA,rough/hard
+11-540-307-1,niva1238,Nivaclé,1774,-kˀac̷oʔ,Phonemic,"avaricious, stingy",seelwische1980;seelwische1990,NA,NA,NA,rough/hard
+11-540-307-3,niva1238,Nivaclé,1774,-kuyex,Phonemic,"avaricious, stingy",seelwische1980;seelwische1990,NA,NA,NA,rough/hard
+11-540-308-1,kunz1244,Kunza,1774,tcha-na-tur,Phonemic,"avaricious, stingy",NA,NA,NA,NA,rough/hard
+11-540-309-1,mapu1245,Mapudungun,1774,afma,Phonemic,"avaricious, stingy",NA,NA,NA,NA,rough/hard
+11-540-312-1,puel1244,Gününa Küne,1774,-gɨmɬaɬɨ,Phonemic,"avaricious, stingy",casamiquela,NA,NA,NA,rough/hard
+11-540-314-1,toba1269,Toba,1774,d-ašimata,Phonemic,"avaricious, stingy",NA,NA,NA,NA,rough/hard
+11-540-318-1,ghul1238,Uncunwee,1774,ɖalǰát | dodɛrát,IPA,"avaricious, stingy",NA,NA,NA,NA,rough/hard
+11-540-402-1,sout2746,Southern Tai (Songkhla variety),1774,khi:.5 chit.4,Phonemic,"avaricious, stingy",NA,NA,NA,NA,rough/hard
+11-540-403-1,sout2746,Thai (Korat variety),1774,khi:.3 ta.5 ni:.3,Phonemic,"avaricious, stingy",NA,NA,NA,NA,rough/hard
+11-540-404-1,nort2740,Khamuang (Chiang Mai variety),1774,khi:.5 ci.7,Phonemic,"avaricious, stingy",NA,NA,NA,NA,rough/hard
+11-540-405-1,tain1252,Dehong,1774,ʔi.1 ci.1 / thi.5 to.3,Phonemic,"avaricious, stingy",NA,NA,NA,NA,rough/hard
+11-540-407-1,luuu1242,Tai Lü,1774,xi:.3 thi:.5,Phonemic,"avaricious, stingy",NA,NA,NA,NA,rough/hard
+11-540-408-1,khun1259,Tai Khün,1774,khi:.6 thi:.2,Phonemic,"avaricious, stingy",NA,NA,NA,NA,rough/hard
+11-540-408-3,khun1259,Tai Khün,1774,khi:.6 ciŋ.1,Phonemic,"avaricious, stingy",NA,NA,NA,NA,rough/hard
+11-540-409-1,shan1277,Shan,1774,khi:.4 thi:.2,Phonemic,"avaricious, stingy",NA,NA,NA,NA,rough/hard
+11-540-410-1,shan1277,Shan (Northern Shan dialect),1774,khi:.4 thi:.2,Phonemic,"avaricious, stingy",NA,NA,NA,NA,rough/hard
+11-540-410-3,shan1277,Shan (Northern Shan dialect),1774,khi:.4 new.3,Phonemic,"avaricious, stingy",NA,NA,NA,NA,rough/hard
+11-540-411-1,guib1244,Nung-Fengshan,1774,cet.6,Phonemic,"avaricious, stingy",NA,NA,NA,NA,rough/hard
+11-540-412-1,guib1244,Nung-Lazhai,1774,kje:t.8,Phonemic,"avaricious, stingy",NA,NA,NA,NA,rough/hard
+11-540-413-1,nung1283,Nung-Ninbei,1774,mat.7 mei.1,Phonemic,"avaricious, stingy",NA,NA,NA,NA,rough/hard
+11-540-414-1,zuoj1238,Zhuang-Longzhou,1774,śo.3 toʔ.4,Phonemic,"avaricious, stingy",NA,NA,NA,NA,rough/hard
+11-540-414-3,zuoj1238,Zhuang-Longzhou,1774,ko.2 khian.1,Phonemic,"avaricious, stingy",NA,NA,NA,NA,rough/hard
+11-540-414-5,zuoj1238,Zhuang-Longzhou,1774,ke:t.8,Phonemic,"avaricious, stingy",NA,NA,NA,NA,rough/hard
+11-540-415-1,suii1243,Sui,1774,loŋ.2 ti.3,Phonemic,"avaricious, stingy",NA,NA,NA,NA,rough/hard
+11-540-415-3,suii1243,Sui,1774,khau.4,Phonemic,"avaricious, stingy",NA,NA,NA,NA,rough/hard
+11-540-415-5,suii1243,Sui,1774,ɣat.7,Phonemic,"avaricious, stingy",NA,NA,NA,NA,rough/hard
+11-540-420-1,lakk1238,Lakkia,1774,cɛ:t.7,Phonemic,"avaricious, stingy",NA,NA,NA,NA,rough/hard
+11-540-421-1,hlai1239,Hlai (Baoting variety),1774,khi:t.7,Phonemic,"avaricious, stingy",NA,NA,NA,NA,rough/hard
+11-540-422-1,emab1235,Langja Buyang,1774,qa.0 tiŋ.24,Phonemic,"avaricious, stingy",NA,NA,NA,NA,rough/hard
+11-540-423-1,lang1316,Ecun Buyang,1774,a.0 tim.31,Phonemic,"avaricious, stingy",NA,NA,NA,NA,rough/hard
+11-540-423-3,lang1316,Ecun Buyang,1774,a.0 tiŋ.33,Phonemic,"avaricious, stingy",NA,NA,NA,NA,rough/hard
+11-540-424-1,gree1278,Sanchong Kelao,1774,ʔa.42 ʔai.42 haŋ.42,Phonemic,"avaricious, stingy",NA,NA,NA,NA,rough/hard
+11-540-425-1,qaua1234,Qau Kelao,1774,śiau.42 ćhi.13,Phonemic,"avaricious, stingy",NA,NA,NA,NA,rough/hard
+11-540-701-1,beng1280,Bengali,1774,kan͂jusa,Phonemic,"avaricious, stingy",saxena701,NA,কঞ্জুস,Standard,rough/hard
+11-540-702-1,hind1269,Hindi,1774,kan̪dʒuːs,Phonemic,"avaricious, stingy",saxena702,NA,कंजूस,Standard,rough/hard
+11-540-705-1,mara1378,Marathi,1774,kan̪dʒuːʂ,Phonemic,"avaricious, stingy",saxena705,NA,"कंजूष,चिककू",Standard,rough/hard
+11-540-705-3,mara1378,Marathi,1774,tʃikkuː,Phonemic,"avaricious, stingy",saxena705,NA,"कंजूष,चिककू",Standard,rough/hard
+11-540-706-1,east1436,Nepali,1774,chōṭō,Phonemic,"avaricious, stingy",saxena706,NA,NA,NA,rough/hard
+11-540-707-1,west2386,Punjabi,1774,kanjūsa,Phonemic,"avaricious, stingy",saxena707,NA,NA,NA,rough/hard
+11-540-708-1,tami1289,Tamil,1774,kañcattaṉam,Phonemic,"avaricious, stingy",saxena708,NA,NA,NA,rough/hard
+11-540-709-1,telu1262,Telugu,1774,pisinaari,Phonemic,"avaricious, stingy",saxena709,NA,NA,NA,rough/hard
+11-540-709-3,telu1262,Telugu,1774,piinaasi,Phonemic,"avaricious, stingy",saxena709,NA,NA,NA,rough/hard
+11-540-800-1,manm1238,Kme-2 (Kemie variety),1774,ŋek.33,phonetic,"avaricious, stingy",NA,NA,NA,NA,rough/hard
+11-540-801-1,blan1242,Bulang,1774,ka.31 ni.33,phonetic,"avaricious, stingy",NA,NA,NA,NA,rough/hard
+11-540-802-1,blan1242,Bulang-2,1774,rai.31,phonetic,"avaricious, stingy",NA,NA,NA,NA,rough/hard
+11-540-803-1,blan1242,Bulang-3,1774,çao.31 ćhi.33,phonetic,"avaricious, stingy",NA,NA,NA,NA,rough/hard
+11-540-804-1,manm1238,Keme (Kemie variety),1774,ŋɛk.53,phonetic,"avaricious, stingy",NA,NA,NA,NA,rough/hard
+11-540-805-1,huuu1240,Xu,1774,ŋek.55,phonetic,"avaricious, stingy",NA,NA,NA,NA,rough/hard
+11-540-806-1,NA,Mang'an B. (MNN),1774,sɛt.55,phonetic,"avaricious, stingy",NA,NA,NA,NA,rough/hard
+11-540-807-1,nucl1290,Wa,1774,səbian.B,phonetic,"avaricious, stingy",NA,NA,NA,NA,rough/hard
+11-540-808-1,ruma1248,Rumai,1774,thi.55,phonetic,"avaricious, stingy",NA,NA,NA,NA,rough/hard
+11-540-809-1,pray1239,Prai,1774,khram ciʔ,phonetic,"avaricious, stingy",NA,NA,NA,NA,rough/hard
+11-540-809-2,pray1239,Prai,1774,khə̣am ciʔ,phonetic,"avaricious, stingy",NA,NA,NA,NA,rough/hard
+11-540-810-1,bitt1240,Pusing,1774,kɨ jĕʔ,phonetic,"avaricious, stingy",NA,NA,NA,NA,rough/hard
+11-540-811-1,boly1239,Paliu,1774,sɛt.55,phonetic,"avaricious, stingy",NA,NA,NA,NA,rough/hard
+11-540-814-1,mlab1235,Mlabri,1774,ciʔ,phonetic,"avaricious, stingy",NA,NA,NA,NA,rough/hard
+11-540-815-1,cuoi1242,Cuoi,1774,ha:m.33,phonetic,"avaricious, stingy",NA,NA,NA,NA,rough/hard
+11-540-815-2,cuoi1242,Cuoi,1774,səw.24 rɔ:t.31,phonetic,"avaricious, stingy",NA,NA,NA,NA,rough/hard
+11-540-816-1,viet1252,Vietnamese,1774,tham lam,phonetic,"avaricious, stingy",NA,NA,NA,NA,rough/hard
+11-540-816-2,viet1252,Vietnamese,1774,keo kiệt,phonetic,"avaricious, stingy",NA,NA,NA,NA,rough/hard
+11-540-818-1,NA,Tho Mun (THM),1774,ha:m.A,phonetic,"avaricious, stingy",NA,NA,NA,NA,rough/hard
+11-540-818-2,NA,Tho Mun (THM),1774,ha:m.33,phonetic,"avaricious, stingy",NA,NA,NA,NA,rough/hard
+11-540-819-1,cuoi1242,LiHa,1774,ha:m.33,phonetic,"avaricious, stingy",NA,NA,NA,NA,rough/hard
+11-540-820-1,phon1246,Phong,1774,khi.21 thi.44,phonetic,"avaricious, stingy",NA,NA,NA,NA,rough/hard
+11-540-821-1,NA,TUL,1774,khi.33 thi.212,phonetic,"avaricious, stingy",NA,NA,NA,NA,rough/hard
+11-540-824-1,NA,Phu Tho M (PHU),1774,tham.2,phonetic,"avaricious, stingy",NA,NA,NA,NA,rough/hard
+11-540-824-2,NA,Phu Tho M (PHU),1774,kɛw.1 kiət.5,phonetic,"avaricious, stingy",NA,NA,NA,NA,rough/hard
+11-540-825-1,khap1242,Kha Poong,1774,tha:m.33 ha:m.33,phonetic,"avaricious, stingy",NA,NA,NA,NA,rough/hard
+11-540-825-2,khap1242,Kha Poong,1774,kacic.43 kati:w.33ʔ,phonetic,"avaricious, stingy",NA,NA,NA,NA,rough/hard
+11-540-826-1,mali1278,Malieng,1774,ha:m.33 la:m.33,phonetic,"avaricious, stingy",NA,NA,NA,NA,rough/hard
+11-540-826-2,mali1278,Malieng,1774,hɨ.33 ku:̯a:.41ʔ,phonetic,"avaricious, stingy",NA,NA,NA,NA,rough/hard
+11-540-829-1,nyah1250,Nyakur,1774,tamîət,phonetic,"avaricious, stingy",NA,NA,NA,NA,rough/hard
+11-540-830-1,pear1247,Pear,1774,i si gip,phonetic,"avaricious, stingy",NA,NA,NA,NA,rough/hard
+11-540-831-1,NA,SAN,1774,kɔ:n.44 kɔŋ.42ʔ,phonetic,"avaricious, stingy",NA,NA,NA,NA,rough/hard
+11-540-831-2,NA,SAN,1774,hɛ:n.24 sap.44,phonetic,"avaricious, stingy",NA,NA,NA,NA,rough/hard
+11-540-832-1,suoy1242,Kasong,1774,khiniəu.C,phonetic,"avaricious, stingy",NA,< T,NA,NA,rough/hard
+11-540-833-1,samr1245,Samre,1774,kasɨm.C niəw.B,phonetic,"avaricious, stingy",NA,< T,NA,NA,rough/hard
+11-540-834-1,chon1284,Chong,1774,khi:.C niaw.A,phonetic,"avaricious, stingy",NA,< T,NA,NA,rough/hard
+11-540-835-1,west2394,KNB (a Pearic variety),1774,lʔî:t,phonetic,"avaricious, stingy",NA,NA,NA,NA,rough/hard
+11-540-836-1,suri1265,Surin Khmer,1774,kantrɨh,phonetic,"avaricious, stingy",NA,NA,NA,NA,rough/hard
+11-540-838-1,oduu1239,Iduh,1774,câj,phonetic,"avaricious, stingy",NA,NA,NA,NA,rough/hard
+11-540-839-1,mang1378,Mang Ch,1774,ha.51 ti.35,phonetic,"avaricious, stingy",NA,NA,NA,NA,rough/hard

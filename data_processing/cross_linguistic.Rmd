@@ -1,0 +1,671 @@
+---
+title: "Data processing for rough R: cross-linguistic data A4"
+author: "Márton Sóskuthy"
+output: html_document
+---
+
+This script assembles the cross-linguistic data set analysed in the last part of the paper. The cross-linguistic data set contains data from:
+
+- Google Translate (see A2)
+- Chirila (ref XXX) -- Australian languages
+- Reflex (ref XXX) -- African languages
+- Intercontinental Dictionary Series (ref XXX) - a variety of languages
+
+The Google Translate data has been already processed for A2. The rest of the data are processed in this file and then all four data sets are merged together.
+
+We exclude Indo-European languages and Hungarian as these have already been analysed elsewhere.
+
+The core data sets are as follows:
+- ../final_raw/google_translate.csv: the processed google translate data (mostly Indo-European, but these will be excluded)
+- ../raw_data/a4_cross_linguistic/chirila.csv: chirila
+- ../raw_data/a4_cross_linguistic/reflex_african_117.csv
+- ../raw_data/a4_cross_linguistic/IDS.csv
+
+The following supplementary data sets are loaded:
+
+- ../final_raw/english_norms.csv: roughness norms for English -- these will be used to assign rough / smooth labels to words in the data set
+- ../raw_data/a4_cross_linguistic/autotyp.csv: AutoTyp cross-linguistic language data for establishing area / language family
+- ../raw_data/a4_cross_linguistic/autotyp_additions.csv: about 70 additions to AutoTyp (these are not in the original data set)
+- ../raw_data/a4_cross_linguistic/glottolog_3.1_languoid.csv: XXX
+- ../raw_data/a4_cross_linguistic/all_language_info.csv: metadata for individual languages compiled by Bodo
+- ../raw_data/a4_cross_linguistic/phoible.csv: inventory data (can be used for determining whether language has a trill)
+- ../raw_data/a4_cross_linguistic/phoible_R-type.csv: which IPA symbols correspond to trills? (compiled by Bodo)
+
+```{r}
+# load packages:
+library(tidyverse)
+library(stringr)
+
+# load data:
+
+eng <- read_csv('../final_data/english_norms.csv')
+trs <- read_csv('../final_data/google_translate.csv')
+chir <- read_csv('../raw_data/a4_cross_linguistic/chirila.csv')
+reflex <- read_csv('../raw_data/a4_cross_linguistic/reflex_african_117.csv') %>%
+	mutate_all(as.character)
+IDS <- read_csv('../raw_data/a4_cross_linguistic/IDS.csv')
+lang_info <- read_csv('../raw_data/a4_cross_linguistic/all_language_info.csv') %>%
+	mutate_all(as.character)
+phoible <- read_csv('../raw_data/a4_cross_linguistic/phoible.csv')
+r_type <- read_csv('../raw_data/a4_cross_linguistic/phoible_R-type.csv') %>%
+	mutate_all(as.character)
+auto <- read_csv('../raw_data/a4_cross_linguistic/autotyp.csv')
+auto_add <- read_csv('../raw_data/a4_cross_linguistic/autotyp_additions.csv')
+glotto <- read_csv('../raw_data/a4_cross_linguistic/glottolog_3.1_languoid.csv')
+```
+
+We now rename columns across the four key data sets to make it easier to merge the data sets further down the line.
+
+```{r}
+chir <- rename(chir,
+	Language = StdLanguageName,
+	Form = PhonemicisedIPA,
+	Meaning = Std_Gloss,
+	ISO_code = `ISO Code`,
+	Glotto_code = `Glottolog ID`) %>% 
+	select(Language, Meaning, Form, ISO_code, Glotto_code)
+
+# for reflex, we also filter out non-adjectives
+
+reflex <- rename(reflex,
+	Language = langue,
+	Form = FRM,
+	Meaning = TRA,
+	POS = CGR) %>%
+	select(Language, Meaning, Form, POS) %>%
+	filter(POS %in% c('id', 'adj', 'qlt')) %>%
+	select(-POS)
+
+IDS <- rename(IDS,
+	Language = Language_name,
+	Form = Value,
+	Meaning = Concept,
+	Glotto_code = Language_ID) %>%
+	select(Language, Meaning, Form, Glotto_code)
+
+google <- rename(trs,
+	Language = language,
+	Form = trans,
+	Meaning = eng_orig,
+	ISO_code = iso639.3) %>%
+	select(Language, Meaning, Form, ISO_code)
+
+# Get rid of the 'avaricious' label, which was regexed because of 'stingy',
+# and also of those that have hardness-related, not roughness-related meanings:
+
+IDS <- filter(IDS, Meaning != 'avaricious, stingy',
+	Meaning %in% eng$Word)
+```
+
+We'll continue processing these data sets separately for a while, so it's useful to also break down the lang_info data set into separate subsets corresponding to each major data set. Merge Autotyp info into data frames. Due to the different structure / requirements of the different data sets, we do this separately for each of them.
+
+```{r}
+IDS_info <- filter(lang_info, Dataset == 'IDS')
+chir_info <- filter(lang_info, Dataset == 'Chirila')
+reflex_info <- filter(lang_info, Dataset == 'Reflex')
+google_info <- filter(lang_info, Dataset == 'Google')
+```
+
+We now add the following columns to the data sets: ISO codes from Autotyp (already done for Google), Phoible codes (essentially the same ISO codes as used by Autotyp with occasional discrepancies) and a column that codes for whether the rhotic in that language is a trill (if information for that language was available).
+
+```{r}
+# Chirila:
+matches <- match(chir$Language, chir_info$Language)
+chir$ISO_code <- chir_info[matches, ]$AutotypMatch
+chir$Phoible_code <- chir_info[matches, ]$PhoibleMatch
+chir$Trill <- chir_info[matches, ]$Trill
+
+# Reflex:
+matches <- match(reflex$Language, reflex_info$Language)
+reflex$ISO_code <- reflex_info[matches, ]$AutotypMatch
+reflex$Phoible_code <- reflex_info[matches, ]$PhoibleMatch
+reflex$Trill <- reflex_info[matches, ]$Trill
+
+# Google (already has ISO codes)
+matches <- match(google$Language, google_info$Language)
+google$Phoible_code <- google_info[matches, ]$PhoibleMatch
+google$Trill <- google_info[matches, ]$Trill
+
+## IDS
+
+matches <- match(IDS$Language, IDS_info$Language)
+IDS$ISO_code <- IDS_info[matches, ]$AutotypMatch
+IDS$Phoible_code <- IDS_info[matches, ]$PhoibleMatch
+IDS$Trill <- IDS_info[matches, ]$Trill
+
+
+# remove temporary info files:
+
+rm(IDS_info, chir_info, reflex_info, google_info)
+```
+
+Skipping this for now:
+(Do we need glottolog info? Isn't Autotyp enough?)
+
+```{r}
+# ## Add Glottolog info, Reflex:
+# 
+# reflex$Glotto_code <- glotto[match(reflex$ISO_code, glotto$iso639P3code), ]$id
+# 
+# ## Hand-add the missing information:
+# 
+# reflex[reflex$Language == 'Kaado', ]$Glotto_code <- 'kaad1238'
+# reflex[reflex$Language == 'Yoómbe', ]$Glotto_code <- 'yoom1238'
+# reflex[reflex$Language == 'Kanuri', ]$Glotto_code <- 'kanu1279'
+# reflex[reflex$Language == 'Nembe', ]$Glotto_code <- 'nemb1238'
+# 
+# ## Add Glottolog info, Google:
+# # (when a particular variety was chosen to stand in for the family was chosen this
+# # does not affect the results as the family id's would be the same):
+# 
+# google$Glotto_code <- glotto[match(google$ISO_code, glotto$iso639P3code), ]$id
+# google[google$Language == 'Azeerbaijani', ]$Glotto_code <- 'nort2697'
+# google[google$Language == 'Croatian', ]$Glotto_code <- 'croa1245'
+# google[google$Language == 'Estonian', ]$Glotto_code <- 'esto1258'
+# google[google$Language == 'Gujarati', ]$Glotto_code <- 'guja1252'
+# google[google$Language == 'Malagasy', ]$Glotto_code <- 'anta1255'
+# google[google$Language == 'Pashto', ]$Glotto_code <- 'cent1973'
+# google[google$Language == 'Serbian', ]$Glotto_code <- 'serb1264'
+```
+
+Re-ordering / filtering columns in data sets for easier merging.
+
+```{r}
+IDS <- select(IDS, Language,
+	ISO_code, Phoible_code, Meaning, Form, Trill)
+reflex <- select(reflex, Language,
+	ISO_code, Phoible_code, Meaning, Form, Trill)
+chir <- select(chir, Language,
+	ISO_code, Phoible_code, Meaning, Form, Trill)
+google <- select(google, Language,
+	ISO_code, Phoible_code, Meaning, Form, Trill)
+```
+
+The Reflex data set requires further work: many of the meanings in the meaning column are multiword descriptions or in French. These need to be matched to the closest words in the English norms data set. We use a look-up table approach. Some words are excluded (these retain their NA values in the look-up table).
+
+```{r}
+meaning_conversion <- tibble(Reflex = reflex$Meaning, Meaning = NA)
+
+x <- meaning_conversion$Reflex == 'from cùlùkàá ‘be slippery, slick, or slimy’'
+meaning_conversion[x, ]$Meaning <- 'slippery'
+
+x <- meaning_conversion$Reflex == 'flat, smooth [...]'
+meaning_conversion[x, ]$Meaning <- 'smooth'	# alternative 'flat'
+
+x <- meaning_conversion$Reflex == 'rough, bumpy ; burning, very hot'
+meaning_conversion[x, ]$Meaning <- 'rough'	# alternative 'bumpy'
+
+x <- meaning_conversion$Reflex == 'having a rough surface, bumpy'
+meaning_conversion[x, ]$Meaning <- 'rough'	# alternative 'bumpy'
+
+x <- meaning_conversion$Reflex == 'smooth'
+meaning_conversion[x, ]$Meaning <- 'smooth'
+
+x <- meaning_conversion$Reflex == 'describes the surface of something, hairy, scraggly, rough, uneven, bumpy, curvaceous, plump'
+meaning_conversion[x, ]$Meaning <- 'rough'
+
+x <- meaning_conversion$Reflex == 'describes something smooth [...]'
+meaning_conversion[x, ]$Meaning <- 'smooth'
+
+x <- meaning_conversion$Reflex == 'smooth [...]'
+meaning_conversion[x, ]$Meaning <- 'smooth'
+
+x <- meaning_conversion$Reflex == 'rugueux'
+meaning_conversion[x, ]$Meaning <- 'rough'
+
+x <- meaning_conversion$Reflex == 'lisse'
+meaning_conversion[x, ]$Meaning <- 'smooth'
+
+x <- meaning_conversion$Reflex == 'visqueux, lisse, gluant'
+meaning_conversion[x, ]$Meaning <- 'smooth'
+
+x <- meaning_conversion$Reflex == 'surface lisse'
+meaning_conversion[x, ]$Meaning <- 'smooth'
+
+x <- meaning_conversion$Reflex == 'fait un dôme tout lisse'
+meaning_conversion[x, ]$Meaning <- 'smooth'
+
+x <- meaning_conversion$Reflex == 'touffu et lisse'
+meaning_conversion[x, ]$Meaning <- 'smooth'
+
+x <- meaning_conversion$Reflex == 'très rugueux'
+meaning_conversion[x, ]$Meaning <- 'rough'
+
+x <- meaning_conversion$Reflex == 'rugueux, râpeux'
+meaning_conversion[x, ]$Meaning <- 'rough'
+
+x <- meaning_conversion$Reflex == 'lisse et oblong'
+meaning_conversion[x, ]$Meaning <- 'smooth'
+
+x <- meaning_conversion$Reflex == 'bien lisse'
+meaning_conversion[x, ]$Meaning <- 'smooth'
+
+x <- meaning_conversion$Reflex == 'lisse, glissant'
+meaning_conversion[x, ]$Meaning <- 'smooth'
+
+x <- meaning_conversion$Reflex == '1 rough; tough'
+meaning_conversion[x, ]$Meaning <- 'rough'
+
+x <- meaning_conversion$Reflex == 'rough, uneven; not smooth'
+meaning_conversion[x, ]$Meaning <- 'rough'
+
+x <- meaning_conversion$Reflex == 'smooth; not rough'
+meaning_conversion[x, ]$Meaning <- 'smooth'
+
+x <- meaning_conversion$Reflex == 'smooth and hard ; noise of swallowing.'
+meaning_conversion[x, ]$Meaning <- 'smooth'
+
+x <- meaning_conversion$Reflex == 'be rough (voice).'
+meaning_conversion[x, ]$Meaning <- 'rough'
+
+x <- meaning_conversion$Reflex == 'smooth.'
+meaning_conversion[x, ]$Meaning <- 'smooth'
+
+x <- meaning_conversion$Reflex == 'be rough (road)'
+meaning_conversion[x, ]$Meaning <- 'rough'
+
+x <- meaning_conversion$Reflex == 'have rough skin (from eruption)'
+meaning_conversion[x, ]$Meaning <- 'rough'
+
+x <- meaning_conversion$Reflex == 'be rough (as stone)'
+meaning_conversion[x, ]$Meaning <- 'rough'
+
+x <- meaning_conversion$Reflex == 'rough (rice), in the husk'
+meaning_conversion[x, ]$Meaning <- 'rough'
+
+x <- meaning_conversion$Reflex == '1° rugueux au toucher.'
+meaning_conversion[x, ]$Meaning <- 'rough'
+
+x <- meaning_conversion$Reflex == 'rugueux.'
+meaning_conversion[x, ]$Meaning <- 'rough'
+
+x <- meaning_conversion$Reflex == 'rude, rugueux (au toucher).'
+meaning_conversion[x, ]$Meaning <- 'rough'
+
+x <- meaning_conversion$Reflex == 'souple / lisse'
+meaning_conversion[x, ]$Meaning <- 'smooth'
+
+x <- meaning_conversion$Reflex == 'A. lisse. B. éternisé(e)'
+meaning_conversion[x, ]$Meaning <- 'smooth'
+
+x <- meaning_conversion$Reflex == '1. rugueux(euse). 2. rocailleux(euse)'
+meaning_conversion[x, ]$Meaning <- 'rough'
+
+x <- meaning_conversion$Reflex == '1. rocailleux(euse). 2. rugueux(euse)'
+meaning_conversion[x, ]$Meaning <- 'rough'
+
+x <- meaning_conversion$Reflex == 'très rugueux(euse)'
+meaning_conversion[x, ]$Meaning <- 'rough'
+
+x <- meaning_conversion$Reflex == 'de couleur foncée, lisse'
+meaning_conversion[x, ]$Meaning <- 'smooth'
+
+x <- meaning_conversion$Reflex == 'rough to the touch'
+meaning_conversion[x, ]$Meaning <- 'rough'
+
+x <- meaning_conversion$Reflex == '1. smooth'
+meaning_conversion[x, ]$Meaning <- 'smooth'
+
+x <- meaning_conversion$Reflex == 'smooth; greasy'
+meaning_conversion[x, ]$Meaning <- 'smooth'
+
+x <- meaning_conversion$Reflex == 'very dry; rustling; very rough to touch (cf. férukáaférukáa)'
+meaning_conversion[x, ]$Meaning <- 'rough'
+
+x <- meaning_conversion$Reflex == 'rough (of skin); not smooth or polished'
+meaning_conversion[x, ]$Meaning <- 'rough'
+
+x <- meaning_conversion$Reflex == '(of body) rough; not smooth'
+meaning_conversion[x, ]$Meaning <- 'rough'
+
+x <- meaning_conversion$Reflex == 'ruffled; shaggy; rough-haired; unkempt; uncombed'
+meaning_conversion[x, ]$Meaning <- 'rough'
+
+x <- meaning_conversion$Reflex == 'shaggy; with rough dried-up twigs; bristly; setaceous'
+meaning_conversion[x, ]$Meaning <- 'bristly'
+
+x <- meaning_conversion$Reflex == 'shaggy; with rough dried-up twigs; bristly; setaceous'
+meaning_conversion[x, ]$Meaning <- 'bristly'
+
+x <- meaning_conversion$Reflex == 'rough; not smooth'
+meaning_conversion[x, ]$Meaning <- 'rough'
+
+x <- meaning_conversion$Reflex == 'smooth; not wrinkled or hairy; not pitted or scored'
+meaning_conversion[x, ]$Meaning <- 'smooth'
+
+x <- meaning_conversion$Reflex == 'smooth; well-trimmed; not pitted'
+meaning_conversion[x, ]$Meaning <- 'smooth'
+
+x <- meaning_conversion$Reflex == 'smooth; free from projections'
+meaning_conversion[x, ]$Meaning <- 'smooth'
+
+x <- meaning_conversion$Reflex == 'slender and smooth'
+meaning_conversion[x, ]$Meaning <- 'smooth'
+
+x <- meaning_conversion$Reflex == 'soft; not rough or coarse; quilted; snug'
+meaning_conversion[x, ]$Meaning <- 'smooth'
+
+x <- meaning_conversion$Reflex == 'sleek; smooth and soft and glossy; smoothly gliding'
+meaning_conversion[x, ]$Meaning <- 'sleek'
+
+x <- meaning_conversion$Reflex == 'smooth (of powder, pomade, etc., on skin); ground fine (of tobacco); boiled white (of oil)'
+meaning_conversion[x, ]$Meaning <- 'smooth'
+
+x <- meaning_conversion$Reflex == 'dry and rough'
+meaning_conversion[x, ]$Meaning <- 'rough'
+
+x <- meaning_conversion$Reflex == 'coarse, not soft (grain)'
+meaning_conversion[x, ]$Meaning <- 'coarse'
+
+x <- meaning_conversion$Reflex == 'gras, lisse ; être lisse, avoir de l’embonpoint'
+meaning_conversion[x, ]$Meaning <- 'smooth'
+
+reflex$Meaning <- meaning_conversion[match(reflex$Meaning, meaning_conversion$Reflex), ]$Meaning
+```
+
+We now merge the data sets and add a column that identifies the original data set.
+
+```{r}
+google$Dataset <- "Google"
+chir$Dataset <- "Chirila"
+reflex$Dataset <- "Reflex"
+IDS$Dataset <- "IDS"
+
+xling <- bind_rows(google, chir, reflex, IDS)
+```
+
+Edits to fix Chirila / IDS ISO codes:
+
+```{r}
+xling <- xling %>%
+  mutate(ISO_code=recode(ISO_code,
+                         wik="wig", # Wik-Ngathan
+                         xwk="nbx", # Wangkumara
+                         nha="yia", # Nhanta
+                         pnb="pan") # Punjabi
+         )
+
+```
+
+Language family and areal info are merged from Autotyp and roughness predictors are added from eng.
+
+```{r}
+# delete NA Languages
+xling <- filter(xling, !is.na(Language))
+
+# adding autotyp data
+auto_matches <- match(xling$ISO_code, auto$ISO639.3, incomparables=c(NA))
+xling$Family <- auto[auto_matches, ]$stock
+xling$Branch <- auto[auto_matches, ]$mbranch
+xling$Area <- auto[auto_matches, ]$area
+xling$Continent <- auto[auto_matches, ]$continent
+
+# adding missing language data based on autotyp_add
+rows_to_fill <- which(xling$Language %in% auto_add$Language)
+language_vector <- xling$Language[rows_to_fill]
+xling[rows_to_fill, c("Family","Branch","Area","Continent")] <- auto_add[match(language_vector, auto_add$Language),c("Family","Branch","Area","Continent")]
+
+# there are a few that are still NA for Family, Branch, etc. -- these will be excluded deliberately
+# because ...
+# 1) They are reconstructed / ancient languages
+# 2) No language metadata was found after extensive search
+
+xling <- filter(xling, !is.na(Family))
+
+#write_csv(xling[is.na(xling$Family),], "../raw_data/not_in_autotyp.csv")
+#write_csv(xling[is.na(xling$ISO_code),], "../raw_data/not_in_autotyp_2.csv")
+
+# adding roughness variables
+xling <- left_join(xling, dplyr::select(eng, Word, Rough.M), by = c('Meaning' = 'Word')) %>%
+  mutate(rough=Rough.M >= 0)
+```
+
+At this point it's useful to exclude:
+1) Words with no value for `Meaning' (i.e. missing translation)
+2) Words with no value for Rough.M (in our case, this means words that refer to concepts related to hardness but not roughness)
+
+```{r}
+xling <- xling %>% 
+  filter(!is.na(Meaning) & !is.na(Rough.M))
+```
+
+We now add info about whether the /r/ in the language is a trill or not. This is complicated by the fact that some languages have no /r/'s and some of them have multiple rhotics.
+
+Note to Bodo: I'm using the Phoible features here, as I think it's more transparent. I've checked through the output and it seems identical to what you found (at least with respect to presence / absence of trills).
+
+```{r}
+phoible <- filter(phoible, !is.na(trill))
+
+# we need to remove duplicate entries from Phoible: i.e. where several source data sets
+# represent the same language
+phoible$SourceLanguageCode <- paste(phoible$Source, phoible$LanguageCode)
+phoible_unique_datasets <- phoible %>%
+  arrange(factor(Source, levels=c("upsid","saphon","ra", "spa", "gm", "ph", "aa"))) %>%
+  dplyr::select(Source, LanguageCode, SourceLanguageCode) %>%
+  unique() %>%
+  mutate(duplicate=duplicated(LanguageCode)) %>%
+  filter(!duplicate)
+to_keep <- phoible_unique_datasets$SourceLanguageCode
+phoible <- filter(phoible, SourceLanguageCode %in% to_keep)
+
+rhotic_type <- function (ph_rows) {
+  out <- c()
+  if (nrow(ph_rows)==0) {return(NA)}
+  for (r in 1:nrow(ph_rows)) {
+    ph_row <- ph_rows[r,]
+    if (ph_row$trill=="+") {
+      out <- c(out, "trill")
+    } else if (ph_row$tap=="+" & ph_row$labiodental!="+") {
+      out <- c(out, "tap")
+    } else if (ph_row$approximant=="+" & ph_row$coronal=="+" & ph_row$lateral!="+" & ph_row$syllabic!="+") {
+      out <- c(out, "approximant")
+    }
+  }
+  return(out)
+}
+
+# 48: romanian
+
+all_matches <- unique(xling$Phoible_code)
+all_matches <- all_matches[!is.na(all_matches)]
+all_rs <- vector('list', length = length(all_matches))
+# iterate through all languages with an existing Phoible code
+for (i in 1:length(all_matches)) {
+  # create list of rhotic types
+  rs <- rhotic_type(filter(phoible, LanguageCode == all_matches[i]))
+	all_rs[[i]] <- rs
+	if (length(rs) == 0) {
+		all_rs[[i]] <- 'no rhotic'
+	}
+}
+
+# function that...
+# 1) keeps NAs as NAs (languages for which no Phoible data is available)
+# 2) if all rhotics are of type X, it returns that type
+# 3) if there's no rhotic, it returns "no rhotic" (this is actually achieved by 2 above)
+# 4) otherwise returns the label mixed (meaning that there is more than one rhotic type)
+check_rhotics <- function (x) {
+  if (length(x)==1 && is.na(x)) {
+    return (x)
+  } else if (mean(x==x[1])==1) {
+    return(x[1])
+  } else {
+    return ("mixed")
+  }
+}
+
+all_types <- unlist(lapply(all_rs, check_rhotics))
+
+# adding R type data to main data set  
+xling$R_type <- all_types[match(xling$Phoible_code, all_matches)]
+```
+
+For Chirila, we have detailed phonemic codes that suggest R-type. We can use these to add further data for those languages where Phoible failed (and where we don't already have Trill codes).
+
+```{r}
+chir_langs <- unique(filter(xling, Dataset == 'Chirila' & is.na(R_type) & is.na(Trill) & !is.na(Language))$Language)
+# (this captures some languages that will be excluded later, e.g. some 
+# ancient/reconstructed ones - but that's ok, as these will indeed be excluded!)
+R_type <- character(length(chir_langs))
+for (i in seq_along(chir_langs)) {
+	lang <- chir_langs[i]
+	rhotics <- unique(unlist(str_split(filter(xling, Language == lang)$Form, ''))) %>%
+	  str_extract("r|ɾ|ɹ") %>%
+	  recode(r="trill",
+	         ɾ="tap",
+	         ɹ="approximant")
+	rhotics <- rhotics[!is.na(rhotics)]
+	# if no rhotics are found, code as NA - we ought to treat this as no info about rhotics,
+	# as there are very few words for each language
+	if (length(rhotics)==0) {rhotics <- NA}
+	R_type[i] <- check_rhotics(rhotics)
+}
+
+# we now add this data to the main data set
+rows_to_write_to <- xling$Language %in% chir_langs
+corresponding_indices_in_R_type <- as.vector(na.omit(match(xling$Language, chir_langs)))
+xling[rows_to_write_to, ]$R_type <- R_type[corresponding_indices_in_R_type]
+```
+
+We now add info about trills based on Phoible & Chirila where not already available.
+
+```{r}
+# adding info about trills
+xling[which(xling$R_type=="trill" & is.na(xling$Trill)),]$Trill <- "yes"
+```
+
+Minor fixes.
+
+```{r}
+## Serbian and Croatian are the same language; Croatian has more data:
+
+xling <- filter(xling,
+	!(Language %in% c('Serbian', 'Serbo-Croatian')))
+
+## Exclude unknown:
+
+xling <- filter(xling,
+	Language != 'unknown')
+
+## Exclude ancient languages:
+
+ancients <- c('Ancient Greek', 'Sanskrit', 'Tocharian A', 'Tocharian B', 'Gothic',
+	'Hittite', 'Middle High German', 'Middle English', 'Old Norse',
+	'Old Irish', 'Old High German', 'Old English', 'Old Church Slavonic')
+xling <- filter(xling,
+	!(Language %in% ancients))
+
+## Exclude Proto-languages:
+
+protos <- c('pNY', 'pNY (D)', 'Proto Polynesian', 'Proto-Mantharta',
+	'Proto-Pama-Nyungan')
+xling <- filter(xling,
+	!(Language %in% protos))
+
+## Merge Portuguese:
+
+xling[xling$Language == 'Portuguese (Portugal Brazil)', ]$Language <- 'Portuguese'
+
+## Merge Nung languages:
+xling[xling$Language %in% c('Nung-Fengshan', 'Nung-Lazhai', 'Nung-Ninbei'), ]$Language <- 'Nung'
+
+## Merge Sanapaná languages and fix Glottocode:
+
+san <- c('Sanapaná (Angaité dialect)', 'Sanapaná (Enlhet dialect)')
+xling[xling$Language %in% san, ]$Language <- 'Sanapaná'
+
+## Merge Bulang languages 
+
+xling[xling$Language %in% c('Bulang', 'Bulang-2', 'Bulang-3'), ]$Language <- 'Bulang'
+
+## Merge Shan languages (they all have the same Glottocode in Glottolog),
+## reassign the one non-overlapping word:
+
+xling[xling$Form == 'pe:ŋ.1 kan.3', ]$Language <- 'Shan (Northern Shan dialect)'
+xling <- filter(xling, Language != 'Shan')
+
+## The Tai Khün and Tai Lü languages are small and contain almost the same information
+## plus family, merge:
+
+xling[xling$Form == 'pe:ŋ.1', ]$Language <- 'Tai Lü'
+xling <- filter(xling, Language != 'Tai Khün')
+
+## Get rid of Armenian which we already have abundantly in the Google dataset:
+
+arms <- c('Armenian (Eastern variety)', 'Armenian (Western variety)')
+xling <- filter(xling, !(Language %in% arms))
+
+## Kemie's, have same glottocode:
+
+xling[xling$Form == 'hiap.33', ]$Language <- 'Keme (Kemie variety)'
+
+## Exclude English and Hungarian since they are already in the main analysis
+## ... and we don't want to perform a confirmatory test on the same data:
+
+xling <- filter(xling, !(Language %in% c('English', 'Hungarian')))
+
+## Cuoi, LiHa and Tum from IDS have the same Glottocode in Glottolog:
+
+xling <- filter(xling, Form != 'lo.33 ńo.33')	# same critical phonemes as other varieties
+xling <- filter(xling, Form != 'kle:n.31')	# same critical phonemes as other varieties
+xling[which(xling$Language %in% c('LiHa','Tum')), ]$Language <- 'Cuoi'	# language of glottocode
+
+## Same for "Kurnu" and "Mayi-Yapi":
+
+xling[xling$Language == 'Kurnu', ]$Language <- 'Paakantyi'
+xling[xling$Language == 'Mayi-Yapi', ]$Language <- 'Mayi-Kulan'	# also same autotyp
+xling[xling$Language == 'Yugarabul', ]$ISO_code <- 'yxg'
+xling[xling$Language == 'Yugarabul', ]$Phoible_code <- 'yxg'
+xling[xling$Language == 'Yugarabul', ]$Language <- 'Yagara'
+
+## Same for the varieties "Ese Ejja" and "Ese Ejja (Huarayo)":
+
+xling[xling$Language == 'Ese Ejja', ]$Trill <- 'yes'
+xling[xling$Language == 'Ese Ejja', ]$R_type <- 'no rhotic'
+xling[xling$Language == 'Ese Ejja (Huarayo)', ]$Language <- 'Ese Ejja'
+
+## Merge "Southern Tai (Songkhla variety)" and "Thai (Korat variety)":
+
+thais <- c('Southern Tai (Songkhla variety)', 'Thai (Korat variety)')
+xling[xling$Language %in% thais, ]$Language <- 'Thai'
+
+## Delete Modern Greek as we already have this in the google data:
+
+xling <- filter(xling, Language != 'Modern Greek')
+```
+
+We exclude languages that have no rhotics. Note that this also includes some languages where the phonetic value of rhotics is unusual, e.g. uvular fricatives (Breton, Hebrew) or retroflex fricatives (Hanoi Vietnamese).
+
+```{r}
+xling$R_type[is.na(xling$R_type)] <- "no info"
+xling <- filter(xling, R_type!="no rhotic")
+```
+
+We now add a column that codes whether a specific form contains an /r/. For the Google Translate data, this has already been done using regexps. For the other data sets, we perform the search below.
+
+```{r}
+#### add r / l from Google Translate data
+# create a dataset + language + word ID column to merge xling and the Google Translate data frame by
+xling$dataset.lang.form <- paste(xling$Dataset, xling$Language, xling$Form)
+# fix Portuguese in the Google Translate data set
+trs$language <- recode(trs$language, `Portuguese (Portugal Brazil)`="Portuguese")
+trs$dataset.lang.form <- paste("Google", trs$language, trs$trans)
+
+# merge data sets (this also initialises r and l columns)
+xling <- left_join(xling, dplyr::select(trs, dataset.lang.form, r, l), by="dataset.lang.form") %>%
+  dplyr::select(-dataset.lang.form)
+
+#### get all the remaining r's / l's:
+
+not_google <- filter(xling, Dataset != 'Google')
+xling[xling$Dataset != 'Google', ]$r <- mutate(not_google, r = str_detect(Form, '(r)|(R)|(r̃)|(ṛ)|(ɾ)|(ɽ)|(ɹ)'))$r
+xling[xling$Dataset != 'Google', ]$l <- mutate(not_google, 
+                                               l = str_detect(Form, '(l)|(ľ)|(ľ)|(ļ)|(l̪)|(ł)|(ɭ)|(ʎ)'))$l
+rm(not_google)
+```
+
+Save file.
+
+```{r}
+write_csv(xling, "../final_data/cross_linguistic.csv")
+```
