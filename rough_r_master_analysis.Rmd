@@ -882,7 +882,7 @@ xling_no_trill_rs %>%
   ungroup()
 ```
 
-#### 4.1.1 Beta regression for languages with no trills
+#### 4.2.1 Beta regression for languages with no trills
 
 We model the English-based ratings as a function of the presence of r/l in the cross-linguistic data set. We include random effects by Family/Area/Language. (I don't think "Meaning" can be included as a random factor here, as words with the same meaning always have the same roughness rating)
 
@@ -926,7 +926,7 @@ Model predictions as usual: (note that conf interval around difference by R does
 preds <- beta_summary(xling_nt_brm_beta_mod, dat=xling_trill, rpred="r", lpred="l", binary_pred=T, printPlease=T)
 ```
 
-#### 4.1.2 Logistic regression for all words in languages with trills
+#### 4.2.2 Logistic regression for all words in languages with no trills
 
 We model the presence of r/l as a function of roughness (binary) in the cross-linguistic data set. We include random effects by Family/Area/Language/Meaning.
 
@@ -978,7 +978,7 @@ x <- logistic_summary(xling_nt_brm_logistic_mod_r, dat=xling_trill, outcome="/r/
 y <- logistic_summary(xling_nt_brm_logistic_mod_l, dat=xling_trill, outcome="/l/", roughpred="rough")
 ```
 
-#### 4.1.3 Logistic regression for rough/smooth in languages with trills
+#### 4.2.3 Logistic regression for rough/smooth in languages with no trills
 
 We model the presence of r/l as a function of roughness (binary) in the cross-linguistic data set limited to the words rough/smooth only (the expectation is that the effect would be particularly strong here). We include random effects by Family/Area/Language.
 
