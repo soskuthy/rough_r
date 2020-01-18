@@ -25,6 +25,7 @@ beta_summary <- function (model, dat, rpred="all.r", lpred="all.l", binary_pred=
   
   # 1b
   pred_rating_diff_R <- pred_rating_yes_R - pred_rating_no_R
+  pp_over_zero_R <- mean(pred_rating_diff_R > 0)
   
   # 2a - no L
   pred_rating_no_L <- (plogis(
@@ -41,6 +42,7 @@ beta_summary <- function (model, dat, rpred="all.r", lpred="all.l", binary_pred=
   
   # 2b
   pred_rating_diff_L <- pred_rating_yes_L - pred_rating_no_L
+  pp_below_zero_L <- mean(pred_rating_diff_L < 0)
   
   if (printPlease) {
     txt <- paste0(
@@ -54,7 +56,8 @@ beta_summary <- function (model, dat, rpred="all.r", lpred="all.l", binary_pred=
       "predicted roughness difference (R - no R):\n",
       "   diff: ", round(mean(pred_rating_diff_R), 2), 
       " [", round(quantile(pred_rating_diff_R, 0.025), 2), 
-      ",", round(quantile(pred_rating_diff_R, 0.975), 2), "]\n\n",
+      ",", round(quantile(pred_rating_diff_R, 0.975), 2), 
+      "], ", round(pp_over_zero_R*100, 2), "% over zero\n\n",
       "predicted roughness rating based on L:\n",
       "   without L: ", round(mean(pred_rating_no_L), 2), 
       " [", round(quantile(pred_rating_no_L, 0.025), 2), 
@@ -65,7 +68,8 @@ beta_summary <- function (model, dat, rpred="all.r", lpred="all.l", binary_pred=
       "predicted roughness difference (L - no L):\n",
       "   diff: ", round(mean(pred_rating_diff_L), 2), 
       " [", round(quantile(pred_rating_diff_L, 0.025), 2), 
-      ",", round(quantile(pred_rating_diff_L, 0.975), 2), "]\n",
+      ",", round(quantile(pred_rating_diff_L, 0.975), 2), 
+      "], ", round(pp_below_zero_L*100, 2), "% below zero\n",
       sep="")
     cat(txt)
   }
@@ -74,7 +78,8 @@ beta_summary <- function (model, dat, rpred="all.r", lpred="all.l", binary_pred=
 }
 
 
-logistic_summary <- function (model, dat, outcome="/r/", roughpred="rough", binary_pred=T, printPlease=T) {
+logistic_summary <- function (model, dat, outcome="/r/", roughpred="rough", pp_over_zero=T,
+                              binary_pred=T, printPlease=T) {
   brm_beta_post <- posterior_samples(model)
   roughcol <- paste0("b_", roughpred)
   if (binary_pred) {
@@ -94,6 +99,13 @@ logistic_summary <- function (model, dat, outcome="/r/", roughpred="rough", bina
   
   # diff
   pred_prob_diff <- pred_prob_rough - pred_prob_smooth
+  if (pp_over_zero) {
+    pp__zero <- mean(pred_prob_diff > 0)
+    pp_text <- "% over zero"
+  } else {
+    pp__zero <- mean(pred_prob_diff < 0)
+    pp_text <- "% below zero"
+  }
   
   if (printPlease) {
     txt <- paste0(
@@ -107,7 +119,8 @@ logistic_summary <- function (model, dat, outcome="/r/", roughpred="rough", bina
       "predicted difference in probability of ", outcome, " (rough - smooth):\n",
       "   diff: ", round(mean(pred_prob_diff), 2), 
       " [", round(quantile(pred_prob_diff, 0.025), 2), 
-      ",", round(quantile(pred_prob_diff, 0.975), 2), "]\n\n",
+      ",", round(quantile(pred_prob_diff, 0.975), 2), 
+      "], ", round(100*pp__zero, 2), pp_text, "\n\n",
       sep="")
     cat(txt)
   }

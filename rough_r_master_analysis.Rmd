@@ -46,7 +46,7 @@ set.seed(42)
 eng_rf_mod_all <- ranger(eng_rf_all_formula,
 	 data = eng, mtry = round(sqrt(length(eng_rf_all_preds))), num.trees = 5000,
 	 importance = 'permutation')
-# saveRDS(eng_rf_mod_all, "models/eng_rf_mod_all.rds")
+saveRDS(eng_rf_mod_all, "models/eng_rf_mod_all.rds")
 
 # 2) onset only
 eng_rf_onset_preds <- grep("^onset.", colnames(eng), value=T)
@@ -205,8 +205,8 @@ summary(eng_brm_all.l_mod)
 Model predictions.
 
 ```{r}
-x <- logistic_summary(eng_brm_all.r_mod, eng, outcome="/r/", roughpred="rough")
-y <- logistic_summary(eng_brm_all.l_mod, eng, outcome="/l/", roughpred="rough")
+x <- logistic_summary(eng_brm_all.r_mod, eng, outcome="/r/", roughpred="rough", pp_over_zero=T)
+y <- logistic_summary(eng_brm_all.l_mod, eng, outcome="/l/", roughpred="rough", pp_over_zero=F)
 ```
 
 ### 1.5 Descriptive stats / Bayesian logistic regression for English OED data
@@ -272,8 +272,8 @@ summary(eng_brm_pie.l_mod)
 Model predictions.
 
 ```{r}
-x <- logistic_summary(eng_brm_pie.r_mod, eng, outcome="/r/", roughpred="rough")
-y <- logistic_summary(eng_brm_pie.l_mod, eng, outcome="/l/", roughpred="rough")
+x <- logistic_summary(eng_brm_pie.r_mod, eng, outcome="/r/", roughpred="rough", pp_over_zero=T)
+y <- logistic_summary(eng_brm_pie.l_mod, eng, outcome="/l/", roughpred="rough", pp_over_zero=F)
 ```  
 
 ## 2. IE Google Translate data
@@ -322,6 +322,45 @@ ggplot(aes(x=rough, y=prop, fill=l)) +
   facet_wrap(~language) +
   geom_bar(stat="identity") +
   scale_fill_manual(values=c("deepskyblue4","firebrick3"))
+```
+
+The bar plots make it clear that overwhelming majority of languages conform to both patterns. Here's a count of languages where the proportions go in the predicted direction.
+
+```{r}
+# more /r/'s in rough words per language
+more_rs_in_rough <- trs_IE %>%
+  count(language, rough, r) %>%
+  group_by(language, rough) %>%
+  mutate(prop=n / sum(n)) %>%
+  ungroup() %>%
+  filter(r) %>%
+  complete(language, rough, fill=list(r=T, n=0, prop=0)) %>%
+  group_by(language) %>%
+  summarise(more_rs_in_rough = (prop[rough] > prop[!rough])) %>%
+  ungroup()
+cat("The proportion of /r/'s is higher in rough words in", 
+    sum(more_rs_in_rough$more_rs_in_rough), "out of",
+    nrow(more_rs_in_rough), "languages, which is",
+    round(sum(more_rs_in_rough$more_rs_in_rough)*100 / nrow(more_rs_in_rough),2),
+    "per cent\n")
+
+# fewer /l/'s in rough words per language
+fewer_ls_in_rough <- trs_IE %>%
+  count(language, rough, l) %>%
+  group_by(language, rough) %>%
+  mutate(prop=n / sum(n)) %>%
+  ungroup() %>%
+  filter(l) %>%
+  complete(language, rough, fill=list(l=T, n=0, prop=0)) %>%
+  group_by(language) %>%
+  summarise(fewer_ls_in_rough = (prop[rough] < prop[!rough])) %>%
+  ungroup()
+cat("The proportion of /l/'s is lower in rough words in", 
+    sum(fewer_ls_in_rough$fewer_ls_in_rough), "out of",
+    nrow(fewer_ls_in_rough), "languages, which is",
+    round(sum(fewer_ls_in_rough$fewer_ls_in_rough)*100 / nrow(fewer_ls_in_rough),2),
+    "per cent\n")
+
 ```
 
 Bayesian mixed effects logistic modelling (similar to above, but now with additional random effects).
@@ -374,8 +413,8 @@ Model predictions.
   ( [,])
 
 ```{r}
-x <- logistic_summary(trs_IE_brm_r_mod, eng, outcome="/r/", roughpred="rough")
-y <- logistic_summary(trs_IE_brm_l_mod, eng, outcome="/l/", roughpred="rough")
+x <- logistic_summary(trs_IE_brm_r_mod, eng, outcome="/r/", roughpred="rough", pp_over_zero=T)
+y <- logistic_summary(trs_IE_brm_l_mod, eng, outcome="/l/", roughpred="rough", pp_over_zero=F)
 ```
 
 ## 3. Hungarian ratings
@@ -411,6 +450,7 @@ set.seed(450)
 hun_rf_mod_all <- ranger(hun_rf_all_formula,
 	 data = hun_aggr, mtry = round(sqrt(length(hun_rf_all_preds))), num.trees = 5000,
 	 importance = 'permutation')
+saveRDS(hun_rf_mod_all, "models/hun_rf_mod_all.rds")
 ### note:
 # party - here, /r/ is the winner... though it's only minimally different from the
 # ranger output 
@@ -575,9 +615,40 @@ summary(hun_brm_l_mod)
 Model predictions.
 
 ```{r}
-x <- logistic_summary(hun_brm_r_mod, eng, outcome="/r/", roughpred="rough")
-y <- logistic_summary(hun_brm_l_mod, eng, outcome="/l/", roughpred="rough")
+x <- logistic_summary(hun_brm_r_mod, eng, outcome="/r/", roughpred="rough", pp_over_zero=T)
+y <- logistic_summary(hun_brm_l_mod, eng, outcome="/l/", roughpred="rough", pp_over_zero=F)
 ```
+
+We note that running these models on the full data set (i.e. not restricted to words of non-Indo-European origin) yields exactly the same results.
+
+```{r, warning=F, message=F}
+hun_ie <- read_csv("final_data/hun_norms_aggr.csv")
+hun_ie$rough <- hun_ie$roughness >= 0
+
+set.seed(314)
+hun_ie_brm_r_mod <- brm(all.r ~ rough,
+                        data=hun_ie,
+                        prior=hun_brm_priors,
+                        family="bernoulli",
+                        refresh=0)
+summary(hun_ie_brm_r_mod)
+
+set.seed(314)
+hun_ie_brm_l_mod <- brm(all.l ~ rough,
+                        data=hun_ie,
+                        prior=hun_brm_priors,
+                        family="bernoulli",
+                        refresh=0)
+summary(hun_ie_brm_l_mod)
+```
+
+Model predictions.
+
+```{r}
+x <- logistic_summary(hun_ie_brm_r_mod, eng, outcome="/r/", roughpred="rough", pp_over_zero=T)
+y <- logistic_summary(hun_ie_brm_l_mod, eng, outcome="/l/", roughpred="rough", pp_over_zero=F)
+```
+
 
 ## 4. Cross-linguistic analysis
 
@@ -772,8 +843,8 @@ xling_brm_logistic_mod_l <- brm(l ~ rough +
 Model predictions as usual. Note that neither the /l/  nor the /r/ pattern seem strong when our "rough" predictor does not take into account the actual amount of roughness / smoothness for specific words.
 
 ```{r}
-x <- logistic_summary(xling_brm_logistic_mod_r, dat=xling_trill, outcome="/r/", roughpred="rough")
-y <- logistic_summary(xling_brm_logistic_mod_l, dat=xling_trill, outcome="/l/", roughpred="rough")
+x <- logistic_summary(xling_brm_logistic_mod_r, dat=xling_trill, outcome="/r/", roughpred="rough", pp_over_zero=T)
+y <- logistic_summary(xling_brm_logistic_mod_l, dat=xling_trill, outcome="/l/", roughpred="rough", pp_over_zero=F)
 ```
 #### 4.1.3 Logistic regression for rough/smooth in languages with trills
 
@@ -816,8 +887,8 @@ xling_brm_rs_logistic_mod_l <- brm(l ~ rough +
 Model predictions as usual. When focusing on these two extreme words only, the pattern seems to be there.
 
 ```{r}
-x <- logistic_summary(xling_brm_rs_logistic_mod_r, dat=xling_trill, outcome="/r/", roughpred="rough")
-y <- logistic_summary(xling_brm_rs_logistic_mod_l, dat=xling_trill, outcome="/l/", roughpred="rough")
+x <- logistic_summary(xling_brm_rs_logistic_mod_r, dat=xling_trill, outcome="/r/", roughpred="rough", pp_over_zero=T)
+y <- logistic_summary(xling_brm_rs_logistic_mod_l, dat=xling_trill, outcome="/l/", roughpred="rough", pp_over_zero=F)
 ```
 
 ### 4.2 Cross-linguistic analysis of languages *without* trills
@@ -974,8 +1045,8 @@ xling_nt_brm_logistic_mod_l <- brm(l ~ rough +
 Model predictions as usual. No strong patterns either for /r/ or for /l/.
 
 ```{r}
-x <- logistic_summary(xling_nt_brm_logistic_mod_r, dat=xling_trill, outcome="/r/", roughpred="rough")
-y <- logistic_summary(xling_nt_brm_logistic_mod_l, dat=xling_trill, outcome="/l/", roughpred="rough")
+x <- logistic_summary(xling_nt_brm_logistic_mod_r, dat=xling_trill, outcome="/r/", roughpred="rough", pp_over_zero=T)
+y <- logistic_summary(xling_nt_brm_logistic_mod_l, dat=xling_trill, outcome="/l/", roughpred="rough", pp_over_zero=F)
 ```
 
 #### 4.2.3 Logistic regression for rough/smooth in languages with no trills
@@ -1019,6 +1090,6 @@ xling_nt_brm_rs_logistic_mod_l <- brm(l ~ rough +
 Model predictions as usual. No patterns!
 
 ```{r}
-x <- logistic_summary(xling_nt_brm_rs_logistic_mod_r, dat=xling_trill, outcome="/r/", roughpred="rough")
-y <- logistic_summary(xling_nt_brm_rs_logistic_mod_l, dat=xling_trill, outcome="/l/", roughpred="rough")
+x <- logistic_summary(xling_nt_brm_rs_logistic_mod_r, dat=xling_trill, outcome="/r/", roughpred="rough", pp_over_zero=T)
+y <- logistic_summary(xling_nt_brm_rs_logistic_mod_l, dat=xling_trill, outcome="/l/", roughpred="rough", pp_over_zero=F)
 ```

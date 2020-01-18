@@ -1,0 +1,203 @@
+---
+title: "Rough R - Plots for publication"
+output:
+  pdf_document: default
+  html_notebook: default
+  html_document:
+    df_print: paged
+---
+
+This file contains the code for the plots that appear in our paper.
+
+## 1. Random forests
+
+We create a plot that combines the results of the random forest analysis with a boxplot for English and Hungarian.
+
+Loading packages & data.
+
+```{r}
+library(tidyverse)
+library(ranger)
+library(brms)
+
+source("scripts/rough_helper.r")
+
+eng <- read_csv("final_data/english_norms.csv")
+hun <- read_csv("final_data/hun_norms_aggr.csv")
+eng_rf_mod_all <- readRDS("models/eng_rf_mod_all.rds")
+hun_rf_mod_all <- readRDS("models/hun_rf_mod_all.rds")
+```
+
+We now extract variable importances for English & Hungarian, and format them.
+
+```{r}
+## Get variable importances for best performing consonant models:
+
+hun_v <- hun_rf_mod_all$variable.importance
+eng_v <- eng_rf_mod_all$variable.importance
+
+## Rule of thumb threshold following Strobl et al. (2009):
+
+eng_thresh <- abs(min(eng_v))
+hun_thresh <- abs(min(hun_v))
+
+## Get the first 10 variable importances:
+
+hun_v_10 <- sort(hun_v, decreasing=T)[1:10]
+eng_v_10 <- sort(eng_v, decreasing=T)[1:10]
+
+## Get rid of redundant text & convert the labels to IPA:
+
+names(eng_v_10) <- names(eng_v_10) %>%
+  str_remove("all.") %>%
+  str_replace('D', 'ð') %>%
+  str_replace('Q', 'ə') %>%
+  str_replace('V', 'ʌ')
+names(hun_v_10) <- names(hun_v_10) %>%
+  str_remove("all.") %>%
+  str_replace("Ø", "œ") %>%
+  str_replace("O", "o") %>%
+  str_replace("a", "aː")
+```
+
+```{r}
+r_col <- "firebrick3"
+other_col <- "deepskyblue4"
+
+## Get boxplot info:
+
+eng_r <- boxplot(Rough.M ~ all.r, data = eng, plot = FALSE)
+hun_r <- boxplot(roughness ~ all.r, data = hun, plot = FALSE)
+
+cairo_pdf("graphs/random_forest.pdf", 13, 9.5)
+
+## Complex plot layout
+layout_M <- matrix(c(1, 1, 1, 1, 2,
+                     3, 3, 3, 3, 4),
+	nrow = 2, byrow = TRUE)
+	
+xfac <- 0.1
+
+
+par(mai = c(1, 0.4, 0.1, 0.2),
+	omi = c(0.75, 1, 1.2, 0.95))
+layout(layout_M, heights = c(3, 3))
+# Variable importance plot, English:
+plot(1, 1, type = 'n', xlab = '', ylab = '',
+		xaxt = 'n', yaxt = 'n', bty = 'n',
+		xlim = c(-0.4, 2.8), ylim = c(0, 11))
+
+text(x = 1.58, y = 15, cex = 3.8, font = 2, xpd = NA,
+	labels = 'Random forest analysis')
+
+abline(h = 1:9, lty = 2, col = 'darkgrey')
+abline(h = 10, lty = 2, col = r_col, lwd = 2)
+
+points(x = rev(eng_v_10)[1:9], y = 1:9, pch = 15, cex = 1.5)
+points(x = rev(eng_v_10)[10], y = 10, pch = 15, cex = 2.5, col = r_col)
+
+axis(side = 1, at = seq(-0.4, 2.8, 0.4), lwd = 2, cex.axis = 1.5, font = 2)
+axis(side = 2, at = 1:10, labels = rev(names(eng_v_10)),
+		lwd = 2, cex.axis = 1.8, font = 2, las = 2, family = 'Times New Roman')
+mtext(side = 2, text = 'Phonemes', line = 4, font = 2, cex = 1.7)
+
+text(x = -0.6, y = 12.5, xpd = NA, font = 2, cex = 3,
+	labels = '(a) English', adj = c(0, 1), pos = 4)
+
+abline(v = 0, lwd = 2, lty = 2)
+abline(v = eng_thresh, lty = 1, lwd = 2)
+box(lwd = 2)
+
+# Eng boxplot
+plot(1, 1,
+	type = 'n', xaxt = 'n', yaxt = 'n', xlab = '', ylab = '',
+	ylim = c(-7, 7), xlim = c(0.8, 3.2))
+rect(xleft = 1 + xfac, xright = 2 - xfac,
+	ybottom = eng_r$stats[2, 1],
+	ytop = eng_r$stats[4, 1], col = other_col)
+segments(y0 = eng_r$stats[3, 1],
+	x0 = 1 + xfac, x1 = 2 - xfac)
+segments(x0 = 1.5, y0 = eng_r$stats[4, 1],	# UB
+	y1 = eng_r$stats[5, 1])
+segments(x0 = 1.5, y0 = eng_r$stats[2, 1],	# LB
+	y1 = eng_r$stats[1, 1])
+rect(xleft = 2 + xfac, xright = 3 - xfac,
+	ybottom = eng_r$stats[2, 2],
+	ytop = eng_r$stats[4, 2], col = r_col)
+segments(y0 = eng_r$stats[3, 2],
+	x0 = 2 + xfac, x1 = 3 - xfac)
+segments(x0 = 2.5, y0 = eng_r$stats[4, 2],	# UB
+	y1 = eng_r$stats[5, 2])
+segments(x0 = 2.5, y0 = eng_r$stats[2, 2],	# LB
+	y1 = eng_r$stats[1, 2])
+axis(side = 1, at = c(1.5, 2.5),
+	labels = c('no /r/', '/r/'), font = 2,
+	cex.axis = 1.8)
+axis(side = 4, at = c(-7, -3.5, 0, 3.5, 7), font = 2,
+	cex.axis = 1.5, las=2)
+box(lwd = 2)
+mtext(side = 4, text = 'Roughness ratings', line = 4.9, font = 2, cex = 1.7)
+
+# Hungarian:
+# Variable importance plot, Hungarian:
+plot(1, 1, type = 'n', xlab = '', ylab = '',
+		xaxt = 'n', yaxt = 'n', bty = 'n',
+		xlim = c(-0.4, 1.6), ylim = c(0, 11))
+
+abline(h = c(1:8, 10), lty = 2, col = 'darkgrey')
+abline(h = 9, lty = 2, col = r_col, lwd = 2)
+
+points(x = rev(hun_v_10)[c(1:8, 10)], y = c(1:8, 10), pch = 15, cex = 1.5)
+points(x = rev(hun_v_10)[9], y = 9, pch = 15, cex = 2.5, col = r_col)
+
+axis(side = 1, at = seq(-0.4, 1.6, 0.4), lwd = 2, cex.axis = 1.5, font = 2)
+axis(side = 2, at = 1:10, labels = rev(names(hun_v_10)),
+		lwd = 2, cex.axis = 1.8, font = 2, las = 2, family = 'Times New Roman')
+mtext(side = 2, text = 'Phonemes', line = 4, font = 2, cex = 1.7)
+
+text(x = -0.6, y = 12.5, xpd = NA, font = 2, cex = 3,
+	labels = str_c('(b) Hungarian'), adj = c(0, 1), pos = 4)
+
+mtext(side = 1, text = 'Relative Variable Importance',
+	line = 4, font = 2, cex = 2)
+mtext(side = 1, text = '(permutation based)',
+	line = 6.4, font = 2, cex = 1.5)
+
+abline(v = 0, lwd = 2, lty = 2)
+abline(v = hun_thresh, lty = 1, lwd = 2)
+box(lwd = 2)
+
+abline(v = hun_thresh, lty = 2)
+
+# Hun boxplot
+plot(1, 1,
+	type = 'n', xaxt = 'n', yaxt = 'n', xlab = '', ylab = '',
+	ylim = c(-7, 7), xlim = c(0.8, 3.2))
+rect(xleft = 1 + xfac, xright = 2 - xfac,
+	ybottom = hun_r$stats[2, 1],
+	ytop = hun_r$stats[4, 1], col = other_col)
+segments(y0 = hun_r$stats[3, 1],
+	x0 = 1 + xfac, x1 = 2 - xfac)
+segments(x0 = 1.5, y0 = hun_r$stats[4, 1],	# UB
+	y1 = hun_r$stats[5, 1])
+segments(x0 = 1.5, y0 = hun_r$stats[2, 1],	# LB
+	y1 = hun_r$stats[1, 1])
+rect(xleft = 2 + xfac, xright = 3 - xfac,
+	ybottom = hun_r$stats[2, 2],
+	ytop = hun_r$stats[4, 2], col = r_col)
+segments(x0 = 2.5, y0 = hun_r$stats[4, 2],	# UB
+	y1 = hun_r$stats[5, 2])
+segments(x0 = 2.5, y0 = hun_r$stats[2, 2],	# LB
+	y1 = hun_r$stats[1, 2])
+segments(y0 = hun_r$stats[3, 2],
+	x0 = 2 + xfac, x1 = 3 - xfac)
+box(lwd = 2)
+axis(side = 1, at = c(1.5, 2.5),
+	labels = c('no /r/', '/r/'), font = 2,
+	cex.axis = 1.8)
+axis(side = 4, at = c(-7, -3.5, 0, 3.5, 7), font = 2,
+	cex.axis = 1.5, las=2)
+mtext(side = 4, text = 'Roughness ratings', line = 4.9, font = 2, cex = 1.7)
+dev.off()
+```
+
