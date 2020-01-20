@@ -201,3 +201,122 @@ mtext(side = 4, text = 'Roughness ratings', line = 4.9, font = 2, cex = 1.7)
 dev.off()
 ```
 
+# 2. Cross-linguistic analysis
+
+Loading data, packages, setting up ggplot theme (to match previous graph).
+
+```{r}
+library(tidyverse)
+library(brms)
+library(ggpubr)
+library(ggbeeswarm)
+
+
+source("scripts/rough_helper.r")
+
+xling <- read_csv("final_data/cross_linguistic.csv") %>%
+  filter(Meaning %in% c("rough","smooth"),
+         Trill=="yes",
+         Family!="Indo-European")
+length(unique(xling$Language))
+xling_brm_rs_logistic_mod_r <- readRDS("models/xling_brm_rs_logistic_mod_r.rds")
+
+theme_rough <- 
+theme_classic() + 
+  theme(legend.position = "none",
+        legend.key.height = unit(2,"line"),
+        legend.title = element_blank(),
+        legend.text = element_text(size = 12),
+        legend.background = element_rect(fill = "transparent"),
+        strip.background = element_blank(),
+        strip.text = element_text(size = 12, face = "bold"),
+        panel.spacing = unit(2, "lines"),
+        panel.border = element_blank(),
+        plot.background = element_rect(fill = "transparent", colour = NA),
+        panel.background = element_rect(fill = "transparent"),
+        strip.text.y = element_text(size = 12, hjust = 0),
+        axis.text.x = element_text(size = 12, colour="black", face="bold"),
+        axis.text.y = element_text(size = 12, colour="black"),
+        axis.line = element_blank(),
+        axis.ticks.x = element_blank(),
+        axis.title = element_text(size = 12, face = "bold"),
+        plot.title = element_text(size = 14, face = "bold"),
+        plot.margin = unit(c(0.4,0.4,0.4,0.4),"cm"))
+```
+
+Create map plot.
+
+```{r map plots}
+r_col <- "firebrick3"
+other_col <- "deepskyblue4"
+
+xling$Meaning <- paste0("‘", xling$Meaning, "’")
+xling$Meaning.f <- factor(xling$Meaning, levels=c("‘smooth’", "‘rough’"))
+  
+# only Google TRS data for Basque:
+
+xling <- filter(xling, !(Language=="Basque" & Dataset=="IDS"))
+
+
+library(maps)
+
+world_map <- map_data("world")
+
+ggplot(world_map, aes(x = long, y = lat, group = group)) +
+  geom_polygon(fill = "lightgray", colour = "white", size = 0.2) +
+  coord_map(xlim = c(-180, 180), ylim = c(-60, 80)) +
+  geom_point(data = xling, aes(x = Longitude, y = Latitude, color = r, group = NA),
+             alpha = 0.8, position = position_jitter(0.1), size = 3) +
+  facet_grid(~Meaning.f) +
+  scale_colour_manual(breaks = c(F,T), values = c(other_col, r_col), labels=c("no /r/", "contains /r/")) +
+  labs(title = "Trilled /r/ in the words ‘rough’ and ‘smooth’ cross-linguistically") +
+  theme_rough +
+  theme(
+    legend.position = "right",
+    axis.title = element_blank(),
+    axis.text = element_blank(),
+    axis.line = element_blank(),
+    axis.ticks = element_blank())
+ggsave("graphs/xling_map.pdf", width=9, height=3.5)
+```
+
+Create model prediction plot.
+
+```{r}
+# predictions
+mod_preds <- logistic_summary(xling_brm_rs_logistic_mod_r, dat=xling, outcome="/r/", roughpred="rough", pp_over_zero=T)
+
+mod_dat <- data.frame(Meaning.f=factor(c("‘smooth’", "‘rough’"), levels=c("‘smooth’", "‘rough’")),
+                      pred=c(mean(mod_preds$pred_prob_smooth),mean(mod_preds$pred_prob_rough))*100,
+                      ll=c(quantile(mod_preds$pred_prob_smooth, 0.025),quantile(mod_preds$pred_prob_rough, 0.025))*100,
+                      ul=c(quantile(mod_preds$pred_prob_smooth, 0.975),quantile(mod_preds$pred_prob_rough, 0.975))*100
+)
+
+# raw figures / language family
+r_per_family <- xling %>%
+  group_by(Family, Meaning.f) %>%
+  summarise(perc_r = mean(r)*100, 
+            n=length(unique(Language))) %>%
+  ungroup()
+
+ggplot(data = r_per_family, aes(x = Meaning.f, y = perc_r)) +
+  geom_point(data=r_per_family, 
+             aes(color = perc_r, size = n), alpha = 0.5,
+             position = position_quasirandom(width = 0.2)) +
+  geom_errorbar(data=mod_dat,
+                aes(ymin = ll, ymax = ul, y=NULL), 
+                width = 0.075) +
+  geom_point(data=mod_dat, 
+             aes(y=pred), fill="grey", 
+             size = 6, shape = 21) +
+  scale_color_gradient(guide = F,
+                       low=other_col, high=r_col) +
+  scale_size_continuous(guide = FALSE, range = c(2,6)) +
+  labs(title = "Raw proportions and model predictions",
+       #subtitle = "Overall: Vocatives often have no consonants\n",
+       y = "percentage of forms with /r/", 
+       x = "\n") +
+  theme_rough
+ggsave("graphs/xling_model_preds.pdf", width=4.5, height=3.5)
+```
+

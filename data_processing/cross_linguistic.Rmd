@@ -63,7 +63,7 @@ chir <- rename(chir,
 	Meaning = Std_Gloss,
 	ISO_code = `ISO Code`,
 	Glotto_code = `Glottolog ID`) %>% 
-	select(Language, Meaning, Form, ISO_code, Glotto_code)
+	dplyr::select(Language, Meaning, Form, ISO_code, Glotto_code, Latitude, Longitude)
 
 # for reflex, we also filter out non-adjectives
 
@@ -72,23 +72,23 @@ reflex <- rename(reflex,
 	Form = FRM,
 	Meaning = TRA,
 	POS = CGR) %>%
-	select(Language, Meaning, Form, POS) %>%
+	dplyr::select(Language, Meaning, Form, POS) %>%
 	filter(POS %in% c('id', 'adj', 'qlt')) %>%
-	select(-POS)
+	dplyr::select(-POS)
 
 IDS <- rename(IDS,
 	Language = Language_name,
 	Form = Value,
 	Meaning = Concept,
 	Glotto_code = Language_ID) %>%
-	select(Language, Meaning, Form, Glotto_code)
+	dplyr::select(Language, Meaning, Form, Glotto_code)
 
 google <- rename(trs,
 	Language = language,
 	Form = trans,
 	Meaning = eng_orig,
 	ISO_code = iso639.3) %>%
-	select(Language, Meaning, Form, ISO_code)
+	dplyr::select(Language, Meaning, Form, ISO_code)
 
 # Get rid of the 'avaricious' label, which was regexed because of 'stingy',
 # and also of those that have hardness-related, not roughness-related meanings:
@@ -139,45 +139,16 @@ IDS$Trill <- IDS_info[matches, ]$Trill
 rm(IDS_info, chir_info, reflex_info, google_info)
 ```
 
-Skipping this for now:
-(Do we need glottolog info? Isn't Autotyp enough?)
-
-```{r}
-# ## Add Glottolog info, Reflex:
-# 
-# reflex$Glotto_code <- glotto[match(reflex$ISO_code, glotto$iso639P3code), ]$id
-# 
-# ## Hand-add the missing information:
-# 
-# reflex[reflex$Language == 'Kaado', ]$Glotto_code <- 'kaad1238'
-# reflex[reflex$Language == 'Yoómbe', ]$Glotto_code <- 'yoom1238'
-# reflex[reflex$Language == 'Kanuri', ]$Glotto_code <- 'kanu1279'
-# reflex[reflex$Language == 'Nembe', ]$Glotto_code <- 'nemb1238'
-# 
-# ## Add Glottolog info, Google:
-# # (when a particular variety was chosen to stand in for the family was chosen this
-# # does not affect the results as the family id's would be the same):
-# 
-# google$Glotto_code <- glotto[match(google$ISO_code, glotto$iso639P3code), ]$id
-# google[google$Language == 'Azeerbaijani', ]$Glotto_code <- 'nort2697'
-# google[google$Language == 'Croatian', ]$Glotto_code <- 'croa1245'
-# google[google$Language == 'Estonian', ]$Glotto_code <- 'esto1258'
-# google[google$Language == 'Gujarati', ]$Glotto_code <- 'guja1252'
-# google[google$Language == 'Malagasy', ]$Glotto_code <- 'anta1255'
-# google[google$Language == 'Pashto', ]$Glotto_code <- 'cent1973'
-# google[google$Language == 'Serbian', ]$Glotto_code <- 'serb1264'
-```
-
 Re-ordering / filtering columns in data sets for easier merging.
 
 ```{r}
-IDS <- select(IDS, Language,
+IDS <- dplyr::select(IDS, Language,
 	ISO_code, Phoible_code, Meaning, Form, Trill)
-reflex <- select(reflex, Language,
+reflex <- dplyr::select(reflex, Language,
 	ISO_code, Phoible_code, Meaning, Form, Trill)
-chir <- select(chir, Language,
-	ISO_code, Phoible_code, Meaning, Form, Trill)
-google <- select(google, Language,
+chir <- dplyr::select(chir, Language,
+	ISO_code, Phoible_code, Meaning, Form, Trill, Latitude, Longitude)
+google <- dplyr::select(google, Language,
 	ISO_code, Phoible_code, Meaning, Form, Trill)
 ```
 
@@ -387,7 +358,7 @@ xling <- xling %>%
 
 ```
 
-Language family and areal info are merged from Autotyp and roughness predictors are added from eng.
+Language family areal info, longitude & latitude are merged from Autotyp and roughness predictors are added from eng.
 
 ```{r}
 # delete NA Languages
@@ -399,11 +370,18 @@ xling$Family <- auto[auto_matches, ]$stock
 xling$Branch <- auto[auto_matches, ]$mbranch
 xling$Area <- auto[auto_matches, ]$area
 xling$Continent <- auto[auto_matches, ]$continent
+xling$Longitude[is.na(xling$Longitude)] <- auto[auto_matches[is.na(xling$Longitude)], ]$longitude
+xling$Latitude[is.na(xling$Latitude)] <- auto[auto_matches[is.na(xling$Latitude)], ]$latitude
 
 # adding missing language data based on autotyp_add
 rows_to_fill <- which(xling$Language %in% auto_add$Language)
 language_vector <- xling$Language[rows_to_fill]
 xling[rows_to_fill, c("Family","Branch","Area","Continent")] <- auto_add[match(language_vector, auto_add$Language),c("Family","Branch","Area","Continent")]
+
+# adding missing longitude / latitude data based on autotyp_add
+rows_to_fill <- which((xling$Language %in% auto_add$Language) & is.na(xling$Longitude))
+language_vector <- xling$Language[rows_to_fill]
+xling[rows_to_fill, c("Longitude","Latitude")] <- auto_add[match(language_vector, auto_add$Language),c("Longitude","Latitude")]
 
 # there are a few that are still NA for Family, Branch, etc. -- these will be excluded deliberately
 # because ...
@@ -481,16 +459,21 @@ for (i in 1:length(all_matches)) {
 
 # function that...
 # 1) keeps NAs as NAs (languages for which no Phoible data is available)
-# 2) if all rhotics are of type X, it returns that type
-# 3) if there's no rhotic, it returns "no rhotic" (this is actually achieved by 2 above)
-# 4) otherwise returns the label mixed (meaning that there is more than one rhotic type)
+# 2) if all rhotics are trills, it returns "trill"
+# 3) if none of the rhotics are trills, it returns "no trill"
+# 4) if some of the rhotics are trills, and some are not, it returns "mixed with trill"
+# 5) if there's no rhotic, it returns "no rhotic"
 check_rhotics <- function (x) {
   if (length(x)==1 && is.na(x)) {
     return (x)
-  } else if (mean(x==x[1])==1) {
-    return(x[1])
+  } else if (mean(x=="trill")==1) {
+    return("trill")
+  } else if (mean(x=="trill")>0) {
+    return("mixed with trill")
+  } else if (x!="no rhotic") {
+    return("no trill")
   } else {
-    return ("mixed")
+    return("no rhotic")
   }
 }
 
@@ -532,6 +515,7 @@ We now add info about trills based on Phoible & Chirila where not already availa
 ```{r}
 # adding info about trills
 xling[which(xling$R_type=="trill" & is.na(xling$Trill)),]$Trill <- "yes"
+xling[which(xling$R_type=="no trill" & is.na(xling$Trill)),]$Trill <- "no"
 ```
 
 Minor fixes.

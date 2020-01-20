@@ -1,48 +1,27 @@
 # function for generating predictions from posterior of beta regression
 # (only works when outcome is rating, and predictors are r + l)
 # (any random effect structure is OK!)
-beta_summary <- function (model, dat, rpred="all.r", lpred="all.l", binary_pred=T, printPlease=T) {
+beta_summary <- function (model, dat, rpred="all.r", binary_pred=T, printPlease=T) {
   brm_beta_post <- posterior_samples(model)
   rcol <- paste0("b_", rpred)
-  lcol <- paste0("b_", lpred)
   if (binary_pred) {
     rcol <- paste0(rcol, "TRUE")
-    lcol <- paste0(lcol, "TRUE")
   }
   
   # 1a - no R
   pred_rating_no_R <- (plogis(
-    brm_beta_post[,1] + 
-      mean(dat[,lpred][[1]])*brm_beta_post[,lcol]
+    brm_beta_post[,1]
   )*14)-7
   
   # 1a - yes R
   pred_rating_yes_R <- (plogis(
     brm_beta_post[,1] + 
-      mean(dat[,lpred][[1]])*brm_beta_post[,lcol] +
-      brm_beta_post[,rcol]
+    brm_beta_post[,rcol]
   )*14)-7
   
   # 1b
   pred_rating_diff_R <- pred_rating_yes_R - pred_rating_no_R
   pp_over_zero_R <- mean(pred_rating_diff_R > 0)
-  
-  # 2a - no L
-  pred_rating_no_L <- (plogis(
-    brm_beta_post[,1] + 
-      mean(dat[,rpred][[1]])*brm_beta_post[,rcol]
-  )*14)-7
-  
-  # 2a - yes L
-  pred_rating_yes_L <- (plogis(
-    brm_beta_post[,1] + 
-      mean(dat[,rpred][[1]])*brm_beta_post[,rcol] +
-      brm_beta_post[,lcol]
-  )*14)-7
-  
-  # 2b
-  pred_rating_diff_L <- pred_rating_yes_L - pred_rating_no_L
-  pp_below_zero_L <- mean(pred_rating_diff_L < 0)
   
   if (printPlease) {
     txt <- paste0(
@@ -57,24 +36,11 @@ beta_summary <- function (model, dat, rpred="all.r", lpred="all.l", binary_pred=
       "   diff: ", round(mean(pred_rating_diff_R), 2), 
       " [", round(quantile(pred_rating_diff_R, 0.025), 2), 
       ",", round(quantile(pred_rating_diff_R, 0.975), 2), 
-      "], ", round(pp_over_zero_R*100, 2), "% over zero\n\n",
-      "predicted roughness rating based on L:\n",
-      "   without L: ", round(mean(pred_rating_no_L), 2), 
-      " [", round(quantile(pred_rating_no_L, 0.025), 2), 
-      ",", round(quantile(pred_rating_no_L, 0.975), 2), "]\n",
-      "   with L: ", round(mean(pred_rating_yes_L), 2), 
-      " [", round(quantile(pred_rating_yes_L, 0.025), 2), 
-      ",", round(quantile(pred_rating_yes_L, 0.975), 2), "]\n",
-      "predicted roughness difference (L - no L):\n",
-      "   diff: ", round(mean(pred_rating_diff_L), 2), 
-      " [", round(quantile(pred_rating_diff_L, 0.025), 2), 
-      ",", round(quantile(pred_rating_diff_L, 0.975), 2), 
-      "], ", round(pp_below_zero_L*100, 2), "% below zero\n",
+      "], ", round(pp_over_zero_R*100, 2), "% over zero\n",
       sep="")
     cat(txt)
   }
-  return(tibble(pred_rating_no_R, pred_rating_yes_R, pred_rating_diff_R, 
-                pred_rating_no_L, pred_rating_yes_L, pred_rating_diff_L))
+  return(tibble(pred_rating_no_R, pred_rating_yes_R, pred_rating_diff_R))
 }
 
 
