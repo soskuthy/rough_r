@@ -262,6 +262,7 @@ library(maps)
 
 world_map <- map_data("world")
 
+cairo_pdf("graphs/xling_map.pdf", width=9, height=3.5)
 ggplot(world_map, aes(x = long, y = lat, group = group)) +
   geom_polygon(fill = "lightgray", colour = "white", size = 0.2) +
   coord_map(xlim = c(-180, 180), ylim = c(-60, 80)) +
@@ -277,7 +278,7 @@ ggplot(world_map, aes(x = long, y = lat, group = group)) +
     axis.text = element_blank(),
     axis.line = element_blank(),
     axis.ticks = element_blank())
-ggsave("graphs/xling_map.pdf", width=9, height=3.5)
+dev.off()
 ```
 
 Create model prediction plot.
@@ -299,6 +300,7 @@ r_per_family <- xling %>%
             n=length(unique(Language))) %>%
   ungroup()
 
+cairo_pdf("graphs/xling_model_preds.pdf", width=4.5, height=3.5)
 ggplot(data = r_per_family, aes(x = Meaning.f, y = perc_r)) +
   geom_point(data=r_per_family, 
              aes(color = perc_r, size = n), alpha = 0.5,
@@ -317,6 +319,7 @@ ggplot(data = r_per_family, aes(x = Meaning.f, y = perc_r)) +
        y = "percentage of forms with /r/", 
        x = "\n") +
   theme_rough
-ggsave("graphs/xling_model_preds.pdf", width=4.5, height=3.5)
+dev.off()
+
 ```
 
