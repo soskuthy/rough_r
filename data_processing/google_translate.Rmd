@@ -92,7 +92,7 @@ auto <- read_csv('../raw_data/a2_google_translate/autotyp.csv')
 
 # removing duplicate entries from autotyp database
 auto <- auto %>%
-  dplyr::select(ISO639.3, mbranch, stock, area, continent) %>%
+  dplyr::select(ISO639.3, mbranch, stock, area, continent, longitude, latitude) %>%
   unique()
 
 # removing remaining duplicates

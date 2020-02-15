@@ -131,6 +131,20 @@ eng %>%
   summarise(prop.r=sum(all.r * n) / sum(n))
 ```
 
+And the difference in ratings, with Cohen's D:
+
+```{r}
+# difference in ratings between /r/ vs. no /r/
+eng_rating_diff <- eng %>%
+  group_by(all.r) %>%
+  summarise(rough.avg=mean(Rough.M),
+            rough.var=var(Rough.M))
+eng_rating_diff
+
+# cohen's D:
+(eng_rating_diff[1,"rough.avg"] - eng_rating_diff[2,"rough.avg"]) / sqrt(((eng_rating_diff[1, "rough.var"] + eng_rating_diff[2, "rough.var"])/2))
+```
+
 The same proportions focusing on stressed onsets only.
 
 ```{r}
@@ -180,6 +194,17 @@ eng_brm_all.r_mod <- brm(all.r ~ rough,
                          family="bernoulli",
                          refresh=0)
 summary(eng_brm_all.r_mod)
+
+# the same model with a continuous predictor:
+#set.seed(314)
+#eng_brm_all.r_cont_mod <- brm(all.r ~ Rough.M,
+#                         data=eng,
+#                         prior=eng_brm_all.x_priors,
+#                         family="bernoulli",
+#                         refresh=0)
+#summary(eng_brm_all.r_cont_mod)
+# note: qualitatively the same outcome (with the 95% CrI around Rough.M far from 0)
+
 ```
 
 Model predictions.
@@ -248,8 +273,11 @@ The data that we analyse here are Google translations of the words from the Stad
 library(tidyverse)
 library(brms)
 
+source("scripts/rough_helper.r")
+
 trs_IE <- read_csv("final_data/google_translate.csv") %>%
   filter(stock=="Indo-European")
+unique(trs_IE$language)
 ```
 
 Raw descriptive stats & plot.
@@ -315,9 +343,10 @@ trs_IE_brm_r_mod <- brm(r ~ rough +
                         data=trs_IE,
                         prior=trs_IE_brm_priors,
                         family="bernoulli",
-                        control=list(adapt_delta=0.95),
+                        control=list(adapt_delta=0.99),
                         refresh=0)
 summary(trs_IE_brm_r_mod)
+#saveRDS(trs_IE_brm_r_mod, "models/trs_IE_brm_r_mod.rds")
 ```
 
 Model predictions.
@@ -355,7 +384,7 @@ Fitting random forest models to the aggregated data. Starting with general model
 hun_rf_all_preds <- grep("all.", colnames(hun_aggr), value=T)
 hun_rf_all_formula <- as.formula(paste0('roughness ~ ', paste(hun_rf_all_preds, collapse=" + ")))
 
-set.seed(450)
+set.seed(42)
 hun_rf_mod_all <- ranger(hun_rf_all_formula,
 	 data = hun_aggr, mtry = round(sqrt(length(hun_rf_all_preds))), num.trees = 5000,
 	 importance = 'permutation')
