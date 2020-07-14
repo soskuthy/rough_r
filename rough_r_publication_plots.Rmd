@@ -341,7 +341,6 @@ source("scripts/rough_helper.r")
 
 xling <- read_csv("final_data/cross_linguistic.csv") %>%
   filter(Meaning %in% c("rough","smooth"),
-         Trill=="yes",
          Family!="Indo-European")
 length(unique(xling$Language))
 xling$Meaning <- paste0("‘", xling$Meaning, "’")
@@ -354,6 +353,7 @@ xling <- filter(xling, !(Language=="Basque" & Dataset=="IDS"))
 # some languages happen to have more than one rough / smooth words (very small minority!)
 # reduce to single data point via majority rule:
 xling_single <- xling %>%
+  filter(Trill=="yes") %>%
   group_by(Language,Meaning.f) %>%
   summarise(r = as.logical(round(mean(r))),
             Longitude=Longitude[1],
@@ -361,6 +361,7 @@ xling_single <- xling %>%
   ungroup()
 
 xling_brm_rs_logistic_mod_r <- readRDS("models/xling_brm_rs_logistic_mod_r.rds")
+xling_nt_brm_rs_logistic_mod_r <- readRDS("models/xling_nt_brm_rs_logistic_mod_r.rds")
 
 theme_rough <- 
 theme_classic() + 
@@ -394,14 +395,15 @@ other_col <- "deepskyblue1"
 world <- ne_countries(scale = "medium", returnclass = "sf")
 class(world)
 
-cairo_pdf("graphs/xling_map.pdf", width=9, height=3)
+#cairo_pdf("graphs/xling_map.pdf", width=9, height=3)
 ggplot(world) +
-  geom_sf(size=0.2) +
+  geom_sf(size=0.2, col="white", fill="lightgrey") +
   coord_sf(xlim = c(-180, 180), ylim = c(-60, 80), datum=NA) +
-  geom_point(data = xling_single, aes(x = Longitude, y = Latitude, color = r, group = NA),
-             alpha = 0.8, position = position_jitter(0.1), size = 3) +
+  geom_point(data = xling_single, aes(x = Longitude, y = Latitude, fill = r, group = NA),
+             alpha = 0.8, position = position_jitter(0.1), size = 2.5,
+             col="black", pch=21, stroke=0.1) +
   facet_grid(~Meaning.f) +
-  scale_colour_manual(breaks = c(F,T), values = c(other_col, r_col), labels=c("no /r/", "contains /r/")) +
+  scale_fill_manual(breaks = c(F,T), values = c(other_col, r_col), labels=c("no /r/", "contains /r/")) +
   labs(title = "Trilled /r/ in the words ‘rough’ and ‘smooth’ cross-linguistically") +
   theme_rough +
   theme(
@@ -412,34 +414,51 @@ ggplot(world) +
     axis.ticks = element_blank(),
     plot.margin = unit(c(0.1,0.4,-0.4,0.4),"cm"),
     panel.spacing = unit(0, "lines"))
+ggsave("graphs/xling_map.png", width=9, height=3)
+#dev.off()
 
-dev.off()
 ```
 
 Create model prediction plot.
 
 ```{r}
 # predictions
-mod_preds <- logistic_summary(xling_brm_rs_logistic_mod_r, dat=xling, outcome="/r/", roughpred="rough", pp_over_zero=T)
+mod_preds_trill <- logistic_summary(xling_brm_rs_logistic_mod_r, dat=xling, outcome="/r/", roughpred="rough", pp_over_zero=T)
 
-mod_dat <- data.frame(Meaning.f=factor(c("‘smooth’", "‘rough’"), levels=c("‘smooth’", "‘rough’")),
-                      pred=c(mean(mod_preds$pred_prob_smooth),mean(mod_preds$pred_prob_rough))*100,
-                      ll=c(quantile(mod_preds$pred_prob_smooth, 0.025),quantile(mod_preds$pred_prob_rough, 0.025))*100,
-                      ul=c(quantile(mod_preds$pred_prob_smooth, 0.975),quantile(mod_preds$pred_prob_rough, 0.975))*100
+mod_dat_trill <- data.frame(Meaning.f=factor(c("‘smooth’", "‘rough’"), levels=c("‘smooth’", "‘rough’")),
+                      pred=c(mean(mod_preds_trill$pred_prob_smooth),mean(mod_preds_trill$pred_prob_rough))*100,
+                      ll=c(quantile(mod_preds_trill$pred_prob_smooth, 0.025),quantile(mod_preds_trill$pred_prob_rough, 0.025))*100,
+                      ul=c(quantile(mod_preds_trill$pred_prob_smooth, 0.975),quantile(mod_preds_trill$pred_prob_rough, 0.975))*100
 )
+
+mod_preds_nt <- logistic_summary(xling_nt_brm_rs_logistic_mod_r, dat=xling, outcome="/r/", roughpred="rough", pp_over_zero=T)
+
+mod_dat_nt <- data.frame(Meaning.f=factor(c("‘smooth’", "‘rough’"), levels=c("‘smooth’", "‘rough’")),
+                      pred=c(mean(mod_preds_nt$pred_prob_smooth),mean(mod_preds_nt$pred_prob_rough))*100,
+                      ll=c(quantile(mod_preds_nt$pred_prob_smooth, 0.025),quantile(mod_preds_nt$pred_prob_rough, 0.025))*100,
+                      ul=c(quantile(mod_preds_nt$pred_prob_smooth, 0.975),quantile(mod_preds_nt$pred_prob_rough, 0.975))*100
+)
+
+mod_dat <- bind_rows(mod_dat_trill, mod_dat_nt) %>%
+  mutate(Trill=factor(c("trilled /r/","trilled /r/","other /r/","other /r/"), 
+                      levels=c("trilled /r/","other /r/"))
+  )
 
 # raw figures / language family
 r_per_family <- xling %>%
-  group_by(Family, Meaning.f) %>%
+  group_by(Family, Trill, Meaning.f) %>%
   summarise(perc_r = mean(r)*100, 
             n=length(unique(Language))) %>%
-  ungroup()
+  ungroup() %>%
+  mutate(Trill=recode(Trill, yes="trilled /r/", no="other /r/"),
+         Trill=factor(Trill, levels=c("trilled /r/","other /r/"))
+  )
 
-cairo_pdf("graphs/xling_model_preds.pdf", width=4.5, height=3.5)
 ggplot(data = r_per_family, aes(x = Meaning.f, y = perc_r)) +
+  facet_grid(. ~ Trill) +
   geom_point(data=r_per_family, 
              aes(color = perc_r, size = n), alpha = 0.5,
-             position = position_quasirandom(width = 0.2)) +
+             position = position_quasirandom(width = 0.3)) +
   geom_errorbar(data=mod_dat,
                 aes(ymin = ll, ymax = ul, y=NULL), 
                 width = 0.075) +
@@ -455,7 +474,7 @@ ggplot(data = r_per_family, aes(x = Meaning.f, y = perc_r)) +
        x = "\n") +
   theme_rough +
   theme(plot.margin = unit(c(0.4,0.4,-0.6,0.4),"cm"))
-dev.off()
+ggsave("graphs/xling_model_preds.png", width=9, height=3.5)
 
 ```
 

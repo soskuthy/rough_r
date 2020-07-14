@@ -24,6 +24,7 @@ Loading packages, loading data.
 
 ```{r}
 library(tidyverse)
+library(effsize)
 library(ranger)
 library(brms)
 
@@ -121,7 +122,7 @@ ggplot(eng, aes(x=Rough.M)) +
   geom_density(fill="deepskyblue4")
 ```
 
-Here are the proportions of /r/ in rough vs. smooth words.
+Here are the proportions of /r/ in rough vs. smooth words, along with Cohen's D for the difference in roughness ratings across words with / without /r/.
 
 ```{r}
 # proportion of /r/ in rough vs. smooth words
@@ -129,20 +130,12 @@ eng %>%
   count(rough, all.r) %>%
   group_by(rough) %>%
   summarise(prop.r=sum(all.r * n) / sum(n))
-```
 
-And the difference in ratings, with Cohen's D:
+# Cohen's D
+cohen.d(Rough.M ~ all.r, eng, pooled=T)
 
-```{r}
-# difference in ratings between /r/ vs. no /r/
-eng_rating_diff <- eng %>%
-  group_by(all.r) %>%
-  summarise(rough.avg=mean(Rough.M),
-            rough.var=var(Rough.M))
-eng_rating_diff
-
-# cohen's D:
-(eng_rating_diff[1,"rough.avg"] - eng_rating_diff[2,"rough.avg"]) / sqrt(((eng_rating_diff[1, "rough.var"] + eng_rating_diff[2, "rough.var"])/2))
+# difference in means:
+lm(Rough.M ~ all.r, eng)
 ```
 
 The same proportions focusing on stressed onsets only.
@@ -210,60 +203,62 @@ summary(eng_brm_all.r_mod)
 Model predictions.
 
 ```{r}
-x <- logistic_summary(eng_brm_all.r_mod, eng, outcome="/r/", roughpred="rough", pp_over_zero=T)
+x <- logistic_summary_hard(eng_brm_all.r_mod, eng, outcome="/r/", roughpred="rough", pp_over_zero=T)
 ```
 
-### 1.5 Descriptive stats / Bayesian logistic regression for English OED data
+### 1.5 Modelling hardness instead of roughness
 
-We now look at whether the same pattern is present in the reconstructed PIE roots of these English words. Two important analytical decisions:
+Hardness and roughness are related. Therefore (following a suggestion from a reviewer), we now investigate whether the same pattern is present for roughness.
 
-1) Since many of these words have shifted massively in terms of their meaning, there is no point in using fine-grained roughness ratings. Instead, we rely on the broad binary variable "rough".
-2) Since some of the words in our data derive from the same PIE roots, we merge these into single entries. Their roughness value is defined as the majority roughness value among all words sharing the same root.
+We start by looking at some descriptive stats. The distribution of hardness ratings -- like those for roughness -- is heavily bimodal.
 
 ```{r}
-eng_pie <- eng %>%
-  dplyr::select(Word, PIE_root, rough) %>%
-  filter(!is.na(PIE_root)) %>%
-  group_by(PIE_root) %>%
-  summarise(rough_prop=mean(rough),
-            rough=as.logical(round(rough_prop))) %>%
-  ungroup() %>%
-  mutate(r=str_detect(PIE_root, 'r'))
+eng$hard <- eng$Hard.M >= 0
 
-# note that the proportion of rough words corresponding to a single
-# root is always 1 or 0, meaning that all cognates of every root
-# are uniformly rough or smooth
+# density plot
+ggplot(eng, aes(x=Hard.M)) +
+  geom_density(fill="deepskyblue4")
 ```
 
-We now calculate descriptive stats.
+Here are the proportions of /r/ in hard vs. soft words, along with Cohen's D for the difference in hardness ratings across words with / without /r/.
 
 ```{r}
 # proportion of /r/ in rough vs. smooth words
-eng_pie %>%
-  count(rough, r) %>%
-  group_by(rough) %>%
-  summarise(prop.r=sum(r * n) / sum(n))
+eng %>%
+  filter(!is.na(hard)) %>%
+  count(hard, all.r) %>%
+  group_by(hard) %>%
+  summarise(prop.r=sum(all.r * n) / sum(n))
+
+# Cohen's D
+cohen.d(Hard.M ~ all.r, filter(eng, !is.na(hard)), pooled=T)
+
+# difference in means:
+lm(Hard.M ~ all.r, filter(eng, !is.na(hard)))
 ```
 
-And now a Bayesian logistic regression model.
+This difference is somewhat smaller than that seen for roughness: 25% (as opposed to 33%) when looking at the proportion of r in hard vs. soft; and a small effect according to Cohen's D. The difference in mean ratings between r-ful vs. r-less is about 1.5.
+
+We now run a logistic regression model similar to the one for roughness.
 
 ```{r, warning=F, message=F}
-eng_brm_pie.x_priors <- c(set_prior("student_t(5,0,2.5)", class = "b"),
+eng_brm_all.x_priors <- c(set_prior("student_t(5,0,2.5)", class = "b"),
                           set_prior("student_t(5,0,2.5)", class = "Intercept"))
 set.seed(314)
-eng_brm_pie.r_mod <- brm(r ~ rough,
-                         data=eng_pie,
-                         prior=eng_brm_pie.x_priors,
+eng_brm_all.r_hard_mod <- brm(all.r ~ hard,
+                         data=filter(eng, !is.na(hard)),
+                         prior=eng_brm_all.x_priors,
                          family="bernoulli",
                          refresh=0)
-summary(eng_brm_pie.r_mod)
+summary(eng_brm_all.r_hard_mod)
 ```
 
-Model predictions.
+Model predictions. Note that while the effect is in the right direction, the credible interval around the difference term does, in fact, include 0. (With almost 95% of samples over zero, though. So it's sort of borderline - but certainly not by any means strong evidence.)
 
 ```{r}
-x <- logistic_summary(eng_brm_pie.r_mod, eng, outcome="/r/", roughpred="rough", pp_over_zero=T)
-```  
+x <- logistic_summary_hard(eng_brm_all.r_hard_mod, eng, outcome="/r/", hardpred="hard", pp_over_zero=T)
+```
+
 
 ## 2. IE Google Translate data
 
@@ -469,7 +464,7 @@ ggplot(hun_aggr, aes(x=roughness)) +
   geom_density(fill="deepskyblue4")
 ```
 
-Here are the proportions of /r/ in rough vs. smooth words.
+Here are the proportions of /r/ in rough vs. smooth words, along with Cohen's D for the difference in roughness ratings across words with / without /r/.
 
 ```{r}
 # proportion of /r/ in rough vs. smooth words
@@ -477,6 +472,13 @@ hun_aggr %>%
   count(rough, all.r) %>%
   group_by(rough) %>%
   summarise(prop.r=sum(all.r * n) / sum(n))
+
+# Cohen's D
+cohen.d(roughness ~ all.r, hun_aggr, pooled=T)
+
+# difference in means:
+lm(roughness ~ all.r, hun_aggr)
+
 ```
 
 There's not much point in calculating these proportions for onset / stressed onset / other positions, as the best model was the one fit to the whole word.
@@ -555,7 +557,7 @@ x <- logistic_summary(hun_ie_brm_r_mod, eng, outcome="/r/", roughpred="rough", p
 
 ## 4. Cross-linguistic analysis
 
-The latest version of our cross-linguistic data set includes 263 languages from 65 language families (counting isolates as families) from 17 Autotyp areas. Without Indo-European, there are 216 languages and 64 families from 17 Autotyp areas. We exclude Indo-European as we've already analysed these languages above.
+The latest version of our cross-linguistic data set includes 394 languages from 84 language families (counting isolates as families) from 19 Autotyp areas. Without Indo-European, there are 347 languages and 83 families from 19 Autotyp areas. We exclude Indo-European as we've already analysed these languages above.
 
 ```{r}
 library(tidyverse)
@@ -571,6 +573,39 @@ xling <- filter(xling, Family!="Indo-European")
 length(unique(xling$Language))
 length(unique(xling$Family))
 length(unique(xling$Area))
+```
+
+Our main analysis focuses specifically on the words rough and smooth. We report numbers for these in the paper. 657 words, 329 languages, 83 families, 19 areas.
+
+```{r}
+xling_rs <- filter(xling, Meaning %in% c("rough","smooth"))
+nrow(xling_rs)
+length(unique(xling_rs$Language))
+length(unique(xling_rs$Family))
+length(unique(xling_rs$Area))
+```
+
+Of these, trilled only: 379 words, 178 languages, 43 families, 18 areas.
+
+```{r}
+# Trilled
+xling_trill_rs <- filter(xling_rs, Trill=="yes")
+nrow(xling_trill_rs)
+length(unique(xling_trill_rs$Language))
+length(unique(xling_trill_rs$Family))
+length(unique(xling_trill_rs$Area))
+```
+
+And non-trilled only: 278 words, 151 languages, 60 families, 16 areas.
+
+```{r}
+# Non-trilled
+xling_no_trill_rs <- filter(xling_rs, Trill=="no")
+nrow(xling_no_trill_rs)
+length(unique(xling_no_trill_rs$Language))
+length(unique(xling_no_trill_rs$Family))
+length(unique(xling_no_trill_rs$Area))
+
 ```
 
 Some languages have a good number of rough/smooth words, but most have only 1 (the peak in the histogram below). Given how the data set was assembled, this one word is typically "rough"/"smooth". The data set is nicely balanced across rough vs. smooth words.
@@ -595,7 +630,7 @@ Here is the plan for our cross-linguistic analysis:
  
 ### 4.1 Cross-linguistic analysis of languages with trills
 
-Limiting the data set to languages with trills only leaves 647 data points from 58 languages representing 21 families and 12 areas.
+Limiting the data set to languages with trills only leaves 850 data points from 185 languages representing 43 families and 18 areas.
 
 ```{r}
 xling_trill <- filter(xling, Trill=="yes")
@@ -605,7 +640,7 @@ length(unique(xling_trill$Family))
 length(unique(xling_trill$Area))
 ```
 
-Further limiting the data set to words for rough/smooth only leaves 137 data points from 51 languages representing 21 families and 10 areas. 
+Further limiting the data set to words for rough/smooth only leaves 379 data points from 178 languages representing 43 families and 18 areas. 
 
 ```{r}
 xling_trill_rs <- filter(xling_trill, Meaning %in% c("rough","smooth"))
@@ -715,7 +750,7 @@ xling_brm_logistic_mod_r <- brm(r ~ rough +
 set.seed(314)
 ```
 
-Model predictions as usual. Note that the /r/ pattern does not seem strong when our "rough" predictor does not take into account the actual amount of roughness / smoothness for specific words.
+Model predictions as usual. Note that the /r/ pattern does not seem strong when our "rough" predictor lumps words of different levels of roughness / smoothness together and does not take into account the actual amount of roughness / smoothness for specific words.
 
 ```{r}
 x <- logistic_summary(xling_brm_logistic_mod_r, dat=xling_trill, outcome="/r/", roughpred="rough", pp_over_zero=T)
@@ -723,7 +758,9 @@ x <- logistic_summary(xling_brm_logistic_mod_r, dat=xling_trill, outcome="/r/", 
 
 #### 4.1.3 Logistic regression for rough/smooth in languages with trills
 
-We model the presence of r as a function of roughness (binary) in the cross-linguistic data set limited to the words rough/smooth only (the expectation is that the effect would be particularly strong here). We include random effects by Family/Area/Language.
+We model the presence of r as a function of roughness (binary) in the cross-linguistic data set limited to the words rough/smooth only (the expectation is that the effect would be particularly strong here). We include random effects by Family/Area (not by language, as most languages only have one rough and one smooth word).
+
+These are the results reported in the paper.
 
 ```{r, warning=F, message=F}
 # priors: since the outcomes here are similar to those for a logistic model (i.e. a number between 0/1),
@@ -748,10 +785,11 @@ xling_brm_rs_logistic_mod_r <- brm(r ~ rough +
                         family="bernoulli",
                        control=list(adapt_delta=0.9),
                        refresh=0)
+#summary(xling_brm_rs_logistic_mod_r)
 saveRDS(xling_brm_rs_logistic_mod_r, "models/xling_brm_rs_logistic_mod_r.rds")
 ```
 
-Model predictions as usual. When focusing on these two extreme words only, the pattern seems to be there.
+Model predictions as usual. When focusing on these two extreme words only, the pattern is there.
 
 ```{r}
 x <- logistic_summary(xling_brm_rs_logistic_mod_r, dat=xling_trill, outcome="/r/", roughpred="rough", pp_over_zero=T)
@@ -759,7 +797,7 @@ x <- logistic_summary(xling_brm_rs_logistic_mod_r, dat=xling_trill, outcome="/r/
 
 ### 4.2 Cross-linguistic analysis of languages *without* trills
 
-Limiting the data set to languages without trills (or where it's not clear whether the language has a trill) leaves 307 data points from 89 languages representing 42 families and 13 areas.
+Limiting the data set to languages without trills (or where it's not clear whether the language has a trill) leaves 397 data points from 159 languages representing 61 families and 16 areas.
 
 ```{r}
 xling_no_trill <- filter(xling, Trill=="no")
@@ -769,7 +807,7 @@ length(unique(xling_no_trill$Family))
 length(unique(xling_no_trill$Area))
 ```
 
-Further limiting the data set to words for rough/smooth only leaves 177 data points from 77 languages representing 40 families and 12 areas.
+Further limiting the data set to words for rough/smooth only leaves 270 data points from 147 languages representing 59 families and 16 areas.
 
 ```{r}
 xling_no_trill_rs <- filter(xling_no_trill, Meaning %in% c("rough","smooth"))
@@ -908,82 +946,162 @@ xling_nt_brm_rs_logistic_mod_r <- brm(r ~ rough +
                         family="bernoulli",
                        control=list(adapt_delta=0.9),
                        refresh=0)
+saveRDS(xling_nt_brm_rs_logistic_mod_r, "models/xling_nt_brm_rs_logistic_mod_r.rds")
 ```
 
 Model predictions as usual. No patterns!
 
 ```{r}
-x <- logistic_summary(xling_nt_brm_rs_logistic_mod_r, dat=xling_trill, outcome="/r/", roughpred="rough", pp_over_zero=T)
+x <- logistic_summary(xling_nt_brm_rs_logistic_mod_r, dat=xling_no_trill_rs, outcome="/r/", roughpred="rough", pp_over_zero=T)
 ```
 
 ### 4.3 Omnibus analysis: languages with trills & no-trills together
 
-In this model, we consider all the data simultaneously -- so all languages are included, regardless of the status of trills.
+In this model, we consider all the data simultaneously -- so all languages are included. We add Trill as a predictor to our model (as well as an interaction between Trill and rough).
 
-#### 4.3.1 Omnibus analysis including all words
+Data summary:
 
 ```{r}
-xling_brm_omnibus_all_priors <- c(
+xling_rs <- filter(xling, Meaning %in% c("rough","smooth"),
+                   !is.na(Trill))
+nrow(xling_rs)
+length(unique(xling_rs$Language))
+length(unique(xling_rs$Family))
+length(unique(xling_rs$Area))
+```
+
+It bears mentioning that Trill is very asymmetrical across language families: close to 75% of language families have only trills or no trills, and even those families where both are represented have fairly skewed distributions, with very few where the minority group is represented by more than 1-2 languages. In other words, Trill is almost a between-Family (as opposed to within-Family) predictor. 
+
+```{r}
+table(xling_rs$Family, xling_rs$Trill)
+xling_rs %>%
+  group_by(Family) %>%
+  summarise(prop_trill=mean(Trill=="yes")) %>%
+  ungroup() %>%
+  (function (x) hist(x$prop_trill, 15))
+```
+
+In this sense, a model where Trill is included as a random slope by Family may be very difficult to estimate. We'll try anyways, but the uncertainty of the by-family estimates may unduly inflate credible intervals.
+
+```{r}
+xling_brm_omnibus_priors <- c(
   set_prior("student_t(5,0,2.5)", class = "b"),
   set_prior("student_t(5,0,2.5)", class = "Intercept"),
   set_prior("lkj(2)", class = "cor"),
   set_prior("student_t(4,0,2)", class = "sd", coef = "Intercept", group="Family"),
   set_prior("student_t(4,0,2)", class = "sd", coef = "roughTRUE", group="Family"),
+  set_prior("student_t(4,0,2)", class = "sd", coef = "Trillyes", group="Family"),
+  set_prior("student_t(4,0,2)", class = "sd", coef = "roughTRUE:Trillyes", group="Family"),
   set_prior("student_t(4,0,2)", class = "sd", coef = "Intercept", group="Area"),
   set_prior("student_t(4,0,2)", class = "sd", coef = "roughTRUE", group="Area"),
-  set_prior("student_t(4,0,2)", class = "sd", coef = "Intercept", group="Language"),
-  set_prior("student_t(4,0,2)", class = "sd", coef = "roughTRUE", group="Language"),
-  set_prior("student_t(4,0,2)", class = "sd", coef = "Intercept", group="Meaning")
+  set_prior("student_t(4,0,2)", class = "sd", coef = "Trillyes", group="Area"),
+  set_prior("student_t(4,0,2)", class = "sd", coef = "roughTRUE:Trillyes", group="Area")
 )
 
 set.seed(314)
-xling_brm_omnibus_all_mod_r <- brm(r ~ rough +
-                          (1 + rough | Family) +
-                          (1 + rough | Area) +
-                          (1 + rough | Language) +
-                          (1 | Meaning),
-                        data=xling,
-                        prior=xling_brm_omnibus_all_priors,
+xling_brm_omnibus_mod_r <- brm(r ~ rough * Trill +
+                          (1 + rough * Trill | Family) +
+                          (1 + rough * Trill | Area),
+                        data=xling_rs,
+                        prior=xling_brm_omnibus_rs_intr_priors,
                         family="bernoulli",
                        control=list(adapt_delta=0.99))
-summary(xling_brm_omnibus_all_mod_r)
+summary(xling_brm_omnibus_mod_r)
 ```
 
-And now the model predictions. No effect whatsoever.
+The interaction here seems pretty reliable.
 
 ```{r}
-x <- logistic_summary(xling_brm_omnibus_all_mod_r, dat=xling, outcome="/r/", roughpred="rough", pp_over_zero=T)
+mean(posterior_samples(xling_brm_omnibus_mod_r)[,"b_roughTRUE:Trillyes"] > 0)
+
+l <- logistic_intr_summary(xling_brm_omnibus_mod_r, xling_rs, outcome="/r/", roughpred="rough",
+                      trillpred="Trill", pp_over_zero=T,
+                      binary_pred=T, printPlease=T)
 ```
 
-#### 4.3.2 Omnibus analysis rough/smooth only
+When the same model is fitted without by-Family random slopes over Trill, essentially the same results are obtained, but with narrower credible intervals.
 
 ```{r}
-xling_rs <- filter(xling, Meaning %in% c("rough","smooth"))
-
-xling_brm_omnibus_rs_priors <- c(
+xling_brm_omnibus_no_famtrill_priors <- c(
   set_prior("student_t(5,0,2.5)", class = "b"),
   set_prior("student_t(5,0,2.5)", class = "Intercept"),
   set_prior("lkj(2)", class = "cor"),
   set_prior("student_t(4,0,2)", class = "sd", coef = "Intercept", group="Family"),
   set_prior("student_t(4,0,2)", class = "sd", coef = "roughTRUE", group="Family"),
+  #set_prior("student_t(4,0,2)", class = "sd", coef = "Trillyes", group="Family"),
+  #set_prior("student_t(4,0,2)", class = "sd", coef = "roughTRUE:Trillyes", group="Family"),
   set_prior("student_t(4,0,2)", class = "sd", coef = "Intercept", group="Area"),
-  set_prior("student_t(4,0,2)", class = "sd", coef = "roughTRUE", group="Area")
+  set_prior("student_t(4,0,2)", class = "sd", coef = "roughTRUE", group="Area"),
+  set_prior("student_t(4,0,2)", class = "sd", coef = "Trillyes", group="Area"),
+  set_prior("student_t(4,0,2)", class = "sd", coef = "roughTRUE:Trillyes", group="Area")
 )
 
 set.seed(314)
-xling_brm_omnibus_rs_mod_r <- brm(r ~ rough +
+xling_brm_omnibus_rs_famtrill_mod_r <- brm(r ~ rough * Trill +
                           (1 + rough | Family) +
-                          (1 + rough | Area),
+                          (1 + rough * Trill | Area),
                         data=xling_rs,
-                        prior=xling_brm_omnibus_rs_priors,
+                        prior=xling_brm_omnibus_rs_intr_priors,
                         family="bernoulli",
-                       control=list(adapt_delta=0.9))
-summary(xling_brm_omnibus_rs_mod_r)
+                       control=list(adapt_delta=0.99))
+summary(xling_brm_omnibus_no_famtrill_mod_r)
 ```
 
-Weak effect seen for rough/smooth only (probably still driven by the trills, which are about half of this data set.)
+Note the narrower intervals below.
 
 ```{r}
-x <- logistic_summary(xling_brm_omnibus_rs_mod_r, dat=xling_rs, outcome="/r/", roughpred="rough", pp_over_zero=T)
+mean(posterior_samples(xling_brm_omnibus_no_famtrill_mod_r)[,"b_roughTRUE:Trillyes"] > 0)
+
+l <- logistic_intr_summary(xling_brm_omnibus_no_famtrill_mod_r, xling_rs, outcome="/r/", roughpred="rough",
+                      trillpred="Trill", pp_over_zero=T,
+                      binary_pred=T, printPlease=T)
 ```
+
+# 5. Analysis of roots in Proto-Indo-European (based on Rolf Noyer's data set)
+
+This is essentially a re-run of the analyses above, but now using data sampled directly from PIE. These roots are taken from Rolf Noyer's PIE root database, which was filtered to keep only words with meanings that match those in the English roughness norms data set. Again, we focus on the following question: is the proportion of /r/ higher in rough words than in smooth words?
+
+Loading packages, loading data.
+
+```{r}
+library(tidyverse)
+library(brms)
+
+source("scripts/rough_helper.r")
+
+pie2 <- read_csv("final_data/pie2.csv")
+```
+
+## 5.1 Descriptive stats for roots in PIE based on Rolf Noyer's data set
+
+Here are the proportions of /r/ by rough vs. smooth.
+
+```{r}
+pie2 %>%
+  count(rough, r) %>%
+  group_by(rough) %>%
+  summarise(prop.r=sum(r * n) / sum(n))
+```
+
+## 5.2 Bayesian modelling for roots in PIE (Rolf Noyer's data)
+
+Same model structure as in e.g. section 1.4.
+
+```{r}
+pie2_brm_priors <- c(set_prior("student_t(5,0,2.5)", class = "b"),
+                    set_prior("student_t(5,0,2.5)", class = "Intercept"))
+set.seed(314)
+pie2_brm_mod <- brm(r ~ rough,
+                   data=pie2,
+                   prior=pie2_brm_priors,
+                   family="bernoulli",
+                   refresh=0)
+summary(pie2_brm_mod)
+```
+
+Model predictions.
+
+```{r}
+x <- logistic_summary(pie2_brm_mod, pie, outcome="/r/", roughpred="rough", pp_over_zero=T)
+```  
 

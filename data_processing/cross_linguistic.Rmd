@@ -20,6 +20,7 @@ The core data sets are as follows:
 - ../raw_data/a4_cross_linguistic/chirila.csv: chirila
 - ../raw_data/a4_cross_linguistic/reflex_african_117.csv
 - ../raw_data/a4_cross_linguistic/IDS.csv
+- ../raw_data/a4_cross_linguistic/clics_final.csv
 
 The following supplementary data sets are loaded:
 
@@ -44,13 +45,18 @@ chir <- read_csv('../raw_data/a4_cross_linguistic/chirila.csv')
 reflex <- read_csv('../raw_data/a4_cross_linguistic/reflex_african_117.csv') %>%
 	mutate_all(as.character)
 IDS <- read_csv('../raw_data/a4_cross_linguistic/IDS.csv')
+clics <- bind_rows(
+  read_csv('../raw_data/a4_cross_linguistic/clics_final.csv')
+)
+
+# supplementary data sets (metadata, r realisations)
 lang_info <- read_csv('../raw_data/a4_cross_linguistic/all_language_info.csv') %>%
 	mutate_all(as.character)
 phoible <- read_csv('../raw_data/a4_cross_linguistic/phoible.csv')
 r_type <- read_csv('../raw_data/a4_cross_linguistic/phoible_R-type.csv') %>%
 	mutate_all(as.character)
 auto <- read_csv('../raw_data/a4_cross_linguistic/autotyp.csv')
-auto_add <- read_csv('../raw_data/a4_cross_linguistic/autotyp_additions.csv')
+auto_add <- read_csv('../raw_data/a4_cross_linguistic/autotyp_additions_new.csv')
 glotto <- read_csv('../raw_data/a4_cross_linguistic/glottolog_3.1_languoid.csv')
 ```
 
@@ -95,6 +101,18 @@ google <- rename(trs,
 
 IDS <- filter(IDS, Meaning != 'avaricious, stingy',
 	Meaning %in% eng$Word)
+
+# clics data
+
+clics <- rename(clics,
+  Meaning=Parameter,
+  Form=Name,
+  ISO_code=AutotypMatch,
+  Phoible_code=PhoibleMatch,
+  R_type=R_type) %>%
+  mutate(Trill=NA) %>%
+  dplyr::select(Language, Meaning, Form, ISO_code, Phoible_code, Trill, R_type)
+  
 ```
 
 We'll continue processing these data sets separately for a while, so it's useful to also break down the lang_info data set into separate subsets corresponding to each major data set. Merge Autotyp info into data frames. Due to the different structure / requirements of the different data sets, we do this separately for each of them.
@@ -104,6 +122,9 @@ IDS_info <- filter(lang_info, Dataset == 'IDS')
 chir_info <- filter(lang_info, Dataset == 'Chirila')
 reflex_info <- filter(lang_info, Dataset == 'Reflex')
 google_info <- filter(lang_info, Dataset == 'Google')
+# we do not need this separate info file for clics, as
+# the relevant columns are mostly already there;
+# but some separate processing will be necessary
 ```
 
 We now add the following columns to the data sets: ISO codes from Autotyp (already done for Google), Phoible codes (essentially the same ISO codes as used by Autotyp with occasional discrepancies) and a column that codes for whether the rhotic in that language is a trill (if information for that language was available).
@@ -114,17 +135,20 @@ matches <- match(chir$Language, chir_info$Language)
 chir$ISO_code <- chir_info[matches, ]$AutotypMatch
 chir$Phoible_code <- chir_info[matches, ]$PhoibleMatch
 chir$Trill <- chir_info[matches, ]$Trill
+chir$R_type <- NA
 
 # Reflex:
 matches <- match(reflex$Language, reflex_info$Language)
 reflex$ISO_code <- reflex_info[matches, ]$AutotypMatch
 reflex$Phoible_code <- reflex_info[matches, ]$PhoibleMatch
 reflex$Trill <- reflex_info[matches, ]$Trill
+reflex$R_type <- NA
 
 # Google (already has ISO codes)
 matches <- match(google$Language, google_info$Language)
 google$Phoible_code <- google_info[matches, ]$PhoibleMatch
 google$Trill <- google_info[matches, ]$Trill
+google$R_type <- NA
 
 ## IDS
 
@@ -132,6 +156,7 @@ matches <- match(IDS$Language, IDS_info$Language)
 IDS$ISO_code <- IDS_info[matches, ]$AutotypMatch
 IDS$Phoible_code <- IDS_info[matches, ]$PhoibleMatch
 IDS$Trill <- IDS_info[matches, ]$Trill
+IDS$R_type <- NA
 
 
 # remove temporary info files:
@@ -150,6 +175,7 @@ chir <- dplyr::select(chir, Language,
 	ISO_code, Phoible_code, Meaning, Form, Trill, Latitude, Longitude)
 google <- dplyr::select(google, Language,
 	ISO_code, Phoible_code, Meaning, Form, Trill)
+# again, this will be done separately for clics
 ```
 
 The Reflex data set requires further work: many of the meanings in the meaning column are multiword descriptions or in French. These need to be matched to the closest words in the English norms data set. We use a look-up table approach. Some words are excluded (these retain their NA values in the look-up table).
@@ -334,7 +360,7 @@ meaning_conversion[x, ]$Meaning <- 'smooth'
 reflex$Meaning <- meaning_conversion[match(reflex$Meaning, meaning_conversion$Reflex), ]$Meaning
 ```
 
-We now merge the data sets and add a column that identifies the original data set.
+We now merge the data sets and add a column that identifies the original data set. The CLICS data set will be merged in later as it needs separate treatment (as R_type is already partly available).
 
 ```{r}
 google$Dataset <- "Google"
@@ -405,6 +431,50 @@ At this point it's useful to exclude:
 ```{r}
 xling <- xling %>% 
   filter(!is.na(Meaning) & !is.na(Rough.M))
+```
+
+We now process the CLICS data. At this point, we want it to have all the metadata that the other data sets have. We have a good number of the languages in AutoTyp, and for these getting the metadata will be simple. However, some of them are not in AutoTyp. I've manually created entries for these in autotyp_additions_new.csv, and these have: both Family data and latitude / longitude. However, they don't have any area data or language branch info. Since the language branch info is not used in our analyses, we don't need to add this. However, area is important. We add area here using a nearest neighbour approach relying on the full AutoTyp data set.
+
+```{r}
+# adding info where it's available in autotyp
+auto_matches <- match(clics$ISO_code, auto$ISO639.3, incomparables=c(NA))
+clics$Family <- auto[auto_matches, ]$stock
+clics$Branch <- auto[auto_matches, ]$mbranch
+clics$Area <- auto[auto_matches, ]$area
+clics$Continent <- auto[auto_matches, ]$continent
+clics$Longitude <- auto[auto_matches, ]$longitude
+clics$Latitude <- auto[auto_matches, ]$latitude
+
+# adding missing language data based on autotyp_add
+rows_to_fill <- which(clics$ISO_code %in% auto_add$ISO_code)
+language_vector <- clics$ISO_code[rows_to_fill]
+clics[rows_to_fill, c("Family","Branch","Area","Continent","Longitude","Latitude")] <- auto_add[match(language_vector, auto_add$ISO_code),c("Family","Branch","Area","Continent","Longitude","Latitude")]
+
+# we now find area and continent info based on nearest neighbours in
+# autotyp data
+
+for (r in which(is.na(clics$Area))) {
+  long <- clics[[r,"Longitude"]]
+  lat <- clics[[r,"Latitude"]]
+  dists <- sqrt((long - auto$longitude)**2 + (lat - auto$latitude)**2)
+  nn <- which.min(dists)
+  clics$Area[r] <- auto[[nn,"area"]]
+  clics$Continent[r] <- auto[[nn,"continent"]]
+}
+
+# add roughness data
+clics$Meaning <- tolower(clics$Meaning)
+
+clics <- left_join(clics, dplyr::select(eng, Word, Rough.M), by = c('Meaning' = 'Word')) %>%
+  mutate(rough=Rough.M >= 0)
+
+clics$Dataset <- "CLICS"
+```
+
+And now we merge this into the main data!
+
+```{r}
+xling <- bind_rows(xling, clics)
 ```
 
 We now add info about whether the /r/ in the language is a trill or not. This is complicated by the fact that some languages have no /r/'s and some of them have multiple rhotics.
@@ -479,8 +549,8 @@ check_rhotics <- function (x) {
 
 all_types <- unlist(lapply(all_rs, check_rhotics))
 
-# adding R type data to main data set  
-xling$R_type <- all_types[match(xling$Phoible_code, all_matches)]
+# adding R type data to main data set if it's not already there 
+xling$R_type[is.na(xling$R_type)] <- all_types[match(xling$Phoible_code, all_matches)][is.na(xling$R_type)]
 ```
 
 For Chirila, we have detailed phonemic codes that suggest R-type. We can use these to add further data for those languages where Phoible failed (and where we don't already have Trill codes).
@@ -604,7 +674,7 @@ xling[xling$Language == 'Yugarabul', ]$Language <- 'Yagara'
 
 ## Same for the varieties "Ese Ejja" and "Ese Ejja (Huarayo)":
 
-xling[xling$Language == 'Ese Ejja', ]$Trill <- 'yes'
+xling[xling$Language == 'Ese Ejja', ]$Trill <- 'no'
 xling[xling$Language == 'Ese Ejja', ]$R_type <- 'no rhotic'
 xling[xling$Language == 'Ese Ejja (Huarayo)', ]$Language <- 'Ese Ejja'
 
@@ -618,11 +688,13 @@ xling[xling$Language %in% thais, ]$Language <- 'Thai'
 xling <- filter(xling, Language != 'Modern Greek')
 ```
 
-We exclude languages that have no rhotics. Note that this also includes some languages where the phonetic value of rhotics is unusual, e.g. uvular fricatives (Breton, Hebrew) or retroflex fricatives (Hanoi Vietnamese).
+We exclude any languages where the value of Trill is not "yes" or "no". This gets rid of languages with no rhotics, languages where we have no info about rhotics and languages with a mix of trills and other types of rhotics.
+
+(Note that there are some languages where the R_type and Trill columns contain conflicing info; in such cases, Trill is considered more reliable, as these will all be instances where Trill was checked & filled in manually.)
 
 ```{r}
-xling$R_type[is.na(xling$R_type)] <- "no info"
-xling <- filter(xling, R_type!="no rhotic")
+xling$Trill[is.na(xling$Trill)] <- "no info"
+xling <- filter(xling, Trill %in% c("yes","no"))
 ```
 
 We now add a column that codes whether a specific form contains an /r/. For the Google Translate data, this has already been done using regexps. For the other data sets, we perform the search below.
@@ -646,6 +718,17 @@ xling[xling$Dataset != 'Google', ]$r <- mutate(not_google, r = str_detect(Form, 
 xling[xling$Dataset != 'Google', ]$l <- mutate(not_google, 
                                                l = str_detect(Form, '(l)|(ľ)|(ľ)|(ļ)|(l̪)|(ł)|(ɭ)|(ʎ)'))$l
 rm(not_google)
+```
+
+Now remove duplicate forms (often duplicated across data sets).
+
+```{r}
+xling <- xling %>%
+  group_by(Language) %>%
+  mutate(d=duplicated(Form)) %>%
+  ungroup() %>%
+  filter(!d) %>%
+  dplyr::select(-d)
 ```
 
 Save file.

@@ -1,0 +1,275 @@
+---
+title: "Preparing CLICS data for inclusion in crosslinguistic data set"
+author: "Márton Sóskuthy"
+date: "02/07/2020"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+## Loading data & packages
+
+```{r}
+# load packages:
+library(tidyverse)
+library(stringr)
+
+# load data:
+clics <- bind_rows(
+  read_csv('../raw_data/a4_cross_linguistic/clics_rough.csv'),
+  read_csv('../raw_data/a4_cross_linguistic/clics_smooth.csv'),
+)
+
+# load supplementary data sets:
+# 1) language list for clics with glottocodes
+clics_ls <- read_csv('../raw_data/a4_cross_linguistic/clics_languages.csv')
+
+# 2) language list for autotyp with glottocodes
+autotyp_ls <- read_csv('../raw_data/a4_cross_linguistic/autotyp_language_list.csv')
+
+# 3) other data sets (for establishing overlap)
+trs <- read_csv('../final_data/google_translate.csv')
+chir <- read_csv('../raw_data/a4_cross_linguistic/chirila.csv')
+reflex <- read_csv('../raw_data/a4_cross_linguistic/reflex_african_117.csv') %>%
+	mutate_all(as.character)
+IDS <- read_csv('../raw_data/a4_cross_linguistic/IDS.csv')
+
+# 4) PHOIBLE
+phoible <- read_csv('../raw_data/a4_cross_linguistic/phoible.csv')
+```
+
+So as a first step in our pipeline, we remove all languages that we already have data for -- it is not helpful to add these in again.
+
+```{r}
+existing_ls <- unique(c(
+  trs$language,
+  chir$StdLanguageName,
+  reflex$langue,
+  IDS$Language_name
+))
+
+# we remove variety info
+existing_ls <- unique(str_match(existing_ls, "(.*?) *([(]|-[0-9]|$)")[,2])
+
+# now we do the same for clics
+clics$Language_broad <- str_match(clics$Language, "(.*?) *([(]|,|\\[|-[0-9]|$)")[,2]
+
+# and now we filter
+clics <- filter(clics, !(Language_broad %in% existing_ls))
+```
+
+This hopefully avoids most overlap with the existing data. We now remove duplicate varieties from our data set: each language should be represented by a single variety. Varieties are shown in ()'s or []'s, or after a comma, so we use these to identify the variety. As a simple rule, where the language name also appears without a specific variety tag, we keep that as our data point. For other cases, we'll define defaults.
+
+Defaults:
+  - number 1 (if numbered)
+  - variety with the most speakers
+  - alphabetically first
+  - spoken over written
+
+```{r}
+# we start by providing a list of default Ls 
+# (for cases where simple heuristics don't work)
+
+# defaults:
+lang_defs <- list(
+  `'Are'are`="'Are'are (1)",
+  Akhvakh="Akhvakh (Northern dialect)",
+  Alorese="Alorese, Baranusa",
+  Arosi="Arosi (1)",
+  Bai="Bai (Jianchuan)", # because this is the one exemplified in Wikipedia
+  Bunak="Bunak, Bobonaro",
+  Burmese="Burmese (Spoken Rangoon)",
+  `Cia-Cia`="Cia-Cia, Masiri", # "Masiri ... shows the greatest amount of vocabulary in common with the standard dialect."
+  Khwarshi="Khwarshi (Khwarshi dialect)", # because that's the name of the language also
+  Kokoda="Kokoda, Negeri Besar", # "Kokoda proper"
+  `Nga'o`="Nga'o, Oja",
+  Pumi="Pumi (Taoba)", # more speakers (maybe?)
+  Qiang="Qiang (Mawo)", # purely alphabetical
+  Reta="Reta, Pura", # as it's mainly spoken on Pura
+  `Sa'a`="Sa'a (1)",
+  Sika="Sika, Tana Ai", # "used by both outsiders and insiders to refer to the people and language of the region and it is also used as a ritual language."
+  Tabasaran="Tabasaran (Southern dialect)", # literary language based off of this
+  Yi="Yi (Mile)",
+  Bauro="Bauro (1)"
+)
+
+# we now replace the language variety names (on the right hand side of list)
+# with the broad names (on the left hand side of the list); these broad names
+# are the same as the broad names in Language_broad
+
+clics$Language_temp <- clics$Language 
+
+# (I give up: a loop!!!)
+
+for (replacement in names(lang_defs)) {
+  original <- lang_defs[[replacement]]
+  clics$Language_temp[clics$Language_temp==original] <- replacement
+}
+
+# we now do the filtering:
+# ... within each broad language group (i.e. group of varieties)
+#     choose the variety with the same name as the name of the
+#     broad group (where there wasn't such a name, we created one above
+#     by giving it to the "default" variety);
+#
+#     there are some languages where a variety is specified, but
+#     there's only one; in such cases, Language != Language_broad,
+#     so this has to be accounted for
+clics <- clics %>%
+  group_by(Language_broad) %>%
+  mutate(n=length(unique(Language_temp))) %>%
+  ungroup() %>%
+  filter(n==1 | Language_temp==Language_broad) %>%
+  dplyr::select(-Language_temp)
+```
+
+So now, hopefully, we only have a single variety per language. But we still don't have autotyp / phoible codes. So we want to generate those! The autotyp codes are tricky: we have glottolog codes for these languages, which we want to translate into autotyp ones. And then we'll get the Phoible ones... (gaah!)
+
+Starting with autotyp codes below. If you uncomment the final two lines, this chunk produces a language list and a list of ISO639.3 codes that can be copy-pasted into a spreadsheet.
+
+```{r}
+# 510 languages left; are they all in the clics_ls metadata?
+clics$Language %in% clics_ls$name
+# yes! 
+# do they all have glottolog codes?
+clics_ls <- filter(clics_ls, name %in% clics$Language)
+clics_ls$glottocode
+# seems like it!
+
+# are those glottolog codes in autotyp??? 
+# (Glottocode slightly better than Glottocode.2014)
+mean(clics_ls$glottocode %in% autotyp_ls$Glottocode)
+# about 60% ...
+
+# we create a list with language names and matching iso codes
+iso_codes <- left_join(clics_ls, 
+                       dplyr::select(autotyp_ls, Glottocode, ISO639.3),
+                       by=c(glottocode="Glottocode")) %>%
+  dplyr::select(name, ISO639.3) %>%
+  unique()
+#cat(iso_codes$name, sep="\n")
+#cat(iso_codes$ISO639.3, sep="\n")
+```
+
+I have gone through this list and filled in NA's (mostly based on Wikipedia) where possible. The results of this are now loaded from the clics_filter_list.csv file. We use this list for several purposes. We start by some data cleaning.
+
+(1) Exclude some explicitly marked languages: obvious duplicates & languages where no info was available
+(2) Check whether any ISO codes from the other data sets are duplicated. If yes, exclude.
+(3) Check whether any ISO codes in clics are duplicated. If yes, use a default list to exclude duplicates.
+
+```{r}
+clics_filter_list <- read_csv("../raw_data/a4_cross_linguistic/clics_filter_list.csv") %>%
+  filter(Dataset != "WOLD")
+# WOLD is not in the cross-lingustic data!
+
+# (1)
+clics_filter_list$Action[is.na(clics_filter_list$Action)] <- ""
+clics_filter_list <- clics_filter_list %>%
+  filter(!is.na(AutotypMatch) & Action != "exclude")
+
+# (2)
+clics_filter_list <- clics_filter_list %>%
+  mutate(clics=Dataset=="CLICS") %>%
+  group_by(AutotypMatch) %>%
+  mutate(code_exists_outside_clics=sum(clics) < length(clics)) %>%
+  ungroup() %>%
+  filter(!(Dataset=="CLICS" & code_exists_outside_clics))
+
+# (3) print out languages with duplicates within CLICS
+for (iso in unique(filter(clics_filter_list, Dataset=="CLICS")$AutotypMatch)) {
+  temp_data <- filter(clics_filter_list, Dataset=="CLICS" & AutotypMatch==iso)
+  if (nrow(temp_data) > 1) {
+    print(paste(temp_data$Language, collapse="; "))
+  }
+}
+
+def_list <- c("Abui", "Adonara Lamaholot", "Mono", "Mbambatana", "Bará", "Tsova-Tush",
+              "Blablanga", "Bora", "Teiwa", "Lengo", "Ghari", "Lau North",
+              "Tataba", "Lokuru", "Reefs", "Poleo", "Mandarin", "Mbilua", "Puiron",
+              "Western Pantar")
+
+clics_filter_list <- clics_filter_list %>%
+  group_by(AutotypMatch) %>%
+  mutate(multi_in_clics = sum(clics) > 1) %>%
+  filter(!clics | (!multi_in_clics | (Language %in% def_list))) %>%
+  ungroup()
+  
+# now filtering clics_ls to reflect these changes
+clics_ls <- filter(clics_ls, 
+                   name %in% clics_filter_list$Language)
+
+# clics filter list should now only have clics data
+clics_filter_list <- clics_filter_list %>%
+  filter(Dataset == "CLICS")
+
+# also filter clics to only have languages that are in filter list
+clics <- filter(clics, Language %in% clics_filter_list$Language)
+```
+
+We now add PHOIBLE info where available, and then write out to clics_language_info.csv.
+
+```{r}
+# how many?
+sum((clics_filter_list$AutotypMatch %in% phoible$LanguageCode))
+      
+# add info to data set
+clics_filter_list$PhoibleMatch <- ""
+clics_filter_list$PhoibleMatch[clics_filter_list$AutotypMatch %in% phoible$LanguageCode] <- 
+  clics_filter_list$AutotypMatch[clics_filter_list$AutotypMatch %in% phoible$LanguageCode]
+
+# write out
+clics_filter_list <- clics_filter_list %>%
+  mutate(R_type="", Comments="") %>%
+  dplyr::select(Language, Dataset, AutotypMatch, R_type, Comments, PhoibleMatch)
+
+# don't uncomment!!
+# write_csv(clics_filter_list, "../raw_data/a4_cross_linguistic/clics_language_info.csv")
+```
+
+We now merge the PHOIBLE info, trill realisation and AutoTyp info back into the original data set.
+
+```{r}
+clics_language_info <- read_csv("../raw_data/a4_cross_linguistic/clics_language_info.csv")
+
+clics$Language %in% clics_language_info$Language
+# all good!
+
+clics <- left_join(clics, clics_language_info, by="Language")
+```
+
+So who's not in autotyp?
+
+```{r}
+#auto <- read_csv('../raw_data/a4_cross_linguistic/autotyp.csv')
+#
+#clics %>%
+#  dplyr::select(Language, AutotypMatch, Dataset, family_name, macroarea, latitude, longitude) %>%
+#  unique() %>%
+#  filter(!(AutotypMatch %in% auto$ISO639.3)) %>%
+#  write_csv('../raw_data/a4_cross_linguistic/autotyp_additions_clics.csv')
+```
+
+(In addition, we add family info, areal info, longitude and latitude.)
+No, this info will be added from AutoTyp to make this data more compatible with what we already have.
+
+```{r}
+#clics_ls_to_join <- dplyr::select(clics_ls, name, family_name, macroarea, latitude, longitude) %>%
+#  unique() %>%
+#  filter(!(name=="Awa" & family_name=="Nuclear Trans New Guinea"), # two Ls with same name
+#         !(name=="Jingpho" & is.na(longitude)),
+#         !(name=="Jinuo" & is.na(longitude)),
+#         !(name=="Kui" & is.na(longitude))) # these are erroneous duplicate entires
+#clics <- inner_join(clics, clics_ls_to_join,
+#                   by=c(Language="name")) %>%
+#  dplyr::select(-Frequency, -Confidence, -References, -Language_broad, -n, -Comments)
+```
+
+We write out the resulting file.
+
+```{r}
+write_csv(clics, "../raw_data/a4_cross_linguistic/clics_final.csv")
+```
+
+WE

@@ -1,0 +1,54 @@
+---
+title: "Data processing for rough R: Proto-Indo-European forms based on Rolf Noyer's database for analysis A6"
+author: "Márton Sóskuthy"
+output: html_document
+---
+
+This script takes a database of Proto-Indo-European roots with reconstructed meanings and extracts relevant surface descriptors based on Stadtlander & Murdoch (2000), adding roughness ratings from this external data set.
+
+Loading packages & data.
+
+```{r}
+library(tidyverse)
+pie_all <- read_csv('../raw_data/a6_pie_2/all_stems.csv', col_names = FALSE)
+eng <- read_csv('../final_data/english_norms.csv')
+```
+
+Formatting PIE roots data set + limiting to adjectives only.
+
+```{r}
+pie_all <- rename(pie_all, Stem = X1, Description = X2)
+adjs <- filter(pie_all, str_detect(Description, 'adj'))
+```
+
+The following code chunk is where all the action happens.
+
+```{r}
+# create regex to match words in the English norms data
+regex <- paste0("[‘ ,;](", str_c(eng$Word, collapse = '|'), ")")
+
+# create PIE roots data set
+pie2 <- adjs %>%
+  # extract matching surface descriptors from roots data set + the PIE roots
+  mutate(surface_descriptor = str_match(adjs$Description, regex)[,2],
+         pie_root =  stringr::str_match(adjs$Description, ".*[|][ ]*(.*?)$")[,2]) %>%
+  # discard all rows that are not surface descriptors
+  filter(!is.na(surface_descriptor)) %>%
+  # add in roughness ratings
+  left_join(dplyr::select(eng, Word, Rough.M), by=c("surface_descriptor"="Word")) %>%
+  mutate(rough = Rough.M >= 0) %>%
+  # majority "rough" classification used for duplicates (doesn't seem to change anything!);
+  # also, does root contain an /r/?
+  group_by(pie_root) %>%
+  mutate(rough = as.logical(round(mean(rough))),
+         r = str_detect(pie_root, 'r|r̥')) %>%
+  ungroup() %>%
+  # remove duplicate roots
+  filter(!duplicated(pie_root))
+```
+
+Saving file.
+
+```{r}
+write_csv(pie2, '../final_data/pie2.csv')
+```

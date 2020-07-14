@@ -113,7 +113,168 @@ plot_varimp <- function(varimps,
   abline(v = 0)
 }
 
+logistic_intr_summary <- function (model, dat, outcome="/r/", roughpred="rough", trillpred="Trill", pp_over_zero=T,
+                                   binary_pred=T, printPlease=T) {
+  brm_beta_post <- posterior_samples(model)
+  if (binary_pred) {
+    roughcol <- paste0(roughpred, "TRUE") 
+    trillcol <- paste0(trillpred, "yes")
+  }
+  intrcol <- paste0("b_", roughcol, ":", trillcol)
+  roughcol <- paste0("b_", roughcol)
+  trillcol <- paste0("b_", trillcol)
+  
+  # trill yes - smooth
+  pred_prob_trill_smooth <- plogis(
+    brm_beta_post[,1] +
+    brm_beta_post[,trillcol]
+  )
+  
+  # trill yes - rough
+  pred_prob_trill_rough <- plogis(
+    brm_beta_post[,1] +
+    brm_beta_post[,roughcol] +
+    brm_beta_post[,trillcol] +
+    brm_beta_post[,intrcol]
+  )
+  
+  # trill diff
+  pred_prob_trill_diff <- pred_prob_trill_rough - pred_prob_trill_smooth
+  if (pp_over_zero) {
+    pp_trill_zero <- mean(pred_prob_trill_diff > 0)
+    pp_text <- "% over zero"
+  } else {
+    pp_trill_zero <- mean(pred_prob_trill_diff < 0)
+    pp_text <- "% below zero"
+  }
+  
+  # trill no - smooth
+  pred_prob_notrill_smooth <- plogis(
+    brm_beta_post[,1]
+  )
+  
+  # trill no - rough
+  pred_prob_notrill_rough <- plogis(
+    brm_beta_post[,1] +
+    brm_beta_post[,roughcol]
+  )
+  
+  # trill no diff
+  pred_prob_notrill_diff <- pred_prob_notrill_rough - pred_prob_notrill_smooth
+  if (pp_over_zero) {
+    pp_notrill_zero <- mean(pred_prob_notrill_diff > 0)
+    pp_text <- "% over zero"
+  } else {
+    pp_notrill_zero <- mean(pred_prob_notrill_diff < 0)
+    pp_text <- "% below zero"
+  }
+  
+  # diff in diff
+  pred_prob_diff_change <- pred_prob_trill_diff - pred_prob_notrill_diff
+  pp_change <- mean(pred_prob_diff_change > 0)
+  
+  if (printPlease) {
+    txt <- paste0(
+      "TRILLS:\n",
+      "predicted probability of ", outcome, " based on roughness:\n",
+      "   smooth: ", round(mean(pred_prob_trill_smooth), 2), 
+      " [", round(quantile(pred_prob_trill_smooth, 0.025), 2), 
+      ",", round(quantile(pred_prob_trill_smooth, 0.975), 2), "]\n",
+      "   rough: ", round(mean(pred_prob_trill_rough), 2), 
+      " [", round(quantile(pred_prob_trill_rough, 0.025), 2), 
+      ",", round(quantile(pred_prob_trill_rough, 0.975), 2), "]\n",
+      "predicted difference in probability of ", outcome, " (rough - smooth):\n",
+      "   diff: ", round(mean(pred_prob_trill_diff), 2), 
+      " [", round(quantile(pred_prob_trill_diff, 0.025), 2), 
+      ",", round(quantile(pred_prob_trill_diff, 0.975), 2), 
+      "], ", round(100*pp_trill_zero, 2), pp_text, "\n\n",
+      ###
+      ###
+      "NO TRILLS:\n",
+      "predicted probability of ", outcome, " based on roughness:\n",
+      "   smooth: ", round(mean(pred_prob_notrill_smooth), 2), 
+      " [", round(quantile(pred_prob_notrill_smooth, 0.025), 2), 
+      ",", round(quantile(pred_prob_notrill_smooth, 0.975), 2), "]\n",
+      "   rough: ", round(mean(pred_prob_notrill_rough), 2), 
+      " [", round(quantile(pred_prob_notrill_rough, 0.025), 2), 
+      ",", round(quantile(pred_prob_notrill_rough, 0.975), 2), "]\n",
+      "predicted difference in probability of ", outcome, " (rough - smooth):\n",
+      "   diff: ", round(mean(pred_prob_notrill_diff), 2), 
+      " [", round(quantile(pred_prob_notrill_diff, 0.025), 2), 
+      ",", round(quantile(pred_prob_notrill_diff, 0.975), 2), 
+      "], ", round(100*pp_notrill_zero, 2), pp_text, "\n\n",
+      ###
+      ###
+      "CHANGE IN DIFFERENCE BETWEEN ROUGH vs. SMOOTH AS A FUNCTION OF TRILL:\n",
+      "   ", round(mean(pred_prob_diff_change), 2), 
+      " [", round(quantile(pred_prob_diff_change, 0.025), 2), 
+      ",", round(quantile(pred_prob_diff_change, 0.975), 2),
+      "], ", round(100*pp_change, 2), pp_text, "\n\n",
+      sep="")
+    cat(txt)
+  }
+  
+  return(list(trill=list(rough=list(mean=mean(pred_prob_trill_rough), 
+                                    ul=quantile(pred_prob_trill_rough, 0.975), 
+                                    ll=quantile(pred_prob_trill_rough, 0.025)),
+                         smooth=list(mean=mean(pred_prob_trill_smooth), 
+                                     ul=quantile(pred_prob_trill_smooth, 0.975), 
+                                     ll=quantile(pred_prob_trill_smooth, 0.025))),
+              notrill=list(rough=list(mean=mean(pred_prob_notrill_rough), 
+                                      ul=quantile(pred_prob_notrill_rough, 0.975), 
+                                      ll=quantile(pred_prob_notrill_rough, 0.025)),
+                           smooth=list(mean=mean(pred_prob_notrill_smooth), 
+                                       ul=quantile(pred_prob_notrill_smooth, 0.975), 
+                                       ll=quantile(pred_prob_notrill_smooth, 0.025)))
+  ))
+}
 
-
-
+logistic_summary_hard <- function (model, dat, outcome="/r/", hardpred="rough", pp_over_zero=T,
+                              binary_pred=T, printPlease=T) {
+  brm_beta_post <- posterior_samples(model)
+  hardcol <- paste0("b_", hardpred)
+  if (binary_pred) {
+    hardcol <- paste0(hardcol, "TRUE") 
+  }
+  
+  # soft
+  pred_prob_soft <- plogis(
+    brm_beta_post[,1]
+  )
+  
+  # hard
+  pred_prob_hard <- plogis(
+    brm_beta_post[,1] +
+      brm_beta_post[,hardcol]
+  )
+  
+  # diff
+  pred_prob_diff <- pred_prob_hard - pred_prob_soft
+  if (pp_over_zero) {
+    pp__zero <- mean(pred_prob_diff > 0)
+    pp_text <- "% over zero"
+  } else {
+    pp__zero <- mean(pred_prob_diff < 0)
+    pp_text <- "% below zero"
+  }
+  
+  if (printPlease) {
+    txt <- paste0(
+      "predicted probability of ", outcome, " rating based on hardness:\n",
+      "   soft: ", round(mean(pred_prob_soft), 2), 
+      " [", round(quantile(pred_prob_soft, 0.025), 2), 
+      ",", round(quantile(pred_prob_soft, 0.975), 2), "]\n",
+      "   hard: ", round(mean(pred_prob_hard), 2), 
+      " [", round(quantile(pred_prob_hard, 0.025), 2), 
+      ",", round(quantile(pred_prob_hard, 0.975), 2), "]\n",
+      "predicted difference in probability of ", outcome, " (hard - soft):\n",
+      "   diff: ", round(mean(pred_prob_diff), 2), 
+      " [", round(quantile(pred_prob_diff, 0.025), 2), 
+      ",", round(quantile(pred_prob_diff, 0.975), 2), 
+      "], ", round(100*pp__zero, 2), pp_text, "\n\n",
+      sep="")
+    cat(txt)
+  }
+  return(tibble(pred_prob_soft, pred_prob_hard, pred_prob_diff))
+}
 

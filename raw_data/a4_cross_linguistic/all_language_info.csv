@@ -79,11 +79,11 @@ Nahuatl (Sierra de Zacapoaxtla variety),IDS,azz,no,NA,ncj
 Chatino (Zacatepec variety),IDS,ctp,no,NA,ctp
 Karok,IDS,kyh,no,flap,kyh
 Seri,IDS,sei,no,flap,sei
-Zuni,IDS,zun,no,no R-like phoneme,zun
-Hawaiian,IDS,haw,no,no R-like phoneme,haw
+Zuni,IDS,zun,no R,no R-like phoneme,zun
+Hawaiian,IDS,haw,no R,no R-like phoneme,haw
 Maori,IDS,mri,no,flap,mri
 Rapa Nui,IDS,rap,no,flap,rap
-Rotuman,IDS,rtm,no,r ~ l allophony according to wikipedia,rtm
+Rotuman,IDS,rtm,no R,r ~ l allophony according to wikipedia,rtm
 Tongan,IDS,ton,no,approximant,ton
 Tuamotuan,IDS,pmt,no,flap based on Hiroshi Kuki (1969),pmt
 Muisca,IDS,chb,no,flap,chb
@@ -98,7 +98,7 @@ Yaruro,IDS,yae,no,flap based on wikipedia,yae
 Ninam (Shirishana variety),IDS,shb,NA,NA,shb
 Yanomámi,IDS,wca,NA,NA,wca
 Cofán,IDS,con,NA,NA,con
-Waorani,IDS,auc,no,no R-like phoneme,auc
+Waorani,IDS,auc,no R,no R-like phoneme,auc
 Siona,IDS,snn,NA,NA,snn
 Tuyuca,IDS,tue,no,flap,tue
 Aguaruna,IDS,agr,no,flap,agr
@@ -112,16 +112,16 @@ Yavitero,IDS,yvt,NA,NA,yvt
 Aymara,IDS,ayr,no,flap,ayr
 Chipaya,IDS,cap,no,flap,cap
 Mosetén,IDS,cas,NA,NA,cas
-Araona,IDS,aro,no,no R-like phoneme,aro
+Araona,IDS,aro,no R,no R-like phoneme,aro
 Cavineña,IDS,cav,NA,NA,cav
 Ese Ejja,IDS,ese,NA,NA,ese
-Ese Ejja (Huarayo),IDS,ese,no,no R-like phoneme,ese
+Ese Ejja (Huarayo),IDS,ese,no R,no R-like phoneme,ese
 Tacana,IDS,tna,no,flap,tna
 Cashibo,IDS,iru,NA,NA,iru
-Catuquina,IDS,kav,no,"probably Katukina, no R-like phoneme",kav
+Catuquina,IDS,kav,no R,"probably Katukina, no R-like phoneme",kav
 Chácobo,IDS,cao,NA,NA,cao
 Shipibo-Conibo,IDS,shp,NA,NA,shp
-Yaminahua,IDS,yaa,no,no R-like phoneme,yaa
+Yaminahua,IDS,yaa,no R,no R-like phoneme,yaa
 Cayuvava,IDS,cyb,NA,NA,cyb
 Itonama,IDS,ito,NA,NA,ito
 Movima,IDS,mzp,no,tap/flap,mzp
@@ -139,12 +139,12 @@ Sanapaná (Enlhet dialect),IDS,sap,NA,NA,sap
 Lengua,IDS,leg,NA,NA,leg
 Mocoví,IDS,moc,NA,NA,moc
 Pilagá,IDS,plg,NA,NA,plg
-Chorote,IDS,crq; crt,no,no R-like phoneme,crq
+Chorote,IDS,crq; crt,no R,no R-like phoneme,crq
 Maca,IDS,mca,NA,cannot be determined,mca
 Wichí,IDS,mzh,NA,NA,mzh
 Nivaclé,IDS,cag,NA,NA,cag
 Kunza,IDS,kuz,NA,NA,kuz
-Mapudungun,IDS,arn,no,no R-like phoneme,arn
+Mapudungun,IDS,arn,no R,no R-like phoneme,arn
 Tehuelche,IDS,teh,NA,NA,teh
 Selknam,IDS,ona,NA,cannot be determined,ona
 GÌ_nÌ_na KÌ_ne,IDS,pue,NA,NA,pue
@@ -156,22 +156,22 @@ Central Thai,IDS,tha,no,tap/flap,tha
 Southern Tai (Songkhla variety),IDS,tha,no,tap/flap,tha
 Thai (Korat variety),IDS,tha,no,tap/flap,tha
 Khamuang (Chiang Mai variety),IDS,nod,NA,cannot be determined,nod
-Dehong,IDS,tdd; thi,no,no R-like phoneme; based on wikipedia,tdd; thi
+Dehong,IDS,tdd; thi,no R,no R-like phoneme; based on wikipedia,tdd; thi
 Tai Lü,IDS,khb,NA,NA,khb
 Tai Khün,IDS,kkh,NA,NA,kkh
-Shan,IDS,shn,no,there is a trill but wikipedia says it's marginal,shn
-Shan (Northern Shan dialect),IDS,shn,no,there is a trill but wikipedia says it's marginal,shn
-Nung-Fengshan,IDS,zgn,no,no R-like phoneme; based on Nung-Ninbei,zgn
-Nung-Lazhai,IDS,zgn,no,no R-like phoneme; based on Nung-Ninbei,zgn
-Nung-Ninbei,IDS,nut,no,no R-like phoneme,nut
+Shan,IDS,shn,no R,there is a trill but wikipedia says it's marginal,shn
+Shan (Northern Shan dialect),IDS,shn,no R,there is a trill but wikipedia says it's marginal,shn
+Nung-Fengshan,IDS,zgn,no R,no R-like phoneme; based on Nung-Ninbei,zgn
+Nung-Lazhai,IDS,zgn,no R,no R-like phoneme; based on Nung-Ninbei,zgn
+Nung-Ninbei,IDS,nut,no R,no R-like phoneme,nut
 Zhuang-Longzhou,IDS,zzj,NA,cannot be determined,zzj
-Sui,IDS,swi,no,no R-like phoneme,swi
-Lakkia,IDS,lbc,no,no R-like phoneme,lbc
+Sui,IDS,swi,no R,no R-like phoneme,swi
+Lakkia,IDS,lbc,no R,no R-like phoneme,lbc
 Hlai (Baoting variety),IDS,lic,NA,cannot be determined; Peter Kristian Norquest's phonological reconstruction suggests both tap or trill,lic
 Langja Buyang,IDS,yzg,NA,cannot be determined; Peter Kristian Norquest's phonological reconstruction suggests both tap or trill,yzg
 Ecun Buyang,IDS,yln,NA,cannot be determined; Peter Kristian Norquest's phonological reconstruction suggests both tap or trill,yln
 Sanchong Kelao,IDS,giq,NA,cannot be determined; Peter Kristian Norquest's phonological reconstruction suggests both tap or trill,giq
-Qau Kelao,IDS,gqu,no,no R-like phoneme,gqu
+Qau Kelao,IDS,gqu,no R,no R-like phoneme,gqu
 Bengali,IDS,ben,NA,cannot be determined; Phoible lists different phonemes,ben
 Hindi,IDS,hin,NA,cannot be determined; Phoible lists different phonemes,hin
 Mahasu Pahari (Kotghari dialect),IDS,bfz,NA,NA,bfz
@@ -216,7 +216,7 @@ CHNG (a Pearic variety),IDS,NA,NA,NA,NA
 Iduh,IDS,tyh,NA,NA,tyh
 Mang Ch,IDS,zng,NA,NA,zng
 Mang VN,IDS,NA,NA,NA,NA
-Tlingit,IDS,tli,no,no R-like phoneme,tli
+Tlingit,IDS,tli,no R,no R-like phoneme,tli
 Proto Polynesian,IDS,NA,NA,NA,NA
 Vietnamese,IDS,vie,NA,NA,vie
 De'kwana,IDS,mch,NA,NA,mch

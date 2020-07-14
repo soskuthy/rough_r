@@ -1,0 +1,662 @@
+ID,Name,Parameter,Language,Frequency,Confidence,References,Language_broad,n,Dataset,AutotypMatch,R_type,Comments,PhoibleMatch
+ids-319-15-760-2,aenaekhsaest,ROUGH,Ossetic,NA,NA,NA,Ossetic,1,CLICS,oss,NA,NA,oss
+wold-TarifiytBerber-1038_rough1-1,ahasaw,ROUGH,Tarifiyt Berber,NA,NA,NA,Tarifiyt Berber,1,CLICS,rif,NA,NA,rif
+robinsonap-abui-235_rough-1,ahoifang,ROUGH,Abui,NA,NA,NA,Abui,5,CLICS,abz,trill,wiki,NA
+robinsonap-kamang-235_rough-1,aooba,ROUGH,Kamang,NA,NA,NA,Kamang,2,CLICS,woi,NA,NA,woi
+robinsonap-nedebang-235_rough-1,aradda,ROUGH,Nedebang,NA,NA,NA,Nedebang,1,CLICS,nec,NA,NA,NA
+lexirumah-gese1240-rough-1,asar,ROUGH,Geser-Gorom,NA,NA,NA,Geser-Gorom,1,CLICS,ges,NA,NA,NA
+marrisonnaga-Dimasa-617_rough-1,baraba,ROUGH,Dimasa,NA,NA,NA,Dimasa,1,CLICS,dis,trill,"Brahma, Pratima (2014). Phonology and morphology of Bodo and Dimasa: a comparative study (PhD), http://shodhganga.inflibnet.ac.in:8080/jspui/bitstream/10603/21160/8/08_chapter%203.pdf",NA
+ids-68-15-760-3,begemdaru,ROUGH,Tabasaran (Southern dialect),NA,NA,NA,Tabasaran,2,CLICS,tab,trill,wiki,NA
+ids-51-15-760-3,bigubitsub,ROUGH,Chamalal,NA,NA,NA,Chamalal,2,CLICS,cji,trill,https://omniglot.com/writing/chamalal.htm,NA
+ids-74-15-760-1,bikhurmetlue,ROUGH,Judeo-Tat,NA,NA,NA,Judeo-Tat,1,CLICS,jdt,no trill,wiki,NA
+wold-Qeqchi-1038_rough1-1,biqbiq,ROUGH,Q'eqchi',NA,NA,NA,Q'eqchi',1,CLICS,kek,NA,NA,kek
+ids-42-15-760-1,bolioiu,ROUGH,Hinuq,NA,NA,NA,Hinuq,1,CLICS,gin,trill,wiki,NA
+wold-SeychellesCreole-1038_rough1-2,brit,ROUGH,Seychelles Creole,NA,NA,NA,Seychelles Creole,1,CLICS,crs,NA,NA,NA
+lexirumah-funa1237-rough-1,bseda,ROUGH,Funai Helong,NA,NA,NA,Funai Helong,1,CLICS,heg,NA,NA,NA
+marrisonnaga-Lushai-617_rough-1,buan,ROUGH,Lushai,NA,NA,NA,Lushai,1,CLICS,lus,NA,NA,lus
+marrisonnaga-Lushai-617_rough-2,buk,ROUGH,Lushai,NA,NA,NA,Lushai,1,CLICS,lus,NA,NA,lus
+wold-Qeqchi-1038_rough1-3,buruxburux,ROUGH,Q'eqchi',NA,NA,NA,Q'eqchi',1,CLICS,kek,NA,NA,kek
+halenepal-Chepang-1677_rough-1,ceko,ROUGH,Chepang,NA,NA,NA,Chepang,1,CLICS,cdm,NA,NA,cdm
+ids-52-15-760-1,chiechieru,ROUGH,Hunzib,NA,NA,NA,Hunzib,1,CLICS,huz,trill,wiki,NA
+wold-ZinacantanTzotzil-1038_rough1-1,chixaltik,ROUGH,Zinacantán Tzotzil,NA,NA,NA,Zinacantán Tzotzil,1,CLICS,tzo,NA,NA,tzo
+ids-418-15-760-1,chu1,ROUGH,Chadong,NA,NA,NA,Chadong,1,CLICS,cdy,NA,NA,NA
+halenepal-Newar-1677_rough-1,chyaka,ROUGH,Newar,NA,NA,NA,Newar,1,CLICS,new,NA,NA,new
+lexirumah-sawi1256-rough-1,dalukananu,ROUGH,Sawila,NA,NA,NA,Sawila,1,CLICS,tpg; swt,trill,wiki,NA
+lexirumah-ngad1267-rough-1,dogod@gi,ROUGH,Ngadha,NA,NA,NA,Ngadha,1,CLICS,nxg,NA,NA,nxg
+lexirumah-tiii1241-rough-2,dukuleu,ROUGH,Tii,NA,NA,NA,Tii,1,CLICS,txq,NA,NA,NA
+robinsonap-kui-235_rough-1,dulananga,ROUGH,Kui,NA,NA,NA,Kui,2,CLICS,kvd,NA,NA,NA
+lexirumah-tetu1245-suai-rough-1,fukunmakaas,ROUGH,"Tetun, Suai",NA,NA,NA,Tetun,1,CLICS,tdt,trill,"Van Klinken, Catharina (1999). A grammar of the Fehan dialect of Tetun, an Austronesian language of West Timor (PDF). Canberra: Pacific Linguistics, The Australian National University. doi:10.15144/PL-C155. ISBN 0858835142.",NA
+lexirumah-lama1277-adona-rough-1,gaak,ROUGH,Adonara Lamaholot,NA,NA,NA,Adonara Lamaholot,1,CLICS,slp,trill,"Michels, M (2017) Western Lamaholot: a cross-dialectal grammar sketch. MA Thesis.",NA
+ids-56-15-760-1,garapiarassa,ROUGH,Lak,NA,NA,NA,Lak,4,CLICS,lbe,NA,NA,lbe
+lexirumah-remb1250-rough-1,gas,ROUGH,Rembong,NA,NA,NA,Rembong,1,CLICS,reb,NA,NA,NA
+lexirumah-sika1262-tanai-rough-1,glarang,ROUGH,"Sika, Tana Ai",NA,NA,NA,Sika,2,CLICS,ski,NA,NA,NA
+lexirumah-sika1262-tanai-rough-2,glorongglarat,ROUGH,"Sika, Tana Ai",NA,NA,NA,Sika,2,CLICS,ski,NA,NA,NA
+wold-LowerSorbian-1038_rough1-1,gropny,ROUGH,Lower Sorbian,NA,NA,NA,Lower Sorbian,1,CLICS,dsb,trill,wiki,NA
+lexirumah-lama1277-kalik-rough-1,grosing,ROUGH,"Central Lembata, Kalikasa",NA,NA,NA,Central Lembata,1,CLICS,lvu,trill,"Krauße, Daniel (2016). ""A Brief Grammar of the Eastern Atadei Language of Lembata, Indonesia"" (PDF). Linguistik Indonesia. 34 (2)",NA
+ids-66-15-760-2,guirmetsyzdy,ROUGH,Rutul,NA,NA,NA,Rutul,5,CLICS,rut,NA,NA,rut
+lexirumah-rett1240-rough-1,hahi,ROUGH,"Reta, Pura",NA,NA,NA,Reta,2,CLICS,ret,NA,NA,NA
+wold-Gawwada-1038_rough1-1,hasasa,ROUGH,Gawwada,NA,NA,NA,Gawwada,1,CLICS,gwd,NA,NA,NA
+lexirumah-seba1248-rough-1,heg@ri,ROUGH,"Hawu, Seba",NA,NA,NA,Hawu,1,CLICS,hvn,trill,Walker (1982) A Grammar of Sawu. https://openresearch-repository.anu.edu.au/bitstream/1885/111434/1/01_Walker_A_Grammar_of_Sawu_1982.pdf,NA
+ids-72-15-760-1,ishgynsyz,ROUGH,Kumyk,NA,NA,NA,Kumyk,6,CLICS,kum,trill,https://www.omniglot.com/writing/kumyk.php,NA
+lexirumah-lamb1273-rough-1,jareta,ROUGH,Lamboya,NA,NA,NA,Lamboya,1,CLICS,lmy,trill,"Verdizade, Allahverdi (2019). Selected topics in the phonology and morphosyntax of Laboya: A field study (MA thesis). Stockholm University.",NA
+lexirumah-buso1238-rough-1,kabasara,ROUGH,Busoa,NA,NA,NA,Busoa,1,CLICS,bup,NA,NA,NA
+hantganbangime-Togo_Kan-212_rough-1,kagaju,ROUGH,Togo_Kan,NA,NA,NA,Togo_Kan,1,CLICS,dtm,no trill,wiki,NA
+ids-50-15-760-2,kagalia,ROUGH,Tindi,NA,NA,NA,Tindi,1,CLICS,tin,NA,NA,NA
+ids-51-15-760-1,kagub,ROUGH,Chamalal,NA,NA,NA,Chamalal,2,CLICS,cji,trill,https://omniglot.com/writing/chamalal.htm,NA
+lexirumah-koto1251-rough-1,kamaekifa,ROUGH,Kotos Amarasi,NA,NA,NA,Kotos Amarasi,1,CLICS,aaz,trill,https://www.cambridge.org/core/services/aop-cambridge-core/content/view/S0025100315000377,NA
+ids-37-15-760-1,kantii,ROUGH,Botlikh,NA,NA,NA,Botlikh,2,CLICS,bph,NA,NA,NA
+lexirumah-kula1280-lanto-rough-2,kapita,ROUGH,"Kula, Lantoka",NA,NA,NA,Kula,1,CLICS,tpg,NA,NA,NA
+lexirumah-keda1252-leuba-rough-1,karang,ROUGH,"Kedang, Leubatang",NA,NA,NA,Kedang,1,CLICS,ksx,trill,wiki,NA
+lexirumah-bima1247-rough-1,kasa,ROUGH,Bima,NA,NA,NA,Bima,1,CLICS,bhp,NA,NA,NA
+lexirumah-nage1237-rough-1,kasa,ROUGH,"Nage, East",NA,NA,NA,Nage,1,CLICS,nxe,NA,NA,NA
+lexirumah-batu1258-rough-1,kasar,ROUGH,Batuley,NA,NA,NA,Batuley,1,CLICS,bay,trill,NA,NA
+lexirumah-kula1280-lanto-rough-1,kasar,ROUGH,"Kula, Lantoka",NA,NA,NA,Kula,1,CLICS,tpg,NA,NA,NA
+lexirumah-sawa1247-rough-2,kasar,ROUGH,Sawai,NA,NA,NA,Sawai,1,CLICS,szw,no rhotic,wiki,NA
+lexirumah-urua1244-rough-1,kasar,ROUGH,Uruangnirin,NA,NA,NA,Uruangnirin,1,CLICS,urn,NA,NA,NA
+lexirumah-waer1237-rough-1,kasar,ROUGH,Waerana,NA,NA,NA,Waerana,1,CLICS,wrx,NA,NA,NA
+wold-CeqWong-1038_rough1-1,kasar,ROUGH,Ceq Wong,NA,NA,NA,Ceq Wong,1,CLICS,cwg,NA,NA,NA
+lexirumah-woli1241-rough-1,kasara,ROUGH,Wolio,NA,NA,NA,Wolio,4,CLICS,wlo,trill,wiki,NA
+hantganbangime-Songhai_Kiini-212_rough-1,kaso,ROUGH,Songhai_Kiini,NA,NA,NA,Songhai_Kiini,1,CLICS,khq,NA,NA,khq
+hantganbangime-Songhai_Senni-212_rough-1,kaso,ROUGH,Songhai_Senni,NA,NA,NA,Songhai_Senni,1,CLICS,hmb,NA,NA,NA
+hantganbangime-Bankan_Tey-212_rough-1,kasu,ROUGH,Bankan_Tey,NA,NA,NA,Bankan_Tey,1,CLICS,dbw,NA,NA,NA
+halenepal-Kham-1677_rough-1,katalamatalao,ROUGH,Kham,NA,NA,NA,Kham,1,CLICS,kgj; kif; kip; kjl,NA,NA,NA
+ids-69-15-760-2,katangaz,ROUGH,Khinalug,NA,NA,NA,Khinalug,1,CLICS,kjj,trill,wiki,NA
+robinsonap-westernpantar-235_rough-1,katangkatang,ROUGH,Western Pantar,NA,NA,NA,Western Pantar,1,CLICS,lev,trill,wiki,NA
+ids-73-15-760-1,katy,ROUGH,Nogai,NA,NA,NA,Nogai,1,CLICS,nog,NA,NA,NA
+ids-73-15-760-2,kelissizetilgen,ROUGH,Nogai,NA,NA,NA,Nogai,1,CLICS,nog,NA,NA,NA
+marrisonnaga-KohimaAngami-617_rough-1,kemehie,ROUGH,Angami Kohima,NA,NA,NA,Angami Kohima,1,CLICS,njm,no trill,wiki,njm
+marrisonnaga-Zeme-617_rough-1,keteratbe,ROUGH,Zeme,NA,NA,NA,Zeme,1,CLICS,nzm,NA,NA,NA
+ids-107-15-760-1,khachiab,ROUGH,Avar,NA,NA,NA,Avar,13,CLICS,ava,NA,NA,ava
+ids-38-15-760-1,khachiab,ROUGH,Godoberi,NA,NA,NA,Godoberi,1,CLICS,gdo,NA,NA,NA
+ids-52-15-760-2,khachiab,ROUGH,Hunzib,NA,NA,NA,Hunzib,1,CLICS,huz,trill,wiki,NA
+ids-33-15-760-1,khachiadabe,ROUGH,Akhvakh (Northern dialect),NA,NA,NA,Akhvakh,2,CLICS,akv,trill,wiki,NA
+ids-42-15-760-2,khachiav,ROUGH,Hinuq,NA,NA,NA,Hinuq,1,CLICS,gin,trill,wiki,NA
+ids-160-15-760-1,khachichio,ROUGH,Bezhta,NA,NA,NA,Bezhta,3,CLICS,kap,trill,wiki,NA
+ids-32-15-760-1,khachii,ROUGH,Andi,NA,NA,NA,Andi,2,CLICS,ani,trill,wiki,NA
+ids-39-15-760-1,khachiob,ROUGH,Karata,NA,NA,NA,Karata,2,CLICS,kpt,trill,wiki,NA
+ids-35-15-760-1,khachiub,ROUGH,Bagvalal,NA,NA,NA,Bagvalal,1,CLICS,kva,NA,NA,NA
+ids-51-15-760-2,khachiub,ROUGH,Chamalal,NA,NA,NA,Chamalal,2,CLICS,cji,trill,https://omniglot.com/writing/chamalal.htm,NA
+marrisonnaga-Tangkhul-617_rough-1,khamarao,ROUGH,Tangkhul,NA,NA,NA,Tangkhul,1,CLICS,nmf,NA,NA,nmf
+halenepal-Gurung-1677_rough-1,khasroq,ROUGH,Gurung,NA,NA,NA,Gurung,1,CLICS,ggn; gvr,trill,https://audio-video.shanti.virginia.edu/video/gurung-man-describes-otar-village,NA
+wold-Sakha-1038_rough1-1,khatilakh,ROUGH,Sakha,NA,NA,NA,Sakha,1,CLICS,sah,NA,NA,sah
+ids-406-15-760-1,khau11kh@t24,ROUGH,Jinsha Dai,NA,NA,NA,Jinsha Dai,1,CLICS,tiz,NA,NA,NA
+ids-50-15-760-1,khechiub,ROUGH,Tindi,NA,NA,NA,Tindi,1,CLICS,tin,NA,NA,NA
+ids-160-15-760-2,khokhilo,ROUGH,Bezhta,NA,NA,NA,Bezhta,3,CLICS,kap,trill,wiki,NA
+ids-41-15-760-1,khokhoru,ROUGH,Khwarshi (Khwarshi dialect),NA,NA,NA,Khwarshi,3,CLICS,khv,trill,NA,NA
+halenepal-Kaike-1677_rough-1,khokhsorhopa,ROUGH,Kaike,NA,NA,NA,Kaike,1,CLICS,kzq,NA,NA,NA
+marrisonnaga-Phom-617_rough-1,khuppukhongpu,ROUGH,Phom,NA,NA,NA,Phom,1,CLICS,nph,no rhotic,wiki,NA
+ids-61-15-760-1,khutsief,ROUGH,Aghul,NA,NA,NA,Aghul,2,CLICS,agx,trill,wiki,NA
+ids-57-15-760-1,kiarksi,ROUGH,Dargwa,NA,NA,NA,Dargwa,17,CLICS,dar,trill,wiki,NA
+ids-63-15-760-2,kiepi,ROUGH,Budukh,NA,NA,NA,Budukh,1,CLICS,bdk,NA,NA,NA
+ids-63-15-760-1,kievi,ROUGH,Budukh,NA,NA,NA,Budukh,1,CLICS,bdk,NA,NA,NA
+marrisonnaga-Mikir-617_rough-1,kindeng,ROUGH,Mikir,NA,NA,NA,Mikir,1,CLICS,mjw,NA,NA,mjw
+ids-70-15-760-1,kobutun,ROUGH,Tsakhur,NA,NA,NA,Tsakhur,2,CLICS,tkr,trill,wiki,NA
+lexirumah-west2547-welaun-rough-1,kokar,ROUGH,Welaun,NA,NA,NA,Welaun,1,CLICS,wlh,NA,NA,NA
+robinsonap-blagar-235_rough-1,kongkarkongkar,ROUGH,Blagar,NA,NA,NA,Blagar,9,CLICS,beu,trill,"Steinhauer, Hein (2014). ""Blagar"". In Schapper, Antoinette (ed.). The Papuan Languages of Timor, Alor and Pantar: Volume 1: Sketch Grammars. Walter de Gruyter. pp. 147–219",NA
+lexirumah-kaer1234-rough-1,kotang,ROUGH,Kaera,NA,NA,NA,Kaera,1,CLICS,jka,trill,wiki,NA
+marrisonnaga-Mao-617_rough-1,kotho,ROUGH,Mao,NA,NA,NA,Mao,1,CLICS,nbi,NA,NA,nbi
+lexirumah-seba1248-rough-2,k@ri,ROUGH,"Hawu, Seba",NA,NA,NA,Hawu,1,CLICS,hvn,trill,Walker (1982) A Grammar of Sawu. https://openresearch-repository.anu.edu.au/bitstream/1885/111434/1/01_Walker_A_Grammar_of_Sawu_1982.pdf,NA
+lexirumah-naue1237-rough-1,kroki,ROUGH,Naueti,NA,NA,NA,Naueti,1,CLICS,nxa,NA,NA,NA
+ids-518-15-760-1,kubud,ROUGH,Kryz,NA,NA,NA,Kryz,1,CLICS,kry,NA,NA,NA
+ids-63-15-760-3,kubud,ROUGH,Budukh,NA,NA,NA,Budukh,1,CLICS,bdk,NA,NA,NA
+ids-68-15-760-2,kubut,ROUGH,Tabasaran (Southern dialect),NA,NA,NA,Tabasaran,2,CLICS,tab,trill,wiki,NA
+ids-69-15-760-1,kubut,ROUGH,Khinalug,NA,NA,NA,Khinalug,1,CLICS,kjj,trill,wiki,NA
+marrisonnaga-Sema-617_rough-1,kukokileikeu,ROUGH,Sema,NA,NA,NA,Sema,1,CLICS,nsm,NA,NA,nsm
+wold-Hup-1038_rough1-1,kukuc,ROUGH,Hup,NA,NA,NA,Hup,1,CLICS,jup,NA,NA,jup
+hantganbangime-Nanga-212_rough-1,kunji,ROUGH,Nanga,NA,NA,NA,Nanga,1,CLICS,nzz,NA,NA,NA
+hantganbangime-Ben_Tey-212_rough-1,kunjum,ROUGH,Ben_Tey,NA,NA,NA,Ben_Tey,1,CLICS,dbt,NA,NA,NA
+hantganbangime-Jamsay-212_rough-1,kunu,ROUGH,Jamsay,NA,NA,NA,Jamsay,1,CLICS,djm,NA,NA,djm
+hantganbangime-Yanda_Dom-212_rough-1,kunzu,ROUGH,Yanda_Dom,NA,NA,NA,Yanda_Dom,1,CLICS,dym,NA,NA,NA
+wold-Qeqchi-1038_rough1-4,kurux,ROUGH,Q'eqchi',NA,NA,NA,Q'eqchi',1,CLICS,kek,NA,NA,kek
+lexirumah-dobe1238-rough-1,kwumir,ROUGH,Dobel,NA,NA,NA,Dobel,1,CLICS,kvo,trill,"Hughes, Jock (2000). ""The morphology of Dobel, Aru, with special reference to reduplication"". In Grimes, C.E. (ed.). Spices from the East: Papers in languages of Eastern Indonesia. Pacific Linguistics No. 503. Canberra: Pacific Linguistics. pp. 131–180. doi:10.15144/PL-503.131.",NA
+halenepal-Thakali-1677_rough-1,kyohngpa,ROUGH,Thakali,NA,NA,NA,Thakali,1,CLICS,ths,NA,NA,NA
+marrisonnaga-Jingpho-617_rough-2,laja,ROUGH,Jingpho,NA,NA,NA,Jingpho,1,CLICS,kac,NA,NA,kac
+ids-416-15-760-1,lau4,ROUGH,Maonan,NA,NA,NA,Maonan,1,CLICS,mmd,NA,NA,NA
+wold-Oroqen-1038_rough1-1,l@rin,ROUGH,Oroqen,NA,NA,NA,Oroqen,1,CLICS,orh,NA,NA,NA
+lexirumah-waim1252-rough-1,maga,ROUGH,Waima'a,NA,NA,NA,Waima'a,1,CLICS,wmh,NA,NA,NA
+marrisonnaga-Maram-617_rough-1,magham,ROUGH,Maram,NA,NA,NA,Maram,1,CLICS,nma,NA,NA,NA
+marrisonnaga-Liangmai-617_rough-1,manaikamakbu,ROUGH,Liangmai,NA,NA,NA,Liangmai,1,CLICS,njn,NA,NA,NA
+halenepal-Sunwar-1677_rough-1,masilsil,ROUGH,Sunwar,NA,NA,NA,Sunwar,1,CLICS,suz,trill,"""A Grammar of Sunwar"". Dörte Borchers. Retrieved 27 August 2018.",NA
+halenepal-Khaling-1677_rough-1,masolaemim,ROUGH,Khaling,NA,NA,NA,Khaling,1,CLICS,klr,trill,http://www.ling.sinica.edu.tw/files/publication/j2012_6_03_7314.pdf,NA
+marrisonnaga-Puiron-617_rough-1,matyengmaknu,ROUGH,Puiron,NA,NA,NA,Puiron,1,CLICS,nbu,NA,NA,NA
+ids-68-15-760-1,meshrebsuz,ROUGH,Tabasaran (Southern dialect),NA,NA,NA,Tabasaran,2,CLICS,tab,trill,wiki,NA
+ids-75-15-760-1,morsa,ROUGH,Chechen,NA,NA,NA,Chechen,2,CLICS,che,NA,NA,che
+ids-419-15-760-1,mut323,ROUGH,Southern Kam,NA,NA,NA,Southern Kam,1,CLICS,doc; kmc,no trill,wiki,NA
+hantganbangime-Fulfulde-212_rough-1,naadeede,ROUGH,Fulfulde,NA,NA,NA,Fulfulde,1,CLICS,ffm,NA,NA,ffm
+marrisonnaga-Manipuri-617_rough-1,nandaba,ROUGH,Manipuri,NA,NA,NA,Manipuri,1,CLICS,mni,NA,NA,mni
+ids-416-15-760-2,nap7,ROUGH,Maonan,NA,NA,NA,Maonan,1,CLICS,mmd,NA,NA,NA
+lexirumah-lioo1240-rough-1,ngaga,ROUGH,Lio,NA,NA,NA,Lio,1,CLICS,ljl,trill,"Elias, Alexander (2019). Lio and the Central Flores languages (M.A. thesis). Leiden University.",NA
+lexirumah-bima1247-rough-2,ngara,ROUGH,Bima,NA,NA,NA,Bima,1,CLICS,bhp,NA,NA,NA
+marrisonnaga-Rengma-617_rough-1,njukemvu,ROUGH,Rengma,NA,NA,NA,Rengma,1,CLICS,nre,NA,NA,NA
+lexirumah-sawa1247-rough-1,nmenenespa,ROUGH,Sawai,NA,NA,NA,Sawai,1,CLICS,szw,no rhotic,wiki,NA
+marrisonnaga-Jingpho-617_rough-1,nra,ROUGH,Jingpho,NA,NA,NA,Jingpho,1,CLICS,kac,NA,NA,kac
+lexirumah-irar1238-rough-1,n@t@f@tif@r@,ROUGH,Irarutu,NA,NA,NA,Irarutu,1,CLICS,irh,NA,NA,irh
+ids-516-15-760-1,okhtsa,ROUGH,Ingush,NA,NA,NA,Ingush,1,CLICS,inh,NA,NA,inh
+lexirumah-kamb1299-rough-1,pagaru,ROUGH,Kambera,NA,NA,NA,Kambera,1,CLICS,xbr,NA,NA,xbr
+robinsonap-adang-235_rough-1,paluhu,ROUGH,Adang,NA,NA,NA,Adang,3,CLICS,adn,NA,NA,adn
+halenepal-SahuTamang-1677_rough-1,phoppa,ROUGH,Tamang (Sahu),NA,NA,NA,Tamang,1,CLICS,taj,NA,NA,taj
+robinsonap-wersing-235_rough-1,potor,ROUGH,Wersing,NA,NA,NA,Wersing,3,CLICS,kvw,trill,wiki,NA
+wold-Gurindji-1038_rough1-1,purtuwurtu,ROUGH,Gurindji,NA,NA,NA,Gurindji,1,CLICS,gue,mixed with trill,wiki,NA
+wold-Qeqchi-1038_rough1-2,purux,ROUGH,Q'eqchi',NA,NA,NA,Q'eqchi',1,CLICS,kek,NA,NA,kek
+wold-Bezhta-1038_rough1-1,qacco,ROUGH,Bezhta,NA,NA,NA,Bezhta,3,CLICS,kap,trill,wiki,NA
+wold-Archi-1038_rough1-1,qarqatut,ROUGH,Archi,NA,NA,NA,Archi,3,CLICS,aqc,NA,NA,aqc
+ids-419-15-760-2,qe212ljan55,ROUGH,Southern Kam,NA,NA,NA,Southern Kam,1,CLICS,doc; kmc,no trill,wiki,NA
+wold-Ket-1038_rough1-1,q@gbareng,ROUGH,Ket,NA,NA,NA,Ket,1,CLICS,ket,NA,NA,ket
+wold-Bezhta-1038_rough1-2,qoqilo,ROUGH,Bezhta,NA,NA,NA,Bezhta,3,CLICS,kap,trill,wiki,NA
+lexirumah-maka1316-rough-1,rabaka,ROUGH,Makasae,NA,NA,NA,Makasae,1,CLICS,mkz,no trill,"Correia, Aderito (2011). Describing Makasae: a trans-New Guinea language of East Timor (Ph.D. thesis). University of Western Sydney. - says tap in detailed description (""vibrant"" in the consonant phoneme table)",NA
+wold-Takia-1038_rough1-1,raf,ROUGH,Takia,NA,NA,NA,Takia,1,CLICS,tbc,NA,NA,NA
+lexirumah-fata1247-rough-1,rapake,ROUGH,Fataluku,NA,NA,NA,Fataluku,1,CLICS,ddg,trill,http://ling.hawaii.edu/wp-content/uploads/TylerHestonFinal.pdf,NA
+wold-SeychellesCreole-1038_rough1-1,riderid,ROUGH,Seychelles Creole,NA,NA,NA,Seychelles Creole,1,CLICS,crs,NA,NA,NA
+lexirumah-weta1243-rough-1,rotrota,ROUGH,Wetan,NA,NA,NA,Wetan,1,CLICS,lex,trill,"Taber, Kathleen B.; Taber, Mark H. (2015). Luang Grammar and Phonology Sketch. SIL e‑Books, 63. Dallas: SIL International.",NA
+lexirumah-mang1405-rough-1,rugut,ROUGH,Manggarai,NA,NA,NA,Manggarai,1,CLICS,mqy,NA,NA,NA
+lexirumah-dhao1237-rough-2,saka,ROUGH,Dhao,NA,NA,NA,Dhao,1,CLICS,nfa,trill,https://sil-philippines-languages.org/ical/papers/Grimes-Hawu_Dhao.pdf?_ga=GA1.2.34923686.1554420071&_gid=GA1.2.2128814745.1594140462,NA
+robinsonap-teiwa-235_rough-1,sakar,ROUGH,Teiwa,NA,NA,NA,Teiwa,4,CLICS,twe,no rhotic,wiki,NA
+ids-69-15-760-3,sar,ROUGH,Khinalug,NA,NA,NA,Khinalug,1,CLICS,kjj,trill,wiki,NA
+marrisonnaga-Chang-617_rough-1,satsattambu,ROUGH,Chang,NA,NA,NA,Chang,1,CLICS,nbc,NA,NA,NA
+robinsonap-kaera-235_rough-1,sekakir,ROUGH,Kaera,NA,NA,NA,Kaera,1,CLICS,jka,trill,wiki,NA
+lexirumah-dhao1237-rough-1,sela,ROUGH,Dhao,NA,NA,NA,Dhao,1,CLICS,nfa,trill,https://sil-philippines-languages.org/ical/papers/Grimes-Hawu_Dhao.pdf?_ga=GA1.2.34923686.1554420071&_gid=GA1.2.2128814745.1594140462,NA
+lexirumah-tiii1241-rough-1,sela,ROUGH,Tii,NA,NA,NA,Tii,1,CLICS,txq,NA,NA,NA
+lexirumah-lole1239-rough-1,selak,ROUGH,Lole,NA,NA,NA,Lole,1,CLICS,bpz; dnk; llg; rgu; twu; txg,NA,NA,NA
+wold-ImbaburaQuechua-1038_rough1-1,shagra,ROUGH,Imbabura Quechua,NA,NA,NA,Imbabura Quechua,1,CLICS,que,NA,NA,NA
+lexirumah-mang1405-rough-2,s@hak,ROUGH,Manggarai,NA,NA,NA,Manggarai,1,CLICS,mqy,NA,NA,NA
+ids-75-15-760-2,shoga,ROUGH,Chechen,NA,NA,NA,Chechen,2,CLICS,che,NA,NA,che
+lexirumah-buna1278-bobon-rough-1,sitheni,ROUGH,"Bunak, Bobonaro",NA,NA,NA,Bunak,3,CLICS,bfn,trill,"Schapper, Antoinette (2009). Bunaq: a Papuan language of central Timor (Ph.D. thesis)",NA
+wold-LowerSorbian-1038_rough1-2,skropaty,ROUGH,Lower Sorbian,NA,NA,NA,Lower Sorbian,1,CLICS,dsb,trill,wiki,NA
+ids-107-15-760-2,sogiab,ROUGH,Avar,NA,NA,NA,Avar,13,CLICS,ava,NA,NA,ava
+hantganbangime-Bangime-212_rough-1,sogoybe,ROUGH,Bangime,NA,NA,NA,Bangime,1,CLICS,dba,no trill,NA,NA
+ids-703-15-760-1,sohkhruhsohkhram,ROUGH,Khasi,NA,NA,NA,Khasi,1,CLICS,kha,trill,wiki,kha
+wold-Yaqui-1038_rough1-1,sosoko,ROUGH,Yaqui,NA,NA,NA,Yaqui,1,CLICS,yaq,NA,NA,yaq
+lexirumah-woli1241-rough-2,tamparasa,ROUGH,Wolio,NA,NA,NA,Wolio,4,CLICS,wlo,trill,wiki,NA
+lexirumah-kema1243-kaila-rough-1,tarakan,ROUGH,"Kemak, Kailaku",NA,NA,NA,Kemak,1,CLICS,kem,NA,NA,NA
+marrisonnaga-ChungliAo-617_rough-1,terara,ROUGH,Ao Chungli,NA,NA,NA,Ao Chungli,1,CLICS,njo,NA,NA,njo
+ids-66-15-760-1,tersdy,ROUGH,Rutul,NA,NA,NA,Rutul,5,CLICS,rut,NA,NA,rut
+ids-417-15-760-1,tho1,ROUGH,Mulam,NA,NA,NA,Mulam,1,CLICS,mlm,no rhotic,"Coyaud, M (1987) Les Langues Dans Le Monde Chinois. Pour l'Analyse du Folklore, Paris.",NA
+ids-72-15-760-2,tiri,ROUGH,Kumyk,NA,NA,NA,Kumyk,6,CLICS,kum,trill,https://www.omniglot.com/writing/kumyk.php,NA
+wold-Kalina-1038_rough1-1,tiwakalake,ROUGH,Kali'na,NA,NA,NA,Kali'na,1,CLICS,car,NA,NA,car
+lexirumah-mang1405-rough-3,tsirang,ROUGH,Manggarai,NA,NA,NA,Manggarai,1,CLICS,mqy,NA,NA,NA
+ids-319-15-760-1,tsyrymykhkh,ROUGH,Ossetic,NA,NA,NA,Ossetic,1,CLICS,oss,NA,NA,oss
+ids-80-15-760-1,tund,ROUGH,Udi,NA,NA,NA,Udi,1,CLICS,udi,trill,wiki,NA
+wold-Qeqchi-1038_rough1-5,turux,ROUGH,Q'eqchi',NA,NA,NA,Q'eqchi',1,CLICS,kek,NA,NA,kek
+ids-533-15-760-1,ukhiamur,ROUGH,Tsova-Tush,NA,NA,NA,Tsova-Tush,1,CLICS,bbl,NA,NA,bbl
+halenepal-Magar-1677_rough-1,uske,ROUGH,Magar,NA,NA,NA,Magar,1,CLICS,mgp,no trill,wiki,NA
+ids-64-15-760-1,veki,ROUGH,Lezgian,NA,NA,NA,Lezgian,2,CLICS,lez,trill,wiki,NA
+lexirumah-buru1303-rough-1,walalakak,ROUGH,Buru,NA,NA,NA,Buru,1,CLICS,mhs,trill,"Grimes, Charles E. (1991). The Buru language of Eastern Indonesia (Ph.D. thesis). Australian National University.",NA
+lexirumah-alor1247-baran-YS-rough-1,wera,ROUGH,"Alorese, Baranusa",NA,NA,NA,Alorese,13,CLICS,aol,trill,"Klamer, Margaretha Anna Flora. (2011). A short grammar of Alorese (Austronesian). Muenchen: Lincom Europa.",NA
+wold-Iraqw-1038_rough1-1,xaslasla,ROUGH,Iraqw,NA,NA,NA,Iraqw,1,CLICS,irk,NA,NA,irk
+wold-Otomi-1038_rough1-1,xinzadi,ROUGH,Otomi,NA,NA,NA,Otomi,1,CLICS,ote,NA,NA,ote
+hantganbangime-Najamba-212_rough-1,yagaja,ROUGH,Najamba,NA,NA,NA,Najamba,1,CLICS,dbu,NA,NA,NA
+hantganbangime-Mombo-212_rough-1,yagara,ROUGH,Mombo,NA,NA,NA,Mombo,1,CLICS,dmb,NA,NA,NA
+hantganbangime-Tiranige_Diga-212_rough-1,yagara,ROUGH,Tiranige_Diga,NA,NA,NA,Tiranige_Diga,1,CLICS,tde,NA,NA,NA
+hantganbangime-Tommo_So-212_rough-1,yagaru,ROUGH,Tommo_So,NA,NA,NA,Tommo_So,1,CLICS,dto,no trill,wiki,NA
+marrisonnaga-Konyak-617_rough-1,yishinpu,ROUGH,Konyak,NA,NA,NA,Konyak,1,CLICS,nbe,no rhotic,wiki,NA
+marrisonnaga-Sangtam-617_rough-1,yongkoyongru,ROUGH,Sangtam,NA,NA,NA,Sangtam,1,CLICS,nsa,no trill,wiki,NA
+suntb-Sulong-882_smooth-1,a33g@i33,SMOOTH,Sulung [Puroik],NA,NA,NA,Sulung,1,CLICS,suv,NA,NA,NA
+tryonsolomon-ghari-250_smooth-1,aca,SMOOTH,Ghari,NA,NA,NA,Ghari,1,CLICS,gri,NA,NA,NA
+ids-319-15-770-3,aenaekhintsperenos,SMOOTH,Ossetic,NA,NA,NA,Ossetic,1,CLICS,oss,NA,NA,oss
+ids-319-15-770-2,aentson,SMOOTH,Ossetic,NA,NA,NA,Ossetic,1,CLICS,oss,NA,NA,oss
+hubercolumbian-Guahibo-334_smooth-1,ahue,SMOOTH,Guahibo,NA,NA,NA,Guahibo,1,CLICS,guh,NA,NA,guh
+hubercolumbian-Playero-334_smooth-2,ahue,SMOOTH,Playero,NA,NA,NA,Playero,1,CLICS,gob,trill,wiki,NA
+northeuralex-abk-493_smooth-1,aimayzi,SMOOTH,Abkhaz,NA,NA,NA,Abkhaz,1,CLICS,abk,trill,wiki,NA
+diacl-58800-149_smooth-1,ajasga,SMOOTH,Abkhaz,NA,NA,NA,Abkhaz,1,CLICS,abk,trill,wiki,NA
+lexirumah-biak1248-smooth-1,akikjew,SMOOTH,Biak,NA,NA,NA,Biak,1,CLICS,bhw,NA,NA,bhw
+tryonsolomon-asumboa-250_smooth-1,alevaleve,SMOOTH,Asumboa,NA,NA,NA,Asumboa,1,CLICS,aua,NA,NA,NA
+lexirumah-gese1240-smooth-1,alus,SMOOTH,Geser-Gorom,NA,NA,NA,Geser-Gorom,1,CLICS,ges,NA,NA,NA
+lexirumah-remb1250-smooth-1,alus,SMOOTH,Rembong,NA,NA,NA,Rembong,1,CLICS,reb,NA,NA,NA
+lexirumah-sika1262-tanai-smooth-4,alus,SMOOTH,"Sika, Tana Ai",NA,NA,NA,Sika,2,CLICS,ski,NA,NA,NA
+lexirumah-bone1254-smooth-1,alusu,SMOOTH,Bonerate,NA,NA,NA,Bonerate,2,CLICS,bna,NA,NA,NA
+lexirumah-kumb1274-smooth-1,alusu,SMOOTH,Kumbewaha,NA,NA,NA,Kumbewaha,1,CLICS,xks,NA,NA,NA
+lexirumah-lasa1237-smooth-1,alusu,SMOOTH,Lasalimu,NA,NA,NA,Lasalimu,1,CLICS,llm,NA,NA,NA
+lexirumah-lioo1240-smooth-1,amo,SMOOTH,Lio,NA,NA,NA,Lio,1,CLICS,ljl,trill,"Elias, Alexander (2019). Lio and the Central Flores languages (M.A. thesis). Leiden University.",NA
+wold-ImbaburaQuechua-1039_smooth-1,amuklla,SMOOTH,Imbabura Quechua,NA,NA,NA,Imbabura Quechua,1,CLICS,que,NA,NA,NA
+marrisonnaga-Maring-691_smooth-1,ana,SMOOTH,Maring,NA,NA,NA,Maring,1,CLICS,mbw,trill,wiki,NA
+lexirumah-stan1308-smooth-1,aoalusu,SMOOTH,Muna,NA,NA,NA,Muna,1,CLICS,mnb,NA,NA,mnb
+lexirumah-maib1239-smooth-1,apuox,SMOOTH,Maybrat,NA,NA,NA,Maybrat,1,CLICS,ayz,NA,NA,ayz
+tryonsolomon-lokuru-250_smooth-1,arota,SMOOTH,Lokuru,NA,NA,NA,Lokuru,1,CLICS,tqu,no rhotic,NA,NA
+wold-TarifiytBerber-1039_smooth-1,ar@qqag,SMOOTH,Tarifiyt Berber,NA,NA,NA,Tarifiyt Berber,1,CLICS,rif,NA,NA,rif
+lexirumah-kond1303-smooth-1,asiserere,SMOOTH,Konda,NA,NA,NA,Konda,1,CLICS,knd,NA,NA,NA
+sohartmannchin-Chinbon-213_smooth-1,athoijot,SMOOTH,Chinbon,NA,NA,NA,Chinbon,1,CLICS,csh,no rhotic,wiki,NA
+northeuralex-ale-493_smooth-1,atxaxsix,SMOOTH,Aleut,NA,NA,NA,Aleut,1,CLICS,ale,NA,NA,ale
+hubercolumbian-Cuiba-334_smooth-1,axue,SMOOTH,Cuiba,NA,NA,NA,Cuiba,1,CLICS,cui,NA,NA,cui
+lexirumah-kaer1234-smooth-2,baxarang,SMOOTH,Kaera,NA,NA,NA,Kaera,1,CLICS,jka,trill,wiki,NA
+satterthwaitetb-SichuanYi-337_smoothofsurface-1,bbaxyuo,SMOOTH,Nosu,NA,NA,NA,Nosu,1,CLICS,iii,no rhotic,wiki,NA
+lexirumah-funa1237-smooth-1,bdoson,SMOOTH,Funai Helong,NA,NA,NA,Funai Helong,1,CLICS,heg,NA,NA,NA
+lexirumah-dela1252-smooth-2,bebela,SMOOTH,Dela,NA,NA,NA,Dela,1,CLICS,row,trill,https://www.omniglot.com/writing/westernrote.htm,NA
+robinsonap-nedebang-268_smooth-1,bifi,SMOOTH,Nedebang,NA,NA,NA,Nedebang,1,CLICS,nec,NA,NA,NA
+northeuralex-gld-493_smooth-2,bildobildobi,SMOOTH,Nanai,NA,NA,NA,Nanai,1,CLICS,gld,NA,NA,gld
+hubercolumbian-Playero-334_smooth-1,binehai,SMOOTH,Playero,NA,NA,NA,Playero,1,CLICS,gob,trill,wiki,NA
+hubercolumbian-Kamsa-334_smooth-1,binginjana,SMOOTH,Kamsá,NA,NA,NA,Kamsá,1,CLICS,kbh,NA,NA,kbh
+lexirumah-negr1235-smooth-1,biribiri,SMOOTH,"Kokoda, Negeri Besar",NA,NA,NA,Kokoda,2,CLICS,xod,NA,NA,NA
+ids-37-15-770-1,bitii,SMOOTH,Botlikh,NA,NA,NA,Botlikh,2,CLICS,bph,NA,NA,NA
+ids-38-15-770-1,bitiissu,SMOOTH,Godoberi,NA,NA,NA,Godoberi,1,CLICS,gdo,NA,NA,NA
+tryonsolomon-blablanga-250_smooth-1,blelu,SMOOTH,Blablanga,NA,NA,NA,Blablanga,1,CLICS,blp,trill,"Voica, Radu (2017). A fieldwork-based approach to Blanga (Blablanga), an Austronesian language of the Solomon Islands, with reference to predicate-argument relations(PhD). SOAS University of London.",NA
+lexirumah-kema1243-kaila-smooth-1,b@lobon,SMOOTH,"Kemak, Kailaku",NA,NA,NA,Kemak,1,CLICS,kem,NA,NA,NA
+hantganbangime-Bunoge-241_smooth-1,borallaga,SMOOTH,Bunoge,NA,NA,NA,Bunoge,1,CLICS,dgb,no trill,"Heath, Jeffrey (2017), A grammar of Bunoge (Dogon, Mali),",NA
+lexirumah-galo1243-smooth-1,brena,SMOOTH,Galolen,NA,NA,NA,Galolen,1,CLICS,gal,trill,https://omniglot.com/writing/galoli.htm,NA
+northeuralex-ddo-493_smooth-1,bujaesi,SMOOTH,Tsez,NA,NA,NA,Tsez,3,CLICS,ddo,NA,NA,NA
+hantganbangime-Tiranige_Diga-241_smooth-1,burada,SMOOTH,Tiranige_Diga,NA,NA,NA,Tiranige_Diga,1,CLICS,tde,NA,NA,NA
+wold-Oroqen-1039_smooth-1,burtsurin,SMOOTH,Oroqen,NA,NA,NA,Oroqen,1,CLICS,orh,NA,NA,NA
+diacl-58200-149_smooth-1,calcam,SMOOTH,Lezgian,NA,NA,NA,Lezgian,2,CLICS,lez,trill,wiki,NA
+ids-50-15-770-1,chahchub,SMOOTH,Tindi,NA,NA,NA,Tindi,1,CLICS,tin,NA,NA,NA
+wold-Yaqui-1039_smooth-1,chitabetalai,SMOOTH,Yaqui,NA,NA,NA,Yaqui,1,CLICS,yaq,NA,NA,yaq
+wold-ZinacantanTzotzil-1039_smooth-1,chulul,SMOOTH,Zinacantán Tzotzil,NA,NA,NA,Zinacantán Tzotzil,1,CLICS,tzo,NA,NA,tzo
+halenepal-Gurung-1676_smooth-1,ciqllo,SMOOTH,Gurung,NA,NA,NA,Gurung,1,CLICS,ggn; gvr,trill,https://audio-video.shanti.virginia.edu/video/gurung-man-describes-otar-village,NA
+wold-Archi-1039_smooth-1,cula,SMOOTH,Archi,NA,NA,NA,Archi,3,CLICS,aqc,NA,NA,aqc
+halenepal-Newar-1676_smooth-1,culu,SMOOTH,Newar,NA,NA,NA,Newar,1,CLICS,new,NA,NA,new
+halenepal-Thakali-1676_smooth-1,cyahmpa,SMOOTH,Thakali,NA,NA,NA,Thakali,1,CLICS,ths,NA,NA,NA
+hantganbangime-Jenaama-241_smooth-1,daatana,SMOOTH,Jenaama,NA,NA,NA,Jenaama,1,CLICS,bze,NA,NA,NA
+tryonsolomon-kwaraae-250_smooth-1,dad,SMOOTH,Kwara'ae,NA,NA,NA,Kwara'ae,1,CLICS,kwf,no trill,https://researchcommons.waikato.ac.nz/handle/10289/5755,NA
+tryonsolomon-langalanga-250_smooth-1,dada,SMOOTH,Langalanga,NA,NA,NA,Langalanga,1,CLICS,lgl,NA,NA,NA
+tryonsolomon-launorth-250_smooth-1,dada,SMOOTH,Lau North,NA,NA,NA,Lau North,1,CLICS,llu,trill,"Francois, Alex. ""The Wala Language of Malaita"" (PDF).",NA
+tryonsolomon-launorth-250_smooth-2,dadala,SMOOTH,Lau North,NA,NA,NA,Lau North,1,CLICS,llu,trill,"Francois, Alex. ""The Wala Language of Malaita"" (PDF).",NA
+tryonsolomon-dorio-250_smooth-1,dadaraa,SMOOTH,Dori'o,NA,NA,NA,Dori'o,1,CLICS,dor,NA,NA,NA
+lexirumah-sawi1256-smooth-1,daluka,SMOOTH,Sawila,NA,NA,NA,Sawila,1,CLICS,tpg; swt,trill,wiki,NA
+marrisonnaga-Lushai-691_smooth-1,dam,SMOOTH,Lushai,NA,NA,NA,Lushai,1,CLICS,lus,NA,NA,lus
+hubercolumbian-Cuiba-334_smooth-2,damei,SMOOTH,Cuiba,NA,NA,NA,Cuiba,1,CLICS,cui,NA,NA,cui
+lexirumah-west2547-welaun-smooth-1,darat,SMOOTH,Welaun,NA,NA,NA,Welaun,1,CLICS,wlh,NA,NA,NA
+tryonsolomon-fataleka-250_smooth-1,dedema,SMOOTH,Fataleka,NA,NA,NA,Fataleka,1,CLICS,far,NA,NA,NA
+wold-Sakha-1039_smooth-1,dekhsi,SMOOTH,Sakha,NA,NA,NA,Sakha,1,CLICS,sah,NA,NA,sah
+tls-Kimochiunn-1247_smooth-1,dendekeri,SMOOTH,Kimochi.unn,NA,NA,NA,Kimochi.unn,1,CLICS,jmc; old,NA,NA,NA
+tls-Keniunn-1247_smooth-1,denderi,SMOOTH,Keni.unn,NA,NA,NA,Keni.unn,1,CLICS,vun,NA,NA,NA
+suntb-MileYi-882_smooth-2,di33,SMOOTH,Yi (Mile),NA,NA,NA,Yi,5,CLICS,yix,NA,NA,NA
+lexirumah-hata1243-smooth-2,dia,SMOOTH,Hatam,NA,NA,NA,Hatam,1,CLICS,had,no trill,wiki,NA
+northeuralex-lbe-493_smooth-1,djurtsusa,SMOOTH,Lak,NA,NA,NA,Lak,4,CLICS,lbe,NA,NA,lbe
+wold-WhiteHmong-1039_smooth-1,du,SMOOTH,White Hmong,NA,NA,NA,White Hmong,1,CLICS,mww,no rhotic,wiki,NA
+robinsonap-westernpantar-268_smooth-1,duba,SMOOTH,Western Pantar,NA,NA,NA,Western Pantar,1,CLICS,lev,trill,wiki,NA
+lexirumah-kula1280-lanto-smooth-1,dula,SMOOTH,"Kula, Lantoka",NA,NA,NA,Kula,1,CLICS,tpg,NA,NA,NA
+lexirumah-rett1240-smooth-1,dula,SMOOTH,"Reta, Pura",NA,NA,NA,Reta,2,CLICS,ret,NA,NA,NA
+robinsonap-blagar-268_smooth-1,dula,SMOOTH,Blagar,NA,NA,NA,Blagar,9,CLICS,beu,trill,"Steinhauer, Hein (2014). ""Blagar"". In Schapper, Antoinette (ed.). The Papuan Languages of Timor, Alor and Pantar: Volume 1: Sketch Grammars. Walter de Gruyter. pp. 147–219",NA
+robinsonap-kui-268_smooth-1,dula,SMOOTH,Kui,NA,NA,NA,Kui,2,CLICS,kvd,NA,NA,NA
+lexirumah-kabo1247-smooth-1,dulu,SMOOTH,"Kabola, Monbang",NA,NA,NA,Kabola,1,CLICS,klz,trill,wiki,NA
+robinsonap-adang-268_smooth-1,dulu,SMOOTH,Adang,NA,NA,NA,Adang,3,CLICS,adn,NA,NA,adn
+lexirumah-kula1280-lanto-smooth-2,dulua,SMOOTH,"Kula, Lantoka",NA,NA,NA,Kula,1,CLICS,tpg,NA,NA,NA
+robinsonap-klon-268_smooth-1,duul,SMOOTH,Klon,NA,NA,NA,Klon,2,CLICS,kyo,trill,wiki,NA
+ids-66-15-770-1,duzdy,SMOOTH,Rutul,NA,NA,NA,Rutul,5,CLICS,rut,NA,NA,rut
+suntb-MotuoTsangla-882_smooth-1,dzampo,SMOOTH,Tsangla (Motuo),NA,NA,NA,Tsangla,1,CLICS,tsj,NA,NA,tsj
+lexirumah-mani1235-smooth-2,edeskwesi,SMOOTH,Sougb,NA,NA,NA,Sougb,1,CLICS,mnx,no rhotic,NA,NA
+lexirumah-meya1236-smooth-1,efeta,SMOOTH,Meyah,NA,NA,NA,Meyah,1,CLICS,mej,trill,wiki,NA
+lexirumah-mosk1236-smooth-1,ejwarsa,SMOOTH,Moskona,NA,NA,NA,Moskona,1,CLICS,mtj,no trill,"Gravelle, Gloria (2010). A Grammar of Moskona: An East Bird's Head Language of West Papua, Indonesia (PhD). Vrije Universiteit Amsterdam. hdl:1871/15730",NA
+tryonsolomon-ghanongga-250_smooth-1,emese,SMOOTH,Ghanongga,NA,NA,NA,Ghanongga,1,CLICS,ghn,NA,NA,NA
+tryonsolomon-lungga-250_smooth-1,emese,SMOOTH,Lungga,NA,NA,NA,Lungga,1,CLICS,lga,NA,NA,NA
+lexirumah-buru1303-smooth-1,emribe,SMOOTH,Buru,NA,NA,NA,Buru,1,CLICS,mhs,trill,"Grimes, Charles E. (1991). The Buru language of Eastern Indonesia (Ph.D. thesis). Australian National University.",NA
+hubercolumbian-Yukpa-334_smooth-1,erora,SMOOTH,Yukpa,NA,NA,NA,Yukpa,1,CLICS,yup,NA,NA,yup
+lexirumah-mani1235-smooth-1,eskraha,SMOOTH,Sougb,NA,NA,NA,Sougb,1,CLICS,mnx,no rhotic,NA,NA
+tryonsolomon-kokota-250_smooth-1,fanogano,SMOOTH,Kokota,NA,NA,NA,Kokota,1,CLICS,kkk,NA,NA,kkk
+hubercolumbian-Ocaina-334_smooth-1,fiiji,SMOOTH,Ocaina,NA,NA,NA,Ocaina,1,CLICS,oca,NA,NA,oca
+lexirumah-maka1316-smooth-1,fukal,SMOOTH,Makasae,NA,NA,NA,Makasae,1,CLICS,mkz,no trill,"Correia, Aderito (2011). Describing Makasae: a trans-New Guinea language of East Timor (Ph.D. thesis). University of Western Sydney. - says tap in detailed description (""vibrant"" in the consonant phoneme table)",NA
+ids-41-15-770-1,gagalu,SMOOTH,Khwarshi (Khwarshi dialect),NA,NA,NA,Khwarshi,3,CLICS,khv,trill,NA,NA
+ids-42-15-770-1,gagaru,SMOOTH,Hinuq,NA,NA,NA,Hinuq,1,CLICS,gin,trill,wiki,NA
+ids-57-15-770-1,galagsi,SMOOTH,Dargwa,NA,NA,NA,Dargwa,17,CLICS,dar,trill,wiki,NA
+ids-69-15-770-1,gamavar,SMOOTH,Khinalug,NA,NA,NA,Khinalug,1,CLICS,kjj,trill,wiki,NA
+ids-80-15-770-1,gamavar,SMOOTH,Udi,NA,NA,NA,Udi,1,CLICS,udi,trill,wiki,NA
+ids-70-15-770-1,gamavaryn,SMOOTH,Tsakhur,NA,NA,NA,Tsakhur,2,CLICS,tkr,trill,wiki,NA
+diacl-56900-149_smooth-1,gangali,SMOOTH,Laz,NA,NA,NA,Laz,1,CLICS,lzz,NA,NA,lzz
+ids-32-15-770-1,garchichii,SMOOTH,Andi,NA,NA,NA,Andi,2,CLICS,ani,trill,wiki,NA
+ids-518-15-770-1,giamavar,SMOOTH,Kryz,NA,NA,NA,Kryz,1,CLICS,kry,NA,NA,NA
+ids-63-15-770-1,giamavar,SMOOTH,Budukh,NA,NA,NA,Budukh,1,CLICS,bdk,NA,NA,NA
+lexirumah-komo1261-smooth-1,g@le,SMOOTH,Komodo,NA,NA,NA,Komodo,1,CLICS,kvh,NA,NA,NA
+lexirumah-sika1262-tanai-smooth-1,glohor,SMOOTH,"Sika, Tana Ai",NA,NA,NA,Sika,2,CLICS,ski,NA,NA,NA
+diacl-57000-149_smooth-1,gluvi,SMOOTH,Megrelian,NA,NA,NA,Megrelian,1,CLICS,xmf,NA,NA,xmf
+lexirumah-lama1277-kalik-smooth-1,g@m@los,SMOOTH,"Central Lembata, Kalikasa",NA,NA,NA,Central Lembata,1,CLICS,lvu,trill,"Krauße, Daniel (2016). ""A Brief Grammar of the Eastern Atadei Language of Lembata, Indonesia"" (PDF). Linguistik Indonesia. 34 (2)",NA
+lexirumah-rong1269-smooth-4,godo,SMOOTH,Rongga,NA,NA,NA,Rongga,1,CLICS,ror,NA,NA,NA
+hubercolumbian-Barasana-334_smooth-1,gosi,SMOOTH,Barasana,NA,NA,NA,Barasana,1,CLICS,bsn,NA,NA,bsn
+hubercolumbian-Macuna-334_smooth-1,gosi,SMOOTH,Macuna,NA,NA,NA,Macuna,1,CLICS,myy,NA,NA,myy
+hantganbangime-Fulfulde-241_smooth-1,haasaade,SMOOTH,Fulfulde,NA,NA,NA,Fulfulde,1,CLICS,ffm,NA,NA,ffm
+hubercolumbian-Guayabero-334_smooth-1,hahoek,SMOOTH,Guayabero,NA,NA,NA,Guayabero,1,CLICS,guo,NA,NA,guo
+lexirumah-panc1247-lawel-smooth-1,halus,SMOOTH,"Pancana, Lawele",NA,NA,NA,Pancana,1,CLICS,pnp,NA,NA,NA
+lexirumah-urua1244-smooth-1,halus,SMOOTH,Uruangnirin,NA,NA,NA,Uruangnirin,1,CLICS,urn,NA,NA,NA
+lexirumah-masi1269-smooth-1,halusu,SMOOTH,"Cia-Cia, Masiri",NA,NA,NA,Cia-Cia,23,CLICS,cia,NA,NA,NA
+hubercolumbian-Guahibo-334_smooth-3,hapina,SMOOTH,Guahibo,NA,NA,NA,Guahibo,1,CLICS,guh,NA,NA,guh
+tryonsolomon-faghani-250_smooth-1,hatara,SMOOTH,Faghani,NA,NA,NA,Faghani,1,CLICS,faf,NA,NA,NA
+lexirumah-kabu1249-smooth-1,hehetaizi,SMOOTH,"Kaburi, Benawa",NA,NA,NA,Kaburi,1,CLICS,uka,NA,NA,NA
+hubercolumbian-Saliba-334_smooth-1,hekaga,SMOOTH,Sáliba,NA,NA,NA,Sáliba,1,CLICS,slc,NA,NA,slc
+hubercolumbian-Resigaro-334_smooth-1,heni,SMOOTH,Resígaro,NA,NA,NA,Resígaro,1,CLICS,rgr,NA,NA,rgr
+lexirumah-fata1247-smooth-1,hilate,SMOOTH,Fataluku,NA,NA,NA,Fataluku,1,CLICS,ddg,trill,http://ling.hawaii.edu/wp-content/uploads/TylerHestonFinal.pdf,NA
+hubercolumbian-Nukak-334_smooth-1,hio2,SMOOTH,Nukak,NA,NA,NA,Nukak,1,CLICS,mbr,NA,NA,mbr
+hubercolumbian-Bara-334_smooth-1,hipi,SMOOTH,Bará,NA,NA,NA,Bará,1,CLICS,bao,NA,NA,bao
+hubercolumbian-Saliba-334_smooth-2,hoiga,SMOOTH,Sáliba,NA,NA,NA,Sáliba,1,CLICS,slc,NA,NA,slc
+tryonsolomon-rennell-250_smooth-1,huahuanggau,SMOOTH,Rennell,NA,NA,NA,Rennell,1,CLICS,mnv,no rhotic,wiki,NA
+tryonsolomon-pileni-250_smooth-1,huangongolavoi,SMOOTH,Pileni,NA,NA,NA,Pileni,1,CLICS,piv,no rhotic,wiki,NA
+hubercolumbian-Guahibo-334_smooth-4,huehneka,SMOOTH,Guahibo,NA,NA,NA,Guahibo,1,CLICS,guh,NA,NA,guh
+hubercolumbian-Jitnu-334_smooth-1,huehuek,SMOOTH,Jitnu,NA,NA,NA,Jitnu,1,CLICS,mbn,NA,NA,mbn
+robinsonap-kaera-268_smooth-1,ibayaran,SMOOTH,Kaera,NA,NA,NA,Kaera,1,CLICS,jka,trill,wiki,NA
+lexirumah-kaer1234-smooth-1,idujo,SMOOTH,Kaera,NA,NA,NA,Kaera,1,CLICS,jka,trill,wiki,NA
+robinsonap-kaera-268_smooth-2,iduyo,SMOOTH,Kaera,NA,NA,NA,Kaera,1,CLICS,jka,trill,wiki,NA
+diacl-65500-149_smooth-1,ijym,SMOOTH,Kamayurá,NA,NA,NA,Kamayurá,1,CLICS,kay,NA,NA,kay
+tryonsolomon-nembao-250_smooth-1,ikilimo,SMOOTH,Nembao,NA,NA,NA,Nembao,1,CLICS,utp,NA,NA,NA
+northeuralex-itl-493_smooth-1,ilkhlakh,SMOOTH,Itelmen,NA,NA,NA,Itelmen,1,CLICS,itl,NA,NA,itl
+hubercolumbian-Achagua-334_smooth-1,imiijai,SMOOTH,Achagua,NA,NA,NA,Achagua,1,CLICS,aca,NA,NA,aca
+tryonsolomon-buma-250_smooth-1,inene,SMOOTH,Buma,NA,NA,NA,Buma,1,CLICS,tkw,NA,NA,NA
+hubercolumbian-Kakua-334_smooth-1,iti3di4,SMOOTH,Kakua,NA,NA,NA,Kakua,1,CLICS,cbv,NA,NA,cbv
+hubercolumbian-Achagua-334_smooth-2,ituejii,SMOOTH,Achagua,NA,NA,NA,Achagua,1,CLICS,aca,NA,NA,aca
+hubercolumbian-Carapana-334_smooth-2,jabe,SMOOTH,Carapana,NA,NA,NA,Carapana,1,CLICS,cbc,trill,"""vibrante""; Instituto Linguistico de Verano (1973) Sistemas fonologicos de idiomas colombianos. Vol 2. Editorial Townsend. p. 126.",cbc
+hubercolumbian-Carapana-334_smooth-1,jabero,SMOOTH,Carapana,NA,NA,NA,Carapana,1,CLICS,cbc,trill,"""vibrante""; Instituto Linguistico de Verano (1973) Sistemas fonologicos de idiomas colombianos. Vol 2. Editorial Townsend. p. 126.",cbc
+hubercolumbian-Tatuyo-334_smooth-1,jabi,SMOOTH,Tatuyo,NA,NA,NA,Tatuyo,1,CLICS,tav,NA,NA,tav
+northeuralex-mrj-493_smooth-1,jag@lg@,SMOOTH,Hill Mari,NA,NA,NA,Hill Mari,1,CLICS,mrj,trill,https://omniglot.com/writing/mari.htm,NA
+hubercolumbian-Desano-334_smooth-1,japi,SMOOTH,Desano,NA,NA,NA,Desano,1,CLICS,des,no rhotic,wiki,des
+hubercolumbian-Piratapuyo-334_smooth-1,japi,SMOOTH,Piratapuyo,NA,NA,NA,Piratapuyo,1,CLICS,pir,NA,NA,pir
+hubercolumbian-Tucano-334_smooth-1,japi,SMOOTH,Tucano,NA,NA,NA,Tucano,1,CLICS,tuo,NA,NA,tuo
+hubercolumbian-Wanano-334_smooth-1,japi,SMOOTH,Wanano,NA,NA,NA,Wanano,1,CLICS,gvc,no trill,wiki,gvc
+hubercolumbian-Cubeo-334_smooth-1,jarido,SMOOTH,Cubeo,NA,NA,NA,Cubeo,1,CLICS,cub,NA,NA,cub
+wold-Qeqchi-1039_smooth-2,jiji,SMOOTH,Q'eqchi',NA,NA,NA,Q'eqchi',1,CLICS,kek,NA,NA,kek
+ids-703-15-770-1,jlih,SMOOTH,Khasi,NA,NA,NA,Khasi,1,CLICS,kha,trill,wiki,kha
+satterthwaitetb-Hani-337_smoothofsurface-1,julluqnei,SMOOTH,Hani,NA,NA,NA,Hani,3,CLICS,hni,no rhotic,wiki,NA
+suntb-Darang-882_smooth-1,ka31me35a31,SMOOTH,Darang [Taraon],NA,NA,NA,Darang,1,CLICS,mhu,NA,NA,NA
+wold-Bezhta-1039_smooth-1,kakalo,SMOOTH,Bezhta,NA,NA,NA,Bezhta,3,CLICS,kap,trill,wiki,NA
+ids-52-15-770-1,kakalu,SMOOTH,Hunzib,NA,NA,NA,Hunzib,1,CLICS,huz,trill,wiki,NA
+lexirumah-lamb1273-smooth-2,kanudaha,SMOOTH,Lamboya,NA,NA,NA,Lamboya,1,CLICS,lmy,trill,"Verdizade, Allahverdi (2019). Selected topics in the phonology and morphosyntax of Laboya: A field study (MA thesis). Stockholm University.",NA
+marrisonnaga-Liangmai-691_smooth-1,kanuibu,SMOOTH,Liangmai,NA,NA,NA,Liangmai,1,CLICS,njn,NA,NA,NA
+hubercolumbian-Yucuna-334_smooth-1,kapiluni,SMOOTH,Yucuna,NA,NA,NA,Yucuna,1,CLICS,ycn,NA,NA,ycn
+lexirumah-tetu1245-suai-smooth-1,karonak,SMOOTH,"Tetun, Suai",NA,NA,NA,Tetun,1,CLICS,tdt,trill,"Van Klinken, Catharina (1999). A grammar of the Fehan dialect of Tetun, an Austronesian language of West Timor (PDF). Canberra: Pacific Linguistics, The Australian National University. doi:10.15144/PL-C155. ISBN 0858835142.",NA
+marrisonnaga-KohimaAngami-691_smooth-1,kemeju,SMOOTH,Angami Kohima,NA,NA,NA,Angami Kohima,1,CLICS,njm,no trill,wiki,njm
+lexirumah-lama1277-adona-smooth-1,kemelut,SMOOTH,Adonara Lamaholot,NA,NA,NA,Adonara Lamaholot,1,CLICS,slp,trill,"Michels, M (2017) Western Lamaholot: a cross-dialectal grammar sketch. MA Thesis.",NA
+marrisonnaga-Zeme-691_smooth-1,ketenaibe,SMOOTH,Zeme,NA,NA,NA,Zeme,1,CLICS,nzm,NA,NA,NA
+hubercolumbian-Curripaco-334_smooth-1,ketidali,SMOOTH,Curripaco,NA,NA,NA,Curripaco,1,CLICS,kpc,NA,NA,kpc
+lexirumah-bima1247-smooth-4,ketsu,SMOOTH,Bima,NA,NA,NA,Bima,1,CLICS,bhp,NA,NA,NA
+hubercolumbian-Catio-334_smooth-1,khaikhaja,SMOOTH,Catío,NA,NA,NA,Catío,1,CLICS,cto,trill,wiki,cto
+hubercolumbian-EmberaChami-334_smooth-1,khakhaja,SMOOTH,Embera Chamí,NA,NA,NA,Embera Chamí,1,CLICS,cmi,mixed with trill,NA,cmi
+marrisonnaga-Tangkhul-691_smooth-1,khanganai,SMOOTH,Tangkhul,NA,NA,NA,Tangkhul,1,CLICS,nmf,NA,NA,nmf
+satterthwaitetb-Nusu-337_smoothofsurface-1,khja,SMOOTH,Nusu,NA,NA,NA,Nusu,2,CLICS,nuf,NA,NA,NA
+ids-33-15-770-1,kiabadabe,SMOOTH,Akhvakh (Northern dialect),NA,NA,NA,Akhvakh,2,CLICS,akv,trill,wiki,NA
+ids-160-15-770-1,kiakialo,SMOOTH,Bezhta,NA,NA,NA,Bezhta,3,CLICS,kap,trill,wiki,NA
+ids-33-15-770-2,kiedabe,SMOOTH,Akhvakh (Northern dialect),NA,NA,NA,Akhvakh,2,CLICS,akv,trill,wiki,NA
+wold-Gurindji-1039_smooth-1,kirinykiriny,SMOOTH,Gurindji,NA,NA,NA,Gurindji,1,CLICS,gue,mixed with trill,wiki,NA
+tls-Kaheunn-1247_smooth-1,kiunje,SMOOTH,Kahe.unn,NA,NA,NA,Kahe.unn,1,CLICS,hka,NA,NA,hka
+suntb-Trung-882_smooth-1,klat55klan55,SMOOTH,Trung [Dulong],NA,NA,NA,Trung,1,CLICS,duu,NA,NA,NA
+diacl-56000-149_smooth-1,kodel,SMOOTH,Xokleng,NA,NA,NA,Xokleng,1,CLICS,xok,NA,NA,xok
+ids-417-15-770-1,kong1,SMOOTH,Mulam,NA,NA,NA,Mulam,1,CLICS,mlm,no rhotic,"Coyaud, M (1987) Les Langues Dans Le Monde Chinois. Pour l'Analyse du Folklore, Paris.",NA
+ids-418-15-770-1,kong4kan1,SMOOTH,Chadong,NA,NA,NA,Chadong,1,CLICS,cdy,NA,NA,NA
+hubercolumbian-Guahibo-334_smooth-2,konihai,SMOOTH,Guahibo,NA,NA,NA,Guahibo,1,CLICS,guh,NA,NA,guh
+wold-Sakha-1039_smooth-2,kono,SMOOTH,Sakha,NA,NA,NA,Sakha,1,CLICS,sah,NA,NA,sah
+hubercolumbian-Secoya-334_smooth-1,kosihaiko,SMOOTH,Secoya,NA,NA,NA,Secoya,1,CLICS,sey,NA,NA,sey
+suntb-Jinuo-882_smooth-1,kra55,SMOOTH,Jinuo,NA,NA,NA,Jinuo,1,CLICS,jiu,NA,NA,NA
+marrisonnaga-YogliTangsa-691_smooth-1,kura,SMOOTH,Tangsa (Yogli),NA,NA,NA,Tangsa,1,CLICS,nst,NA,NA,nst
+suntb-MaerkangrGyalrong-882_smooth-1,k@wjo,SMOOTH,rGyalrong,NA,NA,NA,rGyalrong,10,CLICS,jya,NA,NA,jya
+northeuralex-sah-493_smooth-1,kwlakaj,SMOOTH,Sakha,NA,NA,NA,Sakha,1,CLICS,sah,NA,NA,sah
+ids-319-15-770-1,laegz,SMOOTH,Ossetic,NA,NA,NA,Ossetic,1,CLICS,oss,NA,NA,oss
+suntb-MawoQiang-882_smooth-1,lala,SMOOTH,Qiang (Mawo),NA,NA,NA,Qiang,2,CLICS,cng,no rhotic,wiki,NA
+ids-35-15-770-1,lamidub,SMOOTH,Bagvalal,NA,NA,NA,Bagvalal,1,CLICS,kva,NA,NA,NA
+lexirumah-waer1237-smooth-1,lamu,SMOOTH,Waerana,NA,NA,NA,Waerana,1,CLICS,wrx,NA,NA,NA
+lexirumah-kala1394-smooth-1,laro,SMOOTH,Kalao,NA,NA,NA,Kalao,2,CLICS,kly,NA,NA,NA
+northeuralex-sjd-493_smooth-1,latjec,SMOOTH,Kildin Sami,NA,NA,NA,Kildin Sami,1,CLICS,sjd,trill,wiki,NA
+northeuralex-sms-493_smooth-1,latjes,SMOOTH,Skolt Sami,NA,NA,NA,Skolt Sami,1,CLICS,sms,trill,wiki,NA
+ids-416-15-770-1,lau1,SMOOTH,Maonan,NA,NA,NA,Maonan,1,CLICS,mmd,NA,NA,NA
+suntb-BlackLahu-882_smooth-1,le54,SMOOTH,Lahu (Black),NA,NA,NA,Lahu,1,CLICS,lhu,NA,NA,lhu
+suntb-Xumi-882_smooth-1,le55to33ji55,SMOOTH,Xumi,NA,NA,NA,Xumi,1,CLICS,sxg,no trill,wiki,NA
+tryonsolomon-tikopia-250_smooth-1,lemolemo,SMOOTH,Tikopia,NA,NA,NA,Tikopia,1,CLICS,tkp,NA,NA,NA
+logos-Romagnolstd-395_smooth-1,less,SMOOTH,Romagnol-std,NA,NA,NA,Romagnol-std,1,CLICS,rgn,trill,wiki,NA
+tryonsolomon-mbilua-250_smooth-1,levilevl,SMOOTH,Mbilua,NA,NA,NA,Mbilua,1,CLICS,blb,NA,NA,blb
+wold-ZinacantanTzotzil-1039_smooth-2,lichich,SMOOTH,Zinacantán Tzotzil,NA,NA,NA,Zinacantán Tzotzil,1,CLICS,tzo,NA,NA,tzo
+lexirumah-rong1269-smooth-3,lila,SMOOTH,Rongga,NA,NA,NA,Rongga,1,CLICS,ror,NA,NA,NA
+halenepal-Magar-1676_smooth-1,lingke,SMOOTH,Magar,NA,NA,NA,Magar,1,CLICS,mgp,no trill,wiki,NA
+wold-Saramaccan-1039_smooth-1,linzo,SMOOTH,Saramaccan,NA,NA,NA,Saramaccan,1,CLICS,srm,no rhotic,wiki,NA
+hubercolumbian-Totoro-334_smooth-1,lisokitan,SMOOTH,Totoró,NA,NA,NA,Totoró,1,CLICS,ttk,trill,wiki,NA
+lexirumah-kara1499-smooth-1,litsing,SMOOTH,Kalamang,NA,NA,NA,Kalamang,1,CLICS,kgv,trill,https://www.duo.uio.no/handle/10852/51535,NA
+ids-419-15-770-1,ljan55,SMOOTH,Southern Kam,NA,NA,NA,Southern Kam,1,CLICS,doc; kmc,no trill,wiki,NA
+hubercolumbian-Inga-334_smooth-1,ljutska,SMOOTH,Inga,NA,NA,NA,Inga,1,CLICS,inb,NA,NA,inb
+marrisonnaga-Chang-691_smooth-1,loklokbu,SMOOTH,Chang,NA,NA,NA,Chang,1,CLICS,nbc,NA,NA,NA
+ids-57-15-770-2,lugiiansi,SMOOTH,Dargwa,NA,NA,NA,Dargwa,17,CLICS,dar,trill,wiki,NA
+lexirumah-maka1316-smooth-2,lumeke,SMOOTH,Makasae,NA,NA,NA,Makasae,1,CLICS,mkz,no trill,"Correia, Aderito (2011). Describing Makasae: a trans-New Guinea language of East Timor (Ph.D. thesis). University of Western Sydney. - says tap in detailed description (""vibrant"" in the consonant phoneme table)",NA
+lexirumah-waim1252-smooth-1,luo,SMOOTH,Waima'a,NA,NA,NA,Waima'a,1,CLICS,wmh,NA,NA,NA
+lexirumah-dobe1238-smooth-1,luraj,SMOOTH,Dobel,NA,NA,NA,Dobel,1,CLICS,kvo,trill,"Hughes, Jock (2000). ""The morphology of Dobel, Aru, with special reference to reduplication"". In Grimes, C.E. (ed.). Spices from the East: Papers in languages of Eastern Indonesia. Pacific Linguistics No. 503. Canberra: Pacific Linguistics. pp. 131–180. doi:10.15144/PL-503.131.",NA
+lexirumah-kala1394-smooth-3,maalu,SMOOTH,Kalao,NA,NA,NA,Kalao,2,CLICS,kly,NA,NA,NA
+tryonsolomon-moli-250_smooth-1,macamaca,SMOOTH,Moli,NA,NA,NA,Moli,1,CLICS,vrs,NA,NA,NA
+marrisonnaga-Maram-691_smooth-1,madive,SMOOTH,Maram,NA,NA,NA,Maram,1,CLICS,nma,NA,NA,NA
+lexirumah-koto1251-smooth-1,maeki,SMOOTH,Kotos Amarasi,NA,NA,NA,Kotos Amarasi,1,CLICS,aaz,trill,https://www.cambridge.org/core/services/aop-cambridge-core/content/view/S0025100315000377,NA
+tryonsolomon-poleo-250_smooth-1,magambo,SMOOTH,Poleo,NA,NA,NA,Poleo,1,CLICS,tlr,no trill,wiki,NA
+lexirumah-tiii1241-smooth-1,magatusi,SMOOTH,Tii,NA,NA,NA,Tii,1,CLICS,txq,NA,NA,NA
+hubercolumbian-Tariano-334_smooth-1,makapitshinha,SMOOTH,Tariano,NA,NA,NA,Tariano,1,CLICS,tae,NA,NA,tae
+lexirumah-wotu1240-smooth-1,malanni,SMOOTH,Wotu,NA,NA,NA,Wotu,1,CLICS,wtw,NA,NA,NA
+lexirumah-kala1394-smooth-2,malaro,SMOOTH,Kalao,NA,NA,NA,Kalao,2,CLICS,kly,NA,NA,NA
+lexirumah-nucl1577-smooth-1,malaromaalusu,SMOOTH,Laiyolo,NA,NA,NA,Laiyolo,2,CLICS,lji,NA,NA,NA
+tryonsolomon-nanggu-250_smooth-1,malilo,SMOOTH,Nanggu,NA,NA,NA,Nanggu,1,CLICS,ngr,NA,NA,NA
+tryonsolomon-kia-250_smooth-1,mamalahu,SMOOTH,Kia,NA,NA,NA,Kia,1,CLICS,kji,trill,wiki,NA
+tryonsolomon-areare1-250_smooth-1,mamanaa,SMOOTH,'Are'are (1),NA,NA,NA,'Are'are,2,CLICS,alu,no trill,wiki,NA
+tryonsolomon-oroha-250_smooth-1,mamanaa,SMOOTH,Oroha,NA,NA,NA,Oroha,1,CLICS,ora,no trill,"wiki ""the r is not rolled""",NA
+tryonsolomon-malango-250_smooth-1,mamanja,SMOOTH,Malango,NA,NA,NA,Malango,1,CLICS,mln,NA,NA,NA
+tryonsolomon-kahua-250_smooth-1,mamao,SMOOTH,Kahua,NA,NA,NA,Kahua,1,CLICS,agw,NA,NA,NA
+tryonsolomon-santaana-250_smooth-1,mamaoga,SMOOTH,Santa Ana,NA,NA,NA,Santa Ana,1,CLICS,stn,trill,"wiki (""vibrant"")",NA
+tryonsolomon-lengo-250_smooth-1,mambo,SMOOTH,Lengo,NA,NA,NA,Lengo,1,CLICS,lgr,trill,wiki,NA
+tryonsolomon-nggela-250_smooth-1,mambo,SMOOTH,Nggela,NA,NA,NA,Nggela,1,CLICS,nlg,trill,wiki,NA
+tryonsolomon-savosavo-250_smooth-1,mambo,SMOOTH,Savosavo,NA,NA,NA,Savosavo,1,CLICS,svs,trill,wiki,svs
+tryonsolomon-nggela-250_smooth-2,mandalo,SMOOTH,Nggela,NA,NA,NA,Nggela,1,CLICS,nlg,trill,wiki,NA
+tryonsolomon-mbirao-250_smooth-1,manjamanja,SMOOTH,Mbirao,NA,NA,NA,Mbirao,1,CLICS,brr,NA,NA,NA
+tryonsolomon-saa1-250_smooth-1,manomanolea,SMOOTH,Sa'a (1),NA,NA,NA,Sa'a,2,CLICS,apb,NA,NA,NA
+lexirumah-kama1364-b-smooth-1,mararo,SMOOTH,Kamaru 2,NA,NA,NA,Kamaru 2,1,CLICS,kgx,NA,NA,NA
+lexirumah-woli1241-smooth-1,mararo,SMOOTH,Wolio,NA,NA,NA,Wolio,4,CLICS,wlo,trill,wiki,NA
+wold-SeychellesCreole-1039_smooth-1,marbre,SMOOTH,Seychelles Creole,NA,NA,NA,Seychelles Creole,1,CLICS,crs,NA,NA,NA
+lexirumah-koto1251-smooth-2,maseki,SMOOTH,Kotos Amarasi,NA,NA,NA,Kotos Amarasi,1,CLICS,aaz,trill,https://www.cambridge.org/core/services/aop-cambridge-core/content/view/S0025100315000377,NA
+northeuralex-ess-493_smooth-1,matigniqixnaq,SMOOTH,Central Siberian Yupik,NA,NA,NA,Central Siberian Yupik,1,CLICS,ess,no rhotic,wiki,ess
+marrisonnaga-Puiron-691_smooth-1,matyengnu,SMOOTH,Puiron,NA,NA,NA,Puiron,1,CLICS,nbu,NA,NA,NA
+diacl-59500-149_smooth-1,mayun,SMOOTH,Kashinawá,NA,NA,NA,Kashinawá,1,CLICS,cbs,NA,NA,cbs
+suntb-DanbaErgong-882_smooth-1,mblambla,SMOOTH,Ergong (Danba),NA,NA,NA,Ergong,1,CLICS,ero,NA,NA,NA
+lexirumah-hata1243-smooth-1,mblus,SMOOTH,Hatam,NA,NA,NA,Hatam,1,CLICS,had,no trill,wiki,NA
+hubercolumbian-Bora-334_smooth-2,meebane,SMOOTH,Bora,NA,NA,NA,Bora,1,CLICS,boa,NA,NA,boa
+lexirumah-bino1238-smooth-1,mehu,SMOOTH,"Tukang Besi, Binongko",NA,NA,NA,Tukang Besi,1,CLICS,bhq,trill,wiki,NA
+northeuralex-bua-493_smooth-1,meliger,SMOOTH,Buryat,NA,NA,NA,Buryat,1,CLICS,bua,trill,NA,NA
+tryonsolomon-vaghua-250_smooth-1,meloto,SMOOTH,Vaghua,NA,NA,NA,Vaghua,1,CLICS,tva,NA,NA,NA
+northeuralex-bua-493_smooth-2,melseger,SMOOTH,Buryat,NA,NA,NA,Buryat,1,CLICS,bua,trill,NA,NA
+lexirumah-keda1252-leuba-smooth-1,melu,SMOOTH,"Kedang, Leubatang",NA,NA,NA,Kedang,1,CLICS,ksx,trill,wiki,NA
+lexirumah-alor1247-baran-YS-smooth-1,meluk,SMOOTH,"Alorese, Baranusa",NA,NA,NA,Alorese,13,CLICS,aol,trill,"Klamer, Margaretha Anna Flora. (2011). A short grammar of Alorese (Austronesian). Muenchen: Lincom Europa.",NA
+lexirumah-sika1262-tanai-smooth-2,melur,SMOOTH,"Sika, Tana Ai",NA,NA,NA,Sika,2,CLICS,ski,NA,NA,NA
+tryonsolomon-reefs-250_smooth-1,mema,SMOOTH,Reefs,NA,NA,NA,Reefs,1,CLICS,ntu,NA,NA,ntu
+tryonsolomon-hoava-250_smooth-1,memehe,SMOOTH,Hoava,NA,NA,NA,Hoava,1,CLICS,hoa,NA,NA,hoa
+tryonsolomon-kusaghe-250_smooth-1,memehe,SMOOTH,Kusaghe,NA,NA,NA,Kusaghe,1,CLICS,ksg,NA,NA,NA
+tryonsolomon-marovo-250_smooth-1,memehe,SMOOTH,Marovo,NA,NA,NA,Marovo,1,CLICS,mvo,NA,NA,NA
+tryonsolomon-nduke-250_smooth-1,memehe,SMOOTH,Nduke,NA,NA,NA,Nduke,1,CLICS,nke,NA,NA,NA
+tryonsolomon-roviana-250_smooth-1,memehe,SMOOTH,Roviana,NA,NA,NA,Roviana,1,CLICS,rug,NA,NA,NA
+tryonsolomon-simbo-250_smooth-1,memehe,SMOOTH,Simbo,NA,NA,NA,Simbo,1,CLICS,sbb,NA,NA,NA
+tryonsolomon-ughele-250_smooth-1,memehe,SMOOTH,Ughele,NA,NA,NA,Ughele,1,CLICS,uge,no rhotic,wiki,NA
+tryonsolomon-vangunu-250_smooth-1,memehe,SMOOTH,Vangunu,NA,NA,NA,Vangunu,1,CLICS,mpr,NA,NA,NA
+hantganbangime-Bangime-241_smooth-1,merumeru,SMOOTH,Bangime,NA,NA,NA,Bangime,1,CLICS,dba,no trill,NA,NA
+hubercolumbian-Guambiano-334_smooth-1,mil,SMOOTH,Guambiano,NA,NA,NA,Guambiano,1,CLICS,gum,NA,NA,gum
+lexirumah-rong1269-smooth-2,milu,SMOOTH,Rongga,NA,NA,NA,Rongga,1,CLICS,ror,NA,NA,NA
+tryonsolomon-ririo-250_smooth-1,mioloto,SMOOTH,Ririo,NA,NA,NA,Ririo,1,CLICS,rri,NA,NA,NA
+lexirumah-mamb1306-Slete-smooth-1,mlai,SMOOTH,"South Mambae, Letefoho",NA,NA,NA,South Mambae,1,CLICS,mgm,trill,Helem Andressa de Oliveira Fogaça (2013). Estudo fonético e fonológico do mambae de Same : uma língua de Timor-Leste (PDF) (Master's thesis) (in Portuguese). Universidade de Brasília.,NA
+ids-406-15-770-1,m@ng31leai44,SMOOTH,Jinsha Dai,NA,NA,NA,Jinsha Dai,1,CLICS,tiz,NA,NA,NA
+northeuralex-ykg-493_smooth-1,mojem,SMOOTH,Northern Yukaghir,NA,NA,NA,Northern Yukaghir,1,CLICS,ykg,NA,NA,ykg
+lexirumah-dhao1237-smooth-1,molamola,SMOOTH,Dhao,NA,NA,NA,Dhao,1,CLICS,nfa,trill,https://sil-philippines-languages.org/ical/papers/Grimes-Hawu_Dhao.pdf?_ga=GA1.2.34923686.1554420071&_gid=GA1.2.2128814745.1594140462,NA
+tryonsolomon-ontongjava-250_smooth-1,mole,SMOOTH,Ontong Java,NA,NA,NA,Ontong Java,1,CLICS,ojv,no rhotic,wiki,NA
+lexirumah-kuli1254-smooth-1,molori,SMOOTH,Kulisusu,NA,NA,NA,Kulisusu,1,CLICS,vkl,NA,NA,NA
+tryonsolomon-rawo-250_smooth-1,momoreaga,SMOOTH,Rawo,NA,NA,NA,Rawo,1,CLICS,rwa,NA,NA,NA
+lexirumah-buso1238-smooth-1,mondeli,SMOOTH,Busoa,NA,NA,NA,Busoa,1,CLICS,bup,NA,NA,NA
+lexirumah-kaim1241-smooth-1,mondeli,SMOOTH,Kaimbulawa,NA,NA,NA,Kaimbulawa,1,CLICS,zka,NA,NA,NA
+lexirumah-masi1269-smooth-2,mondeli,SMOOTH,"Cia-Cia, Masiri",NA,NA,NA,Cia-Cia,23,CLICS,cia,NA,NA,NA
+hubercolumbian-Muinane-334_smooth-2,moobano,SMOOTH,Muinane,NA,NA,NA,Muinane,1,CLICS,bmr,NA,NA,bmr
+tryonsolomon-kia-250_smooth-2,motongo,SMOOTH,Kia,NA,NA,NA,Kia,1,CLICS,kji,trill,wiki,NA
+wold-Iraqw-1039_smooth-1,motsotsooq,SMOOTH,Iraqw,NA,NA,NA,Iraqw,1,CLICS,irk,NA,NA,irk
+lexirumah-bima1247-smooth-1,mpida,SMOOTH,Bima,NA,NA,NA,Bima,1,CLICS,bhp,NA,NA,NA
+lexirumah-weta1243-smooth-1,mtekra,SMOOTH,Wetan,NA,NA,NA,Wetan,1,CLICS,lex,trill,"Taber, Kathleen B.; Taber, Mark H. (2015). Luang Grammar and Phonology Sketch. SIL e‑Books, 63. Dallas: SIL International.",NA
+marrisonnaga-Sema-691_smooth-1,muduni,SMOOTH,Sema,NA,NA,NA,Sema,1,CLICS,nsm,NA,NA,nsm
+lexirumah-batu1258-smooth-1,mumur,SMOOTH,Batuley,NA,NA,NA,Batuley,1,CLICS,bay,trill,NA,NA
+tryonsolomon-vano-250_smooth-1,mutnwoli,SMOOTH,Vano,NA,NA,NA,Vano,1,CLICS,vnk,NA,NA,NA
+wold-Gawwada-1039_smooth-1,muturtura,SMOOTH,Gawwada,NA,NA,NA,Gawwada,1,CLICS,gwd,NA,NA,NA
+marrisonnaga-Lotha-691_smooth-2,myana,SMOOTH,Lotha,NA,NA,NA,Lotha,1,CLICS,njh,NA,NA,njh
+suntb-Muya-882_smooth-1,na55na55,SMOOTH,Muya [Minyak],NA,NA,NA,Muya,1,CLICS,mvm,NA,NA,NA
+lexirumah-dadu1237-smooth-1,nakmusik,SMOOTH,Dadu'a,NA,NA,NA,Dadu'a,1,CLICS,ilu,trill,"Hinton, Bryan D. (2000). ""The languages of Wetar: recent survey results and word lists with notes on Tugun grammar"". In Grimes, Charles E. (ed.). Spices from the East: Papers in Languages of Eastern Indonesia. Canberra: Pacific Linguistics. pp. 105–129",NA
+marrisonnaga-Manipuri-691_smooth-1,nalba,SMOOTH,Manipuri,NA,NA,NA,Manipuri,1,CLICS,mni,NA,NA,mni
+northeuralex-sma-493_smooth-1,nalhkedihks,SMOOTH,Southern Sami,NA,NA,NA,Southern Sami,1,CLICS,sma,NA,NA,sma
+northeuralex-evn-493_smooth-2,naptakan,SMOOTH,Evenki,NA,NA,NA,Evenki,1,CLICS,evn,trill,wiki,NA
+northeuralex-evn-493_smooth-1,naptama,SMOOTH,Evenki,NA,NA,NA,Evenki,1,CLICS,evn,trill,wiki,NA
+tryonsolomon-kwaio-250_smooth-1,ndanda,SMOOTH,Kwaio,NA,NA,NA,Kwaio,1,CLICS,kwd,NA,NA,kwd
+tryonsolomon-mbaengguu-250_smooth-1,ndondoloa,SMOOTH,Mbaengguu,NA,NA,NA,Mbaengguu,1,CLICS,bvd,NA,NA,NA
+tryonsolomon-toambaita-250_smooth-1,ndondoloa,SMOOTH,To'ambaita,NA,NA,NA,To'ambaita,1,CLICS,mlu,trill,wiki,NA
+satterthwaitetb-Naxi-337_smoothofsurface-1,ndyjo,SMOOTH,Naxi,NA,NA,NA,Naxi,3,CLICS,nxq,NA,NA,nxq
+suntb-Guiqiong-882_smooth-1,ndzo33ma55la55,SMOOTH,Guiqiong,NA,NA,NA,Guiqiong,1,CLICS,gqi,no rhotic,wiki,NA
+suntb-Namuyi-882_smooth-1,ndzr55le33se53,SMOOTH,Namuyi,NA,NA,NA,Namuyi,1,CLICS,nmy,no rhotic,NA,NA
+marrisonnaga-Mikir-691_smooth-1,nei,SMOOTH,Mikir,NA,NA,NA,Mikir,1,CLICS,mjw,NA,NA,mjw
+lexirumah-rong1269-smooth-1,nene,SMOOTH,Rongga,NA,NA,NA,Rongga,1,CLICS,ror,NA,NA,NA
+lexirumah-bima1247-smooth-2,ngame,SMOOTH,Bima,NA,NA,NA,Bima,1,CLICS,bhp,NA,NA,NA
+lexirumah-keoo1238-smooth-1,ngedu,SMOOTH,"Keo, Udiworowatu",NA,NA,NA,Keo,1,CLICS,xxk,NA,NA,xxk
+lexirumah-nage1237-smooth-1,ngedu,SMOOTH,"Nage, East",NA,NA,NA,Nage,1,CLICS,nxe,NA,NA,NA
+lexirumah-lioo1240-smooth-2,ngelu,SMOOTH,Lio,NA,NA,NA,Lio,1,CLICS,ljl,trill,"Elias, Alexander (2019). Lio and the Central Flores languages (M.A. thesis). Leiden University.",NA
+lexirumah-ngad1267-smooth-1,ngelu,SMOOTH,Ngadha,NA,NA,NA,Ngadha,1,CLICS,nxg,NA,NA,nxg
+lexirumah-soaa1237-smooth-1,ngelu,SMOOTH,So'a,NA,NA,NA,So'a,1,CLICS,ssq,NA,NA,NA
+lexirumah-ende1246-smooth-1,ngeru,SMOOTH,Ende,NA,NA,NA,Ende,1,CLICS,end,trill,wiki,NA
+tryonsolomon-mbambatana-250_smooth-1,nggulama,SMOOTH,Mbambatana,NA,NA,NA,Mbambatana,1,CLICS,baa,NA,NA,NA
+northeuralex-yux-493_smooth-1,nidzilo,SMOOTH,Southern Yukaghir,NA,NA,NA,Southern Yukaghir,1,CLICS,yux,NA,NA,yux
+ids-69-15-770-2,nikiaz,SMOOTH,Khinalug,NA,NA,NA,Khinalug,1,CLICS,kjj,trill,wiki,NA
+northeuralex-mnc-493_smooth-1,nilukhan,SMOOTH,Manchu,NA,NA,NA,Manchu,1,CLICS,mnc,NA,NA,mnc
+sohartmannchin-Daai-213_smooth-1,nip,SMOOTH,Daai,NA,NA,NA,Daai,1,CLICS,dao,no rhotic,wiki,NA
+sohartmannchin-Ngmuun-213_smooth-1,nip,SMOOTH,Ngmüün,NA,NA,NA,Ngmüün,1,CLICS,mwq,no rhotic,"Kee, Shein Mang. 2006. A syntactic and pragmatic description of verb stem alternation in K’cho, a Chin language. Master’s thesis, Payap University.",NA
+ids-533-15-770-1,nipsih,SMOOTH,Tsova-Tush,NA,NA,NA,Tsova-Tush,1,CLICS,bbl,NA,NA,bbl
+lexirumah-bima1247-smooth-3,niu,SMOOTH,Bima,NA,NA,NA,Bima,1,CLICS,bhp,NA,NA,NA
+northeuralex-smj-493_smooth-1,njalkas,SMOOTH,Lule Sami,NA,NA,NA,Lule Sami,1,CLICS,smj,trill,wiki,NA
+northeuralex-gld-493_smooth-1,n@j@n,SMOOTH,Nanai,NA,NA,NA,Nanai,1,CLICS,gld,NA,NA,gld
+lexirumah-sawa1247-smooth-1,nmenenes,SMOOTH,Sawai,NA,NA,NA,Sawai,1,CLICS,szw,no rhotic,wiki,NA
+northeuralex-nio-493_smooth-1,n@m@g@,SMOOTH,Nganasan,NA,NA,NA,Nganasan,1,CLICS,nio,NA,NA,nio
+lexirumah-nucl1574-boneg-smooth-2,noalusu,SMOOTH,"Kioko, Bonegunu",NA,NA,NA,Kioko,1,CLICS,ues,NA,NA,NA
+lexirumah-nucl1574-boneg-smooth-1,nomondeli,SMOOTH,"Kioko, Bonegunu",NA,NA,NA,Kioko,1,CLICS,ues,NA,NA,NA
+northeuralex-sjd-493_smooth-2,noykec,SMOOTH,Kildin Sami,NA,NA,NA,Kildin Sami,1,CLICS,sjd,trill,wiki,NA
+northeuralex-ckt-493_smooth-1,n@p@lg@tr@qen,SMOOTH,Chukchi,NA,NA,NA,Chukchi,1,CLICS,ckt,NA,NA,ckt
+hantganbangime-Bambara-241_smooth-1,nugu,SMOOTH,Bambara,NA,NA,NA,Bambara,1,CLICS,bam,NA,NA,bam
+suntb-MamaTshona-882_smooth-1,num55tshir55,SMOOTH,Tshona (Mama),NA,NA,NA,Tshona,1,CLICS,twm,NA,NA,NA
+marrisonnaga-Phom-691_smooth-1,nyulukpu,SMOOTH,Phom,NA,NA,NA,Phom,1,CLICS,nph,no rhotic,wiki,NA
+hubercolumbian-Tanimuca-334_smooth-1,oia,SMOOTH,Tanimuca,NA,NA,NA,Tanimuca,1,CLICS,tnc,NA,NA,tnc
+northeuralex-yux-493_smooth-2,olkhinme,SMOOTH,Southern Yukaghir,NA,NA,NA,Southern Yukaghir,1,CLICS,yux,NA,NA,yux
+hantganbangime-Najamba-241_smooth-1,onanaonane,SMOOTH,Najamba,NA,NA,NA,Najamba,1,CLICS,dbu,NA,NA,NA
+hantganbangime-Mombo-241_smooth-1,onono,SMOOTH,Mombo,NA,NA,NA,Mombo,1,CLICS,dmb,NA,NA,NA
+hantganbangime-Jamsay-241_smooth-1,onurnu,SMOOTH,Jamsay,NA,NA,NA,Jamsay,1,CLICS,djm,NA,NA,djm
+hantganbangime-Nanga-241_smooth-1,ori,SMOOTH,Nanga,NA,NA,NA,Nanga,1,CLICS,nzz,NA,NA,NA
+hantganbangime-Yanda_Dom-241_smooth-1,ornondu,SMOOTH,Yanda_Dom,NA,NA,NA,Yanda_Dom,1,CLICS,dym,NA,NA,NA
+hantganbangime-Tebul_Ure-241_smooth-1,ornone,SMOOTH,Tebul_Ure,NA,NA,NA,Tebul_Ure,1,CLICS,dtu,trill,"Blench, Dendo, & Douyon, 2005 (ms). Tebul Ure, a language of the Dogon group in Northern Mali and its affinities",NA
+hantganbangime-Togo_Kan-241_smooth-1,ornonono,SMOOTH,Togo_Kan,NA,NA,NA,Togo_Kan,1,CLICS,dtm,no trill,wiki,NA
+hantganbangime-Tommo_So-241_smooth-1,oroy,SMOOTH,Tommo_So,NA,NA,NA,Tommo_So,1,CLICS,dto,no trill,wiki,NA
+lexirumah-meya1236-smooth-2,orswos,SMOOTH,Meyah,NA,NA,NA,Meyah,1,CLICS,mej,trill,wiki,NA
+hantganbangime-Bankan_Tey-241_smooth-1,orum,SMOOTH,Bankan_Tey,NA,NA,NA,Bankan_Tey,1,CLICS,dbw,NA,NA,NA
+hantganbangime-Ben_Tey-241_smooth-1,orum,SMOOTH,Ben_Tey,NA,NA,NA,Ben_Tey,1,CLICS,dbt,NA,NA,NA
+hubercolumbian-Muinane-334_smooth-1,parjiikino,SMOOTH,Muinane,NA,NA,NA,Muinane,1,CLICS,bmr,NA,NA,bmr
+marrisonnaga-Mikir-691_smooth-2,peklam,SMOOTH,Mikir,NA,NA,NA,Mikir,1,CLICS,mjw,NA,NA,mjw
+halenepal-Kaike-1676_smooth-1,philphilma,SMOOTH,Kaike,NA,NA,NA,Kaike,1,CLICS,kzq,NA,NA,NA
+hubercolumbian-Bora-334_smooth-1,phirwwkhwne,SMOOTH,Bora,NA,NA,NA,Bora,1,CLICS,boa,NA,NA,boa
+marrisonnaga-Dimasa-691_smooth-1,phlamphlam,SMOOTH,Dimasa,NA,NA,NA,Dimasa,1,CLICS,dis,trill,"Brahma, Pratima (2014). Phonology and morphology of Bodo and Dimasa: a comparative study (PhD), http://shodhganga.inflibnet.ac.in:8080/jspui/bitstream/10603/21160/8/08_chapter%203.pdf",NA
+marrisonnaga-Lotha-691_smooth-1,phyephyeto,SMOOTH,Lotha,NA,NA,NA,Lotha,1,CLICS,njh,NA,NA,njh
+halenepal-Newar-1676_smooth-2,picugu,SMOOTH,Newar,NA,NA,NA,Newar,1,CLICS,new,NA,NA,new
+hubercolumbian-Chimila-334_smooth-1,piiro,SMOOTH,Chimila,NA,NA,NA,Chimila,1,CLICS,cbg,NA,NA,cbg
+lexirumah-dela1252-smooth-1,pipiso,SMOOTH,Dela,NA,NA,NA,Dela,1,CLICS,row,trill,https://www.omniglot.com/writing/westernrote.htm,NA
+halenepal-SahuTamang-1676_smooth-1,plapa,SMOOTH,Tamang (Sahu),NA,NA,NA,Tamang,1,CLICS,taj,NA,NA,taj
+lexirumah-sika1262-tanai-smooth-3,plasur,SMOOTH,"Sika, Tana Ai",NA,NA,NA,Sika,2,CLICS,ski,NA,NA,NA
+sohartmannchin-Khumi-213_smooth-1,p@nai,SMOOTH,Khumi,NA,NA,NA,Khumi,1,CLICS,cnk,trill,https://web.archive.org/web/20131116213526/http://www.gial.edu/images/theses/Wright_Jonathan-thesis.pdf,NA
+lexirumah-kais1235-smooth-1,porudamo,SMOOTH,Kais,NA,NA,NA,Kais,1,CLICS,kzm,NA,NA,NA
+marrisonnaga-Jingpho-691_smooth-2,pri,SMOOTH,Jingpho,NA,NA,NA,Jingpho,1,CLICS,kac,NA,NA,kac
+hubercolumbian-Wounaan-334_smooth-1,ptphwr,SMOOTH,Wounaan,NA,NA,NA,Wounaan,1,CLICS,noa,NA,NA,noa
+suntb-TaobaPumi-882_smooth-1,pza35la55m@53,SMOOTH,Pumi (Taoba),NA,NA,NA,Pumi,2,CLICS,pmi,no trill,"Daudey, Henriëtte (2014). A grammar of Wadu Pumi (Ph.D. thesis). La Trobe University",NA
+suntb-Jingpho-882_smooth-1,pzi33,SMOOTH,Jingpho,NA,NA,NA,Jingpho,1,CLICS,kac,NA,NA,kac
+northeuralex-kal-493_smooth-1,quasak,SMOOTH,Kalaallisut,NA,NA,NA,Kalaallisut,1,CLICS,kal,NA,NA,kal
+wold-Qeqchi-1039_smooth-1,qun,SMOOTH,Q'eqchi',NA,NA,NA,Q'eqchi',1,CLICS,kek,NA,NA,kek
+marrisonnaga-Jingpho-691_smooth-1,ra,SMOOTH,Jingpho,NA,NA,NA,Jingpho,1,CLICS,kac,NA,NA,kac
+ids-35-15-770-2,ragadub,SMOOTH,Bagvalal,NA,NA,NA,Bagvalal,1,CLICS,kva,NA,NA,NA
+halenepal-Kham-1676_smooth-1,raho,SMOOTH,Kham,NA,NA,NA,Kham,1,CLICS,kgj; kif; kip; kjl,NA,NA,NA
+northeuralex-dar-493_smooth-1,ralagsi,SMOOTH,Dargwa,NA,NA,NA,Dargwa,17,CLICS,dar,trill,wiki,NA
+tryonsolomon-mono-250_smooth-1,ranisi,SMOOTH,Mono,NA,NA,NA,Mono,1,CLICS,mte,trill,wiki,NA
+northeuralex-ain-493_smooth-1,rarak,SMOOTH,Hokkaido Ainu,NA,NA,NA,Hokkaido Ainu,1,CLICS,ain,NA,NA,ain
+tryonsolomon-anuta-250_smooth-1,remoremo,SMOOTH,Anuta,NA,NA,NA,Anuta,1,CLICS,aud,no trill,"Feinberg, Richard (1977). The Anutan Language Reconsidered: Lexicon and Grammar of a Polynesian Outlier, Volume 1. Human Relations Area Files.",NA
+hubercolumbian-Muinane-334_smooth-3,ririkuno,SMOOTH,Muinane,NA,NA,NA,Muinane,1,CLICS,bmr,NA,NA,bmr
+wold-LowerSorbian-1039_smooth-1,rowny,SMOOTH,Lower Sorbian,NA,NA,NA,Lower Sorbian,1,CLICS,dsb,trill,wiki,NA
+robinsonap-abui-268_smooth-1,rula,SMOOTH,Abui,NA,NA,NA,Abui,5,CLICS,abz,trill,wiki,NA
+hubercolumbian-WitotoMurui-334_smooth-1,rwhwrede,SMOOTH,Witoto Murui,NA,NA,NA,Witoto Murui,1,CLICS,huu,NA,NA,huu
+hubercolumbian-Bora-334_smooth-3,rwthwrwthw,SMOOTH,Bora,NA,NA,NA,Bora,1,CLICS,boa,NA,NA,boa
+hubercolumbian-WitotoMinica-334_smooth-1,rwwrede,SMOOTH,Witoto Mi̵ni̵ca,NA,NA,NA,Witoto Mi̵ni̵ca,1,CLICS,hto,NA,NA,hto
+hubercolumbian-WitotoNipode-334_smooth-1,rwwrede,SMOOTH,Witoto Ni̵pode,NA,NA,NA,Witoto Ni̵pode,1,CLICS,hux,no trill,wiki,NA
+tryonsolomon-blablanga-250_smooth-2,sahlu,SMOOTH,Blablanga,NA,NA,NA,Blablanga,1,CLICS,blp,trill,"Voica, Radu (2017). A fieldwork-based approach to Blanga (Blablanga), an Austronesian language of the Solomon Islands, with reference to predicate-argument relations(PhD). SOAS University of London.",NA
+northeuralex-enf-493_smooth-1,salita,SMOOTH,Forest Enets,NA,NA,NA,Forest Enets,1,CLICS,enf,trill,wiki,NA
+tryonsolomon-dhadhaje-250_smooth-1,salu,SMOOTH,Dhadhaje,NA,NA,NA,Dhadhaje,1,CLICS,bgt,NA,NA,NA
+lexirumah-pati1239-smooth-1,sapin,SMOOTH,Patipi,NA,NA,NA,Patipi,1,CLICS,oni,NA,NA,NA
+hubercolumbian-Carijona-334_smooth-1,sarasarame,SMOOTH,Carijona,NA,NA,NA,Carijona,1,CLICS,cbd,no rhotic,http://www.native-languages.org/carijona_guide.htm,cbd
+ids-56-15-770-1,sargunssa,SMOOTH,Lak,NA,NA,NA,Lak,4,CLICS,lbe,NA,NA,lbe
+lexirumah-mpur1239-smooth-1,senafok,SMOOTH,Mpur,NA,NA,NA,Mpur,1,CLICS,akc,no rhotic,wiki,NA
+northeuralex-che-493_smooth-1,ser@,SMOOTH,Chechen,NA,NA,NA,Chechen,2,CLICS,che,NA,NA,che
+lexirumah-mpur1239-smooth-2,serama,SMOOTH,Mpur,NA,NA,NA,Mpur,1,CLICS,akc,no rhotic,wiki,NA
+marrisonnaga-Sangtam-691_smooth-1,sese,SMOOTH,Sangtam,NA,NA,NA,Sangtam,1,CLICS,nsa,no trill,wiki,NA
+ids-51-15-770-1,shahshub,SMOOTH,Chamalal,NA,NA,NA,Chamalal,2,CLICS,cji,trill,https://omniglot.com/writing/chamalal.htm,NA
+ids-516-15-770-1,shara,SMOOTH,Ingush,NA,NA,NA,Ingush,1,CLICS,inh,NA,NA,inh
+ids-75-15-770-1,shera,SMOOTH,Chechen,NA,NA,NA,Chechen,2,CLICS,che,NA,NA,che
+ids-61-15-770-1,shergvef,SMOOTH,Aghul,NA,NA,NA,Aghul,2,CLICS,agx,trill,wiki,NA
+marrisonnaga-Konyak-691_smooth-1,shipu,SMOOTH,Konyak,NA,NA,NA,Konyak,1,CLICS,nbe,no rhotic,wiki,NA
+ids-74-15-770-1,shumol,SMOOTH,Judeo-Tat,NA,NA,NA,Judeo-Tat,1,CLICS,jdt,no trill,wiki,NA
+hubercolumbian-Siriano-334_smooth-1,sibiri,SMOOTH,Siriano,NA,NA,NA,Siriano,1,CLICS,sri,NA,NA,sri
+hubercolumbian-Koreguaje-334_smooth-1,sikhahai,SMOOTH,Koreguaje,NA,NA,NA,Koreguaje,1,CLICS,coe,NA,NA,coe
+northeuralex-liv-493_smooth-1,sildzi,SMOOTH,Livonian,NA,NA,NA,Livonian,1,CLICS,liv,trill,wiki,NA
+northeuralex-vep-493_smooth-1,siled,SMOOTH,Veps,NA,NA,NA,Veps,1,CLICS,vep,trill,wiki,NA
+northeuralex-krl-493_smooth-1,silie,SMOOTH,North Karelian,NA,NA,NA,North Karelian,1,CLICS,krl,trill,wiki,NA
+halenepal-Sunwar-1676_smooth-1,silsil,SMOOTH,Sunwar,NA,NA,NA,Sunwar,1,CLICS,suz,trill,"""A Grammar of Sunwar"". Dörte Borchers. Retrieved 27 August 2018.",NA
+hubercolumbian-Awa-334_smooth-1,sinam,SMOOTH,Awa,NA,NA,NA,Awa,1,CLICS,kwi,NA,NA,kwi
+hubercolumbian-Yuruti-334_smooth-1,sipii,SMOOTH,Yurutí,NA,NA,NA,Yurutí,1,CLICS,yui,NA,NA,yui
+tryonsolomon-lavukaleve-250_smooth-1,sisiato,SMOOTH,Lavukaleve,NA,NA,NA,Lavukaleve,1,CLICS,lvk,NA,NA,lvk
+lexirumah-buna1278-bobon-smooth-1,sithe,SMOOTH,"Bunak, Bobonaro",NA,NA,NA,Bunak,3,CLICS,bfn,trill,"Schapper, Antoinette (2009). Bunaq: a Papuan language of central Timor (Ph.D. thesis)",NA
+lexirumah-mang1405-smooth-1,s@lit,SMOOTH,Manggarai,NA,NA,NA,Manggarai,1,CLICS,mqy,NA,NA,NA
+wold-CeqWong-1039_smooth-1,sluc,SMOOTH,Ceq Wong,NA,NA,NA,Ceq Wong,1,CLICS,cwg,NA,NA,NA
+wold-Takia-1039_smooth-1,smut,SMOOTH,Takia,NA,NA,NA,Takia,1,CLICS,tbc,NA,NA,NA
+tryonsolomon-kilokaka-250_smooth-1,snahlu,SMOOTH,Kilokaka,NA,NA,NA,Kilokaka,1,CLICS,jaj,NA,NA,NA
+tryonsolomon-tataba-250_smooth-1,snahlu,SMOOTH,Tataba,NA,NA,NA,Tataba,1,CLICS,mrn,trill,"Boswell, Fredrick Alvin (2018). A grammar of Cheke Holo (Doctoral thesis). LOT Publications (Leiden University). hdl:1887/67082. ISBN 978-94-6093-301-1.",NA
+lexirumah-maib1239-smooth-2,snex,SMOOTH,Maybrat,NA,NA,NA,Maybrat,1,CLICS,ayz,NA,NA,ayz
+northeuralex-smn-493_smooth-1,solad,SMOOTH,Inari Sami,NA,NA,NA,Inari Sami,1,CLICS,smn,trill,wiki,NA
+halenepal-Khaling-1676_smooth-1,solaemim,SMOOTH,Khaling,NA,NA,NA,Khaling,1,CLICS,klr,trill,http://www.ling.sinica.edu.tw/files/publication/j2012_6_03_7314.pdf,NA
+northeuralex-smn-493_smooth-2,solbad,SMOOTH,Inari Sami,NA,NA,NA,Inari Sami,1,CLICS,smn,trill,wiki,NA
+northeuralex-tat-493_smooth-1,soma,SMOOTH,Tatar,NA,NA,NA,Tatar,1,CLICS,tat,trill,wiki,NA
+robinsonap-teiwa-268_smooth-1,sordax,SMOOTH,Teiwa,NA,NA,NA,Teiwa,4,CLICS,twe,no rhotic,wiki,NA
+suntb-Anong-882_smooth-1,srn55,SMOOTH,Anong,NA,NA,NA,Anong,1,CLICS,nun,no trill,NA,NA
+lexirumah-irar1238-smooth-1,s@ruid@n@,SMOOTH,Irarutu,NA,NA,NA,Irarutu,1,CLICS,irh,NA,NA,irh
+ids-533-15-770-2,stsior,SMOOTH,Tsova-Tush,NA,NA,NA,Tsova-Tush,1,CLICS,bbl,NA,NA,bbl
+hubercolumbian-Kogui-334_smooth-1,sulduk,SMOOTH,Kogui,NA,NA,NA,Kogui,1,CLICS,kog,NA,NA,kog
+hubercolumbian-Dimina-334_smooth-1,surukwaiga,SMOOTH,Dí̵mi̵na,NA,NA,NA,Dí̵mi̵na,1,CLICS,mbp,NA,NA,mbp
+northeuralex-bak-493_smooth-1,swma,SMOOTH,Bashkir,NA,NA,NA,Bashkir,1,CLICS,bak,NA,NA,bak
+northeuralex-mdf-493_smooth-2,takor,SMOOTH,Moksha,NA,NA,NA,Moksha,1,CLICS,mdf,trill,wiki,NA
+northeuralex-chv-493_smooth-1,tak@r,SMOOTH,Chuvash,NA,NA,NA,Chuvash,1,CLICS,chv,NA,NA,chv
+diacl-33900-149_smooth-1,takujihiti,SMOOTH,Kuikúro-Kalapálo,NA,NA,NA,Kuikúro-Kalapálo,1,CLICS,kui,NA,NA,kui
+lexirumah-lamb1273-smooth-1,tamilha,SMOOTH,Lamboya,NA,NA,NA,Lamboya,1,CLICS,lmy,trill,"Verdizade, Allahverdi (2019). Selected topics in the phonology and morphosyntax of Laboya: A field study (MA thesis). Stockholm University.",NA
+lexirumah-ring1244-smooth-1,taparodos,SMOOTH,Rikou,NA,NA,NA,Rikou,1,CLICS,rgu,NA,NA,NA
+lexirumah-kamb1299-smooth-1,tarahik,SMOOTH,Kambera,NA,NA,NA,Kambera,1,CLICS,xbr,NA,NA,xbr
+northeuralex-bsk-493_smooth-1,tatan,SMOOTH,Burushaski,NA,NA,NA,Burushaski,1,CLICS,bsk,NA,NA,bsk
+ids-72-15-770-1,tegish,SMOOTH,Kumyk,NA,NA,NA,Kumyk,6,CLICS,kum,trill,https://www.omniglot.com/writing/kumyk.php,NA
+robinsonap-wersing-268_smooth-1,terisidolok,SMOOTH,Wersing,NA,NA,NA,Wersing,3,CLICS,kvw,trill,wiki,NA
+ids-73-15-770-1,teshs,SMOOTH,Nogai,NA,NA,NA,Nogai,1,CLICS,nog,NA,NA,NA
+marrisonnaga-ChungliAo-691_smooth-1,tesusu,SMOOTH,Ao Chungli,NA,NA,NA,Ao Chungli,1,CLICS,njo,NA,NA,njo
+transnewguineaorg-awyu-south-smooth-1,tetede,SMOOTH,"Awyu, South (Syiagha Dialect)",NA,NA,NA,Awyu,1,CLICS,aws,NA,NA,NA
+lexirumah-kemb1235-smooth-1,tetera,SMOOTH,"Kemberano, Kalitami",NA,NA,NA,Kemberano,1,CLICS,bzp,NA,NA,NA
+tryonsolomon-mbaelelea-250_smooth-1,thamothamoa,SMOOTH,Mbaelelea,NA,NA,NA,Mbaelelea,1,CLICS,bvc,NA,NA,NA
+suntb-Kaman-882_smooth-1,thau53,SMOOTH,Kaman [Miju],NA,NA,NA,Kaman,1,CLICS,mxj,NA,NA,mxj
+northeuralex-xal-493_smooth-1,thegse,SMOOTH,Kalmyk,NA,NA,NA,Kalmyk,1,CLICS,xal,trill,wiki,NA
+northeuralex-xal-493_smooth-2,thinger,SMOOTH,Kalmyk,NA,NA,NA,Kalmyk,1,CLICS,xal,trill,wiki,NA
+suntb-Idu-882_smooth-1,thu31brong35,SMOOTH,Idu,NA,NA,NA,Idu,1,CLICS,clk,NA,NA,NA
+hubercolumbian-Bora-334_smooth-4,thwthwribathwne,SMOOTH,Bora,NA,NA,NA,Bora,1,CLICS,boa,NA,NA,boa
+wold-Qeqchi-1039_smooth-4,tiik,SMOOTH,Q'eqchi',NA,NA,NA,Q'eqchi',1,CLICS,kek,NA,NA,kek
+ids-72-15-770-2,tiuz,SMOOTH,Kumyk,NA,NA,NA,Kumyk,6,CLICS,kum,trill,https://www.omniglot.com/writing/kumyk.php,NA
+lexirumah-fata1247-smooth-2,tomoke,SMOOTH,Fataluku,NA,NA,NA,Fataluku,1,CLICS,ddg,trill,http://ling.hawaii.edu/wp-content/uploads/TylerHestonFinal.pdf,NA
+wold-Manange-1039_smooth-1,tsa,SMOOTH,Manange,NA,NA,NA,Manange,1,CLICS,nmm,NA,NA,nmm
+northeuralex-lez-493_smooth-1,tsaltsam,SMOOTH,Lezgian,NA,NA,NA,Lezgian,2,CLICS,lez,trill,wiki,NA
+suntb-Maru-882_smooth-1,tsat55,SMOOTH,Maru [Langsu],NA,NA,NA,Maru,1,CLICS,mhx,NA,NA,NA
+ids-64-15-770-1,tsialtsiam,SMOOTH,Lezgian,NA,NA,NA,Lezgian,2,CLICS,lez,trill,wiki,NA
+ids-68-15-770-1,tsialtsim,SMOOTH,Tabasaran (Southern dialect),NA,NA,NA,Tabasaran,2,CLICS,tab,trill,wiki,NA
+ids-33-15-770-3,tsivakadabe,SMOOTH,Akhvakh (Northern dialect),NA,NA,NA,Akhvakh,2,CLICS,akv,trill,wiki,NA
+ids-107-15-770-1,tsivakarab,SMOOTH,Avar,NA,NA,NA,Avar,13,CLICS,ava,NA,NA,ava
+suntb-JianchuanBai-882_smooth-1,tsui42,SMOOTH,Bai (Jianchuan),NA,NA,NA,Bai,3,CLICS,bca,NA,NA,bca
+suntb-Atsi-882_smooth-1,tsut55,SMOOTH,Atsi [Zaiwa],NA,NA,NA,Atsi,1,CLICS,atb,NA,NA,atb
+northeuralex-ava-493_smooth-1,tswakarab,SMOOTH,Avar,NA,NA,NA,Avar,13,CLICS,ava,NA,NA,ava
+wold-Kalina-1039_smooth-1,tukapele,SMOOTH,Kali'na,NA,NA,NA,Kali'na,1,CLICS,car,NA,NA,car
+robinsonap-kamang-268_smooth-1,tulaka,SMOOTH,Kamang,NA,NA,NA,Kamang,2,CLICS,woi,NA,NA,woi
+hubercolumbian-TuneboCentral-334_smooth-1,tunira,SMOOTH,Tunebo Central,NA,NA,NA,Tunebo Central,1,CLICS,tuf,trill,wiki,tuf
+ids-73-15-770-2,tuz,SMOOTH,Nogai,NA,NA,NA,Nogai,1,CLICS,nog,NA,NA,NA
+wold-Ket-1039_smooth-1,uul,SMOOTH,Ket,NA,NA,NA,Ket,1,CLICS,ket,NA,NA,ket
+northeuralex-ket-493_smooth-1,uyc,SMOOTH,Ket,NA,NA,NA,Ket,1,CLICS,ket,NA,NA,ket
+northeuralex-mdf-493_smooth-1,vadjav,SMOOTH,Moksha,NA,NA,NA,Moksha,1,CLICS,mdf,trill,wiki,NA
+northeuralex-koi-493_smooth-1,voykit,SMOOTH,Komi-Permyak,NA,NA,NA,Komi-Permyak,1,CLICS,koi,trill,wiki,NA
+tryonsolomon-arosi1-250_smooth-1,wadiwadi,SMOOTH,Arosi (1),NA,NA,NA,Arosi,2,CLICS,aia,no trill,"""r is a definite flap"", Arthur, Capell (1971). Arosi Grammar. Series B - No. 20. Canberra: Australian National University.",NA
+tryonsolomon-bauro1-250_smooth-1,wariwari,SMOOTH,Bauro (1),NA,NA,NA,Bauro,2,CLICS,bxa,NA,NA,NA
+lexirumah-pura1253-smooth-1,woteteanu,SMOOTH,Puragi,NA,NA,NA,Puragi,1,CLICS,pru,NA,NA,NA
+suntb-YajiangQueyu-882_smooth-1,xa55xa55,SMOOTH,Queyu (Yajiang) [Zhaba],NA,NA,NA,Queyu,1,CLICS,qvy,NA,NA,NA
+sohartmannchin-Matu-213_smooth-1,xal,SMOOTH,Matu,NA,NA,NA,Matu,1,CLICS,hlt,NA,NA,NA
+suntb-Ersu-882_smooth-1,xi55xi55,SMOOTH,Ersu,NA,NA,NA,Ersu,1,CLICS,ers,no rhotic,NA,NA
+wold-Otomi-1039_smooth-1,xintsuki,SMOOTH,Otomi,NA,NA,NA,Otomi,1,CLICS,ote,NA,NA,ote
+suntb-Tujia-882_smooth-1,xua21,SMOOTH,Tujia,NA,NA,NA,Tujia,1,CLICS,tji; tjs,no rhotic,"Zhang, Jun [张军]. 2006. Phonological study of the Tujia language / 土家语语音硏究. Ph.D. dissertation, Hong Kong University of Science and Technology.",NA
+northeuralex-pbu-493_smooth-1,xwai,SMOOTH,Northern Pashto,NA,NA,NA,Northern Pashto,1,CLICS,pbu,NA,NA,NA
+wold-Hup-1039_smooth-1,yib,SMOOTH,Hup,NA,NA,NA,Hup,1,CLICS,jup,NA,NA,jup
+wold-Qeqchi-1039_smooth-3,yolyol,SMOOTH,Q'eqchi',NA,NA,NA,Q'eqchi',1,CLICS,kek,NA,NA,kek
+halenepal-Chepang-1676_smooth-1,yumo,SMOOTH,Chepang,NA,NA,NA,Chepang,1,CLICS,cdm,NA,NA,cdm
+hantganbangime-Songhai_Senni-241_smooth-1,yutulu,SMOOTH,Songhai_Senni,NA,NA,NA,Songhai_Senni,1,CLICS,hmb,NA,NA,NA
+marrisonnaga-Lushai-691_smooth-2,zal,SMOOTH,Lushai,NA,NA,NA,Lushai,1,CLICS,lus,NA,NA,lus
+tryonsolomon-vaghua-250_smooth-2,zalama,SMOOTH,Vaghua,NA,NA,NA,Vaghua,1,CLICS,tva,NA,NA,NA
+northeuralex-ady-493_smooth-1,zan@bz,SMOOTH,Adyghe,NA,NA,NA,Adyghe,1,CLICS,ady,trill,wiki,NA
+ids-39-15-770-1,zherzhabob,SMOOTH,Karata,NA,NA,NA,Karata,2,CLICS,kpt,trill,wiki,NA
+suntb-MileYi-882_smooth-1,zi33,SMOOTH,Yi (Mile),NA,NA,NA,Yi,5,CLICS,yix,NA,NA,NA
+hubercolumbian-Ika-334_smooth-1,z@n,SMOOTH,Ika,NA,NA,NA,Ika,1,CLICS,arh,NA,NA,arh
+suntb-Lisu-882_smooth-1,zr35lu35,SMOOTH,Lisu,NA,NA,NA,Lisu,1,CLICS,lis,no rhotic,NA,lis

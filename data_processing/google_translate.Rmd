@@ -92,7 +92,7 @@ auto <- read_csv('../raw_data/a2_google_translate/autotyp.csv')
 
 # removing duplicate entries from autotyp database
 auto <- auto %>%
-  dplyr::select(ISO639.3, mbranch, stock, area, continent, longitude, latitude) %>%
+  dplyr::select(ISO639.3, language, mbranch, stock, area, continent, longitude, latitude) %>%
   unique()
 
 # removing remaining duplicates
@@ -103,8 +103,21 @@ auto <- auto %>%
          !(ISO639.3=="spa" & area=="N Africa"),
          !(ISO639.3=="ydd" & area=="Europe"))
 
+defs <- c("Catalan (Standard)", "German", "Greek (modern)", "Basque", "French (colloquial)",
+          "Irish", "Hebrew (Modern)", "Armenian (Eastern)", "Indonesian", "Italian", 
+          "Malay", "Dutch", "Spanish", "Swedish", "Uzbek", "Yiddish")
+
+auto_u <- auto[auto$ISO639.3 %in% trs$iso639.3,] %>%
+  arrange(ISO639.3) %>%
+  group_by(ISO639.3) %>%
+  mutate(n=length(ISO639.3)) %>%
+  ungroup() %>%
+  filter(n==1 | (n > 1 & language %in% defs)) %>%
+  dplyr::select(-n, -language)
+
+
 # merge by iso639.3 codes
-trs <- left_join(trs, auto, by = c('iso639.3' = 'ISO639.3'))
+trs <- inner_join(trs, auto_u, by = c('iso639.3' = 'ISO639.3'))
 ```
 
 Writing data to final csv file.

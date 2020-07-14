@@ -1,0 +1,48 @@
+---
+title: "Data processing for rough R: Proto-Indo-European forms based on Watkins (2000) for analysis A5"
+author: "Márton Sóskuthy"
+output: html_document
+---
+
+This script takes a raw data file that includes rough/smooth adjectives from the Stadtlander & Murdoch (2000) data set along with etymological data based on Watkins (2000) and creates a clean version for analysis.
+
+Loading packages & data.
+
+```{r}
+library(tidyverse)
+pie <- read_csv('../raw_data/a5_pie/stadt_rough_hard_words_oed_watkins_2000.csv')
+```
+
+Removing words with no roughness rating.
+
+```{r}
+pie <- filter(pie, !is.na(RoughnessMean)) %>%
+  filter(Word != "wafflish") %>%
+  mutate(rough = RoughnessMean >= 0,
+         pie.r = str_detect(IE_root_watkins_2000, 'r'))
+```
+
+Removing duplicates and NAs.
+
+```{r}
+pie <- filter(pie, !is.na(IE_root_watkins_2000)) %>%
+  filter(!duplicated(IE_root_watkins_2000))
+```
+
+Formatting column names / removing columns that are not needed.
+
+```{r}
+pie_final <- pie  %>%
+  dplyr::select(-HardnessMean, -MainYear, -EtymonYear,
+                -CommentOnOEDFullSense, -DetailedForm_watkins_2000,
+                -AlternativeForm) %>%
+  dplyr::rename(word="Word",
+                roughness="RoughnessMean", etymology="Etymology",
+                origin="Origin", root="IE_root_watkins_2000")
+```
+
+Saving file.
+
+```{r}
+write_csv(pie_final, '../final_data/pie.csv')
+```
