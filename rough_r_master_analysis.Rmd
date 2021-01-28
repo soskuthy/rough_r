@@ -295,7 +295,7 @@ ggplot(aes(x=rough, y=prop, fill=r)) +
   scale_fill_manual(values=c("deepskyblue4","firebrick3"))
 ```
 
-The bar plots make it clear that overwhelming majority of languages conform to both patterns. Here's a count of languages where the proportions go in the predicted direction.
+The bar plots make it clear that overwhelming majority of languages conform to the rough /r/ pattern. Here's a count of languages where the proportions go in the predicted direction.
 
 ```{r}
 # more /r/'s in rough words per language
@@ -349,6 +349,84 @@ Model predictions.
 ```{r}
 x <- logistic_summary(trs_IE_brm_r_mod, eng, outcome="/r/", roughpred="rough", pp_over_zero=T)
 ```
+
+We now ask: looking at the exact same words (i.e. same origin, e.g. borrowing, from PIE, etc.), but focusing on other common sounds, do we observe the same degree of stability in the association of roughness with those sounds across languages? Looking at it from the perspective of PIE: do random associations between sounds other than /r/ and roughness remain as consistent across the daughter languages as that between /r/ and roughness? We look at two different things:
+
+- how consistent is the percentage of /r/ in rough vs. smooth words across languages?
+- how consistent is the size of the difference in the rate of /r/ between rough vs. smooth words across languages?
+
+```{r}
+phons <- c("r", "l", "n", "m", "s", "k", "t", "d", "p", "b")
+
+# variance across languages in rates in rough / smooth words
+# note: replacement for proportions of 0 / 1 chosen
+# based on the second lowest proportion in the data set, which
+# is close to 0.03; same qualitative results are obtained with
+# 0.01 and 0.02; if 0/1 proportions are filtered instead of replaced,
+# only b has lower variance in rough words (which is an artefact
+# of b having a lot of zeros and close to zero values)
+
+logodd <- function (x, replacement=0.03) {
+  x_mod <- ifelse(x==0, replacement, x)
+  x_mod <- ifelse(x_mod==1, 1-replacement, x_mod)
+  return(qlogis(x_mod))
+}
+
+pivot_longer(trs_IE,
+             phons,
+             names_to="phoneme",
+             values_to="presence") %>%
+  group_by(language, phoneme, rough) %>%
+  summarise(phon_prop = mean(presence)) %>%
+  ungroup() %>%
+  group_by(phoneme, rough) %>%
+  summarise(sd = sd(phon_prop),
+            sd_logodd = sd(logodd(phon_prop))) %>%
+  ungroup()
+
+# variance across languages in strength of effect
+
+pivot_longer(trs_IE,
+             phons,
+             names_to="phoneme",
+             values_to="presence") %>%
+  group_by(language, phoneme, rough) %>%
+  summarise(phon_prop = mean(presence),
+            phon_logodd = logodd(phon_prop, repl=0.03)) %>%
+  ungroup() %>%
+  group_by(language, phoneme) %>%
+  summarise(logodd_diff = phon_logodd[rough] - phon_logodd[!rough]) %>%
+  ungroup() %>%
+  group_by(phoneme) %>%
+  summarise(logodd_diff_sd = sd(logodd_diff)) %>%
+  ungroup()
+```
+
+It is also interesting to note that /r/ is by far the most frequent phoneme (out of the 10 that we look at) in rough words across the languages in our data set, almost 20% more frequent than the second most frequent one (/t/, which is simply a frequent sound cross-linguistically). Conversely, it is only the 4th most frequent phoneme in smooth words.
+
+```{r}
+
+s(time, speaker, bs="fs", m = 1) + 
+s(time, speaker, bs="fs", m = 1, by = group.ordered)
+
+
+
+# rate of different phonemes in rough / smooth words
+pivot_longer(trs_IE,
+             phons,
+             names_to="phoneme",
+             values_to="presence") %>%
+  group_by(language, phoneme, rough) %>%
+  summarise(phon_prop = mean(presence)) %>%
+  ungroup() %>%
+  group_by(phoneme, rough) %>%
+  summarise(phon_prop = mean(phon_prop)) %>%
+  ungroup() %>%
+  ggplot(aes(x=phoneme, y=phon_prop, fill=rough)) +
+  geom_bar(stat="identity", position=position_dodge())
+```
+
+We now ask: looking at the exact same words (i.e. same origin, e.g. borrowing, from PIE, etc.), but focusing on other common sounds, do we observe the same degree of stability in the association of roughness with those sounds across languages? Looking at it from the perspective of PIE: do random associations between sounds other than /r/ and roughness remain as consistent across the daughter languages as that between /r/ and roughness? To test this, we fit logistic regression models with rough as the outcome and the presence of different sounds as the predictor + random slopes over "rough" by language, and we check the random slope sds, which tell us about how much the languages vary in the strength of the rough-[given consonant] effect.
 
 ## 3. Hungarian ratings
 
@@ -1103,5 +1181,62 @@ Model predictions.
 
 ```{r}
 x <- logistic_summary(pie2_brm_mod, pie, outcome="/r/", roughpred="rough", pp_over_zero=T)
-```  
+```
 
+## 6. Other perceptual dimensions
+
+We will now see if /r/ correlates with other perceptual dimensions.
+
+Loading data.
+
+```{r}
+library(tidyverse)
+library(effsize)
+library(ranger)
+library(brms)
+
+source("scripts/rough_helper.r")
+
+
+stadt <- read_csv("final_data/stadt_all_norms.csv")
+stadt <- rename(stadt, all.schwa="all.@")
+stadt$rough <- stadt$rough_M >= 0
+
+eng <- read_csv("final_data/english_norms.csv")
+stadt <- filter(stadt, (!is.na(rough_M) & (Word %in% eng$Word)) | is.na(rough_M) )
+```
+
+Cohen's d and raw effect size for all perceptual dimensions.
+
+```{r}
+# Cohen's D
+cohen.d(rough_M ~ all.r, stadt, pooled=T)
+cohen.d(hard_M ~ all.r, stadt, pooled=T)
+cohen.d(motion_M ~ all.r, stadt, pooled=T)
+cohen.d(temp_M ~ all.r, stadt, pooled=T)
+cohen.d(weight_M ~ all.r, stadt, pooled=T)
+cohen.d(size_M ~ all.r, stadt, pooled=T)
+cohen.d(shape_M ~ all.r, stadt, pooled=T)
+
+# difference in means:
+coef(lm(rough_M ~ all.r, stadt))[2]
+coef(lm(hard_M ~ all.r, stadt))[2]
+coef(lm(motion_M ~ all.r, stadt))[2]
+coef(lm(temp_M ~ all.r, stadt))[2]
+coef(lm(weight_M ~ all.r, stadt))[2]
+coef(lm(size_M ~ all.r, stadt))[2]
+coef(lm(shape_M ~ all.r, stadt))[2]
+```
+
+Now looking at the correlation between rough and hard + a Bayesian logistic model with both of them as predictors of /r/.
+
+```{r}
+# correlation between rough and hard
+cor(stadt$rough_M, stadt$hard_M, use="complete.obs")
+
+# regression
+rough_hard_brm <- brm(all.r ~ rough_M + hard_M, 
+                      data=stadt,
+                      family="bernoulli")
+summary(rough_hard_brm)
+```

@@ -1,0 +1,39 @@
+language,iso,iso639.3,regexp.r,regexp.l
+Afrikaans,af,afr,r,l
+Albanian,sq,als,r,l
+Armenian,hy,hye,[ՌռՐր],[Լլ]
+Belarusian,be,bel,[Рр],[Лл]
+Bosnian,bs,bos,r,l
+Bulgarian,bg,bul,[Рр],[Лл]
+Catalan,ca,cat,r,([^l]l$|^l[^l]|[^l]l[^l])
+Corsican,co,cos,r,([^g]l[^i]|gl[^i]|[^g]li|^l|l$)
+Croatian,hr,hrv; srp,r,l
+Czech,cs,ces,[rř],l
+Danish,da,dan,r,l
+Dutch,nl,nld,r,l
+French,fr,fra,r,l
+Frisian,fy,fry,r,l
+Galician,gl,glg,r,([^l]l$|^l[^l]|[^l]l[^l])
+German,de,deu,r,l
+Greek,el,ell,[Ρρ],[Λλ]
+Icelandic,is,isl,r,l
+Irish,ga,gle,r,l
+Italian,it,ita,r,([^g]l[^i]|gl[^i]|[^g]li|^l|l$)
+Latvian,lv,lav,r,l
+Lithuanian,lt,lit,r,l
+Luxembourgish,lb,ltz,r,l
+Macedonian,mk,mkd,[Рр],[Лл]
+Norwegian,no,nob,r,l
+Persian,fa,pes,ر,ل
+Polish,pl,pol,r,l
+Portuguese (Portugal Brazil),pt,por,r,l
+Russian,ru,rus,[Рр],[Лл]
+Scots Gaelic,gd,gla,r,l
+Sinhala (Sinhalese),si,sin,ර,[ලළ]
+Slovak,sk,slk,r,l
+Slovenian,sl,slv,r,l
+Spanish,es,spa,r,([^l]l$|^l[^l]|[^l]l[^l])
+Swedish,sv,swe,r,l
+Ukrainian,uk,ukr,[Рр],[Лл]
+Welsh,cy,cym,r,([^l]l$|^l[^l]|[^l]l[^l])
+Yiddish,yi,ydd,ר,ל

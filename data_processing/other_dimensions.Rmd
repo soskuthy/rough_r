@@ -1,0 +1,237 @@
+---
+title: "Data processing for rough R: English roughness norms for analysis A1"
+author: "Márton Sóskuthy"
+output: html_document
+---
+
+This script takes the raw data file from Stadtlander & Murdoch (2000) and creates a clean version for analysis.
+
+Loading packages & data.
+
+```{r}
+library(tidyverse)
+stadt <- read_csv('../raw_data/a7_other_dimensions/stadtlander_all.csv')
+```
+
+Processing based on word labels.
+
+```{r}
+# some words have an asterisk following them; remove it
+stadt <- mutate(stadt,
+	Word = str_replace(Word, '\\*', ''))
+# get rid of rows with word labels that have spaces (compounds, phrases etc.)
+stadt <- filter(stadt,
+	!str_detect(Word, ' '))
+# manually removing "wafflish" (not a word!)
+stadt <- filter(stadt, 
+  Word != "wafflish")
+```
+
+Adding pronunciation / part-of-speech data.
+
+```{r}
+# read in pronunciation data
+ELP <- read_csv('../raw_data/a7_other_dimensions/ELP_pronunciations.csv')
+# join ELP pronunciations into Stadtlander dataset:
+stadt <- left_join(stadt, ELP)
+# get POS data
+SUBTL <- read_csv('../raw_data/a1_english_norms/SUBTLEX_POS.csv')
+stadt <- left_join(stadt, SUBTL)
+# all POS NA's turn out to be adjectives with the exception of: 
+# heat, maxi, mini, shape
+stadt[is.na(stadt$POS), ]$POS <- 'Adjective'
+stadt <- filter(stadt, !(Word %in% c("heat","maxi","mini","shape")))
+# Get rid of non-adjectives (133 words left):
+# manually checking!
+# most of the "nouns" here are material names that can be used
+# as noun modifiers, e.g. brick wall, canvas bag, etc.
+# chucking only: crevices, rust, powder
+filter(stadt, POS!='Adjective') %>% select(Word, POS)
+stadt <- filter(stadt, !(Word %in% c("crevices", "rust", "powder")))
+```
+
+Manually adding missing pronunciation data.
+
+```{r}
+# Where possible, the root was identified in the ELP pronunciations
+# In addition, MacMillan and Webster were consulted for this
+
+stadt[stadt$Word == 'bendable',]$Pron <- 'b"End.@.bl='
+stadt[stadt$Word == 'callused',]$Pron <- 'k"a.l@st'
+stadt[stadt$Word == 'craterous',]$Pron <- 'kr"e.4@`.r@s'
+stadt[stadt$Word == 'cushiony',]$Pron <- 'k"U.Sn=.i'
+stadt[stadt$Word == 'fiberglass',]$Pron <- 'f"aI.br=.gl%as'
+stadt[stadt$Word == 'foldable',]$Pron <- 'f"old.@.bl='
+stadt[stadt$Word == 'formica',]$Pron <- 'f@`.m"aI.k@'
+stadt[stadt$Word == 'fringy',]$Pron <- 'fr"In.dZi'
+stadt[stadt$Word == 'goopy',]$Pron <- 'g"u.pi'
+stadt[stadt$Word == 'grainy',]$Pron <- 'gr"en.i'
+stadt[stadt$Word == 'grippy',]$Pron <- 'gr"Ip.i'
+stadt[stadt$Word == 'holey',]$Pron <- 'h"ol.i'
+stadt[stadt$Word == 'icky',]$Pron <- '"I.ki'
+stadt[stadt$Word == 'lopsided',]$Pron <- 'l"Op.saId.@d'
+stadt[stadt$Word == 'nonbreakable',]$Pron <- 'n%An.br"ek.@.bl='
+stadt[stadt$Word == 'nonsymmetrical',]$Pron <- 'n%An.sI.m"E.trI.kl='
+stadt[stadt$Word == 'moveable',]$Pron <- 'm"uv.@.bl='
+stadt[stadt$Word == 'pointy',]$Pron <- 'p"OInt.i'
+stadt[stadt$Word == 'scrunchy',]$Pron <- 'skr"VntS.i'
+stadt[stadt$Word == 'smooshy',]$Pron <- 'sm"US.i'
+stadt[stadt$Word == 'squeezable',]$Pron <- 'skw"iz.@.bl='
+stadt[stadt$Word == 'squishy',]$Pron <- 'skw"IS.i'
+stadt[stadt$Word == 'tetrahedral',]$Pron <- 't%E.tr@.h"i.drl='
+stadt[stadt$Word == 'zippered',]$Pron <- 'z"I.pr=d'
+
+# Replace inter-medial dentals with their voiced/voiceless counterparts:
+
+
+stadt[stadt$Pron == "b\"aIn4.IN",]$Pron <- "b\"aInd.IN"
+stadt[stadt$Pron == "br\"I.4l=",]$Pron <- "br\"I.tl="
+stadt[stadt$Pron == 'b"i4.@d',]$Pron <- 'b"id.@d'
+stadt[stadt$Pron == 'k"Vm.f@`4.@.bl=',]$Pron <- "k\"Vm.f@`t.@.bl="
+stadt[stadt$Pron == 'k"o4.@d',]$Pron <- 'k"ot.@d'
+stadt[stadt$Pron == 'k@`.r"o4.@d',]$Pron <- 'k@`.r"od.@d'
+stadt[stadt$Pron == "k\"V.4l=.i",]$Pron <- "k\"V.dl=.i"
+stadt[stadt$Pron == 'd"En4.@d',]$Pron <- 'd"Ent.@d'
+stadt[stadt$Pron == 'dIs.dZ"OIn4.@d',]$Pron <- 'dIs.dZ"OInt.@d'
+stadt[stadt$Pron == 'dZ@.l"a.4@.n@s',]$Pron <- 'dZ@.l"a.t@.n@s'
+stadt[stadt$Pron == 'dZaI.g"an.4Ik',]$Pron <- 'dZaI.g"an.tIk'
+stadt[stadt$Pron == '"Ins.@.l%e4.@d',]$Pron <- '"Ins.@.l%et.@d'
+stadt[stadt$Pron == 'n"I4.@d',]$Pron <- 'n"It.@d'
+stadt[stadt$Pron == 'l"I.4l=',]$Pron <- 'l"I.tl='
+stadt[stadt$Pron == 'l"u.br@.k%e4.@d',]$Pron <- 'l"u.br@.k%et.@d'
+stadt[stadt$Pron == 'm"a4.@d',]$Pron <- 'm"at.@d'
+stadt[stadt$Pron == 'm"E.4l=',]$Pron <- 'm"E.tl='
+stadt[stadt$Pron == 'p"en4.@d',]$Pron <- 'p"ent.@d'
+stadt[stadt$Pron == 'p"3`.f@`.r%e4.@d',]$Pron <- 'p"3`.f@`.r%et.@d'
+stadt[stadt$Pron == 'p"OIn4.@d',]$Pron <- 'p"OInt.@d'
+stadt[stadt$Pron == 'p"Vls.e4.IN',]$Pron <- 'p"Vls.et.IN'
+stadt[stadt$Pron == 'pI.r"a.mI4.l=',]$Pron <- 'pI.r"a.mId.l='
+stadt[stadt$Pron == 's"an4.i',]$Pron <- 's"and.i'
+stadt[stadt$Pron == 'v"El.v@4.i',]$Pron <- 'v"El.v@t.i'
+stadt[stadt$Pron == 'sI.r"e4.@d',]$Pron <- 'sI.r"et.@d'
+stadt[stadt$Pron == 'kr"e.4@`.r@s',]$Pron <- 'kr"e.t@`.r@s'
+stadt[stadt$Pron == 'sl"an4.@d',]$Pron <- 'sl"ant.@d'
+stadt[stadt$Pron == 'sl"En.4@`',]$Pron <- 'sl"En.d@`'
+stadt[stadt$Pron == 'spl"In4.@`.i',]$Pron <- 'spl"Int.@`.i'
+stadt[stadt$Pron == 'st"3`.4i',]$Pron <- 'st"3`.di'
+stadt[stadt$Pron == 'sw"E4.i',]$Pron <- 'sw"Et.i'
+stadt[stadt$Pron == 't"En.4@`',]$Pron <- 't"En.d@`'
+stadt[stadt$Pron == 'v"aI.bre4.IN',]$Pron <- 'v"aI.bret.IN'
+stadt[stadt$Pron == 'w"In4.i',]$Pron <- 'w"Ind.i'
+
+# The "`" is either interpreted as /r/ (for rhotic dialects) or as empty for non-rhotics:
+# (note that this transcription system interprets intervocalic /r/'s as ambisyllabic, see e.g. /kr"e.t@`.r@s/)
+
+stadt <- mutate(stadt,
+	Pron = str_replace_all(Pron, '`', 'r'))
+stadt <- mutate(stadt,
+	Pron = str_replace_all(Pron, 'r.r', '.r'))
+
+# replace syllabic segments, diphthongs and affricates with unique symbols
+# (using celex DISC transcription system where possible, and other R-formula compatible symbols elsewhere)
+
+stadt <- mutate(stadt,
+  Pron = str_replace_all(Pron, '@', 'Q'),
+	Pron = str_replace_all(Pron, 'n=', 'K'),
+	Pron = str_replace_all(Pron, 'l=', 'L'),
+  Pron = str_replace_all(Pron, 'r=', '@r'),
+	Pron = str_replace_all(Pron, 'aI', '2'),
+	Pron = str_replace_all(Pron, 'OI', '4'),
+	Pron = str_replace_all(Pron, 'tS', 'J'),
+	Pron = str_replace_all(Pron, 'dZ', '_'))
+```
+
+We now locate (1) onsets, (2) onsets in stressed syllables, (3) rhymes and (4) rhymes in stressed syllables. We add each segment type in each position as a predictor to our data set (each of which codes "does position X have segment Y?" as a binary predictor), as well as a position-free version of the segments. We start by creating a list of unique segments / consonants / vowels.
+
+```{r}
+# find unique segments
+unique_segments <- unique(unlist(str_split(stadt$Pron, pattern="")))
+# remove stress marks, syllable boundaries, syllabic segments
+unique_segments <- unique_segments[!(unique_segments %in% c(".",'\"',"%","K","L"))]
+# consonants vs. vowels
+consonants <- c("b", "r", "s", "v", "l", "d", "n", "t", "m", "p", "k", "J", "N", "_", "f", "D", "z", "g", "j", "h", "S", "w", "T")
+vowels <- unique_segments[!(unique_segments %in% consonants)]
+# regex for consonants / vowels
+consonants_regex <- paste0("[", paste0(consonants, collapse=""), "]")
+consonants_with_syllabic_regex <- paste0("[", paste0(c(consonants, "KL"), collapse=""), "]")
+vowels_regex <- paste0("[", paste0(vowels, collapse=""), "]")
+```
+
+We now locate these segments in different syllabic positions.
+
+```{r}
+# all onset segments
+stadt$onset <- stadt$Pron %>%
+  str_extract_all(paste0('(^', consonants_regex, '+|[.]', consonants_regex, "+)")) %>%
+  lapply(paste0, collapse="") %>%
+  unlist()
+
+# stressed onset segments
+stadt$stressed_onset <- stadt$Pron %>% 
+  str_extract_all(paste0('(^', consonants_regex, '+["%]|[.]', consonants_regex, '+["%])')) %>%
+  lapply(paste0, collapse="") %>%
+  unlist()
+
+# all rhyme segments
+stadt$rhyme <- stadt$Pron %>% 
+  str_extract_all(paste0('(', vowels_regex, '*', consonants_with_syllabic_regex, '*[.]|', vowels_regex, '*', consonants_with_syllabic_regex, "*$)")) %>%
+  lapply(paste0, collapse="") %>%
+  unlist() %>%
+  str_replace_all("K", "n") %>%
+  str_replace_all("L", "l")
+
+# stressed rhyme segments
+stadt$stressed_rhyme <- stadt$Pron %>% 
+  str_extract_all(paste0('[%"](', vowels_regex, '*', consonants_with_syllabic_regex, '*[.]|', vowels_regex, '*', consonants_with_syllabic_regex, "*$)")) %>%
+  lapply(paste0, collapse="") %>%
+  unlist()
+```
+
+Setting up indicator variables for each segment for each type of position.
+
+```{r}
+# function for checking for segments in specific positions
+# argument 1: vector of strings with all segments in relevant positions
+# argument 2: list of segments to check for
+
+find_segments <- function (strings, segments) {
+  out_matrix <- matrix(0, nrow=length(strings), ncol=length(segments))
+  colnames(out_matrix) <- segments
+  for (s in 1:length(segments)) {
+    segment <- segments[s]
+    out_matrix[,s] <- str_detect(strings, segment)
+  }
+  return(as_tibble(out_matrix))
+}
+
+# segments in different positions
+# whole word
+whole_word_prons <- stadt$Pron %>%
+  str_replace_all("K", "n") %>%
+  str_replace_all("L", "l")
+whole_word_segs <- find_segments(whole_word_prons, unique_segments)
+colnames(whole_word_segs) <- paste0("all.", colnames(whole_word_segs))
+stadt <- bind_cols(stadt, whole_word_segs)
+# onset
+onset_segs <- find_segments(stadt$onset, consonants)
+colnames(onset_segs) <- paste0("onset.", colnames(onset_segs))
+stadt <- bind_cols(stadt, onset_segs)
+# stressed onset
+stressed_onset_segs <- find_segments(stadt$stressed_onset, consonants)
+colnames(stressed_onset_segs) <- paste0("stressed_onset.", colnames(stressed_onset_segs))
+stadt <- bind_cols(stadt, stressed_onset_segs)
+# rhyme
+rhyme_segs <- find_segments(stadt$rhyme, unique_segments)
+colnames(rhyme_segs) <- paste0("rhyme.", colnames(rhyme_segs))
+stadt <- bind_cols(stadt, rhyme_segs)
+# stressed rhyme
+stressed_rhyme_segs <- find_segments(stadt$stressed_rhyme, unique_segments)
+colnames(stressed_rhyme_segs) <- paste0("stressed_rhyme.", colnames(stressed_rhyme_segs))
+stadt <- bind_cols(stadt, stressed_rhyme_segs)
+```
+
+Saving clean norm file.
+
+```{r}
+write_csv(stadt, '../final_data/stadt_all_norms.csv')
+```

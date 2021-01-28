@@ -1,0 +1,39 @@
+﻿language,iso,iso639.3,regexp.r,regexp.l,regexp.t,regexp.n,regexp.s,regexp.k,regexp.m,regexp.p,regexp.b,regexp.d
+Afrikaans,af,afr,r,l,t,(n$|n[^kg]),(s$|s[^j]),k,m,p,b,d
+Albanian,sq,als,r,l,t,(n$|n[^kg]),s,k,m,p,b,(d$|d[^h])
+Armenian,hy,hye,[ՌռՐր],[Լլ],[Տտ],([Նն]$|[Նն][^ԿկԳգ]),[Սս],[Կկ],[Մմ],[Պպ],[Բբ],[Դդ]
+Belarusian,be,bel,[Рр],[Лл],[Тт],[Нн],[Сс],[Кк],[Мм],[Пп],[Бб],[Дд]
+Bosnian,bs,bos,r,l,t,n,s,k,m,p,b,d
+Bulgarian,bg,bul,[Рр],[Лл],[Тт],[Нн],[Сс],[Кк],[Мм],[Пп],[Бб],[Дд]
+Catalan,ca,cat,r,([^l]l$|^l[^l]|[^l]l[^l]),t,(n$|n[^y]),(^s|[^lytd]s),(k|c$|c[^ie]|q),m,p,(b|v),d
+Corsican,co,cos,r,([^g]l[^i]|gl[^i]|[^g]li|^l|l$),t,n,(s$|s[^cg]),(k|c$|c[^ie]|q),m,p,b,d
+Croatian,hr,hrv; srp,r,l,t,n,s,k,m,p,b,d
+Czech,cs,ces,[rř],l,(t$|t[^ie]),(n$|n[^ie]),s,k,m,p,b,d
+Danish,da,dan,r,l,t,n,s,(k|c|q),m,p,b,d
+Dutch,nl,nld,r,l,t,(n$|n[^kg]),(s$|s[^j]),k,m,p,b,d
+French,fr,fra,r,l,(t$|t[^ie]),n,s,(k|c$|c[^ie]|q),m,p,b,d
+Frisian,fy,fry,r,l,t,(n$|n[^g]),(s$|s[^j]),k,m,p,b,d
+Galician,gl,glg,r,([^l]l$|^l[^l]|[^l]l[^l]),t,(n$|n[^h]),s,(k|c$|c[^hie]|q),m.,p,(b|v),d
+German,de,deu,r,l,t,n,(s$|.s[^c]|^s[^cpt]),k,m,(p$|p[^f]),b,d
+Greek,el,ell,[Ρρ],[Λλ],[Ττ],[Νν],[ΣσςϹϲ],[Κκ],[Μμ],[Ππ],μπ,ντ
+Icelandic,is,isl,r,l,t,(n$|n[gk]),[sz],(k$|k[^jeiyýæí]),m,(p$|p[^skt]),b,d
+Irish,ga,gle,r,l,(t$|t[^h]),(n$|n[^hcg]),(s$|s[^h]),(c$|c[^h]),(m$|m[^h]),(p$|p[^h]),(b$|b[^h]),(d$|d[^h])
+Italian,it,ita,r,([^g]l[^i]|gl[^i]|[^g]li|^l|l$),t,n,s,(k|c$|c[^ie]|q),m,p,b,d
+Latvian,lv,lav,r,l,t,n,s,k,m,p,b,(d$|d[^zž])
+Lithuanian,lt,lit,r,l,t,n,s,k,m,p,b,d
+Luxembourgish,lb,ltz,r,l,t,n,(s$|.s[^c]|^s[^cpt]),k,m,(p$|p[^f]),b,d
+Macedonian,mk,mkd,[Рр],[Лл],[Тт],[Нн],[Сс],[Кк],[Мм],[Пп],[Бб],[Дд]
+Norwegian,no,nob,r,l,(t$|t[^j]),n,(s$|sk[^jiy]|s[^kj]),(k$|k[^j]),m,p,b,d
+Persian,fa,pes,ر,ل,ت,ن,(ص|ث|س),ک,م,پ,ب,د
+Polish,pl,pol,r,l,t,(n$|n[^i]),(s$|s[^zi]),k,m,p,b,(d$|d[^zźż])
+Portuguese (Portugal Brazil),pt,por,r,l,t,n,(^s|ss|ç[aou]|c[ei]),(c$|c[aou]|qu),m,p,b,d
+Russian,ru,rus,[Рр],[Лл],[Тт],[Нн],[Сс],[Кк],[Мм],[Пп],[Бб],[Дд]
+Scots Gaelic,gd,gla,r,l,(t$|t[^h]),(n$|n[^hcg]),(s$|s[^h]),(c$|c[^h]),(m$|m[^h]),(p$|p[^h]),(b$|b[^h]),(d$|d[^h])
+Sinhala (Sinhalese),si,sin,ර,[ලළ],[ටත],ණ,ස,ක,ම,ප,බ,[ඩද]
+Slovak,sk,slk,r,l,(t$|t[^ie]),(n$|n[^ie]),s,k,m,p,b,d
+Slovenian,sl,slv,r,l,(t$|t[^ie]),(n$|n[^ie]),s,k,m,p,b,d
+Spanish,es,spa,r,([^l]l$|^l[^l]|[^l]l[^l]),t,(n|$m),s,(k|c$|c[^ie]|q),m.,p,(b|v),d
+Swedish,sv,swe,r,l,(t$|t[^j]),n,(s$|sk[^jeiyäö]|s[^jkt]|st[^j]),(k$|k[^jeiyäö]|c$|c[^heiyäö]),m,p,b,(d$|d[^j])
+Ukrainian,uk,ukr,[Рр],[Лл],[Тт],[Нн],[Сс],[Кк],[Мм],[Пп],[Бб],[Дд]
+Welsh,cy,cym,r,([^l]l$|^l[^l]|[^l]l[^l]),t,(n$|n[^g]),(s$|si[^aeoiuywâêîôûŵŷẃáéóíúý]|s[^i]),c,m,p,b,d
+Yiddish,yi,ydd,ר,ל,(ט|ט[^ש]),נ,ס,(כּ|ק),[םמ],פּ,ב,ד

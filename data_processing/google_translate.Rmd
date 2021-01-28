@@ -13,11 +13,14 @@ Loading relevant packages and data. The two key files are:
 
 These files don't have column names, so we'll add them manually.
 
+An additional useful file: google_trs_languages_IE_full.csv; this will be used to add regexes for /t,s,n,m,k,p,b,d/ for the 39 IE languages that make it into the final analysis.
+
 ```{r}
 library(tidyverse)
 
 langs <- read_csv("../raw_data/a2_google_translate/google_trs_languages_full.csv", col_names = FALSE)
 trs <- read_csv("../raw_data/a2_google_translate/google_translations.csv", col_names = FALSE)
+ie_regex <- read_csv("../raw_data/a2_google_translate/google_trs_languages_IE_full.csv")
 
 # add column names for languages
 colnames(langs) <- c("language", "iso", "iso639.3", "regexp.r", "regexp.l")
@@ -120,8 +123,36 @@ auto_u <- auto[auto$ISO639.3 %in% trs$iso639.3,] %>%
 trs <- inner_join(trs, auto_u, by = c('iso639.3' = 'ISO639.3'))
 ```
 
+We now update words from IE languages with additional phoneme data: do they contain /t,s,n,m,p,b,k,d/?
+
+```{r}
+trs <- left_join(trs, select(ie_regex, iso639.3, matches("regexp.[ptkbdmns]")), by="iso639.3")
+
+# regexp matching
+trs$t <- str_detect(trs$trans, trs$regexp.t)
+trs$d <- str_detect(trs$trans, trs$regexp.d)
+trs$p <- str_detect(trs$trans, trs$regexp.p)
+trs$b <- str_detect(trs$trans, trs$regexp.b)
+trs$k <- str_detect(trs$trans, trs$regexp.k)
+trs$s <- str_detect(trs$trans, trs$regexp.s)
+trs$m <- str_detect(trs$trans, trs$regexp.m)
+trs$n <- str_detect(trs$trans, trs$regexp.n)
+
+# regexp checking
+trs_ie <- filter(trs, stock=="Indo-European")
+table(trs_ie$language, trs_ie$t)
+table(trs_ie$language, trs_ie$d)
+table(trs_ie$language, trs_ie$p)
+table(trs_ie$language, trs_ie$b)
+table(trs_ie$language, trs_ie$k)
+table(trs_ie$language, trs_ie$s)
+table(trs_ie$language, trs_ie$m)
+table(trs_ie$language, trs_ie$n)
+```
+
 Writing data to final csv file.
 
 ```{r}
 write_csv(trs, "../final_data/google_translate.csv")
+
 ```

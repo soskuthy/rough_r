@@ -10,6 +10,7 @@ This script assembles the cross-linguistic data set analysed in the last part of
 - Chirila (ref XXX) -- Australian languages
 - Reflex (ref XXX) -- African languages
 - Intercontinental Dictionary Series (ref XXX) - a variety of languages
+- CLICS (ref XXX) - a variety of languages
 
 The Google Translate data has been already processed for A2. The rest of the data are processed in this file and then all four data sets are merged together.
 
