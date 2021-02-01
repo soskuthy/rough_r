@@ -382,7 +382,9 @@ pivot_longer(trs_IE,
   group_by(phoneme, rough) %>%
   summarise(sd = sd(phon_prop),
             sd_logodd = sd(logodd(phon_prop))) %>%
-  ungroup()
+  ungroup() %>%
+  filter(rough) %>%
+  arrange(sd_logodd)
 
 # variance across languages in strength of effect
 
@@ -399,7 +401,8 @@ pivot_longer(trs_IE,
   ungroup() %>%
   group_by(phoneme) %>%
   summarise(logodd_diff_sd = sd(logodd_diff)) %>%
-  ungroup()
+  ungroup()  %>%
+  arrange(logodd_diff_sd)
 ```
 
 It is also interesting to note that /r/ is by far the most frequent phoneme (out of the 10 that we look at) in rough words across the languages in our data set, almost 20% more frequent than the second most frequent one (/t/, which is simply a frequent sound cross-linguistically). Conversely, it is only the 4th most frequent phoneme in smooth words.
@@ -425,8 +428,6 @@ pivot_longer(trs_IE,
   ggplot(aes(x=phoneme, y=phon_prop, fill=rough)) +
   geom_bar(stat="identity", position=position_dodge())
 ```
-
-We now ask: looking at the exact same words (i.e. same origin, e.g. borrowing, from PIE, etc.), but focusing on other common sounds, do we observe the same degree of stability in the association of roughness with those sounds across languages? Looking at it from the perspective of PIE: do random associations between sounds other than /r/ and roughness remain as consistent across the daughter languages as that between /r/ and roughness? To test this, we fit logistic regression models with rough as the outcome and the presence of different sounds as the predictor + random slopes over "rough" by language, and we check the random slope sds, which tell us about how much the languages vary in the strength of the rough-[given consonant] effect.
 
 ## 3. Hungarian ratings
 
@@ -1235,8 +1236,13 @@ Now looking at the correlation between rough and hard + a Bayesian logistic mode
 cor(stadt$rough_M, stadt$hard_M, use="complete.obs")
 
 # regression
+rough_hard_priors <- c(set_prior("student_t(5,0,2.5)", class = "b"),
+                       set_prior("student_t(5,0,2.5)", class = "Intercept"))
+
+set.seed(314)
 rough_hard_brm <- brm(all.r ~ rough_M + hard_M, 
                       data=stadt,
+                      prior=rough_hard_priors,
                       family="bernoulli")
 summary(rough_hard_brm)
 ```
