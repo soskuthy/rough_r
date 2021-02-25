@@ -217,9 +217,153 @@ eng_hist <- eng_hist %>% rename(PIE_root="IE_root_watkins_2000")
 stadt <- left_join(stadt, dplyr::select(eng_hist, Word, PIE_root))
 ```
 
-
 Saving clean norm file.
 
 ```{r}
 write_csv(stadt, '../final_data/english_norms.csv')
+```
+
+We now process data from the CMU pronunciation dictionary and SubtLEX for a baseline comparison of the rates of /r/ in adjectives at large vs. within touch adjectives.
+
+Load in CMU data:
+
+```{r, message = FALSE, warning = FALSE}
+# CMU data:
+
+CMU <- readLines('../raw_data/a1_english_norms/CMU_dict-0.7b.txt')
+phones <- read_csv('../raw_data/a1_english_norms/CMU_phonemes.csv')
+lyn <- read_csv('../raw_data/a1_english_norms/lynott_connell_2009_adj_norms.csv')
+
+# SUBTLEX data for POS tags:
+
+SUBTL <- read_csv('../raw_data/a1_english_norms/SUBTLEX_US_with_POS.csv') %>% 
+  dplyr::select(Word, FREQcount, Percentage_dom_PoS, Dom_PoS_SUBTLEX) %>% 
+  rename(POS = Dom_PoS_SUBTLEX,
+         POS_prop = Percentage_dom_PoS)
+```
+
+Don't need first 1:126 rows which contain meta-data:
+
+```{r}
+CMU <- CMU[-c(1:126)]
+```
+
+Process:
+
+```{r}
+CMU <- str_split(CMU, pattern = ' +')
+```
+
+Get words:
+
+```{r}
+words <- sapply(CMU, FUN = function(x) x[1])
+```
+
+Make lowercase:
+
+```{r}
+words <- str_to_lower(words)
+```
+
+Get rid of the final numbers in bracketS:
+
+```{r}
+words <- str_replace(words, '\\(.+?\\)', '')
+```
+
+Get pronunciations, which need to be collapsed (they are separate entries within the vectors, one vector per list entry):
+
+```{r}
+pronunciations <- sapply(CMU, FUN = function(x) str_c(x[-1], collapse = '_'))
+```
+
+Make into table by splitting again:
+
+```{r}
+pronunciations <- str_split(pronunciations, pattern = '_', simplify = TRUE)
+```
+
+Get rid of stress indicators (numbers):
+
+```{r}
+pronunciations <- apply(pronunciations, 2, function(x) str_replace(x, '[0-9]', ''))
+```
+
+For each word, specify whether it contains the phoneme or not:
+
+```{r}
+all_phon <- matrix(rep(0, nrow(pronunciations) * nrow(phones)),
+                   nrow = nrow(pronunciations))
+colnames(all_phon) <- phones$Phoneme
+```
+
+Loop through and fill matrix with counts of phonemes:
+
+```{r}
+for (i in 1:nrow(pronunciations)) {
+  matches <- match(pronunciations[i, ], phones$Phoneme)
+  
+  # Get rid of non-matches (NAs):
+  
+  matches <- matches[!is.na(matches)]
+  
+  # Get a table for how many matches there are:
+  
+  match_tab <- table(matches)
+  
+  # The number of the match needs to be added to the respective column:
+  
+  all_phon[i, as.numeric(names(match_tab))] <- as.vector(match_tab)
+  
+  # Tell the external world where you are at:
+  
+  if (i %% 10000 == 0) cat(str_c(i, '\n'))
+}
+```
+
+Make a tibble out of this together with the word:
+
+```{r}
+CMU_dict <- bind_cols(tibble(Word = words), as_tibble(all_phon))
+```
+
+We'll focus on presence/absence, not the precise count:
+
+```{r}
+# Transform into 0/1 presence/absence variable:
+
+CMU_dict <- CMU_dict %>% mutate_if(is.double,
+                                   function(x) ifelse(x >= 1, 1, 0))
+```
+
+Get all adjectives — criterion is 80% of the uses in SUBTLEX need to be adjective:
+
+```{r}
+these_adjs <- filter(SUBTL,
+                     POS == 'Adjective', POS_prop > 0.8) %>% pull(Word)
+
+CMU_adj <- filter(CMU_dict, Word %in% these_adjs)
+```
+
+Remove duplicates.
+
+```{r}
+CMU_adj <- filter(CMU_adj, !duplicated(Word))
+```
+
+Create indicator variable for sensory adjectives based on whether they are included in Lynott & Connell's (2009) set of sensory adjectives. This will be taken as a baseline of "sensory adjectives".
+
+```{r}
+these_lyn <- lyn %>% pull(Word)
+CMU_lyn <- CMU_dict %>%
+  filter(Word %in% these_lyn) %>%
+  filter(!duplicated(Word))
+```
+
+Write to CSV.
+
+```{r}
+write_csv(CMU_adj, '../final_data/CMU_adj.csv')
+write_csv(CMU_lyn, '../final_data/CMU_lyn.csv')
 ```

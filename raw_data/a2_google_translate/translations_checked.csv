@@ -1,0 +1,277 @@
+﻿iso,language,eng_orig,roughness,trans,translation_quality_control,translation_comment
+es,Spanish,velvety,-5.3,aterciopelado,good,NA
+es,Spanish,coated,-2.8,saburral,bad,"I've never heard this word before (although it turns out that ""saburra"" exists…) I'd say the best translation could be ""recubierto"""
+es,Spanish,fuzzy,-1.6,borroso,good,NA
+es,Spanish,bubbly,-3.3,burbujeante,ok,"depends on context: ""burbujeante"" applies to stuff like baths; but if it refers to food or drinks, it should be ""espumoso"""
+es,Spanish,abrasive,6.3,abrasivo,good,NA
+es,Spanish,slippery,-6.2,resbaladizo,good,NA
+es,Spanish,lumpy,2.9,aterronado,bad,"I think it it should be ""grumoso"" if it applies to food; or if it's sth like a lumpy surface, I'd say it's best to say ""abultado"""
+es,Spanish,rough,6.2,áspero,good,"I guess it's ""áspero""?"
+es,Spanish,jagged,6.3,dentado,good,NA
+es,Spanish,textured,0.8,texturado,bad,"""texturado"" is not a word - perhaps ""texturizado""."
+es,Spanish,polished,-5.3,pulido,good,NA
+es,Spanish,painted,-3,pintado,good,NA
+es,Spanish,serrated,4,serrado,ok,"not sure if it should be ""serrado"" o ""aserrado""; if it applies to a knife, we usually say ""(cuchillo) de sierra"""
+es,Spanish,matted,0.3,enmarañado,ok,"""enmarañado"" (very entangled and twisted hair, usually dirty) or ""despeinado"" (a bit less of a hair mess, perhaps twisted hair bc of the wind). if it means not shiny: ""mate""  "
+es,Spanish,woolly,0,lanoso,good,NA
+es,Spanish,sandy,3.9,arenoso,good,NA
+es,Spanish,dented,2.4,abollado,bad,"I think a more direct translation here is ""dentado"", and ""abollado"" or ""abultado"" for ""lumpy"""
+es,Spanish,scratchy,5,chirriante,ok,"""chirriante"" or ""rechinante"" if it's applied to a voice; but if it's an object that feels uncomrtable to the skin, I'd say ""áspero"""
+es,Spanish,pebbly,3.8,guijarroso,ok,"""pedregoso"" is more common"
+es,Spanish,gravelly,4.1,lleno de grava,good,NA
+es,Spanish,ceramic,-2.5,cerámico,good,NA
+es,Spanish,frayed,-0.8,raído,good,NA
+es,Spanish,gelatinous,-4.2,gelatinoso,good,NA
+es,Spanish,bald,-4.1,calvo,good,NA
+es,Spanish,corroded,3.5,corroído,good,NA
+es,Spanish,creamy,-4.8,cremoso,good,NA
+es,Spanish,chalky,-1.1,gredoso,bad,"not a word. I'd say it's better to use ""blanquecino"" if it means ""whitish""; but if applied to water ""calcáreo"""
+es,Spanish,varnished,-3.7,barnizado,good,NA
+es,Spanish,flat,-2.7,plano,good,NA
+es,Spanish,grimy,-1.2,mugriento,good,NA
+es,Spanish,slimy,-5.2,baboso,good,NA
+es,Spanish,oily,-6.2,aceitoso,good,NA
+es,Spanish,lubricated,-6.2,lubricado,good,NA
+es,Spanish,crumbly,3.2,desmoronadizo,bad,"not a word. If it's applied to a cake or bread, I'd say ""que se desmigaja/desmenuza""; if it's a building, ""que se desmorona"""
+es,Spanish,perforated,0.4,perforado,good,NA
+es,Spanish,scaly,1.9,escamoso,ok,"it exists although it is more common to say ""con escamas"""
+es,Spanish,dusty,-0.8,polvoriento,good,NA
+es,Spanish,cracked,3.5,agrietado,good,NA
+es,Spanish,rugged,4,escabroso,bad,"""agreste"" if it means irregular surface (like a costaline"" / or ""robusto"" if it means sth like strong"
+es,Spanish,ragged,3.3,harapiento,ok,"could also be ""desigual"" (a bit more generic) depending on context; harapiento is mainly applied to clothes"
+es,Spanish,fibrous,2.3,fibroso,good,NA
+es,Spanish,silky,-5.9,sedoso,good,NA
+es,Spanish,bristly,4.4,erizado,good,"could also be ""hirsuto"" (if applied to hair)"
+es,Spanish,grainy,3.9,granoso,bad,"""granulado"""
+es,Spanish,disjointed,2.7,inconexo,good,NA
+es,Spanish,rocky,4.8,rocoso,good,NA
+es,Spanish,furry,-2.8,peludo,good,NA
+es,Spanish,feathered,-4.6,plumado,ok,"it should be ""emplumado"""
+es,Spanish,blunt,0.5,embotar,bad,"""romo"" o ""desafilado"" if applied to an object (like an knife) but if used figuratively to refer to a person, ""directo"" or ""contundente"""
+es,Spanish,thorny,5.8,espinoso,good,NA
+es,Spanish,glassy,-4.3,vidrioso,ok,"perhaps ""vítreo"" is more common…""vidrioso"" is only used to describe eyes in tears / or when you are drunk "
+es,Spanish,waxy,-3.6,de cera,good,NA
+es,Spanish,greasy,-5.1,grasiento,good,NA
+de,German,grooved,1.7,gerillt,good,NA
+de,German,velvety,-5.3,samtig,good,NA
+de,German,coated,-2.8,beschichtet,good,NA
+de,German,ribbed,3.4,gerippt,good,NA
+de,German,stubbly,5,stoppelig,good,NA
+de,German,bubbly,-3.3,sprudelnd,good,NA
+de,German,gnarled,4.4,knotig,good,NA
+de,German,abrasive,6.3,schleifmittel,bad,went for the noun sense
+de,German,bony,2.5,knochig,good,NA
+de,German,slippery,-6.2,rutschig,good,NA
+de,German,lumpy,2.9,klumpig,good,NA
+de,German,rough,6.2,rau,good,NA
+de,German,jagged,6.3,gezackt,good,NA
+de,German,wooden,1.3,h√∂lzern,good,NA
+de,German,metallic,-1.9,metallisch,good,NA
+de,German,polished,-5.3,poliert,good,NA
+de,German,painted,-3,gemalt,OK,"root is right, but would be better ""bemalt"""
+de,German,fine,-5.2,fein,good,NA
+de,German,serrated,4,gez√§hnt,good,NA
+de,German,bumpy,3.3,holperig,good,NA
+de,German,matted,0.3,verfilzt,good,NA
+de,German,woolly,0,wollig,good,NA
+de,German,sandy,3.9,sandig,good,NA
+de,German,dented,2.4,verbeult,good,NA
+de,German,icy,-4.3,eisig,good,NA
+de,German,scratchy,5,kratzig,good,NA
+de,German,gravelly,4.1,kiesig,good,NA
+de,German,firm,4.2,feste,OK,"should be ""fest"""
+de,German,frayed,-0.8,ausgefranst,good,NA
+de,German,gelatinous,-4.2,gallertartig,good,NA
+de,German,bald,-4.1,kahl,good,NA
+de,German,corroded,3.5,korrodiert,OK,"could be ""zerfressen"" (more German native)"
+de,German,creamy,-4.8,cremig,good,NA
+de,German,chalky,-1.1,kreidig,good,NA
+de,German,holey,2,l√∂chrig,good,NA
+de,German,etched,2.8,ge√§tzt,good,NA
+de,German,slimy,-5.2,schleimig,good,NA
+de,German,oily,-6.2,√∂lig,good,NA
+de,German,lubricated,-6.2,geschmiert,OK,"could be ""beschmiert"""
+de,German,crumbly,3.2,kr√ºmelig,good,NA
+de,German,perforated,0.4,perforiert,good,NA
+de,German,scaly,1.9,schuppig,good,NA
+de,German,dusty,-0.8,staubig,good,NA
+de,German,cracked,3.5,geknackt,good,NA
+de,German,crisp,2,knackig,good,NA
+de,German,scrunchy,0.6,haargummi,bad,totally off
+de,German,fibrous,2.3,faserig,good,NA
+de,German,silky,-5.9,seidig,good,NA
+de,German,smooth,-6.9,glatt,good,NA
+de,German,bristly,4.4,borstig,good,NA
+de,German,grainy,3.9,k√∂rnig,good,NA
+de,German,rocky,4.8,felsig,good,NA
+de,German,hairy,0,behaart,good,NA
+de,German,furry,-2.8,pelzig,good,NA
+de,German,woven,-0.2,gewebte,OK,"should be ""gewebt"" (wrong agreement)"
+de,German,prickly,5.2,stachelig,good,NA
+de,German,feathered,-4.6,gefiedert,good,NA
+de,German,thorny,5.8,dornig,good,NA
+de,German,glassy,-4.3,glasig,good,NA
+de,German,waxy,-3.6,wachsartig,bad,"should be ""gewachst"""
+de,German,greasy,-5.1,fettig,good,NA
+nl,Dutch,grooved,1.7,gegroefde,OK,"should be ""gegroefd"" (agreement)"
+nl,Dutch,velvety,-5.3,fluweelachtig,good,NA
+nl,Dutch,ribbed,3.4,geribd,OK,"should be ""geribbeld"""
+nl,Dutch,stubbly,5,stoppelig,good,NA
+nl,Dutch,gnarled,4.4,knoestig,good,NA
+nl,Dutch,abrasive,6.3,schurende,OK,"should be ""schurend"" (agreement)"
+nl,Dutch,bony,2.5,benig,good,NA
+nl,Dutch,slippery,-6.2,glad,good,NA
+nl,Dutch,lumpy,2.9,klonterige,OK,"should be ""klonterig"" (agreement)"
+nl,Dutch,knobby,2.6,knobbelig,good,NA
+nl,Dutch,rough,6.2,ruw,good,NA
+nl,Dutch,textured,0.8,getextureerde,OK,"exists, but heard as jargon"
+nl,Dutch,wooden,1.3,houten,good,NA
+nl,Dutch,shiny,-4.2,glimmend,good,NA
+nl,Dutch,polished,-5.3,gepolijst,good,NA
+nl,Dutch,painted,-3,geschilderd,good,NA
+nl,Dutch,rippled,3.1,golfde,OK,"should be ""golvend"" or ""gegolfd"" (went for inflected verb)"
+nl,Dutch,bumpy,3.3,hobbelig,good,NA
+nl,Dutch,woolly,0,wollig,good,NA
+nl,Dutch,crumpled,3.1,verfrommeld,good,NA
+nl,Dutch,sandy,3.9,zanderig,good,NA
+nl,Dutch,dented,2.4,gedeukt,good,NA
+nl,Dutch,icy,-4.3,ijzig,good,NA
+nl,Dutch,scratchy,5,krassend,good,NA
+nl,Dutch,ceramic,-2.5,keramisch,good,NA
+nl,Dutch,crusty,2.9,korstig,good,NA
+nl,Dutch,frayed,-0.8,rafelig,good,NA
+nl,Dutch,gelatinous,-4.2,gelatineachtig,good,NA
+nl,Dutch,bald,-4.1,kaal,good,NA
+nl,Dutch,corroded,3.5,gecorrodeerd,OK,"""verroest"" would be better"
+nl,Dutch,creamy,-4.8,romig,good,NA
+nl,Dutch,chalky,-1.1,krijtachtig,good,NA
+nl,Dutch,flat,-2.7,vlak,OK,"""plat"" would be better; went for the noun sense"
+nl,Dutch,etched,2.8,ge√´tst,OK,"assuming Unicode error here: should be ""geëtst"""
+nl,Dutch,slimy,-5.2,slijmerig,good,NA
+nl,Dutch,oily,-6.2,olieachtig,good,NA
+nl,Dutch,lubricated,-6.2,gesmeerd,good,NA
+nl,Dutch,crumbly,3.2,kruimelig,good,NA
+nl,Dutch,perforated,0.4,geperforeerd,good,NA
+nl,Dutch,scaly,1.9,geschubd,good,NA
+nl,Dutch,dusty,-0.8,stoffig,good,NA
+nl,Dutch,gluey,-2.9,lijmerig,OK,low frequency form and possible Anglicism
+nl,Dutch,gooey,-4.9,slissend,bad,"totally off (should be ""slijmerig"")"
+nl,Dutch,cracked,3.5,gebarsten,good,NA
+nl,Dutch,ragged,3.3,haveloos,OK,"should be ""gerafeld"" (went for metaphorical use)"
+nl,Dutch,fibrous,2.3,vezelig,good,NA
+nl,Dutch,silky,-5.9,zijdeachtig,good,NA
+nl,Dutch,satiny,-5.3,satijnachtige,good,NA
+nl,Dutch,grainy,3.9,korrelig,good,NA
+nl,Dutch,rocky,4.8,rotsachtig,good,NA
+nl,Dutch,hairy,0,harig,good,NA
+nl,Dutch,woven,-0.2,geweven,good,NA
+nl,Dutch,prickly,5.2,stekelig,good,NA
+nl,Dutch,feathered,-4.6,gevederde,OK,"should be ""gevederd"" (agreement)"
+nl,Dutch,thorny,5.8,netelig,good,NA
+nl,Dutch,glassy,-4.3,glazig,good,NA
+nl,Dutch,waxy,-3.6,wasachtig,good,NA
+nl,Dutch,greasy,-5.1,vettig,good,NA
+it,Italian,velvety,-5.3,vellutato,good,NA
+it,Italian,bubbly,-3.3,pieno di bolle,good,"there is also an adjective with the same root, ""bolloso"", but it's mainly used for the face (covered with blisters) or in botany"
+it,Italian,lacy,-1.4,merlettato,good,"in It., it recalls shape more than touch, but the translation is fine "
+it,Italian,abrasive,6.3,abrasivo,good,NA
+it,Italian,bony,2.5,ossuto,good,NA
+it,Italian,slippery,-6.2,scivoloso,good,NA
+it,Italian,rough,6.2,ruvido,good,NA
+it,Italian,coarse,5.4,grossolano,good,"in the tactile sense of ""coarse"", ""ruvido"" would be a better translation, but ""grossolano"" is also OK"
+it,Italian,jagged,6.3,frastagliato,good,NA
+it,Italian,wooden,1.3,di legno,OK,"an adjective with the same root is also available: ""legnoso"" ('having the consistence of wood'), and might be here a better translation than ""di legno"" ('(made) of wood')"
+it,Italian,polished,-5.3,lucidato,OK,"the adjective ""lucido"" could be used"
+it,Italian,sequined,3.3,lustrini,OK,"should be ""lustrinato"" (not common, but present in dictionaries); ""lustrini"" is a noun, in plural form"
+it,Italian,crinkly,2.7,crespi,OK,"should be ""crespo"" (""crespi"" is the plural form)"
+it,Italian,crumpled,3.1,spiegazzato,good,"""spiegazzato"" is for cloth and paper only, but there's no translation that keeps all meanings of ""crumpled"", so it's OK"
+it,Italian,sandy,3.9,sabbioso,good,NA
+it,Italian,dented,2.4,ammaccato,good,NA
+it,Italian,gravelly,4.1,ghiaioso,good,NA
+it,Italian,frayed,-0.8,sfilacciato,good,NA
+it,Italian,gelatinous,-4.2,gelatinoso,good,NA
+it,Italian,bald,-4.1,calvo,good,NA
+it,Italian,corroded,3.5,corroso,good,NA
+it,Italian,creamy,-4.8,cremoso,good,NA
+it,Italian,chalky,-1.1,gessoso,good,NA
+it,Italian,varnished,-3.7,verniciato,good,NA
+it,Italian,oily,-6.2,oleoso,good,NA
+it,Italian,lubricated,-6.2,lubrificata,OK,"should be ""lubrificato"" (""lubrificata"" is the feminine form)"
+it,Italian,papery,-3.2,cartaceo,good,NA
+it,Italian,perforated,0.4,perforato,good,"""perforato"" refers to the presence of holes; when applied e.g. to stamps, ""perforated"" would be translated with ""dentellato"""
+it,Italian,scaly,1.9,squamoso,good,NA
+it,Italian,dusty,-0.8,polveroso,good,NA
+it,Italian,gluey,-2.9,colloso,good,NA
+it,Italian,cracked,3.5,screpolato,good,"""screpolato"" is slightly more specific (it's mainly for skin and lips, less often for other surfaces)"
+it,Italian,ragged,3.3,cencioso,OK,"""cencioso"" is very specific, it only refers to people wearing ragged clothes (and has nothing to do with touch); ""lacero"" (torn, in shreds) would be slightly better"
+it,Italian,crisp,2,croccante,good,"""croccante"" is more specific (for food only), but there is no translation encompassing all senses of ""crisp"""
+it,Italian,fibrous,2.3,fibroso,good,NA
+it,Italian,smooth,-6.9,liscio,good,NA
+it,Italian,slick,-5.5,chiazza di petrolio,bad,"should be ""liscio"" or, since ""liscio"" is already there, ""levigato"" would also be fine (""chiazza di petrolio"" is a noun translating ""oil slick"")"
+it,Italian,bristly,4.4,setoloso,good,NA
+it,Italian,grainy,3.9,granuloso,good,NA
+it,Italian,rocky,4.8,roccioso,good,NA
+it,Italian,barbed,6.3,spinato,OK,"""spinato"" is only used in ""filo spinato"" (barbed wire); for a more general translation of ""barbed"", ""dentellato"" would be better"
+it,Italian,hairy,0,peloso,good,NA
+it,Italian,feathered,-4.6,piumato,good,NA
+it,Italian,blunt,0.5,smussato,good,NA
+it,Italian,thorny,5.8,spinoso,good,NA
+it,Italian,waxy,-3.6,cereo,OK,"should be ""ceroso"", same root (containing / made of wax), because ""cereo"" is only used with reference to the color (white) of wax (""volto cereo"" 'pale face')"
+it,Italian,greasy,-5.1,unto,OK,"""untuoso"", same root, would be slightly better"
+pl,Polish,velvety,-5.3,aksamitny,good,aksamitny
+pl,Polish,ribbed,3.4,≈ºebrowany,good,żebrowany
+pl,Polish,gnarled,4.4,wykrzywiony,good,wykrzywiony
+pl,Polish,lacy,-1.4,koronkowy,good,koronkowy
+pl,Polish,abrasive,6.3,≈õcierny,good,ścierny
+pl,Polish,bony,2.5,ko≈õcisty,good,kościsty
+pl,Polish,slippery,-6.2,≈õliski,good,śliski
+pl,Polish,lumpy,2.9,grudkowaty,good,grudkowaty
+pl,Polish,knobby,2.6,guzowaty,good,guzowaty
+pl,Polish,coarse,5.4,zgrubny,good,zgrubny
+pl,Polish,jagged,6.3,szczerbaty,good,szczerbaty
+pl,Polish,textured,0.8,teksturowane,OK,teksturowany
+pl,Polish,metallic,-1.9,metaliczny,good,metaliczny
+pl,Polish,shiny,-4.2,b≈ÇyszczƒÖcy,good,błyszczący
+pl,Polish,painted,-3,namalowany,OK,"pomalowany (just wrong aspect/grammar, but the correct root, right?) yes"
+pl,Polish,fine,-5.2,w porzƒÖdku,bad,delikatny
+pl,Polish,rippled,3.1,pluskoczƒÖcy,bad,pomarszczony
+pl,Polish,matted,0.3,ko≈Çtunowaty,good,kołtunowaty
+pl,Polish,woolly,0,we≈Çnisty,good,wełnisty
+pl,Polish,beaded,3,zroszony,good,zroszony
+pl,Polish,crumpled,3.1,zmiƒôty,OK,pomięty
+pl,Polish,sandy,3.9,piaszczysty,good,piaszczysty
+pl,Polish,dented,2.4,wgnieciony,good,wgnieciony
+pl,Polish,gravelly,4.1,≈ºwirowy,good,żwirowy
+pl,Polish,crusty,2.9,skorupiasty,good,skorupiasty
+pl,Polish,frayed,-0.8,postrzƒôpiony,good,postrzępiony
+pl,Polish,gelatinous,-4.2,galaretowaty,good,galaretowaty
+pl,Polish,bald,-4.1,≈Çysy,good,łysy
+pl,Polish,corroded,3.5,skorodowane,OK,"skorodowany  (just wrong aspect/grammar, but the correct root, right?) yes"
+pl,Polish,creamy,-4.8,kremowy,good,kremowy
+pl,Polish,chalky,-1.1,kredowy,good,kredowy
+pl,Polish,flat,-2.7,mieszkanie,bad,płaski
+pl,Polish,etched,2.8,wytrawiony,bad,"wyryty (just wrong aspect/grammar, but the correct root, right?) I am unsure if wytrawiony would be used here as im unfamiliar with it :)"
+pl,Polish,grimy,-1.2,umorusany,good,umorusany
+pl,Polish,slimy,-5.2,≈õluzowaty,good,śluzowaty
+pl,Polish,harsh,5.5,szorstki,good,szorstki
+pl,Polish,oily,-6.2,oleisty,good,oleisty
+pl,Polish,lubricated,-6.2,smarowane,OK,"nasmarowany (just wrong aspect/grammar, but the correct root, right?)"
+pl,Polish,perforated,0.4,perforowany,good,perforowany
+pl,Polish,scaly,1.9,≈Çuskowaty,good,łuskowaty
+pl,Polish,dusty,-0.8,zakurzony,good,zakurzony
+pl,Polish,crinkled,2.4,marszczone,OK,"pomarszczony (just wrong aspect/grammar, but the correct root, right?)"
+pl,Polish,rugged,4,chropowaty,good,chropowaty
+pl,Polish,ragged,3.3,obdarty,good,obdarty
+pl,Polish,crisp,2,chrupiƒÖcy,good,crhupiący
+pl,Polish,fibrous,2.3,w≈Ç√≥knisty,good,włóknisty
+pl,Polish,silky,-5.9,jedwabisty,good,jedwabisty
+pl,Polish,slick,-5.5,przysiek,bad,zgrabny
+pl,Polish,bristly,4.4,szczeciniasty,good,szczeciniasty
+pl,Polish,grainy,3.9,ziarnisty,good,ziarnisty
+pl,Polish,rocky,4.8,skalisty,good,skalisty
+pl,Polish,barbed,6.3,kolczasty,good,kolczasty
+pl,Polish,hairy,0,w≈Çochaty,OK,owłosiony (włochaty is OK but sort of informal)
+pl,Polish,furry,-2.8,futrzany,good,futrzany
+pl,Polish,woven,-0.2,tkane,OK,"tkany (just wrong aspect/grammar, but the correct root, right?)"
+pl,Polish,blunt,0.5,tƒôpy,good,tępy
+pl,Polish,glassy,-4.3,szklisty,good,szklisty

@@ -150,9 +150,20 @@ table(trs_ie$language, trs_ie$m)
 table(trs_ie$language, trs_ie$n)
 ```
 
+Adding manual translation checking info.
+
+```{r}
+checks <- read_csv("../raw_data/a2_google_translate/translations_checked.csv") %>%
+  select(iso, eng_orig, translation_quality_control) %>%
+  rename(trans_qual="translation_quality_control") %>%
+  mutate(id = paste(iso, eng_orig))
+
+trs$id <- paste(trs$iso, trs$eng_orig)
+trs <- left_join(trs, checks, by="id")
+```
+
 Writing data to final csv file.
 
 ```{r}
 write_csv(trs, "../final_data/google_translate.csv")
-
 ```

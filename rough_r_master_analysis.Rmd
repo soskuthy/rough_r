@@ -205,58 +205,42 @@ Model predictions.
 ```{r}
 x <- logistic_summary_hard(eng_brm_all.r_mod, eng, outcome="/r/", roughpred="rough", pp_over_zero=T)
 ```
+### 1.5 Baseline comparison for English adjectives
 
-### 1.5 Modelling hardness instead of roughness
-
-Hardness and roughness are related. Therefore (following a suggestion from a reviewer), we now investigate whether the same pattern is present for roughness.
-
-We start by looking at some descriptive stats. The distribution of hardness ratings -- like those for roughness -- is heavily bimodal.
+We now estimate the rate of /r/ in English adjectives in general, and sensory adjectives specifically.
 
 ```{r}
-eng$hard <- eng$Hard.M >= 0
-
-# density plot
-ggplot(eng, aes(x=Hard.M)) +
-  geom_density(fill="deepskyblue4")
+CMU_adj <- read_csv("final_data/CMU_adj.csv")
+CMU_lyn <- read_csv("final_data/CMU_lyn.csv")
 ```
 
-Here are the proportions of /r/ in hard vs. soft words, along with Cohen's D for the difference in hardness ratings across words with / without /r/.
+The rate of /r/ in adjectives (note that this data set contains phoneme rates for all phonemes in US English).
 
 ```{r}
-# proportion of /r/ in rough vs. smooth words
-eng %>%
-  filter(!is.na(hard)) %>%
-  count(hard, all.r) %>%
-  group_by(hard) %>%
-  summarise(prop.r=sum(all.r * n) / sum(n))
+#  Sum across them:
 
-# Cohen's D
-cohen.d(Hard.M ~ all.r, filter(eng, !is.na(hard)), pooled=T)
+adj_sums <- CMU_adj %>% select(-Word) %>% colSums()
+adj_props <- adj_sums / nrow(CMU_adj)
+adj_props <- round(adj_props, 2)
+adj_props["R"]
 
-# difference in means:
-lm(Hard.M ~ all.r, filter(eng, !is.na(hard)))
+# How many adjectives in total?
+
+nrow(CMU_adj)
 ```
 
-This difference is somewhat smaller than that seen for roughness: 25% (as opposed to 33%) when looking at the proportion of r in hard vs. soft; and a small effect according to Cohen's D. The difference in mean ratings between r-ful vs. r-less is about 1.5.
-
-We now run a logistic regression model similar to the one for roughness.
-
-```{r, warning=F, message=F}
-eng_brm_all.x_priors <- c(set_prior("student_t(5,0,2.5)", class = "b"),
-                          set_prior("student_t(5,0,2.5)", class = "Intercept"))
-set.seed(314)
-eng_brm_all.r_hard_mod <- brm(all.r ~ hard,
-                         data=filter(eng, !is.na(hard)),
-                         prior=eng_brm_all.x_priors,
-                         family="bernoulli",
-                         refresh=0)
-summary(eng_brm_all.r_hard_mod)
-```
-
-Model predictions. Note that while the effect is in the right direction, the credible interval around the difference term does, in fact, include 0. (With almost 95% of samples over zero, though. So it's sort of borderline - but certainly not by any means strong evidence.)
+The rate of /r/ in sensory adjectives.
 
 ```{r}
-x <- logistic_summary_hard(eng_brm_all.r_hard_mod, eng, outcome="/r/", hardpred="hard", pp_over_zero=T)
+#  Sum across them:
+lyn_sums <- CMU_lyn %>% select(-Word) %>% colSums()
+lyn_props <- lyn_sums / nrow(CMU_lyn)
+lyn_props <- round(lyn_props, 2)
+lyn_props["R"]
+
+# How many adjectives in total?
+
+nrow(CMU_lyn)
 ```
 
 
@@ -427,6 +411,51 @@ pivot_longer(trs_IE,
   ungroup() %>%
   ggplot(aes(x=phoneme, y=phon_prop, fill=rough)) +
   geom_bar(stat="identity", position=position_dodge())
+```
+
+We now check the quality of our translations using Spanish, Polish, Dutch, German and Italian.
+
+```{r}
+trs_IE_check <- trs_IE %>%
+  filter(!is.na(trans_qual))
+
+# proportion of good / acceptable translations
+trs_IE_check %>%
+  group_by(language) %>%
+  summarise(good_prop = mean(trans_qual %in% c("good", "OK", "ok")))
+
+# mean over languages = 93%
+good_trs <- trs_IE_check %>%
+  group_by(language) %>%
+  summarise(good_prop = mean(trans_qual %in% c("good", "OK", "ok")))
+mean(good_trs$good_prop)
+
+# mean over languages for perfect translations only = 77%
+good_trs <- trs_IE_check %>%
+  group_by(language) %>%
+  summarise(good_prop = mean(trans_qual %in% c("good")))
+mean(good_trs$good_prop)
+```
+
+How do the results for these languages change when we consider only good OR good / acceptable translations?
+
+```{r}
+trs_diffs <- trs_IE_check %>%
+  group_by(language, rough) %>%
+  summarise(r_prop = mean(r),
+            r_prop_good_only = mean(r[trans_qual=="good"]),
+            r_prop_good_acc  = mean(r[trans_qual %in% c("good", "OK", "ok")])) %>%
+  ungroup() %>%
+  mutate(good_diff = r_prop - r_prop_good_only,
+         good_acc_diff = r_prop - r_prop_good_acc)
+sd(trs_diffs$good_diff)
+sd(trs_diffs$good_acc_diff)
+
+trs_diffs %>%
+  group_by(rough) %>%
+  summarise(r_prop = mean(r_prop),
+            r_prop_good_only = mean(r_prop_good_only),
+            r_prop_good_acc = mean(r_prop_good_acc))
 ```
 
 ## 3. Hungarian ratings
