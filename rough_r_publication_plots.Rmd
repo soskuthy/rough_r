@@ -365,7 +365,7 @@ length(unique(xling$Language))
 xling$Meaning <- paste0("‘", xling$Meaning, "’")
 xling$Meaning.f <- factor(xling$Meaning)#, levels=c("‘smooth’", "‘rough’"))
 # only Google TRS data for Basque:
-xling <- filter(xling, !(Language=="Basque" & Dataset=="IDS"))
+xling <- filter(xling, !(Language=="Basque" & Dataset=="CLICS"))
 
 
 

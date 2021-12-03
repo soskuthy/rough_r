@@ -665,7 +665,7 @@ x <- logistic_summary(hun_ie_brm_r_mod, eng, outcome="/r/", roughpred="rough", p
 
 ## 4. Cross-linguistic analysis
 
-The latest version of our cross-linguistic data set includes 394 languages from 84 language families (counting isolates as families) from 19 Autotyp areas. Without Indo-European, there are 347 languages and 83 families from 19 Autotyp areas. We exclude Indo-European as we've already analysed these languages above.
+The latest version of our cross-linguistic data set includes 396 languages from 85 language families (counting isolates as families) from 19 Autotyp areas. Without Indo-European, there are 350 languages and 84 families from 19 Autotyp areas. We exclude Indo-European as we've already analysed these languages above.
 
 ```{r}
 library(tidyverse)
@@ -674,8 +674,6 @@ library(brms)
 source("scripts/rough_helper.r")
 
 xling <- read_csv("final_data/cross_linguistic.csv")
-xling0 <- read_csv("final_data/cross_linguistic_orig.csv") %>%
-  mutate(Family=iconv(Family, "utf-8", "ASCII", sub=""))
 length(unique(xling$Language))
 length(unique(xling$Family))
 length(unique(xling$Area))
@@ -685,7 +683,7 @@ length(unique(xling$Family))
 length(unique(xling$Area))
 ```
 
-Our main analysis focuses specifically on the words rough and smooth. We report numbers for these in the paper. 657 words, 329 languages, 83 families, 19 areas.
+Our main analysis focuses specifically on the words rough and smooth. We report numbers for these in the paper. 681 words, 332 languages, 84 families, 19 areas.
 
 ```{r}
 xling_rs <- filter(xling, Meaning %in% c("rough","smooth"))
@@ -695,7 +693,7 @@ length(unique(xling_rs$Family))
 length(unique(xling_rs$Area))
 ```
 
-Of these, trilled only: 379 words, 178 languages, 43 families, 18 areas.
+Of these, trilled only: 387 words, 179 languages, 43 families, 18 areas.
 
 ```{r}
 # Trilled
@@ -706,7 +704,7 @@ length(unique(xling_trill_rs$Family))
 length(unique(xling_trill_rs$Area))
 ```
 
-And non-trilled only: 278 words, 151 languages, 60 families, 16 areas.
+And non-trilled only: 294 words, 153 languages, 61 families, 16 areas.
 
 ```{r}
 # Non-trilled
@@ -718,7 +716,7 @@ length(unique(xling_no_trill_rs$Area))
 
 ```
 
-Some languages have a good number of rough/smooth words, but most have only 1 (the peak in the histogram below). Given how the data set was assembled, this one word is typically "rough"/"smooth". The data set is nicely balanced across rough vs. smooth words.
+Due to our extraction methods, only data points from the Google Translate data set and Chirila may have meanings other than "rough" (53 out of 188 languages) or "smooth" (54 out of 310 languages). Sometimes, a single language may have multiple words representing "rough"/"smooth". Overall, it is rare for a language to be represented in our data by words with meanings other "rough" / "smooth". The data set is fairly balanced across rough vs. smooth words.
 
 ```{r}
 xling %>%
@@ -727,150 +725,82 @@ xling %>%
   ggplot(aes(x=n)) + 
   facet_grid(rough ~.) +
   geom_histogram(binwidth=1)
+
+# how many rough words that have a meaning other than "rough";
+# how many smooth words that have a meaning other than "smooth";
+
+xling %>%
+  group_by(Language) %>%
+  summarise(rough_not_rough = sum(rough & Meaning != "rough"),
+            smooth_not_smooth = sum(!rough & Meaning != "smooth")) %>%
+  ungroup() %>%
+  summarise(rough_not_rough_n = sum(rough_not_rough > 0),
+            smooth_not_smooth_n = sum(smooth_not_smooth > 0))
+
+# overall Ns
+
+xling %>%
+  group_by(Language) %>%
+  summarise(rough = sum(Meaning == "rough"),
+            smooth = sum(Meaning == "smooth")
+  ) %>%
+  ungroup() %>%
+  summarise(rough_n = sum(rough > 0),
+            smooth_n = sum(smooth > 0))
+
+xling %>%
+  group_by(Dataset, Language) %>%
+  summarise(rough_not_rough = sum(rough & Meaning != "rough"),
+            smooth_not_smooth = sum(!rough & Meaning != "smooth")) %>%
+  ungroup() %>%
+  filter(rough_not_rough > 0 | smooth_not_smooth > 0) %>%
+  pull(Dataset)
 ```
 
 Our analysis will distinguish between languages with trilled /r/s vs. languages that have /r/s that are not trilled. There are quite a few languages where this info is either not available, or where the language has both trills and other rhotics; these languages are excluded from the analysis below.
 
+A previous version of this file (still available via earlier GitHub commits) presented analyses for words with any meaning in the data followed by analyses for words specifically with the meanings "rough" / "smooth". Given the imbalances shown above (few languages where we have data for words other than "rough" / "smooth"), here we focus on "rough" / "smooth" only to avoid further increasing the length of this analysis file. Note that the results of those previous analyses are all in line with our findings for "rough" / "smooth" only, but with a slightly attenuated effect size. The summaries of the raw data below show this clearly (first summary: all words; second summary: "rough"/"smooth" only):
+
+```{r}
+# proportions of /r/ in rough / smooth meanings for languages with trilled
+# vs. languages without trilled r in words with any meaning
+xling %>% 
+  group_by(Language, Trill, rough) %>%
+  summarise(r_prop = mean(r)) %>%
+  ungroup() %>%
+  group_by(Trill, rough) %>%
+  summarise(r_prop = mean(r_prop)) %>%
+  ungroup()
+
+# proportions of /r/ in the words "rough" / "smooth" for languages with
+# trilled vs. languages without trilled r
+xling %>% 
+  filter(Meaning %in% c("rough", "smooth")) %>%
+  group_by(Language, Trill, rough) %>%
+  summarise(r_prop = mean(r)) %>%
+  ungroup() %>%
+  group_by(Trill, rough) %>%
+  summarise(r_prop = mean(r_prop)) %>%
+  ungroup()
+```
+
 Here is the plan for our cross-linguistic analysis:
 - We'll analyse languages with trills vs. those with no trills separately (as we only have a prediction for Ls with trills).
-- We fit three different models:
-  - roughness rating as the outcome, r as predictor, beta regression (full data set); random effects by Family, Area, Language
-  - r as outcome, binary rough as predictor (full data set); random effects by Family, Area, Language
-  - r as outcome, binary rough as predictor (limited specifically to the words rough / smooth); random effects by Family, Area
+- We use logistic models with r as outcome, binary rough as predictor; random effects by Family, Area
  
 ### 4.1 Cross-linguistic analysis of languages with trills
 
-Limiting the data set to languages with trills only leaves 850 data points from 185 languages representing 43 families and 18 areas.
+Limiting the data set to languages with trills only and the words "rough" / "smooth" leaves 387 data points from 179 languages representing 43 families and 18 areas.
 
 ```{r}
-xling_trill <- filter(xling, Trill=="yes")
-nrow(xling_trill)
-length(unique(xling_trill$Language))
-length(unique(xling_trill$Family))
-length(unique(xling_trill$Area))
-```
-
-Further limiting the data set to words for rough/smooth only leaves 379 data points from 178 languages representing 43 families and 18 areas. 
-
-```{r}
-xling_trill_rs <- filter(xling_trill, Meaning %in% c("rough","smooth"))
+xling_trill_rs <- filter(xling, Trill=="yes", Meaning %in% c("rough","smooth"))
 nrow(xling_trill_rs)
 length(unique(xling_trill_rs$Language))
 length(unique(xling_trill_rs$Family))
 length(unique(xling_trill_rs$Area))
 ```
 
-Here are the raw proportions for the full trill data set:
-
-```{r}
-xling_trill %>% 
-  group_by(Language, rough) %>%
-  summarise(r_prop = mean(r)) %>%
-  ungroup() %>%
-  group_by(rough) %>%
-  summarise(r_prop = mean(r_prop)) %>%
-  ungroup()
-```
-
-And for the words rough/smooths only: (note the huge difference in proportions!)
-
-```{r}
-xling_trill_rs %>% 
-  group_by(Language, rough) %>%
-  summarise(r_prop = mean(r)) %>%
-  ungroup() %>%
-  group_by(rough) %>%
-  summarise(r_prop = mean(r_prop)) %>%
-  ungroup()
-```
-
-#### 4.1.1 Beta regression for languages with trills
-
-We model the English-based ratings as a function of the presence of r/l in the cross-linguistic data set. We include random effects by Family/Area/Language. (I don't think "Meaning" can be included as a random factor here, as words with the same meaning always have the same roughness rating)
-
-```{r, warning=F, message=F}
-# outcome for beta regression
-xling_trill$roughness.beta <- (xling_trill$Rough.M + 7) / 14
-
-# priors: since the outcomes here are similar to those for a logistic model (i.e. a number between 0/1),
-# and the link function is the same, we use the same priors as we do for logistic models
-
-xling_brm_beta_priors <- c(
-  set_prior("student_t(5,0,2.5)", class = "b"),
-  set_prior("student_t(5,0,2.5)", class = "Intercept"),
-  set_prior("lkj(2)", class = "cor"),
-  set_prior("student_t(4,0,2)", class = "sd", coef = "Intercept", group="Family"),
-  set_prior("student_t(4,0,2)", class = "sd", coef = "rTRUE", group="Family"),
-  set_prior("student_t(4,0,2)", class = "sd", coef = "Intercept", group="Area"),
-  set_prior("student_t(4,0,2)", class = "sd", coef = "rTRUE", group="Area"),
-  set_prior("student_t(4,0,2)", class = "sd", coef = "Intercept", group="Language"),
-  set_prior("student_t(4,0,2)", class = "sd", coef = "rTRUE", group="Language")
-)
-
-set.seed(314)
-xling_brm_beta_mod <- brm(roughness.beta ~ r +
-                          (1 + r | Family) +
-                          (1 + r | Area) +
-                          (1 + r | Language),
-                        data=xling_trill,
-                        prior=xling_brm_beta_priors,
-                        family="beta",
-                       control=list(adapt_delta=0.9),
-                       refresh=0)
-```
-
-Model predictions as usual: (note that conf interval around difference by R does not include 0)
-
-```{r}
-preds <- beta_summary(xling_brm_beta_mod, dat=xling_trill, rpred="r", binary_pred=T, printPlease=T)
-```
-
-#### 4.1.2 Logistic regression for all words in languages with trills
-
-We model the presence of r as a function of roughness (binary) in the cross-linguistic data set. We include random effects by Family/Area/Language/Meaning.
-
-```{r, warning=F, message=F}
-# priors: since the outcomes here are similar to those for a logistic model (i.e. a number between 0/1),
-# and the link function is the same, we use the same priors as we do for logistic models
-
-xling_brm_logistic_priors <- c(
-  set_prior("student_t(5,0,2.5)", class = "b"),
-  set_prior("student_t(5,0,2.5)", class = "Intercept"),
-  set_prior("lkj(2)", class = "cor"),
-  set_prior("student_t(4,0,2)", class = "sd", coef = "Intercept", group="Family"),
-  set_prior("student_t(4,0,2)", class = "sd", coef = "roughTRUE", group="Family"),
-  set_prior("student_t(4,0,2)", class = "sd", coef = "Intercept", group="Area"),
-  set_prior("student_t(4,0,2)", class = "sd", coef = "roughTRUE", group="Area"),
-  set_prior("student_t(4,0,2)", class = "sd", coef = "Intercept", group="Language"),
-  set_prior("student_t(4,0,2)", class = "sd", coef = "roughTRUE", group="Language"),
-  set_prior("student_t(4,0,2)", class = "sd", coef = "Intercept", group="Meaning")
-)
-
-set.seed(314)
-xling_brm_logistic_mod_r <- brm(r ~ rough +
-                          (1 + rough | Family) +
-                          (1 + rough | Area) +
-                          (1 + rough | Language) +
-                          (1 | Meaning),
-                        data=xling_trill,
-                        prior=xling_brm_logistic_priors,
-                        family="bernoulli",
-                       control=list(adapt_delta=0.9),
-                       refresh=0)
-set.seed(314)
-```
-
-Model predictions as usual. Note that the /r/ pattern does not seem strong when our "rough" predictor lumps words of different levels of roughness / smoothness together and does not take into account the actual amount of roughness / smoothness for specific words.
-
-```{r}
-x <- logistic_summary(xling_brm_logistic_mod_r, dat=xling_trill, outcome="/r/", roughpred="rough", pp_over_zero=T)
-```
-
-#### 4.1.3 Logistic regression for rough/smooth in languages with trills
-
 We model the presence of r as a function of roughness (binary) in the cross-linguistic data set limited to the words rough/smooth only (the expectation is that the effect would be particularly strong here). We include random effects by Family/Area (not by language, as most languages only have one rough and one smooth word).
-
-These are the results reported in the paper.
 
 ```{r, warning=F, message=F}
 # priors: since the outcomes here are similar to those for a logistic model (i.e. a number between 0/1),
@@ -899,7 +829,7 @@ xling_brm_rs_logistic_mod_r <- brm(r ~ rough +
 saveRDS(xling_brm_rs_logistic_mod_r, "models/xling_brm_rs_logistic_mod_r.rds")
 ```
 
-Model predictions as usual. When focusing on these two extreme words only, the pattern is there.
+Model predictions.
 
 ```{r}
 x <- logistic_summary(xling_brm_rs_logistic_mod_r, dat=xling_trill_rs, outcome="/r/", roughpred="rough", pp_over_zero=T)
@@ -907,131 +837,17 @@ x <- logistic_summary(xling_brm_rs_logistic_mod_r, dat=xling_trill_rs, outcome="
 
 ### 4.2 Cross-linguistic analysis of languages *without* trills
 
-Limiting the data set to languages without trills (or where it's not clear whether the language has a trill) leaves 397 data points from 159 languages representing 61 families and 16 areas.
+Limiting the data set to languages without trills (or where it's not clear whether the language has a trill) and the words "rough"/"smooth" leaves 294 data points from 153 languages representing 61 families and 16 areas.
 
 ```{r}
-xling_no_trill <- filter(xling, Trill=="no")
-nrow(xling_no_trill)
-length(unique(xling_no_trill$Language))
-length(unique(xling_no_trill$Family))
-length(unique(xling_no_trill$Area))
-```
-
-Further limiting the data set to words for rough/smooth only leaves 270 data points from 147 languages representing 59 families and 16 areas.
-
-```{r}
-xling_no_trill_rs <- filter(xling_no_trill, Meaning %in% c("rough","smooth"))
+xling_no_trill_rs <- filter(xling_no_trill, Trill=="no", Meaning %in% c("rough","smooth"))
 nrow(xling_no_trill_rs)
 length(unique(xling_no_trill_rs$Language))
 length(unique(xling_no_trill_rs$Family))
 length(unique(xling_no_trill_rs$Area))
 ```
 
-Here are the raw proportions for the full no-trill data set. Note that the pattern for /r/ disappears completely.
-
-```{r}
-xling_no_trill %>% 
-  group_by(Language, rough) %>%
-  summarise(r_prop = mean(r)) %>%
-  ungroup() %>%
-  group_by(rough) %>%
-  summarise(r_prop = mean(r_prop)) %>%
-  ungroup()
-```
-
-And for the words rough/smooth only. There's still not much for /r/ (though the pattern gets a little stronger). This may also be a reflection of two facts: (1) by focusing on rough/smooth only, which are extreme in terms of their roughness values, we amplify any potential effects; and (2) there are likely some languages (like English) that had trills historically, which does create a weak effect -- not something that we can control for in our analysis. In other words, the weak effect that's a residue of historical trills is amplified when considering rough/smooth only.
-
-```{r}
-xling_no_trill_rs %>% 
-  group_by(Language, rough) %>%
-  summarise(r_prop = mean(r)) %>%
-  ungroup() %>%
-  group_by(rough) %>%
-  summarise(r_prop = mean(r_prop)) %>%
-  ungroup()
-```
-
-#### 4.2.1 Beta regression for languages with no trills
-
-We model the English-based ratings as a function of the presence of r/l in the cross-linguistic data set. We include random effects by Family/Area/Language. (I don't think "Meaning" can be included as a random factor here, as words with the same meaning always have the same roughness rating)
-
-```{r, warning=F, message=F}
-# outcome for beta regression
-xling_no_trill$roughness.beta <- (xling_no_trill$Rough.M + 7) / 14
-
-# priors: since the outcomes here are similar to those for a logistic model (i.e. a number between 0/1),
-# and the link function is the same, we use the same priors as we do for logistic models
-
-xling_brm_beta_priors <- c(
-  set_prior("student_t(5,0,2.5)", class = "b"),
-  set_prior("student_t(5,0,2.5)", class = "Intercept"),
-  set_prior("lkj(2)", class = "cor"),
-  set_prior("student_t(4,0,2)", class = "sd", coef = "Intercept", group="Family"),
-  set_prior("student_t(4,0,2)", class = "sd", coef = "rTRUE", group="Family"),
-  set_prior("student_t(4,0,2)", class = "sd", coef = "Intercept", group="Area"),
-  set_prior("student_t(4,0,2)", class = "sd", coef = "rTRUE", group="Area"),
-  set_prior("student_t(4,0,2)", class = "sd", coef = "Intercept", group="Language"),
-  set_prior("student_t(4,0,2)", class = "sd", coef = "rTRUE", group="Language")
-)
-
-set.seed(314)
-xling_nt_brm_beta_mod <- brm(roughness.beta ~ r +
-                          (1 + r | Family) +
-                          (1 + r | Area) +
-                          (1 + r | Language),
-                        data=xling_no_trill,
-                        prior=xling_brm_beta_priors,
-                        family="beta",
-                       control=list(adapt_delta=0.9),
-                       refresh=0)
-```
-
-Model predictions as usual: (note that conf interval around difference by R includes 0)
-
-```{r}
-preds <- beta_summary(xling_nt_brm_beta_mod, dat=xling_trill, rpred="r", binary_pred=T, printPlease=T)
-```
-
-#### 4.2.2 Logistic regression for all words in languages with no trills
-
-We model the presence of r as a function of roughness (binary) in the cross-linguistic data set. We include random effects by Family/Area/Language/Meaning.
-
-```{r, warning=F, message=F}
-xling_brm_logistic_priors <- c(
-  set_prior("student_t(5,0,2.5)", class = "b"),
-  set_prior("student_t(5,0,2.5)", class = "Intercept"),
-  set_prior("lkj(2)", class = "cor"),
-  set_prior("student_t(4,0,2)", class = "sd", coef = "Intercept", group="Family"),
-  set_prior("student_t(4,0,2)", class = "sd", coef = "roughTRUE", group="Family"),
-  set_prior("student_t(4,0,2)", class = "sd", coef = "Intercept", group="Area"),
-  set_prior("student_t(4,0,2)", class = "sd", coef = "roughTRUE", group="Area"),
-  set_prior("student_t(4,0,2)", class = "sd", coef = "Intercept", group="Language"),
-  set_prior("student_t(4,0,2)", class = "sd", coef = "roughTRUE", group="Language"),
-  set_prior("student_t(4,0,2)", class = "sd", coef = "Intercept", group="Meaning")
-)
-
-set.seed(314)
-xling_nt_brm_logistic_mod_r <- brm(r ~ rough +
-                          (1 + rough | Family) +
-                          (1 + rough | Area) +
-                          (1 + rough | Language) +
-                          (1 | Meaning),
-                        data=xling_no_trill,
-                        prior=xling_brm_logistic_priors,
-                        family="bernoulli",
-                       control=list(adapt_delta=0.9),
-                       refresh=0)
-```
-
-Model predictions as usual. No strong patterns either for /r/.
-
-```{r}
-x <- logistic_summary(xling_nt_brm_logistic_mod_r, dat=xling_trill, outcome="/r/", roughpred="rough", pp_over_zero=T)
-```
-
-#### 4.2.3 Logistic regression for rough/smooth in languages with no trills
-
-We model the presence of r as a function of roughness (binary) in the cross-linguistic data set limited to the words rough/smooth only (the expectation is that the effect would be particularly strong here). We include random effects by Family/Area/Language.
+We model the presence of r as a function of roughness (binary) in the cross-linguistic data set limited to the words rough/smooth only. We include random effects by Family/Area as above.
 
 ```{r, warning=F, message=F}
 # priors: since the outcomes here are similar to those for a logistic model (i.e. a number between 0/1),
@@ -1151,7 +967,7 @@ xling_brm_omnibus_rs_famtrill_mod_r <- brm(r ~ rough * Trill +
                           (1 + rough | Family) +
                           (1 + rough * Trill | Area),
                         data=xling_rs,
-                        prior=xling_brm_omnibus_rs_intr_priors,
+                        prior=xling_brm_omnibus_no_famtrill_priors,
                         family="bernoulli",
                        control=list(adapt_delta=0.99))
 summary(xling_brm_omnibus_no_famtrill_mod_r)
