@@ -1,0 +1,1234 @@
+Dataset.x,language.id,language.name,glottocode,latitude,longitude,family,concept,form_id,value,form,Language_broad,n,Dataset.y,AutotypMatch,R_type,Comments,PhoibleMatch,Trill
+diacl,diacl-58200,Lezgian,lezg1247,41.553811,48.038979,Nakh-Daghestanian,SMOOTH,diacl-58200-149_smooth-1,c'alc'am,c'alc'am,Lezgian,2,CLICS,lez,trill,wiki,NA,NA
+diacl,diacl-58800,Abkhaz,abkh1244,42.999497,41.017252,Abkhaz-Adyge,SMOOTH,diacl-58800-149_smooth-1,a-ja-šˠa,a-ja-šˠa,Abkhaz,1,CLICS,abk,trill,wiki,NA,NA
+diacl,diacl-56900,Laz,lazz1240,41.462154,41.569662,Kartvelian,SMOOTH,diacl-56900-149_smooth-1,gangali,gangali,Laz,1,CLICS,lzz,NA,NA,lzz,NA
+diacl,diacl-57000,Megrelian,ming1252,42.373764,41.937332,Kartvelian,SMOOTH,diacl-57000-149_smooth-1,"gluvi, gluv",gluvi,Megrelian,1,CLICS,xmf,NA,NA,xmf,NA
+diacl,diacl-33900,Kuikúro-Kalapálo,kuik1246,-8.944098,-52.131742,Cariban,SMOOTH,diacl-33900-149_smooth-1,takujihiti,takujihiti,Kuikúro-Kalapálo,1,CLICS,kui,NA,NA,kui,NA
+diacl,diacl-59500,Kashinawá,cash1254,-10.026289,-71.393669,Pano-Tacanan,SMOOTH,diacl-59500-149_smooth-1,mayun,mayun,Kashinawá,1,CLICS,cbs,NA,NA,cbs,NA
+diacl,diacl-56000,Xokleng,xokl1240,-27.16847,-49.321967,Nuclear-Macro-Je,SMOOTH,diacl-56000-149_smooth-1,kódél,kódél,Xokleng,1,CLICS,xok,NA,NA,xok,NA
+diacl,diacl-65500,Kamayurá,kama1373,-11.955425148,-53.300745001,Tupian,SMOOTH,diacl-65500-149_smooth-1,ijym,ijym,Kamayurá,1,CLICS,kay,NA,NA,kay,NA
+halenepal,halenepal-Chepang,Chepang,chep1245,27.7206,84.9017,Sino-Tibetan,SMOOTH,halenepal-Chepang-1676_smooth-1,yum.ʔo,yum.ʔo,Chepang,1,CLICS,cdm,NA,NA,cdm,NA
+halenepal,halenepal-Gurung,Gurung,guru1261,27.41687,86.28988,Sino-Tibetan,SMOOTH,halenepal-Gurung-1676_smooth-1,ciqllo,ciqllo,Gurung,1,CLICS,ggn; gvr,trill,https://audio-video.shanti.virginia.edu/video/gurung-man-describes-otar-village,NA,NA
+halenepal,halenepal-Kaike,Kaike,kaik1246,28.853,83.1384,Sino-Tibetan,SMOOTH,halenepal-Kaike-1676_smooth-1,phil philma,phil_philma,Kaike,1,CLICS,kzq,NA,NA,NA,NA
+halenepal,halenepal-Khaling,Khaling,khal1275,27.3912,87.5053,Sino-Tibetan,SMOOTH,halenepal-Khaling-1676_smooth-1,'solāemim,'solāemim,Khaling,1,CLICS,klr,trill,http://www.ling.sinica.edu.tw/files/publication/j2012_6_03_7314.pdf,NA,NA
+halenepal,halenepal-Kham,Kham,parb1234,None,None,Sino-Tibetan,SMOOTH,halenepal-Kham-1676_smooth-1,ra:h.o,ra:h.o,Kham,1,CLICS,kgj; kif; kip; kjl,NA,NA,NA,NA
+halenepal,halenepal-Magar,Magar,maga1261,None,None,Sino-Tibetan,SMOOTH,halenepal-Magar-1676_smooth-1,ling-ke,ling-ke,Magar,1,CLICS,mgp,no trill,wiki,NA,NA
+halenepal,halenepal-Nepali,Nepali,nepa1254,28.0,85.0,Indo-European,SMOOTH,halenepal-Nepali-1676_smooth-1,cillā,cillā,Nepali,1,IDS,nep,NA,"also wikipedia says ""r is always a trill""",nep,yes
+halenepal,halenepal-Newar,Newar,newa1246,27.2614,84.9577,Sino-Tibetan,SMOOTH,halenepal-Newar-1676_smooth-1,culu,culu,Newar,1,CLICS,new,NA,NA,new,NA
+halenepal,halenepal-Newar,Newar,newa1246,27.2614,84.9577,Sino-Tibetan,SMOOTH,halenepal-Newar-1676_smooth-2,picu-gu,picu-gu,Newar,1,CLICS,new,NA,NA,new,NA
+halenepal,halenepal-Sunwar,Sunwar,sunw1242,27.5201,86.2476,Sino-Tibetan,SMOOTH,halenepal-Sunwar-1676_smooth-1,silsil,silsil,Sunwar,1,CLICS,suz,trill,"""A Grammar of Sunwar"". Dörte Borchers. Retrieved 27 August 2018.",NA,NA
+halenepal,halenepal-SahuTamang,Tamang (Sahu),west2415,28.0239,85.0563,Sino-Tibetan,SMOOTH,halenepal-SahuTamang-1676_smooth-1,plā:-pā,plā:-pā,Tamang,1,CLICS,taj,NA,NA,taj,NA
+halenepal,halenepal-Thakali,Thakali,thak1245,28.7014,83.6466,Sino-Tibetan,SMOOTH,halenepal-Thakali-1676_smooth-1,cyahm-pa,cyahm-pa,Thakali,1,CLICS,ths,NA,NA,NA,NA
+halenepal,halenepal-Chepang,Chepang,chep1245,27.7206,84.9017,Sino-Tibetan,SMOOTH,halenepal-Chepang-1676_smooth-2,yum.ʔo,yum.ʔo,Chepang,1,CLICS,cdm,NA,NA,cdm,NA
+halenepal,halenepal-Gurung,Gurung,guru1261,27.41687,86.28988,Sino-Tibetan,SMOOTH,halenepal-Gurung-1676_smooth-2,ciqllo,ciqllo,Gurung,1,CLICS,ggn; gvr,trill,https://audio-video.shanti.virginia.edu/video/gurung-man-describes-otar-village,NA,NA
+halenepal,halenepal-Kaike,Kaike,kaik1246,28.853,83.1384,Sino-Tibetan,SMOOTH,halenepal-Kaike-1676_smooth-2,phil philma,phil_philma,Kaike,1,CLICS,kzq,NA,NA,NA,NA
+halenepal,halenepal-Khaling,Khaling,khal1275,27.3912,87.5053,Sino-Tibetan,SMOOTH,halenepal-Khaling-1676_smooth-2,'solāemim,'solāemim,Khaling,1,CLICS,klr,trill,http://www.ling.sinica.edu.tw/files/publication/j2012_6_03_7314.pdf,NA,NA
+halenepal,halenepal-Kham,Kham,parb1234,None,None,Sino-Tibetan,SMOOTH,halenepal-Kham-1676_smooth-2,ra:h.o,ra:h.o,Kham,1,CLICS,kgj; kif; kip; kjl,NA,NA,NA,NA
+halenepal,halenepal-Magar,Magar,maga1261,None,None,Sino-Tibetan,SMOOTH,halenepal-Magar-1676_smooth-2,ling-ke,ling-ke,Magar,1,CLICS,mgp,no trill,wiki,NA,NA
+halenepal,halenepal-Nepali,Nepali,nepa1254,28.0,85.0,Indo-European,SMOOTH,halenepal-Nepali-1676_smooth-2,cillā,cillā,Nepali,1,IDS,nep,NA,"also wikipedia says ""r is always a trill""",nep,yes
+halenepal,halenepal-Newar,Newar,newa1246,27.2614,84.9577,Sino-Tibetan,SMOOTH,halenepal-Newar-1676_smooth-3,culu,culu,Newar,1,CLICS,new,NA,NA,new,NA
+halenepal,halenepal-Newar,Newar,newa1246,27.2614,84.9577,Sino-Tibetan,SMOOTH,halenepal-Newar-1676_smooth-4,picu-gu,picu-gu,Newar,1,CLICS,new,NA,NA,new,NA
+halenepal,halenepal-Sunwar,Sunwar,sunw1242,27.5201,86.2476,Sino-Tibetan,SMOOTH,halenepal-Sunwar-1676_smooth-2,silsil,silsil,Sunwar,1,CLICS,suz,trill,"""A Grammar of Sunwar"". Dörte Borchers. Retrieved 27 August 2018.",NA,NA
+halenepal,halenepal-SahuTamang,Tamang (Sahu),west2415,28.0239,85.0563,Sino-Tibetan,SMOOTH,halenepal-SahuTamang-1676_smooth-2,plā:-pā,plā:-pā,Tamang,1,CLICS,taj,NA,NA,taj,NA
+halenepal,halenepal-Thakali,Thakali,thak1245,28.7014,83.6466,Sino-Tibetan,SMOOTH,halenepal-Thakali-1676_smooth-2,cyahm-pa,cyahm-pa,Thakali,1,CLICS,ths,NA,NA,NA,NA
+halenepal,halenepal-Chepang,Chepang,chep1245,27.7206,84.9017,Sino-Tibetan,ROUGH,halenepal-Chepang-1677_rough-1,cek.ʔo,cek.ʔo,Chepang,1,CLICS,cdm,NA,NA,cdm,NA
+halenepal,halenepal-Gurung,Gurung,guru1261,27.41687,86.28988,Sino-Tibetan,ROUGH,halenepal-Gurung-1677_rough-1,khāsroq,khāsroq,Gurung,1,CLICS,ggn; gvr,trill,https://audio-video.shanti.virginia.edu/video/gurung-man-describes-otar-village,NA,NA
+halenepal,halenepal-Kaike,Kaike,kaik1246,28.853,83.1384,Sino-Tibetan,ROUGH,halenepal-Kaike-1677_rough-1,khokhsorhopā,khokhsorhopā,Kaike,1,CLICS,kzq,NA,NA,NA,NA
+halenepal,halenepal-Khaling,Khaling,khal1275,27.3912,87.5053,Sino-Tibetan,ROUGH,halenepal-Khaling-1677_rough-1,ma-solāemim,ma-solāemim,Khaling,1,CLICS,klr,trill,http://www.ling.sinica.edu.tw/files/publication/j2012_6_03_7314.pdf,NA,NA
+halenepal,halenepal-Kham,Kham,parb1234,None,None,Sino-Tibetan,ROUGH,halenepal-Kham-1677_rough-1,katala̩ matala̩o,katala̩_matala̩o,Kham,1,CLICS,kgj; kif; kip; kjl,NA,NA,NA,NA
+halenepal,halenepal-Magar,Magar,maga1261,None,None,Sino-Tibetan,ROUGH,halenepal-Magar-1677_rough-1,us-ke,us-ke,Magar,1,CLICS,mgp,no trill,wiki,NA,NA
+halenepal,halenepal-Nepali,Nepali,nepa1254,28.0,85.0,Indo-European,ROUGH,halenepal-Nepali-1677_rough-1,khasro,khasro,Nepali,1,IDS,nep,NA,"also wikipedia says ""r is always a trill""",nep,yes
+halenepal,halenepal-Newar,Newar,newa1246,27.2614,84.9577,Sino-Tibetan,ROUGH,halenepal-Newar-1677_rough-1,chyāka:,chyāka:,Newar,1,CLICS,new,NA,NA,new,NA
+halenepal,halenepal-Sunwar,Sunwar,sunw1242,27.5201,86.2476,Sino-Tibetan,ROUGH,halenepal-Sunwar-1677_rough-1,mā silsil,mā_silsil,Sunwar,1,CLICS,suz,trill,"""A Grammar of Sunwar"". Dörte Borchers. Retrieved 27 August 2018.",NA,NA
+halenepal,halenepal-SahuTamang,Tamang (Sahu),west2415,28.0239,85.0563,Sino-Tibetan,ROUGH,halenepal-SahuTamang-1677_rough-1,'phoppa,'phoppa,Tamang,1,CLICS,taj,NA,NA,taj,NA
+halenepal,halenepal-Thakali,Thakali,thak1245,28.7014,83.6466,Sino-Tibetan,ROUGH,halenepal-Thakali-1677_rough-1,kyohng-pa,kyohng-pa,Thakali,1,CLICS,ths,NA,NA,NA,NA
+halenepal,halenepal-Chepang,Chepang,chep1245,27.7206,84.9017,Sino-Tibetan,ROUGH,halenepal-Chepang-1677_rough-2,cek.ʔo,cek.ʔo,Chepang,1,CLICS,cdm,NA,NA,cdm,NA
+halenepal,halenepal-Gurung,Gurung,guru1261,27.41687,86.28988,Sino-Tibetan,ROUGH,halenepal-Gurung-1677_rough-2,khāsroq,khāsroq,Gurung,1,CLICS,ggn; gvr,trill,https://audio-video.shanti.virginia.edu/video/gurung-man-describes-otar-village,NA,NA
+halenepal,halenepal-Kaike,Kaike,kaik1246,28.853,83.1384,Sino-Tibetan,ROUGH,halenepal-Kaike-1677_rough-2,khokhsorhopā,khokhsorhopā,Kaike,1,CLICS,kzq,NA,NA,NA,NA
+halenepal,halenepal-Khaling,Khaling,khal1275,27.3912,87.5053,Sino-Tibetan,ROUGH,halenepal-Khaling-1677_rough-2,ma-solāemim,ma-solāemim,Khaling,1,CLICS,klr,trill,http://www.ling.sinica.edu.tw/files/publication/j2012_6_03_7314.pdf,NA,NA
+halenepal,halenepal-Kham,Kham,parb1234,None,None,Sino-Tibetan,ROUGH,halenepal-Kham-1677_rough-2,katala̩ matala̩o,katala̩_matala̩o,Kham,1,CLICS,kgj; kif; kip; kjl,NA,NA,NA,NA
+halenepal,halenepal-Magar,Magar,maga1261,None,None,Sino-Tibetan,ROUGH,halenepal-Magar-1677_rough-2,us-ke,us-ke,Magar,1,CLICS,mgp,no trill,wiki,NA,NA
+halenepal,halenepal-Nepali,Nepali,nepa1254,28.0,85.0,Indo-European,ROUGH,halenepal-Nepali-1677_rough-2,khasro,khasro,Nepali,1,IDS,nep,NA,"also wikipedia says ""r is always a trill""",nep,yes
+halenepal,halenepal-Newar,Newar,newa1246,27.2614,84.9577,Sino-Tibetan,ROUGH,halenepal-Newar-1677_rough-2,chyāka:,chyāka:,Newar,1,CLICS,new,NA,NA,new,NA
+halenepal,halenepal-Sunwar,Sunwar,sunw1242,27.5201,86.2476,Sino-Tibetan,ROUGH,halenepal-Sunwar-1677_rough-2,mā silsil,mā_silsil,Sunwar,1,CLICS,suz,trill,"""A Grammar of Sunwar"". Dörte Borchers. Retrieved 27 August 2018.",NA,NA
+halenepal,halenepal-SahuTamang,Tamang (Sahu),west2415,28.0239,85.0563,Sino-Tibetan,ROUGH,halenepal-SahuTamang-1677_rough-2,'phoppa,'phoppa,Tamang,1,CLICS,taj,NA,NA,taj,NA
+halenepal,halenepal-Thakali,Thakali,thak1245,28.7014,83.6466,Sino-Tibetan,ROUGH,halenepal-Thakali-1677_rough-2,kyohng-pa,kyohng-pa,Thakali,1,CLICS,ths,NA,NA,NA,NA
+hantganbangime,hantganbangime-Bambara,Bambara,bamb1269,14.53,-4.1,Mande,SMOOTH,hantganbangime-Bambara-241_smooth-1,nùgú,nùgú,Bambara,1,CLICS,bam,NA,NA,bam,NA
+hantganbangime,hantganbangime-Bangime,Bangime,bang1363,14.8,-3.76,Bangime,SMOOTH,hantganbangime-Bangime-241_smooth-1,mérú mérù,mérú_mérù,Bangime,1,CLICS,dba,no trill,NA,NA,NA
+hantganbangime,hantganbangime-Bankan_Tey,Bankan_Tey,bank1259,15.07,-2.91,Dogon,SMOOTH,hantganbangime-Bankan_Tey-241_smooth-1,órù-m,órù-m,Bankan_Tey,1,CLICS,dbw,NA,NA,NA,NA
+hantganbangime,hantganbangime-Ben_Tey,Ben_Tey,bent1238,14.85,-2.95,Dogon,SMOOTH,hantganbangime-Ben_Tey-241_smooth-1,órù-m,órù-m,Ben_Tey,1,CLICS,dbt,NA,NA,NA,NA
+hantganbangime,hantganbangime-Bunoge,Bunoge,buno1241,14.65,-3.79,Dogon,SMOOTH,hantganbangime-Bunoge-241_smooth-1,bòràllà-gà,bòràllà-gà,Bunoge,1,CLICS,dgb,no trill,"Heath, Jeffrey (2017), A grammar of Bunoge (Dogon, Mali),",NA,NA
+hantganbangime,hantganbangime-Fulfulde,Fulfulde,maas1239,14.8,-3.84,Atlantic,SMOOTH,hantganbangime-Fulfulde-241_smooth-1,haasaa-de,haasaa-de,Fulfulde,1,CLICS,ffm,NA,NA,ffm,NA
+hantganbangime,hantganbangime-Jamsay,Jamsay,jams1239,14.64,-3.1,Dogon,SMOOTH,hantganbangime-Jamsay-241_smooth-1,ònùrⁿú,ònùrⁿú,Jamsay,1,CLICS,djm,NA,NA,djm,NA
+hantganbangime,hantganbangime-Jenaama,Jenaama,jena1242,14.79,-3.78,Mande,SMOOTH,hantganbangime-Jenaama-241_smooth-1,dáátà-nà,dáátà-nà,Jenaama,1,CLICS,bze,NA,NA,NA,NA
+hantganbangime,hantganbangime-Mombo,Mombo,momb1254,14.51,-3.91,Dogon,SMOOTH,hantganbangime-Mombo-241_smooth-1,ɔ́nɔ́nɔ́,ɔ́nɔ́nɔ́,Mombo,1,CLICS,dmb,NA,NA,NA,NA
+hantganbangime,hantganbangime-Najamba,Najamba,bond1248,14.9,-3.42,Dogon,SMOOTH,hantganbangime-Najamba-241_smooth-1,ónànà ónànɛ̀:,ónànà_ónànɛ̀:,Najamba,1,CLICS,dbu,NA,NA,NA,NA
+hantganbangime,hantganbangime-Nanga,Nanga,nang1261,14.72,-3.02,Dogon,SMOOTH,hantganbangime-Nanga-241_smooth-1,órî,órî,Nanga,1,CLICS,nzz,NA,NA,NA,NA
+hantganbangime,hantganbangime-Songhai_Senni,Songhai_Senni,humb1243,15.28,-1.7,Songhay,SMOOTH,hantganbangime-Songhai_Senni-241_smooth-1,yútúlú,yútúlú,Songhai_Senni,1,CLICS,hmb,NA,NA,NA,NA
+hantganbangime,hantganbangime-Tebul_Ure,Tebul_Ure,tebu1239,14.69,-3.11,Dogon,SMOOTH,hantganbangime-Tebul_Ure-241_smooth-1,ɔ́rⁿɔ́nɛ̀:,ɔ́rⁿɔ́nɛ̀:,Tebul_Ure,1,CLICS,dtu,trill,"Blench, Dendo, & Douyon, 2005 (ms). Tebul Ure, a language of the Dogon group in Northern Mali and its affinities",NA,NA
+hantganbangime,hantganbangime-Tiranige_Diga,Tiranige_Diga,tira1258,14.8,-3.72,Dogon,SMOOTH,hantganbangime-Tiranige_Diga-241_smooth-1,búrádá,búrádá,Tiranige_Diga,1,CLICS,tde,NA,NA,NA,NA
+hantganbangime,hantganbangime-Togo_Kan,Togo_Kan,togo1254,14.16,-3.38,Dogon,SMOOTH,hantganbangime-Togo_Kan-241_smooth-1,ɔ̀rⁿɔ́nɔ́nɔ́,ɔ̀rⁿɔ́nɔ́nɔ́,Togo_Kan,1,CLICS,dtm,no trill,wiki,NA,NA
+hantganbangime,hantganbangime-Tommo_So,Tommo_So,tomm1242,14.67,-3.51,Dogon,SMOOTH,hantganbangime-Tommo_So-241_smooth-1,ɔ̀rɔ̌y,ɔ̀rɔ̌y,Tommo_So,1,CLICS,dto,no trill,wiki,NA,NA
+hantganbangime,hantganbangime-Yanda_Dom,Yanda_Dom,yand1257,14.63,-3.15,Dogon,SMOOTH,hantganbangime-Yanda_Dom-241_smooth-1,ɔ̀rⁿɔ̀ndú,ɔ̀rⁿɔ̀ndú,Yanda_Dom,1,CLICS,dym,NA,NA,NA,NA
+hantganbangime,hantganbangime-Bangime,Bangime,bang1363,14.8,-3.76,Bangime,ROUGH,hantganbangime-Bangime-212_rough-1,sɔ̀ɡɔ́y-bɛ̀,sɔ̀ɡɔ́y-bɛ̀,Bangime,1,CLICS,dba,no trill,NA,NA,NA
+hantganbangime,hantganbangime-Bankan_Tey,Bankan_Tey,bank1259,15.07,-2.91,Dogon,ROUGH,hantganbangime-Bankan_Tey-212_rough-1,kà:sú,kà:sú,Bankan_Tey,1,CLICS,dbw,NA,NA,NA,NA
+hantganbangime,hantganbangime-Ben_Tey,Ben_Tey,bent1238,14.85,-2.95,Dogon,ROUGH,hantganbangime-Ben_Tey-212_rough-1,kúnjù-m,kúnjù-m,Ben_Tey,1,CLICS,dbt,NA,NA,NA,NA
+hantganbangime,hantganbangime-Fulfulde,Fulfulde,maas1239,14.8,-3.84,Atlantic,ROUGH,hantganbangime-Fulfulde-212_rough-1,ɲaadee-de,ɲaadee-de,Fulfulde,1,CLICS,ffm,NA,NA,ffm,NA
+hantganbangime,hantganbangime-Jamsay,Jamsay,jams1239,14.64,-3.1,Dogon,ROUGH,hantganbangime-Jamsay-212_rough-1,kùɲú,kùɲú,Jamsay,1,CLICS,djm,NA,NA,djm,NA
+hantganbangime,hantganbangime-Mombo,Mombo,momb1254,14.51,-3.91,Dogon,ROUGH,hantganbangime-Mombo-212_rough-1,yágárá,yágárá,Mombo,1,CLICS,dmb,NA,NA,NA,NA
+hantganbangime,hantganbangime-Najamba,Najamba,bond1248,14.9,-3.42,Dogon,ROUGH,hantganbangime-Najamba-212_rough-1,yágàjà,yágàjà,Najamba,1,CLICS,dbu,NA,NA,NA,NA
+hantganbangime,hantganbangime-Nanga,Nanga,nang1261,14.72,-3.02,Dogon,ROUGH,hantganbangime-Nanga-212_rough-1,kùnjí,kùnjí,Nanga,1,CLICS,nzz,NA,NA,NA,NA
+hantganbangime,hantganbangime-Songhai_Senni,Songhai_Senni,humb1243,15.28,-1.7,Songhay,ROUGH,hantganbangime-Songhai_Senni-212_rough-1,kàs-ò,kàs-ò,Songhai_Senni,1,CLICS,hmb,NA,NA,NA,NA
+hantganbangime,hantganbangime-Tiranige_Diga,Tiranige_Diga,tira1258,14.8,-3.72,Dogon,ROUGH,hantganbangime-Tiranige_Diga-212_rough-1,yágárá,yágárá,Tiranige_Diga,1,CLICS,tde,NA,NA,NA,NA
+hantganbangime,hantganbangime-Togo_Kan,Togo_Kan,togo1254,14.16,-3.38,Dogon,ROUGH,hantganbangime-Togo_Kan-212_rough-1,kágájú,kágájú,Togo_Kan,1,CLICS,dtm,no trill,wiki,NA,NA
+hantganbangime,hantganbangime-Tommo_So,Tommo_So,tomm1242,14.67,-3.51,Dogon,ROUGH,hantganbangime-Tommo_So-212_rough-1,yágárú,yágárú,Tommo_So,1,CLICS,dto,no trill,wiki,NA,NA
+hantganbangime,hantganbangime-Yanda_Dom,Yanda_Dom,yand1257,14.63,-3.15,Dogon,ROUGH,hantganbangime-Yanda_Dom-212_rough-1,kùnzù,kùnzù,Yanda_Dom,1,CLICS,dym,NA,NA,NA,NA
+hantganbangime,hantganbangime-Songhai_Kiini,Songhai_Kiini,koyr1240,15.21,-2.75,Songhay,ROUGH,hantganbangime-Songhai_Kiini-212_rough-1,kà:s-ǒ:,kà:s-ǒ:,Songhai_Kiini,1,CLICS,khq,NA,NA,khq,NA
+hubercolumbian,hubercolumbian-Kamsa,Kamsá,cams1241,1.14537,-76.8931,Camsá,SMOOTH,hubercolumbian-Kamsa-342_smooth-1,bi̵ngi̵njána,bi̵ngi̵njána,Kamsá,1,CLICS,kbh,NA,NA,kbh,NA
+hubercolumbian,hubercolumbian-Achagua,Achagua,acha1250,4.38649,-72.2005,Arawakan,SMOOTH,hubercolumbian-Achagua-342_smooth-1,imíijai,imíijai,Achagua,1,CLICS,aca,NA,NA,aca,NA
+hubercolumbian,hubercolumbian-Achagua,Achagua,acha1250,4.38649,-72.2005,Arawakan,SMOOTH,hubercolumbian-Achagua-342_smooth-2,ituéjii,ituéjii,Achagua,1,CLICS,aca,NA,NA,aca,NA
+hubercolumbian,hubercolumbian-Awa,Awa,awac1239,1.21652,-78.3401,Barbacoan,SMOOTH,hubercolumbian-Awa-342_smooth-1,si̵nam,si̵nam,Awa,1,CLICS,kwi,NA,NA,kwi,NA
+hubercolumbian,hubercolumbian-Bora,Bora,bora1263,-2.91467,-68.9093,Boran,SMOOTH,hubercolumbian-Bora-342_smooth-1,pʰí̵rɯɯkʰɯ́né,pʰí̵rɯɯkʰɯ́né,Bora,1,CLICS,boa,NA,NA,boa,NA
+hubercolumbian,hubercolumbian-Bora,Bora,bora1263,-2.91467,-68.9093,Boran,SMOOTH,hubercolumbian-Bora-342_smooth-2,mééβane,mééβane,Bora,1,CLICS,boa,NA,NA,boa,NA
+hubercolumbian,hubercolumbian-Bora,Bora,bora1263,-2.91467,-68.9093,Boran,SMOOTH,hubercolumbian-Bora-342_smooth-3,rɯtʰɯ́rɯ́tʰɯ,rɯtʰɯ́rɯ́tʰɯ,Bora,1,CLICS,boa,NA,NA,boa,NA
+hubercolumbian,hubercolumbian-Bora,Bora,bora1263,-2.91467,-68.9093,Boran,SMOOTH,hubercolumbian-Bora-342_smooth-4,tʰɯ́ʔtʰɯ́ríβatʰɯ́ne,tʰɯ́ʔtʰɯ́ríβatʰɯ́ne,Bora,1,CLICS,boa,NA,NA,boa,NA
+hubercolumbian,hubercolumbian-Bari,Barí,bari1297,9.08497,-72.9353,Chibchan,SMOOTH,hubercolumbian-Bari-342_smooth-1,atrobiʃininə,atrobiʃininə,Barí,1,IDS,mot,NA,NA,mot,NA
+hubercolumbian,hubercolumbian-Bara,Bará,waim1255,0.30416,-70.1644,Tucanoan,SMOOTH,hubercolumbian-Bara-342_smooth-1,hipí,hipí,Bará,1,CLICS,bao,NA,NA,bao,NA
+hubercolumbian,hubercolumbian-Guahibo,Guahibo,guah1255,5.81736,-68.9839,Guahiboan,SMOOTH,hubercolumbian-Guahibo-342_smooth-1,ahué,ahué,Guahibo,1,CLICS,guh,NA,NA,guh,NA
+hubercolumbian,hubercolumbian-Guahibo,Guahibo,guah1255,5.81736,-68.9839,Guahiboan,SMOOTH,hubercolumbian-Guahibo-342_smooth-2,kónihai,kónihai,Guahibo,1,CLICS,guh,NA,NA,guh,NA
+hubercolumbian,hubercolumbian-Guahibo,Guahibo,guah1255,5.81736,-68.9839,Guahiboan,SMOOTH,hubercolumbian-Guahibo-342_smooth-3,hapína,hapína,Guahibo,1,CLICS,guh,NA,NA,guh,NA
+hubercolumbian,hubercolumbian-Guahibo,Guahibo,guah1255,5.81736,-68.9839,Guahiboan,SMOOTH,hubercolumbian-Guahibo-342_smooth-4,huehnéka,huehnéka,Guahibo,1,CLICS,guh,NA,NA,guh,NA
+hubercolumbian,hubercolumbian-Barasana,Barasana,bara1380,0.02193,-70.808,Tucanoan,SMOOTH,hubercolumbian-Barasana-342_smooth-1,gosí,gosí,Barasana,1,CLICS,bsn,NA,NA,bsn,NA
+hubercolumbian,hubercolumbian-Secoya,Secoya,seco1241,-0.459785,-75.5547,Tucanoan,SMOOTH,hubercolumbian-Secoya-342_smooth-1,koʔsihaʔiko,koʔsihaʔiko,Secoya,1,CLICS,sey,NA,NA,sey,NA
+hubercolumbian,hubercolumbian-Guambiano,Guambiano,guam1248,2.55849,-76.582,Barbacoan,SMOOTH,hubercolumbian-Guambiano-342_smooth-1,mil,mil,Guambiano,1,CLICS,gum,NA,NA,gum,NA
+hubercolumbian,hubercolumbian-Cuiba,Cuiba,cuib1242,6.19829,-69.8197,Guahiboan,SMOOTH,hubercolumbian-Cuiba-342_smooth-1,áxue,áxue,Cuiba,1,CLICS,cui,NA,NA,cui,NA
+hubercolumbian,hubercolumbian-Cuiba,Cuiba,cuib1242,6.19829,-69.8197,Guahiboan,SMOOTH,hubercolumbian-Cuiba-342_smooth-2,dámei,dámei,Cuiba,1,CLICS,cui,NA,NA,cui,NA
+hubercolumbian,hubercolumbian-Carijona,Carijona,cari1279,1.21894,-72.0664,Cariban,SMOOTH,hubercolumbian-Carijona-342_smooth-1,sarasarame,sarasarame,Carijona,1,CLICS,cbd,no rhotic,http://www.native-languages.org/carijona_guide.htm,cbd,NA
+hubercolumbian,hubercolumbian-Macuna,Macuna,macu1260,-0.14459,-70.0749,Tucanoan,SMOOTH,hubercolumbian-Macuna-342_smooth-1,gosi,gosi,Macuna,1,CLICS,myy,NA,NA,myy,NA
+hubercolumbian,hubercolumbian-Chimila,Chimila,chim1309,10.1902,-74.2559,Chibchan,SMOOTH,hubercolumbian-Chimila-342_smooth-1,píiroʔ,píiroʔ,Chimila,1,CLICS,cbg,NA,NA,cbg,NA
+hubercolumbian,hubercolumbian-Guayabero,Guayabero,guay1257,2.8969,-71.844,Guahiboan,SMOOTH,hubercolumbian-Guayabero-342_smooth-1,hahóek,hahóek,Guayabero,1,CLICS,guo,NA,NA,guo,NA
+hubercolumbian,hubercolumbian-EmberaChami,Embera Chamí,embe1262,4.8791,-76.0749,Chocoan,SMOOTH,hubercolumbian-EmberaChami-342_smooth-1,kʰakʰajá,kʰakʰajá,Embera Chamí,1,CLICS,cmi,mixed with trill,NA,cmi,NA
+hubercolumbian,hubercolumbian-Carapana,Carapana,cara1272,0.06168,-69.6465,Tucanoan,SMOOTH,hubercolumbian-Carapana-342_smooth-1,jãbẽ́rõ,jãbẽ́rõ,Carapana,1,CLICS,cbc,trill,"""vibrante""; Instituto Linguistico de Verano (1973) Sistemas fonologicos de idiomas colombianos. Vol 2. Editorial Townsend. p. 126.",cbc,NA
+hubercolumbian,hubercolumbian-Carapana,Carapana,cara1272,0.06168,-69.6465,Tucanoan,SMOOTH,hubercolumbian-Carapana-342_smooth-2,jabé,jabé,Carapana,1,CLICS,cbc,trill,"""vibrante""; Instituto Linguistico de Verano (1973) Sistemas fonologicos de idiomas colombianos. Vol 2. Editorial Townsend. p. 126.",cbc,NA
+hubercolumbian,hubercolumbian-Curripaco,Curripaco,curr1243,0.69618,-67.5028,Arawakan,SMOOTH,hubercolumbian-Curripaco-342_smooth-1,ketidali,ketidali,Curripaco,1,CLICS,kpc,NA,NA,kpc,NA
+hubercolumbian,hubercolumbian-Ika,Ika,arhu1242,10.7018,-73.6363,Chibchan,SMOOTH,hubercolumbian-Ika-342_smooth-1,ʒən,ʒən,Ika,1,CLICS,arh,NA,NA,arh,NA
+hubercolumbian,hubercolumbian-Catio,Catío,embe1260,7.52721,-76.7476,Chocoan,SMOOTH,hubercolumbian-Catio-342_smooth-1,kʰaikʰajá,kʰaikʰajá,Catío,1,CLICS,cto,trill,wiki,cto,NA
+hubercolumbian,hubercolumbian-Cubeo,Cubeo,cube1242,1.32382,-70.1939,Tucanoan,SMOOTH,hubercolumbian-Cubeo-342_smooth-1,jarídõ,jarídõ,Cubeo,1,CLICS,cub,NA,NA,cub,NA
+hubercolumbian,hubercolumbian-Muinane,Muinane,muin1242,-0.8652,-72.4249,Boran,SMOOTH,hubercolumbian-Muinane-342_smooth-1,párʲí̵í̵ki̵no,párʲí̵í̵ki̵no,Muinane,1,CLICS,bmr,NA,NA,bmr,NA
+hubercolumbian,hubercolumbian-Muinane,Muinane,muin1242,-0.8652,-72.4249,Boran,SMOOTH,hubercolumbian-Muinane-342_smooth-2,móóβano,móóβano,Muinane,1,CLICS,bmr,NA,NA,bmr,NA
+hubercolumbian,hubercolumbian-Muinane,Muinane,muin1242,-0.8652,-72.4249,Boran,SMOOTH,hubercolumbian-Muinane-342_smooth-3,rí̵rí̵kuno,rí̵rí̵kuno,Muinane,1,CLICS,bmr,NA,NA,bmr,NA
+hubercolumbian,hubercolumbian-Desano,Desano,desa1247,0.58157,-69.4955,Tucanoan,SMOOTH,hubercolumbian-Desano-342_smooth-1,japí,japí,Desano,1,CLICS,des,no rhotic,wiki,des,NA
+hubercolumbian,hubercolumbian-Inga,Inga,inga1252,1.00313,-76.8606,Quechuan,SMOOTH,hubercolumbian-Inga-342_smooth-1,lʲúʧka,lʲúʧka,Inga,1,CLICS,inb,NA,NA,inb,NA
+hubercolumbian,hubercolumbian-Dimina,Dí̵mi̵na,mala1522,10.9286,-73.4056,Chibchan,SMOOTH,hubercolumbian-Dimina-342_smooth-1,suru kwáiga,suru kwáiga,Dí̵mi̵na,1,CLICS,mbp,NA,NA,mbp,NA
+hubercolumbian,hubercolumbian-Nukak,Nukak,nuka1242,2.65939,-71.4629,Kakua-Nukak,SMOOTH,hubercolumbian-Nukak-342_smooth-1,hĩõ²,hĩõ²,Nukak,1,CLICS,mbr,NA,NA,mbr,NA
+hubercolumbian,hubercolumbian-Jitnu,Jitnu,maca1259,6.34582,-71.2671,Guahiboan,SMOOTH,hubercolumbian-Jitnu-342_smooth-1,huehuék,huehuék,Jitnu,1,CLICS,mbn,NA,NA,mbn,NA
+hubercolumbian,hubercolumbian-Koreguaje,Koreguaje,kore1283,0.92316,-75.3475,Tucanoan,SMOOTH,hubercolumbian-Koreguaje-342_smooth-1,si̵ʔkʰahaʔi,si̵ʔkʰahaʔi,Koreguaje,1,CLICS,coe,NA,NA,coe,NA
+hubercolumbian,hubercolumbian-Paez,Páez,paez1247,2.61516,-76.3125,Páez,SMOOTH,hubercolumbian-Paez-342_smooth-1,laβj,laβj,Páez,1,IDS,pbb,NA,NA,pbb,NA
+hubercolumbian,hubercolumbian-Paez,Páez,paez1247,2.61516,-76.3125,Páez,SMOOTH,hubercolumbian-Paez-342_smooth-2,xʲuʔde,xʲuʔde,Páez,1,IDS,pbb,NA,NA,pbb,NA
+hubercolumbian,hubercolumbian-Kakua,Kakua,cacu1241,0.88778,-69.5659,Kakua-Nukak,SMOOTH,hubercolumbian-Kakua-342_smooth-1,ʔiti³dĩ⁴,ʔiti³dĩ⁴,Kakua,1,CLICS,cbv,NA,NA,cbv,NA
+hubercolumbian,hubercolumbian-WitotoMinica,Witoto Mi̵ni̵ca,mini1256,-1.54535,-73.1107,Huitotoan,SMOOTH,hubercolumbian-WitotoMinica-342_smooth-1,rɯ́ɯrede,rɯ́ɯrede,Witoto Mi̵ni̵ca,1,CLICS,hto,NA,NA,hto,NA
+hubercolumbian,hubercolumbian-Kogui,Kogui,cogu1240,10.9485,-73.8043,Chibchan,SMOOTH,hubercolumbian-Kogui-342_smooth-1,súlduk,súlduk,Kogui,1,CLICS,kog,NA,NA,kog,NA
+hubercolumbian,hubercolumbian-WitotoNipode,Witoto Ni̵pode,nupo1240,-2.34495,-70.9559,Huitotoan,SMOOTH,hubercolumbian-WitotoNipode-342_smooth-1,rɯ́ɯrede,rɯ́ɯrede,Witoto Ni̵pode,1,CLICS,hux,no trill,wiki,NA,NA
+hubercolumbian,hubercolumbian-Piratapuyo,Piratapuyo,pira1254,0.50714,-69.5032,Tucanoan,SMOOTH,hubercolumbian-Piratapuyo-342_smooth-1,jaʔpi,jaʔpi,Piratapuyo,1,CLICS,pir,NA,NA,pir,NA
+hubercolumbian,hubercolumbian-Playero,Playero,play1240,6.90948,-71.0036,Guahiboan,SMOOTH,hubercolumbian-Playero-342_smooth-1,binéhai,binéhai,Playero,1,CLICS,gob,trill,wiki,NA,NA
+hubercolumbian,hubercolumbian-Playero,Playero,play1240,6.90948,-71.0036,Guahiboan,SMOOTH,hubercolumbian-Playero-342_smooth-2,ahúe,ahúe,Playero,1,CLICS,gob,trill,wiki,NA,NA
+hubercolumbian,hubercolumbian-WitotoMurui,Witoto Murui,muru1274,-1.13669,-73.8331,Huitotoan,SMOOTH,hubercolumbian-WitotoMurui-342_smooth-1,rɯhɯrede,rɯhɯrede,Witoto Murui,1,CLICS,huu,NA,NA,huu,NA
+hubercolumbian,hubercolumbian-Ocaina,Ocaina,ocai1244,-2.159,-72.1422,Huitotoan,SMOOTH,hubercolumbian-Ocaina-342_smooth-1,ɸííji,ɸííji,Ocaina,1,CLICS,oca,NA,NA,oca,NA
+hubercolumbian,hubercolumbian-Resigaro,Resígaro,resi1247,-2.48139,-71.3578,Arawakan,SMOOTH,hubercolumbian-Resigaro-342_smooth-1,heʔníʔ,heʔníʔ,Resígaro,1,CLICS,rgr,NA,NA,rgr,NA
+hubercolumbian,hubercolumbian-Saliba,Sáliba,sali1298,5.30115,-69.3843,Jodi-Saliban,SMOOTH,hubercolumbian-Saliba-342_smooth-1,hekaga,hekaga,Sáliba,1,CLICS,slc,NA,NA,slc,NA
+hubercolumbian,hubercolumbian-Saliba,Sáliba,sali1298,5.30115,-69.3843,Jodi-Saliban,SMOOTH,hubercolumbian-Saliba-342_smooth-2,hõĩga,hõĩga,Sáliba,1,CLICS,slc,NA,NA,slc,NA
+hubercolumbian,hubercolumbian-Siona,Siona,sion1247,0.31733,-76.0237,Tucanoan,SMOOTH,hubercolumbian-Siona-342_smooth-1,goʔsihi,goʔsihi,Siona,1,IDS,snn,NA,NA,snn,NA
+hubercolumbian,hubercolumbian-Siriano,Siriano,siri1274,0.436515,-70.184,Tucanoan,SMOOTH,hubercolumbian-Siriano-342_smooth-1,sibírí,sibírí,Siriano,1,CLICS,sri,NA,NA,sri,NA
+hubercolumbian,hubercolumbian-Tatuyo,Tatuyo,tatu1247,0.55582,-70.5327,Tucanoan,SMOOTH,hubercolumbian-Tatuyo-342_smooth-1,jabí,jabí,Tatuyo,1,CLICS,tav,NA,NA,tav,NA
+hubercolumbian,hubercolumbian-Tucano,Tucano,tuca1252,0.579755,-69.5763,Tucanoan,SMOOTH,hubercolumbian-Tucano-342_smooth-1,jaʔpí,jaʔpí,Tucano,1,CLICS,tuo,NA,NA,tuo,NA
+hubercolumbian,hubercolumbian-Tanimuca,Tanimuca,tani1257,-0.59023,-70.3853,Tucanoan,SMOOTH,hubercolumbian-Tanimuca-342_smooth-1,oia,oia,Tanimuca,1,CLICS,tnc,NA,NA,tnc,NA
+hubercolumbian,hubercolumbian-TuneboCentral,Tunebo Central,cent2150,6.8867,-72.097,Chibchan,SMOOTH,hubercolumbian-TuneboCentral-342_smooth-1,tuníra,tuníra,Tunebo Central,1,CLICS,tuf,trill,wiki,tuf,NA
+hubercolumbian,hubercolumbian-Tariano,Tariano,tari1256,0.440205,-68.9042,Arawakan,SMOOTH,hubercolumbian-Tariano-342_smooth-1,makapiʧʰínha,makapiʧʰínha,Tariano,1,CLICS,tae,NA,NA,tae,NA
+hubercolumbian,hubercolumbian-Totoro,Totoró,toto1306,2.55149,-76.6379,Barbacoan,SMOOTH,hubercolumbian-Totoro-342_smooth-1,lisoki̵tan,lisoki̵tan,Totoró,1,CLICS,ttk,trill,wiki,NA,NA
+hubercolumbian,hubercolumbian-Tuyuca,Tuyuca,tuyu1244,0.39441,-70.043515,Tucanoan,SMOOTH,hubercolumbian-Tuyuca-342_smooth-1,sipí,sipí,Tuyuca,1,IDS,tue,NA,flap,tue,no
+hubercolumbian,hubercolumbian-Wounaan,Wounaan,woun1238,8.5,-78.0,Chocoan,SMOOTH,hubercolumbian-Wounaan-342_smooth-1,ptpʰɯɾ,ptpʰɯɾ,Wounaan,1,CLICS,noa,NA,NA,noa,NA
+hubercolumbian,hubercolumbian-Wanano,Wanano,guan1269,1.07554,-69.5705,Tucanoan,SMOOTH,hubercolumbian-Wanano-342_smooth-1,jaʔpi,jaʔpi,Wanano,1,CLICS,gvc,no trill,wiki,gvc,NA
+hubercolumbian,hubercolumbian-Yucuna,Yucuna,yucu1253,-0.76075,-71.0033,Arawakan,SMOOTH,hubercolumbian-Yucuna-342_smooth-1,kapilúni̵,kapilúni̵,Yucuna,1,CLICS,ycn,NA,NA,ycn,NA
+hubercolumbian,hubercolumbian-Yukpa,Yukpa,yukp1241,9.67534,-73.0557,Cariban,SMOOTH,hubercolumbian-Yukpa-342_smooth-1,eróra,eróra,Yukpa,1,CLICS,yup,NA,NA,yup,NA
+hubercolumbian,hubercolumbian-Yuruti,Yurutí,yuru1263,0.735585,-69.6955,Tucanoan,SMOOTH,hubercolumbian-Yuruti-342_smooth-1,sípii,sípii,Yurutí,1,CLICS,yui,NA,NA,yui,NA
+ids,ids-32,Andi,andi1255,42.8078,46.2919,Nakh-Daghestanian,SMOOTH,ids-32-15-770-1,гьарчІчІи,harč̄ʼi,Andi,2,CLICS,ani,trill,wiki,NA,NA
+ids,ids-33,Akhvakh (Northern dialect),akhv1239,42.4003,46.3037,Nakh-Daghestanian,SMOOTH,ids-33-15-770-1,"кьІабадабе, кьІедабе, цІвакадабе",ƛʼabadabe,Akhvakh,2,CLICS,akv,trill,wiki,NA,NA
+ids,ids-33,Akhvakh (Northern dialect),akhv1239,42.4003,46.3037,Nakh-Daghestanian,SMOOTH,ids-33-15-770-2,"кьІабадабе, кьІедабе, цІвакадабе",ƛʼedabe,Akhvakh,2,CLICS,akv,trill,wiki,NA,NA
+ids,ids-33,Akhvakh (Northern dialect),akhv1239,42.4003,46.3037,Nakh-Daghestanian,SMOOTH,ids-33-15-770-3,"кьІабадабе, кьІедабе, цІвакадабе",cʼʷakadabe,Akhvakh,2,CLICS,akv,trill,wiki,NA,NA
+ids,ids-35,Bagvalal,bagv1239,42.3966,46.1041,Nakh-Daghestanian,SMOOTH,ids-35-15-770-1,"ламидуб, рагьадуб",lamidub,Bagvalal,1,CLICS,kva,NA,NA,NA,NA
+ids,ids-35,Bagvalal,bagv1239,42.3966,46.1041,Nakh-Daghestanian,SMOOTH,ids-35-15-770-2,"ламидуб, рагьадуб",rahadub,Bagvalal,1,CLICS,kva,NA,NA,NA,NA
+ids,ids-37,Botlikh,botl1242,42.665,46.22,Nakh-Daghestanian,SMOOTH,ids-37-15-770-1,битІи,bitʼi,Botlikh,2,CLICS,bph,NA,NA,NA,NA
+ids,ids-38,Godoberi,ghod1238,42.7428,46.2252,Nakh-Daghestanian,SMOOTH,ids-38-15-770-1,битІи(ссу),bitʼi,Godoberi,1,CLICS,gdo,NA,NA,NA,NA
+ids,ids-39,Karata,kara1474,42.6501,46.3151,Nakh-Daghestanian,SMOOTH,ids-39-15-770-1,жержабоб,žeržabob,Karata,2,CLICS,kpt,trill,wiki,NA,NA
+ids,ids-41,Khwarshi (Khwarshi dialect),xvar1237,None,None,Nakh-Daghestanian,SMOOTH,ids-41-15-770-1,гагалу,gagalu,Khwarshi,2,CLICS,khv,trill,NA,NA,NA
+ids,ids-42,Hinuq,hinu1240,42.4502,45.8064,Nakh-Daghestanian,SMOOTH,ids-42-15-770-1,гагару,gagaru,Hinuq,1,CLICS,gin,trill,wiki,NA,NA
+ids,ids-50,Tindi,tind1238,42.3316,45.9227,Nakh-Daghestanian,SMOOTH,ids-50-15-770-1,чаᴴчуб,čaⁿčub,Tindi,1,CLICS,tin,NA,NA,NA,NA
+ids,ids-51,Chamalal,cham1309,42.5024,45.995,Nakh-Daghestanian,SMOOTH,ids-51-15-770-1,шаᴴшуб,šaⁿšub,Chamalal,2,CLICS,cji,trill,https://omniglot.com/writing/chamalal.htm,NA,NA
+ids,ids-52,Hunzib,hunz1247,42.0808,46.1369,Nakh-Daghestanian,SMOOTH,ids-52-15-770-1,какалу,kakalu,Hunzib,1,CLICS,huz,trill,wiki,NA,NA
+ids,ids-56,Lak,lakk1252,42.1328,47.0809,Nakh-Daghestanian,SMOOTH,ids-56-15-770-1,саргъунсса,sarɣuns̄a,Lak,4,CLICS,lbe,NA,NA,lbe,NA
+ids,ids-57,Dargwa,darg1241,42.4257,47.4388,Nakh-Daghestanian,SMOOTH,ids-57-15-770-1,"гъалагси, лугІянси",ɣalagsi,Dargwa,18,CLICS,dar,trill,wiki,NA,NA
+ids,ids-57,Dargwa,darg1241,42.4257,47.4388,Nakh-Daghestanian,SMOOTH,ids-57-15-770-2,"гъалагси, лугІянси",luʕaˤnsi,Dargwa,18,CLICS,dar,trill,wiki,NA,NA
+ids,ids-61,Aghul,aghu1253,41.9242,47.5843,Nakh-Daghestanian,SMOOTH,ids-61-15-770-1,шергвеф,šergʷef,Aghul,2,CLICS,agx,trill,wiki,NA,NA
+ids,ids-63,Budukh,budu1248,41.2272,48.3353,Nakh-Daghestanian,SMOOTH,ids-63-15-770-1,гІамавар,ʕamawar,Budukh,1,CLICS,bdk,NA,NA,NA,NA
+ids,ids-64,Lezgian,lezg1247,41.5157,47.8951,Nakh-Daghestanian,SMOOTH,ids-64-15-770-1,цІалцІам,cʼalcʼam,Lezgian,2,CLICS,lez,trill,wiki,NA,NA
+ids,ids-66,Rutul,rutu1240,41.6187,47.3244,Nakh-Daghestanian,SMOOTH,ids-66-15-770-1,дуьзды,düzdɨ,Rutul,5,CLICS,rut,NA,NA,rut,NA
+ids,ids-68,Tabasaran (Southern dialect),sout2752,None,None,Nakh-Daghestanian,SMOOTH,ids-68-15-770-1,цІалцІм,cʼalcʼm,Tabasaran,2,CLICS,tab,trill,wiki,NA,NA
+ids,ids-69,Khinalug,khin1240,41.1801,48.0571,Nakh-Daghestanian,SMOOTH,ids-69-15-770-1,"гьамавар, никІаьз",hamawar,Khinalug,1,CLICS,kjj,trill,wiki,NA,NA
+ids,ids-69,Khinalug,khin1240,41.1801,48.0571,Nakh-Daghestanian,SMOOTH,ids-69-15-770-2,"гьамавар, никІаьз",nikʼäz,Khinalug,1,CLICS,kjj,trill,wiki,NA,NA
+ids,ids-70,Tsakhur,tsak1249,41.5916,46.8858,Nakh-Daghestanian,SMOOTH,ids-70-15-770-1,гьамаварын,hamawarɨn,Tsakhur,2,CLICS,tkr,trill,wiki,NA,NA
+ids,ids-72,Kumyk,kumy1244,43.0,47.0,Turkic,SMOOTH,ids-72-15-770-1,"тегиш, тюз",tegiš,Kumyk,6,CLICS,kum,trill,https://www.omniglot.com/writing/kumyk.php,NA,NA
+ids,ids-72,Kumyk,kumy1244,43.0,47.0,Turkic,SMOOTH,ids-72-15-770-2,"тегиш, тюз",tüz,Kumyk,6,CLICS,kum,trill,https://www.omniglot.com/writing/kumyk.php,NA,NA
+ids,ids-73,Nogai,noga1249,43.5917,46.6618,Turkic,SMOOTH,ids-73-15-770-1,"тешс, туьз",tešs,Nogai,1,CLICS,nog,NA,NA,NA,NA
+ids,ids-73,Nogai,noga1249,43.5917,46.6618,Turkic,SMOOTH,ids-73-15-770-2,"тешс, туьз",tüz,Nogai,1,CLICS,nog,NA,NA,NA,NA
+ids,ids-74,Judeo-Tat,jude1256,42.068306,48.264749,Indo-European,SMOOTH,ids-74-15-770-1,шумол,šumol,Judeo-Tat,1,CLICS,jdt,no trill,wiki,NA,NA
+ids,ids-75,Chechen,chec1245,43.5,45.5,Nakh-Daghestanian,SMOOTH,ids-75-15-770-1,ше̄ра,šēra,Chechen,2,CLICS,che,NA,NA,che,NA
+ids,ids-80,Udi,udii1243,40.9,47.7236,Nakh-Daghestanian,SMOOTH,ids-80-15-770-1,гьамавар,hamavar,Udi,1,CLICS,udi,trill,wiki,NA,NA
+ids,ids-107,Avar,avar1256,41.7047,46.558,Nakh-Daghestanian,SMOOTH,ids-107-15-770-1,цІвакараб,cʼʷakarab,Avar,8,CLICS,ava,NA,NA,ava,NA
+ids,ids-126,Erzya Mordvin,erzy1239,52.8548,45.3901,Uralic,SMOOTH,ids-126-15-770-1,valanʸa,valanʸa,Erzya Mordvin,1,IDS,myv,NA,based on wikipedia,myv,yes
+ids,ids-127,Estonian,esto1258,58.55,25.82,Uralic,SMOOTH,ids-127-15-770-1,sile; tasane,sile,Estonian,1,IDS,est,NA,based on wikipedia,est,yes
+ids,ids-127,Estonian,esto1258,58.55,25.82,Uralic,SMOOTH,ids-127-15-770-2,sile; tasane,tasane,Estonian,1,IDS,est,NA,based on wikipedia,est,yes
+ids,ids-128,Finnish,finn1318,64.7628,25.5577,Uralic,SMOOTH,ids-128-15-770-1,sileæ; tasainen,sileæ,Finnish,1,IDS,fin,NA,NA,fin,yes
+ids,ids-128,Finnish,finn1318,64.7628,25.5577,Uralic,SMOOTH,ids-128-15-770-2,sileæ; tasainen,tasainen,Finnish,1,IDS,fin,NA,NA,fin,yes
+ids,ids-131,Hungarian,hung1274,46.9068585714,19.6555271429,Uralic,SMOOTH,ids-131-15-770-1,sima,šima,Hungarian,1,IDS,hun,NA,NA,hun,yes
+ids,ids-135,Khanty,khan1273,62.4308,66.1218,Uralic,SMOOTH,ids-135-15-770-1,paylɨ,paylɨ,Khanty,1,IDS,kca,NA,NA,kca,NA
+ids,ids-139,Komi,komi1268,64.0527,54.946,Uralic,SMOOTH,ids-139-15-770-1,šɩlʸɩd; molʸɩd,šɩlʸɩd,Komi,1,IDS,kpv,NA,NA,kpv,yes
+ids,ids-139,Komi,komi1268,64.0527,54.946,Uralic,SMOOTH,ids-139-15-770-2,šɩlʸɩd; molʸɩd,molʸɩd,Komi,1,IDS,kpv,NA,NA,kpv,yes
+ids,ids-143,Northern Saami,nort2671,68.725,22.1113,Uralic,SMOOTH,ids-143-15-770-1,livttis,livttis,Northern Saami,1,IDS,sme,NA,NA,sma,yes
+ids,ids-146,Mansi,mans1258,64.4118,61.344,Uralic,SMOOTH,ids-146-15-770-1,sastum,sastum,Mansi,1,IDS,mns,NA,NA,mns,NA
+ids,ids-147,Mari,east2328,55.8307,48.405,Uralic,SMOOTH,ids-147-15-770-1,'tör̃ ~ šə'ma,'tör̃,Mari,1,IDS,mhr,NA,tap/flap,mhr,no
+ids,ids-147,Mari,east2328,55.8307,48.405,Uralic,SMOOTH,ids-147-15-770-2,'tör̃ ~ šə'ma,šə'ma,Mari,1,IDS,mhr,NA,tap/flap,mhr,no
+ids,ids-148,Nenets,nene1249,66.1775,71.0234,Uralic,SMOOTH,ids-148-15-770-1,salmuy,salmuy,Nenets,1,IDS,yrk,NA,NA,yrk,yes
+ids,ids-151,Selkup,selk1253,59.9409,82.3004,Uralic,SMOOTH,ids-151-15-770-1,nur̃ḳɨlʸ,nur̃ḳɨlʸ,Selkup,1,IDS,sel,NA,NA,sel,NA
+ids,ids-159,Udmurt,udmu1245,56.12921,52.63548,Uralic,SMOOTH,ids-159-15-770-1,volʸɩt; čoškɩt,volʸɩt,Udmurt,1,IDS,udm,NA,based on wikipedia,udm,yes
+ids,ids-159,Udmurt,udmu1245,56.12921,52.63548,Uralic,SMOOTH,ids-159-15-770-2,volʸɩt; čoškɩt,čoškɩt,Udmurt,1,IDS,udm,NA,based on wikipedia,udm,yes
+ids,ids-160,Bezhta,bezh1248,42.1206,46.0332,Nakh-Daghestanian,SMOOTH,ids-160-15-770-1,кІакІало,kʼakʼalo,Bezhta,3,CLICS,kap,trill,wiki,NA,NA
+ids,ids-167,Ancient Greek,anci1242,39.8155,21.9129,Indo-European,SMOOTH,ids-167-15-770-1,'leios,'leios,Ancient Greek,1,IDS,grc,NA,NA,grc,NA
+ids,ids-168,Modern Greek,mode1248,38.36,23.13,Indo-European,SMOOTH,ids-168-15-770-1,'lios,'lios,Modern Greek,1,IDS,ell,NA,tap; wikipedia says it may be produced as trill in clusters,ell,no
+ids,ids-169,Latin,lati1261,41.9026,12.4502,Indo-European,SMOOTH,ids-169-15-770-1,lēvis,lēvis,Latin,1,IDS,lat,NA,NA,lat,NA
+ids,ids-170,Italian,ital1282,43.0464,12.6489,Indo-European,SMOOTH,ids-170-15-770-1,liscio,liscio,Italian,1,IDS,ita,NA,NA,ita,yes
+ids,ids-171,French,stan1290,48.0,2.0,Indo-European,SMOOTH,ids-171-15-770-1,lisse,lisse,French,1,IDS,fra,NA,NA,fra,yes
+ids,ids-172,Panare,enap1235,6.95035,-65.8483,Cariban,SMOOTH,ids-172-15-770-1,t-ɨkarin-ke,t-ɨkarin-ke,Panare,1,IDS,pbh,NA,in addition wikipedia says it's a flap,pbh,no
+ids,ids-173,Macushi,macu1259,4.31861,-60.2209,Cariban,SMOOTH,ids-173-15-770-1,erekkuru,erekkuru,Macushi,1,IDS,mbc,NA,NA,mbc,NA
+ids,ids-174,De'kwana,maqu1238,4.70705,-64.3877,Cariban,SMOOTH,ids-174-15-770-1,tɨwansuʔde,tɨwansuʔde,De'kwana,1,IDS,mch,NA,NA,mch,NA
+ids,ids-175,Wai Wai,waiw1244,1.50881,-59.1417,Cariban,SMOOTH,ids-175-15-770-1,t-memese,t-memese,Wai Wai,1,IDS,waw,NA,flap or approximant,waw,no
+ids,ids-176,Spanish,stan1288,40.4414,-1.11788,Indo-European,SMOOTH,ids-176-15-770-1,suave; liso,suave,Spanish,1,IDS,spa,NA,NA,spa,yes
+ids,ids-176,Spanish,stan1288,40.4414,-1.11788,Indo-European,SMOOTH,ids-176-15-770-2,suave; liso,liso,Spanish,1,IDS,spa,NA,NA,spa,yes
+ids,ids-177,Catalan,stan1289,41.453,1.569,Indo-European,SMOOTH,ids-177-15-770-1,llis,llis,Catalan,1,IDS,cat,NA,NA,cat,yes
+ids,ids-178,Portuguese,port1283,39.91,-8.1,Indo-European,SMOOTH,ids-178-15-770-1,liso; macio,liso,Portuguese,1,IDS,por,NA,flap,por,no
+ids,ids-178,Portuguese,port1283,39.91,-8.1,Indo-European,SMOOTH,ids-178-15-770-2,liso; macio,macio,Portuguese,1,IDS,por,NA,flap,por,no
+ids,ids-179,Romanian,roma1327,46.3913,24.2256,Indo-European,SMOOTH,ids-179-15-770-1,neted,neted,Romanian,1,IDS,ron,NA,NA,ron,yes
+ids,ids-180,Old Irish,oldi1245,53.0,-8.0,Indo-European,SMOOTH,ids-180-15-770-1,rēid; mīn,rēid,Old Irish,1,IDS,NA,NA,NA,NA,NA
+ids,ids-180,Old Irish,oldi1245,53.0,-8.0,Indo-European,SMOOTH,ids-180-15-770-2,rēid; mīn,mīn,Old Irish,1,IDS,NA,NA,NA,NA,NA
+ids,ids-181,Irish,iris1253,53.2186,-7.61509,Indo-European,SMOOTH,ids-181-15-770-1,réidh; mín,réidh,Irish,1,IDS,gle,NA,tap,gle,no
+ids,ids-181,Irish,iris1253,53.2186,-7.61509,Indo-European,SMOOTH,ids-181-15-770-2,réidh; mín,mín,Irish,1,IDS,gle,NA,tap,gle,no
+ids,ids-182,Welsh,wels1247,52.0,-4.0,Indo-European,SMOOTH,ids-182-15-770-1,llyfn,llyfn,Welsh,1,IDS,cym,NA,based on wikipedia,cym,yes
+ids,ids-183,Breton,bret1244,48.2452,-3.78934,Indo-European,SMOOTH,ids-183-15-770-1,flour,flour,Breton,1,IDS,bre,NA,NA,bre,yes
+ids,ids-184,Gothic,goth1244,46.9304,29.9786,Indo-European,SMOOTH,ids-184-15-770-1,slaihts,slaihts,Gothic,1,IDS,got,NA,NA,got,NA
+ids,ids-185,Old Norse,oldn1244,63.42,10.38,Indo-European,SMOOTH,ids-185-15-770-1,slēttr,slēttr,Old Norse,1,IDS,NA,NA,NA,NA,NA
+ids,ids-186,Danish,dani1285,54.8655,9.36284,Indo-European,SMOOTH,ids-186-15-770-1,glat; jævn,glat,Danish,1,IDS,dan,NA,voiced uvular fricative; says Wikipedia,dan,no
+ids,ids-186,Danish,dani1285,54.8655,9.36284,Indo-European,SMOOTH,ids-186-15-770-2,glat; jævn,jævn,Danish,1,IDS,dan,NA,voiced uvular fricative; says Wikipedia,dan,no
+ids,ids-187,Swedish,swed1254,59.800634,17.389526,Indo-European,SMOOTH,ids-187-15-770-1,slät; jämn; glatt,slät,Swedish,1,IDS,swe,NA,approximant,swe,no
+ids,ids-187,Swedish,swed1254,59.800634,17.389526,Indo-European,SMOOTH,ids-187-15-770-2,slät; jämn; glatt,jämn,Swedish,1,IDS,swe,NA,approximant,swe,no
+ids,ids-187,Swedish,swed1254,59.800634,17.389526,Indo-European,SMOOTH,ids-187-15-770-3,slät; jämn; glatt,glatt,Swedish,1,IDS,swe,NA,approximant,swe,no
+ids,ids-188,Old English,olde1238,51.06,-1.31,Indo-European,SMOOTH,ids-188-15-770-1,smēθe; unrūh,smēθe,Old English,1,IDS,ang,NA,NA,ang,NA
+ids,ids-188,Old English,olde1238,51.06,-1.31,Indo-European,SMOOTH,ids-188-15-770-2,smēθe; unrūh,unrūh,Old English,1,IDS,ang,NA,NA,ang,NA
+ids,ids-189,Middle English,midd1317,51.65,-1.11,Indo-European,SMOOTH,ids-189-15-770-1,smothe; smethe; slight,smothe,Middle English,1,IDS,NA,NA,NA,NA,NA
+ids,ids-189,Middle English,midd1317,51.65,-1.11,Indo-European,SMOOTH,ids-189-15-770-2,smothe; smethe; slight,smethe,Middle English,1,IDS,NA,NA,NA,NA,NA
+ids,ids-189,Middle English,midd1317,51.65,-1.11,Indo-European,SMOOTH,ids-189-15-770-3,smothe; smethe; slight,slight,Middle English,1,IDS,NA,NA,NA,NA,NA
+ids,ids-190,English,stan1293,53.0,-1.0,Indo-European,SMOOTH,ids-190-15-770-1,smooth,smooth,English,1,IDS,eng,NA,approximant,eng,no
+ids,ids-191,Dutch,dutc1256,52.0,5.0,Indo-European,SMOOTH,ids-191-15-770-1,glad; effen,glad,Dutch,1,IDS,nld,NA,R,nld,yes
+ids,ids-191,Dutch,dutc1256,52.0,5.0,Indo-European,SMOOTH,ids-191-15-770-2,glad; effen,effen,Dutch,1,IDS,nld,NA,R,nld,yes
+ids,ids-192,Old High German,oldh1241,52.0,10.0,Indo-European,SMOOTH,ids-192-15-770-1,sleht; (h)lūt(t)ar,sleht,Old High German,1,IDS,goh,NA,NA,goh,NA
+ids,ids-192,Old High German,oldh1241,52.0,10.0,Indo-European,SMOOTH,ids-192-15-770-2,sleht; (h)lūt(t)ar,lūtar,Old High German,1,IDS,goh,NA,NA,goh,NA
+ids,ids-193,Middle High German,midd1343,48.254,10.599,Indo-European,SMOOTH,ids-193-15-770-1,glat; sleht; eben,glat,Middle High German,1,IDS,NA,NA,NA,NA,NA
+ids,ids-193,Middle High German,midd1343,48.254,10.599,Indo-European,SMOOTH,ids-193-15-770-2,glat; sleht; eben,sleht,Middle High German,1,IDS,NA,NA,NA,NA,NA
+ids,ids-193,Middle High German,midd1343,48.254,10.599,Indo-European,SMOOTH,ids-193-15-770-3,glat; sleht; eben,eben,Middle High German,1,IDS,NA,NA,NA,NA,NA
+ids,ids-194,German,stan1295,48.649,12.4676,Indo-European,SMOOTH,ids-194-15-770-1,glatt; eben,glatt,German,1,IDS,deu,NA,R,deu,yes
+ids,ids-194,German,stan1295,48.649,12.4676,Indo-European,SMOOTH,ids-194-15-770-2,glatt; eben,eben,German,1,IDS,deu,NA,R,deu,yes
+ids,ids-195,Yiddish,east2295,51.75,19.42,Indo-European,SMOOTH,ids-195-15-770-1,glat(ik),glat,Yiddish,1,IDS,ydd,NA,NA,ydd,yes
+ids,ids-196,Lithuanian,lith1251,55.1429,23.9601,Indo-European,SMOOTH,ids-196-15-770-1,lýgus; plýnas; glotnùs,lýgus,Lithuanian,1,IDS,lit,NA,NA,lit,yes
+ids,ids-196,Lithuanian,lith1251,55.1429,23.9601,Indo-European,SMOOTH,ids-196-15-770-2,lýgus; plýnas; glotnùs,plýnas,Lithuanian,1,IDS,lit,NA,NA,lit,yes
+ids,ids-196,Lithuanian,lith1251,55.1429,23.9601,Indo-European,SMOOTH,ids-196-15-770-3,lýgus; plýnas; glotnùs,glotnùs,Lithuanian,1,IDS,lit,NA,NA,lit,yes
+ids,ids-197,Latvian,latv1249,56.826108,24.309118,Indo-European,SMOOTH,ids-197-15-770-1,gluds,gluds,Latvian,1,IDS,lav,NA,based on wikipedia,lav,yes
+ids,ids-199,Old Church Slavonic,chur1257,43.7171,22.8442,Indo-European,SMOOTH,ids-199-15-770-1,gladŭkŭ,gladŭkŭ,Old Church Slavonic,1,IDS,NA,NA,NA,NA,NA
+ids,ids-200,Bulgarian,bulg1262,43.3646,25.047,Indo-European,SMOOTH,ids-200-15-770-1,gládək,gládək,Bulgarian,1,IDS,bul,NA,NA,bul,yes
+ids,ids-201,Serbo-Croatian,sout1528,44.15,18.81,Indo-European,SMOOTH,ids-201-15-770-1,gladak,gladak,Serbo-Croatian,1,IDS,hrv; srp,NA,NA,hrv,yes
+ids,ids-202,Czech,czec1258,49.873398,15.10437,Indo-European,SMOOTH,ids-202-15-770-1,hladký,hladký,Czech,1,IDS,ces,NA,NA,ces,yes
+ids,ids-203,Polish,poli1260,51.8439,18.6255,Indo-European,SMOOTH,ids-203-15-770-1,gładki,gładki,Polish,1,IDS,pol,NA,NA,pol,yes
+ids,ids-204,Russian,russ1263,59.0,50.0,Indo-European,SMOOTH,ids-204-15-770-1,gladkij,gladkij,Russian,1,IDS,rus,NA,NA,rus,yes
+ids,ids-206,Armenian (Eastern variety),nucl1235,40.0,45.0,Indo-European,SMOOTH,ids-206-15-770-1,"hartʰ, voɣorkˀ",hartʰ,Armenian,2,IDS,hye,NA,NA,hye,yes
+ids,ids-206,Armenian (Eastern variety),nucl1235,40.0,45.0,Indo-European,SMOOTH,ids-206-15-770-2,"hartʰ, voɣorkˀ",voɣorkˀ,Armenian,2,IDS,hye,NA,NA,hye,yes
+ids,ids-207,Armenian (Western variety),homs1234,40.1897,44.4839,Indo-European,SMOOTH,ids-207-15-770-1,"hart, voɣorg",hart,Armenian,2,IDS,hye,NA,NA,hye,yes
+ids,ids-207,Armenian (Western variety),homs1234,40.1897,44.4839,Indo-European,SMOOTH,ids-207-15-770-2,"hart, voɣorg",voɣorg,Armenian,2,IDS,hye,NA,NA,hye,yes
+ids,ids-208,Hittite,hitt1242,40.0,35.0,Indo-European,SMOOTH,ids-208-15-770-1,alpu-,alpu-,Hittite,1,IDS,NA,NA,NA,NA,NA
+ids,ids-210,Tocharian B,tokh1243,41.65,82.9,Indo-European,SMOOTH,ids-210-15-770-1,ṣmare,ṣmare,Tocharian B,1,IDS,NA,NA,NA,NA,NA
+ids,ids-211,Sanskrit,sans1269,20.0,77.0,Indo-European,SMOOTH,ids-211-15-770-1,sama-; šlakṣṇa-,sama-,Sanskrit,1,IDS,NA,NA,NA,NA,yes
+ids,ids-211,Sanskrit,sans1269,20.0,77.0,Indo-European,SMOOTH,ids-211-15-770-2,sama-; šlakṣṇa-,šlakṣṇa-,Sanskrit,1,IDS,NA,NA,NA,NA,yes
+ids,ids-212,Romani,vlax1238,46.09,18.16,Indo-European,SMOOTH,ids-212-15-770-1,[kovlo],kovlo,Romani,9,IDS,rmy,NA,based on wikipedia,rmy,yes
+ids,ids-214,Persian,west2369,32.9,53.3,Indo-European,SMOOTH,ids-214-15-770-1,hæmvɑr,hæmvɑr,Persian,1,IDS,pes,NA,NA,pes,yes
+ids,ids-215,Ancient Aramaic,olda1245,32.84,37.0,Afro-Asiatic,SMOOTH,ids-215-15-770-1,šʁē; špē; mrīḳ,šʁē,Ancient Aramaic,1,IDS,NA,NA,NA,NA,NA
+ids,ids-215,Ancient Aramaic,olda1245,32.84,37.0,Afro-Asiatic,SMOOTH,ids-215-15-770-2,šʁē; špē; mrīḳ,špē,Ancient Aramaic,1,IDS,NA,NA,NA,NA,NA
+ids,ids-215,Ancient Aramaic,olda1245,32.84,37.0,Afro-Asiatic,SMOOTH,ids-215-15-770-3,šʁē; špē; mrīḳ,mrīḳ,Ancient Aramaic,1,IDS,NA,NA,NA,NA,NA
+ids,ids-218,Jamaican Creole (Limonese Creole dialect),jama1262,18.13,-77.2612,Indo-European,SMOOTH,ids-218-15-770-1,smud,smud,Jamaican Creole,1,IDS,jam,NA,approximant,jam,no
+ids,ids-219,Basque,basq1248,43.2787,-1.31622,Basque,SMOOTH,ids-219-15-770-1,[leɲ],leɲ,Basque,1,IDS,eus,NA,NA,eus,yes
+ids,ids-220,Hausa,haus1257,11.1513,8.7804,Afro-Asiatic,SMOOTH,ids-220-15-770-1,sumul; santsi; laushi,sumul,Hausa,1,IDS,hau,NA,NA,hau,NA
+ids,ids-220,Hausa,haus1257,11.1513,8.7804,Afro-Asiatic,SMOOTH,ids-220-15-770-2,sumul; santsi; laushi,santsi,Hausa,1,IDS,hau,NA,NA,hau,NA
+ids,ids-220,Hausa,haus1257,11.1513,8.7804,Afro-Asiatic,SMOOTH,ids-220-15-770-3,sumul; santsi; laushi,laushi,Hausa,1,IDS,hau,NA,NA,hau,NA
+ids,ids-221,Polci,polc1243,10.0258,9.53362,Afro-Asiatic,SMOOTH,ids-221-15-770-1,mul,mul,Polci,1,IDS,plj,NA,based on wikipedia; that's the symbol they use but no description,plj,yes
+ids,ids-222,Nahuatl (Sierra de Zacapoaxtla variety),high1278,20.1554,-97.5556,Uto-Aztecan,SMOOTH,ids-222-15-770-1,alaš-ti-k; yemaš-c̷in,alaš-ti-k,Nahuatl,1,IDS,azz,NA,NA,ncj,no
+ids,ids-222,Nahuatl (Sierra de Zacapoaxtla variety),high1278,20.1554,-97.5556,Uto-Aztecan,SMOOTH,ids-222-15-770-2,alaš-ti-k; yemaš-c̷in,yemaš-c̷in,Nahuatl,1,IDS,azz,NA,NA,ncj,no
+ids,ids-223,Chatino (Zacatepec variety),zaca1242,16.08,-97.3069,Otomanguean,SMOOTH,ids-223-15-770-1,kuti,kuti,Chatino,1,IDS,ctp,NA,NA,ctp,no
+ids,ids-224,Karok,karo1304,41.8228,-123.315,Karok,SMOOTH,ids-224-15-770-1,xūs,xūs,Karok,1,IDS,kyh,NA,flap,kyh,no
+ids,ids-225,Seri,seri1257,28.9877,-112.384,Seri,SMOOTH,ids-225-15-770-1,-o'miʔx,-o'miʔx,Seri,1,IDS,sei,NA,flap,sei,no
+ids,ids-226,Zuni,zuni1245,35.0056,-108.782,Zuni,SMOOTH,ids-226-15-770-1,kˀʸalolo-,kˀʸalolo-,Zuni,1,IDS,zun,NA,no R-like phoneme,zun,no R
+ids,ids-228,Tlingit,tlin1245,59.4447,-135.29,Athabaskan-Eyak-Tlingit,SMOOTH,ids-228-15-770-1,yaasˀ; ka-di-yaasˀ,yaasˀ,Tlingit,1,IDS,tli,NA,no R-like phoneme,tli,no R
+ids,ids-228,Tlingit,tlin1245,59.4447,-135.29,Athabaskan-Eyak-Tlingit,SMOOTH,ids-228-15-770-2,yaasˀ; ka-di-yaasˀ,ka-di-yaasˀ,Tlingit,1,IDS,tli,NA,no R-like phoneme,tli,no R
+ids,ids-229,Tsimshian,nucl1649,52.59103,-128.544545,Tsimshian,SMOOTH,ids-229-15-770-1,"naʔyełk,",naʔyełk,Tsimshian,1,IDS,tsi,NA,NA,tsi,NA
+ids,ids-235,Hawaiian,hawa1245,19.6297,-155.43,Austronesian,SMOOTH,ids-235-15-770-1,malino; paheʔe,malino,Hawaiian,1,IDS,haw,NA,no R-like phoneme,haw,no R
+ids,ids-235,Hawaiian,hawa1245,19.6297,-155.43,Austronesian,SMOOTH,ids-235-15-770-2,malino; paheʔe,paheʔe,Hawaiian,1,IDS,haw,NA,no R-like phoneme,haw,no R
+ids,ids-236,Maori,maor1246,-38.2881,176.541,Austronesian,SMOOTH,ids-236-15-770-1,maaene-ene,maaene-ene,Maori,1,IDS,mri,NA,flap,mri,no
+ids,ids-238,Rapa Nui,rapa1244,-27.113,-109.342,Austronesian,SMOOTH,ids-238-15-770-1,pororeko; ti-tika,pororeko,Rapa Nui,1,IDS,rap,NA,flap,rap,no
+ids,ids-238,Rapa Nui,rapa1244,-27.113,-109.342,Austronesian,SMOOTH,ids-238-15-770-2,pororeko; ti-tika,ti-tika,Rapa Nui,1,IDS,rap,NA,flap,rap,no
+ids,ids-239,Rotuman,rotu1241,-12.5008,177.066,Austronesian,SMOOTH,ids-239-15-770-1,mar-marɔri,mar-marɔri,Rotuman,1,IDS,rtm,NA,r ~ l allophony according to wikipedia,rtm,no R
+ids,ids-240,Tongan,tong1325,-21.17,-175.25,Austronesian,SMOOTH,ids-240-15-770-1,hamolemole; tokalelei,hamolemole,Tongan,1,IDS,ton,NA,approximant,ton,no
+ids,ids-240,Tongan,tong1325,-21.17,-175.25,Austronesian,SMOOTH,ids-240-15-770-2,hamolemole; tokalelei,tokalelei,Tongan,1,IDS,ton,NA,approximant,ton,no
+ids,ids-241,Tuamotuan,tuam1242,-16.17259,-146.321755,Austronesian,SMOOTH,ids-241-15-770-1,faka.ŋā.ere,faka.ŋā.ere,Tuamotuan,1,IDS,pmt,NA,flap based on Hiroshi Kuki (1969),pmt,no
+ids,ids-242,Barí,bari1297,9.08497,-72.9353,Chibchan,SMOOTH,ids-242-15-770-1,dyibakaari,dyibakaari,Barí,1,IDS,mot,NA,NA,mot,NA
+ids,ids-243,Muisca,chib1270,6.24999,-74.1666,Chibchan,SMOOTH,ids-243-15-770-1,zmohosysuca,c̷̣ɨ-β-ohosɨ-suka,Muisca,1,IDS,chb,NA,flap,chb,no
+ids,ids-244,Páez,paez1247,2.61516,-76.31254,Páez,SMOOTH,ids-244-15-770-1,laβy,laβy,Páez,1,IDS,pbb,NA,NA,pbb,NA
+ids,ids-246,Colorado,colo1256,-0.21181,-79.2347,Barbacoan,SMOOTH,ids-246-15-770-1,la'yũ,la'yũ,Colorado,1,IDS,cof,NA,NA,cof,NA
+ids,ids-247,Embera,nort2972,7.12761,-77.574,Chocoan,SMOOTH,ids-247-15-770-1,dou'a,dou'a,Embera,1,IDS,emp,NA,tap/flap ~ trill allophony,emp,no
+ids,ids-248,Epena,epen1239,4.25877,-77.3566,Chocoan,SMOOTH,ids-248-15-770-1,kʰakʰa'yaa,kʰakʰa'yaa,Epena,1,IDS,sja,NA,tap/flap ~ trill allophony,sja,no
+ids,ids-250,Yuwana,yuwa1244,5.63879,-65.4267,Hoti,SMOOTH,ids-250-15-770-1,ʰteiʰteiwa,ʰteiʰteiwa,Yuwana,1,IDS,yau,NA,flap based on wikipedia,yau,no
+ids,ids-251,Yaruro,pume1238,7.10677,-67.5996,Pumé,SMOOTH,ids-251-15-770-1,tata,tata,Yaruro,1,IDS,yae,NA,flap based on wikipedia,yae,no
+ids,ids-252,Ninam (Shirishana variety),nina1238,4.03894,-62.7801,Yanomamic,SMOOTH,ids-252-15-770-1,si-ãhi,si-ãhi,Ninam,1,IDS,shb,NA,NA,shb,NA
+ids,ids-253,Yanomámi,yano1262,2.48999,-62.8522,Yanomamic,SMOOTH,ids-253-15-770-1,si kõpehe-wə,si kõpehe-wə,Yanomámi,1,IDS,wca,NA,NA,wca,NA
+ids,ids-254,Cofán,cofa1242,0.276675,-77.0643,Cofán,SMOOTH,ids-254-15-770-1,'giyaʔc̷ʰi; kesɨsɨ,'giyaʔc̷ʰi,Cofán,1,IDS,con,NA,NA,con,NA
+ids,ids-254,Cofán,cofa1242,0.276675,-77.0643,Cofán,SMOOTH,ids-254-15-770-2,'giyaʔc̷ʰi; kesɨsɨ,kesɨsɨ,Cofán,1,IDS,con,NA,NA,con,NA
+ids,ids-255,Waorani,waor1240,-1.12312,-76.683,Waorani,SMOOTH,ids-255-15-770-1,ayade kæ,ayade kæ,Waorani,1,IDS,auc,NA,no R-like phoneme,auc,no R
+ids,ids-256,Siona,sion1247,0.31733,-76.0237,Tucanoan,SMOOTH,ids-256-15-770-1,sitˀa-hi; kˀaʔipˀɨ,sitˀa-hi,Siona,1,IDS,snn,NA,NA,snn,NA
+ids,ids-256,Siona,sion1247,0.31733,-76.0237,Tucanoan,SMOOTH,ids-256-15-770-2,sitˀa-hi; kˀaʔipˀɨ,kˀaʔipˀɨ,Siona,1,IDS,snn,NA,NA,snn,NA
+ids,ids-257,Tuyuca,tuyu1244,0.39441,-70.043515,Tucanoan,SMOOTH,ids-257-15-770-1,si'pi,si'pi,Tuyuca,1,IDS,tue,NA,flap,tue,no
+ids,ids-258,Aguaruna,agua1253,-5.30044,-77.9218,Chicham,SMOOTH,ids-258-15-770-1,ču'win; pinu,ču'win,Aguaruna,1,IDS,agr,NA,flap,agr,no
+ids,ids-258,Aguaruna,agua1253,-5.30044,-77.9218,Chicham,SMOOTH,ids-258-15-770-2,ču'win; pinu,pinu,Aguaruna,1,IDS,agr,NA,flap,agr,no
+ids,ids-260,Yagua,yagu1244,-3.42913,-72.2186,Peba-Yagua,SMOOTH,ids-260-15-770-1,wasidya,wasidya,Yagua,1,IDS,yad,NA,flap,yad,no
+ids,ids-261,Baure,baur1253,-13.61,-63.68,Arawakan,SMOOTH,ids-261-15-770-1,-'mo-ri,-'mo-ri,Baure,1,IDS,brg,NA,NA,brg,NA
+ids,ids-262,Goajiro,wayu1243,11.395566,-72.199791,Arawakan,SMOOTH,ids-262-15-770-1,sinatɨ-sɨ,sinatɨ-sɨ,Goajiro,1,IDS,guc,NA,"phoible lists trill and approximant, wikipedia lists trill only",guc,yes
+ids,ids-263,Ignaciano,igna1246,-15.1188,-65.3993,Arawakan,SMOOTH,ids-263-15-770-1,timahu,timahu,Ignaciano,1,IDS,ign,NA,flap,ign,no
+ids,ids-266,Wapishana,wapi1253,2.58744,-59.8021,Arawakan,SMOOTH,ids-266-15-770-1,miduda-ʔu,miduda-ʔu,Wapishana,1,IDS,wap,NA,flap,wap,no
+ids,ids-267,Waurá,waur1244,-13.296,-53.6971,Arawakan,SMOOTH,ids-267-15-770-1,kamimitʸa,kamimitʸa,Waurá,1,IDS,wau,NA,NA,wau,NA
+ids,ids-269,Aymara,cent2142,-17.0,-68.5,Aymaran,SMOOTH,ids-269-15-770-1,ḳuɲa (?),ḳuɲa,Aymara,1,IDS,ayr,NA,flap,ayr,no
+ids,ids-270,Chipaya,chip1262,-18.73951,-67.89633,Uru-Chipaya,SMOOTH,ids-270-15-770-1,[lʸanu],lʸanu,Chipaya,1,IDS,cap,NA,flap,cap,no
+ids,ids-271,Mosetén,mose1249,-14.64448,-67.83756,Mosetén-Chimané,SMOOTH,ids-271-15-770-1,'tanes,'tanes,Mosetén,1,IDS,cas,NA,NA,cas,NA
+ids,ids-272,Araona,arao1248,-12.4242,-67.7293,Pano-Tacanan,SMOOTH,ids-272-15-770-1,"pena-pena, semihi",pena-pena,Araona,1,IDS,aro,NA,no R-like phoneme,aro,no R
+ids,ids-272,Araona,arao1248,-12.4242,-67.7293,Pano-Tacanan,SMOOTH,ids-272-15-770-2,"pena-pena, semihi",semihi,Araona,1,IDS,aro,NA,no R-like phoneme,aro,no R
+ids,ids-273,Cavineña,cavi1250,-13.3544,-66.6277,Pano-Tacanan,SMOOTH,ids-273-15-770-1,momi-ya,momi-ya,Cavineña,1,IDS,cav,NA,NA,cav,NA
+ids,ids-275,Ese Ejja (Huarayo),esee1248,-11.7268,-67.515,Pano-Tacanan,SMOOTH,ids-275-15-770-1,šaa-ʔama,šaa-ʔama,Ese Ejja,2,IDS,ese,NA,no R-like phoneme,ese,no R
+ids,ids-276,Tacana,taca1256,-13.39249,-68.04056,Pano-Tacanan,SMOOTH,ids-276-15-770-1,kʷapi-kʷapi; noc̷a-da,kʷapi-kʷapi,Tacana,1,IDS,tna,NA,flap,tna,no
+ids,ids-276,Tacana,taca1256,-13.39249,-68.04056,Pano-Tacanan,SMOOTH,ids-276-15-770-2,kʷapi-kʷapi; noc̷a-da,noc̷a-da,Tacana,1,IDS,tna,NA,flap,tna,no
+ids,ids-278,Catuquina,pano1254,-7.97456,-71.56151,Pano-Tacanan,SMOOTH,ids-278-15-770-1,čɨro,čɨro,Catuquina,1,IDS,kav,NA,"probably Katukina, no R-like phoneme",kav,no R
+ids,ids-279,Chácobo,chac1251,-12.133,-66.7164,Pano-Tacanan,SMOOTH,ids-279-15-770-1,para,para,Chácobo,1,IDS,cao,NA,NA,cao,NA
+ids,ids-282,Yaminahua,yami1256,-9.8846,-71.5964,Pano-Tacanan,SMOOTH,ids-282-15-770-1,yɨ̃βa,yɨ̃βa,Yaminahua,1,IDS,yaa,NA,no R-like phoneme,yaa,no R
+ids,ids-285,Movima,movi1243,-13.8115,-65.6348,Movima,SMOOTH,ids-285-15-770-1,ti-ɬoi-ni,ti-ɬoi-ni,Movima,1,IDS,mzp,NA,tap/flap,mzp,no
+ids,ids-286,Pacaas Novos,wari1268,-10.69948,-64.56152,Chapacuran,SMOOTH,ids-286-15-770-1,topišik,topišik,Pacaas Novos,1,IDS,pav,NA,NA,pav,NA
+ids,ids-287,Mundurukú,mund1330,-8.41095,-57.691,Tupian,SMOOTH,ids-287-15-770-1,-korop; -sẽm,-korop,Mundurukú,1,IDS,myu,NA,NA,myu,NA
+ids,ids-287,Mundurukú,mund1330,-8.41095,-57.691,Tupian,SMOOTH,ids-287-15-770-2,-korop; -sẽm,-sẽm,Mundurukú,1,IDS,myu,NA,NA,myu,NA
+ids,ids-288,Aché,ache1246,-25.5865,-56.4697,Tupian,SMOOTH,ids-288-15-770-1,prečã,prečã,Aché,1,IDS,guq,NA,NA,guq,NA
+ids,ids-289,Chiriguano,east2555,-20.42,-63.37,Tupian,SMOOTH,ids-289-15-770-1,sĩi; ĩ-či,sĩi,Chiriguano,1,IDS,gui,NA,tap/flap,gui,no
+ids,ids-289,Chiriguano,east2555,-20.42,-63.37,Tupian,SMOOTH,ids-289-15-770-2,sĩi; ĩ-či,ĩ-či,Chiriguano,1,IDS,gui,NA,tap/flap,gui,no
+ids,ids-290,Guaraní,para1311,-25.60551,-57.08816,Tupian,SMOOTH,ids-290-15-770-1,'sɨ̃i,'sɨ̃i,Guaraní,1,IDS,gug,NA,NA,gug,NA
+ids,ids-292,Wayampi,waya1270,1.73817,-52.6887,Tupian,SMOOTH,ids-292-15-770-1,sɨlɨ,sɨlɨ,Wayampi,1,IDS,oym,NA,tap/flap,oym,no
+ids,ids-294,Kaingáng,kain1272,-27.7671,-52.5394,Nuclear-Macro-Je,SMOOTH,ids-294-15-770-1,kanɛr; kamɛn; kanãn; hɔhow,kanɛr,Kaingáng,1,IDS,kgp,NA,NA,kgp,NA
+ids,ids-294,Kaingáng,kain1272,-27.7671,-52.5394,Nuclear-Macro-Je,SMOOTH,ids-294-15-770-2,kanɛr; kamɛn; kanãn; hɔhow,kamɛn,Kaingáng,1,IDS,kgp,NA,NA,kgp,NA
+ids,ids-294,Kaingáng,kain1272,-27.7671,-52.5394,Nuclear-Macro-Je,SMOOTH,ids-294-15-770-3,kanɛr; kamɛn; kanãn; hɔhow,kanãn,Kaingáng,1,IDS,kgp,NA,NA,kgp,NA
+ids,ids-294,Kaingáng,kain1272,-27.7671,-52.5394,Nuclear-Macro-Je,SMOOTH,ids-294-15-770-4,kanɛr; kamɛn; kanãn; hɔhow,hɔhow,Kaingáng,1,IDS,kgp,NA,NA,kgp,NA
+ids,ids-295,Karajá,kara1500,-11.1881,-50.3492,Nuclear-Macro-Je,SMOOTH,ids-295-15-770-1,tɨtɨ,tɨtɨ,Karajá,1,IDS,kpj,NA,NA,kpj,NA
+ids,ids-296,Trumai,trum1247,-11.8119,-53.5717,Trumai,SMOOTH,ids-296-15-770-1,(ha) kuš tsʔax-ka,kuš tsʔax-ka,Trumai,1,IDS,tpy,NA,NA,tpy,NA
+ids,ids-297,Ayoreo,ayor1240,-19.220055,-60.217495,Zamucoan,SMOOTH,ids-297-15-770-1,karu-n̥a-i; karu-n̥a-ŋe,karu-n̥a-i,Ayoreo,1,IDS,ayo,NA,tap/flap,ayo,no
+ids,ids-297,Ayoreo,ayor1240,-19.220055,-60.217495,Zamucoan,SMOOTH,ids-297-15-770-2,karu-n̥a-i; karu-n̥a-ŋe,karu-n̥a-ŋe,Ayoreo,1,IDS,ayo,NA,tap/flap,ayo,no
+ids,ids-298,Sanapaná (Angaité dialect),anga1316,-22.85,-58.45,Lengua-Mascoy,SMOOTH,ids-298-15-770-1,ankaɬnawoi,ankaɬnawoi,Sanapaná,2,IDS,sap,NA,NA,sap,NA
+ids,ids-299,Sanapaná (Enlhet dialect),sana1298,-22.49,-58.38,Lengua-Mascoy,SMOOTH,ids-299-15-770-1,alaʔaɬnayʔo,alaʔaɬnayʔo,Sanapaná,2,IDS,sap,NA,NA,sap,NA
+ids,ids-301,Mocoví,moco1246,-28.097,-60.4145,Guaicuruan,SMOOTH,ids-301-15-770-1,n-alo-ʔoh-taʔ,n-alo-ʔoh-taʔ,Mocoví,1,IDS,moc,NA,NA,moc,NA
+ids,ids-302,Pilagá,pila1245,-25.0058,-60.1537,Guaicuruan,SMOOTH,ids-302-15-770-1,yi-'sot-eta,yi-'sot-eta,Pilagá,1,IDS,plg,NA,NA,plg,NA
+ids,ids-304,Chorote,iyoj1235,-22.1896,-63.2383,Matacoan,SMOOTH,ids-304-15-770-1,-liixi,-liixi,Chorote,1,IDS,crq; crt,NA,no R-like phoneme,crq,no R
+ids,ids-305,Maca,maca1260,-25.0119,-57.3694,Matacoan,SMOOTH,ids-305-15-770-1,leeme,leeme,Maca,1,IDS,mca,NA,cannot be determined,mca,NA
+ids,ids-306,Wichí,wich1264,-23.1633,-62.1757,Matacoan,SMOOTH,ids-306-15-770-1,hipˀe'tah-peʔ,hipˀe'tah-peʔ,Wichí,1,IDS,mzh,NA,NA,mzh,NA
+ids,ids-307,Nivaclé,niva1238,-22.8557,-61.7606,Matacoan,SMOOTH,ids-307-15-770-1,klatˀeʔ; kaɬip; klamam-ši,klatˀeʔ,Nivaclé,1,IDS,cag,NA,NA,cag,NA
+ids,ids-307,Nivaclé,niva1238,-22.8557,-61.7606,Matacoan,SMOOTH,ids-307-15-770-2,klatˀeʔ; kaɬip; klamam-ši,kaɬip,Nivaclé,1,IDS,cag,NA,NA,cag,NA
+ids,ids-307,Nivaclé,niva1238,-22.8557,-61.7606,Matacoan,SMOOTH,ids-307-15-770-3,klatˀeʔ; kaɬip; klamam-ši,klamam-ši,Nivaclé,1,IDS,cag,NA,NA,cag,NA
+ids,ids-309,Mapudungun,mapu1245,-38.7392,-71.277,Araucanian,SMOOTH,ids-309-15-770-1,paɲus,paɲus,Mapudungun,1,IDS,arn,NA,no R-like phoneme,arn,no R
+ids,ids-310,Tehuelche,tehu1242,-47.5796,-68.3235,Chonan,SMOOTH,ids-310-15-770-1,'tolḳˀ-,'tolḳˀ-,Tehuelche,1,IDS,teh,NA,NA,teh,NA
+ids,ids-311,Selknam,onaa1245,-54.0,-68.5,Chonan,SMOOTH,ids-311-15-770-1,aypˀèl; ax-ketˀè,aypˀèl,Selknam,1,IDS,ona,NA,cannot be determined,ona,NA
+ids,ids-311,Selknam,onaa1245,-54.0,-68.5,Chonan,SMOOTH,ids-311-15-770-2,aypˀèl; ax-ketˀè,ax-ketˀè,Selknam,1,IDS,ona,NA,cannot be determined,ona,NA
+ids,ids-313,Qawasqar,qawa1238,-49.303195,-74.707536,Kawesqar,SMOOTH,ids-313-15-770-1,senaḳs,senaḳs,Qawasqar,1,IDS,alc,NA,NA,alc,NA
+ids,ids-314,Toba,toba1269,-23.77,-61.96,Guaicuruan,SMOOTH,ids-314-15-770-1,salʸi-ta,salʸi-ta,Toba,1,IDS,tob,NA,tap/flap,tob,no
+ids,ids-315,Yagán,yama1264,-55.2748,-68.2648,Yámana,SMOOTH,ids-315-15-770-1,kutalu,kutalu,Yagán,1,IDS,yah,NA,NA,yah,NA
+ids,ids-318,Uncunwee,ghul1238,11.6432,29.8122,Nubian,SMOOTH,ids-318-15-770-1,ɖúri | ʃwalákur,ɖúri,Uncunwee,1,IDS,ghl,NA,cannot be determined,ghl,NA
+ids,ids-318,Uncunwee,ghul1238,11.6432,29.8122,Nubian,SMOOTH,ids-318-15-770-2,ɖúri | ʃwalákur,ʃwalákur,Uncunwee,1,IDS,ghl,NA,cannot be determined,ghl,NA
+ids,ids-401,Central Thai,thai1261,14.192,100.671,Tai-Kadai,SMOOTH,ids-401-15-770-1,riap.3,riap.3,Central Thai,1,IDS,tha,NA,tap/flap,tha,no
+ids,ids-402,Southern Tai (Songkhla variety),sout2746,6.85668,99.7031,Tai-Kadai,SMOOTH,ids-402-15-770-1,liap.4,liap.4,Southern Tai,1,IDS,tha,NA,tap/flap,tha,no
+ids,ids-403,Thai (Korat variety),sout2746,6.85668,99.7031,Tai-Kadai,SMOOTH,ids-403-15-770-1,sa.5 mɣ:.1,sa.5 mɣ:.1,Thai,2,IDS,tha,NA,tap/flap,tha,no
+ids,ids-404,Khamuang (Chiang Mai variety),nort2740,18.857495,100.20739,Tai-Kadai,SMOOTH,ids-404-15-770-1,li:ap.4,li:ap.4,Khamuang,1,IDS,nod,NA,cannot be determined,nod,NA
+ids,ids-405,Dehong,tain1252,21.7837,99.722,Tai-Kadai,SMOOTH,ids-405-15-770-1,ləm.3,ləm.3,Dehong,1,IDS,tdd; thi,NA,no R-like phoneme; based on wikipedia,tdd; thi,no R
+ids,ids-406,Jinsha Dai,nort1545,26.7238,106.682,Hmong-Mien,SMOOTH,ids-406-15-770-1,məŋ.31 lɛai.44,məŋ.31 lɛai.44,Jinsha Dai,1,CLICS,tiz,NA,NA,NA,NA
+ids,ids-407,Tai Lü,luuu1242,21.0321,101.282,Tai-Kadai,SMOOTH,ids-407-15-770-1,ləm.3; man.2,ləm.3,Tai Lü,1,IDS,khb,NA,NA,khb,NA
+ids,ids-407,Tai Lü,luuu1242,21.0321,101.282,Tai-Kadai,SMOOTH,ids-407-15-770-2,ləm.3; man.2,man.2,Tai Lü,1,IDS,khb,NA,NA,khb,NA
+ids,ids-408,Tai Khün,khun1259,19.6062,99.3363,Tai-Kadai,SMOOTH,ids-408-15-770-1,pe:ŋ.1,pe:ŋ.1,Tai Khün,1,IDS,kkh,NA,NA,kkh,NA
+ids,ids-409,Shan,shan1277,21.5995,98.0342,Tai-Kadai,SMOOTH,ids-409-15-770-1,pe:ŋ.1 kan.3,pe:ŋ.1 kan.3,Shan,2,IDS,shn,NA,there is a trill but wikipedia says it's marginal,shn,no R
+ids,ids-410,Shan (Northern Shan dialect),shan1277,21.5995,98.0342,Tai-Kadai,SMOOTH,ids-410-15-770-1,lə:m.4; mɨ:n.4; chɔ:.1,lə:m.4,Shan,2,IDS,shn,NA,there is a trill but wikipedia says it's marginal,shn,no R
+ids,ids-410,Shan (Northern Shan dialect),shan1277,21.5995,98.0342,Tai-Kadai,SMOOTH,ids-410-15-770-2,lə:m.4; mɨ:n.4; chɔ:.1,mɨ:n.4,Shan,2,IDS,shn,NA,there is a trill but wikipedia says it's marginal,shn,no R
+ids,ids-410,Shan (Northern Shan dialect),shan1277,21.5995,98.0342,Tai-Kadai,SMOOTH,ids-410-15-770-3,lə:m.4; mɨ:n.4; chɔ:.1,chɔ:.1,Shan,2,IDS,shn,NA,there is a trill but wikipedia says it's marginal,shn,no R
+ids,ids-411,Nung-Fengshan,guib1244,24.3,106.2,Tai-Kadai,SMOOTH,ids-411-15-770-1,luam.3,luam.3,Nung-Fengshan,1,IDS,zgn,NA,no R-like phoneme; based on Nung-Ninbei,zgn,no R
+ids,ids-412,Nung-Lazhai,guib1244,24.3,106.2,Tai-Kadai,SMOOTH,ids-412-15-770-1,ɨ:n.3; lɨ:n.5,ɨ:n.3,Nung-Lazhai,1,IDS,zgn,NA,no R-like phoneme; based on Nung-Ninbei,zgn,no R
+ids,ids-412,Nung-Lazhai,guib1244,24.3,106.2,Tai-Kadai,SMOOTH,ids-412-15-770-2,ɨ:n.3; lɨ:n.5,lɨ:n.5,Nung-Lazhai,1,IDS,zgn,NA,no R-like phoneme; based on Nung-Ninbei,zgn,no R
+ids,ids-413,Nung-Ninbei,nung1283,20.8965,104.286,Tai-Kadai,SMOOTH,ids-413-15-770-1,ŋau.2; lau.2,ŋau.2,Nung-Ninbei,1,IDS,nut,NA,no R-like phoneme,nut,no R
+ids,ids-413,Nung-Ninbei,nung1283,20.8965,104.286,Tai-Kadai,SMOOTH,ids-413-15-770-2,ŋau.2; lau.2,lau.2,Nung-Ninbei,1,IDS,nut,NA,no R-like phoneme,nut,no R
+ids,ids-414,Zhuang-Longzhou,zuoj1238,22.4,106.9,Tai-Kadai,SMOOTH,ids-414-15-770-1,lə:n.5; lə:n.5 łak.7,lə:n.5,Zhuang-Longzhou,1,IDS,zzj,NA,cannot be determined,zzj,NA
+ids,ids-414,Zhuang-Longzhou,zuoj1238,22.4,106.9,Tai-Kadai,SMOOTH,ids-414-15-770-2,lə:n.5; lə:n.5 łak.7,lə:n.5 łak.7,Zhuang-Longzhou,1,IDS,zzj,NA,cannot be determined,zzj,NA
+ids,ids-415,Sui,suii1243,24.0488,106.563,Tai-Kadai,SMOOTH,ids-415-15-770-1,ʔdjan.1 ʔdjoi.3; ka:n.5 kai.1,ʔdjan.1 ʔdjoi.3,Sui,1,IDS,swi,NA,no R-like phoneme,swi,no R
+ids,ids-415,Sui,suii1243,24.0488,106.563,Tai-Kadai,SMOOTH,ids-415-15-770-2,ʔdjan.1 ʔdjoi.3; ka:n.5 kai.1,ka:n.5 kai.1,Sui,1,IDS,swi,NA,no R-like phoneme,swi,no R
+ids,ids-416,Maonan,maon1241,25.0169,108.024,Tai-Kadai,SMOOTH,ids-416-15-770-1,lau.1,lau.1,Maonan,1,CLICS,mmd,NA,NA,NA,NA
+ids,ids-417,Mulam,mula1253,24.8151,108.928,Tai-Kadai,SMOOTH,ids-417-15-770-1,kɔŋ.1,kɔŋ.1,Mulam,1,CLICS,mlm,no rhotic,"Coyaud, M (1987) Les Langues Dans Le Monde Chinois. Pour l'Analyse du Folklore, Paris.",NA,NA
+ids,ids-418,Chadong,chad1240,25.23532,109.96041,Tai-Kadai,SMOOTH,ids-418-15-770-1,koŋ.4 kan.1,koŋ.4 kan.1,Chadong,1,CLICS,cdy,NA,NA,NA,NA
+ids,ids-419,Southern Kam,sout2741,25.8874,109.222,Tai-Kadai,SMOOTH,ids-419-15-770-1,ljân.55,ljân.55,Southern Kam,1,CLICS,doc; kmc,no trill,wiki,NA,NA
+ids,ids-420,Lakkia,lakk1238,24.1169,110.106,Tai-Kadai,SMOOTH,ids-420-15-770-1,bla:k.8,bla:k.8,Lakkia,1,IDS,lbc,NA,no R-like phoneme,lbc,no R
+ids,ids-421,Hlai (Baoting variety),hlai1239,18.8062,109.459,Tai-Kadai,SMOOTH,ids-421-15-770-1,ki:t.7,ki:t.7,Hlai,1,IDS,lic,NA,cannot be determined; Peter Kristian Norquest's phonological reconstruction suggests both tap or trill,lic,NA
+ids,ids-422,Langja Buyang,emab1235,23.604572,106.030277,Tai-Kadai,SMOOTH,ids-422-15-770-1,lɨ:n.24,lɨ:n.24,Langja Buyang,1,IDS,yzg,NA,cannot be determined; Peter Kristian Norquest's phonological reconstruction suggests both tap or trill,yzg,NA
+ids,ids-423,Ecun Buyang,lang1316,23.550258,106.016896,Tai-Kadai,SMOOTH,ids-423-15-770-1,hɛt.31,hɛt.31,Ecun Buyang,1,IDS,yln,NA,cannot be determined; Peter Kristian Norquest's phonological reconstruction suggests both tap or trill,yln,NA
+ids,ids-424,Sanchong Kelao,gree1278,22.5632,104.698,Tai-Kadai,SMOOTH,ids-424-15-770-1,ʔlui.35,ʔlui.35,Sanchong Kelao,1,IDS,giq,NA,cannot be determined; Peter Kristian Norquest's phonological reconstruction suggests both tap or trill,giq,NA
+ids,ids-425,Qau Kelao,qaua1234,26.155438,106.16455,Tai-Kadai,SMOOTH,ids-425-15-770-1,chi.35 pje.42,chi.35 pje.42,Qau Kelao,1,IDS,gqu,NA,no R-like phoneme,gqu,no R
+ids,ids-516,Ingush,ingu1240,43.11,45.03,Nakh-Daghestanian,SMOOTH,ids-516-15-770-1,шаьра,sära,Ingush,1,CLICS,inh,NA,NA,inh,NA
+ids,ids-518,Kryz,kryt1240,41.1811,48.1846,Nakh-Daghestanian,SMOOTH,ids-518-15-770-1,гІамавар,ʕamavar,Kryz,1,CLICS,kry,NA,NA,NA,NA
+ids,ids-533,Tsova-Tush,bats1242,42.1806,45.344,Nakh-Daghestanian,SMOOTH,ids-533-15-770-1,"нипсиᴴ, сцІор",nipsiⁿ,Tsova-Tush,1,CLICS,bbl,NA,NA,bbl,NA
+ids,ids-533,Tsova-Tush,bats1242,42.1806,45.344,Nakh-Daghestanian,SMOOTH,ids-533-15-770-2,"нипсиᴴ, сцІор",scʼor,Tsova-Tush,1,CLICS,bbl,NA,NA,bbl,NA
+ids,ids-701,Bengali,beng1280,24.0,90.0,Indo-European,SMOOTH,ids-701-15-770-1,molāyema,molāyema,Bengali,1,IDS,ben,NA,cannot be determined; Phoible lists different phonemes,ben,NA
+ids,ids-702,Hindi,hind1269,25.0,77.0,Indo-European,SMOOTH,ids-702-15-770-1,tʃikan̪aː,tʃikan̪aː,Hindi,1,IDS,hin,NA,cannot be determined; Phoible lists different phonemes,hin,NA
+ids,ids-703,Khasi,khas1269,24.977,91.9998,Austroasiatic,SMOOTH,ids-703-15-770-1,jlih,jlih,Khasi,1,CLICS,kha,trill,wiki,kha,NA
+ids,ids-704,Mahasu Pahari (Kotghari dialect),maha1287,31.0088,77.5317,Indo-European,SMOOTH,ids-704-15-770-1,sõrlo,sõrlo,Mahasu Pahari,1,IDS,bfz,NA,NA,bfz,NA
+ids,ids-705,Marathi,mara1378,17.9344,76.6665,Indo-European,SMOOTH,ids-705-15-770-1,"sapaːʈ, guɭaguɭiːt̪",sapaːʈ,Marathi,1,IDS,mar,NA,tap/flap,mar,no
+ids,ids-705,Marathi,mara1378,17.9344,76.6665,Indo-European,SMOOTH,ids-705-15-770-2,"sapaːʈ, guɭaguɭiːt̪",guɭaguɭiːt̪,Marathi,1,IDS,mar,NA,tap/flap,mar,no
+ids,ids-706,Nepali,east1436,27.5947033333,87.6200833333,Indo-European,SMOOTH,ids-706-15-770-1,ciplō,ciplō,Nepali,1,IDS,nep,NA,"also wikipedia says ""r is always a trill""",nep,yes
+ids,ids-707,Punjabi,west2386,30.0948,75.3474,Indo-European,SMOOTH,ids-707-15-770-1,mulāyama,mulāyama,Punjabi,1,IDS,pnb,NA,flap based on wikipedia,pan,no
+ids,ids-708,Tamil,tami1289,10.520219,78.825989,Dravidian,SMOOTH,ids-708-15-770-1,vaḻavaḻappāṉa,vaḻavaḻappāṉa,Tamil,1,IDS,tam,NA,flap or approximant,tam,no
+ids,ids-709,Telugu,telu1262,16.4529,78.7024,Dravidian,SMOOTH,ids-709-15-770-1,"nunu, nunupu, nunna; mṛduwu",nunu,Telugu,1,IDS,tel,NA,flap based on mixture of wikipedia and phoible (conflicting information),tel,no
+ids,ids-709,Telugu,telu1262,16.4529,78.7024,Dravidian,SMOOTH,ids-709-15-770-2,"nunu, nunupu, nunna; mṛduwu",nunupu,Telugu,1,IDS,tel,NA,flap based on mixture of wikipedia and phoible (conflicting information),tel,no
+ids,ids-709,Telugu,telu1262,16.4529,78.7024,Dravidian,SMOOTH,ids-709-15-770-3,"nunu, nunupu, nunna; mṛduwu",nunna,Telugu,1,IDS,tel,NA,flap based on mixture of wikipedia and phoible (conflicting information),tel,no
+ids,ids-709,Telugu,telu1262,16.4529,78.7024,Dravidian,SMOOTH,ids-709-15-770-4,"nunu, nunupu, nunna; mṛduwu",mṛduwu,Telugu,1,IDS,tel,NA,flap based on mixture of wikipedia and phoible (conflicting information),tel,no
+ids,ids-710,Tibetan,tibe1272,28.3681,90.1872,Sino-Tibetan,SMOOTH,ids-710-15-770-1,jampo,jampo,Tibetan,8,IDS,bod,NA,trill ~ approximant allophony (see wikipedia),bod,yes
+ids,ids-800,Kme-2 (Kemie variety),manm1238,22.0743,100.842,Austroasiatic,SMOOTH,ids-800-15-770-1,hiap.33,hiap.33,Kme,1,IDS,mml,NA,NA,mml,NA
+ids,ids-801,Bulang,blan1242,22.0092,99.7405,Austroasiatic,SMOOTH,ids-801-15-770-1,hai.51 mut.33,hai.51 mut.33,Bulang,3,IDS,blr,NA,NA,blr,yes
+ids,ids-802,Bulang-2,blan1242,22.0092,99.7405,Austroasiatic,SMOOTH,ids-802-15-770-1,ʔa.31 khliat.51,ʔa.31 khliat.51,Bulang,3,IDS,blr,NA,NA,blr,yes
+ids,ids-803,Bulang-3,blan1242,22.0092,99.7405,Austroasiatic,SMOOTH,ids-803-15-770-1,khlɛt.55,khlɛt.55,Bulang,3,IDS,blr,NA,NA,blr,yes
+ids,ids-804,Keme (Kemie variety),manm1238,22.0743,100.842,Austroasiatic,SMOOTH,ids-804-15-770-1,len.35,len.35,Keme,1,IDS,mml,NA,NA,mml,NA
+ids,ids-805,Xu,huuu1240,22.0163,100.881,Austroasiatic,SMOOTH,ids-805-15-770-1,khliet.31,khliet.31,Xu,1,IDS,huo,NA,NA,huo,NA
+ids,ids-806,Mang'an B. (MNN),None,None,None,None,SMOOTH,ids-806-15-770-1,ri.33 mɨt.33,ri.33 mɨt.33,Mang'an B.,1,IDS,NA,NA,NA,NA,NA
+ids,ids-807,Wa,nucl1290,23.1024,99.108,Austroasiatic,SMOOTH,ids-807-15-770-1,ńu.A,ńu.A,Wa,1,IDS,wbm,NA,based on Phoible and Wikipedia,wbm,yes
+ids,ids-808,Rumai,ruma1248,23.6404,97.3172,Austroasiatic,SMOOTH,ids-808-15-770-1,ləm.55,ləm.55,Rumai,1,IDS,rbb,NA,cannot be determined,rbb,NA
+ids,ids-809,Prai,phai1238,19.0383,101.218,Austroasiatic,SMOOTH,ids-809-15-770-1,mial,mial,Prai,1,IDS,pry,NA,NA,pry,NA
+ids,ids-809,Prai,phai1238,19.0383,101.218,Austroasiatic,SMOOTH,ids-809-15-770-2,mial,mial,Prai,1,IDS,pry,NA,NA,pry,NA
+ids,ids-810,Pusing,bitt1240,21.3474,101.916,Austroasiatic,SMOOTH,ids-810-15-770-1,lət mat,lət mat,Pusing,1,IDS,bgk,NA,NA,bgk,NA
+ids,ids-811,Paliu,boly1239,24.7013,104.955,Austroasiatic,SMOOTH,ids-811-15-770-1,ri.33 mɨt.33,ri.33 mɨt.33,Paliu,1,IDS,ply,NA,NA,ply,NA
+ids,ids-814,Mlabri,mlab1235,18.5533,101.163,Austroasiatic,SMOOTH,ids-814-15-770-1,tha lu,tha lu,Mlabri,1,IDS,mra,NA,based on wikipedia,mra,yes
+ids,ids-815,Cuoi,cuoi1242,None,None,Austroasiatic,SMOOTH,ids-815-15-770-1,klə:n.33,klə:n.33,Cuoi,1,IDS,NA,NA,NA,NA,NA
+ids,ids-818,Tho Mun (THM),None,None,None,None,SMOOTH,ids-818-15-770-1,ṭə:n.A,ṭə:n.A,Tho Mun,1,IDS,NA,NA,NA,NA,NA
+ids,ids-818,Tho Mun (THM),None,None,None,None,SMOOTH,ids-818-15-770-2,ṭə:n.33,ṭə:n.33,Tho Mun,1,IDS,NA,NA,NA,NA,NA
+ids,ids-819,LiHa,cuoi1242,None,None,Austroasiatic,SMOOTH,ids-819-15-770-1,kle:n.31,kle:n.31,LiHa,1,IDS,NA,NA,NA,NA,NA
+ids,ids-820,Phong,phon1246,19.9622,104.088,Austroasiatic,SMOOTH,ids-820-15-770-1,lian.42,lian.42,Phong,1,IDS,pnx,NA,NA,pnx,NA
+ids,ids-821,TUL,None,None,None,None,SMOOTH,ids-821-15-770-1,lə̆ʔiat.212,lə̆ʔiat.212,TUL,1,IDS,NA,NA,NA,NA,NA
+ids,ids-822,Tum,cuoi1242,None,None,Austroasiatic,SMOOTH,ids-822-15-770-1,plɛ:l.24,plɛ:l.24,Tum,1,IDS,NA,NA,NA,NA,NA
+ids,ids-824,Phu Tho M (PHU),None,None,None,None,SMOOTH,ids-824-15-770-1,ńăn.4,ńăn.4,Phu Tho M,1,IDS,NA,NA,NA,NA,NA
+ids,ids-825,Kha Poong,khap1242,18.25,105.0,Austroasiatic,SMOOTH,ids-825-15-770-1,saŋ.13,saŋ.13,Kha Poong,1,IDS,NA,NA,NA,NA,NA
+ids,ids-826,Malieng,mali1278,None,None,Austroasiatic,SMOOTH,ids-826-15-770-1,ka:ńan.44,ka:ńan.44,Malieng,1,IDS,NA,NA,NA,NA,NA
+ids,ids-827,Ahlao Th,aheu1239,17.7655,104.229,Austroasiatic,SMOOTH,ids-827-15-770-1,hăʔdiʔ.B kŏh.B,hăʔdiʔ.B kŏh.B,Ahlao,1,IDS,thm,NA,flap,thm,no
+ids,ids-829,Nyakur,nyah1250,15.8909,101.515,Austroasiatic,SMOOTH,ids-829-15-770-1,hriəp (T),hriəp,Nyakur,1,IDS,cbn,NA,not clear,cbn,no
+ids,ids-830,Pear,pear1247,13.593,105.028,Austroasiatic,SMOOTH,ids-830-15-770-1,prɛt liat,prɛt liat,Pear,1,IDS,pcb,NA,NA,pcb,NA
+ids,ids-831,SAN,None,None,None,None,SMOOTH,ids-831-15-770-1,phań.55,phań.55,SAN,1,IDS,NA,NA,NA,NA,NA
+ids,ids-832,Kasong,suoy1242,11.936,104.136,Austroasiatic,SMOOTH,ids-832-15-770-1,riəp.E,riəp.E,Kasong,1,IDS,syo,NA,NA,syo,NA
+ids,ids-833,Samre,somr1240,12.243,103.139,Austroasiatic,SMOOTH,ids-833-15-770-1,riəp.B,riəp.B,Samre,1,IDS,sxm,NA,approximant,sxm,no
+ids,ids-834,Chong,chon1284,12.5218,102.514,Austroasiatic,SMOOTH,ids-834-15-770-1,səmə:.A,səmə:.A,Chong,1,IDS,cog,NA,trill,cog,yes
+ids,ids-835,KNB (a Pearic variety),west2394,None,None,Austroasiatic,SMOOTH,ids-835-15-770-1,ri:əp,ri:əp,KNB,1,IDS,NA,NA,NA,NA,NA
+ids,ids-836,Surin Khmer,suri1265,None,None,Austroasiatic,SMOOTH,ids-836-15-770-1,ri:əp,ri:əp,Surin Khmer,1,IDS,khm,NA,NA,khm,NA
+ids,ids-838,Iduh,oduu1239,19.3497,104.106,Austroasiatic,SMOOTH,ids-838-15-770-1,bîn,bîn,Iduh,1,IDS,tyh,NA,NA,tyh,NA
+ids,ids-839,Mang Ch,mang1378,21.4305,102.133,Austroasiatic,SMOOTH,ids-839-15-770-1,pə.31 luaŋ.51,pə.31 luaŋ.51,Mang Ch,1,IDS,zng,NA,NA,zng,NA
+ids,ids-840,Mang VN,mang1378,21.4305,102.133,Austroasiatic,SMOOTH,ids-840-15-770-1,ba:ŋ.2,ba:ŋ.2,Mang VN,1,IDS,NA,NA,NA,NA,NA
+ids,ids-840,Mang VN,mang1378,21.4305,102.133,Austroasiatic,SMOOTH,ids-840-15-770-2,pa:.1 lu:aŋ.4,pa:.1 lu:aŋ.4,Mang VN,1,IDS,NA,NA,NA,NA,NA
+ids,ids-32,Andi,andi1255,42.8078,46.2919,Nakh-Daghestanian,ROUGH,ids-32-15-760-1,хъачІи,qačʼi,Andi,2,CLICS,ani,trill,wiki,NA,NA
+ids,ids-33,Akhvakh (Northern dialect),akhv1239,42.4003,46.3037,Nakh-Daghestanian,ROUGH,ids-33-15-760-1,хъачІадабе,q̄ačʼadabe,Akhvakh,2,CLICS,akv,trill,wiki,NA,NA
+ids,ids-35,Bagvalal,bagv1239,42.3966,46.1041,Nakh-Daghestanian,ROUGH,ids-35-15-760-1,хъачІуб,qačʼub,Bagvalal,1,CLICS,kva,NA,NA,NA,NA
+ids,ids-37,Botlikh,botl1242,42.665,46.22,Nakh-Daghestanian,ROUGH,ids-37-15-760-1,кьантІи,ƛ̄ʼantʼi,Botlikh,2,CLICS,bph,NA,NA,NA,NA
+ids,ids-38,Godoberi,ghod1238,42.7428,46.2252,Nakh-Daghestanian,ROUGH,ids-38-15-760-1,хъачІаб,qačʼab,Godoberi,1,CLICS,gdo,NA,NA,NA,NA
+ids,ids-39,Karata,kara1474,42.6501,46.3151,Nakh-Daghestanian,ROUGH,ids-39-15-760-1,хъачІоб,qačʼob,Karata,2,CLICS,kpt,trill,wiki,NA,NA
+ids,ids-41,Khwarshi (Khwarshi dialect),xvar1237,None,None,Nakh-Daghestanian,ROUGH,ids-41-15-760-1,хъохъору,qoqoru,Khwarshi,2,CLICS,khv,trill,NA,NA,NA
+ids,ids-42,Hinuq,hinu1240,42.4502,45.8064,Nakh-Daghestanian,ROUGH,ids-42-15-760-1,"болІойу, хъачІав",boƛoyu,Hinuq,1,CLICS,gin,trill,wiki,NA,NA
+ids,ids-42,Hinuq,hinu1240,42.4502,45.8064,Nakh-Daghestanian,ROUGH,ids-42-15-760-2,"болІойу, хъачІав",qačʼaw,Hinuq,1,CLICS,gin,trill,wiki,NA,NA
+ids,ids-50,Tindi,tind1238,42.3316,45.9227,Nakh-Daghestanian,ROUGH,ids-50-15-760-1,"хъечІуб, кьагъалІа",qečʼub,Tindi,1,CLICS,tin,NA,NA,NA,NA
+ids,ids-50,Tindi,tind1238,42.3316,45.9227,Nakh-Daghestanian,ROUGH,ids-50-15-760-2,"хъечІуб, кьагъалІа",ƛ̄ʼaɣaƛa,Tindi,1,CLICS,tin,NA,NA,NA,NA
+ids,ids-51,Chamalal,cham1309,42.5024,45.995,Nakh-Daghestanian,ROUGH,ids-51-15-760-1,"кьагъуб, хъачІуб, бигьу-бицуб",ƛ̄ʼaɣub,Chamalal,2,CLICS,cji,trill,https://omniglot.com/writing/chamalal.htm,NA,NA
+ids,ids-51,Chamalal,cham1309,42.5024,45.995,Nakh-Daghestanian,ROUGH,ids-51-15-760-2,"кьагъуб, хъачІуб, бигьу-бицуб",qačʼub,Chamalal,2,CLICS,cji,trill,https://omniglot.com/writing/chamalal.htm,NA,NA
+ids,ids-51,Chamalal,cham1309,42.5024,45.995,Nakh-Daghestanian,ROUGH,ids-51-15-760-3,"кьагъуб, хъачІуб, бигьу-бицуб",bihu-bicub,Chamalal,2,CLICS,cji,trill,https://omniglot.com/writing/chamalal.htm,NA,NA
+ids,ids-52,Hunzib,hunz1247,42.0808,46.1369,Nakh-Daghestanian,ROUGH,ids-52-15-760-1,"чІечІеру, хъачІаб",čʼečʼeru,Hunzib,1,CLICS,huz,trill,wiki,NA,NA
+ids,ids-52,Hunzib,hunz1247,42.0808,46.1369,Nakh-Daghestanian,ROUGH,ids-52-15-760-2,"чІечІеру, хъачІаб",qačʼab,Hunzib,1,CLICS,huz,trill,wiki,NA,NA
+ids,ids-56,Lak,lakk1252,42.1328,47.0809,Nakh-Daghestanian,ROUGH,ids-56-15-760-1,гьарапІарасса,harapʼaras̄a,Lak,4,CLICS,lbe,NA,NA,lbe,NA
+ids,ids-57,Dargwa,darg1241,42.4257,47.4388,Nakh-Daghestanian,ROUGH,ids-57-15-760-1,кьяркьси,qʼaˤrqʼsi,Dargwa,18,CLICS,dar,trill,wiki,NA,NA
+ids,ids-61,Aghul,aghu1253,41.9242,47.5843,Nakh-Daghestanian,ROUGH,ids-61-15-760-1,хуцІеф,xucʼef,Aghul,2,CLICS,agx,trill,wiki,NA,NA
+ids,ids-63,Budukh,budu1248,41.2272,48.3353,Nakh-Daghestanian,ROUGH,ids-63-15-760-1,"кІеви, кІепи, кубуд",kʼewi,Budukh,1,CLICS,bdk,NA,NA,NA,NA
+ids,ids-63,Budukh,budu1248,41.2272,48.3353,Nakh-Daghestanian,ROUGH,ids-63-15-760-2,"кІеви, кІепи, кубуд",kʼepi,Budukh,1,CLICS,bdk,NA,NA,NA,NA
+ids,ids-63,Budukh,budu1248,41.2272,48.3353,Nakh-Daghestanian,ROUGH,ids-63-15-760-3,"кІеви, кІепи, кубуд",kubud,Budukh,1,CLICS,bdk,NA,NA,NA,NA
+ids,ids-64,Lezgian,lezg1247,41.5157,47.8951,Nakh-Daghestanian,ROUGH,ids-64-15-760-1,векъи,weq̄i,Lezgian,2,CLICS,lez,trill,wiki,NA,NA
+ids,ids-66,Rutul,rutu1240,41.6187,47.3244,Nakh-Daghestanian,ROUGH,ids-66-15-760-1,"терсды, гьуІрметсызды",tersdɨ,Rutul,5,CLICS,rut,NA,NA,rut,NA
+ids,ids-66,Rutul,rutu1240,41.6187,47.3244,Nakh-Daghestanian,ROUGH,ids-66-15-760-2,"терсды, гьуІрметсызды",huˤrmetsɨzdɨ,Rutul,5,CLICS,rut,NA,NA,rut,NA
+ids,ids-68,Tabasaran (Southern dialect),sout2752,None,None,Nakh-Daghestanian,ROUGH,ids-68-15-760-1,"мешребсуз, кубут, бегьем дару",mešrebsuz,Tabasaran,2,CLICS,tab,trill,wiki,NA,NA
+ids,ids-68,Tabasaran (Southern dialect),sout2752,None,None,Nakh-Daghestanian,ROUGH,ids-68-15-760-2,"мешребсуз, кубут, бегьем дару",kubut,Tabasaran,2,CLICS,tab,trill,wiki,NA,NA
+ids,ids-68,Tabasaran (Southern dialect),sout2752,None,None,Nakh-Daghestanian,ROUGH,ids-68-15-760-3,"мешребсуз, кубут, бегьем дару",behem daru,Tabasaran,2,CLICS,tab,trill,wiki,NA,NA
+ids,ids-69,Khinalug,khin1240,41.1801,48.0571,Nakh-Daghestanian,ROUGH,ids-69-15-760-1,"кубут, къатангъаз, сар",kubut,Khinalug,1,CLICS,kjj,trill,wiki,NA,NA
+ids,ids-69,Khinalug,khin1240,41.1801,48.0571,Nakh-Daghestanian,ROUGH,ids-69-15-760-2,"кубут, къатангъаз, сар",q̄atanɣaz,Khinalug,1,CLICS,kjj,trill,wiki,NA,NA
+ids,ids-69,Khinalug,khin1240,41.1801,48.0571,Nakh-Daghestanian,ROUGH,ids-69-15-760-3,"кубут, къатангъаз, сар",sar,Khinalug,1,CLICS,kjj,trill,wiki,NA,NA
+ids,ids-70,Tsakhur,tsak1249,41.5916,46.8858,Nakh-Daghestanian,ROUGH,ids-70-15-760-1,кобутун,kobutun,Tsakhur,2,CLICS,tkr,trill,wiki,NA,NA
+ids,ids-72,Kumyk,kumy1244,43.0,47.0,Turkic,ROUGH,ids-72-15-760-1,"ишгъынсыз, тири",išɣɨnsɨz,Kumyk,6,CLICS,kum,trill,https://www.omniglot.com/writing/kumyk.php,NA,NA
+ids,ids-72,Kumyk,kumy1244,43.0,47.0,Turkic,ROUGH,ids-72-15-760-2,"ишгъынсыз, тири",tiri,Kumyk,6,CLICS,kum,trill,https://www.omniglot.com/writing/kumyk.php,NA,NA
+ids,ids-73,Nogai,noga1249,43.5917,46.6618,Turkic,ROUGH,ids-73-15-760-1,"каты, келиссиз этилген",katɨ,Nogai,1,CLICS,nog,NA,NA,NA,NA
+ids,ids-73,Nogai,noga1249,43.5917,46.6618,Turkic,ROUGH,ids-73-15-760-2,"каты, келиссиз этилген",kelis̄iz etilgen,Nogai,1,CLICS,nog,NA,NA,NA,NA
+ids,ids-74,Judeo-Tat,jude1256,42.068306,48.264749,Indo-European,ROUGH,ids-74-15-760-1,бихьуьрметлуье,bix̌urmetlüye,Judeo-Tat,1,CLICS,jdt,no trill,wiki,NA,NA
+ids,ids-75,Chechen,chec1245,43.5,45.5,Nakh-Daghestanian,ROUGH,ids-75-15-760-1,"морса, шога",morsa,Chechen,2,CLICS,che,NA,NA,che,NA
+ids,ids-75,Chechen,chec1245,43.5,45.5,Nakh-Daghestanian,ROUGH,ids-75-15-760-2,"морса, шога",šoga,Chechen,2,CLICS,che,NA,NA,che,NA
+ids,ids-80,Udi,udii1243,40.9,47.7236,Nakh-Daghestanian,ROUGH,ids-80-15-760-1,туьнд,tünd,Udi,1,CLICS,udi,trill,wiki,NA,NA
+ids,ids-107,Avar,avar1256,41.7047,46.558,Nakh-Daghestanian,ROUGH,ids-107-15-760-1,"хъачІаб, согІаб",qačʼab,Avar,8,CLICS,ava,NA,NA,ava,NA
+ids,ids-107,Avar,avar1256,41.7047,46.558,Nakh-Daghestanian,ROUGH,ids-107-15-760-2,"хъачІаб, согІаб",soʕab,Avar,8,CLICS,ava,NA,NA,ava,NA
+ids,ids-126,Erzya Mordvin,erzy1239,52.8548,45.3901,Uralic,ROUGH,ids-126-15-760-1,kazʸamo,kazʸamo,Erzya Mordvin,1,IDS,myv,NA,based on wikipedia,myv,yes
+ids,ids-127,Estonian,esto1258,58.55,25.82,Uralic,ROUGH,ids-127-15-760-1,kar̃e; kar̃m,kar̃e,Estonian,1,IDS,est,NA,based on wikipedia,est,yes
+ids,ids-127,Estonian,esto1258,58.55,25.82,Uralic,ROUGH,ids-127-15-760-2,kar̃e; kar̃m,kar̃m,Estonian,1,IDS,est,NA,based on wikipedia,est,yes
+ids,ids-128,Finnish,finn1318,64.7628,25.5577,Uralic,ROUGH,ids-128-15-760-1,epætasainen; kar̃kea,epætasainen,Finnish,1,IDS,fin,NA,NA,fin,yes
+ids,ids-128,Finnish,finn1318,64.7628,25.5577,Uralic,ROUGH,ids-128-15-760-2,epætasainen; kar̃kea,kar̃kea,Finnish,1,IDS,fin,NA,NA,fin,yes
+ids,ids-131,Hungarian,hung1274,46.9068585714,19.6555271429,Uralic,ROUGH,ids-131-15-760-1,érdes,eerdeš,Hungarian,1,IDS,hun,NA,NA,hun,yes
+ids,ids-139,Komi,komi1268,64.0527,54.946,Uralic,ROUGH,ids-139-15-760-1,sar̃öga,sar̃öga,Komi,1,IDS,kpv,NA,NA,kpv,yes
+ids,ids-143,Northern Saami,nort2671,68.725,22.1113,Uralic,ROUGH,ids-143-15-760-1,r̃oɑkkɑs,r̃oɑkkɑs,Northern Saami,1,IDS,sme,NA,NA,sma,yes
+ids,ids-147,Mari,east2328,55.8307,48.405,Uralic,ROUGH,ids-147-15-760-1,kozə'r̃a,kozə'r̃a,Mari,1,IDS,mhr,NA,tap/flap,mhr,no
+ids,ids-148,Nenets,nene1249,66.1775,71.0234,Uralic,ROUGH,ids-148-15-760-1,nasor̃tana ~ nasor̃pey,nasor̃tana,Nenets,1,IDS,yrk,NA,NA,yrk,yes
+ids,ids-148,Nenets,nene1249,66.1775,71.0234,Uralic,ROUGH,ids-148-15-760-2,nasor̃tana ~ nasor̃pey,nasor̃pey,Nenets,1,IDS,yrk,NA,NA,yrk,yes
+ids,ids-159,Udmurt,udmu1245,56.12921,52.63548,Uralic,ROUGH,ids-159-15-760-1,šakɩr̃es ~ vogɩr̃iyo,šakɩr̃es,Udmurt,1,IDS,udm,NA,based on wikipedia,udm,yes
+ids,ids-159,Udmurt,udmu1245,56.12921,52.63548,Uralic,ROUGH,ids-159-15-760-2,šakɩr̃es ~ vogɩr̃iyo,vogɩr̃iyo,Udmurt,1,IDS,udm,NA,based on wikipedia,udm,yes
+ids,ids-160,Bezhta,bezh1248,42.1206,46.0332,Nakh-Daghestanian,ROUGH,ids-160-15-760-1,"хъаьчІчІоь, хъоьхъилоь",qäčʼčʼö,Bezhta,3,CLICS,kap,trill,wiki,NA,NA
+ids,ids-160,Bezhta,bezh1248,42.1206,46.0332,Nakh-Daghestanian,ROUGH,ids-160-15-760-2,"хъаьчІчІоь, хъоьхъилоь",qöqilö,Bezhta,3,CLICS,kap,trill,wiki,NA,NA
+ids,ids-167,Ancient Greek,anci1242,39.8155,21.9129,Indo-European,ROUGH,ids-167-15-760-1,trā'kʰus,trā'kʰus,Ancient Greek,1,IDS,grc,NA,NA,grc,NA
+ids,ids-168,Modern Greek,mode1248,38.36,23.13,Indo-European,ROUGH,ids-168-15-760-1,tra'xis,tra'xis,Modern Greek,1,IDS,ell,NA,tap; wikipedia says it may be produced as trill in clusters,ell,no
+ids,ids-169,Latin,lati1261,41.9026,12.4502,Indo-European,ROUGH,ids-169-15-760-1,asper,asper,Latin,1,IDS,lat,NA,NA,lat,NA
+ids,ids-170,Italian,ital1282,43.0464,12.6489,Indo-European,ROUGH,ids-170-15-760-1,ruvido,ruvido,Italian,1,IDS,ita,NA,NA,ita,yes
+ids,ids-171,French,stan1290,48.0,2.0,Indo-European,ROUGH,ids-171-15-760-1,rugueux; rude,rugueux,French,1,IDS,fra,NA,NA,fra,yes
+ids,ids-171,French,stan1290,48.0,2.0,Indo-European,ROUGH,ids-171-15-760-2,rugueux; rude,rude,French,1,IDS,fra,NA,NA,fra,yes
+ids,ids-172,Panare,enap1235,6.95035,-65.8483,Cariban,ROUGH,ids-172-15-760-1,t-ərəʔrə-če,t-ərəʔrə-če,Panare,1,IDS,pbh,NA,in addition wikipedia says it's a flap,pbh,no
+ids,ids-175,Wai Wai,waiw1244,1.50881,-59.1417,Cariban,ROUGH,ids-175-15-760-1,tu-turu-y,tu-turu-y,Wai Wai,1,IDS,waw,NA,flap or approximant,waw,no
+ids,ids-176,Spanish,stan1288,40.4414,-1.11788,Indo-European,ROUGH,ids-176-15-760-1,áspero,áspero,Spanish,1,IDS,spa,NA,NA,spa,yes
+ids,ids-177,Catalan,stan1289,41.453,1.569,Indo-European,ROUGH,ids-177-15-760-1,aspre,aspre,Catalan,1,IDS,cat,NA,NA,cat,yes
+ids,ids-178,Portuguese,port1283,39.91,-8.1,Indo-European,ROUGH,ids-178-15-760-1,áspero,áspero,Portuguese,1,IDS,por,NA,flap,por,no
+ids,ids-179,Romanian,roma1327,46.3913,24.2256,Indo-European,ROUGH,ids-179-15-760-1,aspru,aspru,Romanian,1,IDS,ron,NA,NA,ron,yes
+ids,ids-180,Old Irish,oldi1245,53.0,-8.0,Indo-European,ROUGH,ids-180-15-760-1,garb,garb,Old Irish,1,IDS,NA,NA,NA,NA,NA
+ids,ids-181,Irish,iris1253,53.2186,-7.61509,Indo-European,ROUGH,ids-181-15-760-1,garbh,garbh,Irish,1,IDS,gle,NA,tap,gle,no
+ids,ids-182,Welsh,wels1247,52.0,-4.0,Indo-European,ROUGH,ids-182-15-760-1,garw,garw,Welsh,1,IDS,cym,NA,based on wikipedia,cym,yes
+ids,ids-183,Breton,bret1244,48.2452,-3.78934,Indo-European,ROUGH,ids-183-15-760-1,rust,rust,Breton,1,IDS,bre,NA,NA,bre,yes
+ids,ids-184,Gothic,goth1244,46.9304,29.9786,Indo-European,ROUGH,ids-184-15-760-1,usdrusts,usdrusts,Gothic,1,IDS,got,NA,NA,got,NA
+ids,ids-185,Old Norse,oldn1244,63.42,10.38,Indo-European,ROUGH,ids-185-15-760-1,ūslēttr; hrjūfr,ūslēttr,Old Norse,1,IDS,NA,NA,NA,NA,NA
+ids,ids-185,Old Norse,oldn1244,63.42,10.38,Indo-European,ROUGH,ids-185-15-760-2,ūslēttr; hrjūfr,hrjūfr,Old Norse,1,IDS,NA,NA,NA,NA,NA
+ids,ids-186,Danish,dani1285,54.8655,9.36284,Indo-European,ROUGH,ids-186-15-760-1,ujævn; ru,ujævn,Danish,1,IDS,dan,NA,voiced uvular fricative; says Wikipedia,dan,no
+ids,ids-186,Danish,dani1285,54.8655,9.36284,Indo-European,ROUGH,ids-186-15-760-2,ujævn; ru,ru,Danish,1,IDS,dan,NA,voiced uvular fricative; says Wikipedia,dan,no
+ids,ids-187,Swedish,swed1254,59.800634,17.389526,Indo-European,ROUGH,ids-187-15-760-1,ojämn; skrovlig,ojämn,Swedish,1,IDS,swe,NA,approximant,swe,no
+ids,ids-187,Swedish,swed1254,59.800634,17.389526,Indo-European,ROUGH,ids-187-15-760-2,ojämn; skrovlig,skrovlig,Swedish,1,IDS,swe,NA,approximant,swe,no
+ids,ids-188,Old English,olde1238,51.06,-1.31,Indo-European,ROUGH,ids-188-15-760-1,unsmēθe; rūh; hrēof,unsmēθe,Old English,1,IDS,ang,NA,NA,ang,NA
+ids,ids-188,Old English,olde1238,51.06,-1.31,Indo-European,ROUGH,ids-188-15-760-2,unsmēθe; rūh; hrēof,rūh,Old English,1,IDS,ang,NA,NA,ang,NA
+ids,ids-188,Old English,olde1238,51.06,-1.31,Indo-European,ROUGH,ids-188-15-760-3,unsmēθe; rūh; hrēof,hrēof,Old English,1,IDS,ang,NA,NA,ang,NA
+ids,ids-189,Middle English,midd1317,51.65,-1.11,Indo-European,ROUGH,ids-189-15-760-1,rough-e; uneven,rough-e,Middle English,1,IDS,NA,NA,NA,NA,NA
+ids,ids-189,Middle English,midd1317,51.65,-1.11,Indo-European,ROUGH,ids-189-15-760-2,rough-e; uneven,uneven,Middle English,1,IDS,NA,NA,NA,NA,NA
+ids,ids-190,English,stan1293,53.0,-1.0,Indo-European,ROUGH,ids-190-15-760-1,rough,rough,English,1,IDS,eng,NA,approximant,eng,no
+ids,ids-191,Dutch,dutc1256,52.0,5.0,Indo-European,ROUGH,ids-191-15-760-1,ruw; oneffen,ruw,Dutch,1,IDS,nld,NA,R,nld,yes
+ids,ids-191,Dutch,dutc1256,52.0,5.0,Indo-European,ROUGH,ids-191-15-760-2,ruw; oneffen,oneffen,Dutch,1,IDS,nld,NA,R,nld,yes
+ids,ids-192,Old High German,oldh1241,52.0,10.0,Indo-European,ROUGH,ids-192-15-760-1,scarp(f)~sar(p)f; ruh~rūh~ruoh; gi-rob; (h)rao,scarp,Old High German,1,IDS,goh,NA,NA,goh,NA
+ids,ids-192,Old High German,oldh1241,52.0,10.0,Indo-European,ROUGH,ids-192-15-760-2,scarp(f)~sar(p)f; ruh~rūh~ruoh; gi-rob; (h)rao,sarf,Old High German,1,IDS,goh,NA,NA,goh,NA
+ids,ids-192,Old High German,oldh1241,52.0,10.0,Indo-European,ROUGH,ids-192-15-760-3,scarp(f)~sar(p)f; ruh~rūh~ruoh; gi-rob; (h)rao,ruh,Old High German,1,IDS,goh,NA,NA,goh,NA
+ids,ids-192,Old High German,oldh1241,52.0,10.0,Indo-European,ROUGH,ids-192-15-760-4,scarp(f)~sar(p)f; ruh~rūh~ruoh; gi-rob; (h)rao,rūh,Old High German,1,IDS,goh,NA,NA,goh,NA
+ids,ids-192,Old High German,oldh1241,52.0,10.0,Indo-European,ROUGH,ids-192-15-760-5,scarp(f)~sar(p)f; ruh~rūh~ruoh; gi-rob; (h)rao,ruoh,Old High German,1,IDS,goh,NA,NA,goh,NA
+ids,ids-192,Old High German,oldh1241,52.0,10.0,Indo-European,ROUGH,ids-192-15-760-6,scarp(f)~sar(p)f; ruh~rūh~ruoh; gi-rob; (h)rao,gi-rob,Old High German,1,IDS,goh,NA,NA,goh,NA
+ids,ids-192,Old High German,oldh1241,52.0,10.0,Indo-European,ROUGH,ids-192-15-760-7,scarp(f)~sar(p)f; ruh~rūh~ruoh; gi-rob; (h)rao,rao,Old High German,1,IDS,goh,NA,NA,goh,NA
+ids,ids-193,Middle High German,midd1343,48.254,10.599,Indo-European,ROUGH,ids-193-15-760-1,rūch; uneben,rūch,Middle High German,1,IDS,NA,NA,NA,NA,NA
+ids,ids-193,Middle High German,midd1343,48.254,10.599,Indo-European,ROUGH,ids-193-15-760-2,rūch; uneben,uneben,Middle High German,1,IDS,NA,NA,NA,NA,NA
+ids,ids-194,German,stan1295,48.649,12.4676,Indo-European,ROUGH,ids-194-15-760-1,rauh; uneben,rauh,German,1,IDS,deu,NA,R,deu,yes
+ids,ids-194,German,stan1295,48.649,12.4676,Indo-European,ROUGH,ids-194-15-760-2,rauh; uneben,uneben,German,1,IDS,deu,NA,R,deu,yes
+ids,ids-195,Yiddish,east2295,51.75,19.42,Indo-European,ROUGH,ids-195-15-760-1,šorstik,šorstik,Yiddish,1,IDS,ydd,NA,NA,ydd,yes
+ids,ids-196,Lithuanian,lith1251,55.1429,23.9601,Indo-European,ROUGH,ids-196-15-760-1,šiurkštùs; nelýgus; rupùs,šiurkštùs,Lithuanian,1,IDS,lit,NA,NA,lit,yes
+ids,ids-196,Lithuanian,lith1251,55.1429,23.9601,Indo-European,ROUGH,ids-196-15-760-2,šiurkštùs; nelýgus; rupùs,nelýgus,Lithuanian,1,IDS,lit,NA,NA,lit,yes
+ids,ids-196,Lithuanian,lith1251,55.1429,23.9601,Indo-European,ROUGH,ids-196-15-760-3,šiurkštùs; nelýgus; rupùs,rupùs,Lithuanian,1,IDS,lit,NA,NA,lit,yes
+ids,ids-197,Latvian,latv1249,56.826108,24.309118,Indo-European,ROUGH,ids-197-15-760-1,rupjš,rupjš,Latvian,1,IDS,lav,NA,based on wikipedia,lav,yes
+ids,ids-199,Old Church Slavonic,chur1257,43.7171,22.8442,Indo-European,ROUGH,ids-199-15-760-1,srŭchŭkŭ,srŭchŭkŭ,Old Church Slavonic,1,IDS,NA,NA,NA,NA,NA
+ids,ids-200,Bulgarian,bulg1262,43.3646,25.047,Indo-European,ROUGH,ids-200-15-760-1,[grápav]; grúb,grápav,Bulgarian,1,IDS,bul,NA,NA,bul,yes
+ids,ids-200,Bulgarian,bulg1262,43.3646,25.047,Indo-European,ROUGH,ids-200-15-760-2,[grápav]; grúb,grúb,Bulgarian,1,IDS,bul,NA,NA,bul,yes
+ids,ids-201,Serbo-Croatian,sout1528,44.15,18.81,Indo-European,ROUGH,ids-201-15-760-1,hrapav,hrapav,Serbo-Croatian,1,IDS,hrv; srp,NA,NA,hrv,yes
+ids,ids-202,Czech,czec1258,49.873398,15.10437,Indo-European,ROUGH,ids-202-15-760-1,drsný,drsný,Czech,1,IDS,ces,NA,NA,ces,yes
+ids,ids-203,Polish,poli1260,51.8439,18.6255,Indo-European,ROUGH,ids-203-15-760-1,szorstki; chropawy,szorstki,Polish,1,IDS,pol,NA,NA,pol,yes
+ids,ids-203,Polish,poli1260,51.8439,18.6255,Indo-European,ROUGH,ids-203-15-760-2,szorstki; chropawy,chropawy,Polish,1,IDS,pol,NA,NA,pol,yes
+ids,ids-204,Russian,russ1263,59.0,50.0,Indo-European,ROUGH,ids-204-15-760-1,grubyj,grubyj,Russian,1,IDS,rus,NA,NA,rus,yes
+ids,ids-206,Armenian (Eastern variety),nucl1235,40.0,45.0,Indo-European,ROUGH,ids-206-15-760-1,"kˀoštˀ, kˀopˀitˀ",kˀoštˀ,Armenian,2,IDS,hye,NA,NA,hye,yes
+ids,ids-206,Armenian (Eastern variety),nucl1235,40.0,45.0,Indo-European,ROUGH,ids-206-15-760-2,"kˀoštˀ, kˀopˀitˀ",kˀopˀitˀ,Armenian,2,IDS,hye,NA,NA,hye,yes
+ids,ids-207,Armenian (Western variety),homs1234,40.1897,44.4839,Indo-European,ROUGH,ids-207-15-760-1,"gošd, gobid",gošd,Armenian,2,IDS,hye,NA,NA,hye,yes
+ids,ids-207,Armenian (Western variety),homs1234,40.1897,44.4839,Indo-European,ROUGH,ids-207-15-760-2,"gošd, gobid",gobid,Armenian,2,IDS,hye,NA,NA,hye,yes
+ids,ids-209,Tocharian A,tokh1242,42.98,89.18,Indo-European,ROUGH,ids-209-15-760-1,āśāwe,āśāwe,Tocharian A,1,IDS,NA,NA,NA,NA,NA
+ids,ids-210,Tocharian B,tokh1243,41.65,82.9,Indo-European,ROUGH,ids-210-15-760-1,aśāwe,aśāwe,Tocharian B,1,IDS,NA,NA,NA,NA,NA
+ids,ids-211,Sanskrit,sans1269,20.0,77.0,Indo-European,ROUGH,ids-211-15-760-1,viṣama-,viṣama-,Sanskrit,1,IDS,NA,NA,NA,NA,yes
+ids,ids-212,Romani,vlax1238,46.09,18.16,Indo-European,ROUGH,ids-212-15-760-1,[aspro],aspro,Romani,9,IDS,rmy,NA,based on wikipedia,rmy,yes
+ids,ids-214,Persian,west2369,32.9,53.3,Indo-European,ROUGH,ids-214-15-760-1,dorošt,dorošt,Persian,1,IDS,pes,NA,NA,pes,yes
+ids,ids-215,Ancient Aramaic,olda1245,32.84,37.0,Afro-Asiatic,ROUGH,ids-215-15-760-1,ḳše; χarrūš; mʁarram; ʁazzūp,ḳše,Ancient Aramaic,1,IDS,NA,NA,NA,NA,NA
+ids,ids-215,Ancient Aramaic,olda1245,32.84,37.0,Afro-Asiatic,ROUGH,ids-215-15-760-2,ḳše; χarrūš; mʁarram; ʁazzūp,χarrūš,Ancient Aramaic,1,IDS,NA,NA,NA,NA,NA
+ids,ids-215,Ancient Aramaic,olda1245,32.84,37.0,Afro-Asiatic,ROUGH,ids-215-15-760-3,ḳše; χarrūš; mʁarram; ʁazzūp,mʁarram,Ancient Aramaic,1,IDS,NA,NA,NA,NA,NA
+ids,ids-215,Ancient Aramaic,olda1245,32.84,37.0,Afro-Asiatic,ROUGH,ids-215-15-760-4,ḳše; χarrūš; mʁarram; ʁazzūp,ʁazzūp,Ancient Aramaic,1,IDS,NA,NA,NA,NA,NA
+ids,ids-217,Negerhollands,nege1244,18.3416,-64.8922,Indo-European,ROUGH,ids-217-15-760-1,grof (?),grof,Negerhollands,1,IDS,dcr,NA,NA,dcr,NA
+ids,ids-218,Jamaican Creole (Limonese Creole dialect),jama1262,18.13,-77.2612,Indo-European,ROUGH,ids-218-15-760-1,rɔf,rɔf,Jamaican Creole,1,IDS,jam,NA,approximant,jam,no
+ids,ids-219,Basque,basq1248,43.2787,-1.31622,Basque,ROUGH,ids-219-15-760-1,lac̷,lac̷,Basque,1,IDS,eus,NA,NA,eus,yes
+ids,ids-220,Hausa,haus1257,11.1513,8.7804,Afro-Asiatic,ROUGH,ids-220-15-760-1,kaushi,kaushi,Hausa,1,IDS,hau,NA,NA,hau,NA
+ids,ids-221,Polci,polc1243,10.0258,9.53362,Afro-Asiatic,ROUGH,ids-221-15-760-1,woghshəp,woghshəp,Polci,1,IDS,plj,NA,based on wikipedia; that's the symbol they use but no description,plj,yes
+ids,ids-222,Nahuatl (Sierra de Zacapoaxtla variety),high1278,20.1554,-97.5556,Uto-Aztecan,ROUGH,ids-222-15-760-1,šihšipin-ti-k; šašakač-ti-k,šihšipin-ti-k,Nahuatl,1,IDS,azz,NA,NA,ncj,no
+ids,ids-222,Nahuatl (Sierra de Zacapoaxtla variety),high1278,20.1554,-97.5556,Uto-Aztecan,ROUGH,ids-222-15-760-2,šihšipin-ti-k; šašakač-ti-k,šašakač-ti-k,Nahuatl,1,IDS,azz,NA,NA,ncj,no
+ids,ids-223,Chatino (Zacatepec variety),zaca1242,16.08,-97.3069,Otomanguean,ROUGH,ids-223-15-760-1,čeʔ,čeʔ,Chatino,1,IDS,ctp,NA,NA,ctp,no
+ids,ids-224,Karok,karo1304,41.8228,-123.315,Karok,ROUGH,ids-224-15-760-1,kúkuh,kúkuh,Karok,1,IDS,kyh,NA,flap,kyh,no
+ids,ids-225,Seri,seri1257,28.9877,-112.384,Seri,ROUGH,ids-225-15-760-1,-i'nǣšx; -i'pākaɬk,-i'nǣšx,Seri,1,IDS,sei,NA,flap,sei,no
+ids,ids-225,Seri,seri1257,28.9877,-112.384,Seri,ROUGH,ids-225-15-760-2,-i'nǣšx; -i'pākaɬk,-i'pākaɬk,Seri,1,IDS,sei,NA,flap,sei,no
+ids,ids-226,Zuni,zuni1245,35.0056,-108.782,Zuni,ROUGH,ids-226-15-760-1,čippa-,čippa-,Zuni,1,IDS,zun,NA,no R-like phoneme,zun,no R
+ids,ids-228,Tlingit,tlin1245,59.4447,-135.29,Athabaskan-Eyak-Tlingit,ROUGH,ids-228-15-760-1,ka-si-xˀaax,ka-si-xˀaax,Tlingit,1,IDS,tli,NA,no R-like phoneme,tli,no R
+ids,ids-234,Proto Polynesian,poly1242,None,None,Austronesian,ROUGH,ids-234-15-760-1,PPN *feke-feke,*feke-feke,Proto Polynesian,1,IDS,NA,NA,NA,NA,NA
+ids,ids-235,Hawaiian,hawa1245,19.6297,-155.43,Austronesian,ROUGH,ids-235-15-760-1,hoʔolua; ʔālualua; ʔōkala; kala,hoʔolua,Hawaiian,1,IDS,haw,NA,no R-like phoneme,haw,no R
+ids,ids-235,Hawaiian,hawa1245,19.6297,-155.43,Austronesian,ROUGH,ids-235-15-760-2,hoʔolua; ʔālualua; ʔōkala; kala,ʔālualua,Hawaiian,1,IDS,haw,NA,no R-like phoneme,haw,no R
+ids,ids-235,Hawaiian,hawa1245,19.6297,-155.43,Austronesian,ROUGH,ids-235-15-760-3,hoʔolua; ʔālualua; ʔōkala; kala,ʔōkala,Hawaiian,1,IDS,haw,NA,no R-like phoneme,haw,no R
+ids,ids-235,Hawaiian,hawa1245,19.6297,-155.43,Austronesian,ROUGH,ids-235-15-760-4,hoʔolua; ʔālualua; ʔōkala; kala,kala,Hawaiian,1,IDS,haw,NA,no R-like phoneme,haw,no R
+ids,ids-236,Maori,maor1246,-38.2881,176.541,Austronesian,ROUGH,ids-236-15-760-1,tara-tara,tara-tara,Maori,1,IDS,mri,NA,flap,mri,no
+ids,ids-238,Rapa Nui,rapa1244,-27.113,-109.342,Austronesian,ROUGH,ids-238-15-760-1,raʔa-raʔa; ra-raʔa; makiri,raʔa-raʔa,Rapa Nui,1,IDS,rap,NA,flap,rap,no
+ids,ids-238,Rapa Nui,rapa1244,-27.113,-109.342,Austronesian,ROUGH,ids-238-15-760-2,raʔa-raʔa; ra-raʔa; makiri,ra-raʔa,Rapa Nui,1,IDS,rap,NA,flap,rap,no
+ids,ids-238,Rapa Nui,rapa1244,-27.113,-109.342,Austronesian,ROUGH,ids-238-15-760-3,raʔa-raʔa; ra-raʔa; makiri,makiri,Rapa Nui,1,IDS,rap,NA,flap,rap,no
+ids,ids-239,Rotuman,rotu1241,-12.5008,177.066,Austronesian,ROUGH,ids-239-15-760-1,vɔnu,vɔnu,Rotuman,1,IDS,rtm,NA,r ~ l allophony according to wikipedia,rtm,no R
+ids,ids-240,Tongan,tong1325,-21.17,-175.25,Austronesian,ROUGH,ids-240-15-760-1,petepete,petepete,Tongan,1,IDS,ton,NA,approximant,ton,no
+ids,ids-241,Tuamotuan,tuam1242,-16.17259,-146.321755,Austronesian,ROUGH,ids-241-15-760-1,heo,heo,Tuamotuan,1,IDS,pmt,NA,flap based on Hiroshi Kuki (1969),pmt,no
+ids,ids-243,Muisca,chib1270,6.24999,-74.1666,Chibchan,ROUGH,ids-243-15-760-1,asiquen mague,a-sik-ɨn maɣe,Muisca,1,IDS,chb,NA,flap,chb,no
+ids,ids-244,Páez,paez1247,2.61516,-76.31254,Páez,ROUGH,ids-244-15-760-1,šik,šik,Páez,1,IDS,pbb,NA,NA,pbb,NA
+ids,ids-245,Cayapa,chac1249,0.71489,-79.0508,Barbacoan,ROUGH,ids-245-15-760-1,'bus'naʔ'c̷ulu; 'bui'-'hele,'bus'naʔ'c̷ulu,Cayapa,1,IDS,cbi,NA,NA,cbi,NA
+ids,ids-245,Cayapa,chac1249,0.71489,-79.0508,Barbacoan,ROUGH,ids-245-15-760-2,'bus'naʔ'c̷ulu; 'bui'-'hele,'bui'-'hele,Cayapa,1,IDS,cbi,NA,NA,cbi,NA
+ids,ids-247,Embera,nort2972,7.12761,-77.574,Chocoan,ROUGH,ids-247-15-760-1,ɨ'gɨa,ɨ'gɨa,Embera,1,IDS,emp,NA,tap/flap ~ trill allophony,emp,no
+ids,ids-248,Epena,epen1239,4.25877,-77.3566,Chocoan,ROUGH,ids-248-15-760-1,ɨ'kʰɨa,ɨ'kʰɨa,Epena,1,IDS,sja,NA,tap/flap ~ trill allophony,sja,no
+ids,ids-250,Yuwana,yuwa1244,5.63879,-65.4267,Hoti,ROUGH,ids-250-15-760-1,huluwaka,huluwaka,Yuwana,1,IDS,yau,NA,flap based on wikipedia,yau,no
+ids,ids-251,Yaruro,pume1238,7.10677,-67.5996,Pumé,ROUGH,ids-251-15-760-1,i gaipa,i gaipa,Yaruro,1,IDS,yae,NA,flap based on wikipedia,yae,no
+ids,ids-253,Yanomámi,yano1262,2.48999,-62.8522,Yanomamic,ROUGH,ids-253-15-760-1,rõki; namo,rõki,Yanomámi,1,IDS,wca,NA,NA,wca,NA
+ids,ids-253,Yanomámi,yano1262,2.48999,-62.8522,Yanomamic,ROUGH,ids-253-15-760-2,rõki; namo,namo,Yanomámi,1,IDS,wca,NA,NA,wca,NA
+ids,ids-254,Cofán,cofa1242,0.276675,-77.0643,Cofán,ROUGH,ids-254-15-760-1,c̷ʰac̷ʰac̷ʰi; c̷ʰac̷ʰariʔkʰo,c̷ʰac̷ʰac̷ʰi,Cofán,1,IDS,con,NA,NA,con,NA
+ids,ids-254,Cofán,cofa1242,0.276675,-77.0643,Cofán,ROUGH,ids-254-15-760-2,c̷ʰac̷ʰac̷ʰi; c̷ʰac̷ʰariʔkʰo,c̷ʰac̷ʰariʔkʰo,Cofán,1,IDS,con,NA,NA,con,NA
+ids,ids-255,Waorani,waor1240,-1.12312,-76.683,Waorani,ROUGH,ids-255-15-760-1,yãbæ̃,yãbæ̃,Waorani,1,IDS,auc,NA,no R-like phoneme,auc,no R
+ids,ids-257,Tuyuca,tuyu1244,0.39441,-70.043515,Tucanoan,ROUGH,ids-257-15-760-1,-bubiro,-bubiro,Tuyuca,1,IDS,tue,NA,flap,tue,no
+ids,ids-258,Aguaruna,agua1253,-5.30044,-77.9218,Chicham,ROUGH,ids-258-15-760-1,šuham,šuham,Aguaruna,1,IDS,agr,NA,flap,agr,no
+ids,ids-260,Yagua,yagu1244,-3.42913,-72.2186,Peba-Yagua,ROUGH,ids-260-15-760-1,wariwyunu-,wariwyunu-,Yagua,1,IDS,yad,NA,flap,yad,no
+ids,ids-262,Goajiro,wayu1243,11.395566,-72.199791,Arawakan,ROUGH,ids-262-15-760-1,yaľa-yaľa-sɨ,yaľa-yaľa-sɨ,Goajiro,1,IDS,guc,NA,"phoible lists trill and approximant, wikipedia lists trill only",guc,yes
+ids,ids-263,Ignaciano,igna1246,-15.1188,-65.3993,Arawakan,ROUGH,ids-263-15-760-1,'sesuki; 'sesume,'sesuki,Ignaciano,1,IDS,ign,NA,flap,ign,no
+ids,ids-263,Ignaciano,igna1246,-15.1188,-65.3993,Arawakan,ROUGH,ids-263-15-760-2,'sesuki; 'sesume,'sesume,Ignaciano,1,IDS,ign,NA,flap,ign,no
+ids,ids-265,Trinitario,trin1274,-15.3331,-65.4096,Arawakan,ROUGH,ids-265-15-760-1,-reru,-reru,Trinitario,1,IDS,trn,NA,NA,trn,NA
+ids,ids-266,Wapishana,wapi1253,2.58744,-59.8021,Arawakan,ROUGH,ids-266-15-760-1,kʰaduraiẓaˀba-ʔu,kʰaduraiẓaˀba-ʔu,Wapishana,1,IDS,wap,NA,flap,wap,no
+ids,ids-267,Waurá,waur1244,-13.296,-53.6971,Arawakan,ROUGH,ids-267-15-760-1,kapic̷uka,kapic̷uka,Waurá,1,IDS,wau,NA,NA,wau,NA
+ids,ids-268,Yavitero,yavi1244,2.924844,-67.438886,Arawakan,ROUGH,ids-268-15-760-1,gaľu-hi,gaľu-hi,Yavitero,1,IDS,yvt,NA,NA,yvt,NA
+ids,ids-269,Aymara,cent2142,-17.0,-68.5,Aymaran,ROUGH,ids-269-15-760-1,čʰankʰa,čʰankʰa,Aymara,1,IDS,ayr,NA,flap,ayr,no
+ids,ids-270,Chipaya,chip1262,-18.73951,-67.89633,Uru-Chipaya,ROUGH,ids-270-15-760-1,č̣ʰax̣ta,č̣ʰax̣ta,Chipaya,1,IDS,cap,NA,flap,cap,no
+ids,ids-271,Mosetén,mose1249,-14.64448,-67.83756,Mosetén-Chimané,ROUGH,ids-271-15-760-1,šek'tač; šek'tæs,šek'tač,Mosetén,1,IDS,cas,NA,NA,cas,NA
+ids,ids-271,Mosetén,mose1249,-14.64448,-67.83756,Mosetén-Chimané,ROUGH,ids-271-15-760-2,šek'tač; šek'tæs,šek'tæs,Mosetén,1,IDS,cas,NA,NA,cas,NA
+ids,ids-272,Araona,arao1248,-12.4242,-67.7293,Pano-Tacanan,ROUGH,ids-272-15-760-1,zaka-zaka,zaka-zaka,Araona,1,IDS,aro,NA,no R-like phoneme,aro,no R
+ids,ids-273,Cavineña,cavi1250,-13.3544,-66.6277,Pano-Tacanan,ROUGH,ids-273-15-760-1,c̷eke-da,c̷eke-da,Cavineña,1,IDS,cav,NA,NA,cav,NA
+ids,ids-274,Ese Ejja,esee1248,-11.7268,-67.515,Pano-Tacanan,ROUGH,ids-274-15-760-1,-šaʔa,-šaʔa,Ese Ejja,2,IDS,ese,NA,NA,ese,NA
+ids,ids-275,Ese Ejja (Huarayo),esee1248,-11.7268,-67.515,Pano-Tacanan,ROUGH,ids-275-15-760-1,kia-šaa,kia-šaa,Ese Ejja,2,IDS,ese,NA,no R-like phoneme,ese,no R
+ids,ids-276,Tacana,taca1256,-13.39249,-68.04056,Pano-Tacanan,ROUGH,ids-276-15-760-1,"ď̶ebo-da; ď̶aka-ď̶aka, ď̶eoda",ď̶ebo-da,Tacana,1,IDS,tna,NA,flap,tna,no
+ids,ids-276,Tacana,taca1256,-13.39249,-68.04056,Pano-Tacanan,ROUGH,ids-276-15-760-2,"ď̶ebo-da; ď̶aka-ď̶aka, ď̶eoda",ď̶aka-ď̶aka,Tacana,1,IDS,tna,NA,flap,tna,no
+ids,ids-276,Tacana,taca1256,-13.39249,-68.04056,Pano-Tacanan,ROUGH,ids-276-15-760-3,"ď̶ebo-da; ď̶aka-ď̶aka, ď̶eoda",ď̶eoda,Tacana,1,IDS,tna,NA,flap,tna,no
+ids,ids-278,Catuquina,pano1254,-7.97456,-71.56151,Pano-Tacanan,ROUGH,ids-278-15-760-1,šãto,šãto,Catuquina,1,IDS,kav,NA,"probably Katukina, no R-like phoneme",kav,no R
+ids,ids-281,Shipibo-Conibo,ship1254,-7.17105,-74.8219,Pano-Tacanan,ROUGH,ids-281-15-760-1,bɨṣ̌a; ṣ̌aṣ̌a,bɨṣ̌a,Shipibo-Conibo,1,IDS,shp,NA,NA,shp,NA
+ids,ids-281,Shipibo-Conibo,ship1254,-7.17105,-74.8219,Pano-Tacanan,ROUGH,ids-281-15-760-2,bɨṣ̌a; ṣ̌aṣ̌a,ṣ̌aṣ̌a,Shipibo-Conibo,1,IDS,shp,NA,NA,shp,NA
+ids,ids-282,Yaminahua,yami1256,-9.8846,-71.5964,Pano-Tacanan,ROUGH,ids-282-15-760-1,βɨṣ̌kɨ,βɨṣ̌kɨ,Yaminahua,1,IDS,yaa,NA,no R-like phoneme,yaa,no R
+ids,ids-284,Itonama,iton1250,-12.80431,-64.35748,Itonama,ROUGH,ids-284-15-760-1,kˀapuluʔna,kˀapuluʔna,Itonama,1,IDS,ito,NA,NA,ito,NA
+ids,ids-285,Movima,movi1243,-13.8115,-65.6348,Movima,ROUGH,ids-285-15-760-1,ča-puh-ni,ča-puh-ni,Movima,1,IDS,mzp,NA,tap/flap,mzp,no
+ids,ids-288,Aché,ache1246,-25.5865,-56.4697,Tupian,ROUGH,ids-288-15-760-1,kuru,kuru,Aché,1,IDS,guq,NA,NA,guq,NA
+ids,ids-289,Chiriguano,east2555,-20.42,-63.37,Tupian,ROUGH,ids-289-15-760-1,haiᵐbe,haiᵐbe,Chiriguano,1,IDS,gui,NA,tap/flap,gui,no
+ids,ids-290,Guaraní,para1311,-25.60551,-57.08816,Tupian,ROUGH,ids-290-15-760-1,ko'ročo,ko'ročo,Guaraní,1,IDS,gug,NA,NA,gug,NA
+ids,ids-291,Sirionó,siri1273,-15.5298,-63.9688,Tupian,ROUGH,ids-291-15-760-1,eraašɨ̃,eraašɨ̃,Sirionó,1,IDS,srq,NA,NA,srq,NA
+ids,ids-292,Wayampi,waya1270,1.73817,-52.6887,Tupian,ROUGH,ids-292-15-760-1,kalala,kalala,Wayampi,1,IDS,oym,NA,tap/flap,oym,no
+ids,ids-294,Kaingáng,kain1272,-27.7671,-52.5394,Nuclear-Macro-Je,ROUGH,ids-294-15-760-1,kaΦãy,kaΦãy,Kaingáng,1,IDS,kgp,NA,NA,kgp,NA
+ids,ids-297,Ayoreo,ayor1240,-19.220055,-60.217495,Zamucoan,ROUGH,ids-297-15-760-1,čoo 'čiki 'čiki,čoo 'čiki 'čiki,Ayoreo,1,IDS,ayo,NA,tap/flap,ayo,no
+ids,ids-299,Sanapaná (Enlhet dialect),sana1298,-22.49,-58.38,Lengua-Mascoy,ROUGH,ids-299-15-760-1,alekhahaykaok; akpaʔalyeyˀ,alekhahaykaok,Sanapaná,2,IDS,sap,NA,NA,sap,NA
+ids,ids-299,Sanapaná (Enlhet dialect),sana1298,-22.49,-58.38,Lengua-Mascoy,ROUGH,ids-299-15-760-2,alekhahaykaok; akpaʔalyeyˀ,akpaʔalyeyˀ,Sanapaná,2,IDS,sap,NA,NA,sap,NA
+ids,ids-301,Mocoví,moco1246,-28.097,-60.4145,Guaicuruan,ROUGH,ids-301-15-760-1,se n-al-a-ʔtaʔ,se n-al-a-ʔtaʔ,Mocoví,1,IDS,moc,NA,NA,moc,NA
+ids,ids-304,Chorote,iyoj1235,-22.1896,-63.2383,Matacoan,ROUGH,ids-304-15-760-1,-kixe; xe-liixi,-kixe,Chorote,1,IDS,crq; crt,NA,no R-like phoneme,crq,no R
+ids,ids-304,Chorote,iyoj1235,-22.1896,-63.2383,Matacoan,ROUGH,ids-304-15-760-2,-kixe; xe-liixi,xe-liixi,Chorote,1,IDS,crq; crt,NA,no R-like phoneme,crq,no R
+ids,ids-305,Maca,maca1260,-25.0119,-57.3694,Matacoan,ROUGH,ids-305-15-760-1,c̷eeχe,c̷eeχe,Maca,1,IDS,mca,NA,cannot be determined,mca,NA
+ids,ids-306,Wichí,wich1264,-23.1633,-62.1757,Matacoan,ROUGH,ids-306-15-760-1,yelah-'peʔ,yelah-'peʔ,Wichí,1,IDS,mzh,NA,NA,mzh,NA
+ids,ids-307,Nivaclé,niva1238,-22.8557,-61.7606,Matacoan,ROUGH,ids-307-15-760-1,c̷axax; c̷aʔc̷a-čˀe,c̷axax,Nivaclé,1,IDS,cag,NA,NA,cag,NA
+ids,ids-307,Nivaclé,niva1238,-22.8557,-61.7606,Matacoan,ROUGH,ids-307-15-760-2,c̷axax; c̷aʔc̷a-čˀe,c̷aʔc̷a-čˀe,Nivaclé,1,IDS,cag,NA,NA,cag,NA
+ids,ids-308,Kunza,kunz1244,-23.0,-69.0,Kunza,ROUGH,ids-308-15-760-1,ckatchacka; ca-cha-ca,ckatchacka,Kunza,1,IDS,kuz,NA,NA,kuz,NA
+ids,ids-308,Kunza,kunz1244,-23.0,-69.0,Kunza,ROUGH,ids-308-15-760-2,ckatchacka; ca-cha-ca,ca-cha-ca,Kunza,1,IDS,kuz,NA,NA,kuz,NA
+ids,ids-309,Mapudungun,mapu1245,-38.7392,-71.277,Araucanian,ROUGH,ids-309-15-760-1,yuŋe,yuŋe,Mapudungun,1,IDS,arn,NA,no R-like phoneme,arn,no R
+ids,ids-311,Selknam,onaa1245,-54.0,-68.5,Chonan,ROUGH,ids-311-15-760-1,čou tˀam,čou tˀam,Selknam,1,IDS,ona,NA,cannot be determined,ona,NA
+ids,ids-314,Toba,toba1269,-23.77,-61.96,Guaicuruan,ROUGH,ids-314-15-760-1,kesaḳ,kesaḳ,Toba,1,IDS,tob,NA,tap/flap,tob,no
+ids,ids-315,Yagán,yama1264,-55.2748,-68.2648,Yámana,ROUGH,ids-315-15-760-1,kuma,kuma,Yagán,1,IDS,yah,NA,NA,yah,NA
+ids,ids-318,Uncunwee,ghul1238,11.6432,29.8122,Nubian,ROUGH,ids-318-15-760-1,kóɲi,kóɲi,Uncunwee,1,IDS,ghl,NA,cannot be determined,ghl,NA
+ids,ids-401,Central Thai,thai1261,14.192,100.671,Tai-Kadai,ROUGH,ids-401-15-760-1,ja:p.2; khruʔ.2-khraʔ.2 maj.3 riap.3,ja:p.2,Central Thai,1,IDS,tha,NA,tap/flap,tha,no
+ids,ids-401,Central Thai,thai1261,14.192,100.671,Tai-Kadai,ROUGH,ids-401-15-760-2,ja:p.2; khruʔ.2-khraʔ.2 maj.3 riap.3,khruʔ.2-khraʔ.2 maj.3 riap.3,Central Thai,1,IDS,tha,NA,tap/flap,tha,no
+ids,ids-402,Southern Tai (Songkhla variety),sout2746,6.85668,99.7031,Tai-Kadai,ROUGH,ids-402-15-760-1,ja:p.8,ja:p.8,Southern Tai,1,IDS,tha,NA,tap/flap,tha,no
+ids,ids-403,Thai (Korat variety),sout2746,6.85668,99.7031,Tai-Kadai,ROUGH,ids-403-15-760-1,ta.5 luk.5,ta.5 luk.5,Thai,2,IDS,tha,NA,tap/flap,tha,no
+ids,ids-404,Khamuang (Chiang Mai variety),nort2740,18.857495,100.20739,Tai-Kadai,ROUGH,ids-404-15-760-1,bɔ:.3 li:ap.4,bɔ:.3 li:ap.4,Khamuang,1,IDS,nod,NA,cannot be determined,nod,NA
+ids,ids-405,Dehong,tain1252,21.7837,99.722,Tai-Kadai,ROUGH,ids-405-15-760-1,ka:i.2; hau.3,ka:i.2,Dehong,1,IDS,tdd; thi,NA,no R-like phoneme; based on wikipedia,tdd; thi,no R
+ids,ids-405,Dehong,tain1252,21.7837,99.722,Tai-Kadai,ROUGH,ids-405-15-760-2,ka:i.2; hau.3,hau.3,Dehong,1,IDS,tdd; thi,NA,no R-like phoneme; based on wikipedia,tdd; thi,no R
+ids,ids-406,Jinsha Dai,nort1545,26.7238,106.682,Hmong-Mien,ROUGH,ids-406-15-760-1,khau.11 khət.24,khau.11 khət.24,Jinsha Dai,1,CLICS,tiz,NA,NA,NA,NA
+ids,ids-407,Tai Lü,luuu1242,21.0321,101.282,Tai-Kadai,ROUGH,ids-407-15-760-1,ca:.2,ca:.2,Tai Lü,1,IDS,khb,NA,NA,khb,NA
+ids,ids-408,Tai Khün,khun1259,19.6062,99.3363,Tai-Kadai,ROUGH,ids-408-15-760-1,ca:.1,ca:.1,Tai Khün,1,IDS,kkh,NA,NA,kkh,NA
+ids,ids-409,Shan,shan1277,21.5995,98.0342,Tai-Kadai,ROUGH,ids-409-15-760-1,ca:.1,ca:.1,Shan,2,IDS,shn,NA,there is a trill but wikipedia says it's marginal,shn,no R
+ids,ids-410,Shan (Northern Shan dialect),shan1277,21.5995,98.0342,Tai-Kadai,ROUGH,ids-410-15-760-1,ca:.1,ca:.1,Shan,2,IDS,shn,NA,there is a trill but wikipedia says it's marginal,shn,no R
+ids,ids-411,Nung-Fengshan,guib1244,24.3,106.2,Tai-Kadai,ROUGH,ids-411-15-760-1,ša.2,ša.2,Nung-Fengshan,1,IDS,zgn,NA,no R-like phoneme; based on Nung-Ninbei,zgn,no R
+ids,ids-412,Nung-Lazhai,guib1244,24.3,106.2,Tai-Kadai,ROUGH,ids-412-15-760-1,tu.1; ńa:p.7,tu.1,Nung-Lazhai,1,IDS,zgn,NA,no R-like phoneme; based on Nung-Ninbei,zgn,no R
+ids,ids-412,Nung-Lazhai,guib1244,24.3,106.2,Tai-Kadai,ROUGH,ids-412-15-760-2,tu.1; ńa:p.7,ńa:p.7,Nung-Lazhai,1,IDS,zgn,NA,no R-like phoneme; based on Nung-Ninbei,zgn,no R
+ids,ids-413,Nung-Ninbei,nung1283,20.8965,104.286,Tai-Kadai,ROUGH,ids-413-15-760-1,khja:u.3; ca.2,khja:u.3,Nung-Ninbei,1,IDS,nut,NA,no R-like phoneme,nut,no R
+ids,ids-413,Nung-Ninbei,nung1283,20.8965,104.286,Tai-Kadai,ROUGH,ids-413-15-760-2,khja:u.3; ca.2,ca.2,Nung-Ninbei,1,IDS,nut,NA,no R-like phoneme,nut,no R
+ids,ids-414,Zhuang-Longzhou,zuoj1238,22.4,106.9,Tai-Kadai,ROUGH,ids-414-15-760-1,śo.1 śa:u.5; ka:i.2 śa.2,śo.1 śa:u.5,Zhuang-Longzhou,1,IDS,zzj,NA,cannot be determined,zzj,NA
+ids,ids-414,Zhuang-Longzhou,zuoj1238,22.4,106.9,Tai-Kadai,ROUGH,ids-414-15-760-2,śo.1 śa:u.5; ka:i.2 śa.2,ka:i.2 śa.2,Zhuang-Longzhou,1,IDS,zzj,NA,cannot be determined,zzj,NA
+ids,ids-415,Sui,suii1243,24.0488,106.563,Tai-Kadai,ROUGH,ids-415-15-760-1,ńha:k.7 ńin.1; ŋa:i.6,ńha:k.7 ńin.1,Sui,1,IDS,swi,NA,no R-like phoneme,swi,no R
+ids,ids-415,Sui,suii1243,24.0488,106.563,Tai-Kadai,ROUGH,ids-415-15-760-2,ńha:k.7 ńin.1; ŋa:i.6,ŋa:i.6,Sui,1,IDS,swi,NA,no R-like phoneme,swi,no R
+ids,ids-416,Maonan,maon1241,25.0169,108.024,Tai-Kadai,ROUGH,ids-416-15-760-1,la:u.4; ńa:p.7,la:u.4,Maonan,1,CLICS,mmd,NA,NA,NA,NA
+ids,ids-416,Maonan,maon1241,25.0169,108.024,Tai-Kadai,ROUGH,ids-416-15-760-2,la:u.4; ńa:p.7,ńa:p.7,Maonan,1,CLICS,mmd,NA,NA,NA,NA
+ids,ids-417,Mulam,mula1253,24.8151,108.928,Tai-Kadai,ROUGH,ids-417-15-760-1,thɔ.1,thɔ.1,Mulam,1,CLICS,mlm,no rhotic,"Coyaud, M (1987) Les Langues Dans Le Monde Chinois. Pour l'Analyse du Folklore, Paris.",NA,NA
+ids,ids-418,Chadong,chad1240,25.23532,109.96041,Tai-Kadai,ROUGH,ids-418-15-760-1,chu.1,chu.1,Chadong,1,CLICS,cdy,NA,NA,NA,NA
+ids,ids-419,Southern Kam,sout2741,25.8874,109.222,Tai-Kadai,ROUGH,ids-419-15-760-1,mut.323; qe.212 ljân.55,mut.323,Southern Kam,1,CLICS,doc; kmc,no trill,wiki,NA,NA
+ids,ids-419,Southern Kam,sout2741,25.8874,109.222,Tai-Kadai,ROUGH,ids-419-15-760-2,mut.323; qe.212 ljân.55,qe.212 ljân.55,Southern Kam,1,CLICS,doc; kmc,no trill,wiki,NA,NA
+ids,ids-420,Lakkia,lakk1238,24.1169,110.106,Tai-Kadai,ROUGH,ids-420-15-760-1,ŋhja:p.7,ŋhja:p.7,Lakkia,1,IDS,lbc,NA,no R-like phoneme,lbc,no R
+ids,ids-421,Hlai (Baoting variety),hlai1239,18.8062,109.459,Tai-Kadai,ROUGH,ids-421-15-760-1,cha:k.8,cha:k.8,Hlai,1,IDS,lic,NA,cannot be determined; Peter Kristian Norquest's phonological reconstruction suggests both tap or trill,lic,NA
+ids,ids-422,Langja Buyang,emab1235,23.604572,106.030277,Tai-Kadai,ROUGH,ids-422-15-760-1,qa.0 ʒa.312,qa.0 ʒa.312,Langja Buyang,1,IDS,yzg,NA,cannot be determined; Peter Kristian Norquest's phonological reconstruction suggests both tap or trill,yzg,NA
+ids,ids-423,Ecun Buyang,lang1316,23.550258,106.016896,Tai-Kadai,ROUGH,ids-423-15-760-1,śo.24 ńok.55,śo.24 ńok.55,Ecun Buyang,1,IDS,yln,NA,cannot be determined; Peter Kristian Norquest's phonological reconstruction suggests both tap or trill,yln,NA
+ids,ids-424,Sanchong Kelao,gree1278,22.5632,104.698,Tai-Kadai,ROUGH,ids-424-15-760-1,chu .35 chau.13,chu .35 chau.13,Sanchong Kelao,1,IDS,giq,NA,cannot be determined; Peter Kristian Norquest's phonological reconstruction suggests both tap or trill,giq,NA
+ids,ids-425,Qau Kelao,qaua1234,26.155438,106.16455,Tai-Kadai,ROUGH,ids-425-15-760-1,chu.33 cha.33,chu.33 cha.33,Qau Kelao,1,IDS,gqu,NA,no R-like phoneme,gqu,no R
+ids,ids-516,Ingush,ingu1240,43.11,45.03,Nakh-Daghestanian,ROUGH,ids-516-15-760-1,охца,oxca,Ingush,1,CLICS,inh,NA,NA,inh,NA
+ids,ids-518,Kryz,kryt1240,41.1811,48.1846,Nakh-Daghestanian,ROUGH,ids-518-15-760-1,кубуд,kubud,Kryz,1,CLICS,kry,NA,NA,NA,NA
+ids,ids-533,Tsova-Tush,bats1242,42.1806,45.344,Nakh-Daghestanian,ROUGH,ids-533-15-760-1,ухІа̄мур,uhāmur,Tsova-Tush,1,CLICS,bbl,NA,NA,bbl,NA
+ids,ids-701,Bengali,beng1280,24.0,90.0,Indo-European,ROUGH,ids-701-15-760-1,asamatala,asamatala,Bengali,1,IDS,ben,NA,cannot be determined; Phoible lists different phonemes,ben,NA
+ids,ids-702,Hindi,hind1269,25.0,77.0,Indo-European,ROUGH,ids-702-15-760-1,kʰurad̪araː,kʰurad̪araː,Hindi,1,IDS,hin,NA,cannot be determined; Phoible lists different phonemes,hin,NA
+ids,ids-703,Khasi,khas1269,24.977,91.9998,Austroasiatic,ROUGH,ids-703-15-760-1,sohkhruh-sohkhrâm,sohkhruh-sohkhrâm,Khasi,1,CLICS,kha,trill,wiki,kha,NA
+ids,ids-704,Mahasu Pahari (Kotghari dialect),maha1287,31.0088,77.5317,Indo-European,ROUGH,ids-704-15-760-1,pəraɽɔ,pəraɽɔ,Mahasu Pahari,1,IDS,bfz,NA,NA,bfz,NA
+ids,ids-705,Marathi,mara1378,17.9344,76.6665,Indo-European,ROUGH,ids-705-15-760-1,kʰarabarit̪,kʰarabarit̪,Marathi,1,IDS,mar,NA,tap/flap,mar,no
+ids,ids-706,Nepali,east1436,27.5947033333,87.6200833333,Indo-European,ROUGH,ids-706-15-760-1,khasrō,khasrō,Nepali,1,IDS,nep,NA,"also wikipedia says ""r is always a trill""",nep,yes
+ids,ids-707,Punjabi,west2386,30.0948,75.3474,Indo-European,ROUGH,ids-707-15-760-1,"rukhā, khurdarā",rukhā,Punjabi,1,IDS,pnb,NA,flap based on wikipedia,pan,no
+ids,ids-707,Punjabi,west2386,30.0948,75.3474,Indo-European,ROUGH,ids-707-15-760-2,"rukhā, khurdarā",khurdarā,Punjabi,1,IDS,pnb,NA,flap based on wikipedia,pan,no
+ids,ids-708,Tamil,tami1289,10.520219,78.825989,Dravidian,ROUGH,ids-708-15-760-1,karaṭumūraṭāṉa,karaṭumūraṭāṉa,Tamil,1,IDS,tam,NA,flap or approximant,tam,no
+ids,ids-709,Telugu,telu1262,16.4529,78.7024,Dravidian,ROUGH,ids-709-15-760-1,cittu,cittu,Telugu,1,IDS,tel,NA,flap based on mixture of wikipedia and phoible (conflicting information),tel,no
+ids,ids-710,Tibetan,tibe1272,28.3681,90.1872,Sino-Tibetan,ROUGH,ids-710-15-760-1,rtsub mo,rtsub mo,Tibetan,8,IDS,bod,NA,trill ~ approximant allophony (see wikipedia),bod,yes
+ids,ids-801,Bulang,blan1242,22.0092,99.7405,Austroasiatic,ROUGH,ids-801-15-760-1,sa.31 phuh.51 sa.31 phah.51,sa.31 phuh.51 sa.31 phah.51,Bulang,3,IDS,blr,NA,NA,blr,yes
+ids,ids-802,Bulang-2,blan1242,22.0092,99.7405,Austroasiatic,ROUGH,ids-802-15-760-1,ra.31,ra.31,Bulang,3,IDS,blr,NA,NA,blr,yes
+ids,ids-802,Bulang-2,blan1242,22.0092,99.7405,Austroasiatic,ROUGH,ids-802-15-760-2,ćək.31 ʔa.31 khliat.51,ćək.31 ʔa.31 khliat.51,Bulang,3,IDS,blr,NA,NA,blr,yes
+ids,ids-803,Bulang-3,blan1242,22.0092,99.7405,Austroasiatic,ROUGH,ids-803-15-760-1,ći.33 ru.31 rut.51,ći.33 ru.31 rut.51,Bulang,3,IDS,blr,NA,NA,blr,yes
+ids,ids-804,Keme (Kemie variety),manm1238,22.0743,100.842,Austroasiatic,ROUGH,ids-804-15-760-1,ma.53 len.35,ma.53 len.35,Keme,1,IDS,mml,NA,NA,mml,NA
+ids,ids-805,Xu,huuu1240,22.0163,100.881,Austroasiatic,ROUGH,ids-805-15-760-1,xək.55,xək.55,Xu,1,IDS,huo,NA,NA,huo,NA
+ids,ids-806,Mang'an B. (MNN),None,None,None,None,ROUGH,ids-806-15-760-1,hat.55 ri.33 mɨt.33,hat.55 ri.33 mɨt.33,Mang'an B.,1,IDS,NA,NA,NA,NA,NA
+ids,ids-807,Wa,nucl1290,23.1024,99.108,Austroasiatic,ROUGH,ids-807-15-760-1,rɛʔ.B,rɛʔ.B,Wa,1,IDS,wbm,NA,based on Phoible and Wikipedia,wbm,yes
+ids,ids-808,Rumai,ruma1248,23.6404,97.3172,Austroasiatic,ROUGH,ids-808-15-760-1,khaʔ.55,khaʔ.55,Rumai,1,IDS,rbb,NA,cannot be determined,rbb,NA
+ids,ids-809,Prai,phai1238,19.0383,101.218,Austroasiatic,ROUGH,ids-809-15-760-1,khla:t,khla:t,Prai,1,IDS,pry,NA,NA,pry,NA
+ids,ids-809,Prai,phai1238,19.0383,101.218,Austroasiatic,ROUGH,ids-809-15-760-2,khla:t,khla:t,Prai,1,IDS,pry,NA,NA,pry,NA
+ids,ids-811,Paliu,boly1239,24.7013,104.955,Austroasiatic,ROUGH,ids-811-15-760-1,hat.55 ri.33 mɨt.33,hat.55 ri.33 mɨt.33,Paliu,1,IDS,ply,NA,NA,ply,NA
+ids,ids-814,Mlabri,mlab1235,18.5533,101.163,Austroasiatic,ROUGH,ids-814-15-760-1,tra pum tra pɔm,tra pum tra pɔm,Mlabri,1,IDS,mra,NA,based on wikipedia,mra,yes
+ids,ids-815,Cuoi,cuoi1242,None,None,Austroasiatic,ROUGH,ids-815-15-760-1,lo.33 ńo.33,lo.33 ńo.33,Cuoi,1,IDS,NA,NA,NA,NA,NA
+ids,ids-815,Cuoi,cuoi1242,None,None,Austroasiatic,ROUGH,ids-815-15-760-2,bə.33 sə.33,bə.33 sə.33,Cuoi,1,IDS,NA,NA,NA,NA,NA
+ids,ids-816,Vietnamese,viet1252,20.681188,105.774071,Austroasiatic,ROUGH,ids-816-15-760-1,gồ ghề,gồ ghề,Vietnamese,1,IDS,vie,NA,NA,vie,NA
+ids,ids-816,Vietnamese,viet1252,20.681188,105.774071,Austroasiatic,ROUGH,ids-816-15-760-2,xù xì,xù xì,Vietnamese,1,IDS,vie,NA,NA,vie,NA
+ids,ids-818,Tho Mun (THM),None,None,None,None,ROUGH,ids-818-15-760-1,ɣo.C ɣe.C,ɣo.C ɣe.C,Tho Mun,1,IDS,NA,NA,NA,NA,NA
+ids,ids-818,Tho Mun (THM),None,None,None,None,ROUGH,ids-818-15-760-2,ɣo.434 ɣe.434,ɣo.434 ɣe.434,Tho Mun,1,IDS,NA,NA,NA,NA,NA
+ids,ids-818,Tho Mun (THM),None,None,None,None,ROUGH,ids-818-15-760-3,sə:ŋ.A sa:ŋ.A,sə:ŋ.A sa:ŋ.A,Tho Mun,1,IDS,NA,NA,NA,NA,NA
+ids,ids-818,Tho Mun (THM),None,None,None,None,ROUGH,ids-818-15-760-4,sə:ŋ.43 sa:ŋ.33,sə:ŋ.43 sa:ŋ.33,Tho Mun,1,IDS,NA,NA,NA,NA,NA
+ids,ids-819,LiHa,cuoi1242,None,None,Austroasiatic,ROUGH,ids-819-15-760-1,ɣo.43 ɣe.43,ɣo.43 ɣe.43,LiHa,1,IDS,NA,NA,NA,NA,NA
+ids,ids-819,LiHa,cuoi1242,None,None,Austroasiatic,ROUGH,ids-819-15-760-2,kaɛ.43 kaɛ.33,kaɛ.43 kaɛ.33,LiHa,1,IDS,NA,NA,NA,NA,NA
+ids,ids-820,Phong,phon1246,19.9622,104.088,Austroasiatic,ROUGH,ids-820-15-760-1,no:n.21 lup.45,no:n.21 lup.45,Phong,1,IDS,pnx,NA,NA,pnx,NA
+ids,ids-821,TUL,None,None,None,None,ROUGH,ids-821-15-760-1,nɔ.212 lə̆ʔiat.212,nɔ.212 lə̆ʔiat.212,TUL,1,IDS,NA,NA,NA,NA,NA
+ids,ids-822,Tum,cuoi1242,None,None,Austroasiatic,ROUGH,ids-822-15-760-1,lo:n.41,lo:n.41,Tum,1,IDS,NA,NA,NA,NA,NA
+ids,ids-824,Phu Tho M (PHU),None,None,None,None,ROUGH,ids-824-15-760-1,ɣo.2 ɣe.2,ɣo.2 ɣe.2,Phu Tho M,1,IDS,NA,NA,NA,NA,NA
+ids,ids-825,Kha Poong,khap1242,18.25,105.0,Austroasiatic,ROUGH,ids-825-15-760-1,ŋe.33 ŋe.33,ŋe.33 ŋe.33,Kha Poong,1,IDS,NA,NA,NA,NA,NA
+ids,ids-825,Kha Poong,khap1242,18.25,105.0,Austroasiatic,ROUGH,ids-825-15-760-2,karo:j.33,karo:j.33,Kha Poong,1,IDS,NA,NA,NA,NA,NA
+ids,ids-826,Malieng,mali1278,None,None,Austroasiatic,ROUGH,ids-826-15-760-1,djo:n.43 djw.41ʔ,djo:n.43 djw.41ʔ,Malieng,1,IDS,NA,NA,NA,NA,NA
+ids,ids-827,Ahlao Th,aheu1239,17.7655,104.229,Austroasiatic,ROUGH,ids-827-15-760-1,ʔɣ̆nʔ.B zonʔ.B,ʔɣ̆nʔ.B zonʔ.B,Ahlao,1,IDS,thm,NA,flap,thm,no
+ids,ids-829,Nyakur,nyah1250,15.8909,101.515,Austroasiatic,ROUGH,ids-829-15-760-1,jrɔ:č,jrɔ:č,Nyakur,1,IDS,cbn,NA,not clear,cbn,no
+ids,ids-830,Pear,pear1247,13.593,105.028,Austroasiatic,ROUGH,ids-830-15-760-1,blăk,blăk,Pear,1,IDS,pcb,NA,NA,pcb,NA
+ids,ids-831,SAN,None,None,None,None,ROUGH,ids-831-15-760-1,lak.42 khak.44,lak.42 khak.44,SAN,1,IDS,NA,NA,NA,NA,NA
+ids,ids-832,Kasong,suoy1242,11.936,104.136,Austroasiatic,ROUGH,ids-832-15-760-1,ja:p.B,ja:p.B,Kasong,1,IDS,syo,NA,NA,syo,NA
+ids,ids-833,Samre,somr1240,12.243,103.139,Austroasiatic,ROUGH,ids-833-15-760-1,ja:p.C,ja:p.C,Samre,1,IDS,sxm,NA,approximant,sxm,no
+ids,ids-834,Chong,chon1284,12.5218,102.514,Austroasiatic,ROUGH,ids-834-15-760-1,ja:p.A,ja:p.A,Chong,1,IDS,cog,NA,trill,cog,yes
+ids,ids-835,KNB (a Pearic variety),west2394,None,None,Austroasiatic,ROUGH,ids-835-15-760-1,rkət,rkət,KNB,1,IDS,NA,NA,NA,NA,NA
+ids,ids-836,Surin Khmer,suri1265,None,None,Austroasiatic,ROUGH,ids-836-15-760-1,kkrɨh,kkrɨh,Surin Khmer,1,IDS,khm,NA,NA,khm,NA
+ids,ids-838,Iduh,oduu1239,19.3497,104.106,Austroasiatic,ROUGH,ids-838-15-760-1,ga(1)fiəw kanâ:r,ga1fiəw kanâ:r,Iduh,1,IDS,tyh,NA,NA,tyh,NA
+ids,ids-839,Mang Ch,mang1378,21.4305,102.133,Austroasiatic,ROUGH,ids-839-15-760-1,sɔp.55,sɔp.55,Mang Ch,1,IDS,zng,NA,NA,zng,NA
+logos,logos-Romagnolstd,Romagnol-std,roma1328,44.2349,11.7189,Indo-European,SMOOTH,logos-Romagnolstd-395_smooth-1,léss,léss,Romagnol-std,1,CLICS,rgn,trill,wiki,NA,NA
+marrisonnaga,marrisonnaga-KohimaAngami,Angami Kohima,anga1288,25.55,94.1333,Sino-Tibetan,SMOOTH,marrisonnaga-KohimaAngami-691_smooth-1,kemeju,kemeju,Angami Kohima,1,CLICS,njm,no trill,wiki,njm,NA
+marrisonnaga,marrisonnaga-ChungliAo,Ao Chungli,aona1235,26.3167,94.5167,Sino-Tibetan,SMOOTH,marrisonnaga-ChungliAo-691_smooth-1,tesüsü,tesüsü,Ao Chungli,1,CLICS,njo,NA,NA,njo,NA
+marrisonnaga,marrisonnaga-Chang,Chang,chan1313,26.2667,94.0833,Sino-Tibetan,SMOOTH,marrisonnaga-Chang-691_smooth-1,loklokbü,loklokbü,Chang,1,CLICS,nbc,NA,NA,NA,NA
+marrisonnaga,marrisonnaga-Dimasa,Dimasa,dima1251,25.42,93.18,Sino-Tibetan,SMOOTH,marrisonnaga-Dimasa-691_smooth-1,phlam-phlam,phlam-phlam,Dimasa,1,CLICS,dis,trill,"Brahma, Pratima (2014). Phonology and morphology of Bodo and Dimasa: a comparative study (PhD), http://shodhganga.inflibnet.ac.in:8080/jspui/bitstream/10603/21160/8/08_chapter%203.pdf",NA,NA
+marrisonnaga,marrisonnaga-Jingpho,Jingpho,jing1260,25.461826,97.329866,Sino-Tibetan,SMOOTH,marrisonnaga-Jingpho-691_smooth-1,ra,ra,Jingpho,1,CLICS,kac,NA,NA,kac,NA
+marrisonnaga,marrisonnaga-Jingpho,Jingpho,jing1260,25.461826,97.329866,Sino-Tibetan,SMOOTH,marrisonnaga-Jingpho-691_smooth-2,pri,pri,Jingpho,1,CLICS,kac,NA,NA,kac,NA
+marrisonnaga,marrisonnaga-Konyak,Konyak,kony1246,26.55,95.05,Sino-Tibetan,SMOOTH,marrisonnaga-Konyak-691_smooth-1,shipu,shipu,Konyak,1,CLICS,nbe,no rhotic,wiki,NA,NA
+marrisonnaga,marrisonnaga-Liangmai,Liangmai,lian1251,25.3667,93.6333,Sino-Tibetan,SMOOTH,marrisonnaga-Liangmai-691_smooth-1,kanuibu,kanuibu,Liangmai,1,CLICS,njn,NA,NA,NA,NA
+marrisonnaga,marrisonnaga-Lotha,Lotha,loth1237,26.1,94.2667,Sino-Tibetan,SMOOTH,marrisonnaga-Lotha-691_smooth-1,phyephyeto,phyephyeto,Lotha,1,CLICS,njh,NA,NA,njh,NA
+marrisonnaga,marrisonnaga-Lotha,Lotha,loth1237,26.1,94.2667,Sino-Tibetan,SMOOTH,marrisonnaga-Lotha-691_smooth-2,myana,myana,Lotha,1,CLICS,njh,NA,NA,njh,NA
+marrisonnaga,marrisonnaga-Lushai,Lushai,lush1249,22.60535,92.629457,Sino-Tibetan,SMOOTH,marrisonnaga-Lushai-691_smooth-1,dam,dam,Lushai,1,CLICS,lus,NA,NA,lus,NA
+marrisonnaga,marrisonnaga-Lushai,Lushai,lush1249,22.60535,92.629457,Sino-Tibetan,SMOOTH,marrisonnaga-Lushai-691_smooth-2,zal,zal,Lushai,1,CLICS,lus,NA,NA,lus,NA
+marrisonnaga,marrisonnaga-Maram,Maram,mara1379,25.4333,94.15,Sino-Tibetan,SMOOTH,marrisonnaga-Maram-691_smooth-1,madive,madive,Maram,1,CLICS,nma,NA,NA,NA,NA
+marrisonnaga,marrisonnaga-Maring,Maring,mari1416,24.05,94.0333,Sino-Tibetan,SMOOTH,marrisonnaga-Maring-691_smooth-1,ana,ana,Maring,1,CLICS,mbw,trill,wiki,NA,NA
+marrisonnaga,marrisonnaga-Manipuri,Manipuri,mani1292,24.44,93.34,Sino-Tibetan,SMOOTH,marrisonnaga-Manipuri-691_smooth-1,nalba,nalba,Manipuri,1,CLICS,mni,NA,NA,mni,NA
+marrisonnaga,marrisonnaga-Mikir,Mikir,karb1241,25.735084,93.050494,Sino-Tibetan,SMOOTH,marrisonnaga-Mikir-691_smooth-1,nei,nei,Mikir,1,CLICS,mjw,NA,NA,mjw,NA
+marrisonnaga,marrisonnaga-Mikir,Mikir,karb1241,25.735084,93.050494,Sino-Tibetan,SMOOTH,marrisonnaga-Mikir-691_smooth-2,peklam,peklam,Mikir,1,CLICS,mjw,NA,NA,mjw,NA
+marrisonnaga,marrisonnaga-Phom,Phom,phom1236,26.6167,94.05,Sino-Tibetan,SMOOTH,marrisonnaga-Phom-691_smooth-1,nyülükpü,nyülükpü,Phom,1,CLICS,nph,no rhotic,wiki,NA,NA
+marrisonnaga,marrisonnaga-Puiron,Puiron,rong1266,25.1,93.79,Sino-Tibetan,SMOOTH,marrisonnaga-Puiron-691_smooth-1,matyengnu,matyengnu,Puiron,1,CLICS,nbu,NA,NA,NA,NA
+marrisonnaga,marrisonnaga-Sangtam,Sangtam,sang1321,25.0667,94.8667,Sino-Tibetan,SMOOTH,marrisonnaga-Sangtam-691_smooth-1,se'se',se'se',Sangtam,1,CLICS,nsa,no trill,wiki,NA,NA
+marrisonnaga,marrisonnaga-Sema,Sema,sumi1235,25.85,94.2667,Sino-Tibetan,SMOOTH,marrisonnaga-Sema-691_smooth-1,muduni,muduni,Sema,1,CLICS,nsm,NA,NA,nsm,NA
+marrisonnaga,marrisonnaga-Tangkhul,Tangkhul,sino1246,25.1167,94.3667,Sino-Tibetan,SMOOTH,marrisonnaga-Tangkhul-691_smooth-1,khanganai,khanganai,Tangkhul,1,CLICS,nmf,NA,NA,nmf,NA
+marrisonnaga,marrisonnaga-YogliTangsa,Tangsa (Yogli),yogl1238,None,None,Sino-Tibetan,SMOOTH,marrisonnaga-YogliTangsa-691_smooth-1,küra,küra,Tangsa,1,CLICS,nst,NA,NA,nst,NA
+marrisonnaga,marrisonnaga-Zeme,Zeme,zeme1240,25.1833,93.2,Sino-Tibetan,SMOOTH,marrisonnaga-Zeme-691_smooth-1,ketenaibe,ketenaibe,Zeme,1,CLICS,nzm,NA,NA,NA,NA
+marrisonnaga,marrisonnaga-KohimaAngami,Angami Kohima,anga1288,25.55,94.1333,Sino-Tibetan,ROUGH,marrisonnaga-KohimaAngami-617_rough-1,kemehie,kemehie,Angami Kohima,1,CLICS,njm,no trill,wiki,njm,NA
+marrisonnaga,marrisonnaga-ChungliAo,Ao Chungli,aona1235,26.3167,94.5167,Sino-Tibetan,ROUGH,marrisonnaga-ChungliAo-617_rough-1,terara,terara,Ao Chungli,1,CLICS,njo,NA,NA,njo,NA
+marrisonnaga,marrisonnaga-Chang,Chang,chan1313,26.2667,94.0833,Sino-Tibetan,ROUGH,marrisonnaga-Chang-617_rough-1,satsattambü,satsattambü,Chang,1,CLICS,nbc,NA,NA,NA,NA
+marrisonnaga,marrisonnaga-Dimasa,Dimasa,dima1251,25.42,93.18,Sino-Tibetan,ROUGH,marrisonnaga-Dimasa-617_rough-1,baraba,baraba,Dimasa,1,CLICS,dis,trill,"Brahma, Pratima (2014). Phonology and morphology of Bodo and Dimasa: a comparative study (PhD), http://shodhganga.inflibnet.ac.in:8080/jspui/bitstream/10603/21160/8/08_chapter%203.pdf",NA,NA
+marrisonnaga,marrisonnaga-Jingpho,Jingpho,jing1260,25.461826,97.329866,Sino-Tibetan,ROUGH,marrisonnaga-Jingpho-617_rough-1,nra,nra,Jingpho,1,CLICS,kac,NA,NA,kac,NA
+marrisonnaga,marrisonnaga-Jingpho,Jingpho,jing1260,25.461826,97.329866,Sino-Tibetan,ROUGH,marrisonnaga-Jingpho-617_rough-2,laja,laja,Jingpho,1,CLICS,kac,NA,NA,kac,NA
+marrisonnaga,marrisonnaga-Konyak,Konyak,kony1246,26.55,95.05,Sino-Tibetan,ROUGH,marrisonnaga-Konyak-617_rough-1,yishinpu,yishinpu,Konyak,1,CLICS,nbe,no rhotic,wiki,NA,NA
+marrisonnaga,marrisonnaga-Liangmai,Liangmai,lian1251,25.3667,93.6333,Sino-Tibetan,ROUGH,marrisonnaga-Liangmai-617_rough-1,manaikamakbu,manaikamakbu,Liangmai,1,CLICS,njn,NA,NA,NA,NA
+marrisonnaga,marrisonnaga-Lushai,Lushai,lush1249,22.60535,92.629457,Sino-Tibetan,ROUGH,marrisonnaga-Lushai-617_rough-1,buan,buan,Lushai,1,CLICS,lus,NA,NA,lus,NA
+marrisonnaga,marrisonnaga-Lushai,Lushai,lush1249,22.60535,92.629457,Sino-Tibetan,ROUGH,marrisonnaga-Lushai-617_rough-2,buk,buk,Lushai,1,CLICS,lus,NA,NA,lus,NA
+marrisonnaga,marrisonnaga-Mao,Mao,maon1238,25.4667,94.1167,Sino-Tibetan,ROUGH,marrisonnaga-Mao-617_rough-1,kotho,kotho,Mao,1,CLICS,nbi,NA,NA,nbi,NA
+marrisonnaga,marrisonnaga-Maram,Maram,mara1379,25.4333,94.15,Sino-Tibetan,ROUGH,marrisonnaga-Maram-617_rough-1,magham,magham,Maram,1,CLICS,nma,NA,NA,NA,NA
+marrisonnaga,marrisonnaga-Manipuri,Manipuri,mani1292,24.44,93.34,Sino-Tibetan,ROUGH,marrisonnaga-Manipuri-617_rough-1,nandaba,nandaba,Manipuri,1,CLICS,mni,NA,NA,mni,NA
+marrisonnaga,marrisonnaga-Mikir,Mikir,karb1241,25.735084,93.050494,Sino-Tibetan,ROUGH,marrisonnaga-Mikir-617_rough-1,kindeng,kindeng,Mikir,1,CLICS,mjw,NA,NA,mjw,NA
+marrisonnaga,marrisonnaga-Phom,Phom,phom1236,26.6167,94.05,Sino-Tibetan,ROUGH,marrisonnaga-Phom-617_rough-1,khüppü-khongpü,khüppü-khongpü,Phom,1,CLICS,nph,no rhotic,wiki,NA,NA
+marrisonnaga,marrisonnaga-Puiron,Puiron,rong1266,25.1,93.79,Sino-Tibetan,ROUGH,marrisonnaga-Puiron-617_rough-1,matyengmaknu,matyengmaknu,Puiron,1,CLICS,nbu,NA,NA,NA,NA
+marrisonnaga,marrisonnaga-Rengma,Rengma,sout2732,25.0667,94.6333,Sino-Tibetan,ROUGH,marrisonnaga-Rengma-617_rough-1,njükemvü,njükemvü,Rengma,1,CLICS,nre,NA,NA,NA,NA
+marrisonnaga,marrisonnaga-Sangtam,Sangtam,sang1321,25.0667,94.8667,Sino-Tibetan,ROUGH,marrisonnaga-Sangtam-617_rough-1,yongkoyongru,yongkoyongru,Sangtam,1,CLICS,nsa,no trill,wiki,NA,NA
+marrisonnaga,marrisonnaga-Sema,Sema,sumi1235,25.85,94.2667,Sino-Tibetan,ROUGH,marrisonnaga-Sema-617_rough-1,kukokileikeu,kukokileikeu,Sema,1,CLICS,nsm,NA,NA,nsm,NA
+marrisonnaga,marrisonnaga-Tangkhul,Tangkhul,sino1246,25.1167,94.3667,Sino-Tibetan,ROUGH,marrisonnaga-Tangkhul-617_rough-1,khamarao,khamarao,Tangkhul,1,CLICS,nmf,NA,NA,nmf,NA
+marrisonnaga,marrisonnaga-Zeme,Zeme,zeme1240,25.1833,93.2,Sino-Tibetan,ROUGH,marrisonnaga-Zeme-617_rough-1,keteratbe,keteratbe,Zeme,1,CLICS,nzm,NA,NA,NA,NA
+northeuralex,northeuralex-krl,North Karelian,kare1335,65.17,30.87,Uralic,SMOOTH,northeuralex-krl-493_smooth-1,silie,siliɛ,North Karelian,1,CLICS,krl,trill,wiki,NA,NA
+northeuralex,northeuralex-vep,Veps,veps1250,60.34,34.79,Uralic,SMOOTH,northeuralex-vep-493_smooth-1,siled,silɛd,Veps,1,CLICS,vep,trill,wiki,NA,NA
+northeuralex,northeuralex-liv,Livonian,livv1244,57.57,22.03,Uralic,SMOOTH,northeuralex-liv-493_smooth-1,si’ldzi,siˀldzi,Livonian,1,CLICS,liv,trill,wiki,NA,NA
+northeuralex,northeuralex-sma,Southern Sami,sout2674,64.25,12.60,Uralic,SMOOTH,northeuralex-sma-493_smooth-1,njalhkedihks,ɲalhkɛdihks,Southern Sami,1,CLICS,sma,NA,NA,sma,NA
+northeuralex,northeuralex-smj,Lule Sami,lule1254,67.28,17.81,Uralic,SMOOTH,northeuralex-smj-493_smooth-1,njalkas,njɑlkɑs,Lule Sami,1,CLICS,smj,trill,wiki,NA,NA
+northeuralex,northeuralex-smn,Inari Sami,inar1241,69.42,27.87,Uralic,SMOOTH,northeuralex-smn-493_smooth-1,šoollâd,ʃoːlːɐd,Inari Sami,1,CLICS,smn,trill,wiki,NA,NA
+northeuralex,northeuralex-smn,Inari Sami,inar1241,69.42,27.87,Uralic,SMOOTH,northeuralex-smn-493_smooth-2,šolbâd,ʃolbɐd,Inari Sami,1,CLICS,smn,trill,wiki,NA,NA
+northeuralex,northeuralex-sms,Skolt Sami,skol1241,68.83,29.72,Uralic,SMOOTH,northeuralex-sms-493_smooth-1,lää´ttes,laːtːʲɛs,Skolt Sami,1,CLICS,sms,trill,wiki,NA,NA
+northeuralex,northeuralex-sjd,Kildin Sami,kild1236,68.22,35.83,Uralic,SMOOTH,northeuralex-sjd-493_smooth-1,ла̄тӭсь,laːtʲeɕ,Kildin Sami,1,CLICS,sjd,trill,wiki,NA,NA
+northeuralex,northeuralex-sjd,Kildin Sami,kild1236,68.22,35.83,Uralic,SMOOTH,northeuralex-sjd-493_smooth-2,нё̄ллькесь,ɲoːʎːkeɕ,Kildin Sami,1,CLICS,sjd,trill,wiki,NA,NA
+northeuralex,northeuralex-mrj,Hill Mari,west2392,56.33,46.33,Uralic,SMOOTH,northeuralex-mrj-493_smooth-1,ягылгы,jaɣəlɣə,Hill Mari,1,CLICS,mrj,trill,https://omniglot.com/writing/mari.htm,NA,NA
+northeuralex,northeuralex-mdf,Moksha,moks1248,54.19,42.67,Uralic,SMOOTH,northeuralex-mdf-493_smooth-1,вадяв,vadʲav,Moksha,1,CLICS,mdf,trill,wiki,NA,NA
+northeuralex,northeuralex-mdf,Moksha,moks1248,54.19,42.67,Uralic,SMOOTH,northeuralex-mdf-493_smooth-2,такор,takor,Moksha,1,CLICS,mdf,trill,wiki,NA,NA
+northeuralex,northeuralex-udm,Udmurt,udmu1245,56.13,52.64,Uralic,SMOOTH,northeuralex-udm-493_smooth-1,гылыт,ɡɨlɨt,Udmurt,1,IDS,udm,NA,based on wikipedia,udm,yes
+northeuralex,northeuralex-udm,Udmurt,udmu1245,56.13,52.64,Uralic,SMOOTH,northeuralex-udm-493_smooth-2,вольыт,volʲɨt,Udmurt,1,IDS,udm,NA,based on wikipedia,udm,yes
+northeuralex,northeuralex-koi,Komi-Permyak,komi1269,59.66,54.80,Uralic,SMOOTH,northeuralex-koi-493_smooth-1,волькыт,voʎkɨt,Komi-Permyak,1,CLICS,koi,trill,wiki,NA,NA
+northeuralex,northeuralex-enf,Forest Enets,fore1265,69.98,88.21,Uralic,SMOOTH,northeuralex-enf-493_smooth-1,салыта,saɫɨta,Forest Enets,1,CLICS,enf,trill,wiki,NA,NA
+northeuralex,northeuralex-nio,Nganasan,ngan1291,73.14,86.21,Uralic,SMOOTH,northeuralex-nio-493_smooth-1,нәмәгәә,nəməɡəː,Nganasan,1,CLICS,nio,NA,NA,nio,NA
+northeuralex,northeuralex-ben,Bengali,beng1280,24.00,90.00,Indo-European,SMOOTH,northeuralex-ben-493_smooth-1,মসৃণ,mɔʃrin,Bengali,1,IDS,ben,NA,cannot be determined; Phoible lists different phonemes,ben,NA
+northeuralex,northeuralex-hin,Hindi,hind1269,27.20,78.00,Indo-European,SMOOTH,northeuralex-hin-493_smooth-1,चौरस,t͡ʃɔːrəs,Hindi,1,IDS,hin,NA,cannot be determined; Phoible lists different phonemes,hin,NA
+northeuralex,northeuralex-hin,Hindi,hind1269,27.20,78.00,Indo-European,SMOOTH,northeuralex-hin-493_smooth-2,चिकना,t͡ʃɪknaː,Hindi,1,IDS,hin,NA,cannot be determined; Phoible lists different phonemes,hin,NA
+northeuralex,northeuralex-pbu,Northern Pashto,nort2646,32.10,67.20,Indo-European,SMOOTH,northeuralex-pbu-493_smooth-1,ښوی,xwai,Northern Pashto,1,CLICS,pbu,NA,NA,NA,NA
+northeuralex,northeuralex-ell,Modern Greek,mode1248,38.00,23.75,Indo-European,SMOOTH,northeuralex-ell-493_smooth-1,λείος,lios,Modern Greek,1,IDS,ell,NA,tap; wikipedia says it may be produced as trill in clusters,ell,no
+northeuralex,northeuralex-ell,Modern Greek,mode1248,38.00,23.75,Indo-European,SMOOTH,northeuralex-ell-493_smooth-2,ομαλός,omalos,Modern Greek,1,IDS,ell,NA,tap; wikipedia says it may be produced as trill in clusters,ell,no
+northeuralex,northeuralex-eng,English,stan1293,53.00,-1.00,Indo-European,SMOOTH,northeuralex-eng-493_smooth-1,smooth,smuːð,English,1,IDS,eng,NA,approximant,eng,no
+northeuralex,northeuralex-bre,Breton,bret1244,48.25,-3.79,Indo-European,SMOOTH,northeuralex-bre-493_smooth-1,lintr,lint,Breton,1,IDS,bre,NA,NA,bre,yes
+northeuralex,northeuralex-bre,Breton,bret1244,48.25,-3.79,Indo-European,SMOOTH,northeuralex-bre-493_smooth-2,levn,lɛvn,Breton,1,IDS,bre,NA,NA,bre,yes
+northeuralex,northeuralex-lat,Latin,lati1261,41.90,12.45,Indo-European,SMOOTH,northeuralex-lat-493_smooth-1,levis,ɫeːwɪs,Latin,1,IDS,lat,NA,NA,lat,NA
+northeuralex,northeuralex-ron,Romanian,roma1327,46.39,24.23,Indo-European,SMOOTH,northeuralex-ron-493_smooth-1,lins,lins,Romanian,1,IDS,ron,NA,NA,ron,yes
+northeuralex,northeuralex-bak,Bashkir,bash1264,53.60,56.56,Turkic,SMOOTH,northeuralex-bak-493_smooth-1,шыма,ʃɯma,Bashkir,1,CLICS,bak,NA,NA,bak,NA
+northeuralex,northeuralex-tat,Tatar,tata1255,55.00,50.00,Turkic,SMOOTH,northeuralex-tat-493_smooth-1,шома,ʃoma,Tatar,1,CLICS,tat,trill,wiki,NA,NA
+northeuralex,northeuralex-chv,Chuvash,chuv1255,55.49,47.16,Turkic,SMOOTH,northeuralex-chv-493_smooth-1,такӑр,ˈtakər,Chuvash,1,CLICS,chv,NA,NA,chv,NA
+northeuralex,northeuralex-sah,Sakha,yaku1245,62.00,130.00,Turkic,SMOOTH,northeuralex-sah-493_smooth-1,кылааккай,kɯlaːkːaj,Sakha,1,CLICS,sah,NA,NA,sah,NA
+northeuralex,northeuralex-xal,Kalmyk,kalm1243,46.57,45.32,Mongolic,SMOOTH,northeuralex-xal-493_smooth-1,тегш,tʰeɡʃɛ,Kalmyk,1,CLICS,xal,trill,wiki,NA,NA
+northeuralex,northeuralex-xal,Kalmyk,kalm1243,46.57,45.32,Mongolic,SMOOTH,northeuralex-xal-493_smooth-2,тиньгр,tʰiɲɡɛr,Kalmyk,1,CLICS,xal,trill,wiki,NA,NA
+northeuralex,northeuralex-bua,Buryat,buri1258,51.83,107.60,Mongolic,SMOOTH,northeuralex-bua-493_smooth-1,мэлигэр,mɛliɡɛr,Buryat,1,CLICS,bua,trill,NA,NA,NA
+northeuralex,northeuralex-bua,Buryat,buri1258,51.83,107.60,Mongolic,SMOOTH,northeuralex-bua-493_smooth-2,мэлшэгэр,mɛlʃɛɡɛr,Buryat,1,CLICS,bua,trill,NA,NA,NA
+northeuralex,northeuralex-evn,Evenki,even1259,65.75,105.30,Tungusic,SMOOTH,northeuralex-evn-493_smooth-1,наптама,naptama,Evenki,1,CLICS,evn,trill,wiki,NA,NA
+northeuralex,northeuralex-evn,Evenki,even1259,65.75,105.30,Tungusic,SMOOTH,northeuralex-evn-493_smooth-2,наптака̄н,naptakaːn,Evenki,1,CLICS,evn,trill,wiki,NA,NA
+northeuralex,northeuralex-mnc,Manchu,manc1252,47.31,126.56,Tungusic,SMOOTH,northeuralex-mnc-493_smooth-1,nilukan,nilukʰan,Manchu,1,CLICS,mnc,NA,NA,mnc,NA
+northeuralex,northeuralex-gld,Nanai,nana1257,48.43,134.80,Tungusic,SMOOTH,northeuralex-gld-493_smooth-1,нэе̄н,nəjə̃ːn,Nanai,1,CLICS,gld,NA,NA,gld,NA
+northeuralex,northeuralex-gld,Nanai,nana1257,48.43,134.80,Tungusic,SMOOTH,northeuralex-gld-493_smooth-2,билдо-билдо бӣ,bi̟ldɔ-bi̟ldɔ_biː,Nanai,1,CLICS,gld,NA,NA,gld,NA
+northeuralex,northeuralex-ket,Ket,kett1243,63.76,87.55,Yeniseian,SMOOTH,northeuralex-ket-493_smooth-1,уульсь,ʊːʎɕ,Ket,1,CLICS,ket,NA,NA,ket,NA
+northeuralex,northeuralex-ykg,Northern Yukaghir,nort2745,69.00,155.00,Yukaghir,SMOOTH,northeuralex-ykg-493_smooth-1,мойиэм,mojeːm,Northern Yukaghir,1,CLICS,ykg,NA,NA,ykg,NA
+northeuralex,northeuralex-yux,Southern Yukaghir,sout2750,65.75,150.83,Yukaghir,SMOOTH,northeuralex-yux-493_smooth-1,ńiďilō-,ɲid͡ʒiloː,Southern Yukaghir,1,CLICS,yux,NA,NA,yux,NA
+northeuralex,northeuralex-yux,Southern Yukaghir,sout2750,65.75,150.83,Yukaghir,SMOOTH,northeuralex-yux-493_smooth-2,olġinmē-,olχinmeː,Southern Yukaghir,1,CLICS,yux,NA,NA,yux,NA
+northeuralex,northeuralex-itl,Itelmen,itel1242,56.78,156.91,Chukotko-Kamchatkan,SMOOTH,northeuralex-itl-493_smooth-1,иӆҳлаҳ,iɬχlaχ,Itelmen,1,CLICS,itl,NA,NA,itl,NA
+northeuralex,northeuralex-ckt,Chukchi,chuk1273,68.64,170.04,Chukotko-Kamchatkan,SMOOTH,northeuralex-ckt-493_smooth-1,ныпылгытрык’эн,nəpəɬɣətɹəqen,Chukchi,1,CLICS,ckt,NA,NA,ckt,NA
+northeuralex,northeuralex-ain,Hokkaido Ainu,ainu1240,43.63,142.46,Ainu,SMOOTH,northeuralex-ain-493_smooth-1,rarak,ɾaɾak,Hokkaido Ainu,1,CLICS,ain,NA,NA,ain,NA
+northeuralex,northeuralex-kor,Korean,kore1280,37.50,128.00,Koreanic,SMOOTH,northeuralex-kor-493_smooth-1,반들반들한,pandɯlbandɯlɦan,Korean,1,Google,kor,NA,NA,kor,NA
+northeuralex,northeuralex-jpn,Japanese,nucl1643,35.00,135.00,Japonic,SMOOTH,northeuralex-jpn-493_smooth-1,滑らかな,näme̞ɾäkänä,Japanese,1,Google,jpn,NA,NA,jpn,NA
+northeuralex,northeuralex-ale,Aleut,aleu1260,52.12,-174.29,Eskimo-Aleut,SMOOTH,northeuralex-ale-493_smooth-1,atxax-six,atxaxsix,Aleut,1,CLICS,ale,NA,NA,ale,NA
+northeuralex,northeuralex-ess,Central Siberian Yupik,cent2128,63.43,-170.27,Eskimo-Aleut,SMOOTH,northeuralex-ess-493_smooth-1,матыгныӄыхнаӄ,matɨɡnɨqɨxnaq,Central Siberian Yupik,1,CLICS,ess,no rhotic,wiki,ess,NA
+northeuralex,northeuralex-kal,Kalaallisut,kala1399,69.38,-52.86,Eskimo-Aleut,SMOOTH,northeuralex-kal-493_smooth-1,quasak,quasak,Kalaallisut,1,CLICS,kal,NA,NA,kal,NA
+northeuralex,northeuralex-kan,Kannada,nucl1305,13.59,76.12,Dravidian,SMOOTH,northeuralex-kan-493_smooth-1,ನಯ,n̪əja,Kannada,1,Google,kan,NA,NA,kan,NA
+northeuralex,northeuralex-mal,Malayalam,mala1464,9.59,76.77,Dravidian,SMOOTH,northeuralex-mal-493_smooth-1,മിനുസമുള്ള,min̪usamuɭːa,Malayalam,1,Google,mal,NA,NA,mal,NA
+northeuralex,northeuralex-tam,Tamil,tami1289,10.52,78.83,Dravidian,SMOOTH,northeuralex-tam-493_smooth-1,வழுவழுப்பான,ʋʌɻuʋʌɻupːɑːnʌ,Tamil,1,IDS,tam,NA,flap or approximant,tam,no
+northeuralex,northeuralex-tel,Telugu,telu1262,16.45,78.70,Dravidian,SMOOTH,northeuralex-tel-493_smooth-1,నున్నని,n̪un̪ːʌn̪i,Telugu,1,IDS,tel,NA,flap based on mixture of wikipedia and phoible (conflicting information),tel,no
+northeuralex,northeuralex-bsk,Burushaski,buru1296,36.22,74.82,Burushaski,SMOOTH,northeuralex-bsk-493_smooth-1,tatáṅ,t̪aˈt̪aṅ,Burushaski,1,CLICS,bsk,NA,NA,bsk,NA
+northeuralex,northeuralex-abk,Abkhaz,abkh1244,43.06,41.16,Abkhaz-Adyge,SMOOTH,northeuralex-abk-493_smooth-1,аимаҩзы,áimɑɥzɨ,Abkhaz,1,CLICS,abk,trill,wiki,NA,NA
+northeuralex,northeuralex-ady,Adyghe,adyg1241,44.65,40.00,Abkhaz-Adyge,SMOOTH,northeuralex-ady-493_smooth-1,зэны́бжь,zaˈnəbʑ,Adyghe,1,CLICS,ady,trill,wiki,NA,NA
+northeuralex,northeuralex-ava,Avar,avar1256,41.70,46.56,Nakh-Daghestanian,SMOOTH,northeuralex-ava-493_smooth-1,цӏвакараб,t͡sʼwakarab,Avar,8,CLICS,ava,NA,NA,ava,NA
+northeuralex,northeuralex-ddo,Tsez,dido1241,42.26,45.81,Nakh-Daghestanian,SMOOTH,northeuralex-ddo-493_smooth-1,буйаьси,bujæsi,Tsez,3,CLICS,ddo,NA,NA,NA,NA
+northeuralex,northeuralex-lbe,Lak,lakk1252,42.13,47.08,Nakh-Daghestanian,SMOOTH,northeuralex-lbe-493_smooth-1,дюрчӏусса,djurt͡ʃʼusːa,Lak,4,CLICS,lbe,NA,NA,lbe,NA
+northeuralex,northeuralex-lez,Lezgian,lezg1247,41.52,47.90,Nakh-Daghestanian,SMOOTH,northeuralex-lez-493_smooth-1,цӏалцӏам,t͡sʼalt͡sʼam,Lezgian,2,CLICS,lez,trill,wiki,NA,NA
+northeuralex,northeuralex-dar,Dargwa,darg1241,42.43,47.44,Nakh-Daghestanian,SMOOTH,northeuralex-dar-493_smooth-1,гъалагси,ʁalaɡsi,Dargwa,18,CLICS,dar,trill,wiki,NA,NA
+northeuralex,northeuralex-che,Chechen,chec1245,43.50,45.50,Nakh-Daghestanian,SMOOTH,northeuralex-che-493_smooth-1,шера,ʃērə,Chechen,2,CLICS,che,NA,NA,che,NA
+robinsonap,robinsonap-teiwa,Teiwa,teiw1235,-8.37662,124.174,Timor-Alor-Pantar,SMOOTH,robinsonap-teiwa-268_smooth-1,sordax 'slippery',sordax,Teiwa,4,CLICS,twe,no rhotic,wiki,NA,NA
+robinsonap,robinsonap-abui,Abui,abui1241,-8.31058,124.588,Timor-Alor-Pantar,SMOOTH,robinsonap-abui-268_smooth-1,rula,rula,Abui,5,CLICS,abz,trill,wiki,NA,NA
+robinsonap,robinsonap-blagar,Blagar,blag1240,-8.31787,124.251,Timor-Alor-Pantar,SMOOTH,robinsonap-blagar-268_smooth-1,dúla ‘slippery’,dúla,Blagar,9,CLICS,beu,trill,"Steinhauer, Hein (2014). ""Blagar"". In Schapper, Antoinette (ed.). The Papuan Languages of Timor, Alor and Pantar: Volume 1: Sketch Grammars. Walter de Gruyter. pp. 147–219",NA,NA
+robinsonap,robinsonap-kamang,Kamang,kama1365,-8.26897,124.792,Timor-Alor-Pantar,SMOOTH,robinsonap-kamang-268_smooth-1,tulaka,tulaka,Kamang,2,CLICS,woi,NA,NA,woi,NA
+robinsonap,robinsonap-wersing,Wersing,wers1238,-8.33936,124.932,Timor-Alor-Pantar,SMOOTH,robinsonap-wersing-268_smooth-1,terisi dolok,terisi dolok,Wersing,3,CLICS,kvw,trill,wiki,NA,NA
+robinsonap,robinsonap-kaera,Kaera,kaer1234,-8.3287,124.0177,Timor-Alor-Pantar,SMOOTH,robinsonap-kaera-268_smooth-1,"ibayaran'smooth', iduyo 'slippery'",ibayaran,Kaera,1,CLICS,jka,trill,wiki,NA,NA
+robinsonap,robinsonap-kaera,Kaera,kaer1234,-8.3287,124.0177,Timor-Alor-Pantar,SMOOTH,robinsonap-kaera-268_smooth-2,"ibayaran'smooth', iduyo 'slippery'",iduyo,Kaera,1,CLICS,jka,trill,wiki,NA,NA
+robinsonap,robinsonap-westernpantar,Western Pantar,lamm1241,-8.52787,124.057,Timor-Alor-Pantar,SMOOTH,robinsonap-westernpantar-268_smooth-1,duba,duba,Western Pantar,1,CLICS,lev,trill,wiki,NA,NA
+robinsonap,robinsonap-kui,Kui,kuii1254,None,None,Timor-Alor-Pantar,SMOOTH,robinsonap-kui-268_smooth-1,dula,dula,Kui,2,CLICS,kvd,NA,NA,NA,NA
+robinsonap,robinsonap-adang,Adang,adan1251,-8.18958,124.448,Timor-Alor-Pantar,SMOOTH,robinsonap-adang-268_smooth-1,duluʔ,duluʔ,Adang,3,CLICS,adn,NA,NA,adn,NA
+robinsonap,robinsonap-nedebang,Nedebang,nede1245,-8.28776,124.192,Timor-Alor-Pantar,SMOOTH,robinsonap-nedebang-268_smooth-1,bifi (slippery),bifi,Nedebang,1,CLICS,nec,NA,NA,NA,NA
+robinsonap,robinsonap-klon,Klon,kelo1247,-8.40688,124.429,Timor-Alor-Pantar,SMOOTH,robinsonap-klon-268_smooth-1,duul,duul,Klon,2,CLICS,kyo,trill,wiki,NA,NA
+robinsonap,robinsonap-teiwa,Teiwa,teiw1235,-8.37662,124.174,Timor-Alor-Pantar,ROUGH,robinsonap-teiwa-235_rough-1,sakar,sakar,Teiwa,4,CLICS,twe,no rhotic,wiki,NA,NA
+robinsonap,robinsonap-abui,Abui,abui1241,-8.31058,124.588,Timor-Alor-Pantar,ROUGH,robinsonap-abui-235_rough-1,ahoifang,ahoifang,Abui,5,CLICS,abz,trill,wiki,NA,NA
+robinsonap,robinsonap-blagar,Blagar,blag1240,-8.31787,124.251,Timor-Alor-Pantar,ROUGH,robinsonap-blagar-235_rough-1,koŋkarkoŋkar,koŋkarkoŋkar,Blagar,9,CLICS,beu,trill,"Steinhauer, Hein (2014). ""Blagar"". In Schapper, Antoinette (ed.). The Papuan Languages of Timor, Alor and Pantar: Volume 1: Sketch Grammars. Walter de Gruyter. pp. 147–219",NA,NA
+robinsonap,robinsonap-kamang,Kamang,kama1365,-8.26897,124.792,Timor-Alor-Pantar,ROUGH,robinsonap-kamang-235_rough-1,aooba,aooba,Kamang,2,CLICS,woi,NA,NA,woi,NA
+robinsonap,robinsonap-wersing,Wersing,wers1238,-8.33936,124.932,Timor-Alor-Pantar,ROUGH,robinsonap-wersing-235_rough-1,potor,potor,Wersing,3,CLICS,kvw,trill,wiki,NA,NA
+robinsonap,robinsonap-kaera,Kaera,kaer1234,-8.3287,124.0177,Timor-Alor-Pantar,ROUGH,robinsonap-kaera-235_rough-1,sekakir,sekakir,Kaera,1,CLICS,jka,trill,wiki,NA,NA
+robinsonap,robinsonap-westernpantar,Western Pantar,lamm1241,-8.52787,124.057,Timor-Alor-Pantar,ROUGH,robinsonap-westernpantar-235_rough-1,katáng-katáng,katáng-katáng,Western Pantar,1,CLICS,lev,trill,wiki,NA,NA
+robinsonap,robinsonap-kui,Kui,kuii1254,None,None,Timor-Alor-Pantar,ROUGH,robinsonap-kui-235_rough-1,dula nanga,dula nanga,Kui,2,CLICS,kvd,NA,NA,NA,NA
+robinsonap,robinsonap-adang,Adang,adan1251,-8.18958,124.448,Timor-Alor-Pantar,ROUGH,robinsonap-adang-235_rough-1,paluhu,paluhu,Adang,3,CLICS,adn,NA,NA,adn,NA
+robinsonap,robinsonap-nedebang,Nedebang,nede1245,-8.28776,124.192,Timor-Alor-Pantar,ROUGH,robinsonap-nedebang-235_rough-1,"aradda (rough, of a person)",aradda,Nedebang,1,CLICS,nec,NA,NA,NA,NA
+satterthwaitetb,satterthwaitetb-Hani,Hani,hani1248,22.67753,102.851673333,Sino-Tibetan,SMOOTH,satterthwaitetb-Hani-337_smoothofsurface-1,julluqnei,julluqnei,Hani,3,CLICS,hni,no rhotic,wiki,NA,NA
+satterthwaitetb,satterthwaitetb-SichuanYi,Nosu,sich1238,28.1947,102.121,Sino-Tibetan,SMOOTH,satterthwaitetb-SichuanYi-337_smoothofsurface-1,bbaxyuo,bbaxyuo,Nosu,1,CLICS,iii,no rhotic,wiki,NA,NA
+satterthwaitetb,satterthwaitetb-Nusu,Nusu,nusu1239,26.7292,98.8801,Sino-Tibetan,SMOOTH,satterthwaitetb-Nusu-337_smoothofsurface-1,khja,khja,Nusu,2,CLICS,nuf,NA,NA,NA,NA
+satterthwaitetb,satterthwaitetb-Naxi,Naxi,naxi1245,27.5,100.0,Sino-Tibetan,SMOOTH,satterthwaitetb-Naxi-337_smoothofsurface-1,ndy jɔ,ndy jɔ,Naxi,3,CLICS,nxq,NA,NA,nxq,NA
+sohartmannchin,sohartmannchin-Daai,Daai,daai1236,20.7347,93.7853,Sino-Tibetan,SMOOTH,sohartmannchin-Daai-213_smooth-1,ɴip,ɴip,Daai,1,CLICS,dao,no rhotic,wiki,NA,NA
+sohartmannchin,sohartmannchin-Ngmuun,Ngmüün,munc1235,20.289,94.3929,Sino-Tibetan,SMOOTH,sohartmannchin-Ngmuun-213_smooth-1,ɴip,ɴip,Ngmüün,1,CLICS,mwq,no rhotic,"Kee, Shein Mang. 2006. A syntactic and pragmatic description of verb stem alternation in K’cho, a Chin language. Master’s thesis, Payap University.",NA,NA
+sohartmannchin,sohartmannchin-Chinbon,Chinbon,chin1478,20.0776,94.0506,Sino-Tibetan,SMOOTH,sohartmannchin-Chinbon-213_smooth-1,ḁtʰɔⁱ.jot,ḁtʰɔⁱ.jot,Chinbon,1,CLICS,csh,no rhotic,wiki,NA,NA
+sohartmannchin,sohartmannchin-Matu,Matu,ngal1291,23.312,92.83,Sino-Tibetan,SMOOTH,sohartmannchin-Matu-213_smooth-1,xal,xal,Matu,1,CLICS,hlt,NA,NA,NA,NA
+sohartmannchin,sohartmannchin-Khumi,Khumi,khum1248,22.87125,92.9894633333,Sino-Tibetan,SMOOTH,sohartmannchin-Khumi-213_smooth-1,pənáⁱ,pənáⁱ,Khumi,1,CLICS,cnk,trill,https://web.archive.org/web/20131116213526/http://www.gial.edu/images/theses/Wright_Jonathan-thesis.pdf,NA,NA
+suntb,suntb-Anong,Anong,nung1282,None,None,Sino-Tibetan,SMOOTH,suntb-Anong-882_smooth-1,sɿn⁵⁵,sɿn⁵⁵,Anong,1,CLICS,nun,no trill,NA,NA,NA
+suntb,suntb-JianchuanBai,Bai (Jianchuan),jian1239,None,None,Sino-Tibetan,SMOOTH,suntb-JianchuanBai-882_smooth-1,tsui⁴²,tsui⁴²,Bai,3,CLICS,bca,NA,NA,bca,NA
+suntb,suntb-Darang,Darang [Taraon],diga1241,None,None,Sino-Tibetan,SMOOTH,suntb-Darang-882_smooth-1,kɑ³¹me³⁵ɑ³¹,kɑ³¹me³⁵ɑ³¹,Darang,1,CLICS,mhu,NA,NA,NA,NA
+suntb,suntb-Trung,Trung [Dulong],drun1238,27.749017,98.691868,Sino-Tibetan,SMOOTH,suntb-Trung-882_smooth-1,klɑt⁵⁵klɑn⁵⁵,klɑt⁵⁵klɑn⁵⁵,Trung,1,CLICS,duu,NA,NA,NA,NA
+suntb,suntb-DanbaErgong,Ergong (Danba),horp1239,None,None,Sino-Tibetan,SMOOTH,suntb-DanbaErgong-882_smooth-1,mbla mbla,mbla_mbla,Ergong,1,CLICS,ero,NA,NA,NA,NA
+suntb,suntb-Ersu,Ersu,ersu1241,None,None,Sino-Tibetan,SMOOTH,suntb-Ersu-882_smooth-1,xi⁵⁵xi⁵⁵,xi⁵⁵xi⁵⁵,Ersu,1,CLICS,ers,no rhotic,NA,NA,NA
+suntb,suntb-Kaman,Kaman [Miju],miju1243,None,None,Sino-Tibetan,SMOOTH,suntb-Kaman-882_smooth-1,thɑ̆u⁵³,thɑ̆u⁵³,Kaman,1,CLICS,mxj,NA,NA,mxj,NA
+suntb,suntb-Guiqiong,Guiqiong,guiq1238,None,None,Sino-Tibetan,SMOOTH,suntb-Guiqiong-882_smooth-1,ndʑo³³mɑ⁵⁵lɑ⁵⁵,ndʑo³³mɑ⁵⁵lɑ⁵⁵,Guiqiong,1,CLICS,gqi,no rhotic,wiki,NA,NA
+suntb,suntb-Idu,Idu,idum1241,None,None,Sino-Tibetan,SMOOTH,suntb-Idu-882_smooth-1,thu³¹bɹoŋ³⁵,thu³¹bɹoŋ³⁵,Idu,1,CLICS,clk,NA,NA,NA,NA
+suntb,suntb-Jingpho,Jingpho,kach1280,None,None,Sino-Tibetan,SMOOTH,suntb-Jingpho-882_smooth-1,pʒi̱³³,pʒi̱³³,Jingpho,1,CLICS,kac,NA,NA,kac,NA
+suntb,suntb-Jinuo,Jinuo,youl1235,None,None,Sino-Tibetan,SMOOTH,suntb-Jinuo-882_smooth-1,kɹa⁵⁵,kɹa⁵⁵,Jinuo,1,CLICS,jiu,NA,NA,NA,NA
+suntb,suntb-BlackLahu,Lahu (Black),naaa1244,None,None,Sino-Tibetan,SMOOTH,suntb-BlackLahu-882_smooth-1,le⁵⁴,le⁵⁴,Lahu,1,CLICS,lhu,NA,NA,lhu,NA
+suntb,suntb-Lisu,Lisu,lisu1250,None,None,Sino-Tibetan,SMOOTH,suntb-Lisu-882_smooth-1,ʒɿ³⁵lu³⁵,ʒɿ³⁵lu³⁵,Lisu,1,CLICS,lis,no rhotic,NA,lis,NA
+suntb,suntb-Maru,Maru [Langsu],lawn1238,None,None,Sino-Tibetan,SMOOTH,suntb-Maru-882_smooth-1,tʃa̱t⁵⁵,tʃa̱t⁵⁵,Maru,1,CLICS,mhx,NA,NA,NA,NA
+suntb,suntb-MotuoTsangla,Tsangla (Motuo),tsha1245,None,None,Sino-Tibetan,SMOOTH,suntb-MotuoTsangla-882_smooth-1,dʑampo,dʑampo,Tsangla,1,CLICS,tsj,NA,NA,tsj,NA
+suntb,suntb-MamaTshona,Tshona (Mama),dzal1238,None,None,Sino-Tibetan,SMOOTH,suntb-MamaTshona-882_smooth-1,num⁵⁵tshir⁵⁵,num⁵⁵tshir⁵⁵,Tshona,1,CLICS,twm,NA,NA,NA,NA
+suntb,suntb-Muya,Muya [Minyak],muya1239,None,None,Sino-Tibetan,SMOOTH,suntb-Muya-882_smooth-1,na̱⁵⁵na̱⁵⁵,na̱⁵⁵na̱⁵⁵,Muya,1,CLICS,mvm,NA,NA,NA,NA
+suntb,suntb-Namuyi,Namuyi,namu1246,None,None,Sino-Tibetan,SMOOTH,suntb-Namuyi-882_smooth-1,ndzɿ⁵⁵ɬɛ³³ʂɛ⁵³,ndzɿ⁵⁵ɬɛ³³ʂɛ⁵³,Namuyi,1,CLICS,nmy,no rhotic,NA,NA,NA
+suntb,suntb-TaobaPumi,Pumi (Taoba),taob1238,None,None,Sino-Tibetan,SMOOTH,suntb-TaobaPumi-882_smooth-1,pʐa³⁵la⁵⁵mə⁵³,pʐa³⁵la⁵⁵mə⁵³,Pumi,2,CLICS,pmi,no trill,"Daudey, Henriëtte (2014). A grammar of Wadu Pumi (Ph.D. thesis). La Trobe University",NA,NA
+suntb,suntb-MawoQiang,Qiang (Mawo),nort2722,None,None,Sino-Tibetan,SMOOTH,suntb-MawoQiang-882_smooth-1,ɬa ɬa,ɬa_ɬa,Qiang,2,CLICS,cng,no rhotic,wiki,NA,NA
+suntb,suntb-MaerkangrGyalrong,rGyalrong,maer1238,28.33,102.42,Sino-Tibetan,SMOOTH,suntb-MaerkangrGyalrong-882_smooth-1,kə wjo,kə_wjo,rGyalrong,10,CLICS,jya,NA,NA,jya,NA
+suntb,suntb-Xumi,Xumi,shix1238,None,None,Sino-Tibetan,SMOOTH,suntb-Xumi-882_smooth-1,ɬɛ⁵⁵to³³ji⁵⁵,ɬɛ⁵⁵to³³ji⁵⁵,Xumi,1,CLICS,sxg,no trill,wiki,NA,NA
+suntb,suntb-Sulong,Sulung [Puroik],bugu1245,None,None,Sino-Tibetan,SMOOTH,suntb-Sulong-882_smooth-1,a³³ɣəi³³,a³³ɣəi³³,Sulung,1,CLICS,suv,NA,NA,NA,NA
+suntb,suntb-Tujia,Tujia,tuji1244,None,None,Sino-Tibetan,SMOOTH,suntb-Tujia-882_smooth-1,xua²¹,xua²¹,Tujia,1,CLICS,tji; tjs,no rhotic,"Zhang, Jun [张军]. 2006. Phonological study of the Tujia language / 土家语语音硏究. Ph.D. dissertation, Hong Kong University of Science and Technology.",NA,NA
+suntb,suntb-MileYi,Yi (Mile),axiy1235,27.16,105.61,Sino-Tibetan,SMOOTH,suntb-MileYi-882_smooth-1,ʑi̱³³; ɖi̱³³,ʑi̱³³,Yi,5,CLICS,yix,NA,NA,NA,NA
+suntb,suntb-MileYi,Yi (Mile),axiy1235,27.16,105.61,Sino-Tibetan,SMOOTH,suntb-MileYi-882_smooth-2,ʑi̱³³; ɖi̱³³,ɖi̱³³,Yi,5,CLICS,yix,NA,NA,NA,NA
+suntb,suntb-Atsi,Atsi [Zaiwa],zaiw1241,24.17,98.36,Sino-Tibetan,SMOOTH,suntb-Atsi-882_smooth-1,tʃu̱t⁵⁵,tʃu̱t⁵⁵,Atsi,1,CLICS,atb,NA,NA,atb,NA
+suntb,suntb-YajiangQueyu,Queyu (Yajiang) [Zhaba],quey1238,None,None,Sino-Tibetan,SMOOTH,suntb-YajiangQueyu-882_smooth-1,xã⁵⁵xã⁵⁵,xã⁵⁵xã⁵⁵,Queyu,1,CLICS,qvy,NA,NA,NA,NA
+transnewguineaorg,transnewguineaorg-awyu-south,"Awyu, South (Syiagha Dialect)",sout2941,-7.36301,139.538,Nuclear Trans New Guinea,SMOOTH,transnewguineaorg-awyu-south-172_smooth-1,tetede,tetede,Awyu,1,CLICS,aws,NA,NA,NA,NA
+tryonsolomon,tryonsolomon-areare1,'Are'are (1),area1240,-9.20699,161.158,Austronesian,SMOOTH,tryonsolomon-areare1-250_smooth-1,mamanā!a,mamanā!a,'Are'are,2,CLICS,alu,no trill,wiki,NA,NA
+tryonsolomon,tryonsolomon-anuta,Anuta,anut1237,-11.61,169.85,Austronesian,SMOOTH,tryonsolomon-anuta-250_smooth-1,remoremo,remoremo,Anuta,1,CLICS,aud,no trill,"Feinberg, Richard (1977). The Anutan Language Reconsidered: Lexicon and Grammar of a Polynesian Outlier, Volume 1. Human Relations Area Files.",NA,NA
+tryonsolomon,tryonsolomon-arosi1,Arosi (1),aros1241,-10.2441,161.432,Austronesian,SMOOTH,tryonsolomon-arosi1-250_smooth-1,wadiwadi,wadiwadi,Arosi,2,CLICS,aia,no trill,"""r is a definite flap"", Arthur, Capell (1971). Arosi Grammar. Series B - No. 20. Canberra: Australian National University.",NA,NA
+tryonsolomon,tryonsolomon-asumboa,Asumboa,asum1237,-11.2969,166.499,Austronesian,SMOOTH,tryonsolomon-asumboa-250_smooth-1,alevaleve,alevaleve,Asumboa,1,CLICS,aua,NA,NA,NA,NA
+tryonsolomon,tryonsolomon-bauro1,Bauro (1),baur1252,-10.5826,161.863,Austronesian,SMOOTH,tryonsolomon-bauro1-250_smooth-1,wariwari,wariwari,Bauro,2,CLICS,bxa,NA,NA,NA,NA
+tryonsolomon,tryonsolomon-blablanga,Blablanga,blab1237,-8.15058,159.419,Austronesian,SMOOTH,tryonsolomon-blablanga-250_smooth-1,blelu,blelu,Blablanga,1,CLICS,blp,trill,"Voica, Radu (2017). A fieldwork-based approach to Blanga (Blablanga), an Austronesian language of the Solomon Islands, with reference to predicate-argument relations(PhD). SOAS University of London.",NA,NA
+tryonsolomon,tryonsolomon-blablanga,Blablanga,blab1237,-8.15058,159.419,Austronesian,SMOOTH,tryonsolomon-blablanga-250_smooth-2,sahlu,sahlu,Blablanga,1,CLICS,blp,trill,"Voica, Radu (2017). A fieldwork-based approach to Blanga (Blablanga), an Austronesian language of the Solomon Islands, with reference to predicate-argument relations(PhD). SOAS University of London.",NA,NA
+tryonsolomon,tryonsolomon-buma,Buma,tean1237,-11.6752,166.868,Austronesian,SMOOTH,tryonsolomon-buma-250_smooth-1,inene,inene,Buma,1,CLICS,tkw,NA,NA,NA,NA
+tryonsolomon,tryonsolomon-dhadhaje,Dhadhaje,bugh1239,-8.47948,159.802,Austronesian,SMOOTH,tryonsolomon-dhadhaje-250_smooth-1,salu,salu,Dhadhaje,1,CLICS,bgt,NA,NA,NA,NA
+tryonsolomon,tryonsolomon-dorio,Dori'o,dori1246,-9.11536,160.897,Austronesian,SMOOTH,tryonsolomon-dorio-250_smooth-1,dadara!a,dadara!a,Dori'o,1,CLICS,dor,NA,NA,NA,NA
+tryonsolomon,tryonsolomon-faghani,Faghani,faga1239,-10.4479,161.662,Austronesian,SMOOTH,tryonsolomon-faghani-250_smooth-1,hatara,hatara,Faghani,1,CLICS,faf,NA,NA,NA,NA
+tryonsolomon,tryonsolomon-fataleka,Fataleka,fata1245,-8.59041,160.861,Austronesian,SMOOTH,tryonsolomon-fataleka-250_smooth-1,dedema,dedema,Fataleka,1,CLICS,far,NA,NA,NA,NA
+tryonsolomon,tryonsolomon-ghanongga,Ghanongga,ghan1242,-8.02035,156.552,Austronesian,SMOOTH,tryonsolomon-ghanongga-250_smooth-1,ɛmese,ɛmese,Ghanongga,1,CLICS,ghn,NA,NA,NA,NA
+tryonsolomon,tryonsolomon-ghari,Ghari,ghar1239,-9.4791,159.917,Austronesian,SMOOTH,tryonsolomon-ghari-250_smooth-1,ača,ača,Ghari,1,CLICS,gri,NA,NA,NA,NA
+tryonsolomon,tryonsolomon-hoava,Hoava,hoav1238,-8.19679,157.595,Austronesian,SMOOTH,tryonsolomon-hoava-250_smooth-1,memehe,memehe,Hoava,1,CLICS,hoa,NA,NA,hoa,NA
+tryonsolomon,tryonsolomon-kahua,Kahua,kahu1241,-10.6963,162.191,Austronesian,SMOOTH,tryonsolomon-kahua-250_smooth-1,mamao,mamao,Kahua,1,CLICS,agw,NA,NA,NA,NA
+tryonsolomon,tryonsolomon-kia,Kia,zaba1237,-7.74311,158.753,Austronesian,SMOOTH,tryonsolomon-kia-250_smooth-1,mamalahu,mamalahu,Kia,1,CLICS,kji,trill,wiki,NA,NA
+tryonsolomon,tryonsolomon-kia,Kia,zaba1237,-7.74311,158.753,Austronesian,SMOOTH,tryonsolomon-kia-250_smooth-2,mɔtɔŋɔ,mɔtɔŋɔ,Kia,1,CLICS,kji,trill,wiki,NA,NA
+tryonsolomon,tryonsolomon-kilokaka,Kilokaka,zaza1245,-8.18719,159.255,Austronesian,SMOOTH,tryonsolomon-kilokaka-250_smooth-1,snahlu,snahlu,Kilokaka,1,CLICS,jaj,NA,NA,NA,NA
+tryonsolomon,tryonsolomon-kokota,Kokota,koko1269,-8.16481,159.191,Austronesian,SMOOTH,tryonsolomon-kokota-250_smooth-1,fanoɣano,fanoɣano,Kokota,1,CLICS,kkk,NA,NA,kkk,NA
+tryonsolomon,tryonsolomon-kusaghe,Kusaghe,kusa1251,-8.04056,157.463,Austronesian,SMOOTH,tryonsolomon-kusaghe-250_smooth-1,memehe,memehe,Kusaghe,1,CLICS,ksg,NA,NA,NA,NA
+tryonsolomon,tryonsolomon-kwaio,Kwaio,kwai1243,-8.93744,160.965,Austronesian,SMOOTH,tryonsolomon-kwaio-250_smooth-1,ndanda,ndanda,Kwaio,1,CLICS,kwd,NA,NA,kwd,NA
+tryonsolomon,tryonsolomon-kwaraae,Kwara'ae,kwar1239,-8.75779,160.804,Austronesian,SMOOTH,tryonsolomon-kwaraae-250_smooth-1,dad,dad,Kwara'ae,1,CLICS,kwf,no trill,https://researchcommons.waikato.ac.nz/handle/10289/5755,NA,NA
+tryonsolomon,tryonsolomon-langalanga,Langalanga,wala1266,-8.81936,160.741,Austronesian,SMOOTH,tryonsolomon-langalanga-250_smooth-1,dada,dada,Langalanga,1,CLICS,lgl,NA,NA,NA,NA
+tryonsolomon,tryonsolomon-launorth,Lau North,lauu1247,-8.51018,160.872,Austronesian,SMOOTH,tryonsolomon-launorth-250_smooth-1,dada,dada,Lau North,1,CLICS,llu,trill,"Francois, Alex. ""The Wala Language of Malaita"" (PDF).",NA,NA
+tryonsolomon,tryonsolomon-launorth,Lau North,lauu1247,-8.51018,160.872,Austronesian,SMOOTH,tryonsolomon-launorth-250_smooth-2,dadala,dadala,Lau North,1,CLICS,llu,trill,"Francois, Alex. ""The Wala Language of Malaita"" (PDF).",NA,NA
+tryonsolomon,tryonsolomon-lavukaleve,Lavukaleve,lavu1241,-9.05569,159.119,Lavukaleve,SMOOTH,tryonsolomon-lavukaleve-250_smooth-1,sisiato,sisiato,Lavukaleve,1,CLICS,lvk,NA,NA,lvk,NA
+tryonsolomon,tryonsolomon-lengo,Lengo,leng1259,-9.56425,160.42,Austronesian,SMOOTH,tryonsolomon-lengo-250_smooth-1,mambɔ,mambɔ,Lengo,1,CLICS,lgr,trill,wiki,NA,NA
+tryonsolomon,tryonsolomon-lokuru,Lokuru,touo1238,-8.58405,157.296,Touo,SMOOTH,tryonsolomon-lokuru-250_smooth-1,arota,arota,Lokuru,1,CLICS,tqu,no rhotic,NA,NA,NA
+tryonsolomon,tryonsolomon-lungga,Lungga,lung1249,-8.17469,156.573,Austronesian,SMOOTH,tryonsolomon-lungga-250_smooth-1,emese,emese,Lungga,1,CLICS,lga,NA,NA,NA,NA
+tryonsolomon,tryonsolomon-malango,Malango,mala1484,-9.61383,160.118,Austronesian,SMOOTH,tryonsolomon-malango-250_smooth-1,mamanĵa,mamanĵa,Malango,1,CLICS,mln,NA,NA,NA,NA
+tryonsolomon,tryonsolomon-marovo,Marovo,maro1244,-8.37943,157.747,Austronesian,SMOOTH,tryonsolomon-marovo-250_smooth-1,memehe,memehe,Marovo,1,CLICS,mvo,NA,NA,NA,NA
+tryonsolomon,tryonsolomon-mbaelelea,Mbaelelea,bael1237,-8.41627,160.721,Austronesian,SMOOTH,tryonsolomon-mbaelelea-250_smooth-1,θamoθamoa,θamoθamoa,Mbaelelea,1,CLICS,bvc,NA,NA,NA,NA
+tryonsolomon,tryonsolomon-mbaengguu,Mbaengguu,baeg1237,-8.49014,160.771,Austronesian,SMOOTH,tryonsolomon-mbaengguu-250_smooth-1,ndɔndɔloa,ndɔndɔloa,Mbaengguu,1,CLICS,bvd,NA,NA,NA,NA
+tryonsolomon,tryonsolomon-mbambatana,Mbambatana,baba1268,-7.22281,157.149,Austronesian,SMOOTH,tryonsolomon-mbambatana-250_smooth-1,ŋgulama,ŋgulama,Mbambatana,1,CLICS,baa,NA,NA,NA,NA
+tryonsolomon,tryonsolomon-mbilua,Mbilua,bilu1245,-7.92388,156.663,Bilua,SMOOTH,tryonsolomon-mbilua-250_smooth-1,levilevl,levilevl,Mbilua,1,CLICS,blb,NA,NA,blb,NA
+tryonsolomon,tryonsolomon-mbirao,Mbirao,bira1254,-9.73716,160.52,Austronesian,SMOOTH,tryonsolomon-mbirao-250_smooth-1,manĵamanĵa,manĵamanĵa,Mbirao,1,CLICS,brr,NA,NA,NA,NA
+tryonsolomon,tryonsolomon-moli,Moli,moli1247,None,None,Austronesian,SMOOTH,tryonsolomon-moli-250_smooth-1,mačamača,mačamača,Moli,1,CLICS,vrs,NA,NA,NA,NA
+tryonsolomon,tryonsolomon-mono,Mono,mono1273,-7.05102,155.76,Austronesian,SMOOTH,tryonsolomon-mono-250_smooth-1,ranisi,ranisi,Mono,1,CLICS,mte,trill,wiki,NA,NA
+tryonsolomon,tryonsolomon-nanggu,Nanggu,nang1262,-10.7441,165.887,Austronesian,SMOOTH,tryonsolomon-nanggu-250_smooth-1,malilo,malilo,Nanggu,1,CLICS,ngr,NA,NA,NA,NA
+tryonsolomon,tryonsolomon-nduke,Nduke,duke1237,-7.97768,157.064,Austronesian,SMOOTH,tryonsolomon-nduke-250_smooth-1,memehe,memehe,Nduke,1,CLICS,nke,NA,NA,NA,NA
+tryonsolomon,tryonsolomon-nembao,Nembao,amba1266,-11.2958,166.498,Austronesian,SMOOTH,tryonsolomon-nembao-250_smooth-1,ikilimo,ikilimo,Nembao,1,CLICS,utp,NA,NA,NA,NA
+tryonsolomon,tryonsolomon-nggela,Nggela,gela1263,-9.04587,160.186,Austronesian,SMOOTH,tryonsolomon-nggela-250_smooth-1,mambɔ,mambɔ,Nggela,1,CLICS,nlg,trill,wiki,NA,NA
+tryonsolomon,tryonsolomon-nggela,Nggela,gela1263,-9.04587,160.186,Austronesian,SMOOTH,tryonsolomon-nggela-250_smooth-2,mandalɔ,mandalɔ,Nggela,1,CLICS,nlg,trill,wiki,NA,NA
+tryonsolomon,tryonsolomon-ontongjava,Ontong Java,onto1237,-5.49029,159.701,Austronesian,SMOOTH,tryonsolomon-ontongjava-250_smooth-1,mole,mole,Ontong Java,1,CLICS,ojv,no rhotic,wiki,NA,NA
+tryonsolomon,tryonsolomon-oroha,Oroha,oroh1237,-9.7386,161.513,Austronesian,SMOOTH,tryonsolomon-oroha-250_smooth-1,mamana!a,mamana!a,Oroha,1,CLICS,ora,no trill,"wiki ""the r is not rolled""",NA,NA
+tryonsolomon,tryonsolomon-pileni,Pileni,pile1238,-10.173335,166.247188,Austronesian,SMOOTH,tryonsolomon-pileni-250_smooth-1,huaŋoŋolavoi,huaŋoŋolavoi,Pileni,1,CLICS,piv,no rhotic,wiki,NA,NA
+tryonsolomon,tryonsolomon-poleo,Poleo,pole1240,None,None,Austronesian,SMOOTH,tryonsolomon-poleo-250_smooth-1,maɣambɔ,maɣambɔ,Poleo,1,CLICS,tlr,no trill,wiki,NA,NA
+tryonsolomon,tryonsolomon-rawo,Rawo,rawo1242,None,None,Austronesian,SMOOTH,tryonsolomon-rawo-250_smooth-1,momoreaɣa,momoreaɣa,Rawo,1,CLICS,rwa,NA,NA,NA,NA
+tryonsolomon,tryonsolomon-reefs,Reefs,natu1246,-10.6771,165.835,Austronesian,SMOOTH,tryonsolomon-reefs-250_smooth-1,mema,mema,Reefs,1,CLICS,ntu,NA,NA,ntu,NA
+tryonsolomon,tryonsolomon-rennell,Rennell,renn1242,-11.6237,160.265,Austronesian,SMOOTH,tryonsolomon-rennell-250_smooth-1,huahuaŋgau,huahuaŋgau,Rennell,1,CLICS,mnv,no rhotic,wiki,NA,NA
+tryonsolomon,tryonsolomon-ririo,Ririo,riri1237,-6.88927,156.92,Austronesian,SMOOTH,tryonsolomon-ririo-250_smooth-1,miɔlɔtɔ,miɔlɔtɔ,Ririo,1,CLICS,rri,NA,NA,NA,NA
+tryonsolomon,tryonsolomon-roviana,Roviana,rovi1238,-8.20493,157.408,Austronesian,SMOOTH,tryonsolomon-roviana-250_smooth-1,mɛmehe,mɛmehe,Roviana,1,CLICS,rug,NA,NA,NA,NA
+tryonsolomon,tryonsolomon-saa1,Sa'a (1),saaa1240,-9.60258,161.467,Austronesian,SMOOTH,tryonsolomon-saa1-250_smooth-1,manomanole!a,manomanole!a,Sa'a,2,CLICS,apb,NA,NA,NA,NA
+tryonsolomon,tryonsolomon-santaana,Santa Ana,sant1414,None,None,Austronesian,SMOOTH,tryonsolomon-santaana-250_smooth-1,mamaoɣa,mamaoɣa,Santa Ana,1,CLICS,stn,trill,"wiki (""vibrant"")",NA,NA
+tryonsolomon,tryonsolomon-savosavo,Savosavo,savo1255,-9.12853,159.814,Savosavo,SMOOTH,tryonsolomon-savosavo-250_smooth-1,mambo,mambo,Savosavo,1,CLICS,svs,trill,wiki,svs,NA
+tryonsolomon,tryonsolomon-simbo,Simbo,simb1256,-8.26947,156.541,Austronesian,SMOOTH,tryonsolomon-simbo-250_smooth-1,memehe,memehe,Simbo,1,CLICS,sbb,NA,NA,NA,NA
+tryonsolomon,tryonsolomon-tataba,Tataba,chek1238,-8.27055,159.625,Austronesian,SMOOTH,tryonsolomon-tataba-250_smooth-1,snahlu,snahlu,Tataba,1,CLICS,mrn,trill,"Boswell, Fredrick Alvin (2018). A grammar of Cheke Holo (Doctoral thesis). LOT Publications (Leiden University). hdl:1887/67082. ISBN 978-94-6093-301-1.",NA,NA
+tryonsolomon,tryonsolomon-tikopia,Tikopia,tiko1237,-12.2766,168.822,Austronesian,SMOOTH,tryonsolomon-tikopia-250_smooth-1,lemolemo,lemolemo,Tikopia,1,CLICS,tkp,NA,NA,NA,NA
+tryonsolomon,tryonsolomon-toambaita,To'ambaita,toab1237,-8.39233,160.619,Austronesian,SMOOTH,tryonsolomon-toambaita-250_smooth-1,ndɔndɔloa,ndɔndɔloa,To'ambaita,1,CLICS,mlu,trill,wiki,NA,NA
+tryonsolomon,tryonsolomon-ughele,Ughele,ughe1237,-8.45725,157.341,Austronesian,SMOOTH,tryonsolomon-ughele-250_smooth-1,memehe,memehe,Ughele,1,CLICS,uge,no rhotic,wiki,NA,NA
+tryonsolomon,tryonsolomon-vaghua,Vaghua,vagh1249,-6.68712,156.542,Austronesian,SMOOTH,tryonsolomon-vaghua-250_smooth-1,melɔtɔ,melɔtɔ,Vaghua,1,CLICS,tva,NA,NA,NA,NA
+tryonsolomon,tryonsolomon-vaghua,Vaghua,vagh1249,-6.68712,156.542,Austronesian,SMOOTH,tryonsolomon-vaghua-250_smooth-2,zalama,zalama,Vaghua,1,CLICS,tva,NA,NA,NA,NA
+tryonsolomon,tryonsolomon-vangunu,Vangunu,vang1243,-8.66826,157.997,Austronesian,SMOOTH,tryonsolomon-vangunu-250_smooth-1,memehe,memehe,Vangunu,1,CLICS,mpr,NA,NA,NA,NA
+tryonsolomon,tryonsolomon-vano,Vano,vano1237,-11.6107,166.7984,Austronesian,SMOOTH,tryonsolomon-vano-250_smooth-1,mutnwoli,mutnwoli,Vano,1,CLICS,vnk,NA,NA,NA,NA
+wold,wold-Swahili,Swahili,swah1253,-6.5,39,Atlantic-Congo,SMOOTH,wold-Swahili-15-77-1,laini,laini,Swahili,1,Google,swa,NA,NA,swh,NA
+wold,wold-Iraqw,Iraqw,iraq1241,-4,35.5,Afro-Asiatic,SMOOTH,wold-Iraqw-15-77-1,motsotsooq,motsotsooq,Iraqw,1,CLICS,irk,NA,NA,irk,NA
+wold,wold-Gawwada,Gawwada,gaww1239,5.5,37.25,Afro-Asiatic,SMOOTH,wold-Gawwada-15-77-1,mut’urt’ura,mut’urt’ura,Gawwada,1,CLICS,gwd,NA,NA,NA,NA
+wold,wold-Hausa,Hausa,haus1257,12,7,Afro-Asiatic,SMOOTH,wold-Hausa-15-77-1,mài sántsíi,mài_sántsíi,Hausa,1,IDS,hau,NA,NA,hau,NA
+wold,wold-TarifiytBerber,Tarifiyt Berber,tari1263,34.5,-4,Afro-Asiatic,SMOOTH,wold-TarifiytBerber-15-77-1,ařəqqaɣ,ařəqqaɣ,Tarifiyt Berber,1,CLICS,rif,NA,NA,rif,NA
+wold,wold-SeychellesCreole,Seychelles Creole,sese1246,-4.75,55.5,Indo-European,SMOOTH,wold-SeychellesCreole-15-77-1,marbre,marbre,Seychelles Creole,1,CLICS,crs,NA,NA,NA,NA
+wold,wold-Romanian,Romanian,roma1327,46,25,Indo-European,SMOOTH,wold-Romanian-15-77-1,neted,neted,Romanian,1,IDS,ron,NA,NA,ron,yes
+wold,wold-LowerSorbian,Lower Sorbian,lowe1385,51.75,14.3333,Indo-European,SMOOTH,wold-LowerSorbian-15-77-1,rowny,rowny,Lower Sorbian,1,CLICS,dsb,trill,wiki,NA,NA
+wold,wold-OldHighGerman,Old High German,oldh1241,50.55,9.68333,Indo-European,SMOOTH,wold-OldHighGerman-15-77-1,eban(i),eban(i),Old High German,1,IDS,goh,NA,NA,goh,NA
+wold,wold-English,English,stan1293,52,0,Indo-European,SMOOTH,wold-English-15-77-1,smooth,smooth,English,1,IDS,eng,NA,approximant,eng,no
+wold,wold-Bezhta,Bezhta,bezh1248,42.0833,46.1667,Nakh-Daghestanian,SMOOTH,wold-Bezhta-15-77-1,k’ak’alo,k’ak’alo,Bezhta,3,CLICS,kap,trill,wiki,NA,NA
+wold,wold-Archi,Archi,arch1244,42,46.8333,Nakh-Daghestanian,SMOOTH,wold-Archi-15-77-1,čula,čula,Archi,3,CLICS,aqc,NA,NA,aqc,NA
+wold,wold-Manange,Manange,mana1288,28,84.25,Sino-Tibetan,SMOOTH,wold-Manange-15-77-1,tʃã,tʃã,Manange,1,CLICS,nmm,NA,NA,nmm,NA
+wold,wold-Ket,Ket,kett1243,64,87,Yeniseian,SMOOTH,wold-Ket-15-77-1,uul,uul,Ket,1,CLICS,ket,NA,NA,ket,NA
+wold,wold-Sakha,Sakha,yaku1245,62,130,Turkic,SMOOTH,wold-Sakha-15-77-1,deχsi,deχsi,Sakha,1,CLICS,sah,NA,NA,sah,NA
+wold,wold-Sakha,Sakha,yaku1245,62,130,Turkic,SMOOTH,wold-Sakha-15-77-2,könö,könö,Sakha,1,CLICS,sah,NA,NA,sah,NA
+wold,wold-Oroqen,Oroqen,oroq1238,51.2829,126.111,Tungusic,SMOOTH,wold-Oroqen-15-77-1,burtʃurin,burtʃurin,Oroqen,1,CLICS,orh,NA,NA,NA,NA
+wold,wold-Japanese,Japanese,nucl1643,37,140,Japonic,SMOOTH,wold-Japanese-15-77-1,nameraka,nameraka,Japanese,1,Google,jpn,NA,NA,jpn,NA
+wold,wold-Japanese,Japanese,nucl1643,37,140,Japonic,SMOOTH,wold-Japanese-15-77-2,subesube,subesube,Japanese,1,Google,jpn,NA,NA,jpn,NA
+wold,wold-Japanese,Japanese,nucl1643,37,140,Japonic,SMOOTH,wold-Japanese-15-77-3,tsurutsuru,tsurutsuru,Japanese,1,Google,jpn,NA,NA,jpn,NA
+wold,wold-Thai,Thai,thai1261,16,101,Tai-Kadai,SMOOTH,wold-Thai-15-77-1,lamun,lamun,Thai,2,Google,tha,NA,NA,tha,NA
+wold,wold-WhiteHmong,White Hmong,hmon1333,26,105,Hmong-Mien,SMOOTH,wold-WhiteHmong-15-77-1,du,du,White Hmong,1,CLICS,mww,no rhotic,wiki,NA,NA
+wold,wold-CeqWong,Ceq Wong,chew1245,3.8807,102.456,Austroasiatic,SMOOTH,wold-CeqWong-15-77-1,sluc,sluc,Ceq Wong,1,CLICS,cwg,NA,NA,NA,NA
+wold,wold-Malagasy,Malagasy,plat1254,-20,47,Austronesian,SMOOTH,wold-Malagasy-15-77-1,ma-làma,ma-làma,Malagasy,1,Google,mlg,NA,NA,plt,NA
+wold,wold-Takia,Takia,taki1248,-4.66667,146,Austronesian,SMOOTH,wold-Takia-15-77-1,smut,smut,Takia,1,CLICS,tbc,NA,NA,NA,NA
+wold,wold-Hawaiian,Hawaiian,hawa1245,19.5833,-155.5,Austronesian,SMOOTH,wold-Hawaiian-15-77-1,palaha,palaha,Hawaiian,1,IDS,haw,NA,no R-like phoneme,haw,no R
+wold,wold-Gurindji,Gurindji,guri1247,-17.6667,130.667,Pama-Nyungan,SMOOTH,wold-Gurindji-15-77-1,kirinykiriny,kirinykiriny,Gurindji,1,CLICS,gue,mixed with trill,wiki,NA,NA
+wold,wold-Yaqui,Yaqui,yaqu1251,27.5,-110.25,Uto-Aztecan,SMOOTH,wold-Yaqui-15-77-1,chitabetalai,chitabetalai,Yaqui,1,CLICS,yaq,NA,NA,yaq,NA
+wold,wold-ZinacantanTzotzil,Zinacantán Tzotzil,tzot1259,16.8333,-92.8333,Mayan,SMOOTH,wold-ZinacantanTzotzil-15-77-1,ch’ulul,ch’ulul,Zinacantán Tzotzil,1,CLICS,tzo,NA,NA,tzo,NA
+wold,wold-ZinacantanTzotzil,Zinacantán Tzotzil,tzot1259,16.8333,-92.8333,Mayan,SMOOTH,wold-ZinacantanTzotzil-15-77-2,lich’ich’,lich’ich’,Zinacantán Tzotzil,1,CLICS,tzo,NA,NA,tzo,NA
+wold,wold-Qeqchi,Q'eqchi',kekc1242,16,-89.8333,Mayan,SMOOTH,wold-Qeqchi-15-77-1,q'un,q'un,Q'eqchi',1,CLICS,kek,NA,NA,kek,NA
+wold,wold-Qeqchi,Q'eqchi',kekc1242,16,-89.8333,Mayan,SMOOTH,wold-Qeqchi-15-77-2,ji'ji',ji'ji',Q'eqchi',1,CLICS,kek,NA,NA,kek,NA
+wold,wold-Qeqchi,Q'eqchi',kekc1242,16,-89.8333,Mayan,SMOOTH,wold-Qeqchi-15-77-3,yolyol,yolyol,Q'eqchi',1,CLICS,kek,NA,NA,kek,NA
+wold,wold-Qeqchi,Q'eqchi',kekc1242,16,-89.8333,Mayan,SMOOTH,wold-Qeqchi-15-77-4,tiik,tiik,Q'eqchi',1,CLICS,kek,NA,NA,kek,NA
+wold,wold-Otomi,Otomi,mezq1235,20.1667,-98.8333,Otomanguean,SMOOTH,wold-Otomi-15-77-1,xi nts'u̲ki,xi_nts'u̲ki,Otomi,1,CLICS,ote,NA,NA,ote,NA
+wold,wold-Saramaccan,Saramaccan,sara1340,4.5,-55.5,Indo-European,SMOOTH,wold-Saramaccan-15-77-1,línzo,línzo,Saramaccan,1,CLICS,srm,no rhotic,wiki,NA,NA
+wold,wold-ImbaburaQuechua,Imbabura Quechua,imba1240,0.333333,-78,Quechuan,SMOOTH,wold-ImbaburaQuechua-15-77-1,amuklla,amuklla,Imbabura Quechua,1,CLICS,que,NA,NA,NA,NA
+wold,wold-Kalina,Kali'na,gali1262,5.5,-56,Cariban,SMOOTH,wold-Kalina-15-77-1,tu’kapele,tu’kapele,Kali'na,1,CLICS,car,NA,NA,car,NA
+wold,wold-Hup,Hup,hupd1244,0.166667,-69.25,Naduhup,SMOOTH,wold-Hup-15-77-1,yíb,yíb,Hup,1,CLICS,jup,NA,NA,jup,NA
+wold,wold-Wichi,Wichí,wich1264,-22.5,-62.5833,Matacoan,SMOOTH,wold-Wichi-15-77-1,talich’i,talich’i,Wichí,1,IDS,mzh,NA,NA,mzh,NA
+wold,wold-Mapudungun,Mapudungun,mapu1245,-38,-72,Araucanian,SMOOTH,wold-Mapudungun-15-77-1,pañush,pañush,Mapudungun,1,IDS,arn,NA,no R-like phoneme,arn,no R
+wold,wold-Swahili,Swahili,swah1253,-6.5,39,Atlantic-Congo,ROUGH,wold-Swahili-15-76-1,-kwaruza,-kwaruza,Swahili,1,Google,swa,NA,NA,swh,NA
+wold,wold-Iraqw,Iraqw,iraq1241,-4,35.5,Afro-Asiatic,ROUGH,wold-Iraqw-15-76-1,xaslasla',xaslasla',Iraqw,1,CLICS,irk,NA,NA,irk,NA
+wold,wold-Gawwada,Gawwada,gaww1239,5.5,37.25,Afro-Asiatic,ROUGH,wold-Gawwada-15-76-1,hašaša,hašaša,Gawwada,1,CLICS,gwd,NA,NA,NA,NA
+wold,wold-Hausa,Hausa,haus1257,12,7,Afro-Asiatic,ROUGH,wold-Hausa-15-76-1,mài káushíi,mài_káushíi,Hausa,1,IDS,hau,NA,NA,hau,NA
+wold,wold-TarifiytBerber,Tarifiyt Berber,tari1263,34.5,-4,Afro-Asiatic,ROUGH,wold-TarifiytBerber-15-76-1,aħā’šaw,aħā’šaw,Tarifiyt Berber,1,CLICS,rif,NA,NA,rif,NA
+wold,wold-SeychellesCreole,Seychelles Creole,sese1246,-4.75,55.5,Indo-European,ROUGH,wold-SeychellesCreole-15-76-1,"ride, rid",ride,Seychelles Creole,1,CLICS,crs,NA,NA,NA,NA
+wold,wold-SeychellesCreole,Seychelles Creole,sese1246,-4.75,55.5,Indo-European,ROUGH,wold-SeychellesCreole-15-76-2,brit,brit,Seychelles Creole,1,CLICS,crs,NA,NA,NA,NA
+wold,wold-Romanian,Romanian,roma1327,46,25,Indo-European,ROUGH,wold-Romanian-15-76-1,aspru,aspru,Romanian,1,IDS,ron,NA,NA,ron,yes
+wold,wold-LowerSorbian,Lower Sorbian,lowe1385,51.75,14.3333,Indo-European,ROUGH,wold-LowerSorbian-15-76-1,gropny,gropny,Lower Sorbian,1,CLICS,dsb,trill,wiki,NA,NA
+wold,wold-LowerSorbian,Lower Sorbian,lowe1385,51.75,14.3333,Indo-European,ROUGH,wold-LowerSorbian-15-76-2,škropaty,škropaty,Lower Sorbian,1,CLICS,dsb,trill,wiki,NA,NA
+wold,wold-OldHighGerman,Old High German,oldh1241,50.55,9.68333,Indo-European,ROUGH,wold-OldHighGerman-15-76-1,rûh,rûh,Old High German,1,IDS,goh,NA,NA,goh,NA
+wold,wold-English,English,stan1293,52,0,Indo-European,ROUGH,wold-English-15-76-1,rough,rough,English,1,IDS,eng,NA,approximant,eng,no
+wold,wold-Bezhta,Bezhta,bezh1248,42.0833,46.1667,Nakh-Daghestanian,ROUGH,wold-Bezhta-15-76-1,qäč’č’ö,qäč’č’ö,Bezhta,3,CLICS,kap,trill,wiki,NA,NA
+wold,wold-Bezhta,Bezhta,bezh1248,42.0833,46.1667,Nakh-Daghestanian,ROUGH,wold-Bezhta-15-76-2,qöqilö,qöqilö,Bezhta,3,CLICS,kap,trill,wiki,NA,NA
+wold,wold-Archi,Archi,arch1244,42,46.8333,Nakh-Daghestanian,ROUGH,wold-Archi-15-76-1,qarqatːut,qarqatːut,Archi,3,CLICS,aqc,NA,NA,aqc,NA
+wold,wold-Ket,Ket,kett1243,64,87,Yeniseian,ROUGH,wold-Ket-15-76-1,qəgbareŋ,qəgbareŋ,Ket,1,CLICS,ket,NA,NA,ket,NA
+wold,wold-Sakha,Sakha,yaku1245,62,130,Turkic,ROUGH,wold-Sakha-15-76-1,χatɨːlaːχ,χatɨːlaːχ,Sakha,1,CLICS,sah,NA,NA,sah,NA
+wold,wold-Oroqen,Oroqen,oroq1238,51.2829,126.111,Tungusic,ROUGH,wold-Oroqen-15-76-1,lə:rin,lə:rin,Oroqen,1,CLICS,orh,NA,NA,NA,NA
+wold,wold-Japanese,Japanese,nucl1643,37,140,Japonic,ROUGH,wold-Japanese-15-76-1,arai,arai,Japanese,1,Google,jpn,NA,NA,jpn,NA
+wold,wold-Japanese,Japanese,nucl1643,37,140,Japonic,ROUGH,wold-Japanese-15-76-2,somatsu,somatsu,Japanese,1,Google,jpn,NA,NA,jpn,NA
+wold,wold-Japanese,Japanese,nucl1643,37,140,Japonic,ROUGH,wold-Japanese-15-76-3,zarazara,zarazara,Japanese,1,Google,jpn,NA,NA,jpn,NA
+wold,wold-Thai,Thai,thai1261,16,101,Tai-Kadai,ROUGH,wold-Thai-15-76-1,yàap,yàap,Thai,2,Google,tha,NA,NA,tha,NA
+wold,wold-CeqWong,Ceq Wong,chew1245,3.8807,102.456,Austroasiatic,ROUGH,wold-CeqWong-15-76-1,kasar,kasar,Ceq Wong,1,CLICS,cwg,NA,NA,NA,NA
+wold,wold-Malagasy,Malagasy,plat1254,-20,47,Austronesian,ROUGH,wold-Malagasy-15-76-1,marào,marào,Malagasy,1,Google,mlg,NA,NA,plt,NA
+wold,wold-Malagasy,Malagasy,plat1254,-20,47,Austronesian,ROUGH,wold-Malagasy-15-76-2,marokoròko,marokoròko,Malagasy,1,Google,mlg,NA,NA,plt,NA
+wold,wold-Takia,Takia,taki1248,-4.66667,146,Austronesian,ROUGH,wold-Takia-15-76-1,raf,raf,Takia,1,CLICS,tbc,NA,NA,NA,NA
+wold,wold-Hawaiian,Hawaiian,hawa1245,19.5833,-155.5,Austronesian,ROUGH,wold-Hawaiian-15-76-1,`ōkala,`ōkala,Hawaiian,1,IDS,haw,NA,no R-like phoneme,haw,no R
+wold,wold-Hawaiian,Hawaiian,hawa1245,19.5833,-155.5,Austronesian,ROUGH,wold-Hawaiian-15-76-2,`ōka`ika`i,`ōka`ika`i,Hawaiian,1,IDS,haw,NA,no R-like phoneme,haw,no R
+wold,wold-Hawaiian,Hawaiian,hawa1245,19.5833,-155.5,Austronesian,ROUGH,wold-Hawaiian-15-76-3,`ālualua,`ālualua,Hawaiian,1,IDS,haw,NA,no R-like phoneme,haw,no R
+wold,wold-Gurindji,Gurindji,guri1247,-17.6667,130.667,Pama-Nyungan,ROUGH,wold-Gurindji-15-76-1,purtuwurtu,purtuwurtu,Gurindji,1,CLICS,gue,mixed with trill,wiki,NA,NA
+wold,wold-Yaqui,Yaqui,yaqu1251,27.5,-110.25,Uto-Aztecan,ROUGH,wold-Yaqui-15-76-1,sosoko,sosoko,Yaqui,1,CLICS,yaq,NA,NA,yaq,NA
+wold,wold-ZinacantanTzotzil,Zinacantán Tzotzil,tzot1259,16.8333,-92.8333,Mayan,ROUGH,wold-ZinacantanTzotzil-15-76-1,ch'ixaltik,ch'ixaltik,Zinacantán Tzotzil,1,CLICS,tzo,NA,NA,tzo,NA
+wold,wold-Qeqchi,Q'eqchi',kekc1242,16,-89.8333,Mayan,ROUGH,wold-Qeqchi-15-76-1,b'iqb'iq,b'iqb'iq,Q'eqchi',1,CLICS,kek,NA,NA,kek,NA
+wold,wold-Qeqchi,Q'eqchi',kekc1242,16,-89.8333,Mayan,ROUGH,wold-Qeqchi-15-76-2,purux,purux,Q'eqchi',1,CLICS,kek,NA,NA,kek,NA
+wold,wold-Qeqchi,Q'eqchi',kekc1242,16,-89.8333,Mayan,ROUGH,wold-Qeqchi-15-76-3,b'urux b'urux,b'urux_b'urux,Q'eqchi',1,CLICS,kek,NA,NA,kek,NA
+wold,wold-Qeqchi,Q'eqchi',kekc1242,16,-89.8333,Mayan,ROUGH,wold-Qeqchi-15-76-4,k'urux,k'urux,Q'eqchi',1,CLICS,kek,NA,NA,kek,NA
+wold,wold-Qeqchi,Q'eqchi',kekc1242,16,-89.8333,Mayan,ROUGH,wold-Qeqchi-15-76-5,turux,turux,Q'eqchi',1,CLICS,kek,NA,NA,kek,NA
+wold,wold-Otomi,Otomi,mezq1235,20.1667,-98.8333,Otomanguean,ROUGH,wold-Otomi-15-76-1,xi nzadi,xi_nzadi,Otomi,1,CLICS,ote,NA,NA,ote,NA
+wold,wold-ImbaburaQuechua,Imbabura Quechua,imba1240,0.333333,-78,Quechuan,ROUGH,wold-ImbaburaQuechua-15-76-1,shagra,shagra,Imbabura Quechua,1,CLICS,que,NA,NA,NA,NA
+wold,wold-Kalina,Kali'na,gali1262,5.5,-56,Cariban,ROUGH,wold-Kalina-15-76-1,tɨwakalake,tɨwakalake,Kali'na,1,CLICS,car,NA,NA,car,NA
+wold,wold-Hup,Hup,hupd1244,0.166667,-69.25,Naduhup,ROUGH,wold-Hup-15-76-1,kukuç-,kukuç-,Hup,1,CLICS,jup,NA,NA,jup,NA
+wold,wold-Wichi,Wichí,wich1264,-22.5,-62.5833,Matacoan,ROUGH,wold-Wichi-15-76-1,yelaj,yelaj,Wichí,1,IDS,mzh,NA,NA,mzh,NA
+wold,wold-Mapudungun,Mapudungun,mapu1245,-38,-72,Araucanian,ROUGH,wold-Mapudungun-15-76-1,ningül,ningül,Mapudungun,1,IDS,arn,NA,no R-like phoneme,arn,no R
+lexirumah,bima1247,Bima,bima1247,-8.53818,118.843333,Austronesian,smooth,bima1247-smooth-1,mpida,ᵐpida,Bima,1,CLICS,bhp,NA,NA,NA,NA
+lexirumah,bima1247,Bima,bima1247,-8.53818,118.843333,Austronesian,smooth,bima1247-smooth-2,ngame,ŋame,Bima,1,CLICS,bhp,NA,NA,NA,NA
+lexirumah,bima1247,Bima,bima1247,-8.53818,118.843333,Austronesian,smooth,bima1247-smooth-3,niu,niu,Bima,1,CLICS,bhp,NA,NA,NA,NA
+lexirumah,bima1247,Bima,bima1247,-8.53818,118.843333,Austronesian,smooth,bima1247-smooth-4,kecu,ket͡ʃu,Bima,1,CLICS,bhp,NA,NA,NA,NA
+lexirumah,bima1247,Bima,bima1247,-8.53818,118.843333,Austronesian,rough,bima1247-rough-1,kasa,kasa,Bima,1,CLICS,bhp,NA,NA,NA,NA
+lexirumah,bima1247,Bima,bima1247,-8.53818,118.843333,Austronesian,rough,bima1247-rough-2,ngara,ŋara,Bima,1,CLICS,bhp,NA,NA,NA,NA
+lexirumah,buna1278-bobon,"Bunak, Bobonaro",buna1278,-9.033683,125.323406,Timor-Alor-Pantar,smooth,buna1278-bobon-smooth-1,sithɛ,sithɛ,Bunak,3,CLICS,bfn,trill,"Schapper, Antoinette (2009). Bunaq: a Papuan language of central Timor (Ph.D. thesis)",NA,NA
+lexirumah,buna1278-bobon,"Bunak, Bobonaro",buna1278,-9.033683,125.323406,Timor-Alor-Pantar,rough,buna1278-bobon-rough-1,sithɛ ni,sithɛ_ni,Bunak,3,CLICS,bfn,trill,"Schapper, Antoinette (2009). Bunaq: a Papuan language of central Timor (Ph.D. thesis)",NA,NA
+lexirumah,dela1252,Dela,dela1252,-10.890303,122.843183,Austronesian,smooth,dela1252-smooth-1,pipisoʔ,pipisoʔ,Dela,1,CLICS,row,trill,https://www.omniglot.com/writing/westernrote.htm,NA,NA
+lexirumah,dela1252,Dela,dela1252,-10.890303,122.843183,Austronesian,smooth,dela1252-smooth-2,ɓeɓelaʔ,ɓeɓelaʔ,Dela,1,CLICS,row,trill,https://www.omniglot.com/writing/westernrote.htm,NA,NA
+lexirumah,dhao1237,Dhao,dhao1237,-10.816034,122.66431,Austronesian,smooth,dhao1237-smooth-1,mola-mola,mola+mola,Dhao,1,CLICS,nfa,trill,https://sil-philippines-languages.org/ical/papers/Grimes-Hawu_Dhao.pdf?_ga=GA1.2.34923686.1554420071&_gid=GA1.2.2128814745.1594140462,NA,NA
+lexirumah,dhao1237,Dhao,dhao1237,-10.816034,122.66431,Austronesian,rough,dhao1237-rough-1,sela,sela,Dhao,1,CLICS,nfa,trill,https://sil-philippines-languages.org/ical/papers/Grimes-Hawu_Dhao.pdf?_ga=GA1.2.34923686.1554420071&_gid=GA1.2.2128814745.1594140462,NA,NA
+lexirumah,dhao1237,Dhao,dhao1237,-10.816034,122.66431,Austronesian,rough,dhao1237-rough-2,sakaa,sakaː,Dhao,1,CLICS,nfa,trill,https://sil-philippines-languages.org/ical/papers/Grimes-Hawu_Dhao.pdf?_ga=GA1.2.34923686.1554420071&_gid=GA1.2.2128814745.1594140462,NA,NA
+lexirumah,ende1246,Ende,ende1246,-8.72,121.56,Austronesian,smooth,ende1246-smooth-1,nge~rhu,ŋeɹu,Ende,1,CLICS,end,trill,wiki,NA,NA
+lexirumah,fata1247,Fataluku,fata1247,-8.4394,126.9821,Timor-Alor-Pantar,smooth,fata1247-smooth-1,hilatɛ,hilatɛ,Fataluku,1,CLICS,ddg,trill,http://ling.hawaii.edu/wp-content/uploads/TylerHestonFinal.pdf,NA,NA
+lexirumah,fata1247,Fataluku,fata1247,-8.4394,126.9821,Timor-Alor-Pantar,smooth,fata1247-smooth-2,tɔmɔkɛ,tɔmɔkɛ,Fataluku,1,CLICS,ddg,trill,http://ling.hawaii.edu/wp-content/uploads/TylerHestonFinal.pdf,NA,NA
+lexirumah,fata1247,Fataluku,fata1247,-8.4394,126.9821,Timor-Alor-Pantar,rough,fata1247-rough-1,ra'pakɛ,raˈpakɛ,Fataluku,1,CLICS,ddg,trill,http://ling.hawaii.edu/wp-content/uploads/TylerHestonFinal.pdf,NA,NA
+lexirumah,funa1237,Funai Helong,funa1237,-10.241153,123.689805,Austronesian,smooth,funa1237-smooth-1,bdoson,bdoson,Funai Helong,1,CLICS,heg,NA,NA,NA,NA
+lexirumah,funa1237,Funai Helong,funa1237,-10.241153,123.689805,Austronesian,rough,funa1237-rough-1,bsedaʔ,bsedaʔ,Funai Helong,1,CLICS,heg,NA,NA,NA,NA
+lexirumah,kabo1247,"Kabola, Monbang",kabo1247,-8.1737,124.5546,Timor-Alor-Pantar,smooth,kabo1247-smooth-1,dulu,dulu,Kabola,1,CLICS,klz,trill,wiki,NA,NA
+lexirumah,kaer1234,Kaera,kaer1234,-8.4047,124.2175,Timor-Alor-Pantar,smooth,kaer1234-smooth-1,idujo,idujo,Kaera,1,CLICS,jka,trill,wiki,NA,NA
+lexirumah,kaer1234,Kaera,kaer1234,-8.4047,124.2175,Timor-Alor-Pantar,smooth,kaer1234-smooth-2,baxaˈraŋ,baxaˈraŋ,Kaera,1,CLICS,jka,trill,wiki,NA,NA
+lexirumah,kaer1234,Kaera,kaer1234,-8.4047,124.2175,Timor-Alor-Pantar,rough,kaer1234-rough-1,koˈtaŋ,koˈtaŋ,Kaera,1,CLICS,jka,trill,wiki,NA,NA
+lexirumah,keda1252-leuba,"Kedang, Leubatang",keda1252,-8.322779,123.717692,Austronesian,smooth,keda1252-leuba-smooth-1,mɛ'luʔ,mɛˈluʔ,Kedang,1,CLICS,ksx,trill,wiki,NA,NA
+lexirumah,keda1252-leuba,"Kedang, Leubatang",keda1252,-8.322779,123.717692,Austronesian,rough,keda1252-leuba-rough-1,ka'raŋ,kaˈraŋ,Kedang,1,CLICS,ksx,trill,wiki,NA,NA
+lexirumah,kema1243-kaila,"Kemak, Kailaku",kema1243,-8.999982,125.127782,Austronesian,smooth,kema1243-kaila-smooth-1,bə̆lobon,bə̆lobon,Kemak,1,CLICS,kem,NA,NA,NA,NA
+lexirumah,kema1243-kaila,"Kemak, Kailaku",kema1243,-8.999982,125.127782,Austronesian,rough,kema1243-kaila-rough-1,tarakan,tarakan,Kemak,1,CLICS,kem,NA,NA,NA,NA
+lexirumah,keoo1238,"Keo, Udiworowatu",keoo1238,-8.88922,121.2949,Austronesian,smooth,keoo1238-smooth-1,ngédu,ŋedu,Keo,1,CLICS,xxk,NA,NA,xxk,NA
+lexirumah,komo1261,Komodo,komo1261,-8.65,119.47,Austronesian,smooth,komo1261-smooth-1,nggeléq,ᵑgəleʔ,Komodo,1,CLICS,kvh,NA,NA,NA,NA
+lexirumah,koto1251,Kotos Amarasi,koto1251,-10.243786,123.872438,Austronesian,smooth,koto1251-smooth-1,ma'eki',maʔekiʔ,Kotos Amarasi,1,CLICS,aaz,trill,https://www.cambridge.org/core/services/aop-cambridge-core/content/view/S0025100315000377,NA,NA
+lexirumah,koto1251,Kotos Amarasi,koto1251,-10.243786,123.872438,Austronesian,smooth,koto1251-smooth-2,mas'eki',masʔekiʔ,Kotos Amarasi,1,CLICS,aaz,trill,https://www.cambridge.org/core/services/aop-cambridge-core/content/view/S0025100315000377,NA,NA
+lexirumah,koto1251,Kotos Amarasi,koto1251,-10.243786,123.872438,Austronesian,rough,koto1251-rough-1,ka=ma'eki'=fa,ka+maʔekiʔ+fa,Kotos Amarasi,1,CLICS,aaz,trill,https://www.cambridge.org/core/services/aop-cambridge-core/content/view/S0025100315000377,NA,NA
+lexirumah,kula1280-lanto,"Kula, Lantoka",kula1280,-8.2584306,124.9309167,Timor-Alor-Pantar,smooth,kula1280-lanto-smooth-1,dula,dula,Kula,1,CLICS,tpg,NA,NA,NA,NA
+lexirumah,kula1280-lanto,"Kula, Lantoka",kula1280,-8.2584306,124.9309167,Timor-Alor-Pantar,rough,kula1280-lanto-rough-1,kasar,kasar,Kula,1,CLICS,tpg,NA,NA,NA,NA
+lexirumah,kula1280-lanto,"Kula, Lantoka",kula1280,-8.2584306,124.9309167,Timor-Alor-Pantar,smooth,kula1280-lanto-smooth-2,dulua,ˈdulua,Kula,1,CLICS,tpg,NA,NA,NA,NA
+lexirumah,kula1280-lanto,"Kula, Lantoka",kula1280,-8.2584306,124.9309167,Timor-Alor-Pantar,rough,kula1280-lanto-rough-2,ka'pita,kaˈpita,Kula,1,CLICS,tpg,NA,NA,NA,NA
+lexirumah,lama1277-adona,Adonara Lamaholot,adon1237,-8.3757,123.2375,Austronesian,smooth,lama1277-adona-smooth-1,kɜˈmelut,kɜˈmelut,Adonara Lamaholot,1,CLICS,slp,trill,"Michels, M (2017) Western Lamaholot: a cross-dialectal grammar sketch. MA Thesis.",NA,NA
+lexirumah,lama1277-adona,Adonara Lamaholot,adon1237,-8.3757,123.2375,Austronesian,rough,lama1277-adona-rough-1,ˈɡaʔak,ˈgaʔak,Adonara Lamaholot,1,CLICS,slp,trill,"Michels, M (2017) Western Lamaholot: a cross-dialectal grammar sketch. MA Thesis.",NA,NA
+lexirumah,lama1277-kalik,"Central Lembata, Kalikasa",kali1300,-8.463,123.4798,Austronesian,smooth,lama1277-kalik-smooth-1,ɡəməˈlɔs,gəməˈlɔs,Central Lembata,1,CLICS,lvu,trill,"Krauße, Daniel (2016). ""A Brief Grammar of the Eastern Atadei Language of Lembata, Indonesia"" (PDF). Linguistik Indonesia. 34 (2)",NA,NA
+lexirumah,lama1277-kalik,"Central Lembata, Kalikasa",kali1300,-8.463,123.4798,Austronesian,rough,lama1277-kalik-rough-1,ɡroˈsiŋ,groˈsiŋ,Central Lembata,1,CLICS,lvu,trill,"Krauße, Daniel (2016). ""A Brief Grammar of the Eastern Atadei Language of Lembata, Indonesia"" (PDF). Linguistik Indonesia. 34 (2)",NA,NA
+lexirumah,lioo1240,Lio,lioo1240,-8.69,121.84,Austronesian,rough,lioo1240-rough-1,ŋaga,ŋaga,Lio,1,CLICS,ljl,trill,"Elias, Alexander (2019). Lio and the Central Flores languages (M.A. thesis). Leiden University.",NA,NA
+lexirumah,lioo1240,Lio,lioo1240,-8.69,121.84,Austronesian,smooth,lioo1240-smooth-1,amo,amo,Lio,1,CLICS,ljl,trill,"Elias, Alexander (2019). Lio and the Central Flores languages (M.A. thesis). Leiden University.",NA,NA
+lexirumah,lioo1240,Lio,lioo1240,-8.69,121.84,Austronesian,smooth,lioo1240-smooth-2,ŋelu,ŋelu,Lio,1,CLICS,ljl,trill,"Elias, Alexander (2019). Lio and the Central Flores languages (M.A. thesis). Leiden University.",NA,NA
+lexirumah,lole1239,Lole,lole1239,-10.81453,123.10599,Austronesian,rough,lole1239-rough-1,selak,selak,Lole,1,CLICS,bpz; dnk; llg; rgu; twu; txg,NA,NA,NA,NA
+lexirumah,maka1316,Makasae,maka1316,-8.548563,126.505903,Timor-Alor-Pantar,smooth,maka1316-smooth-1,fu'kal,fuˈkal,Makasae,1,CLICS,mkz,no trill,"Correia, Aderito (2011). Describing Makasae: a trans-New Guinea language of East Timor (Ph.D. thesis). University of Western Sydney. - says tap in detailed description (""vibrant"" in the consonant phoneme table)",NA,NA
+lexirumah,maka1316,Makasae,maka1316,-8.548563,126.505903,Timor-Alor-Pantar,smooth,maka1316-smooth-2,lu'meke,luˈmeke,Makasae,1,CLICS,mkz,no trill,"Correia, Aderito (2011). Describing Makasae: a trans-New Guinea language of East Timor (Ph.D. thesis). University of Western Sydney. - says tap in detailed description (""vibrant"" in the consonant phoneme table)",NA,NA
+lexirumah,maka1316,Makasae,maka1316,-8.548563,126.505903,Timor-Alor-Pantar,rough,maka1316-rough-1,ra'baka,raˈbaka,Makasae,1,CLICS,mkz,no trill,"Correia, Aderito (2011). Describing Makasae: a trans-New Guinea language of East Timor (Ph.D. thesis). University of Western Sydney. - says tap in detailed description (""vibrant"" in the consonant phoneme table)",NA,NA
+lexirumah,mang1405,Manggarai,mang1405,-8.56,120.33,Austronesian,rough,mang1405-rough-1,rugut,rugut,Manggarai,1,CLICS,mqy,NA,NA,NA,NA
+lexirumah,mang1405,Manggarai,mang1405,-8.56,120.33,Austronesian,rough,mang1405-rough-2,sehak,səhak,Manggarai,1,CLICS,mqy,NA,NA,NA,NA
+lexirumah,mang1405,Manggarai,mang1405,-8.56,120.33,Austronesian,rough,mang1405-rough-3,tjirang,t͡ʃiraŋ,Manggarai,1,CLICS,mqy,NA,NA,NA,NA
+lexirumah,mang1405,Manggarai,mang1405,-8.56,120.33,Austronesian,smooth,mang1405-smooth-1,selit,səlit,Manggarai,1,CLICS,mqy,NA,NA,NA,NA
+lexirumah,nage1237,"Nage, East",nage1237,-8.7,121.31,Austronesian,rough,nage1237-rough-1,ˈkasa,ˈkasa,Nage,1,CLICS,nxe,NA,NA,NA,NA
+lexirumah,nage1237,"Nage, East",nage1237,-8.7,121.31,Austronesian,smooth,nage1237-smooth-1,ˈŋedu,ˈŋedu,Nage,1,CLICS,nxe,NA,NA,NA,NA
+lexirumah,ngad1267,Ngadha,ngad1267,-8.8,120.98,Austronesian,smooth,ngad1267-smooth-1,ngélu,ŋelu,Ngadha,1,CLICS,nxg,NA,NA,nxg,NA
+lexirumah,ring1244,Rikou,ring1244,-10.626703,123.397347,Austronesian,smooth,ring1244-smooth-1,taparodos,taparodos,Rikou,1,CLICS,rgu,NA,NA,NA,NA
+lexirumah,rong1269,Rongga,rong1269,-8.85,120.71,Austronesian,smooth,rong1269-smooth-1,néné,nene,Rongga,1,CLICS,ror,NA,NA,NA,NA
+lexirumah,rong1269,Rongga,rong1269,-8.85,120.71,Austronesian,smooth,rong1269-smooth-2,milu,milu,Rongga,1,CLICS,ror,NA,NA,NA,NA
+lexirumah,rong1269,Rongga,rong1269,-8.85,120.71,Austronesian,smooth,rong1269-smooth-3,lila,lila,Rongga,1,CLICS,ror,NA,NA,NA,NA
+lexirumah,rong1269,Rongga,rong1269,-8.85,120.71,Austronesian,smooth,rong1269-smooth-4,ghodho,ɣoɗo,Rongga,1,CLICS,ror,NA,NA,NA,NA
+lexirumah,sawi1256,Sawila,sawi1256,-8.3433,125.0922,Timor-Alor-Pantar,smooth,sawi1256-smooth-1,da'luka,daˈluka,Sawila,1,CLICS,tpg; swt,trill,wiki,NA,NA
+lexirumah,sawi1256,Sawila,sawi1256,-8.3433,125.0922,Timor-Alor-Pantar,rough,sawi1256-rough-1,da'luka 'nanu,daˈluka_ˈnanu,Sawila,1,CLICS,tpg; swt,trill,wiki,NA,NA
+lexirumah,seba1248,"Hawu, Seba",seba1248,-10.455716,121.87756,Austronesian,rough,seba1248-rough-1,hegèri,hegəri,Hawu,1,CLICS,hvn,trill,Walker (1982) A Grammar of Sawu. https://openresearch-repository.anu.edu.au/bitstream/1885/111434/1/01_Walker_A_Grammar_of_Sawu_1982.pdf,NA,NA
+lexirumah,seba1248,"Hawu, Seba",seba1248,-10.455716,121.87756,Austronesian,rough,seba1248-rough-2,kèri,kəri,Hawu,1,CLICS,hvn,trill,Walker (1982) A Grammar of Sawu. https://openresearch-repository.anu.edu.au/bitstream/1885/111434/1/01_Walker_A_Grammar_of_Sawu_1982.pdf,NA,NA
+lexirumah,soaa1237,So'a,cent2074,-8.68,121.05,Austronesian,smooth,soaa1237-smooth-1,ˈŋelu,ˈŋelu,So'a,1,CLICS,ssq,NA,NA,NA,NA
+lexirumah,tetu1245-suai,"Tetun, Suai",sout2898,-9.314842,125.255396,Austronesian,smooth,tetu1245-suai-smooth-1,kaˈronak,kaˈronak,Tetun,1,CLICS,tdt,trill,"Van Klinken, Catharina (1999). A grammar of the Fehan dialect of Tetun, an Austronesian language of West Timor (PDF). Canberra: Pacific Linguistics, The Australian National University. doi:10.15144/PL-C155. ISBN 0858835142.",NA,NA
+lexirumah,tetu1245-suai,"Tetun, Suai",sout2898,-9.314842,125.255396,Austronesian,rough,tetu1245-suai-rough-1,ˈfukun makaˈɁas,ˈfukun_makaˈʔas,Tetun,1,CLICS,tdt,trill,"Van Klinken, Catharina (1999). A grammar of the Fehan dialect of Tetun, an Austronesian language of West Timor (PDF). Canberra: Pacific Linguistics, The Australian National University. doi:10.15144/PL-C155. ISBN 0858835142.",NA,NA
+lexirumah,tiii1241,Tii,tiii1241,-10.862977,122.960898,Austronesian,smooth,tiii1241-smooth-1,manggatusi,maᵑgatusi,Tii,1,CLICS,txq,NA,NA,NA,NA
+lexirumah,tiii1241,Tii,tiii1241,-10.862977,122.960898,Austronesian,rough,tiii1241-rough-1,sela,sela,Tii,1,CLICS,txq,NA,NA,NA,NA
+lexirumah,tiii1241,Tii,tiii1241,-10.862977,122.960898,Austronesian,rough,tiii1241-rough-2,duku-le'u,ɗuku+leʔu,Tii,1,CLICS,txq,NA,NA,NA,NA
+lexirumah,waim1252,Waima'a,waim1252,-8.53,126.32,Austronesian,smooth,waim1252-smooth-1,l'uo,lˀuo,Waima'a,1,CLICS,wmh,NA,NA,NA,NA
+lexirumah,waim1252,Waima'a,waim1252,-8.53,126.32,Austronesian,rough,waim1252-rough-1,m'aga,mˀaga,Waima'a,1,CLICS,wmh,NA,NA,NA,NA
+lexirumah,west2547-welaun,Welaun,west2547,-9.087594,124.985028,Austronesian,smooth,west2547-welaun-smooth-1,darat,darat,Welaun,1,CLICS,wlh,NA,NA,NA,NA
+lexirumah,west2547-welaun,Welaun,west2547,-9.087594,124.985028,Austronesian,rough,west2547-welaun-rough-1,kokar,kokar,Welaun,1,CLICS,wlh,NA,NA,NA,NA
+lexirumah,weta1243,Wetan,weta1243,-7.89949,129.538524,Austronesian,smooth,weta1243-smooth-1,mtekra,mtekra,Wetan,1,CLICS,lex,trill,"Taber, Kathleen B.; Taber, Mark H. (2015). Luang Grammar and Phonology Sketch. SIL e‑Books, 63. Dallas: SIL International.",NA,NA
+lexirumah,weta1243,Wetan,weta1243,-7.89949,129.538524,Austronesian,rough,weta1243-rough-1,rotrota,rotrota,Wetan,1,CLICS,lex,trill,"Taber, Kathleen B.; Taber, Mark H. (2015). Luang Grammar and Phonology Sketch. SIL e‑Books, 63. Dallas: SIL International.",NA,NA
+lexirumah,kara1499,Kalamang,kara1499,-3.481154,132.721147,West Bomberai,smooth,kara1499-smooth-1,ˈliciŋ,ˈlit͡ʃiŋ,Kalamang,1,CLICS,kgv,trill,https://www.duo.uio.no/handle/10852/51535,NA,NA
+lexirumah,urua1244,Uruangnirin,urua1244,-3.42448,132.744455,Austronesian,smooth,urua1244-smooth-1,halus,halus,Uruangnirin,1,CLICS,urn,NA,NA,NA,NA
+lexirumah,urua1244,Uruangnirin,urua1244,-3.42448,132.744455,Austronesian,rough,urua1244-rough-1,kasar,kasar,Uruangnirin,1,CLICS,urn,NA,NA,NA,NA
+lexirumah,dadu1237,Dadu'a,dadu1237,-8.489721,125.903071,Austronesian,smooth,dadu1237-smooth-1,nakmusik,nakmusik,Dadu'a,1,CLICS,ilu,trill,"Hinton, Bryan D. (2000). ""The languages of Wetar: recent survey results and word lists with notes on Tugun grammar"". In Grimes, Charles E. (ed.). Spices from the East: Papers in Languages of Eastern Indonesia. Canberra: Pacific Linguistics. pp. 105–129",NA,NA
+lexirumah,naue1237,Naueti,naue1237,-8.71,126.74,Austronesian,rough,naue1237-rough-1,kroki,kroki,Naueti,1,CLICS,nxa,NA,NA,NA,NA
+lexirumah,kamb1299,Kambera,kamb1299,-9.88,120.23,Austronesian,rough,kamb1299-rough-1,panggàru,paˈᵑgɑru,Kambera,1,CLICS,xbr,NA,NA,xbr,NA
+lexirumah,kamb1299,Kambera,kamb1299,-9.88,120.23,Austronesian,smooth,kamb1299-smooth-1,tarahik,taˈrahik,Kambera,1,CLICS,xbr,NA,NA,xbr,NA
+lexirumah,rett1240,"Reta, Pura",rett1240,-8.3224,124.3543,Timor-Alor-Pantar,smooth,rett1240-smooth-1,dula,dula,Reta,2,CLICS,ret,NA,NA,NA,NA
+lexirumah,rett1240,"Reta, Pura",rett1240,-8.3224,124.3543,Timor-Alor-Pantar,rough,rett1240-rough-1,ha:hi,haːhi,Reta,2,CLICS,ret,NA,NA,NA,NA
+lexirumah,batu1258,Batuley,batu1258,-5.735916,134.812861,Austronesian,rough,batu1258-rough-1,kasar,kasar,Batuley,1,CLICS,bay,trill,NA,NA,NA
+lexirumah,batu1258,Batuley,batu1258,-5.735916,134.812861,Austronesian,smooth,batu1258-smooth-1,mumur,mumur,Batuley,1,CLICS,bay,trill,NA,NA,NA
+lexirumah,mamb1306-Slete,"South Mambae, Letefoho",mamb1306,-8.974955,125.647294,Austronesian,smooth,mamb1306-Slete-smooth-1,mlai,mlai,South Mambae,1,CLICS,mgm,trill,Helem Andressa de Oliveira Fogaça (2013). Estudo fonético e fonológico do mambae de Same : uma língua de Timor-Leste (PDF) (Master's thesis) (in Portuguese). Universidade de Brasília.,NA,NA
+lexirumah,waer1237,Waerana,waer1237,-8.75,120.79,Austronesian,smooth,waer1237-smooth-1,lamu,lamu,Waerana,1,CLICS,wrx,NA,NA,NA,NA
+lexirumah,waer1237,Waerana,waer1237,-8.75,120.79,Austronesian,rough,waer1237-rough-1,kasar,kasar,Waerana,1,CLICS,wrx,NA,NA,NA,NA
+lexirumah,gese1240,Geser-Gorom,gese1240,-4.004276,131.405702,Austronesian,smooth,gese1240-smooth-1,ˈalus,ˈalus,Geser-Gorom,1,CLICS,ges,NA,NA,NA,NA
+lexirumah,gese1240,Geser-Gorom,gese1240,-4.004276,131.405702,Austronesian,rough,gese1240-rough-1,ˈasar,ˈasar,Geser-Gorom,1,CLICS,ges,NA,NA,NA,NA
+lexirumah,bone1254,Bonerate,bone1254,-7.38,121.79,Austronesian,smooth,bone1254-smooth-1,aˈlusu,aˈlusu,Bonerate,2,CLICS,bna,NA,NA,NA,NA
+lexirumah,nucl1574-boneg,"Kioko, Bonegunu",nucl1574,-4.941037,122.985642,Austronesian,smooth,nucl1574-boneg-smooth-1,nomondeli,nomoⁿdeli,Kioko,1,CLICS,ues,NA,NA,NA,NA
+lexirumah,nucl1574-boneg,"Kioko, Bonegunu",nucl1574,-4.941037,122.985642,Austronesian,smooth,nucl1574-boneg-smooth-2,noʔalusu,noʔalusu,Kioko,1,CLICS,ues,NA,NA,NA,NA
+lexirumah,panc1247-lawel,"Pancana, Lawele",panc1247,-5.223,122.948,Austronesian,smooth,panc1247-lawel-smooth-1,halus,halus,Pancana,1,CLICS,pnp,NA,NA,NA,NA
+lexirumah,kaim1241,Kaimbulawa,kaim1241,-5.65,122.54,Austronesian,smooth,kaim1241-smooth-1,mondeli,moⁿdeli,Kaimbulawa,1,CLICS,zka,NA,NA,NA,NA
+lexirumah,kama1364-b,Kamaru 2,kama1364,-5.158186,123.063712,Austronesian,smooth,kama1364-b-smooth-1,mararo,mararo,Kamaru 2,1,CLICS,kgx,NA,NA,NA,NA
+lexirumah,kala1394,Kalao,kala1394,-7.307175,120.950026,Austronesian,smooth,kala1394-smooth-1,laro,laro,Kalao,2,CLICS,kly,NA,NA,NA,NA
+lexirumah,kala1394,Kalao,kala1394,-7.307175,120.950026,Austronesian,smooth,kala1394-smooth-2,malaro,malaro,Kalao,2,CLICS,kly,NA,NA,NA,NA
+lexirumah,kala1394,Kalao,kala1394,-7.307175,120.950026,Austronesian,smooth,kala1394-smooth-3,maʔallu,maʔalːu,Kalao,2,CLICS,kly,NA,NA,NA,NA
+lexirumah,nucl1577,Laiyolo,nucl1577,-6.46,120.48,Austronesian,smooth,nucl1577-smooth-1,"malaro, maʔalusu",malaroˌ_maʔalusu,Laiyolo,2,CLICS,lji,NA,NA,NA,NA
+lexirumah,wotu1240,Wotu,wotu1240,-2.6,120.9,Austronesian,smooth,wotu1240-smooth-1,malaɲɲi,malaɲɲi,Wotu,1,CLICS,wtw,NA,NA,NA,NA
+lexirumah,stan1308,Muna,stan1308,-5.4,122.54,Austronesian,smooth,stan1308-smooth-1,aoalusu,aoalusu,Muna,1,CLICS,mnb,NA,NA,mnb,NA
+lexirumah,kuli1254,Kulisusu,kuli1254,-4.58,123.05,Austronesian,smooth,kuli1254-smooth-1,molori,molori,Kulisusu,1,CLICS,vkl,NA,NA,NA,NA
+lexirumah,masi1269,"Cia-Cia, Masiri",masi1269,-5.4367,122.89965,Austronesian,smooth,masi1269-smooth-1,halusu,halusu,Cia-Cia,23,CLICS,cia,NA,NA,NA,NA
+lexirumah,masi1269,"Cia-Cia, Masiri",masi1269,-5.4367,122.89965,Austronesian,smooth,masi1269-smooth-2,mondeli,moⁿdeli,Cia-Cia,23,CLICS,cia,NA,NA,NA,NA
+lexirumah,bino1238,"Tukang Besi, Binongko",bino1238,-5.920185,123.982758,Austronesian,smooth,bino1238-smooth-1,mehu,mehu,Tukang Besi,1,CLICS,bhq,trill,wiki,NA,NA
+lexirumah,kumb1274,Kumbewaha,kumb1274,-5.34,123.15,Austronesian,smooth,kumb1274-smooth-1,alusu,alusu,Kumbewaha,1,CLICS,xks,NA,NA,NA,NA
+lexirumah,lasa1237,Lasalimu,lasa1237,-5.24,123.13,Austronesian,smooth,lasa1237-smooth-1,alusu,alusu,Lasalimu,1,CLICS,llm,NA,NA,NA,NA
+lexirumah,hata1243,Hatam,hata1243,-1.14,134.04,Hatam-Mansim,smooth,hata1243-smooth-1,mblus,mblus,Hatam,1,CLICS,had,no trill,wiki,NA,NA
+lexirumah,hata1243,Hatam,hata1243,-1.14,134.04,Hatam-Mansim,smooth,hata1243-smooth-2,dia,dia,Hatam,1,CLICS,had,no trill,wiki,NA,NA
+lexirumah,mpur1239,Mpur,mpur1239,-0.75,133.17,Mpur,smooth,mpur1239-smooth-1,senafok,senaɸok,Mpur,1,CLICS,akc,no rhotic,wiki,NA,NA
+lexirumah,mpur1239,Mpur,mpur1239,-0.75,133.17,Mpur,smooth,mpur1239-smooth-2,serama,serama,Mpur,1,CLICS,akc,no rhotic,wiki,NA,NA
+lexirumah,mani1235,Sougb,mani1235,-1.5,133.95,East Bird's Head,smooth,mani1235-smooth-1,eskraha,eskraha,Sougb,1,CLICS,mnx,no rhotic,NA,NA,NA
+lexirumah,mani1235,Sougb,mani1235,-1.5,133.95,East Bird's Head,smooth,mani1235-smooth-2,edeskwesi,edeskwesi,Sougb,1,CLICS,mnx,no rhotic,NA,NA,NA
+lexirumah,meya1236,Meyah,meya1236,-1.18,133.62,East Bird's Head,smooth,meya1236-smooth-1,efeta.,eɸeta,Meyah,1,CLICS,mej,trill,wiki,NA,NA
+lexirumah,meya1236,Meyah,meya1236,-1.18,133.62,East Bird's Head,smooth,meya1236-smooth-2,orswos,orswos,Meyah,1,CLICS,mej,trill,wiki,NA,NA
+lexirumah,remb1250,Rembong,nucl1516,-8.53,120.97,Austronesian,smooth,remb1250-smooth-1,alus,alus,Rembong,1,CLICS,reb,NA,NA,NA,NA
+lexirumah,remb1250,Rembong,nucl1516,-8.53,120.97,Austronesian,rough,remb1250-rough-1,ghas,ɣaːs,Rembong,1,CLICS,reb,NA,NA,NA,NA
+lexirumah,woli1241,Wolio,woli1241,-5.33,122.67,Austronesian,smooth,woli1241-smooth-1,ma-raro,ma+raro,Wolio,4,CLICS,wlo,trill,wiki,NA,NA
+lexirumah,woli1241,Wolio,woli1241,-5.33,122.67,Austronesian,rough,woli1241-rough-1,kasara,kasara,Wolio,4,CLICS,wlo,trill,wiki,NA,NA
+lexirumah,woli1241,Wolio,woli1241,-5.33,122.67,Austronesian,rough,woli1241-rough-2,taᵐparasa,taᵐparasa,Wolio,4,CLICS,wlo,trill,wiki,NA,NA
+lexirumah,ngad1267,Ngadha,ngad1267,-8.8,120.98,Austronesian,rough,ngad1267-rough-1,ɗogo-ɗəgi,ɗogo_ɗəgi,Ngadha,1,CLICS,nxg,NA,NA,nxg,NA
+lexirumah,sika1262-tanai,"Sika, Tana Ai",tana1283,-8.599602,122.619438,Austronesian,smooth,sika1262-tanai-smooth-1,glohor,glohor,Sika,2,CLICS,ski,NA,NA,NA,NA
+lexirumah,sika1262-tanai,"Sika, Tana Ai",tana1283,-8.599602,122.619438,Austronesian,smooth,sika1262-tanai-smooth-2,melur,melur,Sika,2,CLICS,ski,NA,NA,NA,NA
+lexirumah,sika1262-tanai,"Sika, Tana Ai",tana1283,-8.599602,122.619438,Austronesian,smooth,sika1262-tanai-smooth-3,plasur,plasur,Sika,2,CLICS,ski,NA,NA,NA,NA
+lexirumah,sika1262-tanai,"Sika, Tana Ai",tana1283,-8.599602,122.619438,Austronesian,smooth,sika1262-tanai-smooth-4,ʔalus,ʔalus,Sika,2,CLICS,ski,NA,NA,NA,NA
+lexirumah,sika1262-tanai,"Sika, Tana Ai",tana1283,-8.599602,122.619438,Austronesian,rough,sika1262-tanai-rough-1,glara-ŋ,glara+ŋ,Sika,2,CLICS,ski,NA,NA,NA,NA
+lexirumah,sika1262-tanai,"Sika, Tana Ai",tana1283,-8.599602,122.619438,Austronesian,rough,sika1262-tanai-rough-2,gloro-ŋ glara-t,gloro+ŋ_glara+t,Sika,2,CLICS,ski,NA,NA,NA,NA
+lexirumah,buru1303,Buru,buru1303,-3.44,126.63,Austronesian,smooth,buru1303-smooth-1,em-ribe,em+ribe,Buru,1,CLICS,mhs,trill,"Grimes, Charles E. (1991). The Buru language of Eastern Indonesia (Ph.D. thesis). Australian National University.",NA,NA
+lexirumah,buru1303,Buru,buru1303,-3.44,126.63,Austronesian,rough,buru1303-rough-1,wala-laka-k,wala_laka+k,Buru,1,CLICS,mhs,trill,"Grimes, Charles E. (1991). The Buru language of Eastern Indonesia (Ph.D. thesis). Australian National University.",NA,NA
+lexirumah,dobe1238,Dobel,dobe1238,-6.33,134.64,Austronesian,smooth,dobe1238-smooth-1,luray,luraj,Dobel,1,CLICS,kvo,trill,"Hughes, Jock (2000). ""The morphology of Dobel, Aru, with special reference to reduplication"". In Grimes, C.E. (ed.). Spices from the East: Papers in languages of Eastern Indonesia. Pacific Linguistics No. 503. Canberra: Pacific Linguistics. pp. 131–180. doi:10.15144/PL-503.131.",NA,NA
+lexirumah,dobe1238,Dobel,dobe1238,-6.33,134.64,Austronesian,rough,dobe1238-rough-1,kʷumir,kʷumir,Dobel,1,CLICS,kvo,trill,"Hughes, Jock (2000). ""The morphology of Dobel, Aru, with special reference to reduplication"". In Grimes, C.E. (ed.). Spices from the East: Papers in languages of Eastern Indonesia. Pacific Linguistics No. 503. Canberra: Pacific Linguistics. pp. 131–180. doi:10.15144/PL-503.131.",NA,NA
+lexirumah,irar1238,Irarutu,irar1238,-2.94,133.59,Austronesian,smooth,irar1238-smooth-1,səruidənə,səruidənə,Irarutu,1,CLICS,irh,NA,NA,irh,NA
+lexirumah,irar1238,Irarutu,irar1238,-2.94,133.59,Austronesian,rough,irar1238-rough-1,nətəɸəti ɸərə,nətəɸəti_ɸərə,Irarutu,1,CLICS,irh,NA,NA,irh,NA
+lexirumah,sawa1247,Sawai,sawa1247,0.51,128.09,Austronesian,smooth,sawa1247-smooth-1,n-mɛnɛnɛs,n+mɛnɛnɛs,Sawai,1,CLICS,szw,no rhotic,wiki,NA,NA
+lexirumah,sawa1247,Sawai,sawa1247,0.51,128.09,Austronesian,rough,sawa1247-rough-1,n-mɛnɛnɛs pa,n+mɛnɛnɛs_pa,Sawai,1,CLICS,szw,no rhotic,wiki,NA,NA
+lexirumah,sawa1247,Sawai,sawa1247,0.51,128.09,Austronesian,rough,sawa1247-rough-2,kasar,kasar,Sawai,1,CLICS,szw,no rhotic,wiki,NA,NA
+lexirumah,kais1235,Kais,kais1235,-1.819,132.1591,South Bird's Head,smooth,kais1235-smooth-1,porudamo,porudamo,Kais,1,CLICS,kzm,NA,NA,NA,NA
+lexirumah,kemb1235,"Kemberano, Kalitami",kemb1235,-2.1231,132.611,South Bird's Head,smooth,kemb1235-smooth-1,tetera,tetera,Kemberano,1,CLICS,bzp,NA,NA,NA,NA
+lexirumah,kond1303,Konda,kond1303,-1.83,132.06,Konda-Yahadian,smooth,kond1303-smooth-1,asiserere,asiserere,Konda,1,CLICS,knd,NA,NA,NA,NA
+lexirumah,negr1235,"Kokoda, Negeri Besar",negr1235,-2.0843,132.3699,South Bird's Head,smooth,negr1235-smooth-1,biribiri,biribiri,Kokoda,2,CLICS,xod,NA,NA,NA,NA
+lexirumah,kabu1249,"Kaburi, Benawa",kabu1249,-1.93,132.53,South Bird's Head,smooth,kabu1249-smooth-1,hehetaizi,hehetaizi,Kaburi,1,CLICS,uka,NA,NA,NA,NA
+lexirumah,pati1239,Patipi,pati1239,-2.68843,132.418981,Austronesian,smooth,pati1239-smooth-1,saˈpin,saˈpin,Patipi,1,CLICS,oni,NA,NA,NA,NA
+lexirumah,pura1253,Puragi,pura1253,-2.06,132.3,South Bird's Head,smooth,pura1253-smooth-1,wɔˈtɛtɛanu,wɔˈtɛtɛanu,Puragi,1,CLICS,pru,NA,NA,NA,NA
+lexirumah,mosk1236,Moskona,mosk1236,-1.62,133.15,East Bird's Head,smooth,mosk1236-smooth-1,eywarsa,ejwaɾsa,Moskona,1,CLICS,mtj,no trill,"Gravelle, Gloria (2010). A Grammar of Moskona: An East Bird's Head Language of West Papua, Indonesia (PhD). Vrije Universiteit Amsterdam. hdl:1871/15730",NA,NA
+lexirumah,maib1239,Maybrat,maib1239,-1.37,132.59,Maybrat,smooth,maib1239-smooth-1,-apuoh,+apuox,Maybrat,1,CLICS,ayz,NA,NA,ayz,NA
+lexirumah,maib1239,Maybrat,maib1239,-1.37,132.59,Maybrat,smooth,maib1239-smooth-2,sneh,snex,Maybrat,1,CLICS,ayz,NA,NA,ayz,NA
+lexirumah,buso1238,Busoa,buso1238,-5.61,122.62,Austronesian,smooth,buso1238-smooth-1,mondeli,moⁿdeli,Busoa,1,CLICS,bup,NA,NA,NA,NA
+lexirumah,buso1238,Busoa,buso1238,-5.61,122.62,Austronesian,rough,buso1238-rough-1,kabasagha,kabasaʁa,Busoa,1,CLICS,bup,NA,NA,NA,NA
+lexirumah,biak1248,Biak,biak1248,-1.003358,135.815912,Austronesian,smooth,biak1248-smooth-1,akikyew,akikjew,Biak,1,CLICS,bhw,NA,NA,bhw,NA
+lexirumah,alor1247-baran-YS,"Alorese, Baranusa",alor1247,-8.361888,124.094494,Austronesian,smooth,alor1247-baran-YS-smooth-1,meluk,meluk,Alorese,13,CLICS,aol,trill,"Klamer, Margaretha Anna Flora. (2011). A short grammar of Alorese (Austronesian). Muenchen: Lincom Europa.",NA,NA
+lexirumah,alor1247-baran-YS,"Alorese, Baranusa",alor1247,-8.361888,124.094494,Austronesian,rough,alor1247-baran-YS-rough-1,werːa,werːa,Alorese,13,CLICS,aol,trill,"Klamer, Margaretha Anna Flora. (2011). A short grammar of Alorese (Austronesian). Muenchen: Lincom Europa.",NA,NA
+lexirumah,galo1243,Galolen,galo1243,-8.61,125.96,Austronesian,smooth,galo1243-smooth-1,brena,brena,Galolen,1,CLICS,gal,trill,https://omniglot.com/writing/galoli.htm,NA,NA
+lexirumah,lamb1273,Lamboya,lamb1273,-9.7,119.34,Austronesian,smooth,lamb1273-smooth-1,taˈmiːlha,taˈmiːlha,Lamboya,1,CLICS,lmy,trill,"Verdizade, Allahverdi (2019). Selected topics in the phonology and morphosyntax of Laboya: A field study (MA thesis). Stockholm University.",NA,NA
+lexirumah,lamb1273,Lamboya,lamb1273,-9.7,119.34,Austronesian,smooth,lamb1273-smooth-2,kaˈnuɗːaha,kaˈnuɗːaha,Lamboya,1,CLICS,lmy,trill,"Verdizade, Allahverdi (2019). Selected topics in the phonology and morphosyntax of Laboya: A field study (MA thesis). Stockholm University.",NA,NA
+lexirumah,lamb1273,Lamboya,lamb1273,-9.7,119.34,Austronesian,rough,lamb1273-rough-1,ˈjaːreta,ˈjaːreta,Lamboya,1,CLICS,lmy,trill,"Verdizade, Allahverdi (2019). Selected topics in the phonology and morphosyntax of Laboya: A field study (MA thesis). Stockholm University.",NA,NA

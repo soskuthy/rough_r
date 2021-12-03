@@ -674,6 +674,8 @@ library(brms)
 source("scripts/rough_helper.r")
 
 xling <- read_csv("final_data/cross_linguistic.csv")
+xling0 <- read_csv("final_data/cross_linguistic_orig.csv") %>%
+  mutate(Family=iconv(Family, "utf-8", "ASCII", sub=""))
 length(unique(xling$Language))
 length(unique(xling$Family))
 length(unique(xling$Area))
@@ -900,7 +902,7 @@ saveRDS(xling_brm_rs_logistic_mod_r, "models/xling_brm_rs_logistic_mod_r.rds")
 Model predictions as usual. When focusing on these two extreme words only, the pattern is there.
 
 ```{r}
-x <- logistic_summary(xling_brm_rs_logistic_mod_r, dat=xling_trill, outcome="/r/", roughpred="rough", pp_over_zero=T)
+x <- logistic_summary(xling_brm_rs_logistic_mod_r, dat=xling_trill_rs, outcome="/r/", roughpred="rough", pp_over_zero=T)
 ```
 
 ### 4.2 Cross-linguistic analysis of languages *without* trills
@@ -1111,7 +1113,7 @@ xling_brm_omnibus_mod_r <- brm(r ~ rough * Trill +
                           (1 + rough * Trill | Family) +
                           (1 + rough * Trill | Area),
                         data=xling_rs,
-                        prior=xling_brm_omnibus_rs_intr_priors,
+                        prior=xling_brm_omnibus_priors,
                         family="bernoulli",
                        control=list(adapt_delta=0.99))
 summary(xling_brm_omnibus_mod_r)

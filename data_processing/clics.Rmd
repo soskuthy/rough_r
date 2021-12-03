@@ -18,9 +18,34 @@ library(stringr)
 
 # load data:
 clics <- bind_rows(
-  read_csv('../raw_data/a4_cross_linguistic/clics_rough.csv'),
-  read_csv('../raw_data/a4_cross_linguistic/clics_smooth.csv'),
+  read_csv('../raw_data/a4_cross_linguistic/clics_rough_utf8.csv'),
+  read_csv('../raw_data/a4_cross_linguistic/clics_smooth_utf8.csv'),
 )
+clics_cldf <- read_csv('../raw_data/a4_cross_linguistic/cldf_clics_rough_smooth.csv') %>%
+  mutate(form_id = ifelse(Dataset=="lexirumah", paste0("lexirumah-", form_id), form_id),
+         form_id = str_replace(form_id, "(hubercolumbian-.*)342", "\\1334")
+  )
+
+a <- filter(clics_cldf, !(substr(form_id, 1, nchar(form_id)-1) %in% substr(clics$ID, 1, nchar(clics$ID)-1)))
+
+# the wold stuff looks like it just has different codes
+# but the IDS stuff is legitimately missing from clics; that's 25 rows only!
+# there are also two rows from suntb that are genuinely missing
+# the one transnewguineaorg entry is just a different code
+# (so 27 items in clics_cldf that are not in clics)
+
+b <- filter(clics, !(substr(ID, 1, nchar(ID)-1) %in% substr(clics_cldf$form_id, 1, nchar(clics_cldf$form_id)-1)))
+sum(startsWith(b$ID, "wold")) # symmetrical, 102 - same in a
+sum(startsWith(b$ID, "transnewguineaorg")) # symmetrical, 1 - same in a
+bnwt <- b[!startsWith(b$ID, "wold") & !startsWith(b$ID,"transnewguineaorg"),]
+
+View(bnwt)
+# all tryonsolomon and tls
+
+# one data set missing:
+# tls
+
+# can't find the missing forms in tls!
 
 # load supplementary data sets:
 # 1) language list for clics with glottocodes
@@ -34,7 +59,11 @@ trs <- read_csv('../final_data/google_translate.csv')
 chir <- read_csv('../raw_data/a4_cross_linguistic/chirila.csv')
 reflex <- read_csv('../raw_data/a4_cross_linguistic/reflex_african_117.csv') %>%
 	mutate_all(as.character)
-IDS <- read_csv('../raw_data/a4_cross_linguistic/IDS.csv')
+IDS <- read_csv('../raw_data/a4_cross_linguistic/IDS.csv') %>%
+  filter(Concept %in% c("rough","smooth")) %>%
+  mutate(ID = str_replace(ID, "([0-9]*?)-([0-9]*?)-([0-9]*?)-([0-9]*?)", "ids-\\3-\\1-\\2-\\4"))
+
+# 407 out of 496 IDS in clics_cldf
 
 # 4) PHOIBLE
 phoible <- read_csv('../raw_data/a4_cross_linguistic/phoible.csv')

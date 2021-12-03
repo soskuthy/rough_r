@@ -46,7 +46,8 @@ chir <- read_csv('../raw_data/a4_cross_linguistic/chirila.csv')
 reflex <- read_csv('../raw_data/a4_cross_linguistic/reflex_african_117.csv') %>%
 	mutate_all(as.character)
 IDS <- read_csv('../raw_data/a4_cross_linguistic/IDS.csv')
-clics <- bind_rows(
+clics <- read_csv('../raw_data/a4_cross_linguistic/clics_lexibank_final.csv')
+clics0 <- bind_rows(
   read_csv('../raw_data/a4_cross_linguistic/clics_final.csv')
 )
 
@@ -83,43 +84,47 @@ reflex <- rename(reflex,
 	filter(POS %in% c('id', 'adj', 'qlt')) %>%
 	dplyr::select(-POS)
 
-IDS <- rename(IDS,
-	Language = Language_name,
-	Form = Value,
-	Meaning = Concept,
-	Glotto_code = Language_ID) %>%
-	dplyr::select(Language, Meaning, Form, Glotto_code)
+# IDS <- rename(IDS,
+# 	Language = Language_name,
+# 	Form = Value,
+# 	Meaning = Concept,
+# 	Glotto_code = Language_ID) %>%
+# 	dplyr::select(Language, Meaning, Form, Glotto_code)
 
 google <- rename(trs,
 	Language = language,
 	Form = trans,
-	Meaning = eng_orig,
+	Meaning = eng_orig.x,
 	ISO_code = iso639.3) %>%
 	dplyr::select(Language, Meaning, Form, ISO_code)
 
 # Get rid of the 'avaricious' label, which was regexed because of 'stingy',
 # and also of those that have hardness-related, not roughness-related meanings:
 
-IDS <- filter(IDS, Meaning != 'avaricious, stingy',
-	Meaning %in% eng$Word)
+#IDS <- filter(IDS, Meaning != 'avaricious, stingy',
+#	Meaning %in% eng$Word)
 
 # clics data
 
 clics <- rename(clics,
-  Meaning=Parameter,
-  Form=Name,
+  Language=language.name,
+  Meaning=concept,
+  Form=form,
   ISO_code=AutotypMatch,
   Phoible_code=PhoibleMatch,
-  R_type=R_type) %>%
-  mutate(Trill=NA) %>%
-  dplyr::select(Language, Meaning, Form, ISO_code, Phoible_code, Trill, R_type)
+  R_type=R_type,
+  Trill=Trill,
+  Latitude=latitude,
+  Longitude=longitude) %>%
+  dplyr::select(Language, Meaning, Form, ISO_code, Phoible_code, 
+                Trill, R_type, Latitude, Longitude)
   
 ```
 
 We'll continue processing these data sets separately for a while, so it's useful to also break down the lang_info data set into separate subsets corresponding to each major data set. Merge Autotyp info into data frames. Due to the different structure / requirements of the different data sets, we do this separately for each of them.
 
 ```{r}
-IDS_info <- filter(lang_info, Dataset == 'IDS')
+# IDS_info <- filter(lang_info, Dataset == 'IDS')
 chir_info <- filter(lang_info, Dataset == 'Chirila')
 reflex_info <- filter(lang_info, Dataset == 'Reflex')
 google_info <- filter(lang_info, Dataset == 'Google')
@@ -153,23 +158,23 @@ google$R_type <- NA
 
 ## IDS
 
-matches <- match(IDS$Language, IDS_info$Language)
-IDS$ISO_code <- IDS_info[matches, ]$AutotypMatch
-IDS$Phoible_code <- IDS_info[matches, ]$PhoibleMatch
-IDS$Trill <- IDS_info[matches, ]$Trill
-IDS$R_type <- NA
+# matches <- match(IDS$Language, IDS_info$Language)
+# IDS$ISO_code <- IDS_info[matches, ]$AutotypMatch
+# IDS$Phoible_code <- IDS_info[matches, ]$PhoibleMatch
+# IDS$Trill <- IDS_info[matches, ]$Trill
+# IDS$R_type <- NA
 
 
 # remove temporary info files:
 
-rm(IDS_info, chir_info, reflex_info, google_info)
+rm(chir_info, reflex_info, google_info)
 ```
 
 Re-ordering / filtering columns in data sets for easier merging.
 
 ```{r}
-IDS <- dplyr::select(IDS, Language,
-	ISO_code, Phoible_code, Meaning, Form, Trill)
+# IDS <- dplyr::select(IDS, Language,
+# 	ISO_code, Phoible_code, Meaning, Form, Trill)
 reflex <- dplyr::select(reflex, Language,
 	ISO_code, Phoible_code, Meaning, Form, Trill)
 chir <- dplyr::select(chir, Language,
@@ -367,9 +372,9 @@ We now merge the data sets and add a column that identifies the original data se
 google$Dataset <- "Google"
 chir$Dataset <- "Chirila"
 reflex$Dataset <- "Reflex"
-IDS$Dataset <- "IDS"
+# IDS$Dataset <- "IDS"
 
-xling <- bind_rows(google, chir, reflex, IDS)
+xling <- bind_rows(google, chir, reflex)
 ```
 
 Edits to fix Chirila / IDS ISO codes:
@@ -397,6 +402,7 @@ xling$Family <- auto[auto_matches, ]$stock
 xling$Branch <- auto[auto_matches, ]$mbranch
 xling$Area <- auto[auto_matches, ]$area
 xling$Continent <- auto[auto_matches, ]$continent
+# if longitude / latitude is not already included...
 xling$Longitude[is.na(xling$Longitude)] <- auto[auto_matches[is.na(xling$Longitude)], ]$longitude
 xling$Latitude[is.na(xling$Latitude)] <- auto[auto_matches[is.na(xling$Latitude)], ]$latitude
 
@@ -421,6 +427,7 @@ xling <- filter(xling, !is.na(Family))
 #write_csv(xling[is.na(xling$ISO_code),], "../raw_data/not_in_autotyp_2.csv")
 
 # adding roughness variables
+# (some NAs for terms that are only rated for hardness!)
 xling <- left_join(xling, dplyr::select(eng, Word, Rough.M), by = c('Meaning' = 'Word')) %>%
   mutate(rough=Rough.M >= 0)
 ```
@@ -437,19 +444,30 @@ xling <- xling %>%
 We now process the CLICS data. At this point, we want it to have all the metadata that the other data sets have. We have a good number of the languages in AutoTyp, and for these getting the metadata will be simple. However, some of them are not in AutoTyp. I've manually created entries for these in autotyp_additions_new.csv, and these have: both Family data and latitude / longitude. However, they don't have any area data or language branch info. Since the language branch info is not used in our analyses, we don't need to add this. However, area is important. We add area here using a nearest neighbour approach relying on the full AutoTyp data set.
 
 ```{r}
+# convert Longitude / Latitude to numeric, none -> NA
+clics$Longitude[clics$Longitude=="None"] <- NA
+clics$Latitude[clics$Latitude=="None"] <- NA
+clics$Longitude <- as.numeric(clics$Longitude)
+clics$Latitude <- as.numeric(clics$Latitude)
+
+
 # adding info where it's available in autotyp
 auto_matches <- match(clics$ISO_code, auto$ISO639.3, incomparables=c(NA))
 clics$Family <- auto[auto_matches, ]$stock
 clics$Branch <- auto[auto_matches, ]$mbranch
 clics$Area <- auto[auto_matches, ]$area
 clics$Continent <- auto[auto_matches, ]$continent
-clics$Longitude <- auto[auto_matches, ]$longitude
-clics$Latitude <- auto[auto_matches, ]$latitude
+# only add longitude / latitude where missing
+clics$Longitude[is.na(clics$Longitude)] <- auto[auto_matches[is.na(clics$Longitude)], ]$longitude
+clics$Latitude[is.na(clics$Latitude)] <- auto[auto_matches[is.na(clics$Latitude)], ]$latitude
 
 # adding missing language data based on autotyp_add
-rows_to_fill <- which(clics$ISO_code %in% auto_add$ISO_code)
-language_vector <- clics$ISO_code[rows_to_fill]
-clics[rows_to_fill, c("Family","Branch","Area","Continent","Longitude","Latitude")] <- auto_add[match(language_vector, auto_add$ISO_code),c("Family","Branch","Area","Continent","Longitude","Latitude")]
+rows_to_fill_fbac <- which((clics$ISO_code %in% auto_add$ISO_code) & is.na(clics$Family))
+rows_to_fill_ll <- which((clics$ISO_code %in% auto_add$ISO_code) & is.na(clics$Latitude))
+language_vector <- clics$ISO_code[rows_to_fill_fbac]
+clics[rows_to_fill_fbac, c("Family","Branch","Area","Continent")] <- auto_add[match(language_vector, auto_add$ISO_code),c("Family","Branch","Area","Continent")]
+language_vector <- clics$ISO_code[rows_to_fill_ll]
+clics[rows_to_fill_ll, c("Latitude","Longitude")] <- auto_add[match(language_vector, auto_add$ISO_code),c("Latitude","Longitude")]
 
 # we now find area and continent info based on nearest neighbours in
 # autotyp data
@@ -694,6 +712,7 @@ We exclude any languages where the value of Trill is not "yes" or "no". This get
 (Note that there are some languages where the R_type and Trill columns contain conflicing info; in such cases, Trill is considered more reliable, as these will all be instances where Trill was checked & filled in manually.)
 
 ```{r}
+# something off here: too many Ls in CLICS without Trill info...
 xling$Trill[is.na(xling$Trill)] <- "no info"
 xling <- filter(xling, Trill %in% c("yes","no"))
 ```
