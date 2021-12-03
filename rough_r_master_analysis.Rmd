@@ -963,7 +963,7 @@ xling_brm_omnibus_no_famtrill_priors <- c(
 )
 
 set.seed(314)
-xling_brm_omnibus_rs_famtrill_mod_r <- brm(r ~ rough * Trill +
+xling_brm_omnibus_no_famtrill_mod_r <- brm(r ~ rough * Trill +
                           (1 + rough | Family) +
                           (1 + rough * Trill | Area),
                         data=xling_rs,
