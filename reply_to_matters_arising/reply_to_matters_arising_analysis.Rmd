@@ -1,0 +1,277 @@
+---
+title: "Testing the effect of coding errors on cross-linguistic analysis"
+author: "Márton Sóskuthy"
+date: "2024-05-31"
+output: html_document
+---
+
+```{r}
+library(tidyverse)
+library(brms)
+rough_r_data <- read_csv("rough_r_data.csv")
+
+rough_r_data$revision[rough_r_data$revision == "NA"] <- "NA_"
+
+rough_r_data <- rough_r_data %>%
+  filter(Family!="Indo-European",
+         Meaning %in% c("rough","smooth")) %>%
+  mutate(Family=stringr::str_remove_all(Family,"�"))
+```
+
+Priors.
+
+```{r}
+mod_priors <- c(
+  set_prior("student_t(5,0,2.5)", class = "b"),
+  set_prior("student_t(5,0,2.5)", class = "Intercept"),
+  set_prior("lkj(2)", class = "cor"),
+  set_prior("student_t(4,0,2)", class = "sd", coef = "Intercept", group="Family"),
+  set_prior("student_t(4,0,2)", class = "sd", coef = "roughTRUE", group="Family"),
+  set_prior("student_t(4,0,2)", class = "sd", coef = "Intercept", group="Area"),
+  set_prior("student_t(4,0,2)", class = "sd", coef = "roughTRUE", group="Area")
+)
+
+```
+
+Original models.
+
+```{r}
+trill <- rough_r_data %>%
+  filter(Trill=="yes")
+no_trill <- rough_r_data %>%
+  filter(Trill=="no")
+
+set.seed(314)
+no_trill_mod <- brm(r ~ rough +
+                        (1 + rough | Family) +
+                        (1 + rough | Area),
+                    data=no_trill,
+                    prior=mod_priors,
+                        family="bernoulli",
+                       refresh=0)
+trill_mod <- brm(r ~ rough +
+                        (1 + rough | Family) +
+                        (1 + rough | Area),
+                    data=trill,
+                    prior=mod_priors,
+                        family="bernoulli",
+                       refresh=0)
+
+no_trill_orig_est <- summary(no_trill_mod)$fixed$Estimate[2]
+```
+
+Revised model.
+
+```{r}
+no_trill_rev <- rough_r_data %>%
+  filter(revision=="other")
+
+set.seed(314)
+no_trill_rev_mod <- brm(r ~ rough +
+                        (1 + rough | Family) +
+                        (1 + rough | Area),
+                    data=no_trill_rev,
+                    prior=mod_priors,
+                        family="bernoulli",
+                       refresh=0)
+
+no_trill_rev_est <- summary(no_trill_rev_mod)$fixed$Estimate[2]
+```
+
+And now the simulations. One round.
+
+```{r}
+rough_r_meta <- rough_r_data %>%
+  select(Language, Trill, revision) %>%
+  distinct()
+
+rough_r_meta_sim <- rough_r_meta %>%
+  group_by(Trill) %>%
+  mutate(revision_sim = sample(revision)) %>%
+  ungroup() %>%
+  mutate(Trill_sim = case_when(
+    revision_sim=="trilled" ~ "yes",
+    revision_sim=="other" ~ "no",
+    .default = "ex" )) %>%
+  select(Language, Trill_sim)
+
+rough_r_data_sim <- left_join(rough_r_data, rough_r_meta_sim)
+
+no_trill_sim <- rough_r_data_sim %>%
+  filter(Trill_sim=="no")
+
+no_trill_sim_mod <- brm(r ~ rough +
+                        (1 + rough | Family) +
+                        (1 + rough | Area),
+                    data=no_trill_sim,
+                    prior=mod_priors,
+                        family="bernoulli",
+                       refresh=0)
+
+no_trill_est <- summary(no_trill_sim_mod)$fixed$Estimate[2]
+
+
+```
+
+More rounds!
+
+```{r}
+iterations <- 90
+eff_sizes <- c()
+
+for (i in 1:iterations) {
+  t1 <- Sys.time()
+  rough_r_meta_sim <- rough_r_meta %>%
+    group_by(Trill) %>%
+    mutate(revision_sim = sample(revision)) %>%
+    ungroup() %>%
+    mutate(Trill_sim = case_when(
+      revision_sim=="trilled" ~ "yes",
+      revision_sim=="other" ~ "no",
+      .default = "ex" )) %>%
+    select(Language, Trill_sim)
+  
+  rough_r_data_sim <- left_join(rough_r_data, rough_r_meta_sim)
+  
+  no_trill_sim <- rough_r_data_sim %>%
+    filter(Trill_sim=="no")
+  
+  no_trill_sim_mod <- update(no_trill_sim_mod,
+                          newdata=no_trill_sim,
+                          recompile=F,
+                          cores=4
+                          )
+  
+  no_trill_est <- summary(no_trill_sim_mod)$fixed$Estimate[2]
+  eff_sizes <- c(eff_sizes, no_trill_est)
+  t2 <- Sys.time()
+  cat("round ", i, "; took: ", t2-t1, "s.\n", sep="")
+}
+```
+
+Loading pre-calculated simulation data and generating plot.
+
+```{r}
+est_list <- read_rds("est_list.rds") %>%
+  map(function (x) tibble(intcpt=x[1], eff=x[2])) %>%
+  bind_rows()
+
+ggplot(est_list, aes(x=eff)) +
+  geom_histogram(binwidth=0.05, fill="deepskyblue2") +
+  geom_vline(xintercept=no_trill_orig_est) +
+  annotate(geom="text", x=no_trill_orig_est-0.025, y=130, label="original\n estimate", hjust=1, size=5, lineheight=1) +
+  geom_vline(xintercept=no_trill_rev_est, lty=2) +
+  annotate(geom="text", x=no_trill_rev_est-0.025, y=120, label="revised\n estimate", hjust=1, size=5, lineheight=1) +
+  annotate(geom="text", x=0.3, y=50, label="simulated\nestimates\nn = 2,000", hjust=0, size=5, lineheight=1, colour="midnightblue") +
+  xlab("effect size for languages with non-trilled /r/ (log-odds)") +
+  theme_minimal() +
+  theme(axis.line.x=element_line(),
+        axis.ticks.x=element_line(),
+        axis.text.x=element_text(size=12, colour="black"),
+        axis.title.x=element_text(size=14, colour="black", face="bold"),
+        panel.grid=element_blank(),
+        axis.text.y=element_blank(),
+        axis.title.y=element_blank())
+ggsave("sim_2000.png", width=8, height=4, dpi=300)
+```
+
+Now testing revisions based on PHOIBLE.
+
+PHOIBLE revised model.
+
+```{r}
+phoible_r_type <- read_csv("phoible_r_type.csv")
+
+rough_r_data <- left_join(rough_r_data, phoible_r_type)
+
+rough_r_data %>%
+  select(Language, R_type, Trill, Dataset, Phoible_code, Phoible_R_type) %>%
+  filter(!is.na(Phoible_R_type)) %>%
+  distinct() %>%
+  filter(!(Phoible_R_type=="trill" & Trill=="yes") &
+           !(Phoible_R_type=="no trill" & Trill=="no") &
+           !(Phoible_R_type=="mixed with trill" & Trill=="no")) %>%
+  View()
+
+rough_r_data <- rough_r_data %>%
+  mutate(Phoible_Trill = case_when(
+    Phoible_R_type=="mixed with trill" ~ "no",
+    Phoible_R_type=="no trill" ~ "no",
+    Phoible_R_type=="trill" ~ "yes",
+    Phoible_R_type=="no rhotic" ~ "no rhotic",
+    .default=Trill
+  ))
+  
+no_trill_phoi <- rough_r_data %>%
+  filter(Phoible_Trill=="no")
+
+set.seed(314)
+no_trill_phoi_mod <- brm(r ~ rough +
+                        (1 + rough | Family) +
+                        (1 + rough | Area),
+                    data=no_trill_phoi,
+                    prior=mod_priors,
+                        family="bernoulli",
+                    cores=4,
+                       refresh=0)
+
+no_trill_phoirev_est <- summary(no_trill_phoi_mod)$fixed$Estimate[2]
+```
+
+A reviewer notes that there is a potential data duplication issue. This is revealed by checking the Latitude / Longitude values in the data, some of which appear to have multiple values within languages.
+
+```{r}
+rough_r_data %>% 
+  group_by(ISO_code) %>% 
+  filter(sd(Latitude)>0 | sd(Longitude)>0) %>% 
+  ungroup() %>% 
+  arrange(ISO_code)
+```
+
+This turns out to be a symptom of a minor data processing problem. The CLICS data set is composed of multiple possibly overlapping databases, and sometimes a language is included more than once. Our original data processing included a filtering step where duplicate forms from the same language are removed. This got rid of most possible duplicates, while also retaining forms for the same language from multiple databases where those forms were genuinely unique (e.g. different words for rough / smooth).
+ 
+However, in a small number of cases, different databases for the same language use different coding conventions (typically phonetic transcription vs. standard orthography), and these were not caught by our filtering algorithm. This left a small number of duplicate entries in our data. Here, we replicate our analysis without duplicates. We remove entries with latitude / longitude values that deviate from the majority value for a given language (31 data points altogether out of an original 681; note that many of these are not duplicates but genuinely different forms), and rerun our models.
+
+```{r}
+rough_r_data_fixed <- rough_r_data %>%
+  mutate(LatLong=paste(Latitude, Longitude)) %>%
+  group_by(ISO_code, LatLong) %>%
+  mutate(LatLong_n = n()) %>%
+  ungroup() %>%
+  group_by(ISO_code) %>%
+  arrange(desc(LatLong_n)) %>%
+  filter(LatLong==LatLong[1]) %>%
+  ungroup()
+
+# 31 data points removed
+
+trill_fixed <- rough_r_data_fixed %>%
+  filter(Trill=="yes")
+no_trill_fixed <- rough_r_data_fixed %>%
+  filter(Trill=="no")
+
+set.seed(314)
+no_trill_fixed_mod <- brm(r ~ rough +
+                        (1 + rough | Family) +
+                        (1 + rough | Area),
+                    data=no_trill_fixed,
+                    prior=mod_priors,
+                        family="bernoulli",
+                       refresh=0)
+trill_fixed_mod <- brm(r ~ rough +
+                        (1 + rough | Family) +
+                        (1 + rough | Area),
+                    data=trill_fixed,
+                    prior=mod_priors,
+                        family="bernoulli",
+                       refresh=0)
+
+source("../scripts/rough_helper.R")
+trill_sum <- logistic_summary(trill_mod, trill)
+trill_fixed_sum <- logistic_summary(trill_fixed_mod, trill_fixed)
+
+no_trill_sum <- logistic_summary(no_trill_mod, no_trill)
+no_trill_fixed_sum <- logistic_summary(no_trill_fixed_mod, no_trill_fixed)
+```
+
+For languages with trills, our original model estimated the difference between rough vs. smooth at 0.27 [0.06,0.49]; the revised model at 0.29 [0.07,0.53]. For languages with no trills, the original model estimate is 0.02 [-0.13,0.18], while the revised one is 0.03 [-0.13,0.18]. In other words, there are no qualitative changes to the results, nor any true quantitative ones (the difference is within 2 percentage points).
